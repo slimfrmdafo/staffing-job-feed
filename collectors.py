@@ -100,6 +100,16 @@ def schema_row(firm,url,soup,seed):
                 if len(loc)>1:r['city']=loc[0].strip();r['state']=state_code(loc[-1].strip())
             work=card.select_one('[data-subslot="worksite"]')
             if work and work.text.strip() in ('remote','onsite','hybrid'):r['work_arrangement']=work.text.strip()
+    if firm=='Signature Consultants':
+        for label in soup.select('.meta-label'):
+            if label.get_text(' ',strip=True).lower()=='location':
+                value=label.find_next_sibling(class_='meta-content')
+                if value:
+                    text=value.get_text(' ',strip=True);parts=text.split(',')
+                    if len(parts)==2:r.update(city=parts[0].strip(),state=state_code(parts[1].strip()))
+                    if re.fullmatch(r'(?:fully )?remote(?:,? (?:US|USA|United States))?',text,re.I):r['work_arrangement']='remote'
+        explicit=re.search(r'\b(?:\d+[+ -]*months?\s+contract|contract.to.hire|contract position|contract opportunity)\b',r['description'],re.I)
+        if explicit:r['job_type']=job_type(explicit[0])
     if firm in ('TEKsystems','Aerotek'):
         try:
             d=assigned_json(str(soup),'phApp.ddo = ')

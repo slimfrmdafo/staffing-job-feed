@@ -29,3 +29,11 @@ def test_partial_detail_failure_rejects_whole_firm(monkeypatch):
  import pytest
  with pytest.raises(collectors.CollectionError,match='1/2 detail pages failed'):
   collectors.fetch_details('Mindlance',[{'url':'https://example.org/good'},{'url':'https://example.org/bad'}])
+
+def test_dexian_visible_city_overrides_county_schema(monkeypatch):
+ url='https://example.org/jobs/business-analyst-1023-456/'
+ schema={'@type':'JobPosting','title':'Business Analyst','description':'Twelve-month contract position supporting banking operations.','jobLocation':{'address':{'addressLocality':'Mecklenburg','addressRegion':'NC'}}}
+ html='<script type="application/ld+json">'+json.dumps(schema)+'</script><div class="meta-label">Location</div><div class="meta-content">Charlotte, NC</div>'
+ monkeypatch.setattr(collectors,'get',lambda url:response(html,url))
+ r=collectors.detail('Signature Consultants',{'url':url,'job_id':'1023'})
+ assert r['city']=='Charlotte' and r['state']=='NC'

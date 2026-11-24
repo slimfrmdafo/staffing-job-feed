@@ -33,7 +33,7 @@ def enrich(row, context=''):
     """Extract only explicit statements; do not guess unknown metadata."""
     text=row['description']; ctx=context+'\n'+text
     if not row['work_arrangement']:
-        if re.search(r'\bhybrid\b',context,re.I):row['work_arrangement']='hybrid'
+        if re.search(r'\bhybrid\b(?![- ](?:methodology|approach|agile|waterfall|cloud))',context,re.I):row['work_arrangement']='hybrid'
         elif re.search(r'\b(?:fully remote|100\s*%\s*remote|remote position|remote role|workplace type\s*remote)\b',ctx,re.I):row['work_arrangement']='remote'
         elif re.search(r'\b(?:onsite|on.site)\b',context,re.I):row['work_arrangement']='onsite'
     if not row['job_type']:
