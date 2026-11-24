@@ -623,8 +623,8 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-24T03:23:12.353622+00:00",
-          "completed_at": "2026-11-24T03:24:20.853647+00:00",
+          "started_at": "2026-11-24T03:30:19.399889+00:00",
+          "completed_at": "2026-11-24T03:31:19.282739+00:00",
           "ok": true,
           "info": {
             "enumerated": 2076,
@@ -636,8 +636,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:23:12.353622+00:00",
-      "completed_at": "2026-11-24T03:24:20.853647+00:00",
+      "snapshot_at": "2026-11-24T03:30:19.399889+00:00",
+      "completed_at": "2026-11-24T03:31:19.282739+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -977,20 +977,16 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-24T03:23:12.354674+00:00",
-          "completed_at": "2026-11-24T03:24:27.162859+00:00",
+          "started_at": "2026-11-24T03:30:19.400650+00:00",
+          "completed_at": "2026-11-24T03:31:30.386389+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1355,
-            "enumerated_raw": 1355,
-            "advertised": 1355,
+            "enumerated": 1352,
+            "enumerated_raw": 1352,
+            "advertised": 1352,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "R-580026",
-              "R-580230",
-              "R-588546"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 21,
             "closed_during_pull": 0,
             "kept": 15,
@@ -1003,8 +999,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:23:12.354674+00:00",
-      "completed_at": "2026-11-24T03:24:27.162859+00:00",
+      "snapshot_at": "2026-11-24T03:30:19.400650+00:00",
+      "completed_at": "2026-11-24T03:31:30.386389+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1806,8 +1802,8 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-24T03:23:12.355037+00:00",
-          "completed_at": "2026-11-24T03:24:49.803022+00:00",
+          "started_at": "2026-11-24T03:30:19.401127+00:00",
+          "completed_at": "2026-11-24T03:31:53.274300+00:00",
           "ok": true,
           "info": {
             "enumerated": 1344,
@@ -1824,8 +1820,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:23:12.355037+00:00",
-      "completed_at": "2026-11-24T03:24:49.803022+00:00",
+      "snapshot_at": "2026-11-24T03:30:19.401127+00:00",
+      "completed_at": "2026-11-24T03:31:53.274300+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1989,8 +1985,8 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-24T03:23:12.355343+00:00",
-          "completed_at": "2026-11-24T03:23:22.390395+00:00",
+          "started_at": "2026-11-24T03:30:19.401374+00:00",
+          "completed_at": "2026-11-24T03:30:30.971107+00:00",
           "ok": true,
           "info": {
             "enumerated": 72,
@@ -2007,8 +2003,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:23:12.355343+00:00",
-      "completed_at": "2026-11-24T03:23:22.390395+00:00",
+      "snapshot_at": "2026-11-24T03:30:19.401374+00:00",
+      "completed_at": "2026-11-24T03:30:30.971107+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2125,50 +2121,6 @@
         },
         {
           "firm": "Lowe's",
-          "job_id": "JR-02657078",
-          "title": "Sr Analyst-Merchandising Operations Data Governance",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-12",
-          "url": "https://talent.lowes.com/us/en/job/JR-02657078",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Merchandising Operations role works in one of the functional areas of Merchandising Operations supporting their assigned line of business. The Sr Analyst will focus on their level of responsibilities to include more advanced consulting to the business and addressing challenges within their area of responsibility. Key functional areas include Vendor/Item Onboarding, Reporting, Operational Services, Vendor Compliance, Product Content, Data Governance and Tech Enablement. Responsibilities may vary based on the area of work.\nWhat You Will Do\nAnalytics- Handle interpretation, higher level analysis, storytelling of data. Consumer - utilizing segmentation. Utilize internal and external facing applications, Microsoft data analytics tools.\nBuilding Relationships- Promote cooperation and teamwork; strong interpersonal skills; establish and maintain trust and credibility with leaders and team.\nCommunication- Addressing challenges and issues within area (not day to day). Deliver some of the internal training. Gather and create content.\nIssue Resolution-May take on more complex issues and helps drive resolution.\nTraining/Development-Works with leaders on identifying needs and developing solutions for the functional area.\nReporting-Gathers and analyzes data and helps translate date into action and insights.\nProcess Improvement-Identifies opportunities and helps design solutions.\nTechnology Requirements- Supports governance of data stewardship, roles, and permissions to help ensure appropriate ownership, access, and accountability across merchandising systems\nProject Management-Provide customer feedback, manage project timelines with own projects.\nLiaison with international partners on more complex issues.\nMerchandising & Vendor Engagement- Focus on strategic and vendors with complex issues; ensure master level is addressed; trusted partner (merchant & vendor).\nBusiness Alignment-Focused on business unit (including MVP areas) store merchandising functional areas.\nCreates usage standards, guidelines, and statements of direction to track the quality, availability, and applicability of data through to full business integration\nTests, implements, and supports technology solutions to ensure efficiency and business continuity\nUses relevant data, analytics, and customer feedback to help develop and drive the solutions offered to Lowe's internal customers\nWorks to on-board and train new-users on best practices and system updates and/or changes for all merchandising information systems\nMinimum Qualifications\nBachelor’s degree Business, Accounting, Finance, Economics, or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\nExperience in structuring and writing formal documents, developing and delivering group presentations, project planning, and/or cross-functional collaboration\nPreferred Skills/Education\nExperience in Microsoft products (Outlook, PowerPoint, etc.) and relational business software\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02679740",
-          "title": "Sr Analyst-Product Compliance",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-15",
-          "url": "https://talent.lowes.com/us/en/job/JR-02679740",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "5 Years experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Product Compliance is responsible for executing key activities that support Lowe's product compliance programs, helping to protect customers, the business, and the brand from regulatory and safety risks. This role focuses on monitoring and interpreting state and federal regulations, ensuring timely awareness and proactive compliance across Lowe's product categories.\nThe Sr Analyst partners closely with cross-functional teams—including Merchandising, Sourcing, Quality Assurance, Legal, and Sustainability—as well as vendors, testing laboratories, regulatory bodies, and industry associations. By providing detailed analysis, reporting, and operational support, this role plays a critical part in advancing Lowe's compliance strategy and ensuring products meet or exceed regulatory and safety standards.\nWhat You Will Do\nExecute processes that mitigate product compliance risks to Lowe’s and its customers, ensuring activities are completed on time and in adherence to company standards.\nSupport the preparation and delivery of compliance-related reports to meet state and federal obligations.\nAdminister vendor-related compliance programs, including Conflict Minerals, and Mercury Surveys.\nPartner with Legal to monitor and interpret emerging state and federal regulations, assess business impacts, and implement appropriate compliance controls.\nCommunicate key regulatory updates and new obligations to stakeholders across the organization.\nExecute regulatory stop-sales for in-scope items and provide guidance to Merchandising and Legal on process requirements and risk implications.\nCollaborate with Quality Assurance Engineering and approved third-party labs to ensure testing protocols address regulatory requirements.\nDevelop solutions for upcoming regulations where existing protocols or programs are insufficient.\nPartner with Legal, Quality Assurance, Merchandising, Sourcing, and vendors to complete compliance activities and resolve issues.\nEngage with regulatory agencies on notices of violation (e.g., weights & measures, product registration), coordinate with vendors to collect fines, and support corrective actions.\nBenchmark compliance practices through continuous learning and participation in industry associations such as ICPHSO and RILA.\nDocument policies and procedures that support product compliance programs and ensure consistent execution.\nProvide training and guidance to internal stakeholders to promote best practices and build a culture of compliance.\nCollaborate with technology partners to develop, test, and launch systems that improve compliance processes.\nMinimum Qualifications\nBachelor’s degree in Engineering, Science, Business, or related field or equivalent years of experience in lieu of education requirement, if applicable\n5 Years experience in product safety, regulatory compliance, quality, or related field in a retail or manufacturing environment\n2 years experience in product regulations in North America (CPSC, EPA, FDA, etc.)\nincluding state level regulations\n2 years experience leading/facilitating cross-functional projects\nPreferred Skills/Education\nRetail operations experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
           "job_id": "JR-02681238",
           "title": "BDC Sr. Operations Development Manager",
           "client_company": "",
@@ -2232,28 +2184,72 @@
           "required_experience": "5 years of experience",
           "required_certifications": "",
           "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Category Management Lead will work cross-functionally to ideate, develop, project manage, and deliver Private Brands creative programs. This role will identify opportunities and coordinate product category strategies to enhance the Private Brands omnichannel experience, elevate the brand, and increase consumer engagement. The Category Management Lead is responsible for managing the execution of concurrent and complex projects from conception through delivery, including managing scope and resources, scheduling, budget tracking, developing project plans, and providing status updates to both project stakeholders and executive teams. This role will manage all factors that govern project success to ensure high-quality delivery within time, cost and quality parameters.\nWhat You Will Do\nWork collaboratively and synthesize feedback and input from marketing, merchandising, product, creative and brand partners.\nUnderstand business partners' long-range requirements and engage in strategic planning and partnering to ensure alignment.\nUnderstand the category and key competitors to develop customer specific category growth strategies and knowledge.\nMaintain a balanced focus on both the small details of a project and the larger objectives and schedule to complete projects successfully and on-time.\nFacilitate project-related team meetings and communicate action steps to ensure all stakeholders have updated daily reports and project milestones. Communicate consistently with project stakeholders and executives as appropriate, ensuring deliverables are being met by all team members at all stages of the project.\nManage the design and development process of graphics, copy and photography for all creative projects.\nReview all creative, inclusive of item-specific packaging production, to ensure that quality and brand standards are met, and product(s) is being showcased in a way that will resonate with the consumer and facilitate the buying process.\nLiaise with outside agencies and vendors to ensure seamless integration and delivery of creative and production projects.\nBuild and foster relationships with both internal and external teams, acting as the liaison between internal customers and creative production teams.\nDrive process improvements and minimize risk to the organization and customer.\nMinimum Qualifications\nBachelor’s degree in business, marketing or related field or equivalent years of experience in lieu of education requirement, if applicable\n7 years of general experience, including 5 years of experience managing multiple product vendors and categories\nExperience in a marketing, large retail environment, consumer package goods company, or advertising agency that services Fortune 500 companies\nExperience developing and executing omni-channel brand strategies\nExperience working with design, advertising and/or marketing teams\nDemonstrated ability to influence people and craft compelling, fact-based stories to drive category solutions internally and with the customer\nProven ability to liaise with internal stakeholders and creative teams to ensure timely delivery of creative projects, working with both internal teams and external partners\nPreferred Skills/Education\nExperience using MAC platform\nKnowledge in packaging development, structural and print/production\nAdept at writing detailed statements of work and project briefs\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
+          "job_id": "JR-02657078",
+          "title": "Sr Analyst-Merchandising Operations Data Governance",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-12",
+          "url": "https://talent.lowes.com/us/en/job/JR-02657078",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Merchandising Operations role works in one of the functional areas of Merchandising Operations supporting their assigned line of business. The Sr Analyst will focus on their level of responsibilities to include more advanced consulting to the business and addressing challenges within their area of responsibility. Key functional areas include Vendor/Item Onboarding, Reporting, Operational Services, Vendor Compliance, Product Content, Data Governance and Tech Enablement. Responsibilities may vary based on the area of work.\nWhat You Will Do\nAnalytics- Handle interpretation, higher level analysis, storytelling of data. Consumer - utilizing segmentation. Utilize internal and external facing applications, Microsoft data analytics tools.\nBuilding Relationships- Promote cooperation and teamwork; strong interpersonal skills; establish and maintain trust and credibility with leaders and team.\nCommunication- Addressing challenges and issues within area (not day to day). Deliver some of the internal training. Gather and create content.\nIssue Resolution-May take on more complex issues and helps drive resolution.\nTraining/Development-Works with leaders on identifying needs and developing solutions for the functional area.\nReporting-Gathers and analyzes data and helps translate date into action and insights.\nProcess Improvement-Identifies opportunities and helps design solutions.\nTechnology Requirements- Supports governance of data stewardship, roles, and permissions to help ensure appropriate ownership, access, and accountability across merchandising systems\nProject Management-Provide customer feedback, manage project timelines with own projects.\nLiaison with international partners on more complex issues.\nMerchandising & Vendor Engagement- Focus on strategic and vendors with complex issues; ensure master level is addressed; trusted partner (merchant & vendor).\nBusiness Alignment-Focused on business unit (including MVP areas) store merchandising functional areas.\nCreates usage standards, guidelines, and statements of direction to track the quality, availability, and applicability of data through to full business integration\nTests, implements, and supports technology solutions to ensure efficiency and business continuity\nUses relevant data, analytics, and customer feedback to help develop and drive the solutions offered to Lowe's internal customers\nWorks to on-board and train new-users on best practices and system updates and/or changes for all merchandising information systems\nMinimum Qualifications\nBachelor’s degree Business, Accounting, Finance, Economics, or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\nExperience in structuring and writing formal documents, developing and delivering group presentations, project planning, and/or cross-functional collaboration\nPreferred Skills/Education\nExperience in Microsoft products (Outlook, PowerPoint, etc.) and relational business software\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
+          "job_id": "JR-02679740",
+          "title": "Sr Analyst-Product Compliance",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-15",
+          "url": "https://talent.lowes.com/us/en/job/JR-02679740",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "5 Years experience",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Product Compliance is responsible for executing key activities that support Lowe's product compliance programs, helping to protect customers, the business, and the brand from regulatory and safety risks. This role focuses on monitoring and interpreting state and federal regulations, ensuring timely awareness and proactive compliance across Lowe's product categories.\nThe Sr Analyst partners closely with cross-functional teams—including Merchandising, Sourcing, Quality Assurance, Legal, and Sustainability—as well as vendors, testing laboratories, regulatory bodies, and industry associations. By providing detailed analysis, reporting, and operational support, this role plays a critical part in advancing Lowe's compliance strategy and ensuring products meet or exceed regulatory and safety standards.\nWhat You Will Do\nExecute processes that mitigate product compliance risks to Lowe’s and its customers, ensuring activities are completed on time and in adherence to company standards.\nSupport the preparation and delivery of compliance-related reports to meet state and federal obligations.\nAdminister vendor-related compliance programs, including Conflict Minerals, and Mercury Surveys.\nPartner with Legal to monitor and interpret emerging state and federal regulations, assess business impacts, and implement appropriate compliance controls.\nCommunicate key regulatory updates and new obligations to stakeholders across the organization.\nExecute regulatory stop-sales for in-scope items and provide guidance to Merchandising and Legal on process requirements and risk implications.\nCollaborate with Quality Assurance Engineering and approved third-party labs to ensure testing protocols address regulatory requirements.\nDevelop solutions for upcoming regulations where existing protocols or programs are insufficient.\nPartner with Legal, Quality Assurance, Merchandising, Sourcing, and vendors to complete compliance activities and resolve issues.\nEngage with regulatory agencies on notices of violation (e.g., weights & measures, product registration), coordinate with vendors to collect fines, and support corrective actions.\nBenchmark compliance practices through continuous learning and participation in industry associations such as ICPHSO and RILA.\nDocument policies and procedures that support product compliance programs and ensure consistent execution.\nProvide training and guidance to internal stakeholders to promote best practices and build a culture of compliance.\nCollaborate with technology partners to develop, test, and launch systems that improve compliance processes.\nMinimum Qualifications\nBachelor’s degree in Engineering, Science, Business, or related field or equivalent years of experience in lieu of education requirement, if applicable\n5 Years experience in product safety, regulatory compliance, quality, or related field in a retail or manufacturing environment\n2 years experience in product regulations in North America (CPSC, EPA, FDA, etc.)\nincluding state level regulations\n2 years experience leading/facilitating cross-functional projects\nPreferred Skills/Education\nRetail operations experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
         }
       ],
       "attempts": {
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-24T03:23:22.390466+00:00",
-          "completed_at": "2026-11-24T03:24:07.339178+00:00",
+          "started_at": "2026-11-24T03:30:30.971181+00:00",
+          "completed_at": "2026-11-24T03:31:13.604643+00:00",
           "ok": true,
           "info": {
-            "enumerated": 4219,
+            "enumerated": 3963,
             "enumerated_raw": 4815,
             "advertised": 4815,
-            "details_read": 15,
+            "details_read": 13,
             "kept": 10,
             "method": "employer current search widget + canonical full detail pages",
-            "known_missing_details_rechecked": 0
+            "known_missing_details_rechecked": 2
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:23:22.390466+00:00",
-      "completed_at": "2026-11-24T03:24:07.339178+00:00",
+      "snapshot_at": "2026-11-24T03:30:30.971181+00:00",
+      "completed_at": "2026-11-24T03:31:13.604643+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2274,7 +2270,7 @@
           "posted_date": "2026-11-23",
           "url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Detroit-MI/Manager--Technology-AI-Risk_R2601292-1",
           "recruiter_name": "",
-          "recruiter_email": "hrpolicy@ally.com",
+          "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "7+ years of relevant experience",
           "required_certifications": "",
@@ -2296,7 +2292,7 @@
           "posted_date": "2026-11-23",
           "url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Charlotte-NC/Director---Fraud-Governance---Oversight_R2601295-1",
           "recruiter_name": "",
-          "recruiter_email": "hrpolicy@ally.com",
+          "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "8+ years of experience",
           "required_certifications": "",
@@ -2318,7 +2314,7 @@
           "posted_date": "2026-11-20",
           "url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Remote-IL/Field-Operations---Manager_R2601361-1",
           "recruiter_name": "",
-          "recruiter_email": "hrpolicy@ally.com",
+          "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "7+ years of relevant experience",
           "required_certifications": "",
@@ -2340,7 +2336,7 @@
           "posted_date": "2026-10-12",
           "url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Charlotte-NC/Principal---Data-Governance_R2600864",
           "recruiter_name": "",
-          "recruiter_email": "hrpolicy@ally.com",
+          "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "8+ years of experience",
           "required_certifications": "",
@@ -2351,8 +2347,8 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-24T03:24:07.339252+00:00",
-          "completed_at": "2026-11-24T03:24:17.438224+00:00",
+          "started_at": "2026-11-24T03:31:13.604704+00:00",
+          "completed_at": "2026-11-24T03:31:22.555566+00:00",
           "ok": true,
           "info": {
             "enumerated": 82,
@@ -2373,8 +2369,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:24:07.339252+00:00",
-      "completed_at": "2026-11-24T03:24:17.438224+00:00",
+      "snapshot_at": "2026-11-24T03:31:13.604704+00:00",
+      "completed_at": "2026-11-24T03:31:22.555566+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2428,8 +2424,8 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-24T03:24:17.438284+00:00",
-          "completed_at": "2026-11-24T03:24:27.577879+00:00",
+          "started_at": "2026-11-24T03:31:19.282812+00:00",
+          "completed_at": "2026-11-24T03:31:27.624989+00:00",
           "ok": true,
           "info": {
             "enumerated": 104,
@@ -2450,8 +2446,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:24:17.438284+00:00",
-      "completed_at": "2026-11-24T03:24:27.577879+00:00",
+      "snapshot_at": "2026-11-24T03:31:19.282812+00:00",
+      "completed_at": "2026-11-24T03:31:27.624989+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2615,8 +2611,8 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-24T03:24:20.853716+00:00",
-          "completed_at": "2026-11-24T03:26:42.111806+00:00",
+          "started_at": "2026-11-24T03:31:22.555623+00:00",
+          "completed_at": "2026-11-24T03:33:07.091853+00:00",
           "ok": true,
           "info": {
             "enumerated": 1446,
@@ -2637,8 +2633,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:24:20.853716+00:00",
-      "completed_at": "2026-11-24T03:26:42.111806+00:00",
+      "snapshot_at": "2026-11-24T03:31:22.555623+00:00",
+      "completed_at": "2026-11-24T03:33:07.091853+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2647,8 +2643,8 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-24T03:24:27.162931+00:00",
-          "completed_at": "2026-11-24T03:25:11.146773+00:00",
+          "started_at": "2026-11-24T03:31:27.625069+00:00",
+          "completed_at": "2026-11-24T03:32:04.304062+00:00",
           "ok": true,
           "info": {
             "enumerated": 1110,
@@ -2669,8 +2665,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:24:27.162931+00:00",
-      "completed_at": "2026-11-24T03:25:11.146773+00:00",
+      "snapshot_at": "2026-11-24T03:31:27.625069+00:00",
+      "completed_at": "2026-11-24T03:32:04.304062+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2746,8 +2742,8 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-24T03:24:27.578225+00:00",
-          "completed_at": "2026-11-24T03:25:15.207779+00:00",
+          "started_at": "2026-11-24T03:31:30.386453+00:00",
+          "completed_at": "2026-11-24T03:32:01.299425+00:00",
           "ok": true,
           "info": {
             "enumerated": 881,
@@ -2768,8 +2764,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:24:27.578225+00:00",
-      "completed_at": "2026-11-24T03:25:15.207779+00:00",
+      "snapshot_at": "2026-11-24T03:31:30.386453+00:00",
+      "completed_at": "2026-11-24T03:32:01.299425+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2801,8 +2797,8 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-24T03:24:49.803116+00:00",
-          "completed_at": "2026-11-24T03:25:05.051694+00:00",
+          "started_at": "2026-11-24T03:31:53.274357+00:00",
+          "completed_at": "2026-11-24T03:32:04.451537+00:00",
           "ok": true,
           "info": {
             "enumerated": 143,
@@ -2823,8 +2819,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:24:49.803116+00:00",
-      "completed_at": "2026-11-24T03:25:05.051694+00:00",
+      "snapshot_at": "2026-11-24T03:31:53.274357+00:00",
+      "completed_at": "2026-11-24T03:32:04.451537+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2900,8 +2896,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-24T03:25:05.051755+00:00",
-          "completed_at": "2026-11-24T03:25:22.614134+00:00",
+          "started_at": "2026-11-24T03:32:01.299480+00:00",
+          "completed_at": "2026-11-24T03:32:13.611218+00:00",
           "ok": true,
           "info": {
             "enumerated": 78,
@@ -2918,8 +2914,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:25:05.051755+00:00",
-      "completed_at": "2026-11-24T03:25:22.614134+00:00",
+      "snapshot_at": "2026-11-24T03:32:01.299480+00:00",
+      "completed_at": "2026-11-24T03:32:13.611218+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -3017,8 +3013,8 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-24T03:25:11.146838+00:00",
-          "completed_at": "2026-11-24T03:25:44.949838+00:00",
+          "started_at": "2026-11-24T03:32:04.304122+00:00",
+          "completed_at": "2026-11-24T03:32:32.707457+00:00",
           "ok": true,
           "info": {
             "enumerated": 888,
@@ -3039,8 +3035,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:25:11.146838+00:00",
-      "completed_at": "2026-11-24T03:25:44.949838+00:00",
+      "snapshot_at": "2026-11-24T03:32:04.304122+00:00",
+      "completed_at": "2026-11-24T03:32:32.707457+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -3094,8 +3090,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-24T03:25:15.207837+00:00",
-          "completed_at": "2026-11-24T03:25:24.697338+00:00",
+          "started_at": "2026-11-24T03:32:04.451608+00:00",
+          "completed_at": "2026-11-24T03:32:11.388454+00:00",
           "ok": true,
           "info": {
             "enumerated": 40,
@@ -3112,8 +3108,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:25:15.207837+00:00",
-      "completed_at": "2026-11-24T03:25:24.697338+00:00",
+      "snapshot_at": "2026-11-24T03:32:04.451608+00:00",
+      "completed_at": "2026-11-24T03:32:11.388454+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3122,8 +3118,8 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-24T03:25:22.614192+00:00",
-          "completed_at": "2026-11-24T03:25:39.881658+00:00",
+          "started_at": "2026-11-24T03:32:11.388512+00:00",
+          "completed_at": "2026-11-24T03:32:21.156854+00:00",
           "ok": true,
           "info": {
             "enumerated": 324,
@@ -3144,8 +3140,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:25:22.614192+00:00",
-      "completed_at": "2026-11-24T03:25:39.881658+00:00",
+      "snapshot_at": "2026-11-24T03:32:11.388512+00:00",
+      "completed_at": "2026-11-24T03:32:21.156854+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3166,7 +3162,7 @@
           "posted_date": "2026-11-23",
           "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN05-CCS-Charlotte-5900-Northwoods-Business-Parkway-Charlotte-NC-28269-USA/Senior-HR-Project-Manager_30216348",
           "recruiter_name": "",
-          "recruiter_email": "Carrier.Recruiting@carrier.com",
+          "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "5+ years of experience",
           "required_certifications": "",
@@ -3188,7 +3184,7 @@
           "posted_date": "2026-11-18",
           "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/Florida-US-Remote/Sales-Operations-Manager--Strategy_30222359",
           "recruiter_name": "",
-          "recruiter_email": "Carrier.Recruiting@carrier.com",
+          "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "5+ years of experience",
           "required_certifications": "",
@@ -3210,7 +3206,7 @@
           "posted_date": "2026-11-12",
           "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/Colorado-US-Remote/Building-Controls-Sales-Specialist--Colorado_30219829",
           "recruiter_name": "",
-          "recruiter_email": "Carrier.Recruiting@carrier.com",
+          "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "",
           "required_certifications": "",
@@ -3232,7 +3228,7 @@
           "posted_date": "2026-11-10",
           "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAFLO-Carrier-Home-Florida-Remote-Location-Remote-City-FL-33412-USA/Data-Center-Project-Manager_30220687-2",
           "recruiter_name": "",
-          "recruiter_email": "Carrier.Recruiting@carrier.com",
+          "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "5+ years of experience",
           "required_certifications": "",
@@ -3254,7 +3250,7 @@
           "posted_date": "2026-10-29",
           "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN03-Carrier-Charlotte-9701-Old-Statesville-Road-Charlotte-NC-28269-USA/Sr-Operations-Manager_30215361",
           "recruiter_name": "",
-          "recruiter_email": "Carrier.Recruiting@carrier.com",
+          "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "",
           "required_certifications": "",
@@ -3265,8 +3261,8 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-24T03:25:24.697396+00:00",
-          "completed_at": "2026-11-24T03:25:56.954557+00:00",
+          "started_at": "2026-11-24T03:32:13.611280+00:00",
+          "completed_at": "2026-11-24T03:32:40.868032+00:00",
           "ok": true,
           "info": {
             "enumerated": 402,
@@ -3287,8 +3283,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:25:24.697396+00:00",
-      "completed_at": "2026-11-24T03:25:56.954557+00:00",
+      "snapshot_at": "2026-11-24T03:32:13.611280+00:00",
+      "completed_at": "2026-11-24T03:32:40.868032+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3297,8 +3293,8 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-24T03:25:39.881724+00:00",
-          "completed_at": "2026-11-24T03:26:00.255229+00:00",
+          "started_at": "2026-11-24T03:32:21.156912+00:00",
+          "completed_at": "2026-11-24T03:32:35.052397+00:00",
           "ok": true,
           "info": {
             "enumerated": 398,
@@ -3315,8 +3311,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:25:39.881724+00:00",
-      "completed_at": "2026-11-24T03:26:00.255229+00:00",
+      "snapshot_at": "2026-11-24T03:32:21.156912+00:00",
+      "completed_at": "2026-11-24T03:32:35.052397+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3325,8 +3321,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-24T03:25:44.949898+00:00",
-          "completed_at": "2026-11-24T03:25:57.876842+00:00",
+          "started_at": "2026-11-24T03:32:32.707512+00:00",
+          "completed_at": "2026-11-24T03:32:42.877903+00:00",
           "ok": true,
           "info": {
             "enumerated": 205,
@@ -3343,8 +3339,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:25:44.949898+00:00",
-      "completed_at": "2026-11-24T03:25:57.876842+00:00",
+      "snapshot_at": "2026-11-24T03:32:32.707512+00:00",
+      "completed_at": "2026-11-24T03:32:42.877903+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3353,8 +3349,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-24T03:25:56.954622+00:00",
-          "completed_at": "2026-11-24T03:26:03.289100+00:00",
+          "started_at": "2026-11-24T03:32:35.052456+00:00",
+          "completed_at": "2026-11-24T03:32:38.987355+00:00",
           "ok": true,
           "info": {
             "enumerated": 12,
@@ -3371,8 +3367,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:25:56.954622+00:00",
-      "completed_at": "2026-11-24T03:26:03.289100+00:00",
+      "snapshot_at": "2026-11-24T03:32:35.052456+00:00",
+      "completed_at": "2026-11-24T03:32:38.987355+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3381,8 +3377,8 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-24T03:25:57.876901+00:00",
-          "completed_at": "2026-11-24T03:29:32.959262+00:00",
+          "started_at": "2026-11-24T03:32:38.987412+00:00",
+          "completed_at": "2026-11-24T03:35:29.825286+00:00",
           "ok": true,
           "info": {
             "enumerated": 5968,
@@ -3412,8 +3408,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-24T03:25:57.876901+00:00",
-      "completed_at": "2026-11-24T03:29:32.959262+00:00",
+      "snapshot_at": "2026-11-24T03:32:38.987412+00:00",
+      "completed_at": "2026-11-24T03:35:29.825286+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3445,8 +3441,8 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-24T03:26:00.255288+00:00",
-          "completed_at": "2026-11-24T03:26:08.677210+00:00",
+          "started_at": "2026-11-24T03:32:40.868101+00:00",
+          "completed_at": "2026-11-24T03:32:46.085551+00:00",
           "ok": true,
           "info": {
             "enumerated": 56,
@@ -3463,8 +3459,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:26:00.255288+00:00",
-      "completed_at": "2026-11-24T03:26:08.677210+00:00",
+      "snapshot_at": "2026-11-24T03:32:40.868101+00:00",
+      "completed_at": "2026-11-24T03:32:46.085551+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3562,8 +3558,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-24T03:26:03.289185+00:00",
-          "completed_at": "2026-11-24T03:26:19.046330+00:00",
+          "started_at": "2026-11-24T03:32:42.877968+00:00",
+          "completed_at": "2026-11-24T03:32:53.186372+00:00",
           "ok": true,
           "info": {
             "enumerated": 290,
@@ -3580,8 +3576,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:26:03.289185+00:00",
-      "completed_at": "2026-11-24T03:26:19.046330+00:00",
+      "snapshot_at": "2026-11-24T03:32:42.877968+00:00",
+      "completed_at": "2026-11-24T03:32:53.186372+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3590,8 +3586,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-24T03:26:08.677268+00:00",
-          "completed_at": "2026-11-24T03:26:36.624071+00:00",
+          "started_at": "2026-11-24T03:32:46.085603+00:00",
+          "completed_at": "2026-11-24T03:33:08.001819+00:00",
           "ok": true,
           "info": {
             "enumerated": 407,
@@ -3612,8 +3608,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:26:08.677268+00:00",
-      "completed_at": "2026-11-24T03:26:36.624071+00:00",
+      "snapshot_at": "2026-11-24T03:32:46.085603+00:00",
+      "completed_at": "2026-11-24T03:33:08.001819+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3645,8 +3641,8 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-24T03:26:19.046395+00:00",
-          "completed_at": "2026-11-24T03:28:06.692887+00:00",
+          "started_at": "2026-11-24T03:32:53.186428+00:00",
+          "completed_at": "2026-11-24T03:34:28.838647+00:00",
           "ok": true,
           "info": {
             "enumerated": 3020,
@@ -3667,8 +3663,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:26:19.046395+00:00",
-      "completed_at": "2026-11-24T03:28:06.692887+00:00",
+      "snapshot_at": "2026-11-24T03:32:53.186428+00:00",
+      "completed_at": "2026-11-24T03:34:28.838647+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3677,8 +3673,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-24T03:26:36.624140+00:00",
-          "completed_at": "2026-11-24T03:26:51.780977+00:00",
+          "started_at": "2026-11-24T03:33:07.091919+00:00",
+          "completed_at": "2026-11-24T03:33:20.290181+00:00",
           "ok": true,
           "info": {
             "enumerated": 180,
@@ -3699,8 +3695,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:26:36.624140+00:00",
-      "completed_at": "2026-11-24T03:26:51.780977+00:00",
+      "snapshot_at": "2026-11-24T03:33:07.091919+00:00",
+      "completed_at": "2026-11-24T03:33:20.290181+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3709,8 +3705,8 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-24T03:26:42.111871+00:00",
-          "completed_at": "2026-11-24T03:27:08.560942+00:00",
+          "started_at": "2026-11-24T03:33:08.001881+00:00",
+          "completed_at": "2026-11-24T03:33:37.730576+00:00",
           "ok": true,
           "info": {
             "enumerated": 354,
@@ -3731,8 +3727,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:26:42.111871+00:00",
-      "completed_at": "2026-11-24T03:27:08.560942+00:00",
+      "snapshot_at": "2026-11-24T03:33:08.001881+00:00",
+      "completed_at": "2026-11-24T03:33:37.730576+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3764,8 +3760,8 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-24T03:26:51.781037+00:00",
-          "completed_at": "2026-11-24T03:27:17.311127+00:00",
+          "started_at": "2026-11-24T03:33:20.290236+00:00",
+          "completed_at": "2026-11-24T03:33:52.541062+00:00",
           "ok": true,
           "info": {
             "enumerated": 372,
@@ -3782,8 +3778,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:26:51.781037+00:00",
-      "completed_at": "2026-11-24T03:27:17.311127+00:00",
+      "snapshot_at": "2026-11-24T03:33:20.290236+00:00",
+      "completed_at": "2026-11-24T03:33:52.541062+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3903,8 +3899,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-24T03:27:08.561005+00:00",
-          "completed_at": "2026-11-24T03:28:06.715834+00:00",
+          "started_at": "2026-11-24T03:33:37.730633+00:00",
+          "completed_at": "2026-11-24T03:34:27.086700+00:00",
           "ok": true,
           "info": {
             "enumerated": 378,
@@ -3921,8 +3917,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:27:08.561005+00:00",
-      "completed_at": "2026-11-24T03:28:06.715834+00:00",
+      "snapshot_at": "2026-11-24T03:33:37.730633+00:00",
+      "completed_at": "2026-11-24T03:34:27.086700+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -3931,8 +3927,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-24T03:27:17.311181+00:00",
-          "completed_at": "2026-11-24T03:27:24.526775+00:00",
+          "started_at": "2026-11-24T03:33:52.541118+00:00",
+          "completed_at": "2026-11-24T03:33:56.890372+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -3956,8 +3952,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:27:17.311181+00:00",
-      "completed_at": "2026-11-24T03:27:24.526775+00:00",
+      "snapshot_at": "2026-11-24T03:33:52.541118+00:00",
+      "completed_at": "2026-11-24T03:33:56.890372+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -4011,8 +4007,8 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-24T03:27:24.526835+00:00",
-          "completed_at": "2026-11-24T03:27:43.505412+00:00",
+          "started_at": "2026-11-24T03:33:56.890436+00:00",
+          "completed_at": "2026-11-24T03:34:09.688256+00:00",
           "ok": true,
           "info": {
             "enumerated": 420,
@@ -4055,8 +4051,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:27:24.526835+00:00",
-      "completed_at": "2026-11-24T03:27:43.505412+00:00",
+      "snapshot_at": "2026-11-24T03:33:56.890436+00:00",
+      "completed_at": "2026-11-24T03:34:09.688256+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4110,8 +4106,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-24T03:27:43.505472+00:00",
-          "completed_at": "2026-11-24T03:27:54.052798+00:00",
+          "started_at": "2026-11-24T03:34:09.688318+00:00",
+          "completed_at": "2026-11-24T03:34:20.055806+00:00",
           "ok": true,
           "info": {
             "enumerated": 42,
@@ -4140,8 +4136,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-24T03:27:43.505472+00:00",
-      "completed_at": "2026-11-24T03:27:54.052798+00:00",
+      "snapshot_at": "2026-11-24T03:34:09.688318+00:00",
+      "completed_at": "2026-11-24T03:34:20.055806+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4239,8 +4235,8 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-24T03:27:54.052857+00:00",
-          "completed_at": "2026-11-24T03:28:13.466110+00:00",
+          "started_at": "2026-11-24T03:34:20.055868+00:00",
+          "completed_at": "2026-11-24T03:34:36.710073+00:00",
           "ok": true,
           "info": {
             "enumerated": 334,
@@ -4265,8 +4261,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-24T03:27:54.052857+00:00",
-      "completed_at": "2026-11-24T03:28:13.466110+00:00",
+      "snapshot_at": "2026-11-24T03:34:20.055868+00:00",
+      "completed_at": "2026-11-24T03:34:36.710073+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4275,8 +4271,8 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-24T03:28:06.692955+00:00",
-          "completed_at": "2026-11-24T03:28:23.814968+00:00",
+          "started_at": "2026-11-24T03:34:27.086760+00:00",
+          "completed_at": "2026-11-24T03:34:40.031066+00:00",
           "ok": true,
           "info": {
             "enumerated": 541,
@@ -4297,8 +4293,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:28:06.692955+00:00",
-      "completed_at": "2026-11-24T03:28:23.814968+00:00",
+      "snapshot_at": "2026-11-24T03:34:27.086760+00:00",
+      "completed_at": "2026-11-24T03:34:40.031066+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4307,8 +4303,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-24T03:28:06.715895+00:00",
-          "completed_at": "2026-11-24T03:28:13.395311+00:00",
+          "started_at": "2026-11-24T03:34:28.838704+00:00",
+          "completed_at": "2026-11-24T03:34:34.034173+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4325,8 +4321,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:28:06.715895+00:00",
-      "completed_at": "2026-11-24T03:28:13.395311+00:00",
+      "snapshot_at": "2026-11-24T03:34:28.838704+00:00",
+      "completed_at": "2026-11-24T03:34:34.034173+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4335,8 +4331,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-24T03:28:13.395369+00:00",
-          "completed_at": "2026-11-24T03:28:23.541455+00:00",
+          "started_at": "2026-11-24T03:34:34.034233+00:00",
+          "completed_at": "2026-11-24T03:34:41.493043+00:00",
           "ok": true,
           "info": {
             "enumerated": 142,
@@ -4353,8 +4349,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:28:13.395369+00:00",
-      "completed_at": "2026-11-24T03:28:23.541455+00:00",
+      "snapshot_at": "2026-11-24T03:34:34.034233+00:00",
+      "completed_at": "2026-11-24T03:34:41.493043+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4408,8 +4404,8 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-24T03:28:13.466182+00:00",
-          "completed_at": "2026-11-24T03:28:47.407881+00:00",
+          "started_at": "2026-11-24T03:34:36.710142+00:00",
+          "completed_at": "2026-11-24T03:35:04.247262+00:00",
           "ok": true,
           "info": {
             "enumerated": 864,
@@ -4426,8 +4422,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:28:13.466182+00:00",
-      "completed_at": "2026-11-24T03:28:47.407881+00:00",
+      "snapshot_at": "2026-11-24T03:34:36.710142+00:00",
+      "completed_at": "2026-11-24T03:35:04.247262+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4436,8 +4432,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-24T03:28:23.541526+00:00",
-          "completed_at": "2026-11-24T03:28:32.954253+00:00",
+          "started_at": "2026-11-24T03:34:40.031123+00:00",
+          "completed_at": "2026-11-24T03:34:46.646793+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
@@ -4454,8 +4450,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:28:23.541526+00:00",
-      "completed_at": "2026-11-24T03:28:32.954253+00:00",
+      "snapshot_at": "2026-11-24T03:34:40.031123+00:00",
+      "completed_at": "2026-11-24T03:34:46.646793+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4464,8 +4460,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-24T03:28:23.815037+00:00",
-          "completed_at": "2026-11-24T03:28:32.391984+00:00",
+          "started_at": "2026-11-24T03:34:41.493103+00:00",
+          "completed_at": "2026-11-24T03:34:46.628608+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
@@ -4482,8 +4478,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:28:23.815037+00:00",
-      "completed_at": "2026-11-24T03:28:32.391984+00:00",
+      "snapshot_at": "2026-11-24T03:34:41.493103+00:00",
+      "completed_at": "2026-11-24T03:34:46.628608+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4735,8 +4731,8 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-24T03:28:32.392040+00:00",
-          "completed_at": "2026-11-24T03:29:22.436703+00:00",
+          "started_at": "2026-11-24T03:34:46.628673+00:00",
+          "completed_at": "2026-11-24T03:35:29.459445+00:00",
           "ok": true,
           "info": {
             "enumerated": 1339,
@@ -4763,8 +4759,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:28:32.392040+00:00",
-      "completed_at": "2026-11-24T03:29:22.436703+00:00",
+      "snapshot_at": "2026-11-24T03:34:46.628673+00:00",
+      "completed_at": "2026-11-24T03:35:29.459445+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -4800,7 +4796,17 @@
       "firms_attempted": 39,
       "firms_succeeded": 39,
       "firms_failed": 0
+    },
+    {
+      "id": "45319446947",
+      "route": "cloud",
+      "started_at": "2026-11-24T03:30:17.992657+00:00",
+      "completed_at": "2026-11-24T03:35:32.893830+00:00",
+      "trigger": "workflow_dispatch",
+      "firms_attempted": 39,
+      "firms_succeeded": 39,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-24T03:29:35.101801+00:00"
+  "published_at": "2026-11-24T03:35:34.350856+00:00"
 }
