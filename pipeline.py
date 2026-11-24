@@ -75,6 +75,13 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--route',choices=['cloud','mac'],required=True);p.add_argument('--publish',action='store_true');p.add_argument('--firms',nargs='*');p.add_argument('--output',default='run-result.json');p.add_argument('--all',action='store_true');args=p.parse_args()
     os.environ['STAFFING_ROUTE']=args.route
     start=now();run_id=os.environ.get('GITHUB_RUN_ID') or str(uuid.uuid4());client=GitHub() if args.publish else None
+    timer_id=os.environ.get('STAFFING_TIMER_RUN_ID','')
+    if args.route=='cloud' and timer_id:
+        os.environ['STAFFING_TRIGGER']='cloud_clock'
+        if client:
+            _,prior=client.read()
+            if any(r.get('timer_run_id')==timer_id and r.get('route')=='cloud' for r in prior.get('runs',[])):
+                print('This cloud timer tick has already published; skipped duplicate dispatch.',flush=True);return
     firms=args.firms or list(REGISTRY)
     if args.route=='mac' and not args.firms and not args.all:
         _,state=client.read() if client else (None,{'firms':{}})
@@ -83,6 +90,7 @@ def main():
     for a in attempts:
         if a['ok']:validate(a['rows'])
     run={'id':run_id,'route':args.route,'started_at':start,'completed_at':now(),'trigger':os.environ.get('STAFFING_TRIGGER') or os.environ.get('GITHUB_EVENT_NAME','local'),'firms_attempted':len(attempts),'firms_succeeded':sum(a['ok'] for a in attempts),'firms_failed':sum(not a['ok'] for a in attempts)}
+    if timer_id:run.update(timer_run_id=timer_id,timer_fired_at=os.environ.get('STAFFING_TIMER_FIRED_AT',''))
     pathlib.Path(args.output).write_text(json.dumps({'run':run,'attempts':attempts},ensure_ascii=False,indent=2))
     if client:client.publish(attempts,run)
     print(json.dumps(run),flush=True)

@@ -1,0 +1,38 @@
+name: Hourly cloud clock
+on:
+  workflow_dispatch:
+    inputs:
+      start_now:
+        description: Start the clock immediately (setup or resume only)
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: read
+  actions: write
+concurrency:
+  group: staffing-cloud-clock
+  cancel-in-progress: false
+jobs:
+  bootstrap:
+    if: inputs.start_now == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start hourly relay
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 cloud_clock.py
+  hourly:
+    if: inputs.start_now != true
+    environment: staffing-hourly-clock
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dispatch collector and renew hourly timer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 cloud_clock.py

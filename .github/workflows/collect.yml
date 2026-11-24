@@ -1,8 +1,15 @@
 name: Hourly staffing feed
 on:
-  schedule:
-    - cron: '7 * * * *'
   workflow_dispatch:
+    inputs:
+      timer_run_id:
+        description: Cloud timer receipt (set automatically by cloud clock)
+        type: string
+        default: ''
+      timer_fired_at:
+        description: Actual cloud timer time (set automatically)
+        type: string
+        default: ''
 permissions:
   contents: write
 concurrency:
@@ -23,6 +30,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           STAFFING_REPO: ${{ github.repository }}
+          STAFFING_TIMER_RUN_ID: ${{ inputs.timer_run_id }}
+          STAFFING_TIMER_FIRED_AT: ${{ inputs.timer_fired_at }}
         run: python pipeline.py --route cloud --publish
       - uses: actions/upload-artifact@v4
         if: always()
