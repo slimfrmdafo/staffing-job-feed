@@ -17,7 +17,7 @@
   </dict>
   <key>WorkingDirectory</key><string>/Users/djduncan/Library/Application Support/StaffingFeed/source</string>
   <key>RunAtLoad</key><true/>
-  <key>StartCalendarInterval</key><dict><key>Minute</key><integer>46</integer></dict>
+  <key>StartCalendarInterval</key><dict><key>Minute</key><integer>56</integer></dict>
   <key>StandardOutPath</key><string>/Users/djduncan/Library/Application Support/StaffingFeed/work/mac-agent.log</string>
   <key>StandardErrorPath</key><string>/Users/djduncan/Library/Application Support/StaffingFeed/work/mac-agent-error.log</string>
   <key>ProcessType</key><string>Background</string>

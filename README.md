@@ -13,7 +13,7 @@ These addresses stay fixed. `main` holds the implementation. The `feed` branch h
 
 The cloud runs every hour at minute 37 UTC, using GitHub Actions. GitHub may start scheduled jobs late; the status file records actual start, completion and publication times.
 
-The Mac automation, **Hourly Mac staffing fallback**, runs every hour at minute 46. It calls the installed `run_mac.py` through the workspace Python environment. The script updates the code with a fast-forward pull, reads the shared status, and selects only firms whose latest cloud attempt failed. The Mac must be awake, online and running Codex for this local automation to execute. Cloud collection continues independently.
+The native macOS LaunchAgent **com.staffing.jobfeed** runs every hour at minute 56 and starts automatically at login. Its runtime is installed in `~/Library/Application Support/StaffingFeed`, with a separate Python environment, browser and source checkout. The script updates its code with a fast-forward pull, reads shared status, and selects only firms whose latest cloud attempt failed. The Mac must be awake, online and logged in. The collector does not require Codex to be open. The Codex automation **Hourly Mac staffing fallback** checks service health hourly at minute 06; only this additional health check needs Codex to be running. Cloud collection continues independently.
 
 The cloud retries every firm each hour, including firms previously assigned to Mac fallback. When a cloud pull recovers, the next Mac run automatically stops collecting that firm. Successful zero-match searches are not considered failures.
 
@@ -23,7 +23,7 @@ The Mac setup uses the existing GitHub login in the macOS keychain; no token is 
 
 Open the live status link above. It shows the last publication time, current rows and contract count per firm, the runner that supplied each snapshot, the latest attempt from each runner, and failures with their causes. Contract counts include contract-to-hire listings.
 
-For cloud execution evidence, open Cloud runs and inspect runs whose event is **schedule**. Manually dispatched validation runs are separate. For Mac execution evidence, inspect recent status entries with `route=mac` and `trigger=mac_automation`, or view the automation's run history in Codex.
+For cloud execution evidence, open Cloud runs and inspect runs whose event is **schedule**. Manually dispatched validation runs are separate. For Mac execution evidence, inspect recent status entries with `route=mac` and `trigger=mac_launchd`. The local service log is `~/Library/Application Support/StaffingFeed/work/mac-agent.log`.
 
 The source CSV has exactly the twenty columns required by FEED_SPEC.md. A row's optional fields stay empty when the source does not supply a usable explicit value. Rows with unknown pay are retained for the board to evaluate; a stated range is excluded if even its upper bound is below $60,000/year (hourly rates are compared using 2,080 hours/year). Target pay and individual-contributor preferences remain available to the board's existing scoring and filtering.
 
@@ -38,7 +38,14 @@ gh workflow disable collect.yml --repo slimfrmdafo/staffing-job-feed
 gh workflow enable collect.yml --repo slimfrmdafo/staffing-job-feed
 ```
 
-**Mac:** Pause or resume **Hourly Mac staffing fallback** in Codex Automations. You can also ask Codex to pause or resume that automation by name. Pause both runners to stop all updates. Pausing does not delete the published file. A run already in progress may finish; cancel that run too if an immediate stop is required.
+**Mac collector:** Use these commands to pause and resume the background service:
+
+```sh
+launchctl bootout gui/501/com.staffing.jobfeed
+launchctl bootstrap gui/501 "$HOME/Library/LaunchAgents/com.staffing.jobfeed.plist"
+```
+
+The second command also starts a run immediately. To check the service, use `launchctl print gui/501/com.staffing.jobfeed` and inspect its last exit code and run count. Separately pause or resume the **Hourly Mac staffing fallback** health check in Codex Automations (or ask Codex to do so by name). Pause both collectors to stop all data updates. Pausing does not delete the published file. A cloud run already in progress may finish; cancel it too if an immediate stop is required.
 
 ## Data protection
 
