@@ -1,0 +1,50 @@
+Staffing job feed
+Published UTC: 2026-11-24T00:20:59.095185+00:00
+Repository: https://github.com/slimfrmdafo/staffing-job-feed
+Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/staffing_jobs.csv
+Rows are replaced only after a complete successful newer snapshot for that firm.
+Unavailable firms retain their last successful snapshot. Zero matching rows is a valid completed search.
+
+Robert Half: listings=0 contracts=0 snapshot_runner=cloud last_success=2026-11-24T00:20:58.130019+00:00
+  cloud: OK at 2026-11-24T00:20:58.130019+00:00 {'candidates': 205, 'details_read': 205, 'kept': 0, 'enumerated': 7825}
+Insight Global: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:04.579412+00:00 Search reached but complete enumeration adapter not yet validated; previous snapshot preserved
+TEKsystems: listings=0 contracts=0 snapshot_runner=cloud last_success=2026-11-24T00:20:22.861141+00:00
+  cloud: OK at 2026-11-24T00:20:22.861141+00:00 {'candidates': 121, 'details_read': 121, 'kept': 0, 'enumerated': 2176}
+Apex Systems: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:05.064343+00:00 Official job search is under maintenance
+Kforce: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:05.168683+00:00 Search reached but complete enumeration adapter not yet validated; previous snapshot preserved
+Randstad: listings=32 contracts=28 snapshot_runner=cloud last_success=2026-11-24T00:20:28.281052+00:00
+  cloud: OK at 2026-11-24T00:20:28.281052+00:00 {'candidates': 93, 'details_read': 93, 'kept': 32, 'enumerated': 2725}
+Aerotek: listings=0 contracts=0 snapshot_runner=cloud last_success=2026-11-24T00:20:10.734445+00:00
+  cloud: OK at 2026-11-24T00:20:10.734445+00:00 {'candidates': 2, 'details_read': 2, 'kept': 0, 'enumerated': 7877}
+Beacon Hill: listings=0 contracts=0 snapshot_runner=cloud last_success=2026-11-24T00:20:13.001027+00:00
+  cloud: OK at 2026-11-24T00:20:13.001027+00:00 {'candidates': 5, 'details_read': 5, 'kept': 0, 'enumerated': 428}
+Judge Group: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:13.360451+00:00 Search reached but complete enumeration adapter not yet validated; previous snapshot preserved
+Brooksource: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:16.472902+00:00 1/23 detail pages failed: Incomplete detail: https://jobs.brooksource.com/jobs/job/a1wcv000001avjheao-it-project-manager-louisville-kentucky/
+Genesis10: listings=35 contracts=34 snapshot_runner=cloud last_success=2026-11-24T00:20:24.138720+00:00
+  cloud: OK at 2026-11-24T00:20:24.138720+00:00 {'candidates': 80, 'details_read': 80, 'kept': 35, 'enumerated': 560}
+Experis/Manpower: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:23.499510+00:00 Search reached but complete enumeration adapter not yet validated; previous snapshot preserved
+Addison Group: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:24.221301+00:00 Search reached but complete enumeration adapter not yet validated; previous snapshot preserved
+Vaco: listings=1 contracts=1 snapshot_runner=cloud last_success=2026-11-24T00:20:47.606862+00:00
+  cloud: OK at 2026-11-24T00:20:47.606862+00:00 {'candidates': 40, 'details_read': 40, 'kept': 1, 'enumerated': 1524}
+The Select Group: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:24.622927+00:00 Search reached but complete enumeration adapter not yet validated; previous snapshot preserved
+Signature Consultants: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:24.933548+00:00 Search reached but complete enumeration adapter not yet validated; previous snapshot preserved
+Collabera: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:32.179439+00:00 403 Client Error: Forbidden for url: https://collabera.com/find-a-job/
+Mindlance: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:58.669678+00:00 10/403 detail pages failed: Incomplete detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29474866&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29453690&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24956219&SearchString=&StatesString=
+Motion Recruitment: listings=0 contracts=0 snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T00:20:32.677366+00:00 Search reached but complete enumeration adapter not yet validated; previous snapshot preserved
+
+TOTAL listings=68 contracts=63
+
+Recent unattended runs:
+{"completed_at": "2026-11-24T00:20:58.698962+00:00", "firms_attempted": 19, "firms_failed": 12, "firms_succeeded": 7, "id": "45296272564", "route": "cloud", "started_at": "2026-11-24T00:20:04.332800+00:00", "trigger": "workflow_dispatch"}
