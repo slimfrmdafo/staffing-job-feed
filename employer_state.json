@@ -609,22 +609,22 @@
         "mac": {
           "firm": "Bank of America",
           "route": "mac",
-          "started_at": "2026-11-24T17:21:57.347405+00:00",
-          "completed_at": "2026-11-24T17:22:57.980432+00:00",
+          "started_at": "2026-11-24T19:23:31.661919+00:00",
+          "completed_at": "2026-11-24T19:24:44.636428+00:00",
           "ok": true,
           "info": {
-            "enumerated": 2101,
-            "enumerated_raw": 2101,
-            "advertised": 2101,
-            "details_read": 141,
+            "enumerated": 2103,
+            "enumerated_raw": 2103,
+            "advertised": 2103,
+            "details_read": 144,
             "kept": 27,
             "method": "employer search service + canonical full detail pages"
           }
         }
       },
-      "snapshot_at": "2026-11-24T18:03:04.654334+00:00",
-      "completed_at": "2026-11-24T18:04:04.116099+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T19:23:31.661919+00:00",
+      "completed_at": "2026-11-24T19:24:44.636428+00:00",
+      "snapshot_route": "mac"
     },
     "Wells Fargo": {
       "rows": [
@@ -3992,11 +3992,31 @@
           "completed_at": "2026-11-24T19:07:10.721728+00:00",
           "ok": false,
           "error": "CollectionError: Browser search HTTP 403: https://rosendin.wd1.myworkdayjobs.com/wday/cxs/rosendin/Careers/job/Office-OR-Outside-Trimet-and-Lane-Cty/Assistant-Project-Manager_JR106461"
+        },
+        "mac": {
+          "firm": "Rosendin Electric",
+          "route": "mac",
+          "started_at": "2026-11-24T19:23:31.665279+00:00",
+          "completed_at": "2026-11-24T19:24:26.809085+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 379,
+            "enumerated_raw": 379,
+            "advertised": 379,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 73,
+            "closed_during_pull": 0,
+            "kept": 5,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {}
+          }
         }
       },
-      "snapshot_at": "2026-11-24T18:06:29.726104+00:00",
-      "completed_at": "2026-11-24T18:07:35.962804+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T19:23:31.665279+00:00",
+      "completed_at": "2026-11-24T19:24:26.809085+00:00",
+      "snapshot_route": "mac"
     },
     "Celgard": {
       "rows": [
@@ -5242,7 +5262,17 @@
       "firms_failed": 2,
       "timer_run_id": "45455159040",
       "timer_fired_at": "2026-11-24T19:02:42.859641+00:00"
+    },
+    {
+      "id": "e4e464f9-b8f5-4f0d-9b15-20ab9325a52f",
+      "route": "mac",
+      "started_at": "2026-11-24T19:23:29.675271+00:00",
+      "completed_at": "2026-11-24T19:24:44.643233+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 2,
+      "firms_succeeded": 2,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-24T19:08:31.016587+00:00"
+  "published_at": "2026-11-24T19:24:46.170027+00:00"
 }
