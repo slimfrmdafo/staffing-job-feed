@@ -31,7 +31,10 @@ def status_text(state):
         contacts+=sum(any(r[k] for k in ('recruiter_name','recruiter_email','recruiter_phone')) for r in rows)
         runners='cloud+mac' if f.get('attempts',{}).get('cloud',{}).get('ok') is False else 'cloud'
         lines.append(f"{name}: listings={len(rows)} runners={runners} snapshot_runner={f.get('snapshot_route','none')} last_success={f.get('completed_at','never')}")
-        for route,a in sorted(f.get('attempts',{}).items()):lines.append(f"  {route}: {'OK' if a['ok'] else 'FAILED'} at {a['completed_at']} "+(str(a.get('info',{})) if a['ok'] else a.get('error','unspecified')))
+        for route,a in sorted(f.get('attempts',{}).items()):
+            cloud=f.get('attempts',{}).get('cloud',{})
+            label=route+' (historical; newer cloud pull recovered)' if route=='mac' and cloud.get('ok') and cloud['completed_at']>a['completed_at'] else route
+            lines.append(f"  {label}: {'OK' if a['ok'] else 'FAILED'} at {a['completed_at']} "+(str(a.get('info',{})) if a['ok'] else a.get('error','unspecified')))
     lines+=['',f'TOTAL listings={total} posted_contacts={contacts}','Unknown optional fields remain empty. All included listings use full posting details.','', 'Recent run receipts:']
     lines.extend(json.dumps(r,sort_keys=True) for r in state.get('runs',[])[-10:]);return '\n'.join(lines)+'\n'
 

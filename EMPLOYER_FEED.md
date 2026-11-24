@@ -37,6 +37,8 @@ gh workflow disable employer-collect.yml --repo slimfrmdafo/staffing-job-feed
 # Cancel active/waiting employer timer runs from their Actions pages.
 ```
 
+If an employer collector is already running, cancel that run too when updates must stop immediately. Disabling a workflow prevents future starts but does not cancel an active run.
+
 Resume the cloud relay once:
 
 ```sh
