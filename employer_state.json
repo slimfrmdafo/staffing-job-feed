@@ -623,8 +623,8 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-24T14:01:55.290841+00:00",
-          "completed_at": "2026-11-24T14:02:46.935851+00:00",
+          "started_at": "2026-11-24T15:02:23.384646+00:00",
+          "completed_at": "2026-11-24T15:03:24.794124+00:00",
           "ok": true,
           "info": {
             "enumerated": 2080,
@@ -636,8 +636,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:01:55.290841+00:00",
-      "completed_at": "2026-11-24T14:02:46.935851+00:00",
+      "snapshot_at": "2026-11-24T15:02:23.384646+00:00",
+      "completed_at": "2026-11-24T15:03:24.794124+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -999,16 +999,18 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-24T14:01:55.291912+00:00",
-          "completed_at": "2026-11-24T14:03:08.840032+00:00",
+          "started_at": "2026-11-24T15:02:23.385752+00:00",
+          "completed_at": "2026-11-24T15:03:30.791219+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1292,
-            "enumerated_raw": 1292,
-            "advertised": 1292,
+            "enumerated": 1300,
+            "enumerated_raw": 1300,
+            "advertised": 1300,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
+            "unpublished_index_ids": [
+              "R-583936"
+            ],
             "details_read": 23,
             "closed_during_pull": 0,
             "kept": 16,
@@ -1045,8 +1047,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:01:55.291912+00:00",
-      "completed_at": "2026-11-24T14:03:08.840032+00:00",
+      "snapshot_at": "2026-11-24T15:02:23.385752+00:00",
+      "completed_at": "2026-11-24T15:03:30.791219+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1295,28 +1297,6 @@
         },
         {
           "firm": "Truist",
-          "job_id": "R0119283",
-          "title": "DCXM Risk Enablement Leader",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-16",
-          "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/DCXM-Risk-Enablement-Leader_R0119283",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "10+ years experience",
-          "required_certifications": "",
-          "description": "The position is described below. If you want to apply, click the Apply Now button at the top or bottom of this page. After you click Apply Now and complete your application, you'll be invited to create a profile, which will let you see your application status and any communications. If you already have a profile with us, you can log in to check status.\nNeed Help?\nIf you have a disability and need assistance with the application, you can request a reasonable accommodation. Send an email to\nAccessibility\n(accommodation requests only; other inquiries won't receive a response).\nRegular or Temporary:\nRegular\nLanguage Fluency:\nEnglish (Required)\nWork Shift:\n1st shift (United States of America)\nPlease review the following job description:\nIn accordance with Truist in-office policy, this role will be in-office 5 days/week.\nResponsible for the design and implementation of a defined Digital, Client Experience, and Marketing (DCXM) Governance program to align with and enforce risk management framework, fulfillment of enterprise program requirements, and oversight of regulatory adherence. Act as an authority to manage engagements on behalf of DCXM and provide expert representation in coordination with DCXM Leadership, Governance and Control Organization, Legal, Compliance, Truist Audit Services, Enterprise Technology and other stakeholders to achieve overall strategy success and platforms execution for all client and teammate facing platforms/capabilities owned by DCXM. Serves as an individual contributor.\nESSENTIAL DUTIES AND RESPONSIBILITIES\nFollowing is a summary of the essential functions for this job. Other duties may be performed, both major and minor, which are not mentioned below. Specific activities may change from time to time.\n1. Develop, administer and provide oversight of the fraud and authentication governance program for digital, branch and ATM platforms, with a focus on risk management and strategy framework to ensure consistency and operations within risk appetite. Key activities to include but not limited to roadmap development and prioritization, risk assessment coordination, strategic planning, and engagement with centralized Fraud and Authentication teams.\n2. Lead cross-functional risk and governance projects for DCXM to ensure collaboration, engagement and successful execution to deliver benefits realization.\n3. Directs and oversees relationships with business owners and technology leads to support overall program needs, ensuring implementation and oversight of appropriate risk management plans for DCXM governance and execution program initiatives.\n4. Advise and challenge stakeholders regarding new, changed or discontinued business activity to drive transparency, accuracy of testing/assessments, and to assist in weighing needs for completion of risk program requirements, internal resolutions or escalation to appropriate risk channels for vetting or approvals where warranted.\n5. Monitors and challenges performance of current systems and processes related to fraud and authentication\n.\nIdentifies and advocates for solutions designed to deliver value and mitigate risk as appropriate.\n6. Promote business leadership in ownership of gaps, self-identified issues and risk acceptance, advising on remediation activities/solutions and strategies where appropriate; quickly ensure escalation paths where warranted for timely input and resolution.\n7. Develop and maintain collaborative, positive working partnerships across division leadership and teams, risk advisors, legal, compliance, audit and other partners using clear communication, a risk-based approach and project management skills. Key activities include rallying all vested stakeholders as needed for clear understanding of objectives, alignment on risk impacts, identification of redundancy to fulfill related requests, trouble-shooting, etc. with commitment to ensuring all stakeholders objectives can be met within reason or to full satisfaction. Ability to present difficult topics, challenges, and pivot to alternate solutions and methods to achieve goals\nQualifications\nRequired Qualifications\n1. Bachelor’s degree in Marketing, Business Administration, Finance or related field or equivalent education and related training and work-related experience\n2. 10+ years experience in financial services industry, preferably with a large financial services firm in Operations or Risk Management related areas.\n3. In depth knowledge of key risk disciplines and regulations in the banking industry\n4. Ability to effectively prioritize complex projects and the skills to adapt quickly to new challenges and concepts, capable of navigating ambiguity and problem-solving issues in a heavily matrixed corporate environment.\n5. Ability to work strategically and tactically, comfortable seeing and defining the “big picture” while overseeing details.\n6. Excellent leadership ability and sound decision-making skills.\n7. Strong business acumen and organizational agility.\n8. Strong effective communicator (written and verbal) with executive management and regulators.\n9. Profound sense of ethics and the ability to deal with pressure from all areas of the business.\n10. Demonstrated executive level presence with expert level verbal and written communication skills.\n11. Strong skills in MS Office Suite (PowerPoint, Excel, Word, Visio, Project)\nPreferred Qualifications\n1. MBA or advanced degree\n2. Professional certification or license\n3. Experience in the financial services industry and related division\nGeneral Description of Available Benefits for Eligible Employees of Truist Financial Corporation:\nAll regular teammates (not temporary or contingent workers) working 20 hours or more per week are eligible for benefits, though eligibility for specific benefits may be determined by the division of Truist offering the\nposition. Truist\noffers medical, dental, vision, life insurance, disability, accidental death and dismemberment, tax-preferred savings accounts, and a 401k plan to teammates. Teammates also receive no less than 10 days of vacation (prorated based on date of hire and by full-time or part-time status) during their first year of employment, along with 10 sick days (also prorated), and paid holidays. For more details on Truist’s generous benefit plans, please visit\nour Benefits site\n. Depending on the position and division, this job may also be eligible for Truist’s defined benefit pension plan, restricted stock units, and/or a deferred compensation plan. As you advance through the hiring process, you will also learn more about the specific benefits available for any non-temporary position for which you apply, based on full-time or part-time status, position, and division of work.\nTruist is an Equal Opportunity Employer that does not discriminate on the basis of race, gender, color, religion, citizenship or national origin, age, sexual orientation, gender identity, disability, veteran status, or other classification protected by law. Truist is a Drug Free Workplace.\nEEO is the Law\nE-Verify\nIER Right to Work"
-        },
-        {
-          "firm": "Truist",
           "job_id": "R0121828",
           "title": "Business Risk Senior Consultant (On-site)",
           "client_company": "",
@@ -1380,28 +1360,6 @@
           "required_experience": "4 years of experience",
           "required_certifications": "",
           "description": "The position is described below. If you want to apply, click the Apply Now button at the top or bottom of this page. After you click Apply Now and complete your application, you'll be invited to create a profile, which will let you see your application status and any communications. If you already have a profile with us, you can log in to check status.\nNeed Help?\nIf you have a disability and need assistance with the application, you can request a reasonable accommodation. Send an email to\nAccessibility\n(accommodation requests only; other inquiries won't receive a response).\nRegular or Temporary:\nRegular\nLanguage Fluency:\nEnglish (Required)\nWork Shift:\n1st shift (United States of America)\nPlease review the following job description:\nSupports and coordinates day to day technology operations to ensure stable and efficient performance across assigned platforms, infrastructure, systems, and networks. Delivers reliable administration and support of hardware, software, databases, and end user technology, highlighting issues and trends to senior teammates and providing assistance and training to lower level support teammates to enable seamless service delivery and operational continuity.\nESSENTIAL DUTIES AND RESPONSIBILITIES\nFollowing is a summary of the essential functions for this job. Other duties may be performed, both major and minor, which are not mentioned below. Specific activities may change from time to time.\n1. Delivers day-to-day operational support for assigned technology platforms, infrastructure, and systems, helping maintain production stability and performance.\n2. Administers and supports hardware, software, databases, and enduser technology by following established procedures, checking and adjusting work methods as needed to ensure reliable and scalable service delivery.\n3. Works with other technology teams to coordinate routine operational activities, raising questions or concerns when issues, risks, or dependencies are identified.\n4. Monitors system performance, alerts, and queues, resolving issues within defined scope and escalating more complex problems to appropriate teams for timely resolution.\n5. May support and coordinate installation planning activities by managing schedules, tracking readiness tasks and dependencies, identifying and addressing non‑routine planning issues, and working with internal teams and vendors to support timely and compliant deployments.\n5. Follows and reinforces approved standards, policies, and procedures in daily work to support compliance, security, and risk management, flagging gaps or inconsistencies to more senior teammates.\n6. Participates in scheduled maintenance, upgrades, and troubleshooting tasks by executing runbooks and documented steps, validating outcomes, and helping minimize service disruptions.\n7. Documents requests, workarounds, and resolutions clearly and accurately to support continuous improvement of support processes.\n8. Contributes input on recurring issues and observed trends to help assess operational needs and plan improvements or small-scale technology initiatives.\n9. Provides technical assistance and training to lower level support teammates, including explaining procedures, walking through troubleshooting steps, and reviewing their work for accuracy where appropriate.\nQualifications\nRequired Qualifications\nThe requirements listed below are representative of the knowledge, skill and/or ability required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n1. High school diploma and a minimum of 4 years of experience in technology operations or related technical support roles.\n2. Working knowledge of IT infrastructure components including hardware, software, and networks.\n3. Familiarity with standard operating procedures and compliance requirements in technology environments.\nPreferred Qualifications\n5+ years of navigating in mainframe z/OS environment (TSO, SDFS, JES2, Initiators, etc)\n5+ years of hands‑on experience as batch analyst or mainframe console operator in large‑scale enterprise environments\n5+ years of experience with ESP batch scheduler product\n5+ years navigating mainframe environment (z/OS, TSO, SDSF, ESP, SYSLOG)\nUnderstanding of mainframe JCL for job execution, and system initiators\nExperience operating within ITIL‑based environments and change management processes\nStrong written and verbal English communication skills\nGeneral Description of Available Benefits for Eligible Employees of Truist Financial Corporation:\nAll regular teammates (not temporary or contingent workers) working 20 hours or more per week are eligible for benefits, though eligibility for specific benefits may be determined by the division of Truist offering the\nposition. Truist\noffers medical, dental, vision, life insurance, disability, accidental death and dismemberment, tax-preferred savings accounts, and a 401k plan to teammates. Teammates also receive no less than 10 days of vacation (prorated based on date of hire and by full-time or part-time status) during their first year of employment, along with 10 sick days (also prorated), and paid holidays. For more details on Truist’s generous benefit plans, please visit\nour Benefits site\n. Depending on the position and division, this job may also be eligible for Truist’s defined benefit pension plan, restricted stock units, and/or a deferred compensation plan. As you advance through the hiring process, you will also learn more about the specific benefits available for any non-temporary position for which you apply, based on full-time or part-time status, position, and division of work.\nTruist is an Equal Opportunity Employer that does not discriminate on the basis of race, gender, color, religion, citizenship or national origin, age, sexual orientation, gender identity, disability, veteran status, or other classification protected by law. Truist is a Drug Free Workplace.\nEEO is the Law\nE-Verify\nIER Right to Work"
-        },
-        {
-          "firm": "Truist",
-          "job_id": "R0121689",
-          "title": "Promotions Program Manager - Operations & Servicing",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-10",
-          "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/Promotions-Program-Manager---Operations---Servicing_R0121689",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "The position is described below. If you want to apply, click the Apply Now button at the top or bottom of this page. After you click Apply Now and complete your application, you'll be invited to create a profile, which will let you see your application status and any communications. If you already have a profile with us, you can log in to check status.\nNeed Help?\nIf you have a disability and need assistance with the application, you can request a reasonable accommodation. Send an email to\nAccessibility\n(accommodation requests only; other inquiries won't receive a response).\nRegular or Temporary:\nRegular\nLanguage Fluency:\nEnglish (Required)\nWork Shift:\n1st shift (United States of America)\nPlease review the following job description:\nIn accordance with Truist in-office policy, this role will be in office, 5 days/week. This role will be available only in Charlotte and no relocation will be available.\nManage the operations, servicing, governance, and risk/control framework of the promotions capability portfolio responsible for enabling consistent, scalable, and well-controlled delivery of promotional offers. Lead and/or coordinate work-streams across the Promotions Program Office, product, marketing, channel management, servicing, risk, governance, compliance, and other areas to improve operational capabilities, process discipline, teammate readiness, and efficiencies within the program. Set the program direction and communicate individual and team priorities.\nESSENTIAL DUTIES AND RESPONSIBILITIES\nFollowing is a summary of the essential functions for this job.  Other duties may be performed, both major and minor, which are not mentioned below.  Specific activities may change from time to time.\n1.\nManage a significant portion of the overall promotions operations and servicing framework supporting the promotions capabilities portfolio and ensure that promotion-related processes, tools, documentation, governance routines, and resources enable consistent and controlled execution.  Ensure team and individual deliverables are focused on and prioritized to achieve operational, risk, control, and program goals for the line of business.\n2.\nAdvise operations and servicing leaders within the department on new and emerging needs for process design, change readiness, escalation paths, and documentation to ensure new promotions and capabilities are launched with minimal risk and focused on optimal client and teammate experience.\n3.\nAssist Group Senior Manager in partnering with key functional management within the Promotions Program Office and across product, marketing, lines of business, channels, IT, servicing, risk, governance, and other areas to develop and implement operational initiatives, readiness routines, and capability enhancements that support effective promotion delivery.\n4.\nMake recommendations on development priorities for the overall Promotions roadmap and to augment promotions capabilities, including operational, servicing, documentation, risk/control, and continuous improvement needs. May manage third party dependencies.\n5.\nLead conversations with analytics, channel managers, servicing partners, and internal stakeholders to define operational measures that complement KPI/KRP tracking, assess operating model performance, and provide insights on process effectiveness, servicing trends, risk indicators, and improvement opportunities.  Report regularly to internal clients, Promotions Program leadership, and other stakeholders as required.\n6.\nMinimize risk in promotion design and delivery by understanding regulations and control expectations related to promotional offers and proactively fostering collaboration with Legal, Compliance, Tax, DCXM Governance, and Promotions Program Management leads to guide and implement risk improvements in promotion processes, platforms, controls, documentation, and design.\n7.\nSafeguard and improve departmental processes to further scale performance in promotions intake, readiness, servicing, governance, design, set up, fulfilment, issue escalation, and control readiness.\n8.\nThrough thought leadership, be an influencer in operational, servicing, governance, and capability discussions with internal and external partners and as an authoritative communicator with senior management.\n9.    Contribute new and trending ideas to operating model improvements, process enhancements, servicing practices, risk mitigation, and promotional capabilities by staying abreast of promotion operations and best practices within and outside the financial services industry.\nQUALIFICATIONS\nRequired Qualifications:\nThe requirements listed below are representative of the knowledge, skill and/or ability required.  Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n1.\nBachelor’s degree in Marketing, Communications, Business Administration, Operations Management, Risk Management, Organizational Effectiveness, or related field, or equivalent education and related training\n2.    Seven years of related experience or an equivalent combination of education and experience\n2.    Seven years of related experience or an equivalent combination of education and experience\n3.    Deep specialized (SME) and/or broad knowledge within\npromotions operations, program governance, process management, marketing operations\nor related discipline; sound and comprehensive understanding of business and organizational strategies and processes managing a process\n4.    Ability to interpret internal and external business challenges and implement best practices to improve products, processes, controls, or services\n5.    Ability to lead projects of significant complexity and risk exposure, in addition to leading a team of professionals\n6.    Ability to exercise independent judgment in solving technical, operational, risk/control, and organizational challenges in the context of business objectives and priorities\n7.    Sophisticated analytical skills and the ability to solve complex technical and business problems\n8.    Ability to influence others to adopt a new perspective\n9.    Knowledge of the industry's competitive landscape and an understanding of the market, operational, and regulatory factors that shape the industry\nPreferred Qualifications:\n1.    MBA degree\n2.    Seven years of marketing operations, financial services, or regulated program experience\n3.    Experience in directly managing others\n4.    General Understanding of Agile Practices, workflow platforms, and operational risk management.\nGeneral Description of Available Benefits for Eligible Employees of Truist Financial Corporation:\nAll regular teammates (not temporary or contingent workers) working 20 hours or more per week are eligible for benefits, though eligibility for specific benefits may be determined by the division of Truist offering the\nposition. Truist\noffers medical, dental, vision, life insurance, disability, accidental death and dismemberment, tax-preferred savings accounts, and a 401k plan to teammates. Teammates also receive no less than 10 days of vacation (prorated based on date of hire and by full-time or part-time status) during their first year of employment, along with 10 sick days (also prorated), and paid holidays. For more details on Truist’s generous benefit plans, please visit\nour Benefits site\n. Depending on the position and division, this job may also be eligible for Truist’s defined benefit pension plan, restricted stock units, and/or a deferred compensation plan. As you advance through the hiring process, you will also learn more about the specific benefits available for any non-temporary position for which you apply, based on full-time or part-time status, position, and division of work.\nTruist is an Equal Opportunity Employer that does not discriminate on the basis of race, gender, color, religion, citizenship or national origin, age, sexual orientation, gender identity, disability, veteran status, or other classification protected by law. Truist is a Drug Free Workplace.\nEEO is the Law\nE-Verify\nIER Right to Work"
         },
         {
           "firm": "Truist",
@@ -1515,28 +1473,6 @@
         },
         {
           "firm": "Truist",
-          "job_id": "R0118403",
-          "title": "Business Governance Leader",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-10-27",
-          "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/Business-Governance-Leader_R0118403",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "The position is described below. If you want to apply, click the Apply Now button at the top or bottom of this page. After you click Apply Now and complete your application, you'll be invited to create a profile, which will let you see your application status and any communications. If you already have a profile with us, you can log in to check status.\nNeed Help?\nIf you have a disability and need assistance with the application, you can request a reasonable accommodation. Send an email to\nAccessibility\n(accommodation requests only; other inquiries won't receive a response).\nRegular or Temporary:\nRegular\nLanguage Fluency:\nEnglish (Required)\nWork Shift:\n1st shift (United States of America)\nPlease review the following job description:\nA first line of defense risk professional leading a team within a Consumer and Small Business Banking governance business unit. Serves as a subject matter expert responsible for effectively and proactively identifying, mitigating and managing risks within an assigned line of business. This position will be responsible for leading a team of business governance professionals to support the execution of risk programs, as well as oversight of existing and emerging risks. Responsible for supporting strong risk management practices in alignment with the firm’s risk appetite and the assigned business unit’s strategic & financial plan.\nESSENTIAL DUTIES AND RESPONSIBILITIES\nFollowing is a summary of the essential functions for this job. Other duties may be performed, both major and minor, which are not mentioned below. Specific activities may change from time to time.\n1. Engage in risk management activities within Consumer and Small Business, proactively identifying existing and emerging risks, evaluating the significance of the risks, and providing support in managing acceptance or mitigation of the identified risks. Work collaboratively with aligned GCO Risk Program to ensure alignment with firm’s risk appetite.\n2. Lead a team of business governance teammates responsible for executing the responsibilities of various operations and enterprise risk programs in accordance with the program requirements (Ie: Risk control self-assessments, issues management).\n3. In collaboration with business line leadership, engage in the identifying, assessing, controlling, mitigating, and communicating risks associated with business processes and decisions. Provide oversight and governance of the assigned business unit regarding its control environment in conjunction with GCO requirements.\n4. Maintain oversight of the business Key Performance Indicators (KPIs) and Key Risk Indicators (KRIs).\n5. Provide risk management support and oversight for change activities (both business and regulatory change).\n6. Provide oversight and support for open risk, audit, and regulatory issues. Evaluate the root cause, the corrective action plans and work with business partners and GCO advisor team to successfully implement and document remediation.\n7. Support the business and the GCO governance & reporting team for all audit and regulatory exam engagements.\n8. Communicate with business unit’s leadership regarding activities, trends, and events pertaining to risk, regulatory, audit and loan review activities. Promote various risk initiatives and their supporting metrics.\n9. Coach and develop business governance teammates.\nQUALIFICATIONS\nRequired Qualifications:\nThe requirements listed below are representative of the knowledge, skill and/or ability required.  Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n1. Bachelor’s degree in Accounting, Business, Finance or related field, or equivalent education and related training\n2. 10+ years of progressive experience in a financial institution with emphasis on risk management or equivalent work experience and training\n3. Advancednowledge of industry-related regulatory requirements.\n4. Knowledge of operational and other non-financial risks.\n5. Ability and willingness to learn and adapt to change and competing priorities\n6. Strong written and verbal skills\n7. Solid problem solving skills in complex environments; Ability to influence change\n8. Excellent time management and organizational skills with the ability to operate without close supervision on day-to-day decisions; Capable of handling multiple projects concurrently\n9. Demonstrated proficiency in basic computer applications, such as Microsoft Office software products\n10. Ability to travel, occasionally overnight\nPreferred Qualifications:\n1. Master’s degree in Finance or Business, or equivalent education and related training.\n2. Consulting experience at a corporate level\n3. Knowledge of financial, accounting, and reporting systems\n4. Professional designation related to risk management or field of assigned business unit(s)\n5. Consumer and small business banking experience.\nGeneral Description of Available Benefits for Eligible Employees of Truist Financial Corporation:\nAll regular teammates (not temporary or contingent workers) working 20 hours or more per week are eligible for benefits, though eligibility for specific benefits may be determined by the division of Truist offering the\nposition. Truist\noffers medical, dental, vision, life insurance, disability, accidental death and dismemberment, tax-preferred savings accounts, and a 401k plan to teammates. Teammates also receive no less than 10 days of vacation (prorated based on date of hire and by full-time or part-time status) during their first year of employment, along with 10 sick days (also prorated), and paid holidays. For more details on Truist’s generous benefit plans, please visit\nour Benefits site\n. Depending on the position and division, this job may also be eligible for Truist’s defined benefit pension plan, restricted stock units, and/or a deferred compensation plan. As you advance through the hiring process, you will also learn more about the specific benefits available for any non-temporary position for which you apply, based on full-time or part-time status, position, and division of work.\nTruist is an Equal Opportunity Employer that does not discriminate on the basis of race, gender, color, religion, citizenship or national origin, age, sexual orientation, gender identity, disability, veteran status, or other classification protected by law. Truist is a Drug Free Workplace.\nEEO is the Law\nE-Verify\nIER Right to Work"
-        },
-        {
-          "firm": "Truist",
           "job_id": "R0121146",
           "title": "Principal Enterprise Architect - Fraud & AML Technology",
           "client_company": "",
@@ -1600,28 +1536,6 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "The position is described below. If you want to apply, click the Apply Now button at the top or bottom of this page. After you click Apply Now and complete your application, you'll be invited to create a profile, which will let you see your application status and any communications. If you already have a profile with us, you can log in to check status.\nNeed Help?\nIf you have a disability and need assistance with the application, you can request a reasonable accommodation. Send an email to\nAccessibility\n(accommodation requests only; other inquiries won't receive a response).\nRegular or Temporary:\nRegular\nLanguage Fluency:\nEnglish (Required)\nWork Shift:\n1st shift (United States of America)\nPlease review the following job description:\nKey contributor to the Truist second-line-of-defense (LoD2) Technology Risk team responsible for independent risk oversight of the Security Defense Risk domains. Partner with Truist Protection Services (TPS) teammates and stakeholders in assigned oversight areas, advise on risk-related topics, effectively challenge through risk programs, and independently evaluate cybersecurity risk in the Truist environment.\nESSENTIAL DUTIES AND RESPONSIBILITIES\nFollowing is a summary of the essential functions for this job.  Other duties may be performed, both major and minor, which are not mentioned below.  Specific activities may change from time to time.\n1.  Provide independent risk oversight (i.e. LOD2) for Truist Protection Services and related consult to Truist Business Units through the effective identification, mitigation, monitoring and reporting of technology risk and other related risks (e.g., operational, compliance) within Enterprise Technology.\n2.  Serve as a subject matter expert and steward of the Cybersecurity Risk Framework to identify, report and mitigate technology risks, with a focus on cybersecurity defense, detection, incident response, and related security capabilities.\n3.  Execute independent assessment and oversight of the maturity of technology and adequacy of cybersecurity controls to achieve business outcomes for performance, stability, security and service availability, including cybersecurity detection, investigation, response, and recovery capabilities.\n4.  Strengthen and sustain proactive risk culture through conducting effective risk focused management and partnership routines with technology teams and internal partners. Interface with senior leaders and key partners across the organization.\n5.  Review and challenge outcomes of first-line-of-defense risk program execution.\n6.  Monitor legal, regulatory, compliance and audit matters for assigned Enterprise Technology oversight area(s) and ensures timely action.\n7.  Lead complex projects that have broad technology and enterprise level impact with implications and/or resource requirements beyond risk management. Provide informal leadership to others and serves as a resource on complex solutions.\n8.  Comfortable in interdisciplinary, matrix environments. Use strong cybersecurity technical acumen to effectively bridge risk, business, technology, and cybersecurity functions. Pivot quickly between advisory consultant and implementation consultant roles.\nQUALIFICATIONS\nRequired Qualifications:\nThe requirements listed below are representative of the knowledge, skill and/or ability required.  Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n1. Bachelor's Degree or an equivalent combination of education and experience.\n2. 10+  years of banking, technology, operations or risk management experience.\n3. Strong business acumen / knowledge, management experience, problem solving, critical thinking, influencing and decision-making skills.\n4. Experience operating independently and navigating ambiguity to deliver value.\n5. Excellent interpersonal and communication skills demonstrating the ability to establish credibility with all levels of management effectively.\n6. Demonstrated ability to organize and manage complex initiatives and deliver high-quality, executive level work products.\n7. Comfort with data and applying analysis to derive value-add insights.\n8. Adept with Microsoft Office products.\nPreferred Qualifications:\n1.  Master’s degree in Cybersecurity, Computer Science, Information Security, Engineering, Risk Management, or related discipline.\n2.  lFamiliarity with financial services cybersecurity laws, regulations, supervisory guidance, and industry standards (e.g., FFIEC IT Examination Handbook, NIST Cybersecurity Framework, NIST SP 800-61, ISO/IEC 27001, and CIS Critical Security Controls).\n3.  Familiarity with risk measurement approaches including development of Key Risk Indicators and thresholds and associated reporting and analytics tools (e.g. Tableau).\n4.  Familiarity with enterprise Governance Risk and Compliance (eGRC) platforms and tools (e.g., RSA Archer).\n5.  Professional cybersecurity certification such as Certified Information Security Manager (CISM) or Certified Information Systems Security Professional (CISSP) or another relevant cybersecurity designation.\n6.  Extensive technical cybersecurity experience, preferably within security operations, incident response, threat detection, threat hunting, digital forensics, or cyber incident management.\nTo comply with the Virginia pay transparency statute and for work locations in Virginia only, The annual base salary for this position is $185,000 - $230,000.\nGeneral Description of Available Benefits for Eligible Employees of Truist Financial Corporation:\nAll regular teammates (not temporary or contingent workers) working 20 hours or more per week are eligible for benefits, though eligibility for specific benefits may be determined by the division of Truist offering the\nposition. Truist\noffers medical, dental, vision, life insurance, disability, accidental death and dismemberment, tax-preferred savings accounts, and a 401k plan to teammates. Teammates also receive no less than 10 days of vacation (prorated based on date of hire and by full-time or part-time status) during their first year of employment, along with 10 sick days (also prorated), and paid holidays. For more details on Truist’s generous benefit plans, please visit\nour Benefits site\n. Depending on the position and division, this job may also be eligible for Truist’s defined benefit pension plan, restricted stock units, and/or a deferred compensation plan. As you advance through the hiring process, you will also learn more about the specific benefits available for any non-temporary position for which you apply, based on full-time or part-time status, position, and division of work.\nTruist is an Equal Opportunity Employer that does not discriminate on the basis of race, gender, color, religion, citizenship or national origin, age, sexual orientation, gender identity, disability, veteran status, or other classification protected by law. Truist is a Drug Free Workplace.\nEEO is the Law\nE-Verify\nIER Right to Work"
-        },
-        {
-          "firm": "Truist",
-          "job_id": "R0120816",
-          "title": "Business Unit Risk Specialist I/II - FINRA",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "115000",
-          "pay_max": "145000",
-          "pay_unit": "year",
-          "posted_date": "2026-10-19",
-          "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/Business-Unit-Risk-Specialist-I-II---FINRA_R0120816",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "5+ years of experience",
-          "required_certifications": "",
-          "description": "The position is described below. If you want to apply, click the Apply Now button at the top or bottom of this page. After you click Apply Now and complete your application, you'll be invited to create a profile, which will let you see your application status and any communications. If you already have a profile with us, you can log in to check status.\nNeed Help?\nIf you have a disability and need assistance with the application, you can request a reasonable accommodation. Send an email to\nAccessibility\n(accommodation requests only; other inquiries won't receive a response).\nRegular or Temporary:\nRegular\nLanguage Fluency:\nEnglish (Required)\nWork Shift:\n1st shift (United States of America)\nPlease review the following job description:\nBusiness risk specialist responsible for supporting and executing governance activities, operational risk monitoring, issue management, remediation tracking, and enterprise risk program implementation across Wealth Management.  Serves as a key contributor to operational risk management efforts by providing analysis, coordination, stakeholder support, and governance execution while reinforcing business ownership of risk, operational accountability, and adherence to enterprise governance requirements. Delivers visibility and analysis into operational risk trends, remediation progress, governance priorities, and business readiness activities through ongoing monitoring, reporting, and coordination activities.\nESSENTIAL DUTIES AND RESPONSIBILITIES\nFollowing is a summary of the essential functions for this job.  Other duties may be performed, both major and minor, which are not mentioned below.  Specific activities may change from time to time.\nRisk Culture & Operational Integration\n1.    Assess, evaluate, and communicate risk and governance issues, while promoting business ownership of risk and operational accountability through stakeholder engagement.\n2.    Execute enterprise risk program requirements and governance activities across Wealth Management including assessing, monitoring, and escalating operational, control, and regulatory concerns.\nGovernance, Reporting & Leadership Support\n3.    Analyze and interpret KRIs, risk reporting, and remediation activity, coordinating governance actions and commitments to promote accountability and effective risk management outcomes.\n4.    Facilitate governance forums, escalations, and committee activities, including developing reporting and risk insights to inform leadership decisions and operational oversight.\nBusiness Coordination & Operational Support\n5.    Partner with ECCO, Compliance, Audit, Legal, and enterprise governance partners to advance governance objectives, stakeholder communication, and remediation efforts.\n6.    Prepare audit, regulatory, and enterprise review readiness, including operational readiness activities for business initiatives, governance requirements, and enterprise programs.\nBusiness-Specific Risk Support & Execution\n7.    Assess and understand enterprise risk program activities, including RCSA, issue management, risk monitoring, and remediation tracking across supported business areas.\n8.    Analyze incidents and risk trends, assess remediation effectiveness, and evaluate process weaknesses to identify risk mitigation opportunities and strengthen governance outcomes.\nQualifications\nRequired Qualifications\nThe requirements listed below are representative of the knowledge, skill and/or ability required.  Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n1. Bachelor’s degree in Accounting, Business, Finance or related field, or equivalent education and related training.\n2. 5+ years of experience in a financial institution with emphasis on risk management or equivalent work experience and training, and/or equivalent education, training and experience.\n3. Experience in compliance and operational risk mitigation and remediation.\n4. Strong communication, interpersonal, presentation and negotiation skills.\n5. Proven leadership and management skills.\n6. Strong time management and organizational skills adaptable to a dynamic and complex work environment; Capable of handling multiple projects concurrently.\n7. Demonstrated proficiency in basic computer applications, such as Microsoft Office software products.\n8. Ability to travel, occasionally overnight.\nPreferred Qualifications\n1. Strongly preferred: FINRA Series 7, 24, 53, and 66 licenses (Series 9&10 can be used in lieu of 53. Series 63&65 can be used in lieu of Series 66).\n2. Previous experience in a similar role covering Wealth Management.\n.\nThe annual base salary for this position is $115,000 - $145,000.\nGeneral Description of Available Benefits for Eligible Employees of Truist Financial Corporation:\nAll regular teammates (not temporary or contingent workers) working 20 hours or more per week are eligible for benefits, though eligibility for specific benefits may be determined by the division of Truist offering the\nposition. Truist\noffers medical, dental, vision, life insurance, disability, accidental death and dismemberment, tax-preferred savings accounts, and a 401k plan to teammates. Teammates also receive no less than 10 days of vacation (prorated based on date of hire and by full-time or part-time status) during their first year of employment, along with 10 sick days (also prorated), and paid holidays. For more details on Truist’s generous benefit plans, please visit\nour Benefits site\n. Depending on the position and division, this job may also be eligible for Truist’s defined benefit pension plan, restricted stock units, and/or a deferred compensation plan. As you advance through the hiring process, you will also learn more about the specific benefits available for any non-temporary position for which you apply, based on full-time or part-time status, position, and division of work.\nTruist is an Equal Opportunity Employer that does not discriminate on the basis of race, gender, color, religion, citizenship or national origin, age, sexual orientation, gender identity, disability, veteran status, or other classification protected by law. Truist is a Drug Free Workplace.\nEEO is the Law\nE-Verify\nIER Right to Work"
         },
         {
           "firm": "Truist",
@@ -1848,25 +1762,25 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-24T14:01:55.292268+00:00",
-          "completed_at": "2026-11-24T14:03:29.810942+00:00",
-          "ok": false,
+          "started_at": "2026-11-24T15:02:23.386205+00:00",
+          "completed_at": "2026-11-24T15:03:46.743408+00:00",
+          "ok": true,
           "info": {
-            "enumerated": 1342,
-            "enumerated_raw": 1342,
-            "advertised": 1342,
+            "enumerated": 1343,
+            "enumerated_raw": 1343,
+            "advertised": 1343,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [
-              "R0121689"
+              "R0119845",
+              "R0121103"
             ],
-            "details_read": 47,
+            "details_read": 45,
             "closed_during_pull": 0,
-            "kept": 34,
+            "kept": 32,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {}
-          },
-          "error": "Previously published jobs became ID-only/unreadable search entries; retaining complete prior employer snapshot: R0121689"
+          }
         },
         "mac": {
           "firm": "Truist",
@@ -1877,8 +1791,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-24T13:01:32.841433+00:00",
-      "completed_at": "2026-11-24T13:03:02.486904+00:00",
+      "snapshot_at": "2026-11-24T15:02:23.386205+00:00",
+      "completed_at": "2026-11-24T15:03:46.743408+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -2042,13 +1956,13 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-24T14:01:55.292658+00:00",
-          "completed_at": "2026-11-24T14:02:06.809198+00:00",
+          "started_at": "2026-11-24T15:02:23.386595+00:00",
+          "completed_at": "2026-11-24T15:02:30.751775+00:00",
           "ok": true,
           "info": {
-            "enumerated": 66,
-            "enumerated_raw": 66,
-            "advertised": 66,
+            "enumerated": 67,
+            "enumerated_raw": 67,
+            "advertised": 67,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2080,8 +1994,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:01:55.292658+00:00",
-      "completed_at": "2026-11-24T14:02:06.809198+00:00",
+      "snapshot_at": "2026-11-24T15:02:23.386595+00:00",
+      "completed_at": "2026-11-24T15:02:30.751775+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2311,13 +2225,13 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-24T14:02:06.809334+00:00",
-          "completed_at": "2026-11-24T14:02:44.905420+00:00",
+          "started_at": "2026-11-24T15:02:30.751849+00:00",
+          "completed_at": "2026-11-24T15:03:04.616524+00:00",
           "ok": true,
           "info": {
-            "enumerated": 4784,
-            "enumerated_raw": 4784,
-            "advertised": 4784,
+            "enumerated": 4760,
+            "enumerated_raw": 4760,
+            "advertised": 4760,
             "details_read": 16,
             "kept": 10,
             "method": "employer current search widget + canonical full detail pages",
@@ -2341,8 +2255,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:02:06.809334+00:00",
-      "completed_at": "2026-11-24T14:02:44.905420+00:00",
+      "snapshot_at": "2026-11-24T15:02:30.751849+00:00",
+      "completed_at": "2026-11-24T15:03:04.616524+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2440,13 +2354,13 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-24T14:02:44.905491+00:00",
-          "completed_at": "2026-11-24T14:02:54.730837+00:00",
+          "started_at": "2026-11-24T15:03:04.616590+00:00",
+          "completed_at": "2026-11-24T15:03:12.447406+00:00",
           "ok": true,
           "info": {
-            "enumerated": 82,
-            "enumerated_raw": 82,
-            "advertised": 82,
+            "enumerated": 81,
+            "enumerated_raw": 81,
+            "advertised": 81,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2462,12 +2376,34 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:02:44.905491+00:00",
-      "completed_at": "2026-11-24T14:02:54.730837+00:00",
+      "snapshot_at": "2026-11-24T15:03:04.616590+00:00",
+      "completed_at": "2026-11-24T15:03:12.447406+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
       "rows": [
+        {
+          "firm": "TIAA",
+          "job_id": "R260600279",
+          "title": "Brokerage Operations Analyst",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "hybrid",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "24.04",
+          "pay_max": "31.3",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-24",
+          "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/Brokerage-Operations-Analyst_R260600279-2",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Operations Analyst\nThe Operations Analyst is responsible for a variety of tasks associated with the opening, funding, account transfers, and on-going maintenance of discretionary managed, fee-based accounts, as well as self-directed accounts. Under limited supervision, this job understands the regulatory/compliance policies associated with the brokerage business and understands the financial impacts associated with operational and trading responsibilities.\nKey Responsibilities and Duties\nProcesses account opening, initiates money movement requests, account transfers and/or processes account maintenance request.\nDeposits client funds into the correct account.\nPerforms various account maintenance processing/updates as directed by supervisor.\nCommunicates requirements to open, fund and maintain a TIAA brokerage/managed account.\nCompletes brokerage operation activities in a timely manner and at established productivity levels.\nUnderstands the regulatory requirements to open and maintain a brokerage/managed account.\nMust be flexible and work as a team to deliver exceptional service, manage high volume of tasks to ensure cases are processed both accurately and efficiently.\nEducational Requirements\nUniversity (Degree) Preferred\nWork Experience\nNo Experience Required\nFINRA Registrations\nSRC Indicator:  NRF\nPhysical Requirements\nPhysical Requirements: Sedentary Work\nCareer Level\n5IC\nPreferred Skills:\nFinancial Services experience\nBrokerage knowledge\nOperations processing experience\nDemonstrate experience as a problem solver\nAttention to detail\nUniversity Degree\nRelated Skills\nAdaptability, Collaboration, Communication, Conflict Management, Continuous Improvement Mindset, Critical Thinking, Detail-Oriented, Financial Risk Management, Prioritizes Effectively, Transaction Processing\nAnticipated Posting End Date:\n2026-11-27\nBase Pay Range: $24.04/hr - $31.30/hr\nActual base salary may vary based upon, but not limited to, relevant experience, time in role, base salary of internal peers, prior performance, business sector, and geographic location.  In addition to base salary, the competitive compensation package may include, depending on the role, participation in an incentive program linked to performance (for example, annual discretionary incentive programs, non-annual sales incentive plans, or other non-annual incentive plans).\n_____________________________________________________________________________________________________\nCompany Overview\nEvery worker deserves a secure retirement. For more than 100 years, TIAA has delivered it for millions of people. Founded to help educators retire with dignity, today weʼre a market-leading retirement company fueled by world-class asset management. But weʼre not just another legacy financial services firm. Weʼre fighting harder than ever before for our clients and the many Americans who need us.\nOur Culture of Impact\nAt TIAA, we're on a mission to build on our 100+ year legacy of delivering for our clients while evolving to meet tomorrow's challenges. We equip our associates with future-focused skills and AI tools that enable us to advance our mission. Together, we are fighting to ensure a more secure financial future for all and for generations to come. We are guided by our values: Champion Our People, Be Client Obsessed, Lead with Integrity, Own It, and Win As One. They influence every decision we make and how we work together to serve our clients every day. We thrive in a collaborative in-office environment where teams work across organizational boundaries with shared purpose, accelerating innovation and delivering meaningful results. Our workplace brings together TIAA and Nuveen's entrepreneurial spirit, where we work hard and work together to create lasting impact. Here, every associate can grow through meaningful learning experiences and development pathways—because when our people succeed, our impact on clients' lives grows stronger.\nBenefits and Total Rewards\nThe organization is committed to making financial well-being possible for its clients, and is equally committed to the well-being of our associates. That’s why we offer a comprehensive Total Rewards package designed to make a positive difference in the lives of our associates and their loved ones. Our benefits include a superior retirement program and highly competitive health, wellness and work life offerings that can help you achieve and maintain your best possible physical, emotional and financial well-being. To learn more about your benefits, please review our\nBenefits Summary\n.\nEqual Opportunity\nWe are an Equal Opportunity Employer. TIAA does not discriminate against any candidate or employee on the basis of age, race, color, national origin, sex, religion, veteran status, disability, sexual orientation, gender identity, or any other legally protected status.\nOur full EEO & Non-Discrimination statement is on our\ncareers home page\n, and you can read more about your rights and view government notices\nhere\n.\nAccessibility Support\nTIAA offers support for those who need assistance with our online application process to provide an equal employment opportunity to all job seekers, including individuals with disabilities.\nIf you are a U.S. applicant and desire a reasonable accommodation to complete a job application please use one of the below options to contact our accessibility support team:\nPhone: (800) 842-2755\nEmail:\naccessibility.support@tiaa.org\nDrug and Smoking Policy\nTIAA maintains a drug-free and smoke/free workplace.\nPrivacy Notices\nFor Applicants of TIAA, Nuveen and Affiliates residing in US (other than California), click\nhere\n.\nFor Applicants of TIAA, Nuveen and Affiliates residing in California, please click\nhere\n.\nFor Applicants of TIAA Global Capabilities, click\nhere\n.\nFor Applicants of Nuveen residing in Europe and APAC, please click\nhere\n."
+        },
         {
           "firm": "TIAA",
           "job_id": "R260900262",
@@ -2517,19 +2453,19 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-24T14:02:46.935982+00:00",
-          "completed_at": "2026-11-24T14:02:57.884592+00:00",
+          "started_at": "2026-11-24T15:03:12.447488+00:00",
+          "completed_at": "2026-11-24T15:03:21.233589+00:00",
           "ok": true,
           "info": {
-            "enumerated": 102,
-            "enumerated_raw": 102,
-            "advertised": 102,
+            "enumerated": 104,
+            "enumerated_raw": 104,
+            "advertised": 104,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 3,
+            "details_read": 4,
             "closed_during_pull": 0,
-            "kept": 2,
+            "kept": 3,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "Country": [
@@ -2563,8 +2499,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:02:46.935982+00:00",
-      "completed_at": "2026-11-24T14:02:57.884592+00:00",
+      "snapshot_at": "2026-11-24T15:03:12.447488+00:00",
+      "completed_at": "2026-11-24T15:03:21.233589+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2728,16 +2664,20 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-24T14:02:54.730899+00:00",
-          "completed_at": "2026-11-24T14:04:44.091330+00:00",
+          "started_at": "2026-11-24T15:03:21.233656+00:00",
+          "completed_at": "2026-11-24T15:05:23.341428+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1439,
-            "enumerated_raw": 1439,
-            "advertised": 1439,
+            "enumerated": 1445,
+            "enumerated_raw": 1445,
+            "advertised": 1445,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
+            "unpublished_index_ids": [
+              "261000941",
+              "261004341",
+              "26950805"
+            ],
             "details_read": 128,
             "closed_during_pull": 0,
             "kept": 7,
@@ -2750,8 +2690,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:02:54.730899+00:00",
-      "completed_at": "2026-11-24T14:04:44.091330+00:00",
+      "snapshot_at": "2026-11-24T15:03:21.233656+00:00",
+      "completed_at": "2026-11-24T15:05:23.341428+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2760,13 +2700,13 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-24T14:02:57.884668+00:00",
-          "completed_at": "2026-11-24T14:03:36.743530+00:00",
+          "started_at": "2026-11-24T15:03:24.794195+00:00",
+          "completed_at": "2026-11-24T15:04:07.522302+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1107,
-            "enumerated_raw": 1107,
-            "advertised": 1107,
+            "enumerated": 1105,
+            "enumerated_raw": 1105,
+            "advertised": 1105,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2782,8 +2722,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:02:57.884668+00:00",
-      "completed_at": "2026-11-24T14:03:36.743530+00:00",
+      "snapshot_at": "2026-11-24T15:03:24.794195+00:00",
+      "completed_at": "2026-11-24T15:04:07.522302+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2859,17 +2799,17 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-24T14:03:08.840106+00:00",
-          "completed_at": "2026-11-24T14:03:41.978133+00:00",
+          "started_at": "2026-11-24T15:03:30.791293+00:00",
+          "completed_at": "2026-11-24T15:04:14.141667+00:00",
           "ok": true,
           "info": {
-            "enumerated": 873,
-            "enumerated_raw": 873,
-            "advertised": 873,
+            "enumerated": 872,
+            "enumerated_raw": 872,
+            "advertised": 872,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 45,
+            "details_read": 44,
             "closed_during_pull": 0,
             "kept": 3,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -2881,8 +2821,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:03:08.840106+00:00",
-      "completed_at": "2026-11-24T14:03:41.978133+00:00",
+      "snapshot_at": "2026-11-24T15:03:30.791293+00:00",
+      "completed_at": "2026-11-24T15:04:14.141667+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2914,26 +2854,10 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-24T14:03:29.811020+00:00",
-          "completed_at": "2026-11-24T14:03:41.273571+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 143,
-            "enumerated_raw": 143,
-            "advertised": 143,
-            "location_partitions": 0,
-            "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 8,
-            "closed_during_pull": 0,
-            "kept": 1,
-            "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {
-              "locationCountry": [
-                "bc33aa3152ec42d4995f4791a106ed09"
-              ]
-            }
-          }
+          "started_at": "2026-11-24T15:03:46.743513+00:00",
+          "completed_at": "2026-11-24T15:03:52.008808+00:00",
+          "ok": false,
+          "error": "CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627082', '0']}"
         }
       },
       "snapshot_at": "2026-11-24T14:03:29.811020+00:00",
@@ -3013,8 +2937,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-24T14:03:36.743600+00:00",
-          "completed_at": "2026-11-24T14:03:48.782499+00:00",
+          "started_at": "2026-11-24T15:03:52.008842+00:00",
+          "completed_at": "2026-11-24T15:04:05.915885+00:00",
           "ok": true,
           "info": {
             "enumerated": 78,
@@ -3031,8 +2955,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:03:36.743600+00:00",
-      "completed_at": "2026-11-24T14:03:48.782499+00:00",
+      "snapshot_at": "2026-11-24T15:03:52.008842+00:00",
+      "completed_at": "2026-11-24T15:04:05.915885+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -3130,8 +3054,8 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-24T14:03:41.273651+00:00",
-          "completed_at": "2026-11-24T14:04:15.511308+00:00",
+          "started_at": "2026-11-24T15:04:05.915940+00:00",
+          "completed_at": "2026-11-24T15:04:37.564219+00:00",
           "ok": true,
           "info": {
             "enumerated": 886,
@@ -3139,9 +3063,7 @@
             "advertised": 886,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "2026-16241"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 11,
             "closed_during_pull": 0,
             "kept": 4,
@@ -3154,8 +3076,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:03:41.273651+00:00",
-      "completed_at": "2026-11-24T14:04:15.511308+00:00",
+      "snapshot_at": "2026-11-24T15:04:05.915940+00:00",
+      "completed_at": "2026-11-24T15:04:37.564219+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -3209,8 +3131,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-24T14:03:41.978208+00:00",
-          "completed_at": "2026-11-24T14:03:50.607035+00:00",
+          "started_at": "2026-11-24T15:04:07.522380+00:00",
+          "completed_at": "2026-11-24T15:04:26.529990+00:00",
           "ok": true,
           "info": {
             "enumerated": 40,
@@ -3227,8 +3149,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:03:41.978208+00:00",
-      "completed_at": "2026-11-24T14:03:50.607035+00:00",
+      "snapshot_at": "2026-11-24T15:04:07.522380+00:00",
+      "completed_at": "2026-11-24T15:04:26.529990+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3237,13 +3159,13 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-24T14:03:48.782566+00:00",
-          "completed_at": "2026-11-24T14:04:01.907912+00:00",
+          "started_at": "2026-11-24T15:04:14.141733+00:00",
+          "completed_at": "2026-11-24T15:04:26.387273+00:00",
           "ok": true,
           "info": {
-            "enumerated": 324,
-            "enumerated_raw": 324,
-            "advertised": 324,
+            "enumerated": 321,
+            "enumerated_raw": 321,
+            "advertised": 321,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3259,8 +3181,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:03:48.782566+00:00",
-      "completed_at": "2026-11-24T14:04:01.907912+00:00",
+      "snapshot_at": "2026-11-24T15:04:14.141733+00:00",
+      "completed_at": "2026-11-24T15:04:26.387273+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3380,13 +3302,13 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-24T14:03:50.607110+00:00",
-          "completed_at": "2026-11-24T14:04:29.432473+00:00",
+          "started_at": "2026-11-24T15:04:26.387347+00:00",
+          "completed_at": "2026-11-24T15:05:00.223229+00:00",
           "ok": true,
           "info": {
-            "enumerated": 394,
-            "enumerated_raw": 394,
-            "advertised": 394,
+            "enumerated": 397,
+            "enumerated_raw": 397,
+            "advertised": 397,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3402,8 +3324,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:03:50.607110+00:00",
-      "completed_at": "2026-11-24T14:04:29.432473+00:00",
+      "snapshot_at": "2026-11-24T15:04:26.387347+00:00",
+      "completed_at": "2026-11-24T15:05:00.223229+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3412,13 +3334,13 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:01.907984+00:00",
-          "completed_at": "2026-11-24T14:04:17.646150+00:00",
+          "started_at": "2026-11-24T15:04:26.530046+00:00",
+          "completed_at": "2026-11-24T15:04:44.890044+00:00",
           "ok": true,
           "info": {
-            "enumerated": 396,
-            "enumerated_raw": 396,
-            "advertised": 396,
+            "enumerated": 397,
+            "enumerated_raw": 397,
+            "advertised": 397,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3450,8 +3372,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:01.907984+00:00",
-      "completed_at": "2026-11-24T14:04:17.646150+00:00",
+      "snapshot_at": "2026-11-24T15:04:26.530046+00:00",
+      "completed_at": "2026-11-24T15:04:44.890044+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3460,13 +3382,13 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:15.511372+00:00",
-          "completed_at": "2026-11-24T14:04:27.707698+00:00",
+          "started_at": "2026-11-24T15:04:37.564283+00:00",
+          "completed_at": "2026-11-24T15:04:47.238793+00:00",
           "ok": true,
           "info": {
-            "enumerated": 203,
-            "enumerated_raw": 203,
-            "advertised": 203,
+            "enumerated": 204,
+            "enumerated_raw": 204,
+            "advertised": 204,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3478,8 +3400,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:15.511372+00:00",
-      "completed_at": "2026-11-24T14:04:27.707698+00:00",
+      "snapshot_at": "2026-11-24T15:04:37.564283+00:00",
+      "completed_at": "2026-11-24T15:04:47.238793+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3488,8 +3410,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:17.646219+00:00",
-          "completed_at": "2026-11-24T14:04:23.402377+00:00",
+          "started_at": "2026-11-24T15:04:44.890104+00:00",
+          "completed_at": "2026-11-24T15:04:50.275068+00:00",
           "ok": true,
           "info": {
             "enumerated": 12,
@@ -3506,8 +3428,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:17.646219+00:00",
-      "completed_at": "2026-11-24T14:04:23.402377+00:00",
+      "snapshot_at": "2026-11-24T15:04:44.890104+00:00",
+      "completed_at": "2026-11-24T15:04:50.275068+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3516,19 +3438,19 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:23.402465+00:00",
-          "completed_at": "2026-11-24T14:07:04.336502+00:00",
+          "started_at": "2026-11-24T15:04:47.238864+00:00",
+          "completed_at": "2026-11-24T15:07:44.986515+00:00",
           "ok": true,
           "info": {
-            "enumerated": 5964,
-            "enumerated_raw": 5970,
+            "enumerated": 5972,
+            "enumerated_raw": 5978,
             "advertised": 2000,
             "location_partitions": 4,
             "partition_advertised_counts": [
-              1496,
-              1497,
-              1495,
-              1482
+              1498,
+              1492,
+              1492,
+              1496
             ],
             "unpublished_index_ids": [],
             "details_read": 3,
@@ -3547,8 +3469,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-24T14:04:23.402465+00:00",
-      "completed_at": "2026-11-24T14:07:04.336502+00:00",
+      "snapshot_at": "2026-11-24T15:04:47.238864+00:00",
+      "completed_at": "2026-11-24T15:07:44.986515+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3580,13 +3502,13 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:27.707759+00:00",
-          "completed_at": "2026-11-24T14:04:32.243315+00:00",
+          "started_at": "2026-11-24T15:04:50.275130+00:00",
+          "completed_at": "2026-11-24T15:04:55.617611+00:00",
           "ok": true,
           "info": {
-            "enumerated": 58,
-            "enumerated_raw": 58,
-            "advertised": 58,
+            "enumerated": 59,
+            "enumerated_raw": 59,
+            "advertised": 59,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3598,8 +3520,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:27.707759+00:00",
-      "completed_at": "2026-11-24T14:04:32.243315+00:00",
+      "snapshot_at": "2026-11-24T15:04:50.275130+00:00",
+      "completed_at": "2026-11-24T15:04:55.617611+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3697,8 +3619,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:29.432540+00:00",
-          "completed_at": "2026-11-24T14:04:39.637735+00:00",
+          "started_at": "2026-11-24T15:04:55.617674+00:00",
+          "completed_at": "2026-11-24T15:05:08.078012+00:00",
           "ok": true,
           "info": {
             "enumerated": 289,
@@ -3715,8 +3637,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:29.432540+00:00",
-      "completed_at": "2026-11-24T14:04:39.637735+00:00",
+      "snapshot_at": "2026-11-24T15:04:55.617674+00:00",
+      "completed_at": "2026-11-24T15:05:08.078012+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3725,8 +3647,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:32.243368+00:00",
-          "completed_at": "2026-11-24T14:04:54.953541+00:00",
+          "started_at": "2026-11-24T15:05:00.223300+00:00",
+          "completed_at": "2026-11-24T15:05:25.600167+00:00",
           "ok": true,
           "info": {
             "enumerated": 407,
@@ -3747,8 +3669,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:32.243368+00:00",
-      "completed_at": "2026-11-24T14:04:54.953541+00:00",
+      "snapshot_at": "2026-11-24T15:05:00.223300+00:00",
+      "completed_at": "2026-11-24T15:05:25.600167+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3780,18 +3702,18 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:39.637804+00:00",
-          "completed_at": "2026-11-24T14:06:33.241061+00:00",
+          "started_at": "2026-11-24T15:05:08.078076+00:00",
+          "completed_at": "2026-11-24T15:06:58.975121+00:00",
           "ok": true,
           "info": {
-            "enumerated": 3033,
-            "enumerated_raw": 3034,
+            "enumerated": 3058,
+            "enumerated_raw": 3059,
             "advertised": 2000,
             "location_partitions": 3,
             "partition_advertised_counts": [
-              1492,
+              1494,
               1497,
-              45
+              68
             ],
             "unpublished_index_ids": [],
             "details_read": 9,
@@ -3802,8 +3724,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:39.637804+00:00",
-      "completed_at": "2026-11-24T14:06:33.241061+00:00",
+      "snapshot_at": "2026-11-24T15:05:08.078076+00:00",
+      "completed_at": "2026-11-24T15:06:58.975121+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3812,8 +3734,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:44.091394+00:00",
-          "completed_at": "2026-11-24T14:04:57.242142+00:00",
+          "started_at": "2026-11-24T15:05:23.341530+00:00",
+          "completed_at": "2026-11-24T15:05:36.066268+00:00",
           "ok": true,
           "info": {
             "enumerated": 179,
@@ -3858,8 +3780,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:44.091394+00:00",
-      "completed_at": "2026-11-24T14:04:57.242142+00:00",
+      "snapshot_at": "2026-11-24T15:05:23.341530+00:00",
+      "completed_at": "2026-11-24T15:05:36.066268+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3868,17 +3790,19 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:54.953598+00:00",
-          "completed_at": "2026-11-24T14:05:18.399607+00:00",
+          "started_at": "2026-11-24T15:05:25.600245+00:00",
+          "completed_at": "2026-11-24T15:05:50.354461+00:00",
           "ok": true,
           "info": {
-            "enumerated": 357,
-            "enumerated_raw": 357,
-            "advertised": 357,
+            "enumerated": 354,
+            "enumerated_raw": 354,
+            "advertised": 354,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 9,
+            "unpublished_index_ids": [
+              "R190084"
+            ],
+            "details_read": 8,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -3890,8 +3814,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:54.953598+00:00",
-      "completed_at": "2026-11-24T14:05:18.399607+00:00",
+      "snapshot_at": "2026-11-24T15:05:25.600245+00:00",
+      "completed_at": "2026-11-24T15:05:50.354461+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3923,16 +3847,18 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-24T14:04:57.242208+00:00",
-          "completed_at": "2026-11-24T14:05:31.137418+00:00",
+          "started_at": "2026-11-24T15:05:36.066328+00:00",
+          "completed_at": "2026-11-24T15:06:06.050429+00:00",
           "ok": true,
           "info": {
-            "enumerated": 372,
+            "enumerated": 370,
             "enumerated_raw": 372,
             "advertised": 372,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
+            "unpublished_index_ids": [
+              "JR14162"
+            ],
             "details_read": 19,
             "closed_during_pull": 0,
             "kept": 1,
@@ -3941,8 +3867,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:04:57.242208+00:00",
-      "completed_at": "2026-11-24T14:05:31.137418+00:00",
+      "snapshot_at": "2026-11-24T15:05:36.066328+00:00",
+      "completed_at": "2026-11-24T15:06:06.050429+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -4062,8 +3988,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-24T14:05:18.399669+00:00",
-          "completed_at": "2026-11-24T14:06:01.380293+00:00",
+          "started_at": "2026-11-24T15:05:50.354545+00:00",
+          "completed_at": "2026-11-24T15:06:30.241700+00:00",
           "ok": true,
           "info": {
             "enumerated": 378,
@@ -4080,8 +4006,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:05:18.399669+00:00",
-      "completed_at": "2026-11-24T14:06:01.380293+00:00",
+      "snapshot_at": "2026-11-24T15:05:50.354545+00:00",
+      "completed_at": "2026-11-24T15:06:30.241700+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -4113,8 +4039,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-24T14:05:31.137504+00:00",
-          "completed_at": "2026-11-24T14:05:37.754970+00:00",
+          "started_at": "2026-11-24T15:06:06.050523+00:00",
+          "completed_at": "2026-11-24T15:06:13.278992+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -4138,8 +4064,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:05:31.137504+00:00",
-      "completed_at": "2026-11-24T14:05:37.754970+00:00",
+      "snapshot_at": "2026-11-24T15:06:06.050523+00:00",
+      "completed_at": "2026-11-24T15:06:13.278992+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -4193,8 +4119,8 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-24T14:05:37.755029+00:00",
-          "completed_at": "2026-11-24T14:06:03.044630+00:00",
+          "started_at": "2026-11-24T15:06:13.279059+00:00",
+          "completed_at": "2026-11-24T15:06:26.559335+00:00",
           "ok": true,
           "info": {
             "enumerated": 422,
@@ -4237,8 +4163,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:05:37.755029+00:00",
-      "completed_at": "2026-11-24T14:06:03.044630+00:00",
+      "snapshot_at": "2026-11-24T15:06:13.279059+00:00",
+      "completed_at": "2026-11-24T15:06:26.559335+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4292,8 +4218,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-24T14:06:01.380351+00:00",
-          "completed_at": "2026-11-24T14:06:11.734598+00:00",
+          "started_at": "2026-11-24T15:06:26.559406+00:00",
+          "completed_at": "2026-11-24T15:06:34.489805+00:00",
           "ok": true,
           "info": {
             "enumerated": 42,
@@ -4322,8 +4248,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-24T14:06:01.380351+00:00",
-      "completed_at": "2026-11-24T14:06:11.734598+00:00",
+      "snapshot_at": "2026-11-24T15:06:26.559406+00:00",
+      "completed_at": "2026-11-24T15:06:34.489805+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4421,16 +4347,19 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-24T14:06:03.044689+00:00",
-          "completed_at": "2026-11-24T14:06:21.120320+00:00",
+          "started_at": "2026-11-24T15:06:30.241768+00:00",
+          "completed_at": "2026-11-24T15:06:44.914624+00:00",
           "ok": true,
           "info": {
-            "enumerated": 334,
-            "enumerated_raw": 334,
-            "advertised": 334,
+            "enumerated": 335,
+            "enumerated_raw": 335,
+            "advertised": 335,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
+            "unpublished_index_ids": [
+              "R18395",
+              "R18470"
+            ],
             "details_read": 6,
             "closed_during_pull": 0,
             "kept": 4,
@@ -4447,8 +4376,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-24T14:06:03.044689+00:00",
-      "completed_at": "2026-11-24T14:06:21.120320+00:00",
+      "snapshot_at": "2026-11-24T15:06:30.241768+00:00",
+      "completed_at": "2026-11-24T15:06:44.914624+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4457,8 +4386,8 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-24T14:06:11.734659+00:00",
-          "completed_at": "2026-11-24T14:06:24.993769+00:00",
+          "started_at": "2026-11-24T15:06:34.489874+00:00",
+          "completed_at": "2026-11-24T15:06:46.283526+00:00",
           "ok": true,
           "info": {
             "enumerated": 554,
@@ -4479,8 +4408,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:06:11.734659+00:00",
-      "completed_at": "2026-11-24T14:06:24.993769+00:00",
+      "snapshot_at": "2026-11-24T15:06:34.489874+00:00",
+      "completed_at": "2026-11-24T15:06:46.283526+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4489,8 +4418,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-24T14:06:21.120386+00:00",
-          "completed_at": "2026-11-24T14:06:27.102977+00:00",
+          "started_at": "2026-11-24T15:06:44.914692+00:00",
+          "completed_at": "2026-11-24T15:06:49.099785+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4507,8 +4436,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:06:21.120386+00:00",
-      "completed_at": "2026-11-24T14:06:27.102977+00:00",
+      "snapshot_at": "2026-11-24T15:06:44.914692+00:00",
+      "completed_at": "2026-11-24T15:06:49.099785+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4517,8 +4446,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-24T14:06:24.993829+00:00",
-          "completed_at": "2026-11-24T14:06:33.839394+00:00",
+          "started_at": "2026-11-24T15:06:46.283590+00:00",
+          "completed_at": "2026-11-24T15:06:52.704539+00:00",
           "ok": true,
           "info": {
             "enumerated": 144,
@@ -4535,8 +4464,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:06:24.993829+00:00",
-      "completed_at": "2026-11-24T14:06:33.839394+00:00",
+      "snapshot_at": "2026-11-24T15:06:46.283590+00:00",
+      "completed_at": "2026-11-24T15:06:52.704539+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4590,13 +4519,13 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-24T14:06:27.103057+00:00",
-          "completed_at": "2026-11-24T14:07:06.077112+00:00",
+          "started_at": "2026-11-24T15:06:49.099842+00:00",
+          "completed_at": "2026-11-24T15:07:37.236818+00:00",
           "ok": true,
           "info": {
-            "enumerated": 846,
-            "enumerated_raw": 846,
-            "advertised": 846,
+            "enumerated": 850,
+            "enumerated_raw": 850,
+            "advertised": 850,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4608,8 +4537,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:06:27.103057+00:00",
-      "completed_at": "2026-11-24T14:07:06.077112+00:00",
+      "snapshot_at": "2026-11-24T15:06:49.099842+00:00",
+      "completed_at": "2026-11-24T15:07:37.236818+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4618,8 +4547,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-24T14:06:33.241126+00:00",
-          "completed_at": "2026-11-24T14:06:38.854154+00:00",
+          "started_at": "2026-11-24T15:06:52.704595+00:00",
+          "completed_at": "2026-11-24T15:06:59.614446+00:00",
           "ok": true,
           "info": {
             "enumerated": 42,
@@ -4636,8 +4565,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:06:33.241126+00:00",
-      "completed_at": "2026-11-24T14:06:38.854154+00:00",
+      "snapshot_at": "2026-11-24T15:06:52.704595+00:00",
+      "completed_at": "2026-11-24T15:06:59.614446+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4646,8 +4575,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-24T14:06:33.839475+00:00",
-          "completed_at": "2026-11-24T14:06:39.199984+00:00",
+          "started_at": "2026-11-24T15:06:58.975178+00:00",
+          "completed_at": "2026-11-24T15:07:04.323517+00:00",
           "ok": true,
           "info": {
             "enumerated": 42,
@@ -4664,8 +4593,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:06:33.839475+00:00",
-      "completed_at": "2026-11-24T14:06:39.199984+00:00",
+      "snapshot_at": "2026-11-24T15:06:58.975178+00:00",
+      "completed_at": "2026-11-24T15:07:04.323517+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4917,13 +4846,13 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-24T14:06:38.854211+00:00",
-          "completed_at": "2026-11-24T14:07:22.269542+00:00",
+          "started_at": "2026-11-24T15:06:59.614534+00:00",
+          "completed_at": "2026-11-24T15:07:48.682550+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1328,
-            "enumerated_raw": 1328,
-            "advertised": 1328,
+            "enumerated": 1331,
+            "enumerated_raw": 1331,
+            "advertised": 1331,
             "details_read": 64,
             "kept": 11,
             "method": "employer Oracle search + full requisition detail resource"
@@ -4945,8 +4874,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T14:06:38.854211+00:00",
-      "completed_at": "2026-11-24T14:07:22.269542+00:00",
+      "snapshot_at": "2026-11-24T15:06:59.614534+00:00",
+      "completed_at": "2026-11-24T15:07:48.682550+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -5244,7 +5173,19 @@
       "firms_attempted": 1,
       "firms_succeeded": 0,
       "firms_failed": 1
+    },
+    {
+      "id": "45420733432",
+      "route": "cloud",
+      "started_at": "2026-11-24T15:02:22.228664+00:00",
+      "completed_at": "2026-11-24T15:07:48.687409+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 38,
+      "firms_failed": 1,
+      "timer_run_id": "45409471168",
+      "timer_fired_at": "2026-11-24T15:01:48.147739+00:00"
     }
   ],
-  "published_at": "2026-11-24T14:20:46.739089+00:00"
+  "published_at": "2026-11-24T15:07:49.873839+00:00"
 }
