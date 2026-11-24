@@ -1,0 +1,92 @@
+Employer job feed
+Published UTC: 2026-11-24T03:04:41.170153+00:00
+Repository: https://github.com/slimfrmdafo/staffing-job-feed
+Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/employer_jobs.csv
+Priority employers are attempted on every cloud run. Mac retries only employers whose latest cloud attempt failed.
+Only a complete successful newer pull replaces its own employer snapshot. Failures retain prior rows.
+Employer and staffing files have separate state; publications preserve both feeds.
+
+Bank of America: listings=28 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:00:32.721551+00:00
+  cloud: OK at 2026-11-24T03:00:32.721551+00:00 {'enumerated': 2076, 'enumerated_raw': 2076, 'advertised': 2076, 'details_read': 137, 'kept': 28, 'method': 'employer search service + canonical full detail pages'}
+Wells Fargo: listings=15 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:00:34.970664+00:00
+  cloud: OK at 2026-11-24T03:00:34.970664+00:00 {'enumerated': 1354, 'enumerated_raw': 1354, 'advertised': 1354, 'details_read': 21, 'closed_during_pull': 0, 'kept': 15, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': ['R-587693']}
+Truist: listings=36 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:00:55.510807+00:00
+  cloud: OK at 2026-11-24T03:00:55.510807+00:00 {'enumerated': 1344, 'enumerated_raw': 1344, 'advertised': 1344, 'details_read': 49, 'closed_during_pull': 0, 'kept': 36, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Duke Energy: listings=7 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:59:40.171243+00:00
+  cloud: OK at 2026-11-24T02:59:40.171243+00:00 {'enumerated': 72, 'enumerated_raw': 72, 'advertised': 72, 'details_read': 9, 'closed_during_pull': 0, 'kept': 7, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Lowe's: listings=10 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:04:27.570459+00:00
+  cloud: OK at 2026-11-24T03:04:27.570459+00:00 {'enumerated': 12926, 'enumerated_raw': 12926, 'advertised': 12926, 'details_read': 20, 'closed_during_pull': 0, 'kept': 10, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Ally Financial: listings=3 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:00:41.105438+00:00
+  cloud: OK at 2026-11-24T03:00:41.105438+00:00 {'enumerated': 81, 'enumerated_raw': 81, 'advertised': 81, 'details_read': 6, 'closed_during_pull': 0, 'kept': 3, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+TIAA: listings=2 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:00:43.806982+00:00
+  cloud: OK at 2026-11-24T03:00:43.806982+00:00 {'enumerated': 104, 'enumerated_raw': 104, 'advertised': 104, 'details_read': 3, 'closed_during_pull': 0, 'kept': 2, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'Country': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Citigroup: listings=7 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:35.087410+00:00
+  cloud: OK at 2026-11-24T03:02:35.087410+00:00 {'enumerated': 1446, 'enumerated_raw': 1446, 'advertised': 1446, 'details_read': 129, 'closed_during_pull': 0, 'kept': 7, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'Country_and_Jurisdiction': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+AT&T: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:01:20.414229+00:00
+  cloud: OK at 2026-11-24T03:01:20.414229+00:00 {'enumerated': 1110, 'enumerated_raw': 1110, 'advertised': 1110, 'details_read': 11, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Trane Technologies: listings=3 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:01:32.336402+00:00
+  cloud: OK at 2026-11-24T03:01:32.336402+00:00 {'enumerated': 881, 'enumerated_raw': 881, 'advertised': 881, 'details_read': 44, 'closed_during_pull': 0, 'kept': 3, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+The Hartford: listings=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:01:33.206688+00:00
+  cloud: OK at 2026-11-24T03:01:33.206688+00:00 {'enumerated': 143, 'enumerated_raw': 143, 'advertised': 143, 'details_read': 8, 'closed_during_pull': 0, 'kept': 1, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Albemarle: listings=3 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:01:45.262366+00:00
+  cloud: OK at 2026-11-24T03:01:45.262366+00:00 {'enumerated': 78, 'enumerated_raw': 78, 'advertised': 78, 'details_read': 23, 'closed_during_pull': 0, 'kept': 3, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Sunbelt Rentals: listings=4 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:03.252216+00:00
+  cloud: OK at 2026-11-24T03:02:03.252216+00:00 {'enumerated': 888, 'enumerated_raw': 888, 'advertised': 888, 'details_read': 11, 'closed_during_pull': 0, 'kept': 4, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'Location_Country': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Premier: listings=2 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:01:55.377197+00:00
+  cloud: OK at 2026-11-24T03:01:55.377197+00:00 {'enumerated': 40, 'enumerated_raw': 40, 'advertised': 40, 'details_read': 2, 'closed_during_pull': 0, 'kept': 2, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+RXO: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:10.579370+00:00
+  cloud: OK at 2026-11-24T03:02:10.579370+00:00 {'enumerated': 324, 'enumerated_raw': 324, 'advertised': 324, 'details_read': 8, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Carrier Global: listings=5 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:32.788265+00:00
+  cloud: OK at 2026-11-24T03:02:32.788265+00:00 {'enumerated': 402, 'enumerated_raw': 402, 'advertised': 402, 'details_read': 20, 'closed_during_pull': 0, 'kept': 5, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'location_Country': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Hendrick Automotive Group: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:25.443461+00:00
+  cloud: OK at 2026-11-24T03:02:25.443461+00:00 {'enumerated': 398, 'enumerated_raw': 398, 'advertised': 398, 'details_read': 0, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+American Tire Distributors: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:36.782792+00:00
+  cloud: OK at 2026-11-24T03:02:36.782792+00:00 {'enumerated': 205, 'enumerated_raw': 205, 'advertised': 205, 'details_read': 3, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Movement Mortgage: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:36.350976+00:00
+  cloud: OK at 2026-11-24T03:02:36.350976+00:00 {'enumerated': 12, 'enumerated_raw': 12, 'advertised': 12, 'details_read': 0, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Kohl's: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T03:02:37.105383+00:00 CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers
+OrthoCarolina: listings=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:42.062317+00:00
+  cloud: OK at 2026-11-24T03:02:42.062317+00:00 {'enumerated': 56, 'enumerated_raw': 56, 'advertised': 56, 'details_read': 1, 'closed_during_pull': 0, 'kept': 1, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Campbell Snacks: listings=4 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:49.241604+00:00
+  cloud: OK at 2026-11-24T03:02:49.241604+00:00 {'enumerated': 290, 'enumerated_raw': 290, 'advertised': 290, 'details_read': 7, 'closed_during_pull': 0, 'kept': 4, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+J.B. Hunt: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:00.685838+00:00
+  cloud: OK at 2026-11-24T03:03:00.685838+00:00 {'enumerated': 407, 'enumerated_raw': 407, 'advertised': 407, 'details_read': 3, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Dick's Sporting Goods: listings=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:52.414248+00:00
+  cloud: OK at 2026-11-24T03:03:52.414248+00:00 {'enumerated': 2000, 'enumerated_raw': 2000, 'advertised': 2000, 'details_read': 6, 'closed_during_pull': 0, 'kept': 1, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Prysmian Group: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:01.279315+00:00
+  cloud: OK at 2026-11-24T03:03:01.279315+00:00 {'enumerated': 180, 'enumerated_raw': 180, 'advertised': 180, 'details_read': 4, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Ryder System: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:25.886311+00:00
+  cloud: OK at 2026-11-24T03:03:25.886311+00:00 {'enumerated': 354, 'enumerated_raw': 354, 'advertised': 354, 'details_read': 9, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Curtiss-Wright: listings=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:22.972350+00:00
+  cloud: OK at 2026-11-24T03:03:22.972350+00:00 {'enumerated': 372, 'enumerated_raw': 372, 'advertised': 372, 'details_read': 19, 'closed_during_pull': 0, 'kept': 1, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Rosendin Electric: listings=5 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:04:15.637101+00:00
+  cloud: OK at 2026-11-24T03:04:15.637101+00:00 {'enumerated': 378, 'enumerated_raw': 378, 'advertised': 378, 'details_read': 74, 'closed_during_pull': 0, 'kept': 5, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Celgard: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:32.396353+00:00
+  cloud: OK at 2026-11-24T03:03:32.396353+00:00 {'enumerated': 24, 'enumerated_raw': 24, 'advertised': 24, 'details_read': 0, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'hiringCompany': ['2f24a4199827013877171f1c223b682f'], 'Location_Country': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+UFP Industries: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T03:03:34.257459+00:00 CollectionError: Browser HTTP 500: https://ufpi.wd1.myworkdayjobs.com/careers
+Husqvarna Group: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T03:03:36.329877+00:00 CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External
+CLA: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T03:03:38.087556+00:00 CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA
+Whistle Express Car Wash: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:49.058336+00:00
+  cloud: OK at 2026-11-24T03:03:49.058336+00:00 {'enumerated': 541, 'enumerated_raw': 541, 'advertised': 541, 'details_read': 0, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
+Comporium: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:53.426469+00:00
+  cloud: OK at 2026-11-24T03:03:53.426469+00:00 {'enumerated': 2, 'enumerated_raw': 2, 'advertised': 2, 'details_read': 0, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Pepsi Bottling Ventures: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:59.635073+00:00
+  cloud: OK at 2026-11-24T03:03:59.635073+00:00 {'enumerated': 142, 'enumerated_raw': 142, 'advertised': 142, 'details_read': 1, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+North Carolina State Government: listings=2 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:04:22.178882+00:00
+  cloud: OK at 2026-11-24T03:04:22.178882+00:00 {'enumerated': 864, 'enumerated_raw': 864, 'advertised': 864, 'details_read': 22, 'closed_during_pull': 0, 'kept': 2, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Charlotte Douglas International Airport: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:04:05.506146+00:00
+  cloud: OK at 2026-11-24T03:04:05.506146+00:00 {'enumerated': 43, 'enumerated_raw': 43, 'advertised': 43, 'details_read': 6, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+City of Charlotte: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:04:11.057317+00:00
+  cloud: OK at 2026-11-24T03:04:11.057317+00:00 {'enumerated': 43, 'enumerated_raw': 43, 'advertised': 43, 'details_read': 6, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
+Honeywell: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
+  cloud: FAILED at 2026-11-24T03:04:39.470510+00:00 CollectionError: Oracle full detail missing/mismatched
+
+TOTAL listings=140 posted_contacts=10
+Unknown optional fields remain empty. All included listings use full posting details.
+
+Recent run receipts:
+{"completed_at": "2026-11-24T03:04:39.474364+00:00", "firms_attempted": 39, "firms_failed": 5, "firms_succeeded": 34, "id": "45316263704", "route": "cloud", "started_at": "2026-11-24T02:59:30.131444+00:00", "timer_fired_at": "2026-11-24T02:59:02.445379+00:00", "timer_run_id": "45316236665", "trigger": "cloud_clock"}
