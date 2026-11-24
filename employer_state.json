@@ -2304,11 +2304,27 @@
           "completed_at": "2026-11-24T11:02:30.282923+00:00",
           "ok": false,
           "error": "CollectionError: Employer search widget duplicate pagination; unable to prove complete index"
+        },
+        "mac": {
+          "firm": "Lowe's",
+          "route": "mac",
+          "started_at": "2026-11-24T11:18:14.005589+00:00",
+          "completed_at": "2026-11-24T11:18:40.005249+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 4787,
+            "enumerated_raw": 4787,
+            "advertised": 4787,
+            "details_read": 16,
+            "kept": 10,
+            "method": "employer current search widget + canonical full detail pages",
+            "known_missing_details_rechecked": 0
+          }
         }
       },
-      "snapshot_at": "2026-11-24T10:01:00.042246+00:00",
-      "completed_at": "2026-11-24T10:01:17.887033+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T11:18:14.005589+00:00",
+      "completed_at": "2026-11-24T11:18:40.005249+00:00",
+      "snapshot_route": "mac"
     },
     "Ally Financial": {
       "rows": [
@@ -5111,7 +5127,17 @@
       "firms_failed": 1,
       "timer_run_id": "45370553634",
       "timer_fired_at": "2026-11-24T11:00:35.781919+00:00"
+    },
+    {
+      "id": "522dc3ee-06cd-44c1-aceb-8cfcbe08cfab",
+      "route": "mac",
+      "started_at": "2026-11-24T11:18:11.998388+00:00",
+      "completed_at": "2026-11-24T11:18:40.010299+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 1,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-24T11:06:28.890485+00:00"
+  "published_at": "2026-11-24T11:18:41.134319+00:00"
 }
