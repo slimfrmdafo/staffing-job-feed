@@ -31,6 +31,14 @@ The source CSV has exactly the twenty columns required by FEED_SPEC.md. A row's 
 
 Charlotte-area cities include the places explicitly named in the request. Where a listing supplies coordinates, locations within 50 straight-line miles of Charlotte are also accepted. US remote roles are included. Role matching includes common operations, controls, regulatory, AML/KYC and onboarding titles alongside the requested titles; the existing board performs final filtering and scoring.
 
+## Optional metadata
+
+Recruiter contacts come from the selected full listing's contact card, structured job record or explicit signature. Contacts include named recruitment teams when that is what the firm posts. Related-job recruiters, API/system accounts, accessibility/HR boilerplate and phone placeholders are excluded. An email address never supplies an inferred name.
+
+Certifications are populated only when the full posting states a requirement or puts the certification under required/minimum/mandatory qualifications. Preferred certifications stay in the full description. Client companies remain blank unless the posting explicitly identifies the end employer: prior-employer examples, unnamed banks and references to another company's procedures do not establish a client relationship. The live status includes metadata coverage counts.
+
+Apex Systems and Mindlance currently supply no rows because their full details could not be collected completely. Keep their existing board coverage enabled. This feed does not change any board settings.
+
 ## Pause and resume
 
 **Cloud:** Disable both **Hourly cloud clock** and **Hourly staffing feed** in GitHub Actions. Cancel the clock's waiting/queued runs so the paused timer does not remain pending. Alternatively disable them with:

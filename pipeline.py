@@ -67,7 +67,10 @@ def status_text(state):
         lines.append(f"{firm}: listings={len(rows)} contracts={count} runners={routes} snapshot_runner={f.get('snapshot_route','none')} last_success={f.get('completed_at','never')}")
         for route,a in sorted(f.get('attempts',{}).items()):
             lines.append(f"  {route}: {'OK' if a['ok'] else 'FAILED'} at {a['completed_at']} "+(str(a.get('info',{})) if a['ok'] else a.get('error','unknown error')))
-    lines.extend(['',f'TOTAL listings={total} contracts={contracts}','', 'Recent unattended runs:'])
+    rows=[r for firm in state['firms'].values() for r in firm.get('rows',[])]
+    contacts=sum(any(r.get(k) for k in ('recruiter_name','recruiter_email','recruiter_phone')) for r in rows)
+    clients=sum(bool(r.get('client_company')) for r in rows);certs=sum(bool(r.get('required_certifications')) for r in rows)
+    lines.extend(['',f'TOTAL listings={total} contracts={contracts}',f'METADATA posted_contacts={contacts} named_clients={clients} required_certifications={certs}', 'Blank optional fields mean the posting did not supply a usable explicit value. Posted contacts can be individuals or recruitment teams.', '', 'Recent unattended runs:'])
     for run in state.get('runs',[])[-8:]:lines.append(json.dumps(run,sort_keys=True))
     return '\n'.join(lines)+'\n'
 
