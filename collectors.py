@@ -50,6 +50,37 @@ def schemas(soup):
         except (ValueError,TypeError):continue
         yield from walk_json(d)
 
+def posted_contacts(firm,soup,job_id):
+    """Read only the selected listing's explicit contact record."""
+    from metadata import usable_phone
+    data={}
+    if firm=='Randstad':
+        try:
+            job=assigned_json(str(soup),'window.__ROUTE_DATA__ = ').get('jobData',{})
+            location=job.get('jobLocation') or {};office=job.get('officeLocation') or {}
+            data={'recruiter_name':location.get('contactName') or office.get('contactName'),
+                  'recruiter_email':location.get('contactEmail') or office.get('email'),
+                  'recruiter_phone':location.get('contactPhone') or office.get('phone')}
+        except (ValueError,CollectionError):pass
+    if firm=='Motion Recruitment':
+        for script in soup.find_all('script'):
+            text=script.string or script.get_text()
+            if 'self.__next_f.push(' not in text:continue
+            try:parts=assigned_json(text,'self.__next_f.push(')
+            except (ValueError,CollectionError):continue
+            if not isinstance(parts,list) or len(parts)<2 or not isinstance(parts[1],str):continue
+            for line in parts[1].splitlines():
+                payload=line.partition(':')[2]
+                if not payload.startswith(('[','{')):continue
+                try:tree=json.loads(payload)
+                except ValueError:continue
+                for record in walk_json(tree):
+                    if str(record.get('id',''))!=str(job_id) or not isinstance(record.get('owner'),dict):continue
+                    owner=record['owner'];name=' '.join(str(owner.get(k) or '') for k in ('firstName','lastName')).strip()
+                    if re.search(r'api user|workato|system|automation',name,re.I):continue
+                    data={'recruiter_name':name,'recruiter_email':owner.get('email'),'recruiter_phone':owner.get('phone')}
+    return {k:(usable_phone(v) if k=='recruiter_phone' else plain(v)) for k,v in data.items() if v}
+
 def schema_row(firm,url,soup,seed):
     js=next((x for x in schemas(soup) if x.get('@type')=='JobPosting'),None)
     if not js:return None
@@ -116,6 +147,7 @@ def schema_row(firm,url,soup,seed):
             data=d.get('jobDetail',{}).get('data',{}).get('job',{})
             if data.get('workplaceType') in ('Remote','Hybrid','On-Site'):r['work_arrangement']={'Remote':'remote','Hybrid':'hybrid','On-Site':'onsite'}[data['workplaceType']]
         except (ValueError,CollectionError):pass
+    r.update(posted_contacts(firm,soup,r['job_id']))
     return enrich(r,context)
 
 def detail(firm,seed):
@@ -372,6 +404,7 @@ def kforce(firm,config):
         if len(d)!=1:raise CollectionError('Kforce detail disappeared')
         j=d[0];details+=1;r=blank()
         r.update(firm=firm,job_id=str(j.get('ReferenceCode') or j['Id']),title=plain(j.get('Title')),city=plain(j.get('City')),state=state_code(j.get('State')),description=plain(j.get('ResponsibilitiesHtml') or j.get('Responsibilities'))+'\n'+plain(j.get('SkillsHtml') or j.get('Skills')),url='https://www.kforce.com/search-jobs/#/detail/'+j['Id']+'/',job_type=job_type(j.get('TypeCode')))
+        r['recruiter_name']=plain(j.get('ContactName'))
         if j.get('Remote') is True or str(j.get('Remote','')).lower() in ('true','yes','remote'):r['work_arrangement']='remote'
         date=str(j.get('PostDate') or '')
         if re.match(r'^\d{4}-\d{2}-\d{2}',date):r['posted_date']=date[:10]

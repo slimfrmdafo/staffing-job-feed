@@ -1,0 +1,54 @@
+"""Conservative extraction of explicitly posted qualifications and contacts."""
+import re
+EMAIL=re.compile(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}')
+PHONE=re.compile(r'(?<!\d)(?:\+?1[ .-]?)?\(?\d{3}\)?[ .-]?\d{3}[ .-]?\d{4}(?!\d)')
+CERT=re.compile(r'\b(?:PMP|CAPM|CBAP|CCBA|CAMS|CISA|CISM|CISSP|CRISC|CSM|CSPO|CCMP|CRC|CPC|CCS|RHIA|RHIT|AAPC|AHIMA|ITIL|PRINCE2|PMI[- ](?:PBA|ACP|SP)|Prosci|Certified Scrum Master|Epic\s+Lumens)\b',re.I)
+OPTIONAL=re.compile(r'preferred|nice.to.have|desir(?:ed|able)|not required|a plus|bonus|highly valued|beneficial',re.I)
+REQUIRED_HEADING=re.compile(r'^(?:required|mandatory|minimum|essential|must[- ]have)\s+(?:qualifications?|skills?|experience|certifications?|credentials?)\b|^certifications?\s+required\b',re.I)
+OTHER_HEADING=re.compile(r'^(?:nice.to.have|preferred|desired|additional qualifications|job description|responsibilities|key responsibilities|benefits|about us|about the company|what.s in it for me|role priorities)\b',re.I)
+
+def required_certifications(text):
+    lines=[re.sub(r'\s+',' ',x).strip(' \t•*-') for x in re.split(r'\n+|;|(?<=[.!?])\s+',text)]
+    result=[];required=False;skip_next=False
+    for i,line in enumerate(lines):
+        if skip_next:skip_next=False;continue
+        if not line:continue
+        if REQUIRED_HEADING.search(line):required=True
+        elif OTHER_HEADING.search(line):required=False
+        if re.search(r'certification\s+(?:is\s+)?required\s+(?:through|from|by)$',line,re.I) and i+1<len(lines):line+=' '+lines[i+1];skip_next=True
+        relevant=CERT.search(line) or re.search(r'\b(?:Project Management|professional|active|current|valid)\s+certification|\bCertification required through\b',line,re.I)
+        if not relevant or OPTIONAL.search(line):continue
+        if CERT.search(line) and not re.search(r'certif|credential|professional \(PMP\)|^\s*(?:PMP|CAPM|CISA|CISM|CISSP|CSM)\b',line,re.I):continue
+        if line.startswith(','):continue
+        explicit=bool(re.search(r'\b(?:required|mandatory|must (?:have|hold|possess|maintain))\b',line,re.I))
+        if explicit or required:
+            if re.fullmatch(r'(?:Required|Mandatory|Minimum)\s+(?:Qualifications|Certifications|Skills)',line,re.I):continue
+            result.append(line.rstrip('.'))
+    return '; '.join(dict.fromkeys(result))
+
+def contact_fields(text):
+    out={};selected=None
+    for match in EMAIL.finditer(text):
+        address=match[0].rstrip('.,;')
+        if re.search(r'hrsupport|^hr@|privacy|accommod|accessibility|humanresources|eeoc|benefit|noreply|no-reply|webmaster|^support@',address,re.I):continue
+        before=text[max(0,match.start()-220):match.start()]
+        if not re.search(r'recruit|contact|resume|reach|email|talent acquisition|regards|office|apply',before,re.I):continue
+        selected=match;out['recruiter_email']=address;break
+    names=list(re.finditer(r'(?i:recruiter(?: name)?|contact(?: name)?)\s*:\s*([A-Z][A-Za-z\'.-]+(?:[ \t]+[A-Z][A-Za-z\'.-]+){1,3})(?=\s*[;\n,]|\s*$)',text))
+    if names:out['recruiter_name']=names[0][1].strip()
+    if selected:
+        near=text[max(0,selected.start()-240):selected.end()+160]
+        if 'recruiter_name' not in out:
+            m=re.search(r'(?:Regards|Sincerely|Thanks(?: and Regards)?)\s*[,\n]+\s*([A-Z][a-z\'.-]+(?:\s+[A-Z][a-z\'.-]+){1,2})(?=\s+(?:Executive|Recruiter|Talent|Senior|Technical|Account))',near)
+            if m:out['recruiter_name']=m[1]
+            m=re.search(r'(?:reach out to|contact)\s+([A-Z][a-z\'.-]+(?:\s+[A-Z][a-z\'.-]+){1,2})\s+at\s*$',text[max(0,selected.start()-100):selected.start()],re.I)
+            if m:out['recruiter_name']=m[1]
+        phone=PHONE.search(near)
+        if phone:out['recruiter_phone']=phone[0]
+    elif names:
+        near=text[names[0].start():names[0].end()+180];phone=PHONE.search(near)
+        if phone:out['recruiter_phone']=phone[0]
+    return out
+
+def usable_phone(value):
+    value=str(value or '').strip();return value if 10<=len(re.sub(r'\D','',value))<=15 else ''

@@ -2,6 +2,7 @@
 import csv, html, io, json, re, math
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup
+from metadata import required_certifications,contact_fields
 
 COLUMNS = 'firm,job_id,title,client_company,city,state,work_arrangement,job_type,contract_length,pay_min,pay_max,pay_unit,posted_date,url,recruiter_name,recruiter_email,recruiter_phone,required_experience,required_certifications,description'.split(',')
 ROLE = re.compile(r'business.{0,25}analy|project.{0,12}manag|program.{0,12}manag|implementation.{0,12}manag|business.{0,10}operat|business.{0,10}execution|operations?.{0,15}(?:analyst|consultant|specialist|manager)|on.?boarding|risk|business.{0,12}control|control.{0,10}(?:analyst|consultant|specialist|manager)|compliance|regulatory|governance|\baml\b|\bkyc\b|change.{0,12}manag|process.{0,12}improv|legal.{0,10}operat|\bpmo\b|business.{0,12}transform', re.I)
@@ -64,6 +65,10 @@ def enrich(row, context=''):
     if m:row['required_certifications']=m[0]
     m=re.search(r'(?:recruiter phone|contact phone|call me at)\s*[:\n]?\s*(\+?1?[-. (]*\d{3}[-. )]*\d{3}[-. ]*\d{4})',text,re.I)
     if m:row['recruiter_phone']=m[1]
+    cert=required_certifications(text)
+    if cert:row['required_certifications']=cert
+    for key,value in contact_fields(text).items():
+        if value and not row[key]:row[key]=value
     return row
 
 def keep(row, country='', nearby=False):
