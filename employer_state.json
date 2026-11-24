@@ -952,28 +952,6 @@
         },
         {
           "firm": "Wells Fargo",
-          "job_id": "R-570879",
-          "title": "Business Execution Manager-Securities and Core Services",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-17",
-          "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/CHARLOTTE-NC/Business-Execution-Manager--Digital-Assets-and-Core-Services_R-570879",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "About this role:\nWells Fargo is seeking a Business Execution Manager to be part of our Product and Strategic Delivery Team (Change Management) within Corporate Investment Banking (CIB) Operations that will lead the Securities, Core services domain\nThis role will provide senior operational leadership and governance for the Securities and Core Services, Product and Strategy teams – ensuring delivery of business growth, operational risk, and automation objectives.  This manager will serve as the primary coach and subject matter expert for a team of 8 . Experience with Securities and Core services operations, product and project management, and vendors such as DTCC and Broadridge will be beneficial. Exposure to digital assets to support the build out of tokenized securities.\nLearn more about the career areas and business divisions at\nwellsfargojobs.com\n.\nIn this role, you will:\nLead the strategy for securities digital assets, payments and core services efforts and implement product roadmaps, manage governance, oversee payments/settlement and cross-functional execution.\nManage and develop complex teams handling multifaceted tasks and operations for a single business group within a line of business\nEngage business stakeholders in integrating or implementing business execution initiatives\nIdentify and recommend opportunities for process improvement, redesign, change management initiatives, and risk control development\nMake decisions and resolve issues regarding operations of the team to meet business objectives\nInterpret and develop policies and procedures aligned with Wells Fargo's business line objectives\nCollaborate and consult with immediate colleagues and cross functional business partners\nInteract directly with executive management to influence, optimize, and negotiate on business operations related to Strategy and Execution\nManage allocation of people and financial resources for Business Execution\nMentor and guide talent development of direct reports and assist in hiring talent\nRequired Qualifications:\n5+ years of Business Execution, Implementation, or Strategic Planning experience, or equivalent demonstrated through one or a combination of the following: work experience, training, military experience, education\n2+ years Leadership experience\nDesired Qualifications:\nFamiliarity with market infrastructure and securities processing, including DTCC, Broadridge, and end-to-end securities lifecycle\nExperience in capital markets and financial services organizations.\nExperience in customer-facing technology environments.\nExperience in product and project management, including roadmap development, business requirements, governance, and value tracking\nExperience leading complex initiatives involving multiple stakeholders and workstreams.\nStrong stakeholder management skills with the ability to influence senior leaders and drive decision-making in highly matrixed organizations\nData interpretation, business metrics, reporting, and executive communications.\nKnowledge of digital assets, blockchain, and tokenization, including crypto market structure and emerging industry trends to support the build out of Tokenized securities strategy\nKnowledge of payments infrastructure , funding and settlement processing\nExcellent analytical, problem-solving, and communication skills, with the ability to simplify complex concepts for executive and non-technical audiences.\nJob Expectations:\nAbility to work a hybrid schedule\nWillingness to work on-site at stated location on the job opening\nAbility to work additional hours as needed\nThis position is not eligible for Visa sponsorship\nPosition Location:\n550 S Tryon St, Charlotte, NC 28202\nThis position is subject to FINRA Background Screening Requirements, including successful completion and clearing of a background check. Internal transfers are subject to comply with 17 CRF 240.17f-2 of the Securities Exchange Act of 1934 and FINRA Bylaws, Article III, Section 3, which states that Associated Persons should not be subject to statutory disqualification. Successful candidates must also meet ongoing regulatory requirements including additional screening and are required to report certain incidents.\nEmployees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation, and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\nPay Range\nReflected is the base pay range offered for this position. Pay may vary depending on factors including but not limited to demonstrated examples of prior performance, skills, experience, or work location. Employees may also be eligible for incentive opportunities.\n$119,000.00 - $187,000.00\nBenefits\nWells Fargo provides eligible employees with a comprehensive set of benefits, many of which are listed below. Visit\nBenefits - Wells Fargo Jobs\nfor an overview of the following benefit plans and programs offered to employees.\nHealth benefits\n401(k) Plan\nPaid time off\nDisability benefits\nLife insurance, critical illness insurance, and accident insurance\nParental leave\nCritical caregiving leave\nDiscounts and savings\nCommuter benefits\nTuition reimbursement\nScholarships for dependent children\nAdoption reimbursement\nPosting End Date:\n23 Nov 2026\n*\nJob posting may come down early due to volume of applicants.\nWe Value Equal Opportunity\nWells Fargo is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other legally protected characteristic.\nEmployees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\nApplicants with Disabilities\nTo request a medical accommodation during the application or interview process, visit\nDisability Inclusion at Wells Fargo\n.\nDrug and Alcohol Policy\nWells Fargo maintains a drug free workplace.  Please see our\nDrug and Alcohol Policy\nto learn more.\nWells Fargo Recruitment and Hiring Requirements:\na. Third-Party recordings are prohibited unless authorized by Wells Fargo.\nb. Wells Fargo requires you to directly represent your own experiences during the recruiting and hiring process.\nc. Please be prepared to provide accurate information and supporting documentation in connection with any lawful employment and education verification conducted by Wells Fargo."
-        },
-        {
-          "firm": "Wells Fargo",
           "job_id": "R-584946",
           "title": "Senior Business Analyst, Branded Cards Strategy & Analytics",
           "client_company": "",
@@ -1025,11 +1003,35 @@
           "completed_at": "2026-11-24T05:00:42.995629+00:00",
           "ok": false,
           "error": "CollectionError: Workday pagination empty/repeated before advertised total"
+        },
+        "mac": {
+          "firm": "Wells Fargo",
+          "route": "mac",
+          "started_at": "2026-11-24T05:15:44.275346+00:00",
+          "completed_at": "2026-11-24T05:16:56.729187+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 1322,
+            "enumerated_raw": 1322,
+            "advertised": 1322,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 23,
+            "closed_during_pull": 0,
+            "kept": 16,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "locationCountry": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         }
       },
-      "snapshot_at": "2026-11-24T04:10:38.747485+00:00",
-      "completed_at": "2026-11-24T04:11:44.604828+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T05:15:44.275346+00:00",
+      "completed_at": "2026-11-24T05:16:56.729187+00:00",
+      "snapshot_route": "mac"
     },
     "Truist": {
       "rows": [
@@ -2019,11 +2021,31 @@
           "completed_at": "2026-11-24T05:00:03.019912+00:00",
           "ok": false,
           "error": "CollectionError: Workday advertised 66, read 72"
+        },
+        "mac": {
+          "firm": "Duke Energy",
+          "route": "mac",
+          "started_at": "2026-11-24T05:15:44.275652+00:00",
+          "completed_at": "2026-11-24T05:15:59.089702+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 66,
+            "enumerated_raw": 66,
+            "advertised": 66,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 9,
+            "closed_during_pull": 0,
+            "kept": 7,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {}
+          }
         }
       },
-      "snapshot_at": "2026-11-24T04:10:38.747896+00:00",
-      "completed_at": "2026-11-24T04:10:50.118777+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T05:15:44.275652+00:00",
+      "completed_at": "2026-11-24T05:15:59.089702+00:00",
+      "snapshot_route": "mac"
     },
     "Lowe's": {
       "rows": [
@@ -2446,11 +2468,35 @@
           "completed_at": "2026-11-24T05:00:45.856040+00:00",
           "ok": false,
           "error": "CollectionError: Workday advertised 103, read 104"
+        },
+        "mac": {
+          "firm": "TIAA",
+          "route": "mac",
+          "started_at": "2026-11-24T05:15:44.275964+00:00",
+          "completed_at": "2026-11-24T05:15:59.089412+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 103,
+            "enumerated_raw": 103,
+            "advertised": 103,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 3,
+            "closed_during_pull": 0,
+            "kept": 2,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "Country": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         }
       },
-      "snapshot_at": "2026-11-24T04:11:14.593031+00:00",
-      "completed_at": "2026-11-24T04:11:22.101982+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T05:15:44.275964+00:00",
+      "completed_at": "2026-11-24T05:15:59.089412+00:00",
+      "snapshot_route": "mac"
     },
     "Citigroup": {
       "rows": [
@@ -4878,7 +4924,17 @@
       "firms_failed": 3,
       "timer_run_id": "45323218999",
       "timer_fired_at": "2026-11-24T04:59:28.076384+00:00"
+    },
+    {
+      "id": "aba64362-4eb8-45f1-962c-a929e160f8f8",
+      "route": "mac",
+      "started_at": "2026-11-24T05:15:42.573136+00:00",
+      "completed_at": "2026-11-24T05:16:56.733932+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 3,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-24T05:05:09.444779+00:00"
+  "published_at": "2026-11-24T05:16:57.935824+00:00"
 }
