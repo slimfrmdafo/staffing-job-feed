@@ -3767,11 +3767,35 @@
           "completed_at": "2026-11-24T08:03:17.688426+00:00",
           "ok": false,
           "error": "Error: Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:370:30), <anonymous>:1:36)\n    at UtilityScript.evaluate (<anonymous>:377:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        "mac": {
+          "firm": "Prysmian Group",
+          "route": "mac",
+          "started_at": "2026-11-24T08:17:27.310576+00:00",
+          "completed_at": "2026-11-24T08:17:42.055956+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 180,
+            "enumerated_raw": 180,
+            "advertised": 180,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 4,
+            "closed_during_pull": 0,
+            "kept": 0,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "locationCountry": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         }
       },
-      "snapshot_at": "2026-11-24T07:02:58.072156+00:00",
-      "completed_at": "2026-11-24T07:03:10.638174+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T08:17:27.310576+00:00",
+      "completed_at": "2026-11-24T08:17:42.055956+00:00",
+      "snapshot_route": "mac"
     },
     "Ryder System": {
       "rows": [],
@@ -5013,7 +5037,17 @@
       "firms_failed": 1,
       "timer_run_id": "45344566832",
       "timer_fired_at": "2026-11-24T07:59:55.792825+00:00"
+    },
+    {
+      "id": "0cdff26b-7f72-4b20-9c12-3534cb0d638b",
+      "route": "mac",
+      "started_at": "2026-11-24T08:17:25.534101+00:00",
+      "completed_at": "2026-11-24T08:17:42.057071+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 1,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-24T08:06:24.745198+00:00"
+  "published_at": "2026-11-24T08:17:43.204776+00:00"
 }
