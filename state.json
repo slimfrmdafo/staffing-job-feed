@@ -3724,11 +3724,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Official job search and detail pages are under maintenance",
+          "error": "Apex search returned no enumerable listings; preserving prior snapshot",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-24T05:56:10.064580+00:00",
-          "completed_at": "2026-11-24T05:56:11.375920+00:00"
+          "started_at": "2026-11-24T06:56:09.556390+00:00",
+          "completed_at": "2026-11-24T06:56:34.879320+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -8109,17 +8109,12 @@
           "completed_at": "2026-11-24T06:30:35.767441+00:00"
         },
         "mac": {
-          "ok": true,
-          "info": {
-            "candidates": 64,
-            "details_read": 64,
-            "kept": 3,
-            "enumerated": 1528
-          },
+          "ok": false,
+          "error": "Vaco pagination repeated",
           "firm": "Vaco",
           "route": "mac",
-          "started_at": "2026-11-24T05:56:10.066641+00:00",
-          "completed_at": "2026-11-24T05:56:26.058957+00:00"
+          "started_at": "2026-11-24T06:56:09.557310+00:00",
+          "completed_at": "2026-11-24T06:56:11.401535+00:00"
         }
       },
       "snapshot_at": "2026-11-24T05:56:10.066641+00:00",
@@ -8541,8 +8536,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-24T05:56:10.068116+00:00",
-          "completed_at": "2026-11-24T06:03:32.758364+00:00"
+          "started_at": "2026-11-24T06:56:09.558004+00:00",
+          "completed_at": "2026-11-24T07:03:07.685790+00:00"
         }
       }
     },
@@ -8991,7 +8986,17 @@
       "firms_failed": 3,
       "timer_run_id": "45333589624",
       "timer_fired_at": "2026-11-24T06:28:53.096704+00:00"
+    },
+    {
+      "id": "335adb55-0566-4581-857a-5241566535ed",
+      "route": "mac",
+      "started_at": "2026-11-24T06:56:07.989908+00:00",
+      "completed_at": "2026-11-24T07:03:07.697862+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 0,
+      "firms_failed": 3
     }
   ],
-  "published_at": "2026-11-24T06:39:20.782082+00:00"
+  "published_at": "2026-11-24T07:03:08.989496+00:00"
 }
