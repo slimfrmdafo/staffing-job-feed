@@ -42,8 +42,11 @@ def enrich(row, context=''):
         if not row['job_type']:
             m=re.search(r'\b(contract.to.hire|temp.to.perm|\d+\+?[- ]month contract|contract opportunity|contract position|permanent position|direct hire)\b',ctx,re.I)
             if m:row['job_type']=job_type(m[0])
-    m=re.search(r'\b\d+(?:\s*[-–]\s*\d+)?\+?\s*(?:months?|weeks?|years?)\b(?=.{0,30}(?:contract|duration|assignment|opportunity))',ctx,re.I)
-    if m:row['contract_length']=m[0]
+    duration=r'(\d+(?:\s*[-–]\s*\d+)?\+?\s*(?:months?|weeks?|years?))'
+    m=re.search(r'(?:duration|contract length|assignment length|contract term)\s*[:–-]?\s*(?:initial(?:ly)?\s*)?'+duration+r'\b',ctx,re.I)
+    if not m:
+        m=re.search(r'\b'+duration+r'\s*[- ]?\s*(?:(?:W-?2|temporary)\s+)?(?:contract|assignment|opportunity)\b(?!\s+(?:experience|management|operations|negotiation))',ctx,re.I)
+    if m:row['contract_length']=m[1]
     m=re.search(r'\b\d+\+?(?:\s*[-–]\s*\d+)?\s+years?(?:\s+of)?\s+(?:relevant\s+|professional\s+)?experience\b',text,re.I)
     if m:row['required_experience']=m[0]
     if not row['pay_unit']:

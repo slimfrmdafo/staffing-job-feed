@@ -54,3 +54,12 @@ def test_explicit_remote_us_and_coordinates_are_supported():
 def test_contract_to_perm_is_not_permanent():
  from core import job_type
  assert job_type('Contract To Perm')=='contract-to-hire'
+
+def test_experience_near_contract_operations_is_not_duration():
+ from core import enrich
+ r=row();r['description']='University Degree with 2+ years of experience in Contract Operations involving complex data integration.'
+ assert enrich(r)['contract_length']==''
+ r=row();r['description']='Experience: 5+ years Duration: 096+ Months (Long-term / High possibility of extension)'
+ assert enrich(r)['contract_length']=='096+ Months'
+ r=row();r['description']='Duration: 1+ year contract. Location: 100% Remote.'
+ assert enrich(r)['contract_length']=='1+ year'
