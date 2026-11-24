@@ -3614,11 +3614,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Apex search returned no enumerable listings; preserving prior snapshot",
+          "error": "Official job search and detail pages are under maintenance",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-24T13:56:09.956736+00:00",
-          "completed_at": "2026-11-24T13:56:22.299899+00:00"
+          "started_at": "2026-11-24T14:56:09.980253+00:00",
+          "completed_at": "2026-11-24T14:56:10.822819+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -8402,8 +8402,8 @@
           "error": "Collabera incomplete search count",
           "firm": "Collabera",
           "route": "mac",
-          "started_at": "2026-11-24T13:56:09.957808+00:00",
-          "completed_at": "2026-11-24T13:59:59.239549+00:00"
+          "started_at": "2026-11-24T14:56:09.982024+00:00",
+          "completed_at": "2026-11-24T15:01:57.932997+00:00"
         }
       },
       "snapshot_at": "2026-11-24T12:32:21.007301+00:00",
@@ -8426,8 +8426,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-24T13:56:09.960201+00:00",
-          "completed_at": "2026-11-24T14:03:10.426340+00:00"
+          "started_at": "2026-11-24T14:56:09.983726+00:00",
+          "completed_at": "2026-11-24T15:03:50.105881+00:00"
         }
       }
     },
@@ -9052,7 +9052,17 @@
       "firms_failed": 3,
       "timer_run_id": "45404090120",
       "timer_fired_at": "2026-11-24T14:30:26.288352+00:00"
+    },
+    {
+      "id": "9b6d662d-bfc2-4410-9a8b-db74bd0f6e8e",
+      "route": "mac",
+      "started_at": "2026-11-24T14:56:07.910689+00:00",
+      "completed_at": "2026-11-24T15:03:50.130197+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 0,
+      "firms_failed": 3
     }
   ],
-  "published_at": "2026-11-24T14:36:35.582135+00:00"
+  "published_at": "2026-11-24T15:03:51.842304+00:00"
 }
