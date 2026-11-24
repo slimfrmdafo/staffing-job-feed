@@ -1,5 +1,5 @@
 Employer job feed
-Published UTC: 2026-11-24T03:04:41.170153+00:00
+Published UTC: 2026-11-24T03:15:19.589063+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/employer_jobs.csv
 Priority employers are attempted on every cloud run. Mac retries only employers whose latest cloud attempt failed.
@@ -46,6 +46,7 @@ Movement Mortgage: listings=0 runners=cloud snapshot_runner=cloud last_success=2
   cloud: OK at 2026-11-24T03:02:36.350976+00:00 {'enumerated': 12, 'enumerated_raw': 12, 'advertised': 12, 'details_read': 0, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
 Kohl's: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
   cloud: FAILED at 2026-11-24T03:02:37.105383+00:00 CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers
+  mac: FAILED at 2026-11-24T03:14:31.073007+00:00 CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers
 OrthoCarolina: listings=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:42.062317+00:00
   cloud: OK at 2026-11-24T03:02:42.062317+00:00 {'enumerated': 56, 'enumerated_raw': 56, 'advertised': 56, 'details_read': 1, 'closed_during_pull': 0, 'kept': 1, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
 Campbell Snacks: listings=4 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:02:49.241604+00:00
@@ -64,12 +65,15 @@ Rosendin Electric: listings=5 runners=cloud snapshot_runner=cloud last_success=2
   cloud: OK at 2026-11-24T03:04:15.637101+00:00 {'enumerated': 378, 'enumerated_raw': 378, 'advertised': 378, 'details_read': 74, 'closed_during_pull': 0, 'kept': 5, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
 Celgard: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:32.396353+00:00
   cloud: OK at 2026-11-24T03:03:32.396353+00:00 {'enumerated': 24, 'enumerated_raw': 24, 'advertised': 24, 'details_read': 0, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'hiringCompany': ['2f24a4199827013877171f1c223b682f'], 'Location_Country': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
-UFP Industries: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
+UFP Industries: listings=2 runners=cloud+mac snapshot_runner=mac last_success=2026-11-24T03:14:40.040344+00:00
   cloud: FAILED at 2026-11-24T03:03:34.257459+00:00 CollectionError: Browser HTTP 500: https://ufpi.wd1.myworkdayjobs.com/careers
+  mac: OK at 2026-11-24T03:14:40.040344+00:00 {'enumerated': 420, 'enumerated_raw': 420, 'advertised': 420, 'details_read': 5, 'closed_during_pull': 0, 'kept': 2, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
 Husqvarna Group: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
   cloud: FAILED at 2026-11-24T03:03:36.329877+00:00 CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External
+  mac: FAILED at 2026-11-24T03:14:31.340580+00:00 CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External
 CLA: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
   cloud: FAILED at 2026-11-24T03:03:38.087556+00:00 CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA
+  mac: FAILED at 2026-11-24T03:14:33.812405+00:00 CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA
 Whistle Express Car Wash: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:49.058336+00:00
   cloud: OK at 2026-11-24T03:03:49.058336+00:00 {'enumerated': 541, 'enumerated_raw': 541, 'advertised': 541, 'details_read': 0, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}, 'unpublished_index_ids': []}
 Comporium: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:03:53.426469+00:00
@@ -82,11 +86,13 @@ Charlotte Douglas International Airport: listings=0 runners=cloud snapshot_runne
   cloud: OK at 2026-11-24T03:04:05.506146+00:00 {'enumerated': 43, 'enumerated_raw': 43, 'advertised': 43, 'details_read': 6, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
 City of Charlotte: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T03:04:11.057317+00:00
   cloud: OK at 2026-11-24T03:04:11.057317+00:00 {'enumerated': 43, 'enumerated_raw': 43, 'advertised': 43, 'details_read': 6, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}, 'unpublished_index_ids': []}
-Honeywell: listings=0 runners=cloud+mac snapshot_runner=none last_success=never
+Honeywell: listings=11 runners=cloud+mac snapshot_runner=mac last_success=2026-11-24T03:15:17.915507+00:00
   cloud: FAILED at 2026-11-24T03:04:39.470510+00:00 CollectionError: Oracle full detail missing/mismatched
+  mac: OK at 2026-11-24T03:15:17.915507+00:00 {'enumerated': 1339, 'enumerated_raw': 1339, 'advertised': 1339, 'details_read': 64, 'kept': 11, 'method': 'employer Oracle search + full requisition detail resource'}
 
-TOTAL listings=140 posted_contacts=10
+TOTAL listings=153 posted_contacts=10
 Unknown optional fields remain empty. All included listings use full posting details.
 
 Recent run receipts:
 {"completed_at": "2026-11-24T03:04:39.474364+00:00", "firms_attempted": 39, "firms_failed": 5, "firms_succeeded": 34, "id": "45316263704", "route": "cloud", "started_at": "2026-11-24T02:59:30.131444+00:00", "timer_fired_at": "2026-11-24T02:59:02.445379+00:00", "timer_run_id": "45316236665", "trigger": "cloud_clock"}
+{"completed_at": "2026-11-24T03:15:17.917784+00:00", "firms_attempted": 5, "firms_failed": 3, "firms_succeeded": 2, "id": "428b5754-b424-42fc-bc9c-d2ff1395e1af", "route": "mac", "started_at": "2026-11-24T03:14:05.450126+00:00", "trigger": "mac_launchd"}
