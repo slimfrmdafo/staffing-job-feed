@@ -77,8 +77,10 @@ def workday_row(firm,base,path,data):
     locations=[x.get('descriptor','') if isinstance(x,dict) else str(x) for x in locations]
     parsed=[parse_location(x) for x in locations];local=next((x for x in parsed if x[0].lower() in LOCAL and x[1] in ('NC','SC')),None)
     city,state=local or next((x for x in parsed if x[1]),('',''));r.update(city=city,state=state)
-    remote=str(j.get('remoteType') or j.get('workplaceType') or '')
-    if re.fullmatch(r'(?:fully )?remote',remote,re.I):r['work_arrangement']='remote'
+    remote=j.get('remoteType') or j.get('workplaceType') or ''
+    remote=str(remote.get('descriptor') or remote.get('name') or '') if isinstance(remote,dict) else str(remote)
+    if re.fullmatch(r'(?:fully )?remote(?: \((?:US|USA|United States)\))?|virtual worker|work from home|home[- ]based',remote,re.I):r['work_arrangement']='remote'
+    elif re.search(r'office worker.*NOT Remote',remote,re.I):r['work_arrangement']='onsite'
     elif remote.lower()=='hybrid':r['work_arrangement']='hybrid'
     elif remote.lower() in ('onsite','on-site'):r['work_arrangement']='onsite'
     if any(re.search(r'\bremote\b',x,re.I) for x in locations) and not re.search(r'hybrid|partially remote',remote,re.I):r['work_arrangement']='remote'
@@ -331,7 +333,8 @@ def phenom(firm,config):
             work=str(data.get('workplaceType') or data.get('remote') or '')
             if work in ('Remote','Hybrid','On-Site'):r['work_arrangement']={'Remote':'remote','Hybrid':'hybrid','On-Site':'onsite'}[work]
         except (ValueError,CollectionError):pass
-        if keep_employer(r,country=str(j.get('country') or '')):rows.append(r)
+        country=str(j.get('country') or '');country='US' if country in ('United States of America','United States','USA') else country
+        if keep_employer(r,country=country):rows.append(r)
     return rows,{'enumerated':len(seen),'enumerated_raw':raw,'advertised':total,'details_read':details,'kept':len(rows),'method':'employer current search widget + canonical full detail pages'}
 ADAPTERS['phenom']=phenom
 REGISTRY["Lowe's"]={'adapter':'phenom','root':'https://talent.lowes.com','url':'https://talent.lowes.com/us/en/search-results'}

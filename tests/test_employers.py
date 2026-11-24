@@ -99,3 +99,9 @@ def test_later_workday_pages_can_omit_total_without_losing_completeness():
    return {'total':2 if body['offset']==0 else 0,'jobPostings':[{'externalPath':'/job/'+str(body['offset']),'title':'A'}]}
  jobs,info=workday_index(FakeBrowser(),'https://example.com',{})
  assert len(jobs)==2 and info['enumerated_raw']==2
+
+def test_explicit_virtual_worker_is_remote_but_not_remote_office_is_onsite():
+ r,country=workday_row('AT&T','https://example.com','/job/x',posting(location='Dallas, TX',additionalLocations=[],remoteType='Virtual Worker'))
+ assert r['work_arrangement']=='remote' and keep_employer(r,country)
+ r,country=workday_row('AT&T','https://example.com','/job/x',posting(location='Dallas, TX',additionalLocations=[],remoteType='Office Worker (NOT Remote)'))
+ assert r['work_arrangement']=='onsite' and not keep_employer(r,country)

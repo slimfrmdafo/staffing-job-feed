@@ -36,9 +36,9 @@ def contact_fields(text):
         following_lines=[x.strip() for x in text[match.end():match.end()+180].splitlines() if x.strip()]
         nearest=(previous_lines[-1] if previous_lines else '')+' '+(following_lines[0] if following_lines else '')
         if re.search(r'accommod|accessib|disabilit|privacy|(?:report|suspect).{0,25}(?:fraud|scam)',nearest,re.I):continue
-        if not re.search(r'recruit|contact|resume|reach|email|talent acquisition|regards|office|apply',before,re.I):continue
+        if not re.search(r'recruit|contact|hiring manager|resume|reach|email|talent acquisition|regards|office|apply',before,re.I):continue
         selected=match;out['recruiter_email']=address;break
-    names=list(re.finditer(r'(?i:recruiter(?: name)?|contact(?: name)?)\s*:\s*([A-Z][A-Za-z\'.-]+(?:[ \t]+[A-Z][A-Za-z\'.-]+){1,3})(?=\s*[;\n,]|\s*$)',text))
+    names=list(re.finditer(r'(?i:recruiter(?: name)?|contact(?: name)?|hiring (?:manager|contact))\s*:\s*([A-Z][A-Za-z\'.-]+(?:[ \t]+[A-Z][A-Za-z\'.-]+){1,3})(?=\s*[;\n,]|\s*$)',text))
     if names:out['recruiter_name']=names[0][1].strip()
     if selected:
         near=text[max(0,selected.start()-240):selected.end()+160]

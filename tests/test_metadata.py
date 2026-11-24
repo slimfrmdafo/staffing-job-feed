@@ -67,3 +67,7 @@ def test_generic_recruiting_mailbox_used_only_for_accommodations_is_excluded():
  assert contact_fields('If you require a reasonable accommodation to complete the application process, please contact us at\nCarrier.Recruiting@carrier.com\n. We will meet your needs.')=={}
  assert contact_fields('If you need a medical accommodation, please email\nhrpolicy@ally.com\nwith details of your accommodation request.')=={}
  assert contact_fields('CONTACT INFORMATION\nIf there are questions about this posting, contact Talent Acquisition at\ntalentacquisition@dhhs.nc.gov\n.')['recruiter_email']=='talentacquisition@dhhs.nc.gov'
+
+def test_explicit_named_hiring_contact_is_captured():
+ result=contact_fields('Hiring Manager: Jane Doe\njane.doe@example.com\n704-555-1234')
+ assert result=={'recruiter_name':'Jane Doe','recruiter_email':'jane.doe@example.com','recruiter_phone':'704-555-1234'}
