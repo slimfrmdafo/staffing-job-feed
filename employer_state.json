@@ -623,8 +623,8 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-24T03:30:19.399889+00:00",
-          "completed_at": "2026-11-24T03:31:19.282739+00:00",
+          "started_at": "2026-11-24T03:59:46.661162+00:00",
+          "completed_at": "2026-11-24T04:00:37.964516+00:00",
           "ok": true,
           "info": {
             "enumerated": 2076,
@@ -636,8 +636,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:30:19.399889+00:00",
-      "completed_at": "2026-11-24T03:31:19.282739+00:00",
+      "snapshot_at": "2026-11-24T03:59:46.661162+00:00",
+      "completed_at": "2026-11-24T04:00:37.964516+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -977,8 +977,8 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-24T03:30:19.400650+00:00",
-          "completed_at": "2026-11-24T03:31:30.386389+00:00",
+          "started_at": "2026-11-24T03:59:46.662332+00:00",
+          "completed_at": "2026-11-24T04:00:49.281942+00:00",
           "ok": true,
           "info": {
             "enumerated": 1352,
@@ -999,8 +999,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:30:19.400650+00:00",
-      "completed_at": "2026-11-24T03:31:30.386389+00:00",
+      "snapshot_at": "2026-11-24T03:59:46.662332+00:00",
+      "completed_at": "2026-11-24T04:00:49.281942+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1802,8 +1802,8 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-24T03:30:19.401127+00:00",
-          "completed_at": "2026-11-24T03:31:53.274300+00:00",
+          "started_at": "2026-11-24T03:59:46.662704+00:00",
+          "completed_at": "2026-11-24T04:01:07.229848+00:00",
           "ok": true,
           "info": {
             "enumerated": 1344,
@@ -1820,8 +1820,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:30:19.401127+00:00",
-      "completed_at": "2026-11-24T03:31:53.274300+00:00",
+      "snapshot_at": "2026-11-24T03:59:46.662704+00:00",
+      "completed_at": "2026-11-24T04:01:07.229848+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1985,8 +1985,8 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-24T03:30:19.401374+00:00",
-          "completed_at": "2026-11-24T03:30:30.971107+00:00",
+          "started_at": "2026-11-24T03:59:46.663249+00:00",
+          "completed_at": "2026-11-24T03:59:53.839690+00:00",
           "ok": true,
           "info": {
             "enumerated": 72,
@@ -2003,16 +2003,16 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:30:19.401374+00:00",
-      "completed_at": "2026-11-24T03:30:30.971107+00:00",
+      "snapshot_at": "2026-11-24T03:59:46.663249+00:00",
+      "completed_at": "2026-11-24T03:59:53.839690+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
       "rows": [
         {
           "firm": "Lowe's",
-          "job_id": "JR-02702351",
-          "title": "Loyalty Program Marketing Manager",
+          "job_id": "JR-02657078",
+          "title": "Sr Analyst-Merchandising Operations Data Governance",
           "client_company": "",
           "city": "Mooresville",
           "state": "NC",
@@ -2022,80 +2022,14 @@
           "pay_min": "",
           "pay_max": "",
           "pay_unit": "",
-          "posted_date": "2026-11-18",
-          "url": "https://talent.lowes.com/us/en/job/JR-02702351",
+          "posted_date": "2026-11-12",
+          "url": "https://talent.lowes.com/us/en/job/JR-02657078",
           "recruiter_name": "",
           "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "",
           "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Loyalty Program Manager owns the day-to-day operations and ongoing improvement of Lowe's loyalty programs, ensuring processes are efficient, scalable, and deliver a consistent experience for both customers and associates. Reporting to the Director, Loyalty Promotions and Operations, this role serves as a key partner in identifying operational challenges, addressing recurring issues, and improving how work gets done across the loyalty ecosystem.\r\n\r\nThis role works closely with Store Operations, Customer Care, Technology, and Loyalty teams to understand customer and associate pain points, resolve operational issues, identify root causes, and implement solutions that improve the experience and reduce future friction. The position is responsible for establishing and maintaining processes, controls, and operational standards that support consistent program execution and long-term success.\r\n\r\nIn addition, this role helps drive the operating rhythm of the Loyalty organization by supporting planning activities, business reviews, technology prioritization, and cross-functional initiatives. Through strong partnerships, operational expertise, and a continuous improvement mindset, this position plays an important role in ensuring Lowe's loyalty programs run effectively and continue to evolve to meet business and customer needs.\nWhat You Will Do\nOversee day-to-day operations across Lowe’s loyalty programs, driving process efficiency, scalability, and operational consistency to deliver a seamless experience for customers and associates.\nOwn loyalty issue management and continuous improvement, identifying recurring themes and root causes and translating learnings into process, tool, and experience enhancements that reduce future issues.\nDevelop and maintain standard operating procedures, escalation paths, playbooks, and knowledge resources that improve execution, consistency, and speed to resolution.\nPartner with Store Operations, Customer Care, and field teams to identify associate pain points and improve the processes, tools, communications, and resources associates need to effectively support loyalty members.\nOwn the overall Loyalty technology planning process, coordinating priorities, business requirements, dependencies, and sequencing across Loyalty program teams and technology partners.\nServe as the business owner for the Loyalty Operations technology roadmap, identifying and prioritizing capabilities that improve operational efficiency, issue resolution, associate support, and scalability.\nLead operational readiness for new loyalty capabilities and program changes, ensuring processes, tools, documentation, and support models are established prior to launch.\nManage key Loyalty operating and planning rhythms, including business reviews, team planning, decision and action tracking, and other cross-functional planning milestones.\nMinimum Qualifications\nBachelor’s degree Business, Marketing or related field or equivalent years of experience in lieu of education requirement, if applicable\n7-10 Years General Marketing Experience\n5 Years CRM and loyalty experience\nPreferred Skills/Education\n1-3 Years People Leadership Experience\nExperience working with marketing technology\nExperience working closely with senior leadership\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02700383",
-          "title": "Business Project Manager",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-18",
-          "url": "https://talent.lowes.com/us/en/job/JR-02700383",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "4 years experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to have single-threaded ownership of delivering Business projects that are small to medium in size, moderately complex, and that typically involve multiple work streams/functional groups. This includes responsibility for managing projects end-to-end through the planning, development, execution, and implementation stages, while adhering to the ePMO framework. Overall, this role contributes to Business projects that play an important role in moving the organization forward by providing improvements across the business.\nWhat You Will Do\nDelivers multiple Business projects that are less complex or one to two small to medium size moderately complex from planning to minimum realization with full responsibility and accountability for the outcomes; includes organizing and tracking project details and communicating consistently with project stakeholders and personnel\nDevelops, analyzes, and manages all touch points of the project plan including responsibility for scheduling, global resource forecasting, managing project financials, and providing input and justification for costs and budget impact\nMonitors or owns the overall performance (timeline, budget, and resource utilization) of small to medium-sized projects against plan and works through the project team to implement adjustments when issues/risks are identified and require resolution\nPartners with IT/Business for requests for information (RFI) and requests for proposal (RFP) processes\nDrives the work of assigned project team by requesting resources to support Technology project demands and communicating a clear vision of project goals and objectives to the team\nAligns team activities to ensure project milestones are achieved\nControls and mitigates project risks/issues by performing the qualitative and quantitative analysis of scenarios and trigger events, planning response, establishing contingency plans, anticipating dependencies affected by ongoing project changes, and recommending ways to mitigate future risks to management\nManages and ensures the alignment, buy-in, and support of diverse project stakeholders by building and maintaining relationships with internal customers, third party vendors, and senior management\nReviews and/or prepares status reports on key project performance metrics (i.e., deliverables, financials, duration, benefits) and/or provides data input\nDecomposes the work breakdown structure and translates it into detailed project plans, taking into consideration resource availability, dependencies, and the work effort required for individual project tasks\nParticipates in formal and informal training to continuously develop technical capabilities and project management skill set\nSpecific to the Business - Ensures approved business cases exist for executive sponsored programs. Manages risks, issues, decisions and scope changes.\nApplies deep functional knowledge (e.g. business objectives, operating model, cross-functional macro processes, etc.) in HR, IT, Finance, Stores, Pro, Supply Chain, Merchandising, and Digital to ensure the alignment, buy-in, and support of diverse project stakeholders such as internal customers, third party vendors, and senior/executive management\nMinimum Qualifications\nBachelor’s degree Business Administration, Marketing, Human Resources, Operations, Finance, Computer Science, or related field . or equivalent years of experience in lieu of education requirement, if applicable\n4 years experience in program and project management\n2 years leadership experience with direct report responsibility, comfortable managing teams with 5+ people. Expert in project life cycle methodologies (Waterfall, Agile, etc.), stakeholder. management, conflict resolution, executive communication (written, verbal, etc.\n4 years experience developing project Work Breakdown Structures (WBS) / User Stories used to create project schedules and estimates\nExperience managing operational or project/program financial budgets\nPreferred Skills/Education\n1 Year corporate experience, retail a plus\n4 years experience in enterprise project planning and coordination and working on projects or programs requiring the integration of cross-functional solutions\n2 years experience using formal business process improvement methodologies\nor other project/program management certification; Agile/Scrum/SAFe\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02687987",
-          "title": "Legal Operations - Data Analyst",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-19",
-          "url": "https://talent.lowes.com/us/en/job/JR-02687987",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "4 Years of Experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to support the Legal eBilling system and the outside counsel management program. This role will oversee the ebilling process, onboarding of new outside counsel firms, monitor compliance with outside counsel guidelines, analyze outside counsel rate increase requests, prepare monthly accruals and prepare wire transfers. This individual has frequent access to confidential information.\nWhat You Will Do\nManage the Legal Department’s eBilling process. Provide billing support to the Legal Department, Law Firms, interacting independently with attorneys and outside counsel firms. Research billing issues\nResolve billing issues by working across multiple teams such as Vendor Setup, Accounts Payable and Finance\nManage the onboarding process for law firms into our eBilling and vendor management systems, partnering with various internal partners, including Data Security, and external partners, including eBilling provider\nManage the outside counsel scorecard and reporting\nMaintain rate tables and alternative fee agreements of each outside counsel firm. Perform first line analysis of timekeeper rate requests\nPrepare check requests, enters invoices into the matter management system and handle incoming checks for deposit\nPrepare international wire requests\nMaintain the eBilling guidelines and training materials\nProvide training to internal invoice approvers\nProactively seek ways to improve current processes to maximize productivity, workflow, and efficiency in all aspects of the eBilling function\nCreate spreadsheets including formulas to organize, display, and summarize data, facilitate analysis, and identify interrelationships; prepares special reports for other departments and external customers\nManage accruals, including running and delivering monthly eBilling accrual reports\nAct as the contact person for external vendors and uses independent judgment to respond to requests for information or to refer more complex requests to appropriate staff members; follows up to ensure issues have been resolved\nWorks with or provides confidential and sensitive information and exercises discretion concerning its dissemination\nAssist with data analysis and develop reports and visual summaries\nMinimum Qualifications\nAssociate degree  or equivalent years of experience in lieu of education requirement, if applicable\nBachelor’s degree  or equivalent years of experience in lieu of education requirement, if applicable\n4 Years of Experience working in a corporate legal department or law firm\n2 Years of Experience working in a corporate legal department or law firm\nPreferred Skills/Education\nExperience with Passport eBilling and matter management system\nExperience managing large volumes of work\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02673910",
-          "title": "Merchandising Project Manager",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-23",
-          "url": "https://talent.lowes.com/us/en/job/JR-02673910",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "3 Years Experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to project manager within their assigned Merchandising division in order to deliver on defined scope, timeline and budget. This includes responsibility for planning and overseeing the deployment of their respective Merchandising division's go-to-market strategy by supporting each Product Group's vision, identifying project scope, developing timelines, providing status reporting, leading risk mitigation and prioritizing the day-to-day tasks of an internal CSC team across several functions. This role is critical to Lowe's because through the effective project management of these initiatives, Lowe's is able to support the market introduction of new products and selling material empowering store associates to drive incremental sales and margin\nWhat You Will Do\nDelivers the planned Merchandising Division project portfolio for their respective division consisting of 50 projects and $60M of expenditure annually\nSupports the Merchandising Division's leadership; aligns one-to-one with a Merchandising VP and supports the go-to-market strategy for that division\nPrioritizes project/task priorities across the cross-functional project team usually consisting of 10-12 members; works closely with the project team & client to ensure timely implementation and rollout of projects and ensures that all appropriate project activities are defined and appropriately assigned for accountability\nCaptures project specific intent/scope and develops timelines and functional resource alignment to execute intent; escalates deviations or variances on scope, timeline and budget to appropriate Merchandising Leadership & client\nIdentifies risks and leads mitigation efforts, identifies system, process, and training gaps, as well as notes resource constraints and escalates to the respective client and Merchandising Leadership as needed\nSupports the Portfolio forecasting and the Project Authorization Request (PAR) processes and collaborates with leaders across the organization to ensure data and information is entered on time, aligned with key reporting dates, and accurately depicts their team’s projects\nParticipates in the preparation for the annual forecast solicitation process with clients and portfolio team and assists in monthly updates to the forecast\nConsolidates and reports spend variances to budgets/forecasts to the portfolio team and Merchandising Operations leadership throughout the lifecycle of their team’s projects\nCoordinates with the Portfolio & Financial Support team to ensure their team’s portfolio is accurately represented in all dashboards, monthly reports, and quarterly solicitations\nDevelops and tracks project plans in the project management tool (PMT) to identify issues and opportunities, form hypotheses, design and conduct analyses, track major milestones / progress, synthesize conclusions and approve final plans to implement change and ensures ongoing project data accuracy\nMinimum Qualifications\nBachelor’s degree Business Management, Business Administration, Computer Science or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\n3 Years Experience leading operational process review, design and implementation of improvements; industry related experience\n2 years leadership experience with direct report responsibility, comfortable managing teams with 5+ people. Expert in project life cycle methodologies (Waterfall, Agile, etc.), stakeholder. management, conflict resolution, executive communication (written, verbal, etc.\n4 years experience developing project Work Breakdown Structures (WBS) / User Stories used to create project schedules and estimates\nPreferred Skills/Education\nMaster’s degree Business Management, Business Administration, Computer Science or related field\n3 Years Experience leading operational process review, design and implementation of improvements; industry related experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Merchandising Operations role works in one of the functional areas of Merchandising Operations supporting their assigned line of business. The Sr Analyst will focus on their level of responsibilities to include more advanced consulting to the business and addressing challenges within their area of responsibility. Key functional areas include Vendor/Item Onboarding, Reporting, Operational Services, Vendor Compliance, Product Content, Data Governance and Tech Enablement. Responsibilities may vary based on the area of work.\nWhat You Will Do\nAnalytics- Handle interpretation, higher level analysis, storytelling of data. Consumer - utilizing segmentation. Utilize internal and external facing applications, Microsoft data analytics tools.\nBuilding Relationships- Promote cooperation and teamwork; strong interpersonal skills; establish and maintain trust and credibility with leaders and team.\nCommunication- Addressing challenges and issues within area (not day to day). Deliver some of the internal training. Gather and create content.\nIssue Resolution-May take on more complex issues and helps drive resolution.\nTraining/Development-Works with leaders on identifying needs and developing solutions for the functional area.\nReporting-Gathers and analyzes data and helps translate date into action and insights.\nProcess Improvement-Identifies opportunities and helps design solutions.\nTechnology Requirements- Supports governance of data stewardship, roles, and permissions to help ensure appropriate ownership, access, and accountability across merchandising systems\nProject Management-Provide customer feedback, manage project timelines with own projects.\nLiaison with international partners on more complex issues.\nMerchandising & Vendor Engagement- Focus on strategic and vendors with complex issues; ensure master level is addressed; trusted partner (merchant & vendor).\nBusiness Alignment-Focused on business unit (including MVP areas) store merchandising functional areas.\nCreates usage standards, guidelines, and statements of direction to track the quality, availability, and applicability of data through to full business integration\nTests, implements, and supports technology solutions to ensure efficiency and business continuity\nUses relevant data, analytics, and customer feedback to help develop and drive the solutions offered to Lowe's internal customers\nWorks to on-board and train new-users on best practices and system updates and/or changes for all merchandising information systems\nMinimum Qualifications\nBachelor’s degree Business, Accounting, Finance, Economics, or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\nExperience in structuring and writing formal documents, developing and delivering group presentations, project planning, and/or cross-functional collaboration\nPreferred Skills/Education\nExperience in Microsoft products (Outlook, PowerPoint, etc.) and relational business software\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
         },
         {
           "firm": "Lowe's",
@@ -2121,6 +2055,28 @@
         },
         {
           "firm": "Lowe's",
+          "job_id": "JR-02679740",
+          "title": "Sr Analyst-Product Compliance",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-15",
+          "url": "https://talent.lowes.com/us/en/job/JR-02679740",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "5 Years experience",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Product Compliance is responsible for executing key activities that support Lowe's product compliance programs, helping to protect customers, the business, and the brand from regulatory and safety risks. This role focuses on monitoring and interpreting state and federal regulations, ensuring timely awareness and proactive compliance across Lowe's product categories.\nThe Sr Analyst partners closely with cross-functional teams—including Merchandising, Sourcing, Quality Assurance, Legal, and Sustainability—as well as vendors, testing laboratories, regulatory bodies, and industry associations. By providing detailed analysis, reporting, and operational support, this role plays a critical part in advancing Lowe's compliance strategy and ensuring products meet or exceed regulatory and safety standards.\nWhat You Will Do\nExecute processes that mitigate product compliance risks to Lowe’s and its customers, ensuring activities are completed on time and in adherence to company standards.\nSupport the preparation and delivery of compliance-related reports to meet state and federal obligations.\nAdminister vendor-related compliance programs, including Conflict Minerals, and Mercury Surveys.\nPartner with Legal to monitor and interpret emerging state and federal regulations, assess business impacts, and implement appropriate compliance controls.\nCommunicate key regulatory updates and new obligations to stakeholders across the organization.\nExecute regulatory stop-sales for in-scope items and provide guidance to Merchandising and Legal on process requirements and risk implications.\nCollaborate with Quality Assurance Engineering and approved third-party labs to ensure testing protocols address regulatory requirements.\nDevelop solutions for upcoming regulations where existing protocols or programs are insufficient.\nPartner with Legal, Quality Assurance, Merchandising, Sourcing, and vendors to complete compliance activities and resolve issues.\nEngage with regulatory agencies on notices of violation (e.g., weights & measures, product registration), coordinate with vendors to collect fines, and support corrective actions.\nBenchmark compliance practices through continuous learning and participation in industry associations such as ICPHSO and RILA.\nDocument policies and procedures that support product compliance programs and ensure consistent execution.\nProvide training and guidance to internal stakeholders to promote best practices and build a culture of compliance.\nCollaborate with technology partners to develop, test, and launch systems that improve compliance processes.\nMinimum Qualifications\nBachelor’s degree in Engineering, Science, Business, or related field or equivalent years of experience in lieu of education requirement, if applicable\n5 Years experience in product safety, regulatory compliance, quality, or related field in a retail or manufacturing environment\n2 years experience in product regulations in North America (CPSC, EPA, FDA, etc.)\nincluding state level regulations\n2 years experience leading/facilitating cross-functional projects\nPreferred Skills/Education\nRetail operations experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
           "job_id": "JR-02681238",
           "title": "BDC Sr. Operations Development Manager",
           "client_company": "",
@@ -2140,6 +2096,28 @@
           "required_experience": "8-10 Years of experience",
           "required_certifications": "",
           "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nApplicants must be authorized to work for ANY employer in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa at any time.\nYour Impact\nThe Bulk Distribution Center (BDC) Sr. Operations Development Manager will provide exceptional leadership over operations, process guidance and direction for one or more supply chain facilities. Responsibilities include project management and coordinating and executing efficient inventory movement in and out of facilities.  Other success factors in this role include data analysis and customer relations skills.\nWhat You Will Do\nLeads operations planning and execution for facility events, including project management, coordinating and executing efficient and effective inventory movement in and out of facilities, and communicating to external project managers and customers.\nDefines, coordinates, and executes logistics plan (network inbound / outbound / storage) data collection and analysis to support the evaluation of needed resources as supply chain workflow conditions and store demand changes.\nHelps establish and implement recommendations for needed product flow changes based on projected overflow of planned capacity in supply chain.\nAssesses actual product flows against flow plans; identifies exceptions to Logistics Planning and recommends action.\nManages distribution network events as needed (i.e. TAT, Black Friday, Chinese New Year, large flow resets, all resets and promotions for CFD products) to collect key information from logistics planning and coordinates as needed with transportation, engineering, and operations.\nReport to upper management and corporate leaders all relevant key performance and financial figures.\nManages internal tools and directs individuals to monitor results, alerting supply chain management to trends or conditions that may adversely impact supply chain operations and identifying opportunities to improve flow.\nProduces departmental reporting as needed to support group/business needs and goals as well as future state discussions and improvement initiatives.\nDevelop comprehensive plans to support major initiatives and system enhancement prioritization.\nLed operations of assigned facilities within the BDC network, including third party logistics (3PL) operated facilities, in achieving high levels of efficiency, safety, and customer service related to the distribution of bulk product.\nHires, trains and develops the talent necessary to achieve stated business goals.\nLead the design and development of functional solutions and reporting tools to improve operational efficiency and cost effectiveness through improved systems capability, process improvement, product flow methods, and applied technology.\nProactively identify opportunities for continuous improvement across areas of new process development, project implementation and systems enhancements.\nLeverage continuous improvement methodologies to measure team and process success.\nDefine and manage actions for continuous improvement.\nThis position manages/supervises people\nMinimum Qualifications\nBachelor’s degree in operations, supply chain, or related field and 8-10 Years of experience in supply chain and/or project management.\n5-7 Years of related experience including project management and inventory process management.\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
+          "job_id": "JR-02673910",
+          "title": "Merchandising Project Manager",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-23",
+          "url": "https://talent.lowes.com/us/en/job/JR-02673910",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "3 Years Experience",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to project manager within their assigned Merchandising division in order to deliver on defined scope, timeline and budget. This includes responsibility for planning and overseeing the deployment of their respective Merchandising division's go-to-market strategy by supporting each Product Group's vision, identifying project scope, developing timelines, providing status reporting, leading risk mitigation and prioritizing the day-to-day tasks of an internal CSC team across several functions. This role is critical to Lowe's because through the effective project management of these initiatives, Lowe's is able to support the market introduction of new products and selling material empowering store associates to drive incremental sales and margin\nWhat You Will Do\nDelivers the planned Merchandising Division project portfolio for their respective division consisting of 50 projects and $60M of expenditure annually\nSupports the Merchandising Division's leadership; aligns one-to-one with a Merchandising VP and supports the go-to-market strategy for that division\nPrioritizes project/task priorities across the cross-functional project team usually consisting of 10-12 members; works closely with the project team & client to ensure timely implementation and rollout of projects and ensures that all appropriate project activities are defined and appropriately assigned for accountability\nCaptures project specific intent/scope and develops timelines and functional resource alignment to execute intent; escalates deviations or variances on scope, timeline and budget to appropriate Merchandising Leadership & client\nIdentifies risks and leads mitigation efforts, identifies system, process, and training gaps, as well as notes resource constraints and escalates to the respective client and Merchandising Leadership as needed\nSupports the Portfolio forecasting and the Project Authorization Request (PAR) processes and collaborates with leaders across the organization to ensure data and information is entered on time, aligned with key reporting dates, and accurately depicts their team’s projects\nParticipates in the preparation for the annual forecast solicitation process with clients and portfolio team and assists in monthly updates to the forecast\nConsolidates and reports spend variances to budgets/forecasts to the portfolio team and Merchandising Operations leadership throughout the lifecycle of their team’s projects\nCoordinates with the Portfolio & Financial Support team to ensure their team’s portfolio is accurately represented in all dashboards, monthly reports, and quarterly solicitations\nDevelops and tracks project plans in the project management tool (PMT) to identify issues and opportunities, form hypotheses, design and conduct analyses, track major milestones / progress, synthesize conclusions and approve final plans to implement change and ensures ongoing project data accuracy\nMinimum Qualifications\nBachelor’s degree Business Management, Business Administration, Computer Science or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\n3 Years Experience leading operational process review, design and implementation of improvements; industry related experience\n2 years leadership experience with direct report responsibility, comfortable managing teams with 5+ people. Expert in project life cycle methodologies (Waterfall, Agile, etc.), stakeholder. management, conflict resolution, executive communication (written, verbal, etc.\n4 years experience developing project Work Breakdown Structures (WBS) / User Stories used to create project schedules and estimates\nPreferred Skills/Education\nMaster’s degree Business Management, Business Administration, Computer Science or related field\n3 Years Experience leading operational process review, design and implementation of improvements; industry related experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
         },
         {
           "firm": "Lowe's",
@@ -2165,6 +2143,50 @@
         },
         {
           "firm": "Lowe's",
+          "job_id": "JR-02700383",
+          "title": "Business Project Manager",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-18",
+          "url": "https://talent.lowes.com/us/en/job/JR-02700383",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "4 years experience",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to have single-threaded ownership of delivering Business projects that are small to medium in size, moderately complex, and that typically involve multiple work streams/functional groups. This includes responsibility for managing projects end-to-end through the planning, development, execution, and implementation stages, while adhering to the ePMO framework. Overall, this role contributes to Business projects that play an important role in moving the organization forward by providing improvements across the business.\nWhat You Will Do\nDelivers multiple Business projects that are less complex or one to two small to medium size moderately complex from planning to minimum realization with full responsibility and accountability for the outcomes; includes organizing and tracking project details and communicating consistently with project stakeholders and personnel\nDevelops, analyzes, and manages all touch points of the project plan including responsibility for scheduling, global resource forecasting, managing project financials, and providing input and justification for costs and budget impact\nMonitors or owns the overall performance (timeline, budget, and resource utilization) of small to medium-sized projects against plan and works through the project team to implement adjustments when issues/risks are identified and require resolution\nPartners with IT/Business for requests for information (RFI) and requests for proposal (RFP) processes\nDrives the work of assigned project team by requesting resources to support Technology project demands and communicating a clear vision of project goals and objectives to the team\nAligns team activities to ensure project milestones are achieved\nControls and mitigates project risks/issues by performing the qualitative and quantitative analysis of scenarios and trigger events, planning response, establishing contingency plans, anticipating dependencies affected by ongoing project changes, and recommending ways to mitigate future risks to management\nManages and ensures the alignment, buy-in, and support of diverse project stakeholders by building and maintaining relationships with internal customers, third party vendors, and senior management\nReviews and/or prepares status reports on key project performance metrics (i.e., deliverables, financials, duration, benefits) and/or provides data input\nDecomposes the work breakdown structure and translates it into detailed project plans, taking into consideration resource availability, dependencies, and the work effort required for individual project tasks\nParticipates in formal and informal training to continuously develop technical capabilities and project management skill set\nSpecific to the Business - Ensures approved business cases exist for executive sponsored programs. Manages risks, issues, decisions and scope changes.\nApplies deep functional knowledge (e.g. business objectives, operating model, cross-functional macro processes, etc.) in HR, IT, Finance, Stores, Pro, Supply Chain, Merchandising, and Digital to ensure the alignment, buy-in, and support of diverse project stakeholders such as internal customers, third party vendors, and senior/executive management\nMinimum Qualifications\nBachelor’s degree Business Administration, Marketing, Human Resources, Operations, Finance, Computer Science, or related field . or equivalent years of experience in lieu of education requirement, if applicable\n4 years experience in program and project management\n2 years leadership experience with direct report responsibility, comfortable managing teams with 5+ people. Expert in project life cycle methodologies (Waterfall, Agile, etc.), stakeholder. management, conflict resolution, executive communication (written, verbal, etc.\n4 years experience developing project Work Breakdown Structures (WBS) / User Stories used to create project schedules and estimates\nExperience managing operational or project/program financial budgets\nPreferred Skills/Education\n1 Year corporate experience, retail a plus\n4 years experience in enterprise project planning and coordination and working on projects or programs requiring the integration of cross-functional solutions\n2 years experience using formal business process improvement methodologies\nor other project/program management certification; Agile/Scrum/SAFe\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
+          "job_id": "JR-02702351",
+          "title": "Loyalty Program Marketing Manager",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-18",
+          "url": "https://talent.lowes.com/us/en/job/JR-02702351",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Loyalty Program Manager owns the day-to-day operations and ongoing improvement of Lowe's loyalty programs, ensuring processes are efficient, scalable, and deliver a consistent experience for both customers and associates. Reporting to the Director, Loyalty Promotions and Operations, this role serves as a key partner in identifying operational challenges, addressing recurring issues, and improving how work gets done across the loyalty ecosystem.\r\n\r\nThis role works closely with Store Operations, Customer Care, Technology, and Loyalty teams to understand customer and associate pain points, resolve operational issues, identify root causes, and implement solutions that improve the experience and reduce future friction. The position is responsible for establishing and maintaining processes, controls, and operational standards that support consistent program execution and long-term success.\r\n\r\nIn addition, this role helps drive the operating rhythm of the Loyalty organization by supporting planning activities, business reviews, technology prioritization, and cross-functional initiatives. Through strong partnerships, operational expertise, and a continuous improvement mindset, this position plays an important role in ensuring Lowe's loyalty programs run effectively and continue to evolve to meet business and customer needs.\nWhat You Will Do\nOversee day-to-day operations across Lowe’s loyalty programs, driving process efficiency, scalability, and operational consistency to deliver a seamless experience for customers and associates.\nOwn loyalty issue management and continuous improvement, identifying recurring themes and root causes and translating learnings into process, tool, and experience enhancements that reduce future issues.\nDevelop and maintain standard operating procedures, escalation paths, playbooks, and knowledge resources that improve execution, consistency, and speed to resolution.\nPartner with Store Operations, Customer Care, and field teams to identify associate pain points and improve the processes, tools, communications, and resources associates need to effectively support loyalty members.\nOwn the overall Loyalty technology planning process, coordinating priorities, business requirements, dependencies, and sequencing across Loyalty program teams and technology partners.\nServe as the business owner for the Loyalty Operations technology roadmap, identifying and prioritizing capabilities that improve operational efficiency, issue resolution, associate support, and scalability.\nLead operational readiness for new loyalty capabilities and program changes, ensuring processes, tools, documentation, and support models are established prior to launch.\nManage key Loyalty operating and planning rhythms, including business reviews, team planning, decision and action tracking, and other cross-functional planning milestones.\nMinimum Qualifications\nBachelor’s degree Business, Marketing or related field or equivalent years of experience in lieu of education requirement, if applicable\n7-10 Years General Marketing Experience\n5 Years CRM and loyalty experience\nPreferred Skills/Education\n1-3 Years People Leadership Experience\nExperience working with marketing technology\nExperience working closely with senior leadership\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
           "job_id": "JR-02703739",
           "title": "Lead, Private Brands Program Management",
           "client_company": "",
@@ -2187,8 +2209,8 @@
         },
         {
           "firm": "Lowe's",
-          "job_id": "JR-02657078",
-          "title": "Sr Analyst-Merchandising Operations Data Governance",
+          "job_id": "JR-02687987",
+          "title": "Legal Operations - Data Analyst",
           "client_company": "",
           "city": "Mooresville",
           "state": "NC",
@@ -2198,58 +2220,36 @@
           "pay_min": "",
           "pay_max": "",
           "pay_unit": "",
-          "posted_date": "2026-11-12",
-          "url": "https://talent.lowes.com/us/en/job/JR-02657078",
+          "posted_date": "2026-11-19",
+          "url": "https://talent.lowes.com/us/en/job/JR-02687987",
           "recruiter_name": "",
           "recruiter_email": "",
           "recruiter_phone": "",
-          "required_experience": "",
+          "required_experience": "4 Years of Experience",
           "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Merchandising Operations role works in one of the functional areas of Merchandising Operations supporting their assigned line of business. The Sr Analyst will focus on their level of responsibilities to include more advanced consulting to the business and addressing challenges within their area of responsibility. Key functional areas include Vendor/Item Onboarding, Reporting, Operational Services, Vendor Compliance, Product Content, Data Governance and Tech Enablement. Responsibilities may vary based on the area of work.\nWhat You Will Do\nAnalytics- Handle interpretation, higher level analysis, storytelling of data. Consumer - utilizing segmentation. Utilize internal and external facing applications, Microsoft data analytics tools.\nBuilding Relationships- Promote cooperation and teamwork; strong interpersonal skills; establish and maintain trust and credibility with leaders and team.\nCommunication- Addressing challenges and issues within area (not day to day). Deliver some of the internal training. Gather and create content.\nIssue Resolution-May take on more complex issues and helps drive resolution.\nTraining/Development-Works with leaders on identifying needs and developing solutions for the functional area.\nReporting-Gathers and analyzes data and helps translate date into action and insights.\nProcess Improvement-Identifies opportunities and helps design solutions.\nTechnology Requirements- Supports governance of data stewardship, roles, and permissions to help ensure appropriate ownership, access, and accountability across merchandising systems\nProject Management-Provide customer feedback, manage project timelines with own projects.\nLiaison with international partners on more complex issues.\nMerchandising & Vendor Engagement- Focus on strategic and vendors with complex issues; ensure master level is addressed; trusted partner (merchant & vendor).\nBusiness Alignment-Focused on business unit (including MVP areas) store merchandising functional areas.\nCreates usage standards, guidelines, and statements of direction to track the quality, availability, and applicability of data through to full business integration\nTests, implements, and supports technology solutions to ensure efficiency and business continuity\nUses relevant data, analytics, and customer feedback to help develop and drive the solutions offered to Lowe's internal customers\nWorks to on-board and train new-users on best practices and system updates and/or changes for all merchandising information systems\nMinimum Qualifications\nBachelor’s degree Business, Accounting, Finance, Economics, or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\nExperience in structuring and writing formal documents, developing and delivering group presentations, project planning, and/or cross-functional collaboration\nPreferred Skills/Education\nExperience in Microsoft products (Outlook, PowerPoint, etc.) and relational business software\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02679740",
-          "title": "Sr Analyst-Product Compliance",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-15",
-          "url": "https://talent.lowes.com/us/en/job/JR-02679740",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "5 Years experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Product Compliance is responsible for executing key activities that support Lowe's product compliance programs, helping to protect customers, the business, and the brand from regulatory and safety risks. This role focuses on monitoring and interpreting state and federal regulations, ensuring timely awareness and proactive compliance across Lowe's product categories.\nThe Sr Analyst partners closely with cross-functional teams—including Merchandising, Sourcing, Quality Assurance, Legal, and Sustainability—as well as vendors, testing laboratories, regulatory bodies, and industry associations. By providing detailed analysis, reporting, and operational support, this role plays a critical part in advancing Lowe's compliance strategy and ensuring products meet or exceed regulatory and safety standards.\nWhat You Will Do\nExecute processes that mitigate product compliance risks to Lowe’s and its customers, ensuring activities are completed on time and in adherence to company standards.\nSupport the preparation and delivery of compliance-related reports to meet state and federal obligations.\nAdminister vendor-related compliance programs, including Conflict Minerals, and Mercury Surveys.\nPartner with Legal to monitor and interpret emerging state and federal regulations, assess business impacts, and implement appropriate compliance controls.\nCommunicate key regulatory updates and new obligations to stakeholders across the organization.\nExecute regulatory stop-sales for in-scope items and provide guidance to Merchandising and Legal on process requirements and risk implications.\nCollaborate with Quality Assurance Engineering and approved third-party labs to ensure testing protocols address regulatory requirements.\nDevelop solutions for upcoming regulations where existing protocols or programs are insufficient.\nPartner with Legal, Quality Assurance, Merchandising, Sourcing, and vendors to complete compliance activities and resolve issues.\nEngage with regulatory agencies on notices of violation (e.g., weights & measures, product registration), coordinate with vendors to collect fines, and support corrective actions.\nBenchmark compliance practices through continuous learning and participation in industry associations such as ICPHSO and RILA.\nDocument policies and procedures that support product compliance programs and ensure consistent execution.\nProvide training and guidance to internal stakeholders to promote best practices and build a culture of compliance.\nCollaborate with technology partners to develop, test, and launch systems that improve compliance processes.\nMinimum Qualifications\nBachelor’s degree in Engineering, Science, Business, or related field or equivalent years of experience in lieu of education requirement, if applicable\n5 Years experience in product safety, regulatory compliance, quality, or related field in a retail or manufacturing environment\n2 years experience in product regulations in North America (CPSC, EPA, FDA, etc.)\nincluding state level regulations\n2 years experience leading/facilitating cross-functional projects\nPreferred Skills/Education\nRetail operations experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to support the Legal eBilling system and the outside counsel management program. This role will oversee the ebilling process, onboarding of new outside counsel firms, monitor compliance with outside counsel guidelines, analyze outside counsel rate increase requests, prepare monthly accruals and prepare wire transfers. This individual has frequent access to confidential information.\nWhat You Will Do\nManage the Legal Department’s eBilling process. Provide billing support to the Legal Department, Law Firms, interacting independently with attorneys and outside counsel firms. Research billing issues\nResolve billing issues by working across multiple teams such as Vendor Setup, Accounts Payable and Finance\nManage the onboarding process for law firms into our eBilling and vendor management systems, partnering with various internal partners, including Data Security, and external partners, including eBilling provider\nManage the outside counsel scorecard and reporting\nMaintain rate tables and alternative fee agreements of each outside counsel firm. Perform first line analysis of timekeeper rate requests\nPrepare check requests, enters invoices into the matter management system and handle incoming checks for deposit\nPrepare international wire requests\nMaintain the eBilling guidelines and training materials\nProvide training to internal invoice approvers\nProactively seek ways to improve current processes to maximize productivity, workflow, and efficiency in all aspects of the eBilling function\nCreate spreadsheets including formulas to organize, display, and summarize data, facilitate analysis, and identify interrelationships; prepares special reports for other departments and external customers\nManage accruals, including running and delivering monthly eBilling accrual reports\nAct as the contact person for external vendors and uses independent judgment to respond to requests for information or to refer more complex requests to appropriate staff members; follows up to ensure issues have been resolved\nWorks with or provides confidential and sensitive information and exercises discretion concerning its dissemination\nAssist with data analysis and develop reports and visual summaries\nMinimum Qualifications\nAssociate degree  or equivalent years of experience in lieu of education requirement, if applicable\nBachelor’s degree  or equivalent years of experience in lieu of education requirement, if applicable\n4 Years of Experience working in a corporate legal department or law firm\n2 Years of Experience working in a corporate legal department or law firm\nPreferred Skills/Education\nExperience with Passport eBilling and matter management system\nExperience managing large volumes of work\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
         }
       ],
       "attempts": {
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-24T03:30:30.971181+00:00",
-          "completed_at": "2026-11-24T03:31:13.604643+00:00",
+          "started_at": "2026-11-24T03:59:53.839753+00:00",
+          "completed_at": "2026-11-24T04:00:11.139198+00:00",
           "ok": true,
           "info": {
-            "enumerated": 3963,
+            "enumerated": 4815,
             "enumerated_raw": 4815,
             "advertised": 4815,
-            "details_read": 13,
+            "details_read": 16,
             "kept": 10,
             "method": "employer current search widget + canonical full detail pages",
-            "known_missing_details_rechecked": 2
+            "known_missing_details_rechecked": 0
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:30:30.971181+00:00",
-      "completed_at": "2026-11-24T03:31:13.604643+00:00",
+      "snapshot_at": "2026-11-24T03:59:53.839753+00:00",
+      "completed_at": "2026-11-24T04:00:11.139198+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2347,8 +2347,8 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-24T03:31:13.604704+00:00",
-          "completed_at": "2026-11-24T03:31:22.555566+00:00",
+          "started_at": "2026-11-24T04:00:11.139260+00:00",
+          "completed_at": "2026-11-24T04:00:18.620034+00:00",
           "ok": true,
           "info": {
             "enumerated": 82,
@@ -2369,8 +2369,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:31:13.604704+00:00",
-      "completed_at": "2026-11-24T03:31:22.555566+00:00",
+      "snapshot_at": "2026-11-24T04:00:11.139260+00:00",
+      "completed_at": "2026-11-24T04:00:18.620034+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2424,8 +2424,8 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-24T03:31:19.282812+00:00",
-          "completed_at": "2026-11-24T03:31:27.624989+00:00",
+          "started_at": "2026-11-24T04:00:18.620091+00:00",
+          "completed_at": "2026-11-24T04:00:26.459406+00:00",
           "ok": true,
           "info": {
             "enumerated": 104,
@@ -2446,8 +2446,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:31:19.282812+00:00",
-      "completed_at": "2026-11-24T03:31:27.624989+00:00",
+      "snapshot_at": "2026-11-24T04:00:18.620091+00:00",
+      "completed_at": "2026-11-24T04:00:26.459406+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2611,8 +2611,8 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-24T03:31:22.555623+00:00",
-          "completed_at": "2026-11-24T03:33:07.091853+00:00",
+          "started_at": "2026-11-24T04:00:26.459470+00:00",
+          "completed_at": "2026-11-24T04:02:21.835728+00:00",
           "ok": true,
           "info": {
             "enumerated": 1446,
@@ -2633,8 +2633,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:31:22.555623+00:00",
-      "completed_at": "2026-11-24T03:33:07.091853+00:00",
+      "snapshot_at": "2026-11-24T04:00:26.459470+00:00",
+      "completed_at": "2026-11-24T04:02:21.835728+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2643,8 +2643,8 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-24T03:31:27.625069+00:00",
-          "completed_at": "2026-11-24T03:32:04.304062+00:00",
+          "started_at": "2026-11-24T04:00:37.964582+00:00",
+          "completed_at": "2026-11-24T04:01:11.652419+00:00",
           "ok": true,
           "info": {
             "enumerated": 1110,
@@ -2665,8 +2665,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:31:27.625069+00:00",
-      "completed_at": "2026-11-24T03:32:04.304062+00:00",
+      "snapshot_at": "2026-11-24T04:00:37.964582+00:00",
+      "completed_at": "2026-11-24T04:01:11.652419+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2742,8 +2742,8 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-24T03:31:30.386453+00:00",
-          "completed_at": "2026-11-24T03:32:01.299425+00:00",
+          "started_at": "2026-11-24T04:00:49.282005+00:00",
+          "completed_at": "2026-11-24T04:01:22.652895+00:00",
           "ok": true,
           "info": {
             "enumerated": 881,
@@ -2764,8 +2764,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:31:30.386453+00:00",
-      "completed_at": "2026-11-24T03:32:01.299425+00:00",
+      "snapshot_at": "2026-11-24T04:00:49.282005+00:00",
+      "completed_at": "2026-11-24T04:01:22.652895+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2797,8 +2797,8 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-24T03:31:53.274357+00:00",
-          "completed_at": "2026-11-24T03:32:04.451537+00:00",
+          "started_at": "2026-11-24T04:01:07.229910+00:00",
+          "completed_at": "2026-11-24T04:01:20.057690+00:00",
           "ok": true,
           "info": {
             "enumerated": 143,
@@ -2819,8 +2819,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:31:53.274357+00:00",
-      "completed_at": "2026-11-24T03:32:04.451537+00:00",
+      "snapshot_at": "2026-11-24T04:01:07.229910+00:00",
+      "completed_at": "2026-11-24T04:01:20.057690+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2896,8 +2896,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:01.299480+00:00",
-          "completed_at": "2026-11-24T03:32:13.611218+00:00",
+          "started_at": "2026-11-24T04:01:11.652476+00:00",
+          "completed_at": "2026-11-24T04:01:25.616927+00:00",
           "ok": true,
           "info": {
             "enumerated": 78,
@@ -2914,8 +2914,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:01.299480+00:00",
-      "completed_at": "2026-11-24T03:32:13.611218+00:00",
+      "snapshot_at": "2026-11-24T04:01:11.652476+00:00",
+      "completed_at": "2026-11-24T04:01:25.616927+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -3013,8 +3013,8 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:04.304122+00:00",
-          "completed_at": "2026-11-24T03:32:32.707457+00:00",
+          "started_at": "2026-11-24T04:01:20.057760+00:00",
+          "completed_at": "2026-11-24T04:01:44.797041+00:00",
           "ok": true,
           "info": {
             "enumerated": 888,
@@ -3035,8 +3035,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:04.304122+00:00",
-      "completed_at": "2026-11-24T03:32:32.707457+00:00",
+      "snapshot_at": "2026-11-24T04:01:20.057760+00:00",
+      "completed_at": "2026-11-24T04:01:44.797041+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -3090,8 +3090,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:04.451608+00:00",
-          "completed_at": "2026-11-24T03:32:11.388454+00:00",
+          "started_at": "2026-11-24T04:01:22.652953+00:00",
+          "completed_at": "2026-11-24T04:01:32.696134+00:00",
           "ok": true,
           "info": {
             "enumerated": 40,
@@ -3108,8 +3108,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:04.451608+00:00",
-      "completed_at": "2026-11-24T03:32:11.388454+00:00",
+      "snapshot_at": "2026-11-24T04:01:22.652953+00:00",
+      "completed_at": "2026-11-24T04:01:32.696134+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3118,8 +3118,8 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:11.388512+00:00",
-          "completed_at": "2026-11-24T03:32:21.156854+00:00",
+          "started_at": "2026-11-24T04:01:25.616993+00:00",
+          "completed_at": "2026-11-24T04:01:38.483422+00:00",
           "ok": true,
           "info": {
             "enumerated": 324,
@@ -3140,8 +3140,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:11.388512+00:00",
-      "completed_at": "2026-11-24T03:32:21.156854+00:00",
+      "snapshot_at": "2026-11-24T04:01:25.616993+00:00",
+      "completed_at": "2026-11-24T04:01:38.483422+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3261,8 +3261,8 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:13.611280+00:00",
-          "completed_at": "2026-11-24T03:32:40.868032+00:00",
+          "started_at": "2026-11-24T04:01:32.696197+00:00",
+          "completed_at": "2026-11-24T04:02:00.583596+00:00",
           "ok": true,
           "info": {
             "enumerated": 402,
@@ -3283,8 +3283,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:13.611280+00:00",
-      "completed_at": "2026-11-24T03:32:40.868032+00:00",
+      "snapshot_at": "2026-11-24T04:01:32.696197+00:00",
+      "completed_at": "2026-11-24T04:02:00.583596+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3293,8 +3293,8 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:21.156912+00:00",
-          "completed_at": "2026-11-24T03:32:35.052397+00:00",
+          "started_at": "2026-11-24T04:01:38.483482+00:00",
+          "completed_at": "2026-11-24T04:01:53.810904+00:00",
           "ok": true,
           "info": {
             "enumerated": 398,
@@ -3311,8 +3311,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:21.156912+00:00",
-      "completed_at": "2026-11-24T03:32:35.052397+00:00",
+      "snapshot_at": "2026-11-24T04:01:38.483482+00:00",
+      "completed_at": "2026-11-24T04:01:53.810904+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3321,8 +3321,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:32.707512+00:00",
-          "completed_at": "2026-11-24T03:32:42.877903+00:00",
+          "started_at": "2026-11-24T04:01:44.797097+00:00",
+          "completed_at": "2026-11-24T04:01:53.495325+00:00",
           "ok": true,
           "info": {
             "enumerated": 205,
@@ -3339,8 +3339,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:32.707512+00:00",
-      "completed_at": "2026-11-24T03:32:42.877903+00:00",
+      "snapshot_at": "2026-11-24T04:01:44.797097+00:00",
+      "completed_at": "2026-11-24T04:01:53.495325+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3349,8 +3349,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:35.052456+00:00",
-          "completed_at": "2026-11-24T03:32:38.987355+00:00",
+          "started_at": "2026-11-24T04:01:53.495385+00:00",
+          "completed_at": "2026-11-24T04:01:57.034393+00:00",
           "ok": true,
           "info": {
             "enumerated": 12,
@@ -3367,8 +3367,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:35.052456+00:00",
-      "completed_at": "2026-11-24T03:32:38.987355+00:00",
+      "snapshot_at": "2026-11-24T04:01:53.495385+00:00",
+      "completed_at": "2026-11-24T04:01:57.034393+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3377,8 +3377,8 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:38.987412+00:00",
-          "completed_at": "2026-11-24T03:35:29.825286+00:00",
+          "started_at": "2026-11-24T04:01:53.810974+00:00",
+          "completed_at": "2026-11-24T04:04:44.149087+00:00",
           "ok": true,
           "info": {
             "enumerated": 5968,
@@ -3408,8 +3408,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-24T03:32:38.987412+00:00",
-      "completed_at": "2026-11-24T03:35:29.825286+00:00",
+      "snapshot_at": "2026-11-24T04:01:53.810974+00:00",
+      "completed_at": "2026-11-24T04:04:44.149087+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3441,8 +3441,8 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:40.868101+00:00",
-          "completed_at": "2026-11-24T03:32:46.085551+00:00",
+          "started_at": "2026-11-24T04:01:57.034467+00:00",
+          "completed_at": "2026-11-24T04:02:02.391281+00:00",
           "ok": true,
           "info": {
             "enumerated": 56,
@@ -3459,8 +3459,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:40.868101+00:00",
-      "completed_at": "2026-11-24T03:32:46.085551+00:00",
+      "snapshot_at": "2026-11-24T04:01:57.034467+00:00",
+      "completed_at": "2026-11-24T04:02:02.391281+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3558,8 +3558,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:42.877968+00:00",
-          "completed_at": "2026-11-24T03:32:53.186372+00:00",
+          "started_at": "2026-11-24T04:02:00.583653+00:00",
+          "completed_at": "2026-11-24T04:02:12.057115+00:00",
           "ok": true,
           "info": {
             "enumerated": 290,
@@ -3576,8 +3576,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:42.877968+00:00",
-      "completed_at": "2026-11-24T03:32:53.186372+00:00",
+      "snapshot_at": "2026-11-24T04:02:00.583653+00:00",
+      "completed_at": "2026-11-24T04:02:12.057115+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3586,8 +3586,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:46.085603+00:00",
-          "completed_at": "2026-11-24T03:33:08.001819+00:00",
+          "started_at": "2026-11-24T04:02:02.391338+00:00",
+          "completed_at": "2026-11-24T04:02:25.022659+00:00",
           "ok": true,
           "info": {
             "enumerated": 407,
@@ -3608,8 +3608,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:46.085603+00:00",
-      "completed_at": "2026-11-24T03:33:08.001819+00:00",
+      "snapshot_at": "2026-11-24T04:02:02.391338+00:00",
+      "completed_at": "2026-11-24T04:02:25.022659+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3641,8 +3641,8 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-24T03:32:53.186428+00:00",
-          "completed_at": "2026-11-24T03:34:28.838647+00:00",
+          "started_at": "2026-11-24T04:02:12.057200+00:00",
+          "completed_at": "2026-11-24T04:03:30.318505+00:00",
           "ok": true,
           "info": {
             "enumerated": 3020,
@@ -3663,8 +3663,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:32:53.186428+00:00",
-      "completed_at": "2026-11-24T03:34:28.838647+00:00",
+      "snapshot_at": "2026-11-24T04:02:12.057200+00:00",
+      "completed_at": "2026-11-24T04:03:30.318505+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3673,8 +3673,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-24T03:33:07.091919+00:00",
-          "completed_at": "2026-11-24T03:33:20.290181+00:00",
+          "started_at": "2026-11-24T04:02:21.835792+00:00",
+          "completed_at": "2026-11-24T04:02:33.635553+00:00",
           "ok": true,
           "info": {
             "enumerated": 180,
@@ -3695,8 +3695,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:33:07.091919+00:00",
-      "completed_at": "2026-11-24T03:33:20.290181+00:00",
+      "snapshot_at": "2026-11-24T04:02:21.835792+00:00",
+      "completed_at": "2026-11-24T04:02:33.635553+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3705,8 +3705,8 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-24T03:33:08.001881+00:00",
-          "completed_at": "2026-11-24T03:33:37.730576+00:00",
+          "started_at": "2026-11-24T04:02:25.022719+00:00",
+          "completed_at": "2026-11-24T04:02:49.223485+00:00",
           "ok": true,
           "info": {
             "enumerated": 354,
@@ -3727,8 +3727,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:33:08.001881+00:00",
-      "completed_at": "2026-11-24T03:33:37.730576+00:00",
+      "snapshot_at": "2026-11-24T04:02:25.022719+00:00",
+      "completed_at": "2026-11-24T04:02:49.223485+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3760,8 +3760,8 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-24T03:33:20.290236+00:00",
-          "completed_at": "2026-11-24T03:33:52.541062+00:00",
+          "started_at": "2026-11-24T04:02:33.635614+00:00",
+          "completed_at": "2026-11-24T04:02:50.243336+00:00",
           "ok": true,
           "info": {
             "enumerated": 372,
@@ -3778,8 +3778,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:33:20.290236+00:00",
-      "completed_at": "2026-11-24T03:33:52.541062+00:00",
+      "snapshot_at": "2026-11-24T04:02:33.635614+00:00",
+      "completed_at": "2026-11-24T04:02:50.243336+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3899,8 +3899,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-24T03:33:37.730633+00:00",
-          "completed_at": "2026-11-24T03:34:27.086700+00:00",
+          "started_at": "2026-11-24T04:02:49.223544+00:00",
+          "completed_at": "2026-11-24T04:03:32.383615+00:00",
           "ok": true,
           "info": {
             "enumerated": 378,
@@ -3917,8 +3917,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:33:37.730633+00:00",
-      "completed_at": "2026-11-24T03:34:27.086700+00:00",
+      "snapshot_at": "2026-11-24T04:02:49.223544+00:00",
+      "completed_at": "2026-11-24T04:03:32.383615+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -3927,8 +3927,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-24T03:33:52.541118+00:00",
-          "completed_at": "2026-11-24T03:33:56.890372+00:00",
+          "started_at": "2026-11-24T04:02:50.243409+00:00",
+          "completed_at": "2026-11-24T04:02:55.480199+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -3952,8 +3952,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:33:52.541118+00:00",
-      "completed_at": "2026-11-24T03:33:56.890372+00:00",
+      "snapshot_at": "2026-11-24T04:02:50.243409+00:00",
+      "completed_at": "2026-11-24T04:02:55.480199+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -4007,8 +4007,8 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-24T03:33:56.890436+00:00",
-          "completed_at": "2026-11-24T03:34:09.688256+00:00",
+          "started_at": "2026-11-24T04:02:55.480267+00:00",
+          "completed_at": "2026-11-24T04:03:05.908470+00:00",
           "ok": true,
           "info": {
             "enumerated": 420,
@@ -4051,8 +4051,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:33:56.890436+00:00",
-      "completed_at": "2026-11-24T03:34:09.688256+00:00",
+      "snapshot_at": "2026-11-24T04:02:55.480267+00:00",
+      "completed_at": "2026-11-24T04:03:05.908470+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4106,8 +4106,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-24T03:34:09.688318+00:00",
-          "completed_at": "2026-11-24T03:34:20.055806+00:00",
+          "started_at": "2026-11-24T04:03:05.908529+00:00",
+          "completed_at": "2026-11-24T04:03:13.998289+00:00",
           "ok": true,
           "info": {
             "enumerated": 42,
@@ -4136,8 +4136,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-24T03:34:09.688318+00:00",
-      "completed_at": "2026-11-24T03:34:20.055806+00:00",
+      "snapshot_at": "2026-11-24T04:03:05.908529+00:00",
+      "completed_at": "2026-11-24T04:03:13.998289+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4235,8 +4235,8 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-24T03:34:20.055868+00:00",
-          "completed_at": "2026-11-24T03:34:36.710073+00:00",
+          "started_at": "2026-11-24T04:03:13.998356+00:00",
+          "completed_at": "2026-11-24T04:03:27.414756+00:00",
           "ok": true,
           "info": {
             "enumerated": 334,
@@ -4261,8 +4261,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-24T03:34:20.055868+00:00",
-      "completed_at": "2026-11-24T03:34:36.710073+00:00",
+      "snapshot_at": "2026-11-24T04:03:13.998356+00:00",
+      "completed_at": "2026-11-24T04:03:27.414756+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4271,8 +4271,8 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-24T03:34:27.086760+00:00",
-          "completed_at": "2026-11-24T03:34:40.031066+00:00",
+          "started_at": "2026-11-24T04:03:27.414835+00:00",
+          "completed_at": "2026-11-24T04:03:37.221963+00:00",
           "ok": true,
           "info": {
             "enumerated": 541,
@@ -4293,8 +4293,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:34:27.086760+00:00",
-      "completed_at": "2026-11-24T03:34:40.031066+00:00",
+      "snapshot_at": "2026-11-24T04:03:27.414835+00:00",
+      "completed_at": "2026-11-24T04:03:37.221963+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4303,8 +4303,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-24T03:34:28.838704+00:00",
-          "completed_at": "2026-11-24T03:34:34.034173+00:00",
+          "started_at": "2026-11-24T04:03:30.318563+00:00",
+          "completed_at": "2026-11-24T04:03:34.741256+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4321,8 +4321,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:34:28.838704+00:00",
-      "completed_at": "2026-11-24T03:34:34.034173+00:00",
+      "snapshot_at": "2026-11-24T04:03:30.318563+00:00",
+      "completed_at": "2026-11-24T04:03:34.741256+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4331,8 +4331,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-24T03:34:34.034233+00:00",
-          "completed_at": "2026-11-24T03:34:41.493043+00:00",
+          "started_at": "2026-11-24T04:03:32.383670+00:00",
+          "completed_at": "2026-11-24T04:03:38.405525+00:00",
           "ok": true,
           "info": {
             "enumerated": 142,
@@ -4349,8 +4349,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:34:34.034233+00:00",
-      "completed_at": "2026-11-24T03:34:41.493043+00:00",
+      "snapshot_at": "2026-11-24T04:03:32.383670+00:00",
+      "completed_at": "2026-11-24T04:03:38.405525+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4360,7 +4360,7 @@
           "job_id": "JR-129178",
           "title": "Facility Compliance Consultant I (Nursing Home Surveyor - LPNs, Dietitians, Social Workers & more) Mecklenburg",
           "client_company": "",
-          "city": "Mecklenburg County",
+          "city": "",
           "state": "NC",
           "work_arrangement": "remote",
           "job_type": "",
@@ -4404,8 +4404,8 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-24T03:34:36.710142+00:00",
-          "completed_at": "2026-11-24T03:35:04.247262+00:00",
+          "started_at": "2026-11-24T04:03:34.741331+00:00",
+          "completed_at": "2026-11-24T04:03:58.724564+00:00",
           "ok": true,
           "info": {
             "enumerated": 864,
@@ -4422,8 +4422,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:34:36.710142+00:00",
-      "completed_at": "2026-11-24T03:35:04.247262+00:00",
+      "snapshot_at": "2026-11-24T04:03:34.741331+00:00",
+      "completed_at": "2026-11-24T04:03:58.724564+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4432,8 +4432,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-24T03:34:40.031123+00:00",
-          "completed_at": "2026-11-24T03:34:46.646793+00:00",
+          "started_at": "2026-11-24T04:03:37.222028+00:00",
+          "completed_at": "2026-11-24T04:03:43.053070+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
@@ -4450,8 +4450,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:34:40.031123+00:00",
-      "completed_at": "2026-11-24T03:34:46.646793+00:00",
+      "snapshot_at": "2026-11-24T04:03:37.222028+00:00",
+      "completed_at": "2026-11-24T04:03:43.053070+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4460,8 +4460,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-24T03:34:41.493103+00:00",
-          "completed_at": "2026-11-24T03:34:46.628608+00:00",
+          "started_at": "2026-11-24T04:03:38.405611+00:00",
+          "completed_at": "2026-11-24T04:03:43.795463+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
@@ -4478,8 +4478,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:34:41.493103+00:00",
-      "completed_at": "2026-11-24T03:34:46.628608+00:00",
+      "snapshot_at": "2026-11-24T04:03:38.405611+00:00",
+      "completed_at": "2026-11-24T04:03:43.795463+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4731,8 +4731,8 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-24T03:34:46.628673+00:00",
-          "completed_at": "2026-11-24T03:35:29.459445+00:00",
+          "started_at": "2026-11-24T04:03:43.053124+00:00",
+          "completed_at": "2026-11-24T04:04:22.366146+00:00",
           "ok": true,
           "info": {
             "enumerated": 1339,
@@ -4759,8 +4759,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:34:46.628673+00:00",
-      "completed_at": "2026-11-24T03:35:29.459445+00:00",
+      "snapshot_at": "2026-11-24T04:03:43.053124+00:00",
+      "completed_at": "2026-11-24T04:04:22.366146+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -4806,7 +4806,19 @@
       "firms_attempted": 39,
       "firms_succeeded": 39,
       "firms_failed": 0
+    },
+    {
+      "id": "45323221105",
+      "route": "cloud",
+      "started_at": "2026-11-24T03:59:45.802934+00:00",
+      "completed_at": "2026-11-24T04:04:44.154860+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 39,
+      "firms_failed": 0,
+      "timer_run_id": "45316260785",
+      "timer_fired_at": "2026-11-24T03:59:18.481793+00:00"
     }
   ],
-  "published_at": "2026-11-24T03:35:34.350856+00:00"
+  "published_at": "2026-11-24T04:04:45.144764+00:00"
 }
