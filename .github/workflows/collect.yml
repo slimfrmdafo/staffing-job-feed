@@ -28,5 +28,7 @@ jobs:
         if: always()
         with:
           name: run-result-${{ github.run_id }}
-          path: run-result.json
+          path: |
+            run-result.json
+            diagnostics/
           retention-days: 14

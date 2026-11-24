@@ -4,8 +4,8 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 
 COLUMNS = 'firm,job_id,title,client_company,city,state,work_arrangement,job_type,contract_length,pay_min,pay_max,pay_unit,posted_date,url,recruiter_name,recruiter_email,recruiter_phone,required_experience,required_certifications,description'.split(',')
-ROLE = re.compile(r'business.{0,25}analy|project.{0,12}manag|program.{0,12}manag|implementation.{0,12}manag|business.{0,10}operat|business.{0,10}execution|risk|compliance|governance|change.{0,12}manag|process.{0,12}improv|legal.{0,10}operat|\bpmo\b|business.{0,12}transform', re.I)
-EXCLUDE = re.compile(r'\b(nurse|clinical|physician|therapist|warehouse|welder|electrician|mechanic|carpenter|software engineer|software developer|full.stack|front.end developer|back.end developer|construction project|civil engineer)\b',re.I)
+ROLE = re.compile(r'business.{0,25}analy|project.{0,12}manag|program.{0,12}manag|implementation.{0,12}manag|business.{0,10}operat|business.{0,10}execution|operations?.{0,15}(?:analyst|consultant|specialist|manager)|on.?boarding|risk|business.{0,12}control|control.{0,10}(?:analyst|consultant|specialist|manager)|compliance|regulatory|governance|\baml\b|\bkyc\b|change.{0,12}manag|process.{0,12}improv|legal.{0,10}operat|\bpmo\b|business.{0,12}transform', re.I)
+EXCLUDE = re.compile(r'\b(nurse|clinical|physician|therapist|warehouse|welder|electrician|mechanic|carpenter|software engineer|software developer|\bINTL\b|full.stack|front.end developer|back.end developer|construction project|civil engineer)\b',re.I)
 STATES = dict(x.split(':') for x in 'Alabama:AL|Alaska:AK|Arizona:AZ|Arkansas:AR|California:CA|Colorado:CO|Connecticut:CT|Delaware:DE|Florida:FL|Georgia:GA|Hawaii:HI|Idaho:ID|Illinois:IL|Indiana:IN|Iowa:IA|Kansas:KS|Kentucky:KY|Louisiana:LA|Maine:ME|Maryland:MD|Massachusetts:MA|Michigan:MI|Minnesota:MN|Mississippi:MS|Missouri:MO|Montana:MT|Nebraska:NE|Nevada:NV|New Hampshire:NH|New Jersey:NJ|New Mexico:NM|New York:NY|North Carolina:NC|North Dakota:ND|Ohio:OH|Oklahoma:OK|Oregon:OR|Pennsylvania:PA|Rhode Island:RI|South Carolina:SC|South Dakota:SD|Tennessee:TN|Texas:TX|Utah:UT|Vermont:VT|Virginia:VA|Washington:WA|West Virginia:WV|Wisconsin:WI|Wyoming:WY|District of Columbia:DC'.split('|'))
 # Explicitly named locations are included even where a city center is beyond 50 miles.
 LOCAL = {'charlotte','rock hill','fort mill','concord','gastonia','mooresville','hickory','huntersville','cornelius','davidson','belmont','mount holly','matthews','mint hill','monroe','indian trail','waxhaw','pineville','stallings','weddington','harrisburg','kannapolis','denver','lincolnton','statesville','salisbury','lancaster','york','clover','tega cay','lake wylie','kings mountain','shelby','dallas','bessemer city','lowell','stanley','mount pleasant','troutman','locust','midland','wingate','marshville','maiden','newton','catawba','chester','richburg','pageland'}
@@ -56,7 +56,7 @@ def enrich(row, context=''):
     m=re.search(r'(?:send (?:your )?resum[eé]|contact (?:your recruiter|me)|reach (?:me|out)|recruiter email)[^\n]{0,160}?([\w.+-]+@[\w.-]+\.[a-z]{2,})',text,re.I)
     if m:row['recruiter_email']=m[1]
     m=re.search(r'(?:Client|Client Company|End Employer)\s*:\s*([^\n]{3,100})',text,re.I)
-    if m and not re.search(r'confidential|our client|fortune|financial institution|company in|undisclosed',m[1],re.I):row['client_company']=m[1].strip()
+    if m and not re.search(r'confidential|our client|fortune|financial institution|company in|undisclosed|^bank$|^client$|^healthcare organization$|^large|^leading|^major',m[1],re.I):row['client_company']=m[1].strip()
     m=re.search(r'\b(PMP|CAPM|CBAP|CCBA|CISA|CRISC|CAMS|CPA|CSM|Prosci)(?:\s+certification)?\s+(?:is\s+)?required\b',text,re.I)
     if m:row['required_certifications']=m[0]
     m=re.search(r'(?:recruiter phone|contact phone|call me at)\s*[:\n]?\s*(\+?1?[-. (]*\d{3}[-. )]*\d{3}[-. ]*\d{4})',text,re.I)

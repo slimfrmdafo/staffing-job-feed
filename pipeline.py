@@ -79,7 +79,7 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:attempts=list(executor.map(lambda f:collect(f,args.route),firms))
     for a in attempts:
         if a['ok']:validate(a['rows'])
-    run={'id':run_id,'route':args.route,'started_at':start,'completed_at':now(),'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),'firms_attempted':len(attempts),'firms_succeeded':sum(a['ok'] for a in attempts),'firms_failed':sum(not a['ok'] for a in attempts)}
+    run={'id':run_id,'route':args.route,'started_at':start,'completed_at':now(),'trigger':os.environ.get('STAFFING_TRIGGER') or os.environ.get('GITHUB_EVENT_NAME','local'),'firms_attempted':len(attempts),'firms_succeeded':sum(a['ok'] for a in attempts),'firms_failed':sum(not a['ok'] for a in attempts)}
     pathlib.Path(args.output).write_text(json.dumps({'run':run,'attempts':attempts},ensure_ascii=False,indent=2))
     if client:client.publish(attempts,run)
     print(json.dumps(run),flush=True)

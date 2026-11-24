@@ -108,6 +108,7 @@ def detail(firm,seed):
         if not any(x.get('@type')=='JobPosting' for x in schemas(soup)) and re.search(r'(?:job (?:is no longer|has been filled)|position has been filled|job you are looking for is no longer)',soup.get_text(' ',strip=True),re.I):raise ClosedListing('Closed notice')
         row=schema_row(firm,url,soup,seed)
         if row is None and firm=='Beacon Hill':row=beacon_row(firm,url,soup,seed)
+        if row is None and re.search(r'quick security check|confirm you.re human',soup.get_text(' ',strip=True),re.I):raise CollectionError('Human security check on full detail: '+url)
         if row is None:raise CollectionError('Full JobPosting data missing: '+url)
         if not row['title'] or not row['description']:raise CollectionError('Incomplete detail: '+url)
         country='';nearby=False
@@ -240,6 +241,9 @@ def vaco(firm,config):
 
 def unavailable(firm,config):
     response=get(config['search'])
+    import pathlib
+    pathlib.Path('diagnostics').mkdir(exist_ok=True)
+    pathlib.Path('diagnostics/'+re.sub(r'[^A-Za-z0-9]+','_',firm)+'.html').write_text(response.text)
     text=BeautifulSoup(response.text,'html.parser').get_text(' ',strip=True)
     if 'maintenance' in response.url or 'job search is currently unavailable' in text.lower():raise CollectionError('Official job search is under maintenance')
     raise CollectionError('Search reached but complete enumeration adapter not yet validated; previous snapshot preserved')
@@ -485,6 +489,10 @@ def addison(firm,config):
     browser=None;pw=None;page=None
     def read(url):
         nonlocal browser,pw,page
+        if page is not None:
+            response=page.goto(url,wait_until='domcontentloaded',timeout=60000)
+            if response and response.status>=400:raise CollectionError('Browser HTTP '+str(response.status))
+            return page.content()
         try:return get(url).text
         except CollectionError:
             import os
@@ -524,3 +532,64 @@ def addison(firm,config):
 ADAPTERS['addison']=addison
 REGISTRY['Addison Group']['adapter']='addison'
 REGISTRY['Collabera']['search']='https://www.collabera.com/job-search/'
+
+def collabera(firm,config):
+    import os
+    from core import number
+    browser=pw=page=None
+    def read(url):
+        nonlocal browser,pw,page
+        if page is None:
+            try:return get(url).text
+            except CollectionError:
+                if os.environ.get('STAFFING_ROUTE')!='mac':raise
+                from playwright.sync_api import sync_playwright
+                pw=sync_playwright().start();browser=pw.chromium.launch(headless=True);page=browser.new_page()
+        response=page.goto(url,wait_until='domcontentloaded',timeout=60000)
+        if response and response.status>=400:raise CollectionError('Collabera browser HTTP '+str(response.status))
+        return page.content()
+    try:
+        base='https://www.collabera.com/job-search/';seen=set();seeds={};total=None
+        for n in range(1,101):
+            soup=BeautifulSoup(read(base+'?q='+str(n)),'html.parser');text=soup.get_text(' ',strip=True)
+            m=re.search(r'Showing\s+\d+[-–]\d+\s+of\s+(\d+)\s+Jobs',text,re.I)
+            if not m:raise CollectionError('Collabera search count missing')
+            total=int(m[1]);current={}
+            for a in soup.select('a[href]'):
+                if '/job-description/?post=' not in a['href']:continue
+                h=a.select_one('h5') or a.select_one('h4') or a.select_one('h3')
+                if h is None:continue
+                current[a['href']]=h.get_text(' ',strip=True)
+            if not current or (seen and set(current)<=seen):raise CollectionError('Collabera search repeated/empty')
+            seen.update(current)
+            for url,title in current.items():
+                if title_match(title):seeds[url]=title
+            if n*10>=total:break
+        if len(seen)<total*.97:raise CollectionError('Collabera incomplete search count')
+        rows=[]
+        for url,title in seeds.items():
+            soup=BeautifulSoup(read(url),'html.parser');body=soup.select_one('div.position');text=soup.get_text('\n',strip=True)
+            if body is None:raise CollectionError('Collabera full detail missing')
+            h=next((x for x in soup.select('h4') if x.get_text(' ',strip=True)==title),None)
+            if h is None:raise CollectionError('Collabera detail title mismatch')
+            m=re.search(r'End Date:\s*(\d{4}-\d{2}-\d{2})',text)
+            if m and m[1]<now()[:10]:continue
+            r=blank();r.update(firm=firm,job_id=parse_qs(urlparse(url).query)['post'][0],title=h.get_text(' ',strip=True),url=url,description=body.get_text('\n',strip=True))
+            m=re.search(r'(Contract|Direct Hire|Remote|Contract.to.Hire):\s*([^,\n]+),\s*([^,\n]+),\s*US\b',text,re.I)
+            if m:
+                r.update(city=m[2].strip(),state=state_code(m[3].strip()),job_type=job_type(m[1]))
+                if m[1].lower()=='remote':r['work_arrangement']='remote'
+            m=re.search(r'Salary Range:\s*([\d,.]+)\s*[-–]\s*([\d,.]+)\s*\|\s*Per\s*(Hour|Year)',text,re.I)
+            if m:r.update(pay_min=number(m[1]),pay_max=number(m[2]),pay_unit=m[3].lower())
+            contact=body.select_one('.recruiter')
+            if contact:
+                ul=contact.find_next('ul');values=ul.select('.col-9 li') if ul else []
+                if len(values)>=3:r.update(recruiter_name=values[0].get_text(' ',strip=True),recruiter_email=values[1].get_text(' ',strip=True),recruiter_phone=values[2].get_text(' ',strip=True))
+            enrich(r,r['description'])
+            if keep(r,country='US'):rows.append(r)
+        return rows,{'enumerated':len(seen),'details_read':len(seeds),'kept':len(rows),'browser_used':browser is not None}
+    finally:
+        if browser:browser.close()
+        if pw:pw.stop()
+ADAPTERS['collabera']=collabera
+REGISTRY['Collabera']['adapter']='collabera'

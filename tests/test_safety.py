@@ -38,3 +38,15 @@ def test_filter_uses_upper_pay_unknown_kept_and_sc_locations():
  r.update(city='Fort Mill',state='SC',pay_min='25',pay_max='40',pay_unit='hour');assert keep(r)
  r['pay_max']='28';assert not keep(r)
  r.update(city='Toronto',state='',work_arrangement='remote');assert not keep(r)
+
+def test_empty_failed_attempt_cannot_clear_rows():
+ state=merge({},[attempt()]);state=merge(state,[attempt(ok=False,stamp='2026-11-23T14:00:00+00:00',rows=[])])
+ assert len(state['firms']['A']['rows'])==1
+
+def test_stale_mac_failure_does_not_replace_newer_cloud_status():
+ state=merge({},[attempt(stamp='2026-11-23T14:00:00+00:00')]);state=merge(state,[attempt(stamp='2026-11-23T13:00:00+00:00',ok=False)])
+ assert state['firms']['A']['attempts']['cloud']['ok']
+
+def test_explicit_remote_us_and_coordinates_are_supported():
+ r=row();r.update(city='',state='',work_arrangement='remote');assert keep(r,country='USA')
+ r.update(work_arrangement='onsite');assert keep(r,nearby=True)
