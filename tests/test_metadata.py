@@ -71,3 +71,8 @@ def test_generic_recruiting_mailbox_used_only_for_accommodations_is_excluded():
 def test_explicit_named_hiring_contact_is_captured():
  result=contact_fields('Hiring Manager: Jane Doe\njane.doe@example.com\n704-555-1234')
  assert result=={'recruiter_name':'Jane Doe','recruiter_email':'jane.doe@example.com','recruiter_phone':'704-555-1234'}
+
+def test_required_professional_registration_is_preserved_as_posted():
+ text='Required Qualifications\nFINRA Series 7 and 63 registrations required within 90 days.\nPreferred Qualifications\nSeries 24 license preferred.'
+ assert required_certifications(text)=='FINRA Series 7 and 63 registrations required within 90 days'
+ assert required_certifications('Required Qualifications\nExperience preparing FINRA regulatory reports.')==''

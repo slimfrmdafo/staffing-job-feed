@@ -2,7 +2,7 @@
 import re
 EMAIL=re.compile(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}')
 PHONE=re.compile(r'(?<!\d)(?:\+?1[ .-]?)?\(?\d{3}\)?[ .-]?\d{3}[ .-]?\d{4}(?!\d)')
-CERT=re.compile(r'\b(?:PMP|CAPM|CBAP|CCBA|CAMS|CISA|CISM|CISSP|CRISC|CSM|CSPO|CCMP|CRC|CPC|CCS|RHIA|RHIT|AAPC|AHIMA|ITIL|PRINCE2|CPA|CIA|CFE|CRCM|CRMA|FRM|PRM|CHC|CHPC|CHPS|CPIM|CSCP|NERC|Lean Six Sigma|Six Sigma (?:Green|Black) Belt|SAFe|PMI[- ](?:PBA|ACP|SP)|Prosci|Certified Scrum Master|Epic\s+Lumens)\b',re.I)
+CERT=re.compile(r'\b(?:PMP|CAPM|FINRA|SIE|Series\s+(?:6|7|9|10|24|63|65|66)|CBAP|CCBA|CAMS|CISA|CISM|CISSP|CRISC|CSM|CSPO|CCMP|CRC|CPC|CCS|RHIA|RHIT|AAPC|AHIMA|ITIL|PRINCE2|CPA|CIA|CFE|CRCM|CRMA|FRM|PRM|CHC|CHPC|CHPS|CPIM|CSCP|NERC|Lean Six Sigma|Six Sigma (?:Green|Black) Belt|SAFe|PMI[- ](?:PBA|ACP|SP)|Prosci|Certified Scrum Master|Epic\s+Lumens)\b',re.I)
 OPTIONAL=re.compile(r'preferred|nice.to.have|desir(?:ed|able)|not required|a plus|bonus|highly valued|beneficial',re.I)
 REQUIRED_HEADING=re.compile(r'^(?:required|mandatory|minimum|essential|must[- ]have)\s+(?:qualifications?|skills?|experience|certifications?|credentials?)\b|^certifications?\s+required\b',re.I)
 OTHER_HEADING=re.compile(r'^(?:nice.to.have|preferred|desired|additional qualifications|job description|responsibilities|key responsibilities|benefits|about us|about the company|what.s in it for me|role priorities)\b',re.I)
@@ -18,7 +18,7 @@ def required_certifications(text):
         if re.search(r'certification\s+(?:is\s+)?required\s+(?:through|from|by)$',line,re.I) and i+1<len(lines):line+=' '+lines[i+1];skip_next=True
         relevant=CERT.search(line) or re.search(r'\b(?:Project Management|professional|active|current|valid)\s+certification|\bCertification required through\b',line,re.I)
         if not relevant or OPTIONAL.search(line):continue
-        if CERT.search(line) and not re.search(r'certif|credential|professional \(PMP\)|^\s*(?:PMP|CAPM|CISA|CISM|CISSP|CSM)\b',line,re.I):continue
+        if CERT.search(line) and not re.search(r'certif|credential|licens|registrat|professional \(PMP\)|^\s*(?:PMP|CAPM|CISA|CISM|CISSP|CSM)\b',line,re.I):continue
         if line.startswith(','):continue
         explicit=bool(re.search(r'\b(?:required|mandatory|must (?:have|hold|possess|maintain))\b',line,re.I))
         if explicit or required:
