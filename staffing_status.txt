@@ -1,5 +1,5 @@
 Staffing job feed
-Published UTC: 2026-11-24T01:57:02.369060+00:00
+Published UTC: 2026-11-24T02:12:09.938859+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/staffing_jobs.csv
 Rows are replaced only after a complete successful newer snapshot for that firm.
@@ -7,56 +7,55 @@ Unavailable firms retain their last successful snapshot. Zero matching rows is a
 Cloud tries all firms hourly. Mac also tries firms whose latest cloud attempt failed.
 Contract counts include contract-to-hire.
 
-Robert Half: listings=39 contracts=27 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:29:31.648301+00:00
-  cloud: OK at 2026-11-24T01:29:31.648301+00:00 {'candidates': 214, 'details_read': 214, 'kept': 39, 'search_pages': 74}
-Insight Global: listings=85 contracts=69 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:28:24.727707+00:00
-  cloud: OK at 2026-11-24T01:28:24.727707+00:00 {'enumerated': 4820, 'enumerated_raw': 4833, 'advertised': 4833, 'details_read': 90, 'kept': 85}
+Robert Half: listings=38 contracts=26 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:05:04.003755+00:00
+  cloud: OK at 2026-11-24T02:05:04.003755+00:00 {'candidates': 213, 'details_read': 213, 'kept': 38, 'search_pages': 74}
+Insight Global: listings=85 contracts=69 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:03:04.786469+00:00
+  cloud: OK at 2026-11-24T02:03:04.786469+00:00 {'enumerated': 4825, 'enumerated_raw': 4833, 'advertised': 4833, 'details_read': 90, 'kept': 85}
   mac: OK at 2026-11-24T00:56:28.562337+00:00 {'enumerated': 4816, 'enumerated_raw': 4829, 'advertised': 4829, 'details_read': 89, 'kept': 84}
-TEKsystems: listings=41 contracts=39 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:28:47.013172+00:00
-  cloud: OK at 2026-11-24T01:28:47.013172+00:00 {'candidates': 142, 'details_read': 142, 'kept': 41, 'enumerated': 2176}
+TEKsystems: listings=40 contracts=38 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:03:08.620880+00:00
+  cloud: OK at 2026-11-24T02:03:08.620880+00:00 {'candidates': 141, 'details_read': 141, 'kept': 40, 'enumerated': 2176}
 Apex Systems: listings=0 contracts=0 runners=cloud+mac snapshot_runner=mac last_success=2026-11-24T00:47:07.670562+00:00
-  cloud: FAILED at 2026-11-24T01:28:13.874216+00:00 Official job search and detail pages are under maintenance
+  cloud: FAILED at 2026-11-24T02:02:53.191491+00:00 Apex search returned no enumerable listings; preserving prior snapshot
   mac: FAILED at 2026-11-24T01:56:23.178552+00:00 Apex search returned no enumerable listings; preserving prior snapshot
-Kforce: listings=5 contracts=5 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:28:19.542066+00:00
-  cloud: OK at 2026-11-24T01:28:19.542066+00:00 {'enumerated': 1214, 'details_read': 102, 'kept': 5}
-Randstad: listings=29 contracts=28 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:28:49.623678+00:00
-  cloud: OK at 2026-11-24T01:28:49.623678+00:00 {'candidates': 117, 'details_read': 117, 'kept': 29, 'enumerated': 2722}
+Kforce: listings=5 contracts=5 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:03:04.160540+00:00
+  cloud: OK at 2026-11-24T02:03:04.160540+00:00 {'enumerated': 1214, 'details_read': 102, 'kept': 5}
+Randstad: listings=29 contracts=28 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:03:37.884157+00:00
+  cloud: OK at 2026-11-24T02:03:37.884157+00:00 {'candidates': 117, 'details_read': 117, 'kept': 29, 'enumerated': 2722}
   mac: OK at 2026-11-24T01:20:28.366405+00:00 {'candidates': 117, 'details_read': 117, 'kept': 29, 'enumerated': 2722}
-Aerotek: listings=0 contracts=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:28:30.395315+00:00
-  cloud: OK at 2026-11-24T01:28:30.395315+00:00 {'candidates': 5, 'details_read': 5, 'kept': 0, 'enumerated': 7877}
-Beacon Hill: listings=1 contracts=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:28:42.103870+00:00
-  cloud: OK at 2026-11-24T01:28:42.103870+00:00 {'candidates': 37, 'details_read': 37, 'kept': 1, 'enumerated': 1028}
-Judge Group: listings=55 contracts=49 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:30:07.573695+00:00
-  cloud: OK at 2026-11-24T01:30:07.573695+00:00 {'enumerated': 2152, 'details_read': 172, 'kept': 55}
-Brooksource: listings=6 contracts=6 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:28:50.954121+00:00
-  cloud: OK at 2026-11-24T01:28:50.954121+00:00 {'candidates': 25, 'details_read': 25, 'kept': 6, 'enumerated': 138}
-Genesis10: listings=36 contracts=35 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:28:53.014776+00:00
-  cloud: OK at 2026-11-24T01:28:53.014776+00:00 {'candidates': 44, 'details_read': 44, 'kept': 36, 'enumerated': 560}
-Experis/Manpower: listings=52 contracts=51 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:33:51.529116+00:00
-  cloud: OK at 2026-11-24T01:33:51.529116+00:00 {'candidates': 293, 'details_read': 293, 'kept': 52, 'enumerated': 2269, 'enumerated_raw': 2289, 'advertised': 2289}
+Aerotek: listings=0 contracts=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:03:12.344277+00:00
+  cloud: OK at 2026-11-24T02:03:12.344277+00:00 {'candidates': 5, 'details_read': 5, 'kept': 0, 'enumerated': 7877}
+Beacon Hill: listings=1 contracts=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:03:17.966672+00:00
+  cloud: OK at 2026-11-24T02:03:17.966672+00:00 {'candidates': 37, 'details_read': 37, 'kept': 1, 'enumerated': 1028}
+Judge Group: listings=55 contracts=49 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:04:49.862864+00:00
+  cloud: OK at 2026-11-24T02:04:49.862864+00:00 {'enumerated': 2152, 'details_read': 172, 'kept': 55}
+Brooksource: listings=6 contracts=6 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:03:23.392441+00:00
+  cloud: OK at 2026-11-24T02:03:23.392441+00:00 {'candidates': 25, 'details_read': 25, 'kept': 6, 'enumerated': 138}
+Genesis10: listings=36 contracts=35 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:03:28.943264+00:00
+  cloud: OK at 2026-11-24T02:03:28.943264+00:00 {'candidates': 44, 'details_read': 44, 'kept': 36, 'enumerated': 560}
+Experis/Manpower: listings=52 contracts=51 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:05:14.951630+00:00
+  cloud: OK at 2026-11-24T02:05:14.951630+00:00 {'candidates': 293, 'details_read': 293, 'kept': 52, 'enumerated': 2269, 'enumerated_raw': 2289, 'advertised': 2289}
   mac: OK at 2026-11-24T01:25:01.013010+00:00 {'candidates': 293, 'details_read': 293, 'kept': 52, 'enumerated': 2269, 'enumerated_raw': 2289, 'advertised': 2289}
-Addison Group: listings=1 contracts=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:29:31.246305+00:00
-  cloud: OK at 2026-11-24T01:29:31.246305+00:00 {'enumerated': 668, 'details_read': 38, 'kept': 1, 'browser_used': False}
-Vaco: listings=3 contracts=2 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:30:32.649952+00:00
-  cloud: OK at 2026-11-24T01:30:32.649952+00:00 {'candidates': 64, 'details_read': 64, 'kept': 3, 'enumerated': 1528}
-The Select Group: listings=0 contracts=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:29:35.577470+00:00
-  cloud: OK at 2026-11-24T01:29:35.577470+00:00 {'candidates': 2, 'details_read': 2, 'kept': 0, 'enumerated': 36}
-Signature Consultants: listings=2 contracts=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:29:37.737668+00:00
-  cloud: OK at 2026-11-24T01:29:37.737668+00:00 {'candidates': 22, 'details_read': 22, 'kept': 2, 'enumerated': 274}
+Addison Group: listings=1 contracts=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:04:23.088629+00:00
+  cloud: OK at 2026-11-24T02:04:23.088629+00:00 {'enumerated': 668, 'details_read': 38, 'kept': 1, 'browser_used': False}
+Vaco: listings=3 contracts=2 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:04:33.575300+00:00
+  cloud: OK at 2026-11-24T02:04:33.575300+00:00 {'candidates': 64, 'details_read': 64, 'kept': 3, 'enumerated': 1528}
+The Select Group: listings=0 contracts=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:04:35.315307+00:00
+  cloud: OK at 2026-11-24T02:04:35.315307+00:00 {'candidates': 2, 'details_read': 2, 'kept': 0, 'enumerated': 36}
+Signature Consultants: listings=2 contracts=1 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:04:39.907691+00:00
+  cloud: OK at 2026-11-24T02:04:39.907691+00:00 {'candidates': 22, 'details_read': 22, 'kept': 2, 'enumerated': 274}
   mac: OK at 2026-11-24T00:47:08.888932+00:00 {'candidates': 22, 'details_read': 22, 'kept': 2, 'enumerated': 274}
-Collabera: listings=12 contracts=10 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:35:55.988630+00:00
-  cloud: OK at 2026-11-24T01:35:55.988630+00:00 {'enumerated': 388, 'details_read': 67, 'kept': 12, 'browser_used': False}
+Collabera: listings=12 contracts=10 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:12:08.940542+00:00
+  cloud: OK at 2026-11-24T02:12:08.940542+00:00 {'enumerated': 387, 'details_read': 67, 'kept': 12, 'browser_used': False}
   mac: OK at 2026-11-24T00:55:54.099126+00:00 {'enumerated': 388, 'details_read': 67, 'kept': 12, 'browser_used': False}
 Mindlance: listings=0 contracts=0 runners=cloud+mac snapshot_runner=none last_success=never
-  cloud: FAILED at 2026-11-24T01:30:15.474335+00:00 3/98 detail pages failed: Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=20581610&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=22991753&SearchString=&StatesString=
+  cloud: FAILED at 2026-11-24T02:05:02.886914+00:00 3/98 detail pages failed: Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=22991753&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=20581610&SearchString=&StatesString=
   mac: FAILED at 2026-11-24T01:56:59.982303+00:00 3/98 detail pages failed: Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=22991753&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=20581610&SearchString=&StatesString=
-Motion Recruitment: listings=10 contracts=8 runners=cloud snapshot_runner=cloud last_success=2026-11-24T01:30:34.053721+00:00
-  cloud: OK at 2026-11-24T01:30:34.053721+00:00 {'candidates': 87, 'details_read': 87, 'kept': 10, 'enumerated': 765}
+Motion Recruitment: listings=10 contracts=8 runners=cloud snapshot_runner=cloud last_success=2026-11-24T02:05:25.206977+00:00
+  cloud: OK at 2026-11-24T02:05:25.206977+00:00 {'candidates': 87, 'details_read': 87, 'kept': 10, 'enumerated': 765}
 
-TOTAL listings=377 contracts=332
+TOTAL listings=375 contracts=330
 
 Recent unattended runs:
-{"completed_at": "2026-11-24T00:20:58.698962+00:00", "firms_attempted": 19, "firms_failed": 12, "firms_succeeded": 7, "id": "45296272564", "route": "cloud", "started_at": "2026-11-24T00:20:04.332800+00:00", "trigger": "workflow_dispatch"}
 {"completed_at": "2026-11-24T00:33:06.339266+00:00", "firms_attempted": 19, "firms_failed": 4, "firms_succeeded": 15, "id": "45297534822", "route": "cloud", "started_at": "2026-11-24T00:29:21.551670+00:00", "trigger": "workflow_dispatch"}
 {"completed_at": "2026-11-24T00:49:09.704128+00:00", "firms_attempted": 19, "firms_failed": 5, "firms_succeeded": 14, "id": "45298957374", "route": "cloud", "started_at": "2026-11-24T00:39:48.347642+00:00", "trigger": "workflow_dispatch"}
 {"completed_at": "2026-11-24T00:55:54.114316+00:00", "firms_attempted": 4, "firms_failed": 1, "firms_succeeded": 3, "id": "ea2cfc0f-9034-4cd3-8c5a-88b693252fa1", "route": "mac", "started_at": "2026-11-24T00:47:02.311417+00:00", "trigger": "mac_launchd"}
@@ -64,3 +63,4 @@ Recent unattended runs:
 {"completed_at": "2026-11-24T01:25:01.015159+00:00", "firms_attempted": 2, "firms_failed": 0, "firms_succeeded": 2, "id": "d083b6e6-a5dd-448f-9147-331c11d0c991", "route": "mac", "started_at": "2026-11-24T01:20:04.320909+00:00", "trigger": "local"}
 {"completed_at": "2026-11-24T01:35:56.005175+00:00", "firms_attempted": 19, "firms_failed": 2, "firms_succeeded": 17, "id": "45305239129", "route": "cloud", "started_at": "2026-11-24T01:28:11.948403+00:00", "timer_fired_at": "2026-11-24T01:27:58.766924+00:00", "timer_run_id": "45305221945", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-24T01:56:59.986013+00:00", "firms_attempted": 2, "firms_failed": 2, "firms_succeeded": 0, "id": "51ba2a19-1eb3-4acb-87ad-fad516e42cb1", "route": "mac", "started_at": "2026-11-24T01:56:09.140555+00:00", "trigger": "mac_launchd"}
+{"completed_at": "2026-11-24T02:12:08.957939+00:00", "firms_attempted": 19, "firms_failed": 2, "firms_succeeded": 17, "id": "45309383581", "route": "cloud", "started_at": "2026-11-24T02:02:47.399923+00:00", "trigger": "workflow_dispatch"}
