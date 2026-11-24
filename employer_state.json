@@ -3333,11 +3333,35 @@
           "completed_at": "2026-11-24T16:05:26.000430+00:00",
           "ok": false,
           "error": "TimeoutError: Locator.inner_text: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"body\")\n"
+        },
+        "mac": {
+          "firm": "Carrier Global",
+          "route": "mac",
+          "started_at": "2026-11-24T16:21:14.755496+00:00",
+          "completed_at": "2026-11-24T16:21:46.916697+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 398,
+            "enumerated_raw": 398,
+            "advertised": 398,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 21,
+            "closed_during_pull": 0,
+            "kept": 5,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "location_Country": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         }
       },
-      "snapshot_at": "2026-11-24T15:04:26.387347+00:00",
-      "completed_at": "2026-11-24T15:05:00.223229+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T16:21:14.755496+00:00",
+      "completed_at": "2026-11-24T16:21:46.916697+00:00",
+      "snapshot_route": "mac"
     },
     "Hendrick Automotive Group": {
       "rows": [],
@@ -5211,7 +5235,17 @@
       "firms_failed": 1,
       "timer_run_id": "45420727598",
       "timer_fired_at": "2026-11-24T16:02:02.080917+00:00"
+    },
+    {
+      "id": "6d70c559-b17e-4467-a875-60d5eb7e0c9f",
+      "route": "mac",
+      "started_at": "2026-11-24T16:21:12.752381+00:00",
+      "completed_at": "2026-11-24T16:21:46.918284+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 1,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-24T16:08:37.954206+00:00"
+  "published_at": "2026-11-24T16:21:48.473117+00:00"
 }
