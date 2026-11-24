@@ -37,7 +37,7 @@ WORKDAY={
  'Curtiss-Wright':'https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site',
  'Rosendin Electric':'https://rosendin.wd1.myworkdayjobs.com/Careers',
  'Celgard':'https://akamerica.wd501.myworkdayjobs.com/aka/?hiringCompany=2f24a4199827013877171f1c223b682f',
- 'UFP Industries':'https://ufpi.wd1.myworkdayjobs.com/careers',
+ 'UFP Industries':'https://ufpi.wd503.myworkdayjobs.com/ufpi',
  'Husqvarna Group':'https://husqvarna.wd3.myworkdayjobs.com/External',
  'CLA':'https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA',
  'Whistle Express Car Wash':'https://whistleexpresscarwash.wd108.myworkdayjobs.com/Whistle_Express_Car_Wash',
@@ -177,7 +177,12 @@ def collect(firm,route):
     try:
         adapter=ADAPTERS.get(config['adapter'])
         if not adapter:raise CollectionError('First-party '+config['adapter']+' job search needs adapter: '+config['url'])
-        rows,info=adapter(firm,config);validate(rows)
+        for retry in range(3):
+            try:rows,info=adapter(firm,config);break
+            except CollectionError as e:
+                if 'changed during pagination' not in str(e) or retry==2:raise
+                time.sleep(2)
+        validate(rows)
         result={'firm':firm,'route':route,'started_at':start,'completed_at':now(),'ok':True,'rows':rows,'info':info}
         print(f'{firm}: OK {len(rows)} listings; {info}',flush=True);return result
     except Exception as e:
@@ -246,7 +251,7 @@ def oracle(firm,config):
         if not items:continue
         if len(items)!=1:raise CollectionError('Oracle detail ambiguous')
         j=items[0];details+=1
-        if str(j.get('Id'))!=str(job['Id']) or not j.get('ExternalDescriptionStr'):raise CollectionError('Oracle full detail missing/mismatched')
+        if str(j.get('Id'))!=str(job['Id']) or not any(j.get(k) for k in ('ExternalDescriptionStr','ExternalResponsibilitiesStr','ExternalQualificationsStr')):raise CollectionError('Oracle full detail missing/mismatched: '+str(job['Id']))
         r=blank();r.update(firm=firm,job_id=str(j['Id']),title=plain(j.get('Title')),url='https://careers.honeywell.com/en/sites/Honeywell/job/'+str(j['Id']),description='\n\n'.join(plain(j.get(k)) for k in ('ExternalDescriptionStr','ExternalResponsibilitiesStr','ExternalQualificationsStr','OrganizationDescriptionStr','CorporateDescriptionStr') if j.get(k)))
         locs=[str(j.get('PrimaryLocation') or '')]+[str(x.get('Name') or x.get('LocationName') or '') for x in j.get('secondaryLocations',[]) if isinstance(x,dict)]
         parsed=[parse_location(x) for x in locs];r['city'],r['state']=next((x for x in parsed if x[0].lower() in LOCAL and x[1] in ('NC','SC')),next((x for x in parsed if x[1]),('','')))
