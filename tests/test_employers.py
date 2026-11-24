@@ -56,3 +56,25 @@ def test_id_only_nonpublic_entry_does_not_hide_prior_public_data():
  a={'firm':'Wells Fargo','ok':True,'rows':[],'info':{'unpublished_index_ids':['never-public']}}
  preserve_unreadable_existing(a,{'firms':{'Wells Fargo':{'rows':[{'job_id':'R-123'}]}}})
  assert a['ok'] is True
+
+def test_employer_publication_updates_only_its_files_on_existing_tree(monkeypatch):
+ from employer_pipeline import EmployerGitHub
+ from core import merge
+ from test_safety import attempt
+ state=merge({},[attempt()]);client=object.__new__(EmployerGitHub);calls=[]
+ monkeypatch.setattr(client,'read',lambda:('shared-head',state))
+ def api(method,path,**kwargs):
+  calls.append((method,path,kwargs.get('json')))
+  if path.startswith('git/commits/') and method=='GET':return {'tree':{'sha':'shared-tree-containing-staffing'}}
+  if path=='git/blobs':return {'sha':'blob'}
+  if path=='git/trees':return {'sha':'new-tree'}
+  if path=='git/commits':return {'sha':'new-commit'}
+  if method=='PATCH':return {}
+  raise AssertionError((method,path))
+ monkeypatch.setattr(client,'api',api)
+ client.publish([],{'route':'cloud','completed_at':'2026-11-23T15:00:00+00:00'})
+ tree=next(payload for method,path,payload in calls if path=='git/trees')
+ assert tree['base_tree']=='shared-tree-containing-staffing'
+ assert {e['path'] for e in tree['tree']}=={'employer_jobs.csv','employer_status.txt','employer_state.json'}
+ update=next(payload for method,path,payload in calls if method=='PATCH')
+ assert update['force'] is False

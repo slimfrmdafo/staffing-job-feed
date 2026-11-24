@@ -3,7 +3,7 @@
 import argparse,concurrent.futures,json,os,pathlib,uuid
 from core import now,validate
 from pipeline import GitHub,REPO
-from employer_collectors import REGISTRY,PRIORITY,collect
+from employer_collectors import REGISTRY,PRIORITY,collect,refresh_known_missing
 
 class EmployerGitHub(GitHub):
     state_file='employer_state.json'
@@ -52,6 +52,8 @@ def main():
     if args.route=='mac' and not args.firms and not args.all:firms=[f for f in firms if state['firms'].get(f,{}).get('attempts',{}).get('cloud',{}).get('ok') is False]
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:attempts=list(pool.map(lambda f:collect(f,args.route),firms))
     for a in attempts:
+        try:refresh_known_missing(a,state.get('firms',{}).get(a['firm'],{}))
+        except Exception as e:a.update(ok=False,rows=[],error='Known-job full-detail refresh failed; retaining previous employer snapshot: '+str(e))
         preserve_unreadable_existing(a,state)
         if a['ok']:validate(a['rows'])
     run={'id':run_id,'route':args.route,'started_at':start,'completed_at':now(),'trigger':trigger,'firms_attempted':len(attempts),'firms_succeeded':sum(a['ok'] for a in attempts),'firms_failed':sum(not a['ok'] for a in attempts)}

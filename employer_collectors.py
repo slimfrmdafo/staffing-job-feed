@@ -307,3 +307,19 @@ def phenom(firm,config):
     return rows,{'enumerated':len(seen),'enumerated_raw':raw,'advertised':total,'details_read':details,'kept':len(rows),'method':'employer current search widget + canonical full detail pages'}
 ADAPTERS['phenom']=phenom
 REGISTRY["Lowe's"]={'adapter':'phenom','root':'https://talent.lowes.com','url':'https://talent.lowes.com/us/en/search-results'}
+
+def refresh_known_missing(attempt,prior):
+    """A portal's indexing lag must not close a known listing still published in full."""
+    if not attempt['ok'] or attempt['firm']!="Lowe's":return
+    current={r['job_id'] for r in attempt['rows']};checked=0
+    for old in prior.get('rows',[]):
+        if old['job_id'] in current:continue
+        url='https://talent.lowes.com/us/en/job/'+old['job_id']
+        try:
+            soup=BeautifulSoup(get(url).text,'html.parser');r=schema_row("Lowe's",url,soup,{'job_id':old['job_id']})
+        except ClosedListing:continue
+        if not r or not r['description']:raise CollectionError('Known Lowe\'s listing detail became unreadable: '+old['job_id'])
+        checked+=1
+        if keep_employer(r,country='US'):attempt['rows'].append(r)
+    attempt.setdefault('info',{})['known_missing_details_rechecked']=checked
+    attempt['info']['kept']=len(attempt['rows'])
