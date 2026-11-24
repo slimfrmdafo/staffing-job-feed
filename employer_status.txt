@@ -1,13 +1,14 @@
 Employer job feed
-Published UTC: 2026-11-24T17:09:05.781054+00:00
+Published UTC: 2026-11-24T17:22:59.590262+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/employer_jobs.csv
 Priority employers are attempted on every cloud run. Mac retries only employers whose latest cloud attempt failed.
 Only a complete successful newer pull replaces its own employer snapshot. Failures retain prior rows.
 Employer and staffing files have separate state; publications preserve both feeds.
 
-Bank of America: listings=27 runners=cloud+mac snapshot_runner=cloud last_success=2026-11-24T16:03:50.809384+00:00
+Bank of America: listings=27 runners=cloud+mac snapshot_runner=mac last_success=2026-11-24T17:22:57.980432+00:00
   cloud: FAILED at 2026-11-24T17:03:30.158024+00:00 CollectionError: Bank of America search changed during pagination
+  mac: OK at 2026-11-24T17:22:57.980432+00:00 {'enumerated': 2101, 'enumerated_raw': 2101, 'advertised': 2101, 'details_read': 141, 'kept': 27, 'method': 'employer search service + canonical full detail pages'}
 Wells Fargo: listings=15 runners=cloud snapshot_runner=cloud last_success=2026-11-24T17:04:37.464385+00:00
   cloud: OK at 2026-11-24T17:04:37.464385+00:00 {'enumerated': 1331, 'enumerated_raw': 1331, 'advertised': 1331, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': ['R-587105', 'R-588950'], 'details_read': 22, 'closed_during_pull': 0, 'kept': 15, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
   mac (historical; newer cloud pull recovered): OK at 2026-11-24T05:16:56.729187+00:00 {'enumerated': 1322, 'enumerated_raw': 1322, 'advertised': 1322, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 23, 'closed_during_pull': 0, 'kept': 16, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
@@ -33,7 +34,7 @@ Trane Technologies: listings=3 runners=cloud snapshot_runner=cloud last_success=
   cloud: OK at 2026-11-24T17:05:15.827017+00:00 {'enumerated': 878, 'enumerated_raw': 878, 'advertised': 878, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 45, 'closed_during_pull': 0, 'kept': 3, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
 The Hartford: listings=1 runners=cloud+mac snapshot_runner=cloud last_success=2026-11-24T16:04:35.258775+00:00
   cloud: FAILED at 2026-11-24T17:04:49.075581+00:00 CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627120', '0']}
-  mac: FAILED at 2026-11-24T15:21:03.506773+00:00 CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627082', '0']}
+  mac: FAILED at 2026-11-24T17:22:06.215246+00:00 CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627120', '0']}
 Albemarle: listings=3 runners=cloud snapshot_runner=cloud last_success=2026-11-24T17:04:59.278874+00:00
   cloud: OK at 2026-11-24T17:04:59.278874+00:00 {'enumerated': 78, 'enumerated_raw': 78, 'advertised': 78, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 23, 'closed_during_pull': 0, 'kept': 3, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}}
 Sunbelt Rentals: listings=4 runners=cloud snapshot_runner=cloud last_success=2026-11-24T17:05:40.696927+00:00
@@ -103,7 +104,6 @@ TOTAL listings=157 posted_contacts=2
 Unknown optional fields remain empty. All included listings use full posting details.
 
 Recent run receipts:
-{"completed_at": "2026-11-24T12:18:51.217224+00:00", "firms_attempted": 0, "firms_failed": 0, "firms_succeeded": 0, "id": "26afd505-b756-4490-b6f5-8478466b5e14", "route": "mac", "started_at": "2026-11-24T12:18:49.352904+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T13:06:33.293993+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45399120861", "route": "cloud", "started_at": "2026-11-24T13:01:31.551935+00:00", "timer_fired_at": "2026-11-24T13:01:02.195679+00:00", "timer_run_id": "45389440593", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-24T13:19:21.512517+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "acaed8b4-0cf0-4552-960c-5dd8d839137f", "route": "mac", "started_at": "2026-11-24T13:19:00.130877+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T14:07:22.274584+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45409477114", "route": "cloud", "started_at": "2026-11-24T14:01:53.879371+00:00", "timer_fired_at": "2026-11-24T14:01:14.293150+00:00", "timer_run_id": "45399116850", "trigger": "cloud_clock"}
@@ -113,3 +113,4 @@ Recent run receipts:
 {"completed_at": "2026-11-24T16:08:36.734057+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45432378771", "route": "cloud", "started_at": "2026-11-24T16:02:40.118453+00:00", "timer_fired_at": "2026-11-24T16:02:02.080917+00:00", "timer_run_id": "45420727598", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-24T16:21:46.918284+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "6d70c559-b17e-4467-a875-60d5eb7e0c9f", "route": "mac", "started_at": "2026-11-24T16:21:12.752381+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T17:09:04.713937+00:00", "firms_attempted": 39, "firms_failed": 2, "firms_succeeded": 37, "id": "45444039361", "route": "cloud", "started_at": "2026-11-24T17:03:20.665356+00:00", "timer_fired_at": "2026-11-24T17:02:20.814733+00:00", "timer_run_id": "45432373517", "trigger": "cloud_clock"}
+{"completed_at": "2026-11-24T17:22:57.987807+00:00", "firms_attempted": 2, "firms_failed": 1, "firms_succeeded": 1, "id": "656ec6e1-2a36-4f48-9e3c-b91b6f7343e3", "route": "mac", "started_at": "2026-11-24T17:21:55.596398+00:00", "trigger": "mac_launchd"}

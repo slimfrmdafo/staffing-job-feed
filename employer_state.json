@@ -605,11 +605,26 @@
           "completed_at": "2026-11-24T17:03:30.158024+00:00",
           "ok": false,
           "error": "CollectionError: Bank of America search changed during pagination"
+        },
+        "mac": {
+          "firm": "Bank of America",
+          "route": "mac",
+          "started_at": "2026-11-24T17:21:57.347405+00:00",
+          "completed_at": "2026-11-24T17:22:57.980432+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 2101,
+            "enumerated_raw": 2101,
+            "advertised": 2101,
+            "details_read": 141,
+            "kept": 27,
+            "method": "employer search service + canonical full detail pages"
+          }
         }
       },
-      "snapshot_at": "2026-11-24T16:02:41.427085+00:00",
-      "completed_at": "2026-11-24T16:03:50.809384+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T17:21:57.347405+00:00",
+      "completed_at": "2026-11-24T17:22:57.980432+00:00",
+      "snapshot_route": "mac"
     },
     "Wells Fargo": {
       "rows": [
@@ -2812,10 +2827,10 @@
         "mac": {
           "firm": "The Hartford",
           "route": "mac",
-          "started_at": "2026-11-24T15:20:56.482911+00:00",
-          "completed_at": "2026-11-24T15:21:03.506773+00:00",
+          "started_at": "2026-11-24T17:21:57.349307+00:00",
+          "completed_at": "2026-11-24T17:22:06.215246+00:00",
           "ok": false,
-          "error": "CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627082', '0']}"
+          "error": "CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627120', '0']}"
         }
       },
       "snapshot_at": "2026-11-24T16:04:21.912597+00:00",
@@ -5206,7 +5221,17 @@
       "firms_failed": 2,
       "timer_run_id": "45432373517",
       "timer_fired_at": "2026-11-24T17:02:20.814733+00:00"
+    },
+    {
+      "id": "656ec6e1-2a36-4f48-9e3c-b91b6f7343e3",
+      "route": "mac",
+      "started_at": "2026-11-24T17:21:55.596398+00:00",
+      "completed_at": "2026-11-24T17:22:57.987807+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 2,
+      "firms_succeeded": 1,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-24T17:09:05.781054+00:00"
+  "published_at": "2026-11-24T17:22:59.590262+00:00"
 }
