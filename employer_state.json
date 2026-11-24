@@ -2858,6 +2858,14 @@
           "completed_at": "2026-11-24T15:03:52.008808+00:00",
           "ok": false,
           "error": "CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627082', '0']}"
+        },
+        "mac": {
+          "firm": "The Hartford",
+          "route": "mac",
+          "started_at": "2026-11-24T15:20:56.482911+00:00",
+          "completed_at": "2026-11-24T15:21:03.506773+00:00",
+          "ok": false,
+          "error": "CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627082', '0']}"
         }
       },
       "snapshot_at": "2026-11-24T14:03:29.811020+00:00",
@@ -5185,7 +5193,17 @@
       "firms_failed": 1,
       "timer_run_id": "45409471168",
       "timer_fired_at": "2026-11-24T15:01:48.147739+00:00"
+    },
+    {
+      "id": "f93b4fbe-f94f-46d7-b061-3a969562193c",
+      "route": "mac",
+      "started_at": "2026-11-24T15:20:54.489985+00:00",
+      "completed_at": "2026-11-24T15:21:03.508345+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 0,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-24T15:07:49.873839+00:00"
+  "published_at": "2026-11-24T15:21:04.862837+00:00"
 }
