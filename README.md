@@ -11,7 +11,7 @@ These addresses stay fixed. `main` holds the implementation. The `feed` branch h
 
 ## Schedule and runners
 
-The cloud runs every hour at minute 37 UTC, using GitHub Actions. GitHub may start scheduled jobs late; the status file records actual start, completion and publication times.
+The cloud runs every hour at minute 07 UTC, using GitHub Actions. GitHub may start scheduled jobs late; the status file records actual start, completion and publication times.
 
 The native macOS LaunchAgent **com.staffing.jobfeed** runs every hour at minute 56 and starts automatically at login. Its runtime is installed in `~/Library/Application Support/StaffingFeed`, with a separate Python environment, browser and source checkout. The script updates its code with a fast-forward pull, reads shared status, and selects only firms whose latest cloud attempt failed. The Mac must be awake, online and logged in. The collector does not require Codex to be open. The Codex automation **Hourly Mac staffing fallback** checks service health hourly at minute 06; only this additional health check needs Codex to be running. Cloud collection continues independently.
 
