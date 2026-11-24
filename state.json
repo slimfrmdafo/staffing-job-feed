@@ -8525,11 +8525,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "3/98 detail pages failed: Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=22991753&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=20581610&SearchString=&StatesString=",
+          "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-24T02:56:10.751481+00:00",
-          "completed_at": "2026-11-24T02:56:26.312153+00:00"
+          "started_at": "2026-11-24T03:40:10.947598+00:00",
+          "completed_at": "2026-11-24T03:45:29.376467+00:00"
         }
       }
     },
@@ -8902,7 +8902,17 @@
       "firms_failed": 3,
       "timer_run_id": "45312595238",
       "timer_fired_at": "2026-11-24T03:28:21.361698+00:00"
+    },
+    {
+      "id": "4a2bb356-3d2c-471c-8e7a-14fe60b405de",
+      "route": "mac",
+      "started_at": "2026-11-24T03:40:10.860721+00:00",
+      "completed_at": "2026-11-24T03:45:29.378318+00:00",
+      "trigger": "validation",
+      "firms_attempted": 1,
+      "firms_succeeded": 0,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-24T03:39:59.571295+00:00"
+  "published_at": "2026-11-24T03:45:30.906200+00:00"
 }
