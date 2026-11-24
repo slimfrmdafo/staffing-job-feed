@@ -62,3 +62,8 @@ def test_financial_and_process_certifications_require_explicit_requirement():
  assert required_certifications('Required Qualifications\nActive CRCM certification.')=='Active CRCM certification'
  assert required_certifications('Lean Six Sigma Black Belt certification required.')=='Lean Six Sigma Black Belt certification required'
  assert required_certifications('Preferred Qualifications\nCPA or CIA certification.')==''
+
+def test_generic_recruiting_mailbox_used_only_for_accommodations_is_excluded():
+ assert contact_fields('If you require a reasonable accommodation to complete the application process, please contact us at\nCarrier.Recruiting@carrier.com\n. We will meet your needs.')=={}
+ assert contact_fields('If you need a medical accommodation, please email\nhrpolicy@ally.com\nwith details of your accommodation request.')=={}
+ assert contact_fields('CONTACT INFORMATION\nIf there are questions about this posting, contact Talent Acquisition at\ntalentacquisition@dhhs.nc.gov\n.')['recruiter_email']=='talentacquisition@dhhs.nc.gov'
