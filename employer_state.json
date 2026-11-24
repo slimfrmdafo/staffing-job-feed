@@ -601,17 +601,10 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-24T16:02:41.427085+00:00",
-          "completed_at": "2026-11-24T16:03:50.809384+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 2095,
-            "enumerated_raw": 2095,
-            "advertised": 2095,
-            "details_read": 141,
-            "kept": 27,
-            "method": "employer search service + canonical full detail pages"
-          }
+          "started_at": "2026-11-24T17:03:22.054304+00:00",
+          "completed_at": "2026-11-24T17:03:30.158024+00:00",
+          "ok": false,
+          "error": "CollectionError: Bank of America search changed during pagination"
         }
       },
       "snapshot_at": "2026-11-24T16:02:41.427085+00:00",
@@ -620,6 +613,28 @@
     },
     "Wells Fargo": {
       "rows": [
+        {
+          "firm": "Wells Fargo",
+          "job_id": "R-579536",
+          "title": "Business Execution Associate - Advisor Platform Support",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-24",
+          "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/CHARLOTTE-NC/Business-Execution-Associate---Advisor-Platform-Support_R-579536-1",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "About this role:\nWells Fargo is seeking a Business Execution Associate to join our Advisor Platform Coaching & Support group within Wealth & Investment Management. You will provide guidance and assistance for our Advisor and Client platforms. Learn more about our career areas and business divisions at\nwww.wellsfargojobs.com\n.\nIn this role, you will:\nProvide quality, consultative service to the field regarding Financial Advisor (FA) and Digital Platform tools and applications such as Advisor Gateway, eSign, Client Management, Client Review Center and eMoney®\nDeliver how-to, navigational training and assistance through inbound call support\nSupport efficiency and quality by providing navigational and “how to assistance”, addressing concerns and escalating when appropriate\nResolve complex business issues and escalations, determine root causes, coordinate solutions, and ensure timely resolution\nParticipate in all required training and remain current on all application releases and updates\nIdentify opportunities for process improvements within scope of responsibilities or functional area\nAnalyze performance trends, identify developmental needs, and provide coaching techniques and recommendations to improve performance\nPartner with Product Teams to stay ahead of updates and proactively address issues.\nPresent recommendations for resolving more complex situations and exercise independent judgement while developing expertise in the function, policies, procedures, and compliance requirements\nCollaborate and consult with other Platform Support colleagues, internal partners, and stakeholders\nMay provide work direction to less experienced Strategy and Execution staff\nRequired Qualifications:\n6+ months of Business Execution, Implementation, or Strategic Planning experience, or equivalent demonstrated through one or a combination of the following: work experience, training, military experience, education\nDesired Qualifications:\nExperience supporting business applications or tools\nExperience within the brokerage or financial services industry\nExperience facilitating and delivering educational sessions, group meetings, presentations, or similar learning activities\nExperience supporting Advisor Gateway and Client Management\nExperience handling and researching escalations and inquiries\nLeadership experience\nStrong customer service focus, with the ability to understand customer needs and recommend best practices\nBasic proficiency in Microsoft Excel\nIntermediate proficiency in Microsoft Outlook, Word, PowerPoint, Teams, and SharePoint\nExcellent verbal, written, and interpersonal communication skills\nStrong organizational, multitasking, and prioritization skills\nExcellent problem-solving skills\nDemonstrated ability to manage multiple and competing priorities\nJob Expectations:\nSpecific compliance policies may apply regarding outside activities and/or personal investing; affected employees will be expected to provide information to the Wells Fargo Personal Account Dealing Team and abide by applicable policy requirements if hired. Information will be shared about expectations during the recruitment process.\nThis position is subject to FINRA background screening requirements. Candidates must successfully complete and pass a background check prior to hire. In accordance with FINRA rules, individuals who are subject to statutory disqualification are not eligible to be associated with a FINRA-registered broker-dealer. Successful candidates must also meet and comply with ongoing regulatory obligations, which include periodic screening and mandatory reporting of certain incidents.\nThis position is not eligible for Visa sponsorship.\nFollows enterprise in-office requirements.\nLocation:\n550 S Tryon St - Charlotte, North Carolina 28202\nPosting End Date:\n29 Nov 2026\n*Job posting may come down early due to volume of applicants.\nWe Value Equal Opportunity\nWells Fargo is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other legally protected characteristic.\nEmployees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\nCandidates applying to job openings posted in Canada: Applications for employment are encouraged from all qualified candidates, including women, persons with disabilities, aboriginal peoples and visible minorities. Accommodation for applicants with disabilities is available upon request in connection with the recruitment process.\nApplicants with Disabilities\nTo request a medical accommodation during the application or interview process, visit\nDisability Inclusion at Wells Fargo\n.\nDrug and Alcohol Policy\nWells Fargo maintains a drug free workplace.  Please see our\nDrug and Alcohol Policy\nto learn more.\nWells Fargo Recruitment and Hiring Requirements:\na. Third-Party recordings are prohibited unless authorized by Wells Fargo.\nb. Wells Fargo requires you to directly represent your own experiences during the recruiting and hiring process.\nc. Please be prepared to provide accurate information and supporting documentation in connection with any lawful employment and education verification conducted by Wells Fargo."
+        },
         {
           "firm": "Wells Fargo",
           "job_id": "R-582336",
@@ -754,28 +769,6 @@
         },
         {
           "firm": "Wells Fargo",
-          "job_id": "R-588512",
-          "title": "Senior Lead Control Management Officer",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-20",
-          "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/CHARLOTTE-NC/Senior-Lead-Control-Management-Officer_R-588512",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Why Wells Fargo\nAre you looking for more? Find it here. At Wells Fargo, we're more than a financial services leader — we’re a global trailblazer committed to driving innovation, empowering communities, and helping our customers succeed. We believe that a meaningful career is much more than just a job — it’s about finding all of the elements to help you thrive, in one place.\nLiving the Well Life means you’re supported in life, not just work. It means having robust benefits, competitive compensation, and programs designed to help you find work-life balance and well-being. You’ll be rewarded for investing in your community, celebrated for being your authentic self, and empowered to grow. And we’re recognized for it — Wells Fargo continues to rank on the LinkedIn Top Companies lists of best workplaces “to grow your career.” Join us!\nAbout this role:\nWells Fargo is seeking a\nSenior Lead Control Management Officer.\nThe Senior Lead Control Management Officer will serve as a key member of the Technology Control Management organization, responsible for strengthening the control environment within the Cloud Platform organization. This role will provide strategic control oversight and risk leadership for enterprise infrastructure services, cloud platform adoption, platform engineering, and control modernization initiatives focused on Control-as-Code, automated governance, and continuous control monitoring.\nThe individual will partner closely with Infrastructure Engineering leaders, Cloud Platform Engineering, Information Security, Technology Risk, Cloud GRC, Audit, and Control Management teams to establish and maintain a strong control environment that enables secure technology transformation while ensuring regulatory compliance and operational resilience.\nIn This Role, You Will\nAct as a trusted advisor to senior technology and control management leaders in developing risk mitigation strategies for complex infrastructure and cloud-related risks.\nLead the design, implementation, and continuous improvement of control frameworks supporting:\nInfrastructure Engineering\nCloud Platforms (Azure, AWS, GCP, OpenShift, Kubernetes)\nStorage, Compute, Network, Database, and Middleware Services\nPlatform Engineering initiatives\nLead the adoption of Control-as-Code principles across Infrastructure Engineering and Cloud Platforms, including continuous compliance monitoring and automated evidence collection.\nPropose governance standards and operating models for automated preventive, detective, and corrective controls.\nProvide strategic oversight of enterprise technology risk, operational risk, resiliency risk, and regulatory compliance requirements.\nProactively identify and assess emerging risks related to cloud adoption, hybrid cloud architectures, automation, AI-enabled infrastructure operations, platform engineering, and infrastructure modernization.\nMonitor, measure, evaluate, and report on the effectiveness of controls and risk mitigation strategies, analyzing Key Risk Indicators (KRIs), issues, control testing, and operational loss data to identify systemic risk trends.\nLead complex risk and control governance activities, including preparation of executive-level reporting, risk committee materials, and regulatory updates.\nProvide risk and control expertise in engagement with Audit, Compliance, Independent Risk Management, and regulators.\nCoordinate issue management activities, including root-cause analysis and sustainable corrective action plans.\nServe as the control management lead for major infrastructure and cloud transformation programs.\nMentor and guide control officers and virtual teams supporting technology control execution.\nRequired Qualifications\n7+ years of Risk Management or Financial Services Industry experience, or equivalent experience demonstrated through one or a combination of the following: work experience, training, military experience, or education.\n7+ years of Control Management, Technology Risk, Information Security experience.\nDesired Qualifications\nKnowledge of IT, information security, and cloud management and control frameworks (e.g., NIST Cybersecurity Framework and 800-53, CIS Critical Security Controls, FFIEC IT Examination Handbooks, COBIT, FedRAMP, ISO 2700x, ITIL).\nStrong control evaluation, testing, and/or audit experience, including assessing risk, drafting and executing test scripts, identifying gaps in controls and control execution, assessing issues and trends, and influencing change.\nStrong risk and control fundamentals, including a comprehensive understanding of risk types, methodologies, and frameworks for evaluating or testing controls, assessing results, conducting research, and identifying control deficiencies.\nTechnology risk acumen and a clear understanding of policies and standards associated with Technology and Cyber Security Risk.\nExperience leading audit engagements and providing feedback to staff.\nExcellent verbal, written, and interpersonal communication skills.\nExperience supporting large-scale infrastructure or cloud modernization programs.\nRelevant certifications:\nCRISC / CISA\nCISSP / CCSP\nAWS/Azure/GCP Cloud Certifications\nJob Expectations:\nThis position is\nNOT\neligible for Visa sponsorship.\nAbility to work on site in a hybrid role.\nFully remote work locations are not available for this role. If you are not in a location listed on the posting, you must commit to relocation within an agreed upon timeframe.\nRelocation assistance is not available for this position.\nPay Range\nReflected is the base pay range offered for this position. Pay may vary depending on factors including but not limited to demonstrated examples of prior performance, skills, experience, or work location. Employees may also be eligible for incentive opportunities.\n$159,000.00 - $305,000.00\nBenefits\nWells Fargo provides eligible employees with a comprehensive set of benefits, many of which are listed below. Visit\nBenefits - Wells Fargo Jobs\nfor an overview of the following benefit plans and programs offered to employees.\nHealth benefits\n401(k) Plan\nPaid time off\nDisability benefits\nLife insurance, critical illness insurance, and accident insurance\nParental leave\nCritical caregiving leave\nDiscounts and savings\nCommuter benefits\nTuition reimbursement\nScholarships for dependent children\nAdoption reimbursement\nPosting End Date:\n3 Dec 2026\n*\nJob posting may come down early due to volume of applicants.\nWe Value Equal Opportunity\nWells Fargo is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other legally protected characteristic.\nEmployees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\nApplicants with Disabilities\nTo request a medical accommodation during the application or interview process, visit\nDisability Inclusion at Wells Fargo\n.\nDrug and Alcohol Policy\nWells Fargo maintains a drug free workplace.  Please see our\nDrug and Alcohol Policy\nto learn more.\nWells Fargo Recruitment and Hiring Requirements:\na. Third-Party recordings are prohibited unless authorized by Wells Fargo.\nb. Wells Fargo requires you to directly represent your own experiences during the recruiting and hiring process.\nc. Please be prepared to provide accurate information and supporting documentation in connection with any lawful employment and education verification conducted by Wells Fargo."
-        },
-        {
-          "firm": "Wells Fargo",
           "job_id": "R-587163",
           "title": "CIB Lending Operations Middle Office Specialist",
           "client_company": "",
@@ -817,28 +810,6 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "About this role:\nWells Fargo Home Lending is seeking a\nLead Business Execution Consultant\nto serve as an advanced administrator for Wipro’s NetOxygen platform as part of the HELM loan origination system transformation. This hands-on role will configure platform capabilities, translate retail mortgage processes into system workflows, define controls, administer tasking and rules, and help establish a sustainable NetOxygen administration model. The ideal candidate brings at least five years of direct NetOxygen administration experience within a retail mortgage origination lender. Success in this role requires strong product judgment, executive influence, and the ability to apply emerging capabilities, including Artificial Intelligence, within a highly regulated environment. NetOxygen implementation experience is strongly preferred.\nIn this role, you will:\n·         Configure and administer NetOxygen workflows, tasking, queues, routing, user roles and permissions, business rules, alerts, and other platform capabilities.\n·         Partner with mortgage operations and product teams to map current-state processes, design future-state workflows, and translate requirements into effective NetOxygen configuration.\n·         Define and document process controls, decision points, exception paths, handoffs, service-level expectations, and evidence requirements within the platform.\n·         Analyze configuration requests and platform issues, identify root causes, evaluate impacts, and implement sustainable solutions.\n·         Maintain configuration documentation, rule inventories, administrative procedures, traceability, and change-control evidence.\n·         Collaborate with Wipro, technology, testing, operations, risk, and control partners to validate designs and resolve functional or configuration gaps.\n·         Support implementation activities including configuration build, unit and integration testing, user acceptance testing, defect triage, deployment readiness, and production stabilization.\n·         Assess platform capabilities and recommend ways to improve efficiency, consistency, control effectiveness, employee experience, and customer outcomes.\n·         Facilitate working sessions and communicate configuration decisions, dependencies, risks, and implementation impacts to stakeholders.\n·         Provide guidance and knowledge transfer to administrators, analysts, and business partners to strengthen internal NetOxygen capabilities.\n·         Participate in the development of integrated execution plans, roadmaps, milestones, dependencies, and delivery governance.\n·         Provide expertise to leadership for implementing business and workflow solutions that are large scale and cross organizational.\n·         Operate in a highly matrixed environment and serve as an integrator across technology, product, business, risk, and control partners.\nRequired Qualifications:\n·         5+ years of Business Execution, Implementation, or Strategic Planning experience, or equivalent demonstrated through one or a combination of the following: work experience, training, military experience, education.\n·         3+ years of direct administrator experience with Wipro’s NetOxygen platform within a retail mortgage origination lending environment.\nDesired Qualifications:\n·         Advanced hands-on experience with NetOxygen platform configuration, process and workflow design, control definition, tasking setup, queue and routing administration, and business rules administration.\n·         Working knowledge of the end-to-end retail mortgage origination lifecycle, including application, processing, underwriting, conditions, closing, funding, and post-closing.\n·         Experience translating business and control requirements into detailed platform design, configuration, and testable acceptance criteria.\n·         NetOxygen implementation, conversion, upgrade, or major release experience is strongly preferred.\n·         Experience with configuration, governance, release management, testing, defect resolution, and production support in a regulated financial-services environment.\n·         Ability to work effectively with Wipro and cross-functional product, operations, technology, risk, compliance, and control partners.\n·         Strong analytical, problem-solving, documentation, facilitation, and stakeholder communication skills.\nJob Expectations:\n·         This position requires compliance with all mortgages regulatory requirements and Wells Fargo’s compliance policies related to these requirements. Successful candidates must also meet ongoing regulatory requirements including additional screening and required reporting of certain incidents.\n·         This position is not eligible for Visa sponsorship.\n·         This position offers a hybrid work schedule.\nTelework or remote work settings are not available.\n·         Preferred location(s) listed below. Other locations within the Wells Fargo footprint may be considered.\nPosting Locations\n:\n·         Charlotte, NC -1525 W WT Harris Blvd\n·         Des Moines, IA-800 S Jordan Creek Pkwy\n·         Minneapolis, MN- 600 Wells Fargo\n·         Irving, TX-401 Los Colinas Blvd\n·         San Antonio, TX-4102 Wiseman Blvd\n·         Tempe, AZ -1150 W. Washington\n·         Wilmington, DE- 2200 Concord Pike\n·         Columbus, OH- 3075 Loyalty Circle\n·         Chicago, IL-10 S Wacker\nPosted Pay Range\n·         Other Posted Location $119,000 to $187,000 annually\n·         Wilmington, DE and Minneapolis, MN $ 131,000 to 206,000\n·         Chicago, IL $143,000 to $224,000\nPay Range\nSalary is just one component of Wells Fargo's total rewards package. Depending on the role, a Wells Fargo's employee may be eligible for additional forms of compensation, such as sales incentives, discretionary bonuses, and/or equity in the company in the form of Restricted Stock Units (RSUs).\nReflected is the base pay range offered for this position. Pay may vary depending on factors including but not limited to demonstrated examples of prior performance, skills, experience, or work location. Employees may also be eligible for incentive opportunities.\n$119,000.00 - $224,000.00\nBenefits\nWells Fargo provides eligible employees with a comprehensive set of benefits, many of which are listed below. Visit\nBenefits - Wells Fargo Jobs\nfor an overview of the following benefit plans and programs offered to employees.\nHealth benefits\n401(k) Plan\nPaid time off\nDisability benefits\nLife insurance, critical illness insurance, and accident insurance\nParental leave\nCritical caregiving leave\nDiscounts and savings\nCommuter benefits\nTuition reimbursement\nScholarships for dependent children\nAdoption reimbursement\nPosting End Date:\n25 Nov 2026\n*\nJob posting may come down early due to volume of applicants.\nWe Value Equal Opportunity\nWells Fargo is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other legally protected characteristic.\nEmployees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\nApplicants with Disabilities\nTo request a medical accommodation during the application or interview process, visit\nDisability Inclusion at Wells Fargo\n.\nDrug and Alcohol Policy\nWells Fargo maintains a drug free workplace.  Please see our\nDrug and Alcohol Policy\nto learn more.\nWells Fargo Recruitment and Hiring Requirements:\na. Third-Party recordings are prohibited unless authorized by Wells Fargo.\nb. Wells Fargo requires you to directly represent your own experiences during the recruiting and hiring process.\nc. Please be prepared to provide accurate information and supporting documentation in connection with any lawful employment and education verification conducted by Wells Fargo."
-        },
-        {
-          "firm": "Wells Fargo",
-          "job_id": "R-573422",
-          "title": "Senior Lead Technology Risk Officer (Application Domain, SDLC, DevOps and AI)",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-20",
-          "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/CHARLOTTE-NC/Senior-Lead-Technology-Risk-Officer--Application-Domain--SDLC--DevOps-and-AI-_R-573422-1",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "About this role:\nThe Application Risk Domain Officer operates within Technology Risk Management (TRM), part of Corporate Risk, providing independent second line oversight across application domains. The role is a member of the Application Risk Domain Team, which performs domain level evaluation and produces evidence-based views of how application conditions contribute to enterprise risk exposure. The role engages with Technology, including Tech Operations, CIO organizations, to provide challenge and inform risk-based decisions. Outputs from this role support enterprise risk views provided to senior management, risk committees, and regulators.\nThe Application Risk Domain Officer is responsible for defining and advancing domain-level risk assessment, monitoring, and reporting approaches. This includes evaluating application-related risk conditions, assessing the effectiveness of risk management practices and controls, and developing evidence-based views of how those conditions contribute to enterprise technology risk exposure.\nThe role requires strong technical understanding of modern application engineering practices, including SDLC, CI/CD, infrastructure as code, cloud-native architectures, developer platforms, software supply chain processes, and AI-enabled engineering workflows. Due to the breadth and complexity of the domain, preference will be given to candidates who have operated, managed, or led one or more technology capabilities for which they will provide independent risk oversight. The successful candidate must be capable of engaging engineering teams with technical credibility, providing effective challenge on complex technology matters, and translating technical observations into clear, decision-ready insights for senior management, risk committees, and regulatory stakeholders.\nIn this role, you will:\nProvide expert second-line oversight of modern engineering practices, including application architecture patterns, secure SDLC, CI/CD, DevSecOps, platform engineering, infrastructure as code, containerized workloads, and production release controls.\nOwn second-line technology risk coverage and provide thought leadership across the application risk domain, partnering closely with first-line engineering, controls and technology teams to drive consistent oversight of application architecture, development practices, deployment pipelines, and supporting engineering controls.\nPerform technically rigorous assessments of source control workflows, branching strategies, build systems, test automation, artifact repositories, package dependencies, deployment orchestration, and runtime platform configurations to identify control weaknesses and systemic risk.\nEvaluate the integrity of software delivery pipelines end to end, including code provenance, pipeline trust boundaries, secrets handling, approval models, environment segregation, artifact immutability, and rollback or recovery capabilities.\nLead deep-dive technical risk reviews of complex delivery environments and modernization programs, converting architecture, pipeline, and operational observations into clear risk statements, root causes, and targeted remediation expectations.\nAnalyze developer ecosystems and engineering tool chains at a practitioner level, including repositories, CI runners, build agents, package managers, IaC frameworks, containers, Kubernetes, cloud services, and observability stacks.\nEvaluate AI-enabled engineering capabilities, including code assistants, prompt-based development workflows, automated test generation, agentic tooling, and model-integrated developer platforms, with emphasis on data exposure, unsafe code generation, traceability, and human review requirements.\nReview design and implementation patterns for application and platform controls, such as policy-as-code, secrets management, service identity, environment hardening, logging, monitoring, drift detection, and release gating.\nDevelop technically meaningful risk indicators and challenge metrics for SDLC, DevSecOps, and AI-enabled engineering, such as deployment control exceptions, pipeline bypasses, privileged access patterns, dependency exposure, control coverage gaps, and remediation aging.\nServe as a trusted technical risk partner to engineering, security, architecture, and control teams by applying expert discipline knowledge to high-impact decisions and shaping resilient engineering practices across the enterprise\n.\nRequired Qualifications:\n7+ years of Technology Risk experience, or equivalent demonstrated through one or a combination of the following: work experience, training, military experience, education.\nDesired Qualifications:\n7+ years of progressive experience in software engineering, DevSecOps, platform or cloud engineering, application security, technology controls, or technology risk. Front-line experience leading or operating technology capabilities is strongly preferred\nProven technical depth across modern SDLC and DevSecOps, including source control, CI/CD, automated testing, deployment automation, production change controls, and software supply chain security.\nDemonstrated ability to lead complex technical risk assessments, evaluate control effectiveness, identify systemic risk, and provide credible challenge across SDLC, DevSecOps, cloud, software supply chain, and AI-enabled engineering environments.\nAbility to challenge complex technical decisions with credibility by evaluating application architectures, deployment models, engineering evidence, technical standards, and control implementations.\nStrong command of modern engineering platforms and security toolchains, including GitHub or GitLab, Jenkins or Azure DevOps, Terraform, containers, Kubernetes, cloud platforms, application security testing, and observability tools.\nExperience implementing or assessing critical engineering controls across secure build and release processes, code provenance, secrets management, privileged automation, infrastructure as code, environment segregation, and runtime security.\nUnderstanding of emerging AI engineering risks and controls, including AI coding assistants, automated code generation, agentic workflows, data exposure, traceability, and human oversight.\nExceptional judgment, executive communication, and influencing skills, with the ability to translate complex technical risks into clear business impact, actionable remediation, and decision-ready reporting.\nKnowledge of NIST, SSDF, COBIT, FFIEC guidance, or ISO 27001. Financial services or regulated-industry experience and relevant security, risk, cloud, or software lifecycle certifications are preferred.\nJob Expectations:\nThis position does not offer sponsorship\nPosting End Date:\n29 Nov 2026\n*Job posting may come down early due to volume of applicants.\nWe Value Equal Opportunity\nWells Fargo is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other legally protected characteristic.\nEmployees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\nCandidates applying to job openings posted in Canada: Applications for employment are encouraged from all qualified candidates, including women, persons with disabilities, aboriginal peoples and visible minorities. Accommodation for applicants with disabilities is available upon request in connection with the recruitment process.\nApplicants with Disabilities\nTo request a medical accommodation during the application or interview process, visit\nDisability Inclusion at Wells Fargo\n.\nDrug and Alcohol Policy\nWells Fargo maintains a drug free workplace.  Please see our\nDrug and Alcohol Policy\nto learn more.\nWells Fargo Recruitment and Hiring Requirements:\na. Third-Party recordings are prohibited unless authorized by Wells Fargo.\nb. Wells Fargo requires you to directly represent your own experiences during the recruiting and hiring process.\nc. Please be prepared to provide accurate information and supporting documentation in connection with any lawful employment and education verification conducted by Wells Fargo."
         },
         {
           "firm": "Wells Fargo",
@@ -977,23 +948,22 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-24T16:02:41.428257+00:00",
-          "completed_at": "2026-11-24T16:03:55.046609+00:00",
+          "started_at": "2026-11-24T17:03:22.055091+00:00",
+          "completed_at": "2026-11-24T17:04:37.464385+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1314,
-            "enumerated_raw": 1314,
-            "advertised": 1314,
+            "enumerated": 1331,
+            "enumerated_raw": 1331,
+            "advertised": 1331,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [
-              "R-583936",
               "R-587105",
               "R-588950"
             ],
-            "details_read": 23,
+            "details_read": 22,
             "closed_during_pull": 0,
-            "kept": 16,
+            "kept": 15,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "locationCountry": [
@@ -1027,8 +997,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:02:41.428257+00:00",
-      "completed_at": "2026-11-24T16:03:55.046609+00:00",
+      "snapshot_at": "2026-11-24T17:03:22.055091+00:00",
+      "completed_at": "2026-11-24T17:04:37.464385+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1764,17 +1734,17 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-24T16:02:41.428655+00:00",
-          "completed_at": "2026-11-24T16:04:21.912529+00:00",
+          "started_at": "2026-11-24T17:03:22.055325+00:00",
+          "completed_at": "2026-11-24T17:05:10.328033+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1347,
-            "enumerated_raw": 1347,
-            "advertised": 1347,
+            "enumerated": 1345,
+            "enumerated_raw": 1345,
+            "advertised": 1345,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [
-              "R0119451"
+              "R0120844"
             ],
             "details_read": 46,
             "closed_during_pull": 0,
@@ -1792,8 +1762,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-24T16:02:41.428655+00:00",
-      "completed_at": "2026-11-24T16:04:21.912529+00:00",
+      "snapshot_at": "2026-11-24T17:03:22.055325+00:00",
+      "completed_at": "2026-11-24T17:05:10.328033+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1957,8 +1927,8 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-24T16:02:41.429069+00:00",
-          "completed_at": "2026-11-24T16:02:50.192398+00:00",
+          "started_at": "2026-11-24T17:03:22.055604+00:00",
+          "completed_at": "2026-11-24T17:03:35.332682+00:00",
           "ok": true,
           "info": {
             "enumerated": 68,
@@ -1995,8 +1965,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:02:41.429069+00:00",
-      "completed_at": "2026-11-24T16:02:50.192398+00:00",
+      "snapshot_at": "2026-11-24T17:03:22.055604+00:00",
+      "completed_at": "2026-11-24T17:03:35.332682+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2157,28 +2127,6 @@
         },
         {
           "firm": "Lowe's",
-          "job_id": "JR-02702351",
-          "title": "Loyalty Program Marketing Manager",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-18",
-          "url": "https://talent.lowes.com/us/en/job/JR-02702351",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Loyalty Program Manager owns the day-to-day operations and ongoing improvement of Lowe's loyalty programs, ensuring processes are efficient, scalable, and deliver a consistent experience for both customers and associates. Reporting to the Director, Loyalty Promotions and Operations, this role serves as a key partner in identifying operational challenges, addressing recurring issues, and improving how work gets done across the loyalty ecosystem.\r\n\r\nThis role works closely with Store Operations, Customer Care, Technology, and Loyalty teams to understand customer and associate pain points, resolve operational issues, identify root causes, and implement solutions that improve the experience and reduce future friction. The position is responsible for establishing and maintaining processes, controls, and operational standards that support consistent program execution and long-term success.\r\n\r\nIn addition, this role helps drive the operating rhythm of the Loyalty organization by supporting planning activities, business reviews, technology prioritization, and cross-functional initiatives. Through strong partnerships, operational expertise, and a continuous improvement mindset, this position plays an important role in ensuring Lowe's loyalty programs run effectively and continue to evolve to meet business and customer needs.\nWhat You Will Do\nOversee day-to-day operations across Lowe’s loyalty programs, driving process efficiency, scalability, and operational consistency to deliver a seamless experience for customers and associates.\nOwn loyalty issue management and continuous improvement, identifying recurring themes and root causes and translating learnings into process, tool, and experience enhancements that reduce future issues.\nDevelop and maintain standard operating procedures, escalation paths, playbooks, and knowledge resources that improve execution, consistency, and speed to resolution.\nPartner with Store Operations, Customer Care, and field teams to identify associate pain points and improve the processes, tools, communications, and resources associates need to effectively support loyalty members.\nOwn the overall Loyalty technology planning process, coordinating priorities, business requirements, dependencies, and sequencing across Loyalty program teams and technology partners.\nServe as the business owner for the Loyalty Operations technology roadmap, identifying and prioritizing capabilities that improve operational efficiency, issue resolution, associate support, and scalability.\nLead operational readiness for new loyalty capabilities and program changes, ensuring processes, tools, documentation, and support models are established prior to launch.\nManage key Loyalty operating and planning rhythms, including business reviews, team planning, decision and action tracking, and other cross-functional planning milestones.\nMinimum Qualifications\nBachelor’s degree Business, Marketing or related field or equivalent years of experience in lieu of education requirement, if applicable\n7-10 Years General Marketing Experience\n5 Years CRM and loyalty experience\nPreferred Skills/Education\n1-3 Years People Leadership Experience\nExperience working with marketing technology\nExperience working closely with senior leadership\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
           "job_id": "JR-02703739",
           "title": "Lead, Private Brands Program Management",
           "client_company": "",
@@ -2226,15 +2174,15 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-24T16:02:50.192485+00:00",
-          "completed_at": "2026-11-24T16:03:43.920822+00:00",
+          "started_at": "2026-11-24T17:03:30.158284+00:00",
+          "completed_at": "2026-11-24T17:03:59.897631+00:00",
           "ok": true,
           "info": {
-            "enumerated": 4760,
-            "enumerated_raw": 4760,
-            "advertised": 4760,
-            "details_read": 16,
-            "kept": 10,
+            "enumerated": 4774,
+            "enumerated_raw": 4774,
+            "advertised": 4774,
+            "details_read": 15,
+            "kept": 9,
             "method": "employer current search widget + canonical full detail pages",
             "known_missing_details_rechecked": 0
           }
@@ -2256,8 +2204,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:02:50.192485+00:00",
-      "completed_at": "2026-11-24T16:03:43.920822+00:00",
+      "snapshot_at": "2026-11-24T17:03:30.158284+00:00",
+      "completed_at": "2026-11-24T17:03:59.897631+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2355,8 +2303,8 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-24T16:03:43.920920+00:00",
-          "completed_at": "2026-11-24T16:03:53.561461+00:00",
+          "started_at": "2026-11-24T17:03:35.332742+00:00",
+          "completed_at": "2026-11-24T17:03:44.518461+00:00",
           "ok": true,
           "info": {
             "enumerated": 82,
@@ -2377,8 +2325,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:03:43.920920+00:00",
-      "completed_at": "2026-11-24T16:03:53.561461+00:00",
+      "snapshot_at": "2026-11-24T17:03:35.332742+00:00",
+      "completed_at": "2026-11-24T17:03:44.518461+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2454,8 +2402,8 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-24T16:03:50.809488+00:00",
-          "completed_at": "2026-11-24T16:04:02.154258+00:00",
+          "started_at": "2026-11-24T17:03:44.518521+00:00",
+          "completed_at": "2026-11-24T17:03:53.438249+00:00",
           "ok": true,
           "info": {
             "enumerated": 107,
@@ -2500,8 +2448,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:03:50.809488+00:00",
-      "completed_at": "2026-11-24T16:04:02.154258+00:00",
+      "snapshot_at": "2026-11-24T17:03:44.518521+00:00",
+      "completed_at": "2026-11-24T17:03:53.438249+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2665,21 +2613,22 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-24T16:03:53.561528+00:00",
-          "completed_at": "2026-11-24T16:05:49.095501+00:00",
+          "started_at": "2026-11-24T17:03:53.438310+00:00",
+          "completed_at": "2026-11-24T17:05:38.916915+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1441,
-            "enumerated_raw": 1441,
-            "advertised": 1441,
+            "enumerated": 1436,
+            "enumerated_raw": 1436,
+            "advertised": 1436,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [
-              "261000941",
+              "261003731",
+              "261007953",
               "261009014",
               "261009050"
             ],
-            "details_read": 128,
+            "details_read": 126,
             "closed_during_pull": 0,
             "kept": 7,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -2691,8 +2640,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:03:53.561528+00:00",
-      "completed_at": "2026-11-24T16:05:49.095501+00:00",
+      "snapshot_at": "2026-11-24T17:03:53.438310+00:00",
+      "completed_at": "2026-11-24T17:05:38.916915+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2701,13 +2650,13 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-24T16:03:55.046731+00:00",
-          "completed_at": "2026-11-24T16:04:38.071159+00:00",
+          "started_at": "2026-11-24T17:03:59.897694+00:00",
+          "completed_at": "2026-11-24T17:04:42.840226+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1112,
-            "enumerated_raw": 1112,
-            "advertised": 1112,
+            "enumerated": 1113,
+            "enumerated_raw": 1113,
+            "advertised": 1113,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2723,8 +2672,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:03:55.046731+00:00",
-      "completed_at": "2026-11-24T16:04:38.071159+00:00",
+      "snapshot_at": "2026-11-24T17:03:59.897694+00:00",
+      "completed_at": "2026-11-24T17:04:42.840226+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2800,13 +2749,13 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-24T16:04:02.154313+00:00",
-          "completed_at": "2026-11-24T16:04:33.429664+00:00",
+          "started_at": "2026-11-24T17:04:37.464448+00:00",
+          "completed_at": "2026-11-24T17:05:15.827017+00:00",
           "ok": true,
           "info": {
-            "enumerated": 874,
-            "enumerated_raw": 874,
-            "advertised": 874,
+            "enumerated": 878,
+            "enumerated_raw": 878,
+            "advertised": 878,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2822,8 +2771,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:04:02.154313+00:00",
-      "completed_at": "2026-11-24T16:04:33.429664+00:00",
+      "snapshot_at": "2026-11-24T17:04:37.464448+00:00",
+      "completed_at": "2026-11-24T17:05:15.827017+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2855,26 +2804,10 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-24T16:04:21.912597+00:00",
-          "completed_at": "2026-11-24T16:04:35.258775+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 139,
-            "enumerated_raw": 139,
-            "advertised": 139,
-            "location_partitions": 0,
-            "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 7,
-            "closed_during_pull": 0,
-            "kept": 1,
-            "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {
-              "locationCountry": [
-                "bc33aa3152ec42d4995f4791a106ed09"
-              ]
-            }
-          }
+          "started_at": "2026-11-24T17:04:42.840291+00:00",
+          "completed_at": "2026-11-24T17:04:49.075581+00:00",
+          "ok": false,
+          "error": "CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627120', '0']}"
         },
         "mac": {
           "firm": "The Hartford",
@@ -2962,8 +2895,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-24T16:04:33.429729+00:00",
-          "completed_at": "2026-11-24T16:04:47.005431+00:00",
+          "started_at": "2026-11-24T17:04:49.075609+00:00",
+          "completed_at": "2026-11-24T17:04:59.278874+00:00",
           "ok": true,
           "info": {
             "enumerated": 78,
@@ -2980,8 +2913,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:04:33.429729+00:00",
-      "completed_at": "2026-11-24T16:04:47.005431+00:00",
+      "snapshot_at": "2026-11-24T17:04:49.075609+00:00",
+      "completed_at": "2026-11-24T17:04:59.278874+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -3079,17 +3012,17 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-24T16:04:35.258845+00:00",
-          "completed_at": "2026-11-24T16:05:12.110127+00:00",
+          "started_at": "2026-11-24T17:04:59.278934+00:00",
+          "completed_at": "2026-11-24T17:05:40.696927+00:00",
           "ok": true,
           "info": {
-            "enumerated": 891,
-            "enumerated_raw": 891,
-            "advertised": 891,
+            "enumerated": 887,
+            "enumerated_raw": 887,
+            "advertised": 887,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [
-              "2026-17594"
+              "2026-17261"
             ],
             "details_read": 11,
             "closed_during_pull": 0,
@@ -3103,8 +3036,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:04:35.258845+00:00",
-      "completed_at": "2026-11-24T16:05:12.110127+00:00",
+      "snapshot_at": "2026-11-24T17:04:59.278934+00:00",
+      "completed_at": "2026-11-24T17:05:40.696927+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -3158,13 +3091,13 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-24T16:04:38.071220+00:00",
-          "completed_at": "2026-11-24T16:04:47.370809+00:00",
+          "started_at": "2026-11-24T17:05:10.328093+00:00",
+          "completed_at": "2026-11-24T17:05:35.477519+00:00",
           "ok": true,
           "info": {
-            "enumerated": 40,
-            "enumerated_raw": 40,
-            "advertised": 40,
+            "enumerated": 41,
+            "enumerated_raw": 41,
+            "advertised": 41,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3176,8 +3109,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:04:38.071220+00:00",
-      "completed_at": "2026-11-24T16:04:47.370809+00:00",
+      "snapshot_at": "2026-11-24T17:05:10.328093+00:00",
+      "completed_at": "2026-11-24T17:05:35.477519+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3186,13 +3119,13 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-24T16:04:47.005492+00:00",
-          "completed_at": "2026-11-24T16:04:59.373904+00:00",
+          "started_at": "2026-11-24T17:05:15.827071+00:00",
+          "completed_at": "2026-11-24T17:05:26.880731+00:00",
           "ok": true,
           "info": {
-            "enumerated": 322,
-            "enumerated_raw": 322,
-            "advertised": 322,
+            "enumerated": 318,
+            "enumerated_raw": 318,
+            "advertised": 318,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3208,8 +3141,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:04:47.005492+00:00",
-      "completed_at": "2026-11-24T16:04:59.373904+00:00",
+      "snapshot_at": "2026-11-24T17:05:15.827071+00:00",
+      "completed_at": "2026-11-24T17:05:26.880731+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3329,10 +3262,26 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-24T16:04:47.370873+00:00",
-          "completed_at": "2026-11-24T16:05:26.000430+00:00",
-          "ok": false,
-          "error": "TimeoutError: Locator.inner_text: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"body\")\n"
+          "started_at": "2026-11-24T17:05:26.880791+00:00",
+          "completed_at": "2026-11-24T17:05:56.464964+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 400,
+            "enumerated_raw": 400,
+            "advertised": 400,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 21,
+            "closed_during_pull": 0,
+            "kept": 5,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "location_Country": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         },
         "mac": {
           "firm": "Carrier Global",
@@ -3359,9 +3308,9 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:21:14.755496+00:00",
-      "completed_at": "2026-11-24T16:21:46.916697+00:00",
-      "snapshot_route": "mac"
+      "snapshot_at": "2026-11-24T17:05:26.880791+00:00",
+      "completed_at": "2026-11-24T17:05:56.464964+00:00",
+      "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
       "rows": [],
@@ -3369,13 +3318,13 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-24T16:04:59.373982+00:00",
-          "completed_at": "2026-11-24T16:05:14.392599+00:00",
+          "started_at": "2026-11-24T17:05:35.477576+00:00",
+          "completed_at": "2026-11-24T17:06:23.715864+00:00",
           "ok": true,
           "info": {
-            "enumerated": 397,
-            "enumerated_raw": 397,
-            "advertised": 397,
+            "enumerated": 396,
+            "enumerated_raw": 396,
+            "advertised": 396,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3407,8 +3356,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:04:59.373982+00:00",
-      "completed_at": "2026-11-24T16:05:14.392599+00:00",
+      "snapshot_at": "2026-11-24T17:05:35.477576+00:00",
+      "completed_at": "2026-11-24T17:06:23.715864+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3417,8 +3366,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-24T16:05:12.110203+00:00",
-          "completed_at": "2026-11-24T16:05:27.729858+00:00",
+          "started_at": "2026-11-24T17:05:38.916985+00:00",
+          "completed_at": "2026-11-24T17:05:49.742933+00:00",
           "ok": true,
           "info": {
             "enumerated": 204,
@@ -3435,8 +3384,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:05:12.110203+00:00",
-      "completed_at": "2026-11-24T16:05:27.729858+00:00",
+      "snapshot_at": "2026-11-24T17:05:38.916985+00:00",
+      "completed_at": "2026-11-24T17:05:49.742933+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3445,8 +3394,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-24T16:05:14.392659+00:00",
-          "completed_at": "2026-11-24T16:05:19.240536+00:00",
+          "started_at": "2026-11-24T17:05:40.696990+00:00",
+          "completed_at": "2026-11-24T17:05:45.017379+00:00",
           "ok": true,
           "info": {
             "enumerated": 12,
@@ -3463,8 +3412,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:05:14.392659+00:00",
-      "completed_at": "2026-11-24T16:05:19.240536+00:00",
+      "snapshot_at": "2026-11-24T17:05:40.696990+00:00",
+      "completed_at": "2026-11-24T17:05:45.017379+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3473,19 +3422,19 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-24T16:05:19.240596+00:00",
-          "completed_at": "2026-11-24T16:08:03.117761+00:00",
+          "started_at": "2026-11-24T17:05:45.017441+00:00",
+          "completed_at": "2026-11-24T17:08:22.379585+00:00",
           "ok": true,
           "info": {
-            "enumerated": 5975,
-            "enumerated_raw": 5981,
+            "enumerated": 5971,
+            "enumerated_raw": 5977,
             "advertised": 2000,
             "location_partitions": 4,
             "partition_advertised_counts": [
-              1498,
+              1497,
               1491,
               1496,
-              1496
+              1493
             ],
             "unpublished_index_ids": [],
             "details_read": 3,
@@ -3504,8 +3453,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-24T16:05:19.240596+00:00",
-      "completed_at": "2026-11-24T16:08:03.117761+00:00",
+      "snapshot_at": "2026-11-24T17:05:45.017441+00:00",
+      "completed_at": "2026-11-24T17:08:22.379585+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3537,8 +3486,8 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-24T16:05:26.000474+00:00",
-          "completed_at": "2026-11-24T16:05:31.445510+00:00",
+          "started_at": "2026-11-24T17:05:49.742993+00:00",
+          "completed_at": "2026-11-24T17:05:54.528289+00:00",
           "ok": true,
           "info": {
             "enumerated": 61,
@@ -3555,8 +3504,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:05:26.000474+00:00",
-      "completed_at": "2026-11-24T16:05:31.445510+00:00",
+      "snapshot_at": "2026-11-24T17:05:49.742993+00:00",
+      "completed_at": "2026-11-24T17:05:54.528289+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3654,8 +3603,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-24T16:05:27.729941+00:00",
-          "completed_at": "2026-11-24T16:05:39.035697+00:00",
+          "started_at": "2026-11-24T17:05:54.528344+00:00",
+          "completed_at": "2026-11-24T17:06:04.105871+00:00",
           "ok": true,
           "info": {
             "enumerated": 289,
@@ -3672,8 +3621,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:05:27.729941+00:00",
-      "completed_at": "2026-11-24T16:05:39.035697+00:00",
+      "snapshot_at": "2026-11-24T17:05:54.528344+00:00",
+      "completed_at": "2026-11-24T17:06:04.105871+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3682,8 +3631,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-24T16:05:31.445575+00:00",
-          "completed_at": "2026-11-24T16:05:55.762776+00:00",
+          "started_at": "2026-11-24T17:05:56.465041+00:00",
+          "completed_at": "2026-11-24T17:06:18.842589+00:00",
           "ok": true,
           "info": {
             "enumerated": 406,
@@ -3704,8 +3653,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:05:31.445575+00:00",
-      "completed_at": "2026-11-24T16:05:55.762776+00:00",
+      "snapshot_at": "2026-11-24T17:05:56.465041+00:00",
+      "completed_at": "2026-11-24T17:06:18.842589+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3737,17 +3686,17 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-24T16:05:39.035765+00:00",
-          "completed_at": "2026-11-24T16:07:41.984737+00:00",
+          "started_at": "2026-11-24T17:06:04.105931+00:00",
+          "completed_at": "2026-11-24T17:07:58.377042+00:00",
           "ok": true,
           "info": {
-            "enumerated": 3071,
-            "enumerated_raw": 3072,
+            "enumerated": 3070,
+            "enumerated_raw": 3071,
             "advertised": 2000,
             "location_partitions": 3,
             "partition_advertised_counts": [
-              1495,
               1496,
+              1494,
               81
             ],
             "unpublished_index_ids": [],
@@ -3759,8 +3708,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:05:39.035765+00:00",
-      "completed_at": "2026-11-24T16:07:41.984737+00:00",
+      "snapshot_at": "2026-11-24T17:06:04.105931+00:00",
+      "completed_at": "2026-11-24T17:07:58.377042+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3769,8 +3718,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-24T16:05:49.095596+00:00",
-          "completed_at": "2026-11-24T16:06:04.161121+00:00",
+          "started_at": "2026-11-24T17:06:18.842660+00:00",
+          "completed_at": "2026-11-24T17:06:32.578316+00:00",
           "ok": true,
           "info": {
             "enumerated": 179,
@@ -3815,8 +3764,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:05:49.095596+00:00",
-      "completed_at": "2026-11-24T16:06:04.161121+00:00",
+      "snapshot_at": "2026-11-24T17:06:18.842660+00:00",
+      "completed_at": "2026-11-24T17:06:32.578316+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3825,13 +3774,13 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-24T16:05:55.762864+00:00",
-          "completed_at": "2026-11-24T16:06:36.406974+00:00",
+          "started_at": "2026-11-24T17:06:23.715922+00:00",
+          "completed_at": "2026-11-24T17:06:56.581537+00:00",
           "ok": true,
           "info": {
-            "enumerated": 351,
-            "enumerated_raw": 351,
-            "advertised": 351,
+            "enumerated": 350,
+            "enumerated_raw": 350,
+            "advertised": 350,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3847,8 +3796,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:05:55.762864+00:00",
-      "completed_at": "2026-11-24T16:06:36.406974+00:00",
+      "snapshot_at": "2026-11-24T17:06:23.715922+00:00",
+      "completed_at": "2026-11-24T17:06:56.581537+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3880,8 +3829,8 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-24T16:06:04.161183+00:00",
-          "completed_at": "2026-11-24T16:06:32.603416+00:00",
+          "started_at": "2026-11-24T17:06:32.578375+00:00",
+          "completed_at": "2026-11-24T17:06:55.768654+00:00",
           "ok": true,
           "info": {
             "enumerated": 369,
@@ -3898,8 +3847,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:06:04.161183+00:00",
-      "completed_at": "2026-11-24T16:06:32.603416+00:00",
+      "snapshot_at": "2026-11-24T17:06:32.578375+00:00",
+      "completed_at": "2026-11-24T17:06:55.768654+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -4019,17 +3968,17 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-24T16:06:32.603480+00:00",
-          "completed_at": "2026-11-24T16:07:27.025409+00:00",
+          "started_at": "2026-11-24T17:06:55.768708+00:00",
+          "completed_at": "2026-11-24T17:08:16.433711+00:00",
           "ok": true,
           "info": {
-            "enumerated": 371,
-            "enumerated_raw": 376,
-            "advertised": 376,
+            "enumerated": 381,
+            "enumerated_raw": 381,
+            "advertised": 381,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 72,
+            "details_read": 74,
             "closed_during_pull": 0,
             "kept": 5,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -4037,8 +3986,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:06:32.603480+00:00",
-      "completed_at": "2026-11-24T16:07:27.025409+00:00",
+      "snapshot_at": "2026-11-24T17:06:55.768708+00:00",
+      "completed_at": "2026-11-24T17:08:16.433711+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -4070,8 +4019,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-24T16:06:36.407069+00:00",
-          "completed_at": "2026-11-24T16:06:41.377029+00:00",
+          "started_at": "2026-11-24T17:06:56.581599+00:00",
+          "completed_at": "2026-11-24T17:07:01.712204+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -4095,8 +4044,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:06:36.407069+00:00",
-      "completed_at": "2026-11-24T16:06:41.377029+00:00",
+      "snapshot_at": "2026-11-24T17:06:56.581599+00:00",
+      "completed_at": "2026-11-24T17:07:01.712204+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -4150,13 +4099,13 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-24T16:06:41.377091+00:00",
-          "completed_at": "2026-11-24T16:06:57.465893+00:00",
+          "started_at": "2026-11-24T17:07:01.712254+00:00",
+          "completed_at": "2026-11-24T17:07:19.647071+00:00",
           "ok": true,
           "info": {
-            "enumerated": 419,
-            "enumerated_raw": 419,
-            "advertised": 419,
+            "enumerated": 422,
+            "enumerated_raw": 422,
+            "advertised": 422,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4194,8 +4143,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:06:41.377091+00:00",
-      "completed_at": "2026-11-24T16:06:57.465893+00:00",
+      "snapshot_at": "2026-11-24T17:07:01.712254+00:00",
+      "completed_at": "2026-11-24T17:07:19.647071+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4249,13 +4198,13 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-24T16:06:57.465957+00:00",
-          "completed_at": "2026-11-24T16:07:07.742467+00:00",
+          "started_at": "2026-11-24T17:07:19.647148+00:00",
+          "completed_at": "2026-11-24T17:07:30.079974+00:00",
           "ok": true,
           "info": {
-            "enumerated": 42,
-            "enumerated_raw": 42,
-            "advertised": 42,
+            "enumerated": 41,
+            "enumerated_raw": 41,
+            "advertised": 41,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4279,8 +4228,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-24T16:06:57.465957+00:00",
-      "completed_at": "2026-11-24T16:07:07.742467+00:00",
+      "snapshot_at": "2026-11-24T17:07:19.647148+00:00",
+      "completed_at": "2026-11-24T17:07:30.079974+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4378,8 +4327,8 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-24T16:07:07.742547+00:00",
-          "completed_at": "2026-11-24T16:07:24.212468+00:00",
+          "started_at": "2026-11-24T17:07:30.080024+00:00",
+          "completed_at": "2026-11-24T17:07:46.616539+00:00",
           "ok": true,
           "info": {
             "enumerated": 335,
@@ -4404,8 +4353,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-24T16:07:07.742547+00:00",
-      "completed_at": "2026-11-24T16:07:24.212468+00:00",
+      "snapshot_at": "2026-11-24T17:07:30.080024+00:00",
+      "completed_at": "2026-11-24T17:07:46.616539+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4414,13 +4363,13 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-24T16:07:24.212542+00:00",
-          "completed_at": "2026-11-24T16:07:37.653710+00:00",
+          "started_at": "2026-11-24T17:07:46.616603+00:00",
+          "completed_at": "2026-11-24T17:07:59.558756+00:00",
           "ok": true,
           "info": {
-            "enumerated": 551,
-            "enumerated_raw": 551,
-            "advertised": 551,
+            "enumerated": 549,
+            "enumerated_raw": 549,
+            "advertised": 549,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4436,8 +4385,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:07:24.212542+00:00",
-      "completed_at": "2026-11-24T16:07:37.653710+00:00",
+      "snapshot_at": "2026-11-24T17:07:46.616603+00:00",
+      "completed_at": "2026-11-24T17:07:59.558756+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4446,8 +4395,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-24T16:07:27.025477+00:00",
-          "completed_at": "2026-11-24T16:07:33.098924+00:00",
+          "started_at": "2026-11-24T17:07:58.377091+00:00",
+          "completed_at": "2026-11-24T17:08:04.002224+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4464,8 +4413,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:07:27.025477+00:00",
-      "completed_at": "2026-11-24T16:07:33.098924+00:00",
+      "snapshot_at": "2026-11-24T17:07:58.377091+00:00",
+      "completed_at": "2026-11-24T17:08:04.002224+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4474,8 +4423,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-24T16:07:33.098985+00:00",
-          "completed_at": "2026-11-24T16:07:41.465111+00:00",
+          "started_at": "2026-11-24T17:07:59.558809+00:00",
+          "completed_at": "2026-11-24T17:08:07.866399+00:00",
           "ok": true,
           "info": {
             "enumerated": 150,
@@ -4492,8 +4441,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:07:33.098985+00:00",
-      "completed_at": "2026-11-24T16:07:41.465111+00:00",
+      "snapshot_at": "2026-11-24T17:07:59.558809+00:00",
+      "completed_at": "2026-11-24T17:08:07.866399+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4547,13 +4496,13 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-24T16:07:37.653785+00:00",
-          "completed_at": "2026-11-24T16:08:10.515745+00:00",
+          "started_at": "2026-11-24T17:08:04.002284+00:00",
+          "completed_at": "2026-11-24T17:08:36.246434+00:00",
           "ok": true,
           "info": {
-            "enumerated": 856,
-            "enumerated_raw": 856,
-            "advertised": 856,
+            "enumerated": 861,
+            "enumerated_raw": 861,
+            "advertised": 861,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4565,8 +4514,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:07:37.653785+00:00",
-      "completed_at": "2026-11-24T16:08:10.515745+00:00",
+      "snapshot_at": "2026-11-24T17:08:04.002284+00:00",
+      "completed_at": "2026-11-24T17:08:36.246434+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4575,8 +4524,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-24T16:07:41.465177+00:00",
-          "completed_at": "2026-11-24T16:07:46.836848+00:00",
+          "started_at": "2026-11-24T17:08:07.866458+00:00",
+          "completed_at": "2026-11-24T17:08:13.752952+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
@@ -4593,8 +4542,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:07:41.465177+00:00",
-      "completed_at": "2026-11-24T16:07:46.836848+00:00",
+      "snapshot_at": "2026-11-24T17:08:07.866458+00:00",
+      "completed_at": "2026-11-24T17:08:13.752952+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4603,8 +4552,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-24T16:07:41.984831+00:00",
-          "completed_at": "2026-11-24T16:07:47.379326+00:00",
+          "started_at": "2026-11-24T17:08:13.753014+00:00",
+          "completed_at": "2026-11-24T17:08:18.278009+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
@@ -4621,8 +4570,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:07:41.984831+00:00",
-      "completed_at": "2026-11-24T16:07:47.379326+00:00",
+      "snapshot_at": "2026-11-24T17:08:13.753014+00:00",
+      "completed_at": "2026-11-24T17:08:18.278009+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4874,8 +4823,8 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-24T16:07:46.836911+00:00",
-          "completed_at": "2026-11-24T16:08:36.728682+00:00",
+          "started_at": "2026-11-24T17:08:16.433763+00:00",
+          "completed_at": "2026-11-24T17:09:03.902652+00:00",
           "ok": true,
           "info": {
             "enumerated": 1329,
@@ -4902,8 +4851,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T16:07:46.836911+00:00",
-      "completed_at": "2026-11-24T16:08:36.728682+00:00",
+      "snapshot_at": "2026-11-24T17:08:16.433763+00:00",
+      "completed_at": "2026-11-24T17:09:03.902652+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -5245,7 +5194,19 @@
       "firms_attempted": 1,
       "firms_succeeded": 1,
       "firms_failed": 0
+    },
+    {
+      "id": "45444039361",
+      "route": "cloud",
+      "started_at": "2026-11-24T17:03:20.665356+00:00",
+      "completed_at": "2026-11-24T17:09:04.713937+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 37,
+      "firms_failed": 2,
+      "timer_run_id": "45432373517",
+      "timer_fired_at": "2026-11-24T17:02:20.814733+00:00"
     }
   ],
-  "published_at": "2026-11-24T16:21:48.473117+00:00"
+  "published_at": "2026-11-24T17:09:05.781054+00:00"
 }
