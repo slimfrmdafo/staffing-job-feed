@@ -46,3 +46,14 @@ def test_posted_team_contact_and_invalid_phone():
  data={'jobData':{'jobLocation':{'contactName':'Randstad Technologies','contactEmail':'technology@randstadusa.com','contactPhone':'.'}}}
  soup=BeautifulSoup('<script>window.__ROUTE_DATA__ = '+json.dumps(data)+'</script>','html.parser')
  assert posted_contacts('Randstad',soup,'x')=={'recruiter_name':'Randstad Technologies','recruiter_email':'technology@randstadusa.com','recruiter_phone':''}
+
+def test_posted_pay_supports_separate_k_and_year_suffixes():
+ from metadata import posted_pay
+ assert posted_pay('Salary Range: Charlotte, NC: $87K - $140K USD Annual')=={'pay_min':'87000','pay_max':'140000','pay_unit':'year'}
+ assert posted_pay('Base Pay Range: $87,800/yr - $119,000/yr')=={'pay_min':'87800','pay_max':'119000','pay_unit':'year'}
+ assert posted_pay('The annual base salary for this position is: $180,000 - $200,000.')=={'pay_min':'180000','pay_max':'200000','pay_unit':'year'}
+
+def test_posted_pay_does_not_invent_missing_units_or_use_budgets():
+ from metadata import posted_pay
+ assert posted_pay('Base Pay Range\\n$110,000.00 - $180,000.00')['pay_unit']==''
+ assert posted_pay('Manage budgets of $100,000 - $200,000')=={}

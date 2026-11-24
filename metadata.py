@@ -52,3 +52,23 @@ def contact_fields(text):
 
 def usable_phone(value):
     value=str(value or '').strip();return value if 10<=len(re.sub(r'\D','',value))<=15 else ''
+
+# Each amount may carry its own scale and unit (e.g. $87K - $140K USD Annual,
+# or $87,800/yr - $119,000/yr). Missing units stay missing.
+def posted_pay(text):
+    amount=r'\$\s*([\d,]+(?:\.\d+)?)\s*([kK]?)'
+    unit=r'(?:/|per\s+)?\s*(hourly|hour|hr|yearly|year|yr|annum|annual)\b'
+    pattern=amount+r'(?:\s*'+unit+r')?\s*[-–—]\s*'+amount+r'(?:\s*(?:USD|US dollars)\s*)?(?:\s*'+unit+r')?'
+    candidates=list(re.finditer(pattern,text,re.I))
+    for m in candidates:
+        before=text[max(0,m.start()-180):m.start()]
+        # Dollar amounts in budgets, bonuses or project examples aren't base pay ranges.
+        if not re.search(r'base pay|salary|compensation|pay range|pay rate|hourly rate|wage',before,re.I):continue
+        lo=float(m[1].replace(',',''))*(1000 if m[2] else 1);hi=float(m[4].replace(',',''))*(1000 if m[5] else 1)
+        if hi<lo:continue
+        stated=m[6] or m[3] or ''
+        if not stated and re.search(r'\b(?:annual|yearly|per year)\b.{0,100}\b(?:base|salary|pay)\b|\b(?:salary|pay)\b.{0,60}\b(?:annual|yearly|per year)\b',before,re.I):stated='year'
+        if not stated and re.search(r'\bhourly\b.{0,60}\b(?:rate|pay|wage)\b',before,re.I):stated='hour'
+        kind='hour' if stated.lower() in ('hour','hourly','hr') else ('year' if stated else '')
+        return {'pay_min':str(int(lo)) if lo.is_integer() else str(lo),'pay_max':str(int(hi)) if hi.is_integer() else str(hi),'pay_unit':kind}
+    return {}

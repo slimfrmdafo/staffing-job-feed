@@ -7,7 +7,7 @@ from pipeline import GitHub
 
 def test_priority_employers_are_present_and_attemptable():
  assert len(PRIORITY)==8
- assert all(f in REGISTRY and REGISTRY[f]['adapter'] in ('workday','bofa') for f in PRIORITY)
+ assert all(f in REGISTRY and REGISTRY[f]['adapter'] in ('workday','bofa','phenom') for f in PRIORITY)
 
 def test_workday_addresses_accept_both_state_orders():
  assert parse_location('USA, NC, Charlotte, 620 S Tryon St')==('Charlotte','NC')

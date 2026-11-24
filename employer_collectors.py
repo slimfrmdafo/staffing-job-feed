@@ -267,3 +267,43 @@ def oracle(firm,config):
         if keep_employer(r,country=country):rows.append(r)
     return rows,{'enumerated':len(seen),'enumerated_raw':raw,'advertised':total,'details_read':details,'kept':len(rows),'method':'employer Oracle search + full requisition detail resource'}
 ADAPTERS['oracle']=oracle
+
+def phenom(firm,config):
+    import requests
+    root=config['root'];seen={};total=None;raw=0
+    for offset in range(0,40000,100):
+        body={'lang':'en_us','deviceType':'desktop','country':'us','pageName':'search-results','ddoKey':'refineSearch','from':offset,'jobs':True,'counts':True,'all_fields':['category','country','state','city','type'],'size':100,'clearAll':False,'keywords':'','selected_fields':{}}
+        response=requests.post(root+'/widgets',json=body,timeout=(15,60));response.raise_for_status();d=response.json().get('refineSearch') or {}
+        count=d.get('totalHits');jobs=(d.get('data') or {}).get('jobs') or []
+        if not isinstance(count,int) or d.get('status')!=200:raise CollectionError('Employer search widget total/status missing')
+        if total is None:total=count
+        if count!=total:raise CollectionError('Employer search widget changed during pagination')
+        fresh=0
+        for j in jobs:
+            key=j.get('jobSeqNo') or j.get('jobId')
+            if not key:raise CollectionError('Employer search widget job ID missing')
+            if key not in seen:fresh+=1
+            seen[key]=j
+        raw+=len(jobs)
+        if raw>=total:break
+        if not jobs or not fresh:raise CollectionError('Employer search widget truncated/repeated')
+    else:raise CollectionError('Employer search widget pagination limit')
+    if raw!=total:raise CollectionError('Employer search widget advertised count mismatch')
+    rows=[];details=0
+    for j in seen.values():
+        if not match(j.get('title','')):continue
+        url=root+config.get('locale','/us/en')+'/job/'+j['jobId']
+        try:
+            soup=BeautifulSoup(get(url).text,'html.parser');r=schema_row(firm,url,soup,{'job_id':j['jobId']})
+        except ClosedListing:continue
+        if not r or not r['description']:raise CollectionError('Employer full JobPosting missing: '+url)
+        details+=1
+        try:
+            data=assigned_json(str(soup),'phApp.ddo = ').get('jobDetail',{}).get('data',{}).get('job',{})
+            work=str(data.get('workplaceType') or data.get('remote') or '')
+            if work in ('Remote','Hybrid','On-Site'):r['work_arrangement']={'Remote':'remote','Hybrid':'hybrid','On-Site':'onsite'}[work]
+        except (ValueError,CollectionError):pass
+        if keep_employer(r,country=str(j.get('country') or '')):rows.append(r)
+    return rows,{'enumerated':len(seen),'enumerated_raw':raw,'advertised':total,'details_read':details,'kept':len(rows),'method':'employer current search widget + canonical full detail pages'}
+ADAPTERS['phenom']=phenom
+REGISTRY["Lowe's"]={'adapter':'phenom','root':'https://talent.lowes.com','url':'https://talent.lowes.com/us/en/search-results'}
