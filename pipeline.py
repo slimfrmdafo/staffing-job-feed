@@ -70,6 +70,7 @@ def status_text(state):
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--route',choices=['cloud','mac'],required=True);p.add_argument('--publish',action='store_true');p.add_argument('--firms',nargs='*');p.add_argument('--output',default='run-result.json');p.add_argument('--all',action='store_true');args=p.parse_args()
+    os.environ['STAFFING_ROUTE']=args.route
     start=now();run_id=os.environ.get('GITHUB_RUN_ID') or str(uuid.uuid4());client=GitHub() if args.publish else None
     firms=args.firms or list(REGISTRY)
     if args.route=='mac' and not args.firms and not args.all:

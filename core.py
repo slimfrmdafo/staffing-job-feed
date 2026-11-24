@@ -55,13 +55,19 @@ def enrich(row, context=''):
     if m:row['recruiter_name']=m[1].strip()
     m=re.search(r'(?:send (?:your )?resum[eé]|contact (?:your recruiter|me)|reach (?:me|out)|recruiter email)[^\n]{0,160}?([\w.+-]+@[\w.-]+\.[a-z]{2,})',text,re.I)
     if m:row['recruiter_email']=m[1]
+    m=re.search(r'(?:Client|Client Company|End Employer)\s*:\s*([^\n]{3,100})',text,re.I)
+    if m and not re.search(r'confidential|our client|fortune|financial institution|company in|undisclosed',m[1],re.I):row['client_company']=m[1].strip()
+    m=re.search(r'\b(PMP|CAPM|CBAP|CCBA|CISA|CRISC|CAMS|CPA|CSM|Prosci)(?:\s+certification)?\s+(?:is\s+)?required\b',text,re.I)
+    if m:row['required_certifications']=m[0]
+    m=re.search(r'(?:recruiter phone|contact phone|call me at)\s*[:\n]?\s*(\+?1?[-. (]*\d{3}[-. )]*\d{3}[-. ]*\d{4})',text,re.I)
+    if m:row['recruiter_phone']=m[1]
     return row
 
-def keep(row):
+def keep(row, country='', nearby=False):
     if not title_match(row['title']):return False
-    local=row['city'].lower().strip() in LOCAL and row['state'] in ('NC','SC')
+    local=nearby or (row['city'].lower().strip() in LOCAL and row['state'] in ('NC','SC'))
     # A US address/explicit US remote eligibility is required for global listings.
-    remote=row['work_arrangement']=='remote' and (row['state'] in STATES.values() or re.search(r'\b(?:United States|US[- ]based|U\.S\.|remote.{0,15}USA|USA.{0,15}remote)\b',row['description'],re.I))
+    remote=row['work_arrangement']=='remote' and (row['state'] in STATES.values() or country in ('US','USA','United States') or re.search(r'\b(?:United States|US[- ]based|U\.S\.|remote.{0,15}USA|USA.{0,15}remote)\b',row['description'],re.I))
     if not (local or remote):return False
     if row['pay_unit'] and (row['pay_max'] or row['pay_min']):
         annual=float(row['pay_max'] or row['pay_min'])*(2080 if row['pay_unit']=='hour' else 1)

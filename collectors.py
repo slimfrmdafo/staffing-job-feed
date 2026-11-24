@@ -58,7 +58,7 @@ def schema_row(firm,url,soup,seed):
         if not isinstance(loc,dict):continue
         addr=loc.get('address',{})
         if isinstance(addr,dict):
-            r['city']=plain(addr.get('addressLocality'));r['state']=state_code(addr.get('addressRegion'))
+            r['city']=plain(addr.get('addressLocality'));r['city']='' if '[' in r['city'] else r['city'];r['state']=state_code(addr.get('addressRegion'))
             if r['city'].lower() in __import__('core').LOCAL:break
     if js.get('jobLocationType')=='TELECOMMUTE':r['work_arrangement']='remote'
     typ=js.get('employmentType','');r['job_type']=job_type(' '.join(typ) if isinstance(typ,list) else typ)
@@ -79,7 +79,24 @@ def schema_row(firm,url,soup,seed):
     # Seed is explicit search metadata; never replaces detail fields except identity.
     for k,v in seed.items():
         if k in r and v and not r[k]:r[k]=str(v)
-    context=soup.get_text('\n',strip=True)
+    context=r['description']
+    if firm=='Robert Half':
+        card=soup.select_one('rhcl-job-card[variant="listing"]')
+        if card:
+            parts=[plain(x.get_text()) for x in card.select('[slot="description"], [slot="requirements"]')]
+            if parts:r['description']='\n\n'.join(parts)
+            loc=card.select_one('[data-subslot="location"]')
+            if loc:
+                loc=loc.get_text(' ',strip=True).split(',')
+                if len(loc)>1:r['city']=loc[0].strip();r['state']=state_code(loc[-1].strip())
+            work=card.select_one('[data-subslot="worksite"]')
+            if work and work.text.strip() in ('remote','onsite','hybrid'):r['work_arrangement']=work.text.strip()
+    if firm in ('TEKsystems','Aerotek'):
+        try:
+            d=assigned_json(str(soup),'phApp.ddo = ')
+            data=d.get('jobDetail',{}).get('data',{}).get('job',{})
+            if data.get('workplaceType') in ('Remote','Hybrid','On-Site'):r['work_arrangement']={'Remote':'remote','Hybrid':'hybrid','On-Site':'onsite'}[data['workplaceType']]
+        except (ValueError,CollectionError):pass
     return enrich(r,context)
 
 def detail(firm,seed):
@@ -88,12 +105,28 @@ def detail(firm,seed):
         response=get(url)
         if 'ref=invalid_job' in response.url or any(x in response.url for x in ['jobs-maintenance']):raise ClosedListing('Listing no longer available')
         soup=BeautifulSoup(response.text,'html.parser')
-        if re.search(r'(?:job (?:is no longer|has been filled)|position has been filled|job you are looking for is no longer)',soup.get_text(' ',strip=True),re.I):raise ClosedListing('Closed notice')
+        if not any(x.get('@type')=='JobPosting' for x in schemas(soup)) and re.search(r'(?:job (?:is no longer|has been filled)|position has been filled|job you are looking for is no longer)',soup.get_text(' ',strip=True),re.I):raise ClosedListing('Closed notice')
         row=schema_row(firm,url,soup,seed)
         if row is None and firm=='Beacon Hill':row=beacon_row(firm,url,soup,seed)
         if row is None:raise CollectionError('Full JobPosting data missing: '+url)
-        if not row['title'] or len(row['description'])<100:raise CollectionError('Incomplete detail: '+url)
-        return row if keep(row) else None
+        if not row['title'] or not row['description']:raise CollectionError('Incomplete detail: '+url)
+        country='';nearby=False
+        js=next((x for x in schemas(soup) if x.get('@type')=='JobPosting'),{})
+        locs=js.get('jobLocation',[]);locs=locs if isinstance(locs,list) else [locs]
+        for loc in locs:
+            if not isinstance(loc,dict):continue
+            addr=loc.get('address',{})
+            if isinstance(addr,dict):
+                c=addr.get('addressCountry','');country=c.get('name','') if isinstance(c,dict) else c
+            geo=loc.get('geo') or {}
+            if geo.get('latitude') and geo.get('longitude'):
+                import math
+                try:
+                    lat,lon=map(math.radians,[float(geo['latitude']),float(geo['longitude'])]);clat,clon=map(math.radians,[35.2271,-80.8431])
+                    miles=3958.8*2*math.asin(min(1,math.sqrt(math.sin((lat-clat)/2)**2+math.cos(lat)*math.cos(clat)*math.sin((lon-clon)/2)**2)))
+                    nearby=nearby or miles<=50
+                except (ValueError,TypeError):pass
+        return row if keep(row,country=country,nearby=nearby) else None
     except ClosedListing:return None
 
 def fetch_details(firm,seeds):
@@ -123,11 +156,12 @@ def sitemap_urls(url,job_pattern,visited=None):
         return out
     if root.tag!=ns+'urlset':raise CollectionError('Unexpected sitemap format')
     urls=[x.text for x in root.findall(ns+'url/'+ns+'loc') if x.text and re.search(job_pattern,x.text)]
-    if not urls:raise CollectionError('Job sitemap unexpectedly empty')
+    if not urls:return []
     return urls
 
 def sitemap_collect(firm,config):
     urls=sitemap_urls(config['sitemap'],config['pattern']);seeds=[]
+    if not urls:raise CollectionError('Job sitemap unexpectedly empty')
     for url in urls:
         slug=unquote(urlparse(url).path).replace('-',' ')
         if not title_match(slug):continue
@@ -148,15 +182,23 @@ def id_from_url(firm,url):
     return ''
 
 def beacon_row(firm,url,soup,seed):
-    body=soup.select_one('.job_description, .job-description, .job_description-content')
+    body=soup.select_one('.job_description, .job-description, .job_description-content, .job-detail__content, .job-content, .fl-module-fl-post-content')
+    if body is None:
+        about=soup.find(string=re.compile(r'^About the Role$'))
+        if about:
+            body=about.find_parent('section') or about.parent.parent
     if body is None:return None
     r=blank();r.update(firm=firm,url=url,job_id=seed['job_id'],description=body.get_text('\n',strip=True))
     h=soup.select_one('h1');r['title']=h.get_text(' ',strip=True) if h else ''
-    text=soup.get_text('\n',strip=True)
-    m=re.search(r'Location\s*\n([^\n]+)',text,re.I)
-    if m:
-        loc=m[1].strip().split(',');r['city']=loc[0].strip();r['state']=state_code(loc[-1].strip()) if len(loc)>1 else ''
-    return enrich(r,text)
+    loc=soup.select_one('.job-hero__location')
+    if loc:
+        pieces=loc.get_text(' ',strip=True).split(',');r['city']=pieces[0].strip();r['state']=state_code(pieces[1].strip()) if len(pieces)>1 else ''
+    hero=soup.select_one('.job-hero')
+    context=hero.get_text('\n',strip=True) if hero else ''
+    r['job_type']=job_type(context)
+    m=re.search(r'\b(\d{2})-(\d{2})-(\d{4})\b',context)
+    if m:r['posted_date']=f'{m[3]}-{m[1]}-{m[2]}'
+    return enrich(r,context)
 
 def jobdiva(firm,config):
     # Endpoint is embedded by the firm's own search site; the portal belongs to that firm.
@@ -170,6 +212,9 @@ def jobdiva(firm,config):
     for j in jobs:
         title=j.findtext('title') or ''
         if not title_match(title):continue
+        desc=plain(j.findtext('jobdescription'));location=(j.findtext('location') or '').lower()
+        from core import LOCAL
+        if not any(re.search(r'\b'+re.escape(city)+r'\b',location) for city in LOCAL) and not re.search(r'\bremote\b',desc+' '+location,re.I):continue
         seeds.append({'url':j.findtext('portal_url'),'job_id':j.findtext('jobdiva_no') or j.findtext('jobdivaid')})
     rows,info=fetch_details(firm,seeds);info['enumerated']=len(jobs);return rows,info
 
@@ -186,7 +231,7 @@ def vaco(firm,config):
         seen.update(current);enumerated+=len(current)
         for href,title in current.items():
             if title_match(title):seeds.append({'url':href,'job_id':id_from_url(firm,href)})
-        nxt=soup.find('a',attrs={'rel':'next'})
+        nxt=next((a for a in links if 'next' in a.get('rel',[])),None)
         if not nxt:nxt=next((a for a in links if a.get_text(' ',strip=True).lower() in ('next','next »','next page')),None)
         if not nxt:break
         url=urljoin(url,nxt['href'])
@@ -207,9 +252,9 @@ REGISTRY={
  'Kforce':{'adapter':'unavailable','search':'https://www.kforce.com/search-jobs/'},
  'Randstad':{'adapter':'sitemap','sitemap':'https://www.randstadusa.com/sitemaps/us/sitemap-jobs.xml','pattern':r'/jobs/\d+/'},
  'Aerotek':{'adapter':'sitemap','sitemap':'https://jobs.aerotek.com/us/en/sitemap_index.xml','pattern':r'/us/en/job/'},
- 'Beacon Hill':{'adapter':'sitemap','sitemap':'https://bhsg.com/jobs/job_listing-sitemap.xml','pattern':r'/jobs/job/'},
+ 'Beacon Hill':{'adapter':'sitemap','sitemap':'https://bhsg.com/jobs/sitemap_index.xml','pattern':r'/jobs/job/'},
  'Judge Group':{'adapter':'unavailable','search':'https://www.judge.com/jobs/'},
- 'Brooksource':{'adapter':'sitemap','sitemap':'https://jobs.brooksource.com/jobs/job_listing-sitemap.xml','pattern':r'/jobs/job/'},
+ 'Brooksource':{'adapter':'sitemap','sitemap':'https://jobs.brooksource.com/jobs/sitemap_index.xml','pattern':r'/jobs/job/'},
  'Genesis10':{'adapter':'jobdiva','account':'bbjdnwry580gs8b24ge36gcyw8pwpu006c13v960z6xbeg9upecbf81tivitxrw0'},
  'Experis/Manpower':{'adapter':'unavailable','search':'https://www.experis.com/en/search'},
  'Addison Group':{'adapter':'unavailable','search':'https://addisongroup.com/jobs/'},
@@ -227,3 +272,255 @@ def collect(firm,route):
         rows,info=ADAPTERS[REGISTRY[firm]['adapter']](firm,REGISTRY[firm]);result={'ok':True,'rows':rows,'info':info}
     except Exception as e:result={'ok':False,'error':str(e)[:2000]}
     result.update(firm=firm,route=route,started_at=start,completed_at=now());print(json.dumps({k:v for k,v in result.items() if k!='rows'}),flush=True);return result
+
+# Public JSON endpoints used by the firms' own job-search applications.
+def insight(firm,config):
+    from core import number
+    seen={};total=None
+    for page in range(1,501):
+        d=get('https://insightglobal.com/all/jobs',params={'page':page,'size':50,'sort':'relevance,desc','filter.status':'active'}).json()
+        meta=d['pageMetadata'];jobs=d['jobs']
+        if meta['number']!=page:raise CollectionError('Insight Global pagination number mismatch')
+        if total is None:total=meta['totalElements']
+        fresh=0
+        for j in jobs:
+            key=j['requisitionId']
+            if key not in seen:fresh+=1
+            seen[key]=j
+        if not fresh and jobs:raise CollectionError('Insight Global repeated page')
+        if page>=meta['totalPages']:break
+    else:raise CollectionError('Insight Global pagination limit')
+    if len(seen)<int(total*.97):raise CollectionError('Insight Global incomplete pagination')
+    rows=[];candidates=0
+    def one(j):
+        if not title_match(j['jobTitle']):return None
+        addr=j.get('workAddress') or {}
+        from core import LOCAL
+        if not j.get('workRemote') and not (addr.get('locality','').lower() in LOCAL and addr.get('administrativeArea') in ('NC','SC')):return None
+        detail=get('https://insightglobal.com/all/jobs/'+j['requisitionId']+'/details').json()
+        description=plain(detail.get('description'))
+        if not description:raise CollectionError('Insight Global description missing')
+        r=blank();r.update(firm=firm,job_id=j['requisitionId'],title=j['jobTitle'].strip(),city=addr.get('locality',''),state=state_code(addr.get('administrativeArea')),description=description,url='https://insightglobal.com/jobs/search/all/all?jobId='+j['requisitionId'],job_type=job_type(j.get('jobType')))
+        # This API's workRemote boolean only distinguishes remote from nonremote; false doesn't imply onsite.
+        if j.get('workRemote'):r['work_arrangement']='remote'
+        pay=j.get('payRate') or {};unit={'Hourly':'hour','Annually':'year'}.get(pay.get('type'),'')
+        if unit:r.update(pay_min=number(pay.get('min')),pay_max=number(pay.get('max')),pay_unit=unit)
+        date=str(j.get('postedDate') or '')
+        if re.match(r'^\d{4}-\d{2}-\d{2}',date):r['posted_date']=date[:10]
+        return enrich(r,description)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        for r in pool.map(one,seen.values()):
+            if r:
+                candidates+=1
+                if keep(r):rows.append(r)
+    return rows,{'enumerated':len(seen),'details_read':candidates,'kept':len(rows)}
+
+
+def kforce(firm,config):
+    from core import number
+    # Public read-only search credential shipped in Kforce's own JS client.
+    endpoint='https://kforcewebeast.search.windows.net/indexes/kforcewebjobentity/docs'
+    headers={'api-key':'1603E4DC4C87A8E41D6BBDE4EEA4EFB7'}
+    seen={};total=None
+    for skip in range(0,30000,1000):
+        d=get(endpoint,headers=headers,params={'api-version':'2020-06-30','search':'*','$top':1000,'$skip':skip,'$count':'true','$orderby':'Id asc'}).json()
+        total=d['@odata.count']
+        for j in d['value']:seen[j['Id']]=j
+        if skip+len(d['value'])>=total:break
+        if not d['value']:raise CollectionError('Kforce search truncated')
+    if len(seen)!=total:raise CollectionError('Kforce count mismatch')
+    rows=[];details=0
+    for j in seen.values():
+        if not title_match(j.get('Title','')):continue
+        from core import LOCAL
+        if not j.get('Remote') and j.get('City','').lower() not in LOCAL:continue
+        # Get the complete detail object, as the site's detail view does, separately from discovery.
+        d=get(endpoint,headers=headers,params={'api-version':'2020-06-30','search':'*','$filter':"Id eq '"+j['Id']+"'"}).json()['value']
+        if len(d)!=1:raise CollectionError('Kforce detail disappeared')
+        j=d[0];details+=1;r=blank()
+        r.update(firm=firm,job_id=str(j.get('ReferenceCode') or j['Id']),title=plain(j.get('Title')),city=plain(j.get('City')),state=state_code(j.get('State')),description=plain(j.get('ResponsibilitiesHtml') or j.get('Responsibilities'))+'\n'+plain(j.get('SkillsHtml') or j.get('Skills')),url='https://www.kforce.com/search-jobs/#/detail/'+j['Id']+'/',job_type=job_type(j.get('TypeCode')))
+        if j.get('Remote') is True or str(j.get('Remote','')).lower() in ('true','yes','remote'):r['work_arrangement']='remote'
+        date=str(j.get('PostDate') or '')
+        if re.match(r'^\d{4}-\d{2}-\d{2}',date):r['posted_date']=date[:10]
+        # SalaryText supplies the unit; bare numeric API fields do not.
+        enrich(r,str(j.get('SalaryText') or '')+'\n'+r['description'])
+        if keep(r):rows.append(r)
+    return rows,{'enumerated':len(seen),'details_read':details,'kept':len(rows)}
+
+
+def rh_search(firm,config):
+    # SEO search pages enumerate live cards; older sitemap entries can redirect to search.
+    seeds={};pages=0
+    queries=['business-analyst','project-manager','program-manager','implementation-manager','business-operations','business-execution','risk','compliance','governance','change-management','process-improvement','legal-operations','pmo','business-transformation']
+    for term in queries:
+        for location in ['all-locations']:
+            url=f'https://www.roberthalf.com/us/en/jobs/{location}/{term}';seen=set()
+            for page in range(1,101):
+                response=get(url,params={'pagenumber':page});soup=BeautifulSoup(response.text,'html.parser');pages+=1
+                if not soup.select_one('h1'):raise CollectionError('Robert Half search missing heading')
+                cards=soup.select('rhcl-job-card[variant="card"]');current=set()
+                for c in cards:
+                    a=c.select_one('a[href]')
+                    if not a:continue
+                    current.add(c.get('job-id'))
+                    if title_match(a.text):
+                        seed={'url':a['href'],'job_id':c['job-id']}
+                        loc=c.select_one('[data-subslot="location"]')
+                        if loc:
+                            parts=loc.text.split(',')
+                            if len(parts)>1:seed.update(city=parts[0].strip(),state=state_code(parts[-1].strip()))
+                        w=c.select_one('[data-subslot="worksite"]')
+                        if w and w.text.strip() in ('remote','hybrid','onsite'):seed['work_arrangement']=w.text.strip()
+                        seeds[a['href']]=seed
+                if page>1 and current and current<=seen:raise CollectionError('Robert Half repeated page')
+                seen.update(current)
+                nxt=next((a for a in soup.select('a[href]') if re.search(r'pagenumber='+str(page+1)+r'(?:&|$)',html.unescape(a['href']))),None)
+                if not nxt:break
+            else:raise CollectionError('Robert Half pagination limit')
+    rows,info=fetch_details(firm,seeds.values());info['search_pages']=pages;return rows,info
+
+ADAPTERS.update(insight=insight,kforce=kforce,rh_search=rh_search)
+REGISTRY['Insight Global']['adapter']='insight'
+REGISTRY['Kforce']['adapter']='kforce'
+REGISTRY['Robert Half']['adapter']='rh_search'
+REGISTRY['The Select Group']={'adapter':'sitemap','sitemap':'https://jobs.selectgroup.com/career-seekers/careers/job_listing-sitemap.xml','pattern':r'/careers/job/'}
+
+def post_json(url,payload):
+    for attempt in range(3):
+        try:
+            r=requests.post(url,json=payload,timeout=(15,90));r.raise_for_status();d=r.json()
+            return json.loads(d) if isinstance(d,str) else d
+        except (requests.RequestException,ValueError):
+            if attempt==2:raise
+            time.sleep(2+attempt)
+
+
+def experis(firm,config):
+    seeds={};seen=set();total=None
+    for offset in range(0,101):
+        d=post_json('https://www.experis.com/api/services/Jobs/searchjobs',{'filter':{'offset':offset,'totalCount':0,'limit':100,'searchkeyword':None,'haslocation':False,'language':'en'}})
+        jobs=d['jobsItems'];total=int(d.get('filters',{}).get('totalCount') or d['totalNumberOfPosition'])
+        fresh=0
+        for j in jobs:
+            if j['jobID'] not in seen:fresh+=1
+            seen.add(j['jobID'])
+            if title_match(j['jobTitle']):
+                seed={'url':urljoin('https://www.experis.com',j['jobURL']),'job_id':str(j['jobID'])}
+                parts=str(j.get('jobLocation') or '').split(',')
+                if len(parts)==2:seed.update(city=parts[0].strip(),state=state_code(parts[1].strip()))
+                seeds[j['jobID']]=seed
+        if (offset*100)+len(jobs)>=total:break
+        if not fresh:raise CollectionError('Experis search repeated or empty page')
+    if len(seen)<total*.97:raise CollectionError('Experis search count mismatch')
+    rows,info=fetch_details(firm,seeds.values());info['enumerated']=len(seen);return rows,info
+
+
+def motion(firm,config):
+    seeds={};seen=set();total=None
+    for start in range(0,10000,20):
+        url='https://motionrecruitment.com/tech-jobs';response=get(url,params={'start':start});soup=BeautifulSoup(response.text,'html.parser')
+        current={urljoin(url,a['href']):a.get_text(' ',strip=True) for a in soup.select('a[href]') if re.search(r'^/tech-jobs/.*/\d+$',a['href'])}
+        # The SSR page exposes the same total as its listing widget.
+        for script in soup.find_all('script'):
+            text=script.get_text()
+            if 'dataSet' in text:
+                m=re.search(r'\\"total\\":(\d+)',text)
+                if m:total=int(m[1]);break
+        if total is None:raise CollectionError('Motion total count missing')
+        if not current or (seen and set(current)<=seen):raise CollectionError('Motion pagination incomplete/repeated')
+        seen.update(current)
+        for href,title in current.items():
+            if title_match(title):seeds[href]={'url':href,'job_id':href.rstrip('/').split('/')[-1]}
+        if start+len(current)>=total:break
+    else:raise CollectionError('Motion pagination limit')
+    if len(seen)<total*.97:raise CollectionError('Motion count mismatch')
+    rows,info=fetch_details(firm,seeds.values());info['enumerated']=len(seen);return rows,info
+
+ADAPTERS.update(experis=experis,motion=motion)
+REGISTRY['Experis/Manpower']['adapter']='experis'
+REGISTRY['Motion Recruitment']['adapter']='motion'
+
+def judge(firm,config):
+    from datetime import datetime,timezone
+    base='https://www.judge.com/wp-admin/admin-ajax.php?action='
+    seen={};total=None
+    for page in range(0,501):
+        payload={'categories':[],'countries':'USA','geo':[{'distance':'','latLong':[0],'location':''}],'query':'','states':'','type':['Any'],'page':page,'remote':False}
+        d=post_json(base+'jdg_get_jobs',{'payload':payload})
+        if 'hits' not in d:raise CollectionError('Judge search error: '+str(d)[:200])
+        if total is None:total=d['total']
+        fresh=0
+        for j in d['hits']:
+            if str(j['jobOrderId']) not in seen:fresh+=1
+            seen[str(j['jobOrderId'])]=j
+        if d['offset']+len(d['hits'])>=d['total']:break
+        if not fresh:raise CollectionError('Judge pagination repeated/empty')
+    else:raise CollectionError('Judge pagination limit')
+    if len(seen)<total*.97:raise CollectionError('Judge count mismatch')
+    rows=[];candidates=0
+    def one(j):
+        if not title_match(j['title']):return None
+        d=post_json(base+'jdg_get_job_detail',{'payload':{'job_id':j['jobOrderId']}})
+        if d is None:return None
+        if not d.get('description'):raise CollectionError('Judge full detail missing')
+        r=blank();r.update(firm=firm,job_id=str(d['jobOrderId']),title=d['title'].strip(),description=plain(d['description']),url='https://www.judge.com/jobs/details/'+str(d['jobOrderId'])+'/',job_type=job_type(d.get('type')))
+        loc=str(d.get('location') or '');parts=loc.split(',')
+        if len(parts)>=2:r.update(city=parts[0].strip(),state=state_code(parts[1].strip()))
+        if 'remote' in loc.lower():r['work_arrangement']='remote'
+        if d.get('opened'):r['posted_date']=datetime.fromtimestamp(float(d['opened'])/1000,timezone.utc).strftime('%Y-%m-%d')
+        enrich(r,str(d.get('salary') or '')+'\n'+r['description'])
+        return r
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        for r in pool.map(one,seen.values()):
+            if r:
+                candidates+=1
+                if keep(r,country='USA'):rows.append(r)
+    return rows,{'enumerated':len(seen),'details_read':candidates,'kept':len(rows)}
+
+ADAPTERS['judge']=judge
+REGISTRY['Judge Group']['adapter']='judge'
+
+def addison(firm,config):
+    # A normal browser is used on the Mac when HTTP access is refused. No challenge bypass.
+    browser=None;pw=None;page=None
+    def read(url):
+        nonlocal browser,pw,page
+        try:return get(url).text
+        except CollectionError:
+            import os
+            if os.environ.get('STAFFING_ROUTE')!='mac':raise
+            if page is None:
+                from playwright.sync_api import sync_playwright
+                pw=sync_playwright().start();browser=pw.chromium.launch(headless=True);page=browser.new_page()
+            response=page.goto(url,wait_until='domcontentloaded',timeout=60000)
+            page.wait_for_timeout(1500)
+            if response and response.status>=400:raise CollectionError('Addison browser HTTP '+str(response.status))
+            return page.content()
+    try:
+        url='https://www.addisongroup.com/jobs/results/';seen=set();seeds={};expected=None
+        for page_no in range(1,101):
+            text=read(url);soup=BeautifulSoup(text,'html.parser');current={}
+            for a in soup.select('a[href]'):
+                href=urljoin(url,a['href'])
+                if re.search(r'/jobs/job/[^/]+/[\w-]+$',href):current[href]=a.get_text(' ',strip=True)
+            if not current or (seen and set(current)<=seen):raise CollectionError('Addison job enumeration incomplete/repeated')
+            seen.update(current)
+            for href,title in current.items():
+                if title_match(title):seeds[href]={'url':href,'job_id':href.rstrip('/').split('/')[-1]}
+            nxt=next((a for a in soup.select('a[href]') if re.search(r'[?&]page='+str(page_no+1)+r'(?:&|$)',a['href'])),None)
+            if not nxt:break
+            url=urljoin(url,nxt['href'])
+        else:raise CollectionError('Addison pagination limit')
+        rows=[]
+        for seed in seeds.values():
+            soup=BeautifulSoup(read(seed['url']),'html.parser');r=schema_row(firm,seed['url'],soup,seed)
+            if r is None:raise CollectionError('Addison full detail schema missing: '+seed['url'])
+            if not r['description']:raise CollectionError('Addison description missing')
+            if keep(r):rows.append(r)
+        return rows,{'enumerated':len(seen),'details_read':len(seeds),'kept':len(rows),'browser_used':browser is not None}
+    finally:
+        if browser:browser.close()
+        if pw:pw.stop()
+ADAPTERS['addison']=addison
+REGISTRY['Addison Group']['adapter']='addison'
+REGISTRY['Collabera']['search']='https://www.collabera.com/job-search/'
