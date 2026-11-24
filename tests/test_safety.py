@@ -50,3 +50,7 @@ def test_stale_mac_failure_does_not_replace_newer_cloud_status():
 def test_explicit_remote_us_and_coordinates_are_supported():
  r=row();r.update(city='',state='',work_arrangement='remote');assert keep(r,country='USA')
  r.update(work_arrangement='onsite');assert keep(r,nearby=True)
+
+def test_contract_to_perm_is_not_permanent():
+ from core import job_type
+ assert job_type('Contract To Perm')=='contract-to-hire'

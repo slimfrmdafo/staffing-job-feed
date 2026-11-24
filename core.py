@@ -25,7 +25,7 @@ def number(v):
     except (ValueError,TypeError):return ''
 def job_type(v):
     v=str(v or '').lower().replace('_',' ').replace('-',' ')
-    if re.search(r'temp.*hire|contract.*hire|contract.*regular|temp.*perm',v):return 'contract-to-hire'
+    if re.search(r'temp.*hire|contract.*hire|contract.*regular|contract.*perm|temp.*perm',v):return 'contract-to-hire'
     if re.search(r'contract|temporary|^temp$',v):return 'contract'
     if re.search(r'permanent|direct hire|^perm$',v):return 'permanent'
     return ''

@@ -122,7 +122,8 @@ def detail(firm,seed):
     url=seed['url']
     try:
         response=get(url)
-        if 'ref=invalid_job' in response.url or any(x in response.url for x in ['jobs-maintenance']):raise ClosedListing('Listing no longer available')
+        if 'jobs-maintenance' in response.url:raise CollectionError('Official listing detail page is under maintenance: '+url)
+        if 'ref=invalid_job' in response.url:raise ClosedListing('Listing no longer available')
         soup=BeautifulSoup(response.text,'html.parser')
         if not any(x.get('@type')=='JobPosting' for x in schemas(soup)) and re.search(r'(?:job (?:is no longer|has been filled)|position has been filled|job you are looking for is no longer)',soup.get_text(' ',strip=True),re.I):raise ClosedListing('Closed notice')
         row=schema_row(firm,url,soup,seed)
@@ -294,28 +295,35 @@ ADAPTERS={'sitemap':sitemap_collect,'jobdiva':jobdiva,'vaco':vaco,'unavailable':
 def collect(firm,route):
     start=now()
     try:
-        rows,info=ADAPTERS[REGISTRY[firm]['adapter']](firm,REGISTRY[firm]);result={'ok':True,'rows':rows,'info':info}
+        rows,info=ADAPTERS[REGISTRY[firm]['adapter']](firm,REGISTRY[firm])
+        from core import validate
+        validate(rows)
+        result={'ok':True,'rows':rows,'info':info}
     except Exception as e:result={'ok':False,'error':str(e)[:2000]}
     result.update(firm=firm,route=route,started_at=start,completed_at=now());print(json.dumps({k:v for k,v in result.items() if k!='rows'}),flush=True);return result
 
 # Public JSON endpoints used by the firms' own job-search applications.
 def insight(firm,config):
-    from core import number
-    seen={};total=None
+    from core import number,LOCAL,STATES
+    def eligible_variant(j):
+        address=j.get('workAddress') or {};state=state_code(address.get('administrativeArea'))
+        return (j.get('workRemote') and state in STATES.values()) or (address.get('locality','').lower() in LOCAL and state in ('NC','SC'))
+    seen={};total=None;raw_count=0
     for page in range(1,501):
         d=get('https://insightglobal.com/all/jobs',params={'page':page,'size':50,'sort':'relevance,desc','filter.status':'active'}).json()
-        meta=d['pageMetadata'];jobs=d['jobs']
+        meta=d['pageMetadata'];jobs=d['jobs'];raw_count+=len(jobs)
         if meta['number']!=page:raise CollectionError('Insight Global pagination number mismatch')
         if total is None:total=meta['totalElements']
         fresh=0
         for j in jobs:
             key=j['requisitionId']
-            if key not in seen:fresh+=1
-            seen[key]=j
+            if key not in seen:
+                fresh+=1;seen[key]=j
+            elif eligible_variant(j) and not eligible_variant(seen[key]):seen[key]=j
         if not fresh and jobs:raise CollectionError('Insight Global repeated page')
         if page>=meta['totalPages']:break
     else:raise CollectionError('Insight Global pagination limit')
-    if len(seen)<total:raise CollectionError('Insight Global incomplete pagination')
+    if raw_count<total:raise CollectionError('Insight Global incomplete pagination')
     rows=[];candidates=0
     def one(j):
         if not title_match(j['jobTitle']):return None
@@ -338,7 +346,7 @@ def insight(firm,config):
             if r:
                 candidates+=1
                 if keep(r):rows.append(r)
-    return rows,{'enumerated':len(seen),'details_read':candidates,'kept':len(rows)}
+    return rows,{'enumerated':len(seen),'enumerated_raw':raw_count,'advertised':total,'details_read':candidates,'kept':len(rows)}
 
 
 def kforce(firm,config):
@@ -421,10 +429,11 @@ def post_json(url,payload):
 
 
 def experis(firm,config):
-    seeds={};seen=set();total=None
+    seeds={};seen=set();total=None;raw_count=0
     for offset in range(0,101):
         d=post_json('https://www.experis.com/api/services/Jobs/searchjobs',{'filter':{'offset':offset,'totalCount':0,'limit':100,'searchkeyword':None,'haslocation':False,'language':'en'}})
-        jobs=d['jobsItems'];total=int(d.get('filters',{}).get('totalCount') or d['totalNumberOfPosition'])
+        jobs=d['jobsItems'];raw_count+=len(jobs)
+        if total is None:total=int(d.get('filters',{}).get('totalCount') or d['totalNumberOfPosition'])
         fresh=0
         for j in jobs:
             if j['jobID'] not in seen:fresh+=1
@@ -433,11 +442,13 @@ def experis(firm,config):
                 seed={'url':urljoin('https://www.experis.com',j['jobURL']),'job_id':str(j['jobID'])}
                 parts=str(j.get('jobLocation') or '').split(',')
                 if len(parts)==2:seed.update(city=parts[0].strip(),state=state_code(parts[1].strip()))
-                seeds[j['jobID']]=seed
+                from core import LOCAL
+                old=seeds.get(j['jobID'],{})
+                if not (old.get('city','').lower() in LOCAL and old.get('state') in ('NC','SC')):seeds[j['jobID']]=seed
         if (offset*100)+len(jobs)>=total:break
         if not fresh:raise CollectionError('Experis search repeated or empty page')
-    if len(seen)<total:raise CollectionError('Experis search count mismatch')
-    rows,info=fetch_details(firm,seeds.values());info['enumerated']=len(seen);return rows,info
+    if raw_count<total:raise CollectionError('Experis search count mismatch')
+    rows,info=fetch_details(firm,seeds.values());info.update(enumerated=len(seen),enumerated_raw=raw_count,advertised=total);return rows,info
 
 
 def motion(firm,config):
@@ -618,17 +629,20 @@ REGISTRY['Collabera']['adapter']='collabera'
 REGISTRY['Signature Consultants']={'adapter':'sitemap','sitemap':'https://dexian.com/sitemap_index.xml','pattern':r'/jobs/[^/]+-\d+-\d+/'}
 
 def apex(firm,config):
-    url='https://www.apexsystems.com/search-results-usa';seen=set();seeds={}
-    for page in range(0,1001):
+    base='https://www.apexsystems.com/search-results-usa';url=base;seen=set();seeds={}
+    for page in range(1,1001):
         response=get(url);soup=BeautifulSoup(response.text,'html.parser')
         if 'maintenance' in response.url or (soup.title and 'maintenance' in soup.title.get_text().lower()):raise CollectionError('Official job search and detail pages are under maintenance')
-        current={urljoin(response.url,a['href']).split('?')[0]:a.get_text(' ',strip=True) for a in soup.select('a[href]') if re.search(r'/job/\d+_usa/',a['href'])}
+        current={}
+        for a in soup.select('a[href]'):
+            if re.search(r'/job/\d+_usa/',a['href']):
+                href=urljoin(response.url,a['href']).split('?')[0];current.setdefault(href,a.get_text(' ',strip=True))
         if not current:raise CollectionError('Apex search returned no enumerable listings; preserving prior snapshot')
-        if current and set(current)<=seen:raise CollectionError('Apex pagination repeated')
+        if set(current)<=seen:raise CollectionError('Apex pagination repeated')
         seen.update(current)
         for href,title in current.items():
-            if title_match(title):seeds[href]={'url':href,'job_id':re.search(r'/job/(\d+)_usa/',href)[1]}
-        nxt=soup.select_one('a[rel="next"], .pager__item--next a')
+            if title_match(title) or title_match(href.rsplit('/',1)[-1].replace('-',' ')):seeds[href]={'url':href,'job_id':re.search(r'/job/(\d+)_usa/',href)[1]}
+        nxt=next((a for a in soup.select('a[href]') if re.search(r'[?&]page='+str(page+1)+r'(?:&|$)',a['href'])),None)
         if not nxt:break
         url=urljoin(response.url,nxt['href'])
     else:raise CollectionError('Apex pagination limit')

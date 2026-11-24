@@ -37,3 +37,25 @@ def test_dexian_visible_city_overrides_county_schema(monkeypatch):
  monkeypatch.setattr(collectors,'get',lambda url:response(html,url))
  r=collectors.detail('Signature Consultants',{'url':url,'job_id':'1023'})
  assert r['city']=='Charlotte' and r['state']=='NC'
+
+def test_maintenance_redirect_is_failure_not_closed(monkeypatch):
+ import pytest
+ monkeypatch.setattr(collectors,'get',lambda url:response('<h1>Please Check Back Soon</h1>','https://www.apexsystems.com/jobs-maintenance'))
+ with pytest.raises(collectors.CollectionError,match='under maintenance'):
+  collectors.detail('Apex Systems',{'url':'https://www.apexsystems.com/job/123_usa/project-manager','job_id':'123'})
+
+def test_invalid_firm_rows_fail_only_that_firm(monkeypatch):
+ from test_safety import row
+ r=row('Robert Half');r['work_arrangement']='maybe'
+ monkeypatch.setitem(collectors.ADAPTERS,'rh_search',lambda firm,config:([r],{}))
+ result=collectors.collect('Robert Half','cloud')
+ assert not result['ok'] and 'Invalid work_arrangement' in result['error']
+
+def test_source_duplicate_ids_do_not_look_like_missing_pages(monkeypatch):
+ job={'requisitionId':'native-123','jobTitle':'Business Analyst','workAddress':{'administrativeArea':'NC','locality':'Charlotte'},'jobType':'Contract','postedDate':'2026-11-23'}
+ search={'jobs':[job,job],'pageMetadata':{'number':1,'totalElements':2,'totalPages':1}}
+ def read(url,**kwargs):
+  return SimpleNamespace(json=lambda: {'description':'Full details of the Charlotte banking business analyst contract role.'} if url.endswith('/details') else search)
+ monkeypatch.setattr(collectors,'get',read)
+ rows,info=collectors.insight('Insight Global',{})
+ assert len(rows)==1 and info['enumerated']==1 and info['enumerated_raw']==2 and info['advertised']==2

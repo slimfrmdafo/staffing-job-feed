@@ -41,7 +41,11 @@ gh workflow enable collect.yml --repo slimfrmdafo/staffing-job-feed
 **Mac collector:** Use these commands to pause and resume the background service:
 
 ```sh
+launchctl disable gui/501/com.staffing.jobfeed
 launchctl bootout gui/501/com.staffing.jobfeed
+
+# Resume:
+launchctl enable gui/501/com.staffing.jobfeed
 launchctl bootstrap gui/501 "$HOME/Library/LaunchAgents/com.staffing.jobfeed.plist"
 ```
 
