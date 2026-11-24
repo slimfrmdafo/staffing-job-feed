@@ -57,11 +57,14 @@ def status_text(state):
     lines=['Staffing job feed',f"Published UTC: {state['published_at']}",f'Repository: https://github.com/{REPO}',
            'Feed: https://raw.githubusercontent.com/'+REPO+'/feed/staffing_jobs.csv',
            'Rows are replaced only after a complete successful newer snapshot for that firm.',
-           'Unavailable firms retain their last successful snapshot. Zero matching rows is a valid completed search.','']
+           'Unavailable firms retain their last successful snapshot. Zero matching rows is a valid completed search.',
+           'Cloud tries all firms hourly. Mac also tries firms whose latest cloud attempt failed.',
+           'Contract counts include contract-to-hire.','']
     total=contracts=0
     for firm in REGISTRY:
         f=state['firms'].get(firm,{});rows=f.get('rows',[]);count=sum(r['job_type'] in ('contract','contract-to-hire') for r in rows);total+=len(rows);contracts+=count
-        lines.append(f"{firm}: listings={len(rows)} contracts={count} snapshot_runner={f.get('snapshot_route','none')} last_success={f.get('completed_at','never')}")
+        routes='cloud+mac' if f.get('attempts',{}).get('cloud',{}).get('ok') is False else 'cloud'
+        lines.append(f"{firm}: listings={len(rows)} contracts={count} runners={routes} snapshot_runner={f.get('snapshot_route','none')} last_success={f.get('completed_at','never')}")
         for route,a in sorted(f.get('attempts',{}).items()):
             lines.append(f"  {route}: {'OK' if a['ok'] else 'FAILED'} at {a['completed_at']} "+(str(a.get('info',{})) if a['ok'] else a.get('error','unknown error')))
     lines.extend(['',f'TOTAL listings={total} contracts={contracts}','', 'Recent unattended runs:'])
