@@ -67,7 +67,7 @@ def posted_pay(text):
     for m in candidates:
         before=text[max(0,m.start()-180):m.start()]
         # Dollar amounts in budgets, bonuses or project examples aren't base pay ranges.
-        if not re.search(r'base pay|salary|compensation|pay range|pay rate|hourly rate|wage',before,re.I):continue
+        if not re.search(r'base pay|salary|compensation|pay range|pay rate|hourly rate|wage|recruitment range|hiring range|rate of pay',before,re.I):continue
         lo=float(m[1].replace(',',''))*(1000 if m[2] else 1);hi=float(m[4].replace(',',''))*(1000 if m[5] else 1)
         if hi<lo:continue
         stated=m[6] or m[3] or ''

@@ -76,3 +76,7 @@ def test_required_professional_registration_is_preserved_as_posted():
  text='Required Qualifications\nFINRA Series 7 and 63 registrations required within 90 days.\nPreferred Qualifications\nSeries 24 license preferred.'
  assert required_certifications(text)=='FINRA Series 7 and 63 registrations required within 90 days'
  assert required_certifications('Required Qualifications\nExperience preparing FINRA regulatory reports.')==''
+
+def test_government_recruitment_range_keeps_amounts_without_inventing_units():
+ from metadata import posted_pay
+ assert posted_pay('Recruitment Range: $55,221.00-$72,100.00')=={'pay_min':'55221','pay_max':'72100','pay_unit':''}
