@@ -3403,11 +3403,31 @@
           "completed_at": "2026-11-24T13:03:39.458805+00:00",
           "ok": false,
           "error": "CollectionError: Workday search ID/path missing: {'bulletFields': ['R-84085', ',']}"
+        },
+        "mac": {
+          "firm": "Hendrick Automotive Group",
+          "route": "mac",
+          "started_at": "2026-11-24T13:19:02.769894+00:00",
+          "completed_at": "2026-11-24T13:19:21.510649+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 397,
+            "enumerated_raw": 397,
+            "advertised": 397,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 0,
+            "closed_during_pull": 0,
+            "kept": 0,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {}
+          }
         }
       },
-      "snapshot_at": "2026-11-24T12:03:24.753890+00:00",
-      "completed_at": "2026-11-24T12:03:39.838825+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T13:19:02.769894+00:00",
+      "completed_at": "2026-11-24T13:19:21.510649+00:00",
+      "snapshot_route": "mac"
     },
     "American Tire Distributors": {
       "rows": [],
@@ -5167,7 +5187,17 @@
       "firms_failed": 1,
       "timer_run_id": "45389440593",
       "timer_fired_at": "2026-11-24T13:01:02.195679+00:00"
+    },
+    {
+      "id": "acaed8b4-0cf0-4552-960c-5dd8d839137f",
+      "route": "mac",
+      "started_at": "2026-11-24T13:19:00.130877+00:00",
+      "completed_at": "2026-11-24T13:19:21.512517+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 1,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-24T13:06:34.874421+00:00"
+  "published_at": "2026-11-24T13:19:22.777179+00:00"
 }

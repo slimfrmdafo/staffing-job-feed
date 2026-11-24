@@ -1,5 +1,5 @@
 Employer job feed
-Published UTC: 2026-11-24T13:06:34.874421+00:00
+Published UTC: 2026-11-24T13:19:22.777179+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/employer_jobs.csv
 Priority employers are attempted on every cloud run. Mac retries only employers whose latest cloud attempt failed.
@@ -42,8 +42,9 @@ RXO: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T13:0
   cloud: OK at 2026-11-24T13:03:30.097731+00:00 {'enumerated': 324, 'enumerated_raw': 324, 'advertised': 324, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 8, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
 Carrier Global: listings=5 runners=cloud snapshot_runner=cloud last_success=2026-11-24T13:03:47.402124+00:00
   cloud: OK at 2026-11-24T13:03:47.402124+00:00 {'enumerated': 393, 'enumerated_raw': 393, 'advertised': 393, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 20, 'closed_during_pull': 0, 'kept': 5, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'location_Country': ['bc33aa3152ec42d4995f4791a106ed09']}}
-Hendrick Automotive Group: listings=0 runners=cloud+mac snapshot_runner=cloud last_success=2026-11-24T12:03:39.838825+00:00
+Hendrick Automotive Group: listings=0 runners=cloud+mac snapshot_runner=mac last_success=2026-11-24T13:19:21.510649+00:00
   cloud: FAILED at 2026-11-24T13:03:39.458805+00:00 CollectionError: Workday search ID/path missing: {'bulletFields': ['R-84085', ',']}
+  mac: OK at 2026-11-24T13:19:21.510649+00:00 {'enumerated': 397, 'enumerated_raw': 397, 'advertised': 397, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 0, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}}
 American Tire Distributors: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T13:03:43.713047+00:00
   cloud: OK at 2026-11-24T13:03:43.713047+00:00 {'enumerated': 203, 'enumerated_raw': 203, 'advertised': 203, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 3, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}}
 Movement Mortgage: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T13:03:44.063924+00:00
@@ -99,7 +100,6 @@ TOTAL listings=162 posted_contacts=2
 Unknown optional fields remain empty. All included listings use full posting details.
 
 Recent run receipts:
-{"completed_at": "2026-11-24T08:17:42.057071+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "0cdff26b-7f72-4b20-9c12-3534cb0d638b", "route": "mac", "started_at": "2026-11-24T08:17:25.534101+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T09:06:02.146363+00:00", "firms_attempted": 39, "firms_failed": 0, "firms_succeeded": 39, "id": "45361036311", "route": "cloud", "started_at": "2026-11-24T09:00:46.531531+00:00", "timer_fired_at": "2026-11-24T09:00:06.261924+00:00", "timer_run_id": "45352325304", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-24T09:17:52.733543+00:00", "firms_attempted": 0, "firms_failed": 0, "firms_succeeded": 0, "id": "a5396abe-1cf6-4413-a55f-000a3a07283c", "route": "mac", "started_at": "2026-11-24T09:17:50.763190+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T10:05:44.092839+00:00", "firms_attempted": 39, "firms_failed": 0, "firms_succeeded": 39, "id": "45370557000", "route": "cloud", "started_at": "2026-11-24T10:00:50.224985+00:00", "timer_fired_at": "2026-11-24T10:00:24.473355+00:00", "timer_run_id": "45361032179", "trigger": "cloud_clock"}
@@ -109,3 +109,4 @@ Recent run receipts:
 {"completed_at": "2026-11-24T12:06:37.432538+00:00", "firms_attempted": 39, "firms_failed": 0, "firms_succeeded": 39, "id": "45389444338", "route": "cloud", "started_at": "2026-11-24T12:01:21.970209+00:00", "timer_fired_at": "2026-11-24T12:00:48.866290+00:00", "timer_run_id": "45380140041", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-24T12:18:51.217224+00:00", "firms_attempted": 0, "firms_failed": 0, "firms_succeeded": 0, "id": "26afd505-b756-4490-b6f5-8478466b5e14", "route": "mac", "started_at": "2026-11-24T12:18:49.352904+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T13:06:33.293993+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45399120861", "route": "cloud", "started_at": "2026-11-24T13:01:31.551935+00:00", "timer_fired_at": "2026-11-24T13:01:02.195679+00:00", "timer_run_id": "45389440593", "trigger": "cloud_clock"}
+{"completed_at": "2026-11-24T13:19:21.512517+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "acaed8b4-0cf0-4552-960c-5dd8d839137f", "route": "mac", "started_at": "2026-11-24T13:19:00.130877+00:00", "trigger": "mac_launchd"}
