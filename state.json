@@ -3526,11 +3526,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Apex search returned no enumerable listings; preserving prior snapshot",
+          "error": "Official job search and detail pages are under maintenance",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-24T21:56:10.740746+00:00",
-          "completed_at": "2026-11-24T21:56:18.383075+00:00"
+          "started_at": "2026-11-24T22:56:10.602647+00:00",
+          "completed_at": "2026-11-24T22:56:11.531044+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -3672,28 +3672,6 @@
       "rows": [
         {
           "firm": "Randstad",
-          "job_id": "1369603",
-          "title": "Trade Compliance Analyst",
-          "client_company": "",
-          "city": "Piscataway",
-          "state": "NJ",
-          "work_arrangement": "remote",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "35",
-          "pay_max": "45",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-24",
-          "url": "https://www.randstadusa.com/jobs/4/1369603/trade-compliance-analyst_piscataway/",
-          "recruiter_name": "Randstad Technologies",
-          "recruiter_email": "technology@randstadusa.com",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "job summary:\nImmediate need for a Contract Trade Compliance Analyst to lead a dedicated project focused on auditing historical import entries and recovering overpaid Section 232 tariffs on steel, aluminum, copper, and derivative products. Working closely\nwith Trade Compliance, Procurement, IT, Engineering, Finance, and external customs brokers, this role will identify duty recovery opportunities across open and recently liquidated entries, compile supporting origin and technical documentation, and manage refund filings through U.S. Customs and Border Protection (CBP) before statutory deadlines expire.\nlocation: Telecommute\njob type: Contract\nsalary: $35 - 45  per hour\nwork hours: 8am to 5pm\neducation: No Degree Required\nresponsibilities:\nExtract and analyze historical import data from CBP's Automated Commercial Environment (ACE) portal, CBP Form 7501 entry summaries, commercial invoices, and internal ERP systems.\nAudit entry lines for Section 232 overpayment triggers, including misclassified Harmonized Tariff Schedule (HTSUS) codes, missed tariff unstacking exemptions, eligible reduced-rate classifications, USMCA split-line valuation errors, and applicable product exclusions.\nPrioritize high-value entries based on liquidation status and statutory filing windows (tracking both the standard 314-day liquidation cycle and the strict 180-day post-liquidation protest deadline).\nPrepare and submit-or instruct licensed customs brokers to file-Post-Summary Corrections (PSCs) for unliquidated entries and formal CBP Protests (CBP Form 19 under 19 U.S.C. § 1514) for liquidated entries.\nEvaluate eligibility for accelerated liquidation requests or qualifying manufacturing duty drawback where applicable\nDraft clear, well-supported protest narratives and technical justifications that establish an audit-ready administrative record.\nPartner with suppliers, engineering, and procurement teams to collect and verify Mill Test Reports (MTRs), certificates of analysis, bills of materials (BOMs), and country of \"melt and pour\" (steel) or \"smelt and cast\" (aluminum and copper) certifications.\nAssemble complete, standardized audit packets to substantiate refund claims and respond promptly to CBP Requests for Information (CBP Form 28) or Notices of Action (CBP Form 29).\nMaintain a master tracking log of all audited entries, filed PSCs/protests, statutory deadlines, claimed refund amounts, and CBP disposition statuses.\nReconcile approved U.S. Treasury refunds (ACH credits and statutory interest adjustments) with Finance and Accounting teams.\nDeliver weekly progress dashboards to leadership detailing recovered duties, pending claims, and root-cause recommendations to update broker instructions and prevent future overpayments.\nqualifications:\n2+ years of hands-on experience in U.S. customs compliance, import operations, trade consulting, or customs brokerage.\n● Regulatory Knowledge: Working knowledge of Section 232 tariff regulations (steel, aluminum, copper, and derivative articles), HTSUS classification, CBP entry liquidation rules, PSCs, and 19 U.S.C. § 1514 protests.\n● Proven ability to manage strict statutory deadlines across hundreds or thousands of entry lines with zero-defect documentation accuracy.\n● Strong written and oral communication skills\n● Proficiency in Excel and Google Sheets (Vlookup, Pivot Tables, large data reconciliation)\n● Direct experience navigating the CBP ACE Secure Data Portal. Preferred\n● Prior experience executing tariff recovery, duty drawback, or Section 232/301 refund audits.\n● Familiarity with metals manufacturing, industrial equipment supply chains, or ERP trade compliance modules (e.g., SAP GTS, Oracle GTM, NetSuite\nskills:\nlarge data,Secure Data,Vlookup,Proficiency in Excel,NetSuite,Oracle GTM,Pivot Tables,SAP GTS,Test Reports,Strong written and oral communication,leadership\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "999-419",
           "title": "Global Labeling Operations Manager",
           "client_company": "",
@@ -3713,6 +3691,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "job summary:\nMake a direct impact on global patient safety from anywhere, this\n100% Remote\nopportunity places you at the center of regulatory strategy for a Top-Tier Global Pharma Leader. You will ensure critical product labeling remains compliant, accurate, and aligned across global health authorities.\nlocation: Remote\njob type: Contract\nsalary: $70-75 an hour\nwork hours: 9:00 AM – 5:00 PM\neducation: Bachelors Degree\nresponsibilities:\nAct as the primary liaison between Regulatory/Labeling and Artwork/Change Management teams to track implementation timelines and link regulatory assessments in tracking systems.\nCoordinate the submission of Structured Product Labeling (SPL) versions of the USPI to the FDA through external vendors.\nSupport the development and lifecycle maintenance of the Company Core Data Sheet (CDS), Global Patient Leaflet, Target Label Profile, EUPI, and USPI.\nDistribute and track regional/country CDS updates within the Electronic Document Management System (EDMS) and Regulatory Tracking System.\nAssist Regional and Local Regulatory Leads with Health Authority labeling queries and country-specific tracking.\nMaintain strict version control, update regulatory labeling SOPs, support audits, and train internal stakeholders on labeling compliance.\nqualifications:\nRequired:\n3+ years of pharmaceutical or biotechnology experience, including at least 2 years in regulatory labeling operations supporting innovative medicines.\nDirect experience supporting products across the full drug development and registration lifecycle in an innovator company environment.\nWorking knowledge of applicable global regulations, pharmacology, medicine, pharmacovigilance, and drug development.\nProven experience managing Electronic Document Management Systems (EDMS), regulatory tracking, and change management systems.\nPreferred:\nBachelor’s degree in a scientific or medically related discipline.\n#LI-AH1\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "1369603",
+          "title": "Trade Compliance Analyst",
+          "client_company": "",
+          "city": "Piscataway",
+          "state": "NJ",
+          "work_arrangement": "remote",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "35",
+          "pay_max": "45",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-24",
+          "url": "https://www.randstadusa.com/jobs/4/1369603/trade-compliance-analyst_piscataway/",
+          "recruiter_name": "Randstad Technologies",
+          "recruiter_email": "technology@randstadusa.com",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "job summary:\nImmediate need for a Contract Trade Compliance Analyst to lead a dedicated project focused on auditing historical import entries and recovering overpaid Section 232 tariffs on steel, aluminum, copper, and derivative products. Working closely\nwith Trade Compliance, Procurement, IT, Engineering, Finance, and external customs brokers, this role will identify duty recovery opportunities across open and recently liquidated entries, compile supporting origin and technical documentation, and manage refund filings through U.S. Customs and Border Protection (CBP) before statutory deadlines expire.\nlocation: Telecommute\njob type: Contract\nsalary: $35 - 45  per hour\nwork hours: 8am to 5pm\neducation: No Degree Required\nresponsibilities:\nExtract and analyze historical import data from CBP's Automated Commercial Environment (ACE) portal, CBP Form 7501 entry summaries, commercial invoices, and internal ERP systems.\nAudit entry lines for Section 232 overpayment triggers, including misclassified Harmonized Tariff Schedule (HTSUS) codes, missed tariff unstacking exemptions, eligible reduced-rate classifications, USMCA split-line valuation errors, and applicable product exclusions.\nPrioritize high-value entries based on liquidation status and statutory filing windows (tracking both the standard 314-day liquidation cycle and the strict 180-day post-liquidation protest deadline).\nPrepare and submit-or instruct licensed customs brokers to file-Post-Summary Corrections (PSCs) for unliquidated entries and formal CBP Protests (CBP Form 19 under 19 U.S.C. § 1514) for liquidated entries.\nEvaluate eligibility for accelerated liquidation requests or qualifying manufacturing duty drawback where applicable\nDraft clear, well-supported protest narratives and technical justifications that establish an audit-ready administrative record.\nPartner with suppliers, engineering, and procurement teams to collect and verify Mill Test Reports (MTRs), certificates of analysis, bills of materials (BOMs), and country of \"melt and pour\" (steel) or \"smelt and cast\" (aluminum and copper) certifications.\nAssemble complete, standardized audit packets to substantiate refund claims and respond promptly to CBP Requests for Information (CBP Form 28) or Notices of Action (CBP Form 29).\nMaintain a master tracking log of all audited entries, filed PSCs/protests, statutory deadlines, claimed refund amounts, and CBP disposition statuses.\nReconcile approved U.S. Treasury refunds (ACH credits and statutory interest adjustments) with Finance and Accounting teams.\nDeliver weekly progress dashboards to leadership detailing recovered duties, pending claims, and root-cause recommendations to update broker instructions and prevent future overpayments.\nqualifications:\n2+ years of hands-on experience in U.S. customs compliance, import operations, trade consulting, or customs brokerage.\n● Regulatory Knowledge: Working knowledge of Section 232 tariff regulations (steel, aluminum, copper, and derivative articles), HTSUS classification, CBP entry liquidation rules, PSCs, and 19 U.S.C. § 1514 protests.\n● Proven ability to manage strict statutory deadlines across hundreds or thousands of entry lines with zero-defect documentation accuracy.\n● Strong written and oral communication skills\n● Proficiency in Excel and Google Sheets (Vlookup, Pivot Tables, large data reconciliation)\n● Direct experience navigating the CBP ACE Secure Data Portal. Preferred\n● Prior experience executing tariff recovery, duty drawback, or Section 232/301 refund audits.\n● Familiarity with metals manufacturing, industrial equipment supply chains, or ERP trade compliance modules (e.g., SAP GTS, Oracle GTM, NetSuite\nskills:\nlarge data,Secure Data,Vlookup,Proficiency in Excel,NetSuite,Oracle GTM,Pivot Tables,SAP GTS,Test Reports,Strong written and oral communication,leadership\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
         },
         {
           "firm": "Randstad",
@@ -3738,28 +3738,6 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "1369143",
-          "title": "Supply Chain / Program Management Representative",
-          "client_company": "",
-          "city": "San Francisco",
-          "state": "CA",
-          "work_arrangement": "remote",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "36",
-          "pay_max": "46",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-19",
-          "url": "https://www.randstadusa.com/jobs/4/1369143/supply-chain-program-management-representative_san-francisco/",
-          "recruiter_name": "Randstad Technologies",
-          "recruiter_email": "technology@randstadusa.com",
-          "recruiter_phone": "",
-          "required_experience": "5+ years of experience",
-          "required_certifications": "",
-          "description": "job summary:\nWe are seeking a detail-oriented Supply Chain / Program Management Representative to support fast-paced lab operations and procurement workflows within our Communications, Media & Technology (CM&T) practice. Working remotely alongside Technical Program Managers, engineers, and product teams, you will drive end-to-end purchasing, supplier coordination, software licensing, and operational queue management.\nlocation: Telecommute\njob type: Contract\nsalary: $36 - 46  per hour\nwork hours: 8am to 5pm\neducation: High School\nresponsibilities:\nCollaborate closely with GDC Technical Program Managers (TPMs), engineers, and product teams to support lab purchase requests, procurement tasks, supplier identification and enrollment, and stakeholder/supplier coordination, while providing timely status updates.\nTrack end-to-end delivery of all purchased materials and communicate delays, price changes, and completions to engineering teams.\nProcure and maintain software licenses, provision access to approved requesters, and track license expiration dates and renewals.\nMonitor bug requests and queues, updating queues as needed.\nManage high-volume operational tracking across 800+ annual Buganizer requests, 600+ purchase orders and deliveries, 25+ Hardware-as-a-Service (HWaaS) contracts with Systems Integrators, and 800+ invoices.\nqualifications:\nREQUIRED QUALIFICATIONS\nHigh School Diploma or equivalent.\n5+ years of experience in Supply Chain Enterprise Performance Management (EPM) (Advanced level).\n5+ years of experience in Program Management.\nRelevant industry experience in supply chain and program management operations.\nAuthorized to work in the United States as a US Citizen (USC) or Green Card (GC) holder.\nPREFERRED QUALIFICATIONS\nExperience working with Google and its internal tools/systems (such as Buganizer).\nExperience managing Hardware-as-a-Service (HWaaS) vendor contracts and high-volume purchase order/invoice resolution.\nskills:\nsoftware lifecycle management,software licensing,Communications,Enterprise Performance Management,TPMs,invoices,procurement,purchase orders,Program Management,Supply Chain\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\nQualified applicants in San Francisco with criminal histories will be considered for employment in accordance with the San Francisco Fair Chance Ordinance.\nQualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.\nWe will consider for employment all qualified Applicants, including those with criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the City of Los Angeles' Fair Chance Initiative for Hiring Ordinance."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "1369065",
           "title": "Infrastructure Cyber Security Risk Architect",
           "client_company": "",
@@ -3779,6 +3757,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "job summary:\n-committed to giving live feedback so we can continue to tweak our search for this resource\nlocation: Charlotte, North Carolina\njob type: Contract\nsalary: $74.95 - 84.95 per hour\nwork hours:\neducation: Bachelors\nqualifications:\ne2e infrastructure and cyber security process and architecture risk management consultant - infrastructure (network, mainframe, devops (terraform, ansible) how to design, architecture, and maintain and implement) - this resource will support all CTI executives so exec communication is critical\nskills:\nansible,CTI,cyber security,devops,mainframe,terraform,communication,architecture,infrastructure,process engineering,risk management,hard skills\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "1369143",
+          "title": "Supply Chain / Program Management Representative",
+          "client_company": "",
+          "city": "San Francisco",
+          "state": "CA",
+          "work_arrangement": "remote",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "36",
+          "pay_max": "46",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-19",
+          "url": "https://www.randstadusa.com/jobs/4/1369143/supply-chain-program-management-representative_san-francisco/",
+          "recruiter_name": "Randstad Technologies",
+          "recruiter_email": "technology@randstadusa.com",
+          "recruiter_phone": "",
+          "required_experience": "5+ years of experience",
+          "required_certifications": "",
+          "description": "job summary:\nWe are seeking a detail-oriented Supply Chain / Program Management Representative to support fast-paced lab operations and procurement workflows within our Communications, Media & Technology (CM&T) practice. Working remotely alongside Technical Program Managers, engineers, and product teams, you will drive end-to-end purchasing, supplier coordination, software licensing, and operational queue management.\nlocation: Telecommute\njob type: Contract\nsalary: $36 - 46  per hour\nwork hours: 8am to 5pm\neducation: High School\nresponsibilities:\nCollaborate closely with GDC Technical Program Managers (TPMs), engineers, and product teams to support lab purchase requests, procurement tasks, supplier identification and enrollment, and stakeholder/supplier coordination, while providing timely status updates.\nTrack end-to-end delivery of all purchased materials and communicate delays, price changes, and completions to engineering teams.\nProcure and maintain software licenses, provision access to approved requesters, and track license expiration dates and renewals.\nMonitor bug requests and queues, updating queues as needed.\nManage high-volume operational tracking across 800+ annual Buganizer requests, 600+ purchase orders and deliveries, 25+ Hardware-as-a-Service (HWaaS) contracts with Systems Integrators, and 800+ invoices.\nqualifications:\nREQUIRED QUALIFICATIONS\nHigh School Diploma or equivalent.\n5+ years of experience in Supply Chain Enterprise Performance Management (EPM) (Advanced level).\n5+ years of experience in Program Management.\nRelevant industry experience in supply chain and program management operations.\nAuthorized to work in the United States as a US Citizen (USC) or Green Card (GC) holder.\nPREFERRED QUALIFICATIONS\nExperience working with Google and its internal tools/systems (such as Buganizer).\nExperience managing Hardware-as-a-Service (HWaaS) vendor contracts and high-volume purchase order/invoice resolution.\nskills:\nsoftware lifecycle management,software licensing,Communications,Enterprise Performance Management,TPMs,invoices,procurement,purchase orders,Program Management,Supply Chain\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\nQualified applicants in San Francisco with criminal histories will be considered for employment in accordance with the San Francisco Fair Chance Ordinance.\nQualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.\nWe will consider for employment all qualified Applicants, including those with criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the City of Los Angeles' Fair Chance Initiative for Hiring Ordinance."
         },
         {
           "firm": "Randstad",
@@ -3848,28 +3848,6 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "ab_5151503",
-          "title": "Sales Operations Analyst",
-          "client_company": "",
-          "city": "Eden Prairie",
-          "state": "MN",
-          "work_arrangement": "remote",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "29",
-          "pay_max": "31.34",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-13",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5151503/sales-operations-analyst_eden-prairie/",
-          "recruiter_name": "Becky Statkus Smith",
-          "recruiter_email": "becky.statkussmith@randstadusa.com",
-          "recruiter_phone": "",
-          "required_experience": "2+ years of experience",
-          "required_certifications": "",
-          "description": "Sales Operations Analyst - Remote\nAre you ready to make a tangible impact in a collaborative, growth-oriented environment? We are seeking a proactive Sales Operations Analyst to drive operational efficiency and ensure accurate contract execution. In this fully remote role, you will be an integral part of our team, leveraging data and digital tools to enhance customer satisfaction and streamline complex business processes.\nYour Impact and Growth Opportunities\nOptimize Contract Data: Administer and maintain crucial pricing, rebate, and Agreement data within Vistex, ensuring flawless execution of customer eligibility and GPO tiers.\nChampion Cross-Functional Collaboration: Partner seamlessly with Sales, Finance, and Pricing teams to resolve operational challenges and promote best practices across the organization.\nSpearhead Process Improvement: Identify and implement strategic improvements using analytics, automation, and AI tools to boost scalability and mitigate risk in Contract Operations.\nEmpower the Team: Develop standard operating procedures and training materials, mentoring colleagues to cultivate a culture of continuous learning and shared success.\nDrive Customer Support: Manage customer eligibility determinations and interface with external GPO portals to validate essential contract information accurately.\nWhat You Bring to the Team\nEssential Qualifications: University Degree (BA/BS) with 2+ years of experience in Contract Operations involving complex data integration.\nTechnical Expertise: Working knowledge of Vistex, SAP, GDSN, EDI, and CRM systems, alongside demonstrated proficiency in Microsoft Excel and Word.\nCore Competencies: A meticulous, detail-oriented approach with the ability to thrive independently, communicate effectively, and manage multiple priorities.\nPreferred Skills: Demonstrated success in translating ambiguous data into actionable insights, utilizing emerging digital trends and tools to improve overall outcomes.\nTake the Decisive Next Step in Your Career Partner with our dedicated career advisors for expert guidance, transparent feedback, and streamlined access to this exciting role. Apply today to join our innovative team and let us champion your application!\nsalary: $29 - $31.34 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\n.\nSkills\nSales Operations Analyst\nVistex\nSAP\nSAP Vistex\nGDSN\nEDI\nSalesforce\nMS Office\nReporting Analytics\nAI Tools\nChargebacks\nGroup Purchasing\nMaster Data Management\nDistributor Inquiries\nContract Administration\nQualifications\nYears of experience: 2 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "ab_5159245",
           "title": "Business Execution Consultant 3",
           "client_company": "",
@@ -3911,6 +3889,28 @@
           "required_experience": "3+ years of experience",
           "required_certifications": "",
           "description": "job summary:\nWe are searching for a Document Control Manager to support a large manufacturing construction project in the metro Atlanta, GA area.\nThis is a long term contract position that could lead to a direct-hire role.\nCandidates can work remotely, but must be willing to travel to the Atlanta, GA area as needed.\nlocation: Telecommute\njob type: Contract\nsalary: $50 - 80  per hour\nwork hours: 8am to 5pm\neducation: Bachelors\nresponsibilities:\nAutodesk Forma Administration: Uploading, naming and classifying documents within Electronic Document Management Systems (Autodesk Forma) in accordance with business process requirements, across both project and routine operations contexts.\nCompliance & Auditing: Auditing documentation to ensure full compliance with pre-defined conventions, quality standard, and industry-specific regulations.\nDeliverables Tracking: Managing and monitoring the lifecycle of project deliverables to ensure adherence to established schedules and deadlines.\nDocument Lifecycle Management: Assigning unique document identifiers and managing workflows, including revisions, status updates, review and formal approvals, retirement, etc.\nqualifications:\n-Bachelor's Degree is required\n-3+ years of experience with documentation management\n-Knowledge of Documentation Management practices\n-Knowledge of Electronic Document Management Systems (Autodesk Forma)\n#LI-DC2\nskills:\nAutodesk,business process requirements,Data Integration,Data Administration,digital archives,Electronic Document Management Systems,document management,Access,Configuring,user accounts,Coordinating,access rights,Administration,As-Built Documentation,As-Built,Auditing,construction,dashboards,Archiving,Lifecycle Management,Technical Training,quality control,quality standard,Quality Assurance,Standardization,providing technical support,Delivering training,workflows\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "ab_5151503",
+          "title": "Sales Operations Analyst",
+          "client_company": "",
+          "city": "Eden Prairie",
+          "state": "MN",
+          "work_arrangement": "remote",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "29",
+          "pay_max": "31.34",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-13",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5151503/sales-operations-analyst_eden-prairie/",
+          "recruiter_name": "Becky Statkus Smith",
+          "recruiter_email": "becky.statkussmith@randstadusa.com",
+          "recruiter_phone": "",
+          "required_experience": "2+ years of experience",
+          "required_certifications": "",
+          "description": "Sales Operations Analyst - Remote\nAre you ready to make a tangible impact in a collaborative, growth-oriented environment? We are seeking a proactive Sales Operations Analyst to drive operational efficiency and ensure accurate contract execution. In this fully remote role, you will be an integral part of our team, leveraging data and digital tools to enhance customer satisfaction and streamline complex business processes.\nYour Impact and Growth Opportunities\nOptimize Contract Data: Administer and maintain crucial pricing, rebate, and Agreement data within Vistex, ensuring flawless execution of customer eligibility and GPO tiers.\nChampion Cross-Functional Collaboration: Partner seamlessly with Sales, Finance, and Pricing teams to resolve operational challenges and promote best practices across the organization.\nSpearhead Process Improvement: Identify and implement strategic improvements using analytics, automation, and AI tools to boost scalability and mitigate risk in Contract Operations.\nEmpower the Team: Develop standard operating procedures and training materials, mentoring colleagues to cultivate a culture of continuous learning and shared success.\nDrive Customer Support: Manage customer eligibility determinations and interface with external GPO portals to validate essential contract information accurately.\nWhat You Bring to the Team\nEssential Qualifications: University Degree (BA/BS) with 2+ years of experience in Contract Operations involving complex data integration.\nTechnical Expertise: Working knowledge of Vistex, SAP, GDSN, EDI, and CRM systems, alongside demonstrated proficiency in Microsoft Excel and Word.\nCore Competencies: A meticulous, detail-oriented approach with the ability to thrive independently, communicate effectively, and manage multiple priorities.\nPreferred Skills: Demonstrated success in translating ambiguous data into actionable insights, utilizing emerging digital trends and tools to improve overall outcomes.\nTake the Decisive Next Step in Your Career Partner with our dedicated career advisors for expert guidance, transparent feedback, and streamlined access to this exciting role. Apply today to join our innovative team and let us champion your application!\nsalary: $29 - $31.34 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\n.\nSkills\nSales Operations Analyst\nVistex\nSAP\nSAP Vistex\nGDSN\nEDI\nSalesforce\nMS Office\nReporting Analytics\nAI Tools\nChargebacks\nGroup Purchasing\nMaster Data Management\nDistributor Inquiries\nContract Administration\nQualifications\nYears of experience: 2 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
         },
         {
           "firm": "Randstad",
@@ -4024,6 +4024,28 @@
         },
         {
           "firm": "Randstad",
+          "job_id": "1367443",
+          "title": "IT Project Manager",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "40.68",
+          "pay_max": "50.68",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-04",
+          "url": "https://www.randstadusa.com/jobs/4/1367443/it-project-manager_charlotte/",
+          "recruiter_name": "Randstad Technologies",
+          "recruiter_email": "technology@randstadusa.com",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "job summary:\n- Manage the implementation and configuration of various systems and solutions.\n- Engage with stakeholder in discussions of the business situation and strategy.\n- Work with the business users to define the project scope and timelines.\n- Formulate and execute project plans, and manage cross-functional project teams across multiple geographies, solution practices and business domains.\n- Responsible for end-to-end delivery of multiple related material projects.\n- Manages, leads and direct the work efforts of resources that may be functionally aligned as part of the project or projects.\nlocation: Charlotte, North Carolina\njob type: Contract\nsalary: $40.68 - 50.68 per hour\nwork hours:\neducation: Bachelors\nresponsibilities:\n-         Manage the implementation and configuration of various systems and solutions.\n-         Engage with stakeholder in discussions of the business situation and strategy.\n-         Work with the business users to define the project scope and timelines.\n-         Formulate and execute project plans, and manage cross-functional project teams across multiple geographies, solution practices and business domains.\n-         Responsible for end-to-end delivery of multiple related material projects.\n-         Manages, leads and direct the work efforts of resources that may be functionally aligned as part of the project or projects.\nqualifications:\n- PMP Certified.\n- Solid knowledge of software development life cycle (Agile and Waterfall).\n- Previous experience in banking segment handling complex projects.\n- Contribute to risk culture by holding self-accountable to managing risk.\n- Excellent oral and written communication (English-Spanish).\n- Demonstrated compliance culture.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
+        },
+        {
+          "firm": "Randstad",
           "job_id": "ab_5135862",
           "title": "Business Execution Consultant 4",
           "client_company": "",
@@ -4065,28 +4087,6 @@
           "required_experience": "5 years\nExperience",
           "required_certifications": "",
           "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $58 - $60 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\nAct as a liaison between our lines of business and technology partners by facilitating the delivery of highly complex business problems to be solved with automated solutions\nSupport the business in the alignment of their Intelligent Automation (IA) needs/usage with their technology and business strategies\nSupport the development of the automation analysis and design methodology, including the related policies, procedures, tools and artifacts, to ensure a “rapid” implementation process that aligns with established release cycles and related enterprise standards\nWork directly with subject matter experts within the lines of business to fully comprehend business processes and translate those processes into clear and concise user stories,\ncreate and groom the backlog for automation delivery and deployment ,Support automation testing, as well as facilitate user acceptance testing\nConduct product demos, provide product acceptance\nSkills\nBusiness Systems Analysis\nBusiness Development\nBusiness Analysis\nQualifications\nYears of experience: 5 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
-        },
-        {
-          "firm": "Randstad",
-          "job_id": "1367443",
-          "title": "IT Project Manager",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "40.68",
-          "pay_max": "50.68",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-04",
-          "url": "https://www.randstadusa.com/jobs/4/1367443/it-project-manager_charlotte/",
-          "recruiter_name": "Randstad Technologies",
-          "recruiter_email": "technology@randstadusa.com",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "job summary:\n- Manage the implementation and configuration of various systems and solutions.\n- Engage with stakeholder in discussions of the business situation and strategy.\n- Work with the business users to define the project scope and timelines.\n- Formulate and execute project plans, and manage cross-functional project teams across multiple geographies, solution practices and business domains.\n- Responsible for end-to-end delivery of multiple related material projects.\n- Manages, leads and direct the work efforts of resources that may be functionally aligned as part of the project or projects.\nlocation: Charlotte, North Carolina\njob type: Contract\nsalary: $40.68 - 50.68 per hour\nwork hours:\neducation: Bachelors\nresponsibilities:\n-         Manage the implementation and configuration of various systems and solutions.\n-         Engage with stakeholder in discussions of the business situation and strategy.\n-         Work with the business users to define the project scope and timelines.\n-         Formulate and execute project plans, and manage cross-functional project teams across multiple geographies, solution practices and business domains.\n-         Responsible for end-to-end delivery of multiple related material projects.\n-         Manages, leads and direct the work efforts of resources that may be functionally aligned as part of the project or projects.\nqualifications:\n- PMP Certified.\n- Solid knowledge of software development life cycle (Agile and Waterfall).\n- Previous experience in banking segment handling complex projects.\n- Contribute to risk culture by holding self-accountable to managing risk.\n- Excellent oral and written communication (English-Spanish).\n- Demonstrated compliance culture.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
         },
         {
           "firm": "Randstad",
@@ -4178,28 +4178,6 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "1367113",
-          "title": "IT Program Manager",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "42.66",
-          "pay_max": "52.66",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-02",
-          "url": "https://www.randstadusa.com/jobs/4/1367113/it-program-manager_charlotte/",
-          "recruiter_name": "Randstad Technologies",
-          "recruiter_email": "technology@randstadusa.com",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "job summary:\nThis job is responsible for planning and coordinating the execution of project/program deliverables which requires the engagement of multiple teams. Key responsibilities include communicating work objectives, coordinating delivery, facilitating sync points across teams, providing end-to-end visibility into the health of the deliverables, and managing program risk and compliance to standards. Job expectations include ensuring delivery meets the client's expectations in terms of the functionality, quality, timeline, and cost\nlocation: Charlotte, North Carolina\njob type: Contract\nsalary: $42.66 - 52.66 per hour\nwork hours:\neducation: Bachelors\nresponsibilities:\nThis job is responsible for planning and coordinating the execution of project/program deliverables which requires the engagement of multiple teams. Key responsibilities include communicating work objectives, coordinating delivery, facilitating sync points across teams, providing end-to-end visibility into the health of the deliverables, and managing program risk and compliance to standards. Job expectations include ensuring delivery meets the client's expectations in terms of the functionality, quality, timeline, and cost\nqualifications:\n- 5+ years Change Management or Project Management Experience\n- 5+ years Banking domain experience supporting; prefer prior client experience.\n- 3+ years Governance experience\nskills:\nAgile,Confluence,JIRA,Excel,PowerPoint,Microsoft Project,Microsoft Applications,pivot tables,Software Development Lifecycle,Software Development Life Cycle (SDLC),Business acumen,communicating,coordinating,leadership,self-starter,team player,audit,audit experience,Banking,business analysis,Change Management,change process,Change Management processes,client experience,value proposition,compelling presentations,presentations,Communication planning,governance,innovative ideas,metrics,offshore,process improvement,Project Management,project plans,QA Process,executive presentations,gather requirements,Risk,stakeholder analysis,communication strategies,technical development,test plans,testing,Training Strategy,training strategies\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "ab_5132795",
           "title": "Business Execution Consultant 5",
           "client_company": "",
@@ -4219,6 +4197,28 @@
           "required_experience": "7 years\nExperience",
           "required_certifications": "",
           "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $78.88 - $81.88 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\nConsult as an expert to develop or influence initiatives and resources for highly complex business and technical needs across Business Execution.\nConsult on the strategy and resolution of highly complex and unique challenges requiring in-depth evaluation across multiple areas, delivering solutions that are long-term, large-scale and require vision, creativity, innovation, and advanced analytical and inductive thinking.\nProvide expertise to client senior leadership on innovative Business Execution business solutions. Strategically engage with client personnel.\nSkills\nBusiness Development\nBusiness Analysis\nBusiness operations\nQualifications\nYears of experience: 7 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "1367113",
+          "title": "IT Program Manager",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "42.66",
+          "pay_max": "52.66",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-02",
+          "url": "https://www.randstadusa.com/jobs/4/1367113/it-program-manager_charlotte/",
+          "recruiter_name": "Randstad Technologies",
+          "recruiter_email": "technology@randstadusa.com",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "job summary:\nThis job is responsible for planning and coordinating the execution of project/program deliverables which requires the engagement of multiple teams. Key responsibilities include communicating work objectives, coordinating delivery, facilitating sync points across teams, providing end-to-end visibility into the health of the deliverables, and managing program risk and compliance to standards. Job expectations include ensuring delivery meets the client's expectations in terms of the functionality, quality, timeline, and cost\nlocation: Charlotte, North Carolina\njob type: Contract\nsalary: $42.66 - 52.66 per hour\nwork hours:\neducation: Bachelors\nresponsibilities:\nThis job is responsible for planning and coordinating the execution of project/program deliverables which requires the engagement of multiple teams. Key responsibilities include communicating work objectives, coordinating delivery, facilitating sync points across teams, providing end-to-end visibility into the health of the deliverables, and managing program risk and compliance to standards. Job expectations include ensuring delivery meets the client's expectations in terms of the functionality, quality, timeline, and cost\nqualifications:\n- 5+ years Change Management or Project Management Experience\n- 5+ years Banking domain experience supporting; prefer prior client experience.\n- 3+ years Governance experience\nskills:\nAgile,Confluence,JIRA,Excel,PowerPoint,Microsoft Project,Microsoft Applications,pivot tables,Software Development Lifecycle,Software Development Life Cycle (SDLC),Business acumen,communicating,coordinating,leadership,self-starter,team player,audit,audit experience,Banking,business analysis,Change Management,change process,Change Management processes,client experience,value proposition,compelling presentations,presentations,Communication planning,governance,innovative ideas,metrics,offshore,process improvement,Project Management,project plans,QA Process,executive presentations,gather requirements,Risk,stakeholder analysis,communication strategies,technical development,test plans,testing,Training Strategy,training strategies\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
         },
         {
           "firm": "Randstad",
@@ -4365,20 +4365,20 @@
         "mac": {
           "ok": true,
           "info": {
-            "candidates": 117,
-            "details_read": 117,
-            "kept": 29,
-            "enumerated": 2722
+            "candidates": 122,
+            "details_read": 122,
+            "kept": 31,
+            "enumerated": 2778
           },
           "firm": "Randstad",
           "route": "mac",
-          "started_at": "2026-11-24T01:20:04.404683+00:00",
-          "completed_at": "2026-11-24T01:20:28.366405+00:00"
+          "started_at": "2026-11-24T22:56:10.603940+00:00",
+          "completed_at": "2026-11-24T22:56:51.058720+00:00"
         }
       },
-      "snapshot_at": "2026-11-24T21:32:28.993499+00:00",
-      "completed_at": "2026-11-24T21:32:55.328383+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T22:56:10.603940+00:00",
+      "completed_at": "2026-11-24T22:56:51.058720+00:00",
+      "snapshot_route": "mac"
     },
     "Aerotek": {
       "rows": [],
@@ -8400,8 +8400,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-24T21:56:10.743656+00:00",
-          "completed_at": "2026-11-24T22:02:40.269446+00:00"
+          "started_at": "2026-11-24T22:56:10.604839+00:00",
+          "completed_at": "2026-11-24T23:03:14.380178+00:00"
         }
       }
     },
@@ -9180,7 +9180,17 @@
       "firms_failed": 3,
       "timer_run_id": "45492039585",
       "timer_fired_at": "2026-11-24T22:32:07.854613+00:00"
+    },
+    {
+      "id": "037a1472-cb7e-4524-b6ab-ff8aa63bedbe",
+      "route": "mac",
+      "started_at": "2026-11-24T22:56:08.707435+00:00",
+      "completed_at": "2026-11-24T23:03:14.401287+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-24T22:42:05.031275+00:00"
+  "published_at": "2026-11-24T23:03:15.780423+00:00"
 }
