@@ -3419,8 +3419,8 @@
           "error": "Apex search returned no enumerable listings; preserving prior snapshot",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-24T20:56:10.129884+00:00",
-          "completed_at": "2026-11-24T20:57:50.313285+00:00"
+          "started_at": "2026-11-24T21:56:10.740746+00:00",
+          "completed_at": "2026-11-24T21:56:18.383075+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -8257,17 +8257,22 @@
           "completed_at": "2026-11-24T21:38:18.632808+00:00"
         },
         "mac": {
-          "ok": false,
-          "error": "Collabera incomplete search count",
+          "ok": true,
+          "info": {
+            "enumerated": 401,
+            "details_read": 67,
+            "kept": 13,
+            "browser_used": false
+          },
           "firm": "Collabera",
           "route": "mac",
-          "started_at": "2026-11-24T20:56:10.131762+00:00",
-          "completed_at": "2026-11-24T20:59:11.474239+00:00"
+          "started_at": "2026-11-24T21:56:10.741538+00:00",
+          "completed_at": "2026-11-24T22:04:34.902644+00:00"
         }
       },
-      "snapshot_at": "2026-11-24T19:34:03.905088+00:00",
-      "completed_at": "2026-11-24T19:42:24.080826+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T21:56:10.741538+00:00",
+      "completed_at": "2026-11-24T22:04:34.902644+00:00",
+      "snapshot_route": "mac"
     },
     "Mindlance": {
       "rows": [],
@@ -8285,8 +8290,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-24T20:56:10.133250+00:00",
-          "completed_at": "2026-11-24T21:03:07.430280+00:00"
+          "started_at": "2026-11-24T21:56:10.743656+00:00",
+          "completed_at": "2026-11-24T22:02:40.269446+00:00"
         }
       }
     },
@@ -9043,7 +9048,17 @@
       "firms_failed": 3,
       "timer_run_id": "45481742456",
       "timer_fired_at": "2026-11-24T21:31:56.937559+00:00"
+    },
+    {
+      "id": "46f25232-bee0-4456-8ad4-4a7175ee8db4",
+      "route": "mac",
+      "started_at": "2026-11-24T21:56:08.758537+00:00",
+      "completed_at": "2026-11-24T22:04:34.914738+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-24T21:38:19.986442+00:00"
+  "published_at": "2026-11-24T22:04:36.297117+00:00"
 }
