@@ -1,0 +1,30 @@
+name: Inspect official job sites
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Read public pages from cloud
+        run: |
+          mkdir diagnostics
+          python - <<'PY'
+          import urllib.request, pathlib, concurrent.futures
+          urls={'dexian':'https://dexian.com/jobs/','apex':'https://www.apexsystems.com/search-results-usa','apex-detail':'https://www.apexsystems.com/job/3059180_usa/helpdesk-associate','collabera':'https://www.collabera.com/job-search/'}
+          def fetch(item):
+              name,url=item
+              try:
+                  response=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; StaffingFeed/1.0)'}),timeout=60)
+                  pathlib.Path('diagnostics/'+name+'.html').write_bytes(response.read())
+                  print(name,response.status,response.url)
+              except Exception as error: print(name,str(error))
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(fetch,urls.items()))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: official-site-diagnostics
+          path: diagnostics/
+          retention-days: 3
