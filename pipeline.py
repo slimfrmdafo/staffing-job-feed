@@ -8,6 +8,10 @@ from collectors import REGISTRY,collect
 REPO=os.environ.get('STAFFING_REPO','slimfrmdafo/staffing-job-feed')
 BRANCH='feed'
 class GitHub:
+    state_file="state.json"
+    csv_file="staffing_jobs.csv"
+    status_file="staffing_status.txt"
+    def format_status(self,state):return status_text(state)
     def __init__(self):
         token=os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN')
         if not token:token=subprocess.check_output(['/usr/local/bin/gh','auth','token'],text=True).strip()
@@ -23,7 +27,7 @@ class GitHub:
         if not head:return None,{'firms':{},'runs':[]}
         commit=self.api('GET','git/commits/'+head)
         tree=self.api('GET','git/trees/'+commit['tree']['sha'])
-        entry=next((x for x in tree['tree'] if x['path']=='state.json'),None)
+        entry=next((x for x in tree['tree'] if x['path']==self.state_file),None)
         if not entry:raise RuntimeError('Published branch exists without state; refusing data loss')
         blob=self.api('GET','git/blobs/'+entry['sha'])
         state=json.loads(base64.b64decode(blob['content']))
@@ -34,7 +38,7 @@ class GitHub:
             rows=sorted((r for f in state['firms'].values() for r in f['rows']),key=lambda r:(r['firm'],r['job_id']))
             if not rows and not head:raise RuntimeError('No successful non-empty first snapshot; refusing empty initial feed')
             state.setdefault('runs',[]).append(run);state['runs']=state['runs'][-240:];state['published_at']=now()
-            content={'staffing_jobs.csv':csv_text(rows),'staffing_status.txt':status_text(state),'state.json':json.dumps(state,ensure_ascii=False,indent=2)}
+            content={self.csv_file:csv_text(rows),self.status_file:self.format_status(state),self.state_file:json.dumps(state,ensure_ascii=False,indent=2)}
             entries=[]
             for name,text in content.items():
                 blob=self.api('POST','git/blobs',json={'content':text,'encoding':'utf-8'})
