@@ -3463,8 +3463,8 @@
           "error": "Apex search returned no enumerable listings; preserving prior snapshot",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-24T18:56:10.222429+00:00",
-          "completed_at": "2026-11-24T18:57:09.037057+00:00"
+          "started_at": "2026-11-24T19:56:10.012209+00:00",
+          "completed_at": "2026-11-24T19:56:51.246056+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -7767,7 +7767,7 @@
           "city": "Charlotte",
           "state": "NC",
           "work_arrangement": "",
-          "job_type": "permanent",
+          "job_type": "",
           "contract_length": "",
           "pay_min": "",
           "pay_max": "",
@@ -7838,20 +7838,20 @@
         "mac": {
           "ok": true,
           "info": {
-            "candidates": 65,
-            "details_read": 65,
+            "candidates": 64,
+            "details_read": 64,
             "kept": 3,
-            "enumerated": 1520
+            "enumerated": 1521
           },
           "firm": "Vaco",
           "route": "mac",
-          "started_at": "2026-11-24T17:56:09.524850+00:00",
-          "completed_at": "2026-11-24T17:56:42.387693+00:00"
+          "started_at": "2026-11-24T19:56:10.012689+00:00",
+          "completed_at": "2026-11-24T19:57:01.902277+00:00"
         }
       },
-      "snapshot_at": "2026-11-24T18:33:10.023250+00:00",
-      "completed_at": "2026-11-24T18:33:13.912130+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T19:56:10.012689+00:00",
+      "completed_at": "2026-11-24T19:57:01.902277+00:00",
+      "snapshot_route": "mac"
     },
     "The Select Group": {
       "rows": [],
@@ -8285,8 +8285,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-24T18:56:10.225026+00:00",
-          "completed_at": "2026-11-24T19:02:47.507435+00:00"
+          "started_at": "2026-11-24T19:56:10.013799+00:00",
+          "completed_at": "2026-11-24T20:03:20.788126+00:00"
         }
       }
     },
@@ -9021,7 +9021,17 @@
       "firms_failed": 3,
       "timer_run_id": "45460411572",
       "timer_fired_at": "2026-11-24T19:31:33.866677+00:00"
+    },
+    {
+      "id": "fcd80872-2ca6-4d1a-8575-c51da60feea1",
+      "route": "mac",
+      "started_at": "2026-11-24T19:56:08.194868+00:00",
+      "completed_at": "2026-11-24T20:03:20.811959+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-24T19:42:25.678119+00:00"
+  "published_at": "2026-11-24T20:03:22.149369+00:00"
 }
