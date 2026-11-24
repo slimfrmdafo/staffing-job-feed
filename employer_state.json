@@ -623,8 +623,8 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-24T02:59:31.462561+00:00",
-          "completed_at": "2026-11-24T03:00:32.721551+00:00",
+          "started_at": "2026-11-24T03:23:12.353622+00:00",
+          "completed_at": "2026-11-24T03:24:20.853647+00:00",
           "ok": true,
           "info": {
             "enumerated": 2076,
@@ -636,8 +636,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T02:59:31.462561+00:00",
-      "completed_at": "2026-11-24T03:00:32.721551+00:00",
+      "snapshot_at": "2026-11-24T03:23:12.353622+00:00",
+      "completed_at": "2026-11-24T03:24:20.853647+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -652,9 +652,9 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "87000",
+          "pay_max": "140000",
+          "pay_unit": "year",
           "posted_date": "2026-11-23",
           "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/CHARLOTTE-NC/SAVP--Sr-Business-Execution-Consultant---CIB-Lending-Transformation_R-582336",
           "recruiter_name": "",
@@ -872,9 +872,9 @@
           "work_arrangement": "",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "87000",
+          "pay_max": "140000",
+          "pay_unit": "year",
           "posted_date": "2026-11-18",
           "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/SAINT-LOUIS-MO/Senior-Supervisory-Control-Specialist_R-588057",
           "recruiter_name": "",
@@ -977,13 +977,20 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-24T02:59:31.463333+00:00",
-          "completed_at": "2026-11-24T03:00:34.970664+00:00",
+          "started_at": "2026-11-24T03:23:12.354674+00:00",
+          "completed_at": "2026-11-24T03:24:27.162859+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1354,
-            "enumerated_raw": 1354,
-            "advertised": 1354,
+            "enumerated": 1355,
+            "enumerated_raw": 1355,
+            "advertised": 1355,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [
+              "R-580026",
+              "R-580230",
+              "R-588546"
+            ],
             "details_read": 21,
             "closed_during_pull": 0,
             "kept": 15,
@@ -992,15 +999,12 @@
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": [
-              "R-587693"
-            ]
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T02:59:31.463333+00:00",
-      "completed_at": "2026-11-24T03:00:34.970664+00:00",
+      "snapshot_at": "2026-11-24T03:23:12.354674+00:00",
+      "completed_at": "2026-11-24T03:24:27.162859+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1015,9 +1019,9 @@
           "work_arrangement": "",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "180000",
+          "pay_max": "200000",
+          "pay_unit": "year",
           "posted_date": "2026-11-23",
           "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/LoD2--Technology-Risk-Senior-Specialist_R0118690",
           "recruiter_name": "",
@@ -1191,9 +1195,9 @@
           "work_arrangement": "onsite",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "100000",
+          "pay_max": "115000",
+          "pay_unit": "year",
           "posted_date": "2026-11-17",
           "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Winston-Salem-NC/Risk-Governance-and-Reporting-Senior-Analyst_R0120884",
           "recruiter_name": "",
@@ -1213,9 +1217,9 @@
           "work_arrangement": "",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "88000",
+          "pay_max": "115000",
+          "pay_unit": "year",
           "posted_date": "2026-11-16",
           "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA/Sr-Internal-Auditor---Compliance---Ethics-Risk-Management_R0119924",
           "recruiter_name": "",
@@ -1499,9 +1503,9 @@
           "work_arrangement": "",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "157000",
+          "pay_max": "262000",
+          "pay_unit": "year",
           "posted_date": "2026-10-23",
           "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/Principal-Enterprise-Architect---Fraud---AML-Technology_R0121146",
           "recruiter_name": "",
@@ -1543,9 +1547,9 @@
           "work_arrangement": "",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "185000",
+          "pay_max": "230000",
+          "pay_unit": "year",
           "posted_date": "2026-10-22",
           "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Richmond-VA/Cybersecurity-Risk-Senior-Specialist_R0120929",
           "recruiter_name": "",
@@ -1565,9 +1569,9 @@
           "work_arrangement": "",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "115000",
+          "pay_max": "145000",
+          "pay_unit": "year",
           "posted_date": "2026-10-19",
           "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/Business-Unit-Risk-Specialist-I-II---FINRA_R0120816",
           "recruiter_name": "",
@@ -1763,9 +1767,9 @@
           "work_arrangement": "",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "96000",
+          "pay_max": "120000",
+          "pay_unit": "year",
           "posted_date": "2026-09-03",
           "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Richmond-VA/Sr-Internal-Auditor---Finance-and-Regulatory-Reporting_R0118280",
           "recruiter_name": "",
@@ -1802,24 +1806,26 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-24T02:59:31.463574+00:00",
-          "completed_at": "2026-11-24T03:00:55.510807+00:00",
+          "started_at": "2026-11-24T03:23:12.355037+00:00",
+          "completed_at": "2026-11-24T03:24:49.803022+00:00",
           "ok": true,
           "info": {
             "enumerated": 1344,
             "enumerated_raw": 1344,
             "advertised": 1344,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 49,
             "closed_during_pull": 0,
             "kept": 36,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T02:59:31.463574+00:00",
-      "completed_at": "2026-11-24T03:00:55.510807+00:00",
+      "snapshot_at": "2026-11-24T03:23:12.355037+00:00",
+      "completed_at": "2026-11-24T03:24:49.803022+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1983,72 +1989,30 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-24T02:59:31.463708+00:00",
-          "completed_at": "2026-11-24T02:59:40.171243+00:00",
+          "started_at": "2026-11-24T03:23:12.355343+00:00",
+          "completed_at": "2026-11-24T03:23:22.390395+00:00",
           "ok": true,
           "info": {
             "enumerated": 72,
             "enumerated_raw": 72,
             "advertised": 72,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 9,
             "closed_during_pull": 0,
             "kept": 7,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T02:59:31.463708+00:00",
-      "completed_at": "2026-11-24T02:59:40.171243+00:00",
+      "snapshot_at": "2026-11-24T03:23:12.355343+00:00",
+      "completed_at": "2026-11-24T03:23:22.390395+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
       "rows": [
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02687987",
-          "title": "Legal Operations - Data Analyst",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-17",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Legal-Operations---Data-Analyst_JR-02687987-1",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "4 Years of Experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to support the Legal eBilling system and the outside counsel management program. This role will oversee the ebilling process, onboarding of new outside counsel firms, monitor compliance with outside counsel guidelines, analyze outside counsel rate increase requests, prepare monthly accruals and prepare wire transfers. This individual has frequent access to confidential information.\nWhat You Will Do\nManage the Legal Department’s eBilling process. Provide billing support to the Legal Department, Law Firms, interacting independently with attorneys and outside counsel firms. Research billing issues\nResolve billing issues by working across multiple teams such as Vendor Setup, Accounts Payable and Finance\nManage the onboarding process for law firms into our eBilling and vendor management systems, partnering with various internal partners, including Data Security, and external partners, including eBilling provider\nManage the outside counsel scorecard and reporting\nMaintain rate tables and alternative fee agreements of each outside counsel firm. Perform first line analysis of timekeeper rate requests\nPrepare check requests, enters invoices into the matter management system and handle incoming checks for deposit\nPrepare international wire requests\nMaintain the eBilling guidelines and training materials\nProvide training to internal invoice approvers\nProactively seek ways to improve current processes to maximize productivity, workflow, and efficiency in all aspects of the eBilling function\nCreate spreadsheets including formulas to organize, display, and summarize data, facilitate analysis, and identify interrelationships; prepares special reports for other departments and external customers\nManage accruals, including running and delivering monthly eBilling accrual reports\nAct as the contact person for external vendors and uses independent judgment to respond to requests for information or to refer more complex requests to appropriate staff members; follows up to ensure issues have been resolved\nWorks with or provides confidential and sensitive information and exercises discretion concerning its dissemination\nAssist with data analysis and develop reports and visual summaries\nMinimum Qualifications\nAssociate degree  or equivalent years of experience in lieu of education requirement, if applicable\nBachelor’s degree  or equivalent years of experience in lieu of education requirement, if applicable\n4 Years of Experience working in a corporate legal department or law firm\n2 Years of Experience working in a corporate legal department or law firm\nPreferred Skills/Education\nExperience with Passport eBilling and matter management system\nExperience managing large volumes of work\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02703739",
-          "title": "Lead, Private Brands Program Management",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-13",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Lead--Private-Brands-Program-Management_JR-02703739",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "5 years of experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Category Management Lead will work cross-functionally to ideate, develop, project manage, and deliver Private Brands creative programs. This role will identify opportunities and coordinate product category strategies to enhance the Private Brands omnichannel experience, elevate the brand, and increase consumer engagement. The Category Management Lead is responsible for managing the execution of concurrent and complex projects from conception through delivery, including managing scope and resources, scheduling, budget tracking, developing project plans, and providing status updates to both project stakeholders and executive teams. This role will manage all factors that govern project success to ensure high-quality delivery within time, cost and quality parameters.\nWhat You Will Do\nWork collaboratively and synthesize feedback and input from marketing, merchandising, product, creative and brand partners.\nUnderstand business partners' long-range requirements and engage in strategic planning and partnering to ensure alignment.\nUnderstand the category and key competitors to develop customer specific category growth strategies and knowledge.\nMaintain a balanced focus on both the small details of a project and the larger objectives and schedule to complete projects successfully and on-time.\nFacilitate project-related team meetings and communicate action steps to ensure all stakeholders have updated daily reports and project milestones. Communicate consistently with project stakeholders and executives as appropriate, ensuring deliverables are being met by all team members at all stages of the project.\nManage the design and development process of graphics, copy and photography for all creative projects.\nReview all creative, inclusive of item-specific packaging production, to ensure that quality and brand standards are met, and product(s) is being showcased in a way that will resonate with the consumer and facilitate the buying process.\nLiaise with outside agencies and vendors to ensure seamless integration and delivery of creative and production projects.\nBuild and foster relationships with both internal and external teams, acting as the liaison between internal customers and creative production teams.\nDrive process improvements and minimize risk to the organization and customer.\nMinimum Qualifications\nBachelor’s degree in business, marketing or related field or equivalent years of experience in lieu of education requirement, if applicable\n7 years of general experience, including 5 years of experience managing multiple product vendors and categories\nExperience in a marketing, large retail environment, consumer package goods company, or advertising agency that services Fortune 500 companies\nExperience developing and executing omni-channel brand strategies\nExperience working with design, advertising and/or marketing teams\nDemonstrated ability to influence people and craft compelling, fact-based stories to drive category solutions internally and with the customer\nProven ability to liaise with internal stakeholders and creative teams to ensure timely delivery of creative projects, working with both internal teams and external partners\nPreferred Skills/Education\nExperience using MAC platform\nKnowledge in packaging development, structural and print/production\nAdept at writing detailed statements of work and project briefs\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
         {
           "firm": "Lowe's",
           "job_id": "JR-02702351",
@@ -2062,8 +2026,8 @@
           "pay_min": "",
           "pay_max": "",
           "pay_unit": "",
-          "posted_date": "2026-11-12",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Loyalty-Program-Marketing-Manager_JR-02702351",
+          "posted_date": "2026-11-18",
+          "url": "https://talent.lowes.com/us/en/job/JR-02702351",
           "recruiter_name": "",
           "recruiter_email": "",
           "recruiter_phone": "",
@@ -2084,8 +2048,8 @@
           "pay_min": "",
           "pay_max": "",
           "pay_unit": "",
-          "posted_date": "2026-11-12",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Business-Project-Manager_JR-02700383",
+          "posted_date": "2026-11-18",
+          "url": "https://talent.lowes.com/us/en/job/JR-02700383",
           "recruiter_name": "",
           "recruiter_email": "",
           "recruiter_phone": "",
@@ -2095,8 +2059,8 @@
         },
         {
           "firm": "Lowe's",
-          "job_id": "JR-02657078",
-          "title": "Sr Analyst-Merchandising Operations Data Governance",
+          "job_id": "JR-02687987",
+          "title": "Legal Operations - Data Analyst",
           "client_company": "",
           "city": "Mooresville",
           "state": "NC",
@@ -2106,36 +2070,14 @@
           "pay_min": "",
           "pay_max": "",
           "pay_unit": "",
-          "posted_date": "2026-11-09",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Sr-Analyst-Merchandising-Operations-Data-Governance_JR-02657078",
+          "posted_date": "2026-11-19",
+          "url": "https://talent.lowes.com/us/en/job/JR-02687987",
           "recruiter_name": "",
           "recruiter_email": "",
           "recruiter_phone": "",
-          "required_experience": "",
+          "required_experience": "4 Years of Experience",
           "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Merchandising Operations role works in one of the functional areas of Merchandising Operations supporting their assigned line of business. The Sr Analyst will focus on their level of responsibilities to include more advanced consulting to the business and addressing challenges within their area of responsibility. Key functional areas include Vendor/Item Onboarding, Reporting, Operational Services, Vendor Compliance, Product Content, Data Governance and Tech Enablement. Responsibilities may vary based on the area of work.\nWhat You Will Do\nAnalytics- Handle interpretation, higher level analysis, storytelling of data. Consumer - utilizing segmentation. Utilize internal and external facing applications, Microsoft data analytics tools.\nBuilding Relationships- Promote cooperation and teamwork; strong interpersonal skills; establish and maintain trust and credibility with leaders and team.\nCommunication- Addressing challenges and issues within area (not day to day). Deliver some of the internal training. Gather and create content.\nIssue Resolution-May take on more complex issues and helps drive resolution.\nTraining/Development-Works with leaders on identifying needs and developing solutions for the functional area.\nReporting-Gathers and analyzes data and helps translate date into action and insights.\nProcess Improvement-Identifies opportunities and helps design solutions.\nTechnology Requirements- Supports governance of data stewardship, roles, and permissions to help ensure appropriate ownership, access, and accountability across merchandising systems\nProject Management-Provide customer feedback, manage project timelines with own projects.\nLiaison with international partners on more complex issues.\nMerchandising & Vendor Engagement- Focus on strategic and vendors with complex issues; ensure master level is addressed; trusted partner (merchant & vendor).\nBusiness Alignment-Focused on business unit (including MVP areas) store merchandising functional areas.\nCreates usage standards, guidelines, and statements of direction to track the quality, availability, and applicability of data through to full business integration\nTests, implements, and supports technology solutions to ensure efficiency and business continuity\nUses relevant data, analytics, and customer feedback to help develop and drive the solutions offered to Lowe's internal customers\nWorks to on-board and train new-users on best practices and system updates and/or changes for all merchandising information systems\nMinimum Qualifications\nBachelor’s degree Business, Accounting, Finance, Economics, or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\nExperience in structuring and writing formal documents, developing and delivering group presentations, project planning, and/or cross-functional collaboration\nPreferred Skills/Education\nExperience in Microsoft products (Outlook, PowerPoint, etc.) and relational business software\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02685339",
-          "title": "Legal Program Manager",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-10-30",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Legal-Program-Manager_JR-02685339-1",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "7 years of experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Legal Program Manager drives the governance, and execution of the Legal department's technology business portfolio. This role serves as the primary liaison between Legal, information technology, and external partners to ensure solutions align with departmental priorities and Lowe's enterprise technology strategy. The Program Manager partners with Legal leadership to identify and deliver initiatives that improve efficiency, strengthen adoption, and maximize the value of investments. Success requires strong relationship management, strategic thinking, organizational influence, and the ability to manage cross-functional initiatives that deliver measurable business outcomes.\nWhat You Will Do\nSupport the development and execution of the legal department’s operational and technology roadmap, ensuring alignment with departmental priorities and business needs.\nPartner with legal leadership and practice areas to identify process challenges, prioritize improvement opportunities, and determine where new technology may add value.\nCoordinate business cases, vendor assessments, pilot programs, implementation activities, and ongoing enhancements for legal tools and solutions.\nServe as a liaison amongst legal, IT, finance, procurement, vendors, and other partners to support effective planning and delivery.\nReview legal workflows and recommend opportunities to simplify, standardize, and improve processes through technology and operational changes.\nAssess emerging legal tools, including AI-enabled capabilities, to determine their potential to improve efficiency, consistency, and service delivery.\nPromote consistent processes, effective tool usage, and operational discipline across legal practice areas.\nSupport attorneys and staff through training, guidance, communications, and issue resolution related to legal systems and processes.\nDevelop user guides, job aids, and other resources to support implementation, engagement, and adoption.\nGather feedback from legal teams to identify enhancements and ensure processes and tools continue to meet departmental needs.\nMinimum Qualifications\nBachelor’s degree in business, technology, legal studies, or related field or equivalent years of experience in lieu of education requirement, if applicable\n7 years of experience in legal operations, legal technology, corporate operations, or related support roles\nExperience with legal technology platforms such as matter management, e-billing, CLM, workflow automation, or AI-enabled legal tools\nAbility to manage multiple priorities in a fast-paced environment and collaborate across diverse teams\nExcellent communication skills, with the ability to explain technical concepts to non-technical stakeholders\nPreferred Skills/Education\nExperience supporting legal technology at a large, matrixed organization\nFamiliarity with systems commonly used in corporate legal departments (e.g., CounselLink, Ironclad, Onit, iManage, ServiceNow Legal)\nProcess improvement experience (Lean, Six Sigma, or similar methodologies)\nPrevious experience working with or supporting outside counsel and legal vendors\nExpertise in Microsoft PowerPoint and executive storytelling, with the ability to synthesize complex data, technology initiatives, and operational insights into clear, compelling presentations for senior leadership and executive stakeholders\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to support the Legal eBilling system and the outside counsel management program. This role will oversee the ebilling process, onboarding of new outside counsel firms, monitor compliance with outside counsel guidelines, analyze outside counsel rate increase requests, prepare monthly accruals and prepare wire transfers. This individual has frequent access to confidential information.\nWhat You Will Do\nManage the Legal Department’s eBilling process. Provide billing support to the Legal Department, Law Firms, interacting independently with attorneys and outside counsel firms. Research billing issues\nResolve billing issues by working across multiple teams such as Vendor Setup, Accounts Payable and Finance\nManage the onboarding process for law firms into our eBilling and vendor management systems, partnering with various internal partners, including Data Security, and external partners, including eBilling provider\nManage the outside counsel scorecard and reporting\nMaintain rate tables and alternative fee agreements of each outside counsel firm. Perform first line analysis of timekeeper rate requests\nPrepare check requests, enters invoices into the matter management system and handle incoming checks for deposit\nPrepare international wire requests\nMaintain the eBilling guidelines and training materials\nProvide training to internal invoice approvers\nProactively seek ways to improve current processes to maximize productivity, workflow, and efficiency in all aspects of the eBilling function\nCreate spreadsheets including formulas to organize, display, and summarize data, facilitate analysis, and identify interrelationships; prepares special reports for other departments and external customers\nManage accruals, including running and delivering monthly eBilling accrual reports\nAct as the contact person for external vendors and uses independent judgment to respond to requests for information or to refer more complex requests to appropriate staff members; follows up to ensure issues have been resolved\nWorks with or provides confidential and sensitive information and exercises discretion concerning its dissemination\nAssist with data analysis and develop reports and visual summaries\nMinimum Qualifications\nAssociate degree  or equivalent years of experience in lieu of education requirement, if applicable\nBachelor’s degree  or equivalent years of experience in lieu of education requirement, if applicable\n4 Years of Experience working in a corporate legal department or law firm\n2 Years of Experience working in a corporate legal department or law firm\nPreferred Skills/Education\nExperience with Passport eBilling and matter management system\nExperience managing large volumes of work\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
         },
         {
           "firm": "Lowe's",
@@ -2150,58 +2092,14 @@
           "pay_min": "",
           "pay_max": "",
           "pay_unit": "",
-          "posted_date": "2026-10-26",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Merchandising-Project-Manager_JR-02673910",
+          "posted_date": "2026-11-23",
+          "url": "https://talent.lowes.com/us/en/job/JR-02673910",
           "recruiter_name": "",
           "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "3 Years Experience",
           "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to project manager within their assigned Merchandising division in order to deliver on defined scope, timeline and budget. This includes responsibility for planning and overseeing the deployment of their respective Merchandising division's go-to-market strategy by supporting each Product Group's vision, identifying project scope, developing timelines, providing status reporting, leading risk mitigation and prioritizing the day-to-day tasks of an internal CSC team across several functions. This role is critical to Lowe's because through the effective project management of these initiatives, Lowe's is able to support the market introduction of new products and selling material empowering store associates to drive incremental sales and margin\nWhat You Will Do\nDelivers the planned Merchandising Division project portfolio for their respective division consisting of ~50 projects and ~$60M of expenditure annually\nSupports the Merchandising Division's leadership; aligns one-to-one with a Merchandising VP and supports the go-to-market strategy for that division\nPrioritizes project/task priorities across the cross-functional project team usually consisting of ~10-12 members; works closely with the project team & client to ensure timely implementation and rollout of projects and ensures that all appropriate project activities are defined and appropriately assigned for accountability\nCaptures project specific intent/scope and develops timelines and functional resource alignment to execute intent; escalates deviations or variances on scope, timeline and budget to appropriate Merchandising Leadership & client\nIdentifies risks and leads mitigation efforts, identifies system, process, and training gaps, as well as notes resource constraints and escalates to the respective client and Merchandising Leadership as needed\nSupports the Portfolio forecasting and the Project Authorization Request (PAR) processes and collaborates with leaders across the organization to ensure data and information is entered on time, aligned with key reporting dates, and accurately depicts their team’s projects\nParticipates in the preparation for the annual forecast solicitation process with clients and portfolio team and assists in monthly updates to the forecast\nConsolidates and reports spend variances to budgets/forecasts to the portfolio team and Merchandising Operations leadership throughout the lifecycle of their team’s projects\nCoordinates with the Portfolio & Financial Support team to ensure their team’s portfolio is accurately represented in all dashboards, monthly reports, and quarterly solicitations\nDevelops and tracks project plans in the project management tool (PMT) to identify issues and opportunities, form hypotheses, design and conduct analyses, track major milestones / progress, synthesize conclusions and approve final plans to implement change and ensures ongoing project data accuracy\nMinimum Qualifications\nBachelor’s degree Business Management, Business Administration, Computer Science or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\n3 Years Experience leading operational process review, design and implementation of improvements; industry related experience\n2 years leadership experience with direct report responsibility, comfortable managing teams with 5+ people. Expert in project life cycle methodologies (Waterfall, Agile, etc.), stakeholder. management, conflict resolution, executive communication (written, verbal, etc.\n4 years experience developing project Work Breakdown Structures (WBS) / User Stories used to create project schedules and estimates\nPreferred Skills/Education\nMaster’s degree Business Management, Business Administration, Computer Science or related field\n3 Years Experience leading operational process review, design and implementation of improvements; industry related experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02681238",
-          "title": "BDC Sr. Operations Development Manager",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-10-23",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/BDC-Sr-Operations-Development-Manager_JR-02681238",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "8-10 Years of experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nApplicants must be authorized to work for ANY employer in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa at any time.\nYour Impact\nThe Bulk Distribution Center (BDC) Sr. Operations Development Manager will provide exceptional leadership over operations, process guidance and direction for one or more supply chain facilities. Responsibilities include project management and coordinating and executing efficient inventory movement in and out of facilities.  Other success factors in this role include data analysis and customer relations skills.\nWhat You Will Do\nLeads operations planning and execution for facility events, including project management, coordinating and executing efficient and effective inventory movement in and out of facilities, and communicating to external project managers and customers.\nDefines, coordinates, and executes logistics plan (network inbound / outbound / storage) data collection and analysis to support the evaluation of needed resources as supply chain workflow conditions and store demand changes.\nHelps establish and implement recommendations for needed product flow changes based on projected overflow of planned capacity in supply chain.\nAssesses actual product flows against flow plans; identifies exceptions to Logistics Planning and recommends action.\nManages distribution network events as needed (i.e. TAT, Black Friday, Chinese New Year, large flow resets, all resets and promotions for CFD products) to collect key information from logistics planning and coordinates as needed with transportation, engineering, and operations.\nReport to upper management and corporate leaders all relevant key performance and financial figures.\nManages internal tools and directs individuals to monitor results, alerting supply chain management to trends or conditions that may adversely impact supply chain operations and identifying opportunities to improve flow.\nProduces departmental reporting as needed to support group/business needs and goals as well as future state discussions and improvement initiatives.\nDevelop comprehensive plans to support major initiatives and system enhancement prioritization.\nLed operations of assigned facilities within the BDC network, including third party logistics (3PL) operated facilities, in achieving high levels of efficiency, safety, and customer service related to the distribution of bulk product.\nHires, trains and develops the talent necessary to achieve stated business goals.\nLead the design and development of functional solutions and reporting tools to improve operational efficiency and cost effectiveness through improved systems capability, process improvement, product flow methods, and applied technology.\nProactively identify opportunities for continuous improvement across areas of new process development, project implementation and systems enhancements.\nLeverage continuous improvement methodologies to measure team and process success.\nDefine and manage actions for continuous improvement.\nThis position manages/supervises people\nMinimum Qualifications\nBachelor’s degree in operations, supply chain, or related field and 8-10 Years of experience in supply chain and/or project management.\n5-7 Years of related experience including project management and inventory process management.\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
-        },
-        {
-          "firm": "Lowe's",
-          "job_id": "JR-02679740",
-          "title": "Sr Analyst-Product Compliance",
-          "client_company": "",
-          "city": "Mooresville",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-10-22",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Sr-Analyst-Product-Compliance_JR-02679740",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "5 Years experience",
-          "required_certifications": "",
-          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Product Compliance is responsible for executing key activities that support Lowe's product compliance programs, helping to protect customers, the business, and the brand from regulatory and safety risks. This role focuses on monitoring and interpreting state and federal regulations, ensuring timely awareness and proactive compliance across Lowe's product categories.\nThe Sr Analyst partners closely with cross-functional teams—including Merchandising, Sourcing, Quality Assurance, Legal, and Sustainability—as well as vendors, testing laboratories, regulatory bodies, and industry associations. By providing detailed analysis, reporting, and operational support, this role plays a critical part in advancing Lowe's compliance strategy and ensuring products meet or exceed regulatory and safety standards.\nWhat You Will Do\nExecute processes that mitigate product compliance risks to Lowe’s and its customers, ensuring activities are completed on time and in adherence to company standards.\nSupport the preparation and delivery of compliance-related reports to meet state and federal obligations.\nAdminister vendor-related compliance programs, including Conflict Minerals, and Mercury Surveys.\nPartner with Legal to monitor and interpret emerging state and federal regulations, assess business impacts, and implement appropriate compliance controls.\nCommunicate key regulatory updates and new obligations to stakeholders across the organization.\nExecute regulatory stop-sales for in-scope items and provide guidance to Merchandising and Legal on process requirements and risk implications.\nCollaborate with Quality Assurance Engineering and approved third-party labs to ensure testing protocols address regulatory requirements.\nDevelop solutions for upcoming regulations where existing protocols or programs are insufficient.\nPartner with Legal, Quality Assurance, Merchandising, Sourcing, and vendors to complete compliance activities and resolve issues.\nEngage with regulatory agencies on notices of violation (e.g., weights & measures, product registration), coordinate with vendors to collect fines, and support corrective actions.\nBenchmark compliance practices through continuous learning and participation in industry associations such as ICPHSO and RILA.\nDocument policies and procedures that support product compliance programs and ensure consistent execution.\nProvide training and guidance to internal stakeholders to promote best practices and build a culture of compliance.\nCollaborate with technology partners to develop, test, and launch systems that improve compliance processes.\nMinimum Qualifications\nBachelor’s degree in Engineering, Science, Business, or related field or equivalent years of experience in lieu of education requirement, if applicable\n5 Years experience in product safety, regulatory compliance, quality, or related field in a retail or manufacturing environment\n2 years experience in product regulations in North America (CPSC, EPA, FDA, etc.)\nincluding state level regulations\n2 years experience leading/facilitating cross-functional projects\nPreferred Skills/Education\nRetail operations experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe primary purpose of this role is to project manager within their assigned Merchandising division in order to deliver on defined scope, timeline and budget. This includes responsibility for planning and overseeing the deployment of their respective Merchandising division's go-to-market strategy by supporting each Product Group's vision, identifying project scope, developing timelines, providing status reporting, leading risk mitigation and prioritizing the day-to-day tasks of an internal CSC team across several functions. This role is critical to Lowe's because through the effective project management of these initiatives, Lowe's is able to support the market introduction of new products and selling material empowering store associates to drive incremental sales and margin\nWhat You Will Do\nDelivers the planned Merchandising Division project portfolio for their respective division consisting of 50 projects and $60M of expenditure annually\nSupports the Merchandising Division's leadership; aligns one-to-one with a Merchandising VP and supports the go-to-market strategy for that division\nPrioritizes project/task priorities across the cross-functional project team usually consisting of 10-12 members; works closely with the project team & client to ensure timely implementation and rollout of projects and ensures that all appropriate project activities are defined and appropriately assigned for accountability\nCaptures project specific intent/scope and develops timelines and functional resource alignment to execute intent; escalates deviations or variances on scope, timeline and budget to appropriate Merchandising Leadership & client\nIdentifies risks and leads mitigation efforts, identifies system, process, and training gaps, as well as notes resource constraints and escalates to the respective client and Merchandising Leadership as needed\nSupports the Portfolio forecasting and the Project Authorization Request (PAR) processes and collaborates with leaders across the organization to ensure data and information is entered on time, aligned with key reporting dates, and accurately depicts their team’s projects\nParticipates in the preparation for the annual forecast solicitation process with clients and portfolio team and assists in monthly updates to the forecast\nConsolidates and reports spend variances to budgets/forecasts to the portfolio team and Merchandising Operations leadership throughout the lifecycle of their team’s projects\nCoordinates with the Portfolio & Financial Support team to ensure their team’s portfolio is accurately represented in all dashboards, monthly reports, and quarterly solicitations\nDevelops and tracks project plans in the project management tool (PMT) to identify issues and opportunities, form hypotheses, design and conduct analyses, track major milestones / progress, synthesize conclusions and approve final plans to implement change and ensures ongoing project data accuracy\nMinimum Qualifications\nBachelor’s degree Business Management, Business Administration, Computer Science or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\n3 Years Experience leading operational process review, design and implementation of improvements; industry related experience\n2 years leadership experience with direct report responsibility, comfortable managing teams with 5+ people. Expert in project life cycle methodologies (Waterfall, Agile, etc.), stakeholder. management, conflict resolution, executive communication (written, verbal, etc.\n4 years experience developing project Work Breakdown Structures (WBS) / User Stories used to create project schedules and estimates\nPreferred Skills/Education\nMaster’s degree Business Management, Business Administration, Computer Science or related field\n3 Years Experience leading operational process review, design and implementation of improvements; industry related experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
         },
         {
           "firm": "Lowe's",
@@ -2216,38 +2114,146 @@
           "pay_min": "",
           "pay_max": "",
           "pay_unit": "",
-          "posted_date": "2026-10-04",
-          "url": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Mooresville-NC-SSC-1999/Risk-Finance---Analytics-Lead_JR-02661951",
+          "posted_date": "2026-11-15",
+          "url": "https://talent.lowes.com/us/en/job/JR-02661951",
           "recruiter_name": "",
           "recruiter_email": "",
           "recruiter_phone": "",
           "required_experience": "",
           "required_certifications": "",
           "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Risk Finance & Analytics Lead provides strategic, forward-looking financial and analytical insight for Lowe's casualty risk programs. This role develops models, forecasts and decision-support analyses that explain financial and claims performance, identify emerging risks and opportunities, and inform risk-financing, operational and strategic decisions. The role works across risk management, finance, accounting, safety, legal, operations, IT and external partners to connect claims activity and operational trends to financial outcomes. Success in this role requires the ability to move beyond reporting what happened to explain why it happened, what may happen next and what action should be taken. The Lead is expected to demonstrate intellectual curiosity, challenge assumptions, proactively identify areas for deeper analysis and bring forward new ideas, models and analytical approaches. The role also serves as a key risk management business and data subject-matter expert, helping translate casualty business needs and data relationships into scalable data lake, dashboard and analytical solutions.\nWhat You Will Do\nDevelop and enhance financial models supporting casualty loss forecasts, insurance accruals, budgets, long-range plans, Total Cost of Risk and other risk-financing decisions.\nAnalyze performance against forecast, budget, actuarial expectations and prior periods; identify underlying drivers of variance and translate results into clear business implications and recommended actions.\nEvaluate claim frequency, severity, reserve development, payment patterns, closures, litigation, large losses and other emerging cost drivers across workers' compensation, general liability and auto liability programs.\nCreate scenario, sensitivity and trend analyses to assess potential financial outcomes, challenge assumptions and support strategic and operational decisions.\nPartner with external actuaries to validate loss and exposure data, evaluate assumptions, interpret reserve and loss-development results, reconcile actuarial liabilities to financial results, and monitor emerging development between formal studies.\nDevelop internal monitoring tools, leading indicators and analytical frameworks designed to identify potential financial deterioration or improvement before it is fully reflected in reported results.\nMeasure the financial and operational impact of claims strategies, vendor programs, clinical initiatives, process changes and other risk-management investments; develop business cases and post-implementation analyses to assess value and performance.\nProduce executive-level reporting and decision support that clearly communicates performance, underlying drivers, outlook, risks, opportunities and recommended actions; translate complex actuarial, claims and financial information into practical business insights.\nServe as a key risk management partner to finance and accounting, supporting the integrity of casualty accruals, liabilities, forecasts, reconciliations, excess recoveries and financial reporting, including applicable financial controls, SOX and audit requirements.\nServe as the risk management business and data subject-matter expert for enterprise data lake, dashboard and analytical solutions; translate business requirements and casualty data relationships for technology and data partners, validate data definitions and business logic, and help ensure solutions accurately reflect financial and operational performance.\nStrengthen data quality, model governance, documentation, controls and consistency across risk-finance reporting and identify opportunities to automate recurring analysis and improve the speed, accuracy and scalability of reporting and decision support.\nProactively identify questions requiring deeper analysis without reliance on predefined reporting requests; develop hypotheses, explore relationships across claims, operational and financial data, and brings forward new insights, models and analytical approaches.\nProvide analytical support for insurance renewals, retention strategies, collateral, captive considerations and other risk-financing decisions, as needed.\nServe as a trusted advisor and functional leader across risk management and cross-functional partners; constructively challenge assumptions, influence decisions and convert analytical insight into action.\nMinimum Qualifications\nBachelor’s degree in finance, accounting, risk management, data analytics, economics or related field or equivalent years of experience in lieu of education requirement, if applicable\n7+ years of progressively responsible experience in risk finance, financial planning and analysis, insurance finance, actuarial analysis, claims analytics, accounting, data analytics or a related field\nDemonstrated experience developing and owning complex financial models, forecasts, scenario analyses, variance analyses or enterprise analytical processes\nDemonstrated ability to independently identify business drivers, evaluate complex data and translate analysis into clear conclusions, recommendations and leadership-level communication\nExperience influencing cross-functional stakeholders and leading analytical initiatives, projects, consultants, vendors or project teams\nPreferred Skills/Education\nMaster’s degree in business administration or actuarial coursework or other relevant professional designation\nExperience with workers' compensation, general liability, auto liability or other casualty programs; including loss development, IBNR, actuarial reserving, claim forecasting or insurance accounting\nExperience partnering with technology or data teams to define business requirements and develop data lake solutions, dashboards, data products or enterprise reporting capabilities\nExperience with Power BI, Business Objects, SQL, Python, SAS or comparable analytical and automation tools\nARM  - Certification In Risk Management\nChartered Property Casualty Underwriter (CPCU)\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
+          "job_id": "JR-02657078",
+          "title": "Sr Analyst-Merchandising Operations Data Governance",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-12",
+          "url": "https://talent.lowes.com/us/en/job/JR-02657078",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Merchandising Operations role works in one of the functional areas of Merchandising Operations supporting their assigned line of business. The Sr Analyst will focus on their level of responsibilities to include more advanced consulting to the business and addressing challenges within their area of responsibility. Key functional areas include Vendor/Item Onboarding, Reporting, Operational Services, Vendor Compliance, Product Content, Data Governance and Tech Enablement. Responsibilities may vary based on the area of work.\nWhat You Will Do\nAnalytics- Handle interpretation, higher level analysis, storytelling of data. Consumer - utilizing segmentation. Utilize internal and external facing applications, Microsoft data analytics tools.\nBuilding Relationships- Promote cooperation and teamwork; strong interpersonal skills; establish and maintain trust and credibility with leaders and team.\nCommunication- Addressing challenges and issues within area (not day to day). Deliver some of the internal training. Gather and create content.\nIssue Resolution-May take on more complex issues and helps drive resolution.\nTraining/Development-Works with leaders on identifying needs and developing solutions for the functional area.\nReporting-Gathers and analyzes data and helps translate date into action and insights.\nProcess Improvement-Identifies opportunities and helps design solutions.\nTechnology Requirements- Supports governance of data stewardship, roles, and permissions to help ensure appropriate ownership, access, and accountability across merchandising systems\nProject Management-Provide customer feedback, manage project timelines with own projects.\nLiaison with international partners on more complex issues.\nMerchandising & Vendor Engagement- Focus on strategic and vendors with complex issues; ensure master level is addressed; trusted partner (merchant & vendor).\nBusiness Alignment-Focused on business unit (including MVP areas) store merchandising functional areas.\nCreates usage standards, guidelines, and statements of direction to track the quality, availability, and applicability of data through to full business integration\nTests, implements, and supports technology solutions to ensure efficiency and business continuity\nUses relevant data, analytics, and customer feedback to help develop and drive the solutions offered to Lowe's internal customers\nWorks to on-board and train new-users on best practices and system updates and/or changes for all merchandising information systems\nMinimum Qualifications\nBachelor’s degree Business, Accounting, Finance, Economics, or related field or equivalent years of experience in lieu of education requirement, if applicable\n4 Years Relevant business experience\nExperience in structuring and writing formal documents, developing and delivering group presentations, project planning, and/or cross-functional collaboration\nPreferred Skills/Education\nExperience in Microsoft products (Outlook, PowerPoint, etc.) and relational business software\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
+          "job_id": "JR-02679740",
+          "title": "Sr Analyst-Product Compliance",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-15",
+          "url": "https://talent.lowes.com/us/en/job/JR-02679740",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "5 Years experience",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Sr Analyst-Product Compliance is responsible for executing key activities that support Lowe's product compliance programs, helping to protect customers, the business, and the brand from regulatory and safety risks. This role focuses on monitoring and interpreting state and federal regulations, ensuring timely awareness and proactive compliance across Lowe's product categories.\nThe Sr Analyst partners closely with cross-functional teams—including Merchandising, Sourcing, Quality Assurance, Legal, and Sustainability—as well as vendors, testing laboratories, regulatory bodies, and industry associations. By providing detailed analysis, reporting, and operational support, this role plays a critical part in advancing Lowe's compliance strategy and ensuring products meet or exceed regulatory and safety standards.\nWhat You Will Do\nExecute processes that mitigate product compliance risks to Lowe’s and its customers, ensuring activities are completed on time and in adherence to company standards.\nSupport the preparation and delivery of compliance-related reports to meet state and federal obligations.\nAdminister vendor-related compliance programs, including Conflict Minerals, and Mercury Surveys.\nPartner with Legal to monitor and interpret emerging state and federal regulations, assess business impacts, and implement appropriate compliance controls.\nCommunicate key regulatory updates and new obligations to stakeholders across the organization.\nExecute regulatory stop-sales for in-scope items and provide guidance to Merchandising and Legal on process requirements and risk implications.\nCollaborate with Quality Assurance Engineering and approved third-party labs to ensure testing protocols address regulatory requirements.\nDevelop solutions for upcoming regulations where existing protocols or programs are insufficient.\nPartner with Legal, Quality Assurance, Merchandising, Sourcing, and vendors to complete compliance activities and resolve issues.\nEngage with regulatory agencies on notices of violation (e.g., weights & measures, product registration), coordinate with vendors to collect fines, and support corrective actions.\nBenchmark compliance practices through continuous learning and participation in industry associations such as ICPHSO and RILA.\nDocument policies and procedures that support product compliance programs and ensure consistent execution.\nProvide training and guidance to internal stakeholders to promote best practices and build a culture of compliance.\nCollaborate with technology partners to develop, test, and launch systems that improve compliance processes.\nMinimum Qualifications\nBachelor’s degree in Engineering, Science, Business, or related field or equivalent years of experience in lieu of education requirement, if applicable\n5 Years experience in product safety, regulatory compliance, quality, or related field in a retail or manufacturing environment\n2 years experience in product regulations in North America (CPSC, EPA, FDA, etc.)\nincluding state level regulations\n2 years experience leading/facilitating cross-functional projects\nPreferred Skills/Education\nRetail operations experience\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
+          "job_id": "JR-02681238",
+          "title": "BDC Sr. Operations Development Manager",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-16",
+          "url": "https://talent.lowes.com/us/en/job/JR-02681238",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "8-10 Years of experience",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nApplicants must be authorized to work for ANY employer in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa at any time.\nYour Impact\nThe Bulk Distribution Center (BDC) Sr. Operations Development Manager will provide exceptional leadership over operations, process guidance and direction for one or more supply chain facilities. Responsibilities include project management and coordinating and executing efficient inventory movement in and out of facilities.  Other success factors in this role include data analysis and customer relations skills.\nWhat You Will Do\nLeads operations planning and execution for facility events, including project management, coordinating and executing efficient and effective inventory movement in and out of facilities, and communicating to external project managers and customers.\nDefines, coordinates, and executes logistics plan (network inbound / outbound / storage) data collection and analysis to support the evaluation of needed resources as supply chain workflow conditions and store demand changes.\nHelps establish and implement recommendations for needed product flow changes based on projected overflow of planned capacity in supply chain.\nAssesses actual product flows against flow plans; identifies exceptions to Logistics Planning and recommends action.\nManages distribution network events as needed (i.e. TAT, Black Friday, Chinese New Year, large flow resets, all resets and promotions for CFD products) to collect key information from logistics planning and coordinates as needed with transportation, engineering, and operations.\nReport to upper management and corporate leaders all relevant key performance and financial figures.\nManages internal tools and directs individuals to monitor results, alerting supply chain management to trends or conditions that may adversely impact supply chain operations and identifying opportunities to improve flow.\nProduces departmental reporting as needed to support group/business needs and goals as well as future state discussions and improvement initiatives.\nDevelop comprehensive plans to support major initiatives and system enhancement prioritization.\nLed operations of assigned facilities within the BDC network, including third party logistics (3PL) operated facilities, in achieving high levels of efficiency, safety, and customer service related to the distribution of bulk product.\nHires, trains and develops the talent necessary to achieve stated business goals.\nLead the design and development of functional solutions and reporting tools to improve operational efficiency and cost effectiveness through improved systems capability, process improvement, product flow methods, and applied technology.\nProactively identify opportunities for continuous improvement across areas of new process development, project implementation and systems enhancements.\nLeverage continuous improvement methodologies to measure team and process success.\nDefine and manage actions for continuous improvement.\nThis position manages/supervises people\nMinimum Qualifications\nBachelor’s degree in operations, supply chain, or related field and 8-10 Years of experience in supply chain and/or project management.\n5-7 Years of related experience including project management and inventory process management.\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
+          "job_id": "JR-02685339",
+          "title": "Legal Program Manager",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-14",
+          "url": "https://talent.lowes.com/us/en/job/JR-02685339",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "7 years of experience",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Legal Program Manager drives the governance, and execution of the Legal department's technology business portfolio. This role serves as the primary liaison between Legal, information technology, and external partners to ensure solutions align with departmental priorities and Lowe's enterprise technology strategy. The Program Manager partners with Legal leadership to identify and deliver initiatives that improve efficiency, strengthen adoption, and maximize the value of investments. Success requires strong relationship management, strategic thinking, organizational influence, and the ability to manage cross-functional initiatives that deliver measurable business outcomes.\nWhat You Will Do\nSupport the development and execution of the legal department’s operational and technology roadmap, ensuring alignment with departmental priorities and business needs.\nPartner with legal leadership and practice areas to identify process challenges, prioritize improvement opportunities, and determine where new technology may add value.\nCoordinate business cases, vendor assessments, pilot programs, implementation activities, and ongoing enhancements for legal tools and solutions.\nServe as a liaison amongst legal, IT, finance, procurement, vendors, and other partners to support effective planning and delivery.\nReview legal workflows and recommend opportunities to simplify, standardize, and improve processes through technology and operational changes.\nAssess emerging legal tools, including AI-enabled capabilities, to determine their potential to improve efficiency, consistency, and service delivery.\nPromote consistent processes, effective tool usage, and operational discipline across legal practice areas.\nSupport attorneys and staff through training, guidance, communications, and issue resolution related to legal systems and processes.\nDevelop user guides, job aids, and other resources to support implementation, engagement, and adoption.\nGather feedback from legal teams to identify enhancements and ensure processes and tools continue to meet departmental needs.\nMinimum Qualifications\nBachelor’s degree in business, technology, legal studies, or related field or equivalent years of experience in lieu of education requirement, if applicable\n7 years of experience in legal operations, legal technology, corporate operations, or related support roles\nExperience with legal technology platforms such as matter management, e-billing, CLM, workflow automation, or AI-enabled legal tools\nAbility to manage multiple priorities in a fast-paced environment and collaborate across diverse teams\nExcellent communication skills, with the ability to explain technical concepts to non-technical stakeholders\nPreferred Skills/Education\nExperience supporting legal technology at a large, matrixed organization\nFamiliarity with systems commonly used in corporate legal departments (e.g., CounselLink, Ironclad, Onit, iManage, ServiceNow Legal)\nProcess improvement experience (Lean, Six Sigma, or similar methodologies)\nPrevious experience working with or supporting outside counsel and legal vendors\nExpertise in Microsoft PowerPoint and executive storytelling, with the ability to synthesize complex data, technology initiatives, and operational insights into clear, compelling presentations for senior leadership and executive stakeholders\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
+        },
+        {
+          "firm": "Lowe's",
+          "job_id": "JR-02703739",
+          "title": "Lead, Private Brands Program Management",
+          "client_company": "",
+          "city": "Mooresville",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-20",
+          "url": "https://talent.lowes.com/us/en/job/JR-02703739",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "5 years of experience",
+          "required_certifications": "",
+          "description": "Do your Best Work in Mooresville\nThis position is based at our headquarters in Mooresville, North Carolina. Our corporate office is a space where you can collaborate and do your best work. Take a walk, grab a bite (or a cup of coffee), work out or get a check-up – we invest in you so you can find your inspiration.\nYour Impact\nThe Category Management Lead will work cross-functionally to ideate, develop, project manage, and deliver Private Brands creative programs. This role will identify opportunities and coordinate product category strategies to enhance the Private Brands omnichannel experience, elevate the brand, and increase consumer engagement. The Category Management Lead is responsible for managing the execution of concurrent and complex projects from conception through delivery, including managing scope and resources, scheduling, budget tracking, developing project plans, and providing status updates to both project stakeholders and executive teams. This role will manage all factors that govern project success to ensure high-quality delivery within time, cost and quality parameters.\nWhat You Will Do\nWork collaboratively and synthesize feedback and input from marketing, merchandising, product, creative and brand partners.\nUnderstand business partners' long-range requirements and engage in strategic planning and partnering to ensure alignment.\nUnderstand the category and key competitors to develop customer specific category growth strategies and knowledge.\nMaintain a balanced focus on both the small details of a project and the larger objectives and schedule to complete projects successfully and on-time.\nFacilitate project-related team meetings and communicate action steps to ensure all stakeholders have updated daily reports and project milestones. Communicate consistently with project stakeholders and executives as appropriate, ensuring deliverables are being met by all team members at all stages of the project.\nManage the design and development process of graphics, copy and photography for all creative projects.\nReview all creative, inclusive of item-specific packaging production, to ensure that quality and brand standards are met, and product(s) is being showcased in a way that will resonate with the consumer and facilitate the buying process.\nLiaise with outside agencies and vendors to ensure seamless integration and delivery of creative and production projects.\nBuild and foster relationships with both internal and external teams, acting as the liaison between internal customers and creative production teams.\nDrive process improvements and minimize risk to the organization and customer.\nMinimum Qualifications\nBachelor’s degree in business, marketing or related field or equivalent years of experience in lieu of education requirement, if applicable\n7 years of general experience, including 5 years of experience managing multiple product vendors and categories\nExperience in a marketing, large retail environment, consumer package goods company, or advertising agency that services Fortune 500 companies\nExperience developing and executing omni-channel brand strategies\nExperience working with design, advertising and/or marketing teams\nDemonstrated ability to influence people and craft compelling, fact-based stories to drive category solutions internally and with the customer\nProven ability to liaise with internal stakeholders and creative teams to ensure timely delivery of creative projects, working with both internal teams and external partners\nPreferred Skills/Education\nExperience using MAC platform\nKnowledge in packaging development, structural and print/production\nAdept at writing detailed statements of work and project briefs\nAbout Lowe’s\nLowe’s Companies, Inc. (NYSE: LOW) is a FORTUNE® 100 home improvement company with total fiscal year 2025 sales of more than $86 billion. Lowe’s employs approximately 300,000 associates and operates over 1,750 home improvement stores, 540 branches and 120 distribution centers. Lowe’s is a core value S&P 500 equity stock and a dividend aristocrat. Based in Mooresville, N.C., Lowe’s supports the communities it serves through programs focused on creating safe, affordable housing, improving community spaces, helping to develop the next generation of skilled trade experts and providing disaster relief to communities in need. For more information,\nvisit\nLowes.com\n.\nLowe’s is an equal opportunity employer and administers all personnel practices without regard to race, color, religious creed, sex, gender, age, ancestry, national origin, mental or physical disability or medical condition, sexual orientation, gender identity or expression, marital status, military or veteran status, genetic information, or any other category protected under federal, state, or local law."
         }
       ],
       "attempts": {
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-24T02:59:40.171315+00:00",
-          "completed_at": "2026-11-24T03:04:27.570459+00:00",
+          "started_at": "2026-11-24T03:23:22.390466+00:00",
+          "completed_at": "2026-11-24T03:24:07.339178+00:00",
           "ok": true,
           "info": {
-            "enumerated": 12926,
-            "enumerated_raw": 12926,
-            "advertised": 12926,
-            "details_read": 20,
-            "closed_during_pull": 0,
+            "enumerated": 4219,
+            "enumerated_raw": 4815,
+            "advertised": 4815,
+            "details_read": 15,
             "kept": 10,
-            "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "method": "employer current search widget + canonical full detail pages",
+            "known_missing_details_rechecked": 0
           }
         }
       },
-      "snapshot_at": "2026-11-24T02:59:40.171315+00:00",
-      "completed_at": "2026-11-24T03:04:27.570459+00:00",
+      "snapshot_at": "2026-11-24T03:23:22.390466+00:00",
+      "completed_at": "2026-11-24T03:24:07.339178+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2262,8 +2268,8 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "110000",
+          "pay_max": "180000",
           "pay_unit": "",
           "posted_date": "2026-11-23",
           "url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Detroit-MI/Manager--Technology-AI-Risk_R2601292-1",
@@ -2276,6 +2282,28 @@
         },
         {
           "firm": "Ally Financial",
+          "job_id": "R2601295",
+          "title": "Director - Fraud Governance & Oversight",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "hybrid",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "125000",
+          "pay_max": "190000",
+          "pay_unit": "",
+          "posted_date": "2026-11-23",
+          "url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Charlotte-NC/Director---Fraud-Governance---Oversight_R2601295-1",
+          "recruiter_name": "",
+          "recruiter_email": "hrpolicy@ally.com",
+          "recruiter_phone": "",
+          "required_experience": "8+ years of experience",
+          "required_certifications": "",
+          "description": "Ally and Your Career\nAlly Financial only succeeds when its people do - and that’s more than some cliché people put on job postings. We love this stuff! We see our people as, well, people - with interests, families, friends, dreams, and causes that are all important to them. Our focus is on the health and safety of our teammates as well as work-life balance and diversity and inclusion. From generous benefits to a variety of employee resource groups, we strive to build paths that encourage employees to stretch themselves professionally. We want to help you grow, develop, and learn new things. You’re constantly evolving, so shouldn’t your opportunities be, too?\nWork Schedule\n:\nAlly designates roles as (1) fully on-site, (2) hybrid, or (3) fully remote. Hybrid roles are generally expected to be in the office a certain number of days per week as indicated by your manager. Your hiring manager will discuss this role's specific work requirements with you during the hiring process. All work requirements are subject to change at any time based on leader discretion and/or business need.\nThe Opportunity\nIn office role, Ally work locations are Charlotte NC, Dresher PA, Jacksonville FL, or Lewisville TX\nThe Director of Fraud Governance and Oversight is a key leadership role within the Fraud Program responsible for establishing and maintaining a strong, sustainable governance and control environment across the Consumer Bank fraud capabilities. Reporting to the Head of the Fraud Program, this role provides oversight, coordination, and visibility into the overall health of the Fraud Program, including issue management, Risk and Control Self-Assessment (RCSA) controls, and program-level risk reporting.\nThis senior individual-contributor role will help define what a “healthy” Fraud Program looks like by establishing measurable standards, indicators, and governance mechanisms that provide leadership with a clear view of control effectiveness, emerging risks, remediation progress, and areas requiring attention.\nSuccess in this role requires strong relationship-building and influencing skills. The Director will serve as a key Fraud Program partner to Business Line Risk, Second Line of Defense, Third Line of Defense, and business and operational stakeholders. The role will help ensure that fraud-related risks and issues are identified, escalated, remediated, and communicated effectively while supporting a culture of proactive risk management and continuous improvement.\nThe Work Itself\nEstablish and maintain the Fraud Program oversight framework, defining measurable standards, KRIs, KPIs, control health measures, issue metrics, and other indicators that provide transparency into overall program health and risk\nDevelop a consolidated view of Fraud Program health, identifying emerging risks, control weaknesses, remediation concerns, dependencies, and areas requiring leadership attention or escalation\nTransform fraud risk, control, issue, and performance data into actionable executive insights, identifying trends and systemic themes that enable informed decision-making, proactive risk management, and continuous improvement\nOversee fraud-related issues and remediation management, including root-cause assessment, action plans, milestones, evidence requirements, sustainability, closure readiness, and escalation of aging or at-risk issues\nLead Fraud Program RCSA and control oversight activities, including risk identification, control design and documentation, risk-to-control mapping, effectiveness assessments, and identification and remediation of control gaps or unclear ownership\nEstablish and facilitate effective Fraud Program governance, providing consistent visibility into risks, controls, issues, audit and regulatory findings, risk acceptances, and remediation activities while driving clear accountability, escalation, and follow-through\nLead and coordinate fraud audit, regulatory, compliance, and risk-management activities, including managing inquiries and evidence requests, developing materials and responses, coordinating cross-functional resources, and partnering with Business Line Risk and the Second and Third Lines of Defense.\nPromote a culture of strong risk ownership and continuous improvement by helping Fraud Program stakeholders move beyond compliance-based measures toward sustainable, risk-based measures of program health.\nThe Skills You Bring\n8+ years of experience in fraud risk management, operational risk, governance, controls, compliance, audit, financial crimes, or related disciplines within financial services.\nBachelor’s degree preferred.\nDeep knowledge of fraud risk management and control environments within financial services, including experience supporting deposit, payment, digital, or customer-facing fraud processes.\nStrong experience with issue management and remediation, including root-cause analysis, corrective-action planning, milestone management, evidence standards, sustainability assessment, and issue closure.\nDemonstrated experience with RCSA frameworks, including risk identification, control design and documentation, control assessments, testing considerations, residual risk, and control-gap identification.\nStrong understanding of the Three Lines of Defense model and demonstrated ability to effectively partner with Business Line Risk, Second Line Risk Management, Internal Audit, Compliance, and other independent oversight functions.\nExperience developing governance frameworks, management reporting, risk indicators, control-health measures, or executive dashboards that provide actionable insight into program health.\nAbility to translate complex risk and control information into clear executive-level conclusions, including identifying where leadership attention, escalation, or decisions are required.\nDemonstrated ability to recognize patterns across issues, controls, testing results, incidents, and audit findings and identify systemic or thematic risks that may require broader remediation.\nExceptional relationship-building and influencing skills, with the ability to drive outcomes across teams without direct reporting authority.\nStrong judgment and ability to constructively challenge stakeholders while maintaining collaborative relationships with business, risk, compliance, and audit partners.\nExcellent written and verbal communication skills, including the ability to present complex risk and control matters clearly to senior leadership.\nStrong organizational and program-management skills, with the ability to manage multiple priorities, governance commitments, issues, and deadlines simultaneously.\nDemonstrated ability to operate independently as a senior individual contributor while influencing decisions and driving accountability across a complex organization.\nMinimum Qualifications\n9+ years of relevant experience or equivalent combination of education and experience\nHigh school Diploma or GED equivalent\nHow We'll Have Your Back\nAlly's compensation program offers market-competitive base pay and pay-for-performance incentives (bonuses) based on achieving personal and company goals. Our Total Rewards program includes industry-leading compensation and benefits plus additional incentives that are designed to meet your needs and those of your family so you can get the most out of your career and your life, including:\nTime Away:\nProgram starts at 20 paid time off days in addition to 11 paid holidays and 8 hours of volunteer time off yearly (time off days are prorated based on start date and program varies based on full or part-time status and management level).\nPlanning for the Future:\nplan for the near and long term with an industry-leading 401K retirement savings plan with matching and company contributions, student loan pay downs and 529 educational save up assistance programs, tuition reimbursement, employee stock purchase plan, and financial learning center and financial coach access.\nSupporting your Health & Well-being:\nflexible health and insurance options including medical, dental and vision, employee, spouse and child life insurance, short- and long-term disability, pre-tax Health Savings Account with employer contributions, Healthcare FSA, critical illness, accident & hospital indemnity insurance, and a total well-being program that helps you and your family stay on track physically, socially, emotionally, and financially.\nBuilding a Family:\nadoption, surrogacy and fertility assistance as well as paid parental and caregiver leave, Dependent Day Care FSA back-up child and adult/elder care days and childcare discounts.\nWork-Life Integration:\nother benefits including Mentally Fit Employee Assistance Program, subsidized and discounted Weight Watchers® program and other employee discount programs.\nOther Compensations:\ndepending on the role for which you are considered, you may be eligible for travel allowances, relocation assistance, a signing bonus and/or equity.\nTo view more detailed information about Ally’s Total Rewards, please visit this link:\nhttps://www.ally.com/content/dam/pdf/corporate/ally-total-rewards-snapshot.pdf\nWho We Are\n:\nAlly Financial is a customer-centric, leading digital financial services company with passionate customer service and innovative financial solutions. We are relentlessly focused on \"Doing it Right\" and being a trusted financial-services provider to our consumer, commercial, and corporate customers. For more information, visit\nwww.ally.com\n.\nAlly is an equal opportunity employer committed to diversity and inclusion in the workplace. All qualified applicants will receive consideration for employment without regard to age, race, color, sex, religion, national origin, disability, sexual orientation, gender identity or expression, pregnancy status, marital status, military or veteran status, genetic disposition or any other reason protected by law.\nIn accordance with the Americans with Disabilities Act, if after review of the position expectations, you believe that you may need a medical accommodation to fulfill the duties of this role, please email\nhrpolicy@ally.com\nwith details of your accommodation request.\nBase Pay Range\n$125,000.00 - $190,000.00\nAn individual's position in the range is determined by the specific role, the scope and responsibilities of the role, work experience, education, certification(s), training, and additional qualifications. We review internal pay, the competitive market, and business environment prior to extending an offer.\nIncentive Compensation:\nThis position is eligible to participate in our annual incentive plan."
+        },
+        {
+          "firm": "Ally Financial",
           "job_id": "R2601361",
           "title": "Field Operations - Manager",
           "client_company": "",
@@ -2284,8 +2312,8 @@
           "work_arrangement": "remote",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "90000",
+          "pay_max": "150000",
           "pay_unit": "",
           "posted_date": "2026-11-20",
           "url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Remote-IL/Field-Operations---Manager_R2601361-1",
@@ -2306,8 +2334,8 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "110000",
+          "pay_max": "180000",
           "pay_unit": "",
           "posted_date": "2026-10-12",
           "url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Charlotte-NC/Principal---Data-Governance_R2600864",
@@ -2323,28 +2351,30 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-24T03:00:32.721634+00:00",
-          "completed_at": "2026-11-24T03:00:41.105438+00:00",
+          "started_at": "2026-11-24T03:24:07.339252+00:00",
+          "completed_at": "2026-11-24T03:24:17.438224+00:00",
           "ok": true,
           "info": {
-            "enumerated": 81,
-            "enumerated_raw": 81,
-            "advertised": 81,
-            "details_read": 6,
+            "enumerated": 82,
+            "enumerated_raw": 82,
+            "advertised": 82,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 7,
             "closed_during_pull": 0,
-            "kept": 3,
+            "kept": 4,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:00:32.721634+00:00",
-      "completed_at": "2026-11-24T03:00:41.105438+00:00",
+      "snapshot_at": "2026-11-24T03:24:07.339252+00:00",
+      "completed_at": "2026-11-24T03:24:17.438224+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2359,9 +2389,9 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "87800",
+          "pay_max": "119000",
+          "pay_unit": "year",
           "posted_date": "2026-11-20",
           "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Chicago-IL-USA/AVP--Compliance-Advisor--Distribution-Compliance--America--_R260900262-1",
           "recruiter_name": "",
@@ -2381,9 +2411,9 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "67700",
+          "pay_max": "95100",
+          "pay_unit": "year",
           "posted_date": "2026-11-03",
           "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Dallas-TX-USA/Sr-Analyst--Regulatory-Program-Management_R260700332",
           "recruiter_name": "",
@@ -2398,13 +2428,16 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-24T03:00:34.970738+00:00",
-          "completed_at": "2026-11-24T03:00:43.806982+00:00",
+          "started_at": "2026-11-24T03:24:17.438284+00:00",
+          "completed_at": "2026-11-24T03:24:27.577879+00:00",
           "ok": true,
           "info": {
             "enumerated": 104,
             "enumerated_raw": 104,
             "advertised": 104,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 3,
             "closed_during_pull": 0,
             "kept": 2,
@@ -2413,13 +2446,12 @@
               "Country": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:00:34.970738+00:00",
-      "completed_at": "2026-11-24T03:00:43.806982+00:00",
+      "snapshot_at": "2026-11-24T03:24:17.438284+00:00",
+      "completed_at": "2026-11-24T03:24:27.577879+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2434,8 +2466,8 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "107120",
+          "pay_max": "160680",
           "pay_unit": "",
           "posted_date": "2026-11-23",
           "url": "https://citi.wd5.myworkdayjobs.com/2/job/NC-CHARLOTTE-BALLANTYNE/Anti-Money-Laundering-Risk-Management-Vice-President_261001963",
@@ -2456,8 +2488,8 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "107120",
+          "pay_max": "160680",
           "pay_unit": "",
           "posted_date": "2026-11-03",
           "url": "https://citi.wd5.myworkdayjobs.com/2/job/NC-CHARLOTTE-BALLANTYNE/Operations---Business-Management-Vice-President_261007694",
@@ -2478,8 +2510,8 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "117440",
+          "pay_max": "176160",
           "pay_unit": "",
           "posted_date": "2026-11-03",
           "url": "https://citi.wd5.myworkdayjobs.com/2/job/NC-CHARLOTTE-BALLANTYNE/Business-Lead-Analyst---Deposits---Segments_261004371",
@@ -2500,8 +2532,8 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "81600",
+          "pay_max": "122400",
           "pay_unit": "",
           "posted_date": "2026-10-28",
           "url": "https://citi.wd5.myworkdayjobs.com/2/job/NC-CHARLOTTE-BALLANTYNE/Operations---Business-Management-Associate---Assistant-Vice-President_261006183",
@@ -2522,8 +2554,8 @@
           "work_arrangement": "",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "107120",
+          "pay_max": "160680",
           "pay_unit": "",
           "posted_date": "2026-10-22",
           "url": "https://citi.wd5.myworkdayjobs.com/2/job/NC-CHARLOTTE-BALLANTYNE/Pricing-Exception-and-Controls-Lead-Analyst_26972071",
@@ -2544,8 +2576,8 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "103920",
+          "pay_max": "155880",
           "pay_unit": "",
           "posted_date": "2024-06-25",
           "url": "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Technology-Risk-Officer---Tampa-Hybrid---VP-C13_24756971",
@@ -2566,8 +2598,8 @@
           "work_arrangement": "remote",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "103920",
+          "pay_max": "155880",
           "pay_unit": "",
           "posted_date": "2024-06-13",
           "url": "https://citi.wd5.myworkdayjobs.com/2/job/Jacksonville-Florida-United-States/Business-Risk-and-Control-Officer---C13---JACKSONVILLE_24757002",
@@ -2583,13 +2615,16 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-24T03:00:41.105498+00:00",
-          "completed_at": "2026-11-24T03:02:35.087410+00:00",
+          "started_at": "2026-11-24T03:24:20.853716+00:00",
+          "completed_at": "2026-11-24T03:26:42.111806+00:00",
           "ok": true,
           "info": {
             "enumerated": 1446,
             "enumerated_raw": 1446,
             "advertised": 1446,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 129,
             "closed_during_pull": 0,
             "kept": 7,
@@ -2598,13 +2633,12 @@
               "Country_and_Jurisdiction": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:00:41.105498+00:00",
-      "completed_at": "2026-11-24T03:02:35.087410+00:00",
+      "snapshot_at": "2026-11-24T03:24:20.853716+00:00",
+      "completed_at": "2026-11-24T03:26:42.111806+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2613,13 +2647,16 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-24T03:00:43.807047+00:00",
-          "completed_at": "2026-11-24T03:01:20.414229+00:00",
+          "started_at": "2026-11-24T03:24:27.162931+00:00",
+          "completed_at": "2026-11-24T03:25:11.146773+00:00",
           "ok": true,
           "info": {
             "enumerated": 1110,
             "enumerated_raw": 1110,
             "advertised": 1110,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 11,
             "closed_during_pull": 0,
             "kept": 0,
@@ -2628,13 +2665,12 @@
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:00:43.807047+00:00",
-      "completed_at": "2026-11-24T03:01:20.414229+00:00",
+      "snapshot_at": "2026-11-24T03:24:27.162931+00:00",
+      "completed_at": "2026-11-24T03:25:11.146773+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2649,9 +2685,9 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "123721.66",
+          "pay_max": "173004.99",
+          "pay_unit": "year",
           "posted_date": "2026-11-06",
           "url": "https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Davidson-North-Carolina/Senior-Technical-Program-Manager--TPM----Data-Center-Systems_JR-17636",
           "recruiter_name": "",
@@ -2671,9 +2707,9 @@
           "work_arrangement": "onsite",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "123721.66",
+          "pay_max": "173004.99",
+          "pay_unit": "year",
           "posted_date": "2026-11-06",
           "url": "https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Davidson-North-Carolina/Program-Management-Team-Leader---Data-Centers_JR-18730",
           "recruiter_name": "",
@@ -2693,9 +2729,9 @@
           "work_arrangement": "onsite",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "173343.33",
+          "pay_max": "242375",
+          "pay_unit": "year",
           "posted_date": "2026-09-15",
           "url": "https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Davidson-North-Carolina/Senior-Counsel---Corporate-Governance-and-Securities_JR-14453-1",
           "recruiter_name": "",
@@ -2710,13 +2746,16 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-24T03:00:55.510876+00:00",
-          "completed_at": "2026-11-24T03:01:32.336402+00:00",
+          "started_at": "2026-11-24T03:24:27.578225+00:00",
+          "completed_at": "2026-11-24T03:25:15.207779+00:00",
           "ok": true,
           "info": {
             "enumerated": 881,
             "enumerated_raw": 881,
             "advertised": 881,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 44,
             "closed_during_pull": 0,
             "kept": 3,
@@ -2725,13 +2764,12 @@
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:00:55.510876+00:00",
-      "completed_at": "2026-11-24T03:01:32.336402+00:00",
+      "snapshot_at": "2026-11-24T03:24:27.578225+00:00",
+      "completed_at": "2026-11-24T03:25:15.207779+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2746,9 +2784,9 @@
           "work_arrangement": "hybrid",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
+          "pay_min": "111200",
+          "pay_max": "169800",
+          "pay_unit": "year",
           "posted_date": "2026-10-08",
           "url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Senior-Risk-Analyst-or-Assistant-Director---Associate-Actuary_R2627205",
           "recruiter_name": "",
@@ -2763,13 +2801,16 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-24T03:01:20.414307+00:00",
-          "completed_at": "2026-11-24T03:01:33.206688+00:00",
+          "started_at": "2026-11-24T03:24:49.803116+00:00",
+          "completed_at": "2026-11-24T03:25:05.051694+00:00",
           "ok": true,
           "info": {
             "enumerated": 143,
             "enumerated_raw": 143,
             "advertised": 143,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 8,
             "closed_during_pull": 0,
             "kept": 1,
@@ -2778,13 +2819,12 @@
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:01:20.414307+00:00",
-      "completed_at": "2026-11-24T03:01:33.206688+00:00",
+      "snapshot_at": "2026-11-24T03:24:49.803116+00:00",
+      "completed_at": "2026-11-24T03:25:05.051694+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2860,24 +2900,26 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-24T03:01:32.336467+00:00",
-          "completed_at": "2026-11-24T03:01:45.262366+00:00",
+          "started_at": "2026-11-24T03:25:05.051755+00:00",
+          "completed_at": "2026-11-24T03:25:22.614134+00:00",
           "ok": true,
           "info": {
             "enumerated": 78,
             "enumerated_raw": 78,
             "advertised": 78,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 23,
             "closed_during_pull": 0,
             "kept": 3,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:01:32.336467+00:00",
-      "completed_at": "2026-11-24T03:01:45.262366+00:00",
+      "snapshot_at": "2026-11-24T03:25:05.051755+00:00",
+      "completed_at": "2026-11-24T03:25:22.614134+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -2975,13 +3017,16 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-24T03:01:33.206752+00:00",
-          "completed_at": "2026-11-24T03:02:03.252216+00:00",
+          "started_at": "2026-11-24T03:25:11.146838+00:00",
+          "completed_at": "2026-11-24T03:25:44.949838+00:00",
           "ok": true,
           "info": {
             "enumerated": 888,
             "enumerated_raw": 888,
             "advertised": 888,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 11,
             "closed_during_pull": 0,
             "kept": 4,
@@ -2990,13 +3035,12 @@
               "Location_Country": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:01:33.206752+00:00",
-      "completed_at": "2026-11-24T03:02:03.252216+00:00",
+      "snapshot_at": "2026-11-24T03:25:11.146838+00:00",
+      "completed_at": "2026-11-24T03:25:44.949838+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -3011,8 +3055,8 @@
           "work_arrangement": "remote",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "141000",
+          "pay_max": "234000",
           "pay_unit": "",
           "posted_date": "2026-10-16",
           "url": "https://premierinc.wd1.myworkdayjobs.com/External_Professional/job/Remote/Corp-Counsel-III--Privacy--Digital-Risk--and-Cybersecurity-_R0008545",
@@ -3033,8 +3077,8 @@
           "work_arrangement": "remote",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "141000",
+          "pay_max": "234000",
           "pay_unit": "",
           "posted_date": "2026-10-16",
           "url": "https://premierinc.wd1.myworkdayjobs.com/External_Professional/job/Remote/Corporate-Counsel-III--Privacy--Digital-Risk--and-AI-Governance-_R0008544-1",
@@ -3050,24 +3094,26 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-24T03:01:45.262434+00:00",
-          "completed_at": "2026-11-24T03:01:55.377197+00:00",
+          "started_at": "2026-11-24T03:25:15.207837+00:00",
+          "completed_at": "2026-11-24T03:25:24.697338+00:00",
           "ok": true,
           "info": {
             "enumerated": 40,
             "enumerated_raw": 40,
             "advertised": 40,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 2,
             "closed_during_pull": 0,
             "kept": 2,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:01:45.262434+00:00",
-      "completed_at": "2026-11-24T03:01:55.377197+00:00",
+      "snapshot_at": "2026-11-24T03:25:15.207837+00:00",
+      "completed_at": "2026-11-24T03:25:24.697338+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3076,13 +3122,16 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-24T03:01:55.377262+00:00",
-          "completed_at": "2026-11-24T03:02:10.579370+00:00",
+          "started_at": "2026-11-24T03:25:22.614192+00:00",
+          "completed_at": "2026-11-24T03:25:39.881658+00:00",
           "ok": true,
           "info": {
             "enumerated": 324,
             "enumerated_raw": 324,
             "advertised": 324,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 8,
             "closed_during_pull": 0,
             "kept": 0,
@@ -3091,13 +3140,12 @@
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:01:55.377262+00:00",
-      "completed_at": "2026-11-24T03:02:10.579370+00:00",
+      "snapshot_at": "2026-11-24T03:25:22.614192+00:00",
+      "completed_at": "2026-11-24T03:25:39.881658+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3217,13 +3265,16 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:03.252282+00:00",
-          "completed_at": "2026-11-24T03:02:32.788265+00:00",
+          "started_at": "2026-11-24T03:25:24.697396+00:00",
+          "completed_at": "2026-11-24T03:25:56.954557+00:00",
           "ok": true,
           "info": {
             "enumerated": 402,
             "enumerated_raw": 402,
             "advertised": 402,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 20,
             "closed_during_pull": 0,
             "kept": 5,
@@ -3232,13 +3283,12 @@
               "location_Country": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:02:03.252282+00:00",
-      "completed_at": "2026-11-24T03:02:32.788265+00:00",
+      "snapshot_at": "2026-11-24T03:25:24.697396+00:00",
+      "completed_at": "2026-11-24T03:25:56.954557+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3247,24 +3297,26 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:10.579445+00:00",
-          "completed_at": "2026-11-24T03:02:25.443461+00:00",
+          "started_at": "2026-11-24T03:25:39.881724+00:00",
+          "completed_at": "2026-11-24T03:26:00.255229+00:00",
           "ok": true,
           "info": {
             "enumerated": 398,
             "enumerated_raw": 398,
             "advertised": 398,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 0,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:02:10.579445+00:00",
-      "completed_at": "2026-11-24T03:02:25.443461+00:00",
+      "snapshot_at": "2026-11-24T03:25:39.881724+00:00",
+      "completed_at": "2026-11-24T03:26:00.255229+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3273,24 +3325,26 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:25.443525+00:00",
-          "completed_at": "2026-11-24T03:02:36.782792+00:00",
+          "started_at": "2026-11-24T03:25:44.949898+00:00",
+          "completed_at": "2026-11-24T03:25:57.876842+00:00",
           "ok": true,
           "info": {
             "enumerated": 205,
             "enumerated_raw": 205,
             "advertised": 205,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 3,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:02:25.443525+00:00",
-      "completed_at": "2026-11-24T03:02:36.782792+00:00",
+      "snapshot_at": "2026-11-24T03:25:44.949898+00:00",
+      "completed_at": "2026-11-24T03:25:57.876842+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3299,24 +3353,26 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:32.788336+00:00",
-          "completed_at": "2026-11-24T03:02:36.350976+00:00",
+          "started_at": "2026-11-24T03:25:56.954622+00:00",
+          "completed_at": "2026-11-24T03:26:03.289100+00:00",
           "ok": true,
           "info": {
             "enumerated": 12,
             "enumerated_raw": 12,
             "advertised": 12,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 0,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:02:32.788336+00:00",
-      "completed_at": "2026-11-24T03:02:36.350976+00:00",
+      "snapshot_at": "2026-11-24T03:25:56.954622+00:00",
+      "completed_at": "2026-11-24T03:26:03.289100+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3325,10 +3381,27 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:35.087486+00:00",
-          "completed_at": "2026-11-24T03:02:37.105383+00:00",
-          "ok": false,
-          "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
+          "started_at": "2026-11-24T03:25:57.876901+00:00",
+          "completed_at": "2026-11-24T03:29:32.959262+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 5968,
+            "enumerated_raw": 5974,
+            "advertised": 2000,
+            "location_partitions": 4,
+            "partition_advertised_counts": [
+              1496,
+              1495,
+              1496,
+              1487
+            ],
+            "unpublished_index_ids": [],
+            "details_read": 3,
+            "closed_during_pull": 0,
+            "kept": 0,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {}
+          }
         },
         "mac": {
           "firm": "Kohl's",
@@ -3338,7 +3411,10 @@
           "ok": false,
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
-      }
+      },
+      "snapshot_at": "2026-11-24T03:25:57.876901+00:00",
+      "completed_at": "2026-11-24T03:29:32.959262+00:00",
+      "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
       "rows": [
@@ -3369,24 +3445,26 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:36.351043+00:00",
-          "completed_at": "2026-11-24T03:02:42.062317+00:00",
+          "started_at": "2026-11-24T03:26:00.255288+00:00",
+          "completed_at": "2026-11-24T03:26:08.677210+00:00",
           "ok": true,
           "info": {
             "enumerated": 56,
             "enumerated_raw": 56,
             "advertised": 56,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 1,
             "closed_during_pull": 0,
             "kept": 1,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:02:36.351043+00:00",
-      "completed_at": "2026-11-24T03:02:42.062317+00:00",
+      "snapshot_at": "2026-11-24T03:26:00.255288+00:00",
+      "completed_at": "2026-11-24T03:26:08.677210+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3401,8 +3479,8 @@
           "work_arrangement": "onsite",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "72000",
+          "pay_max": "99000",
           "pay_unit": "",
           "posted_date": "2026-10-19",
           "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NC---Charlotte-Fleet/Associate-Manager--DOT-Compliance-and-Fleet-Asset-Management_Req-68702",
@@ -3484,24 +3562,26 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:36.782866+00:00",
-          "completed_at": "2026-11-24T03:02:49.241604+00:00",
+          "started_at": "2026-11-24T03:26:03.289185+00:00",
+          "completed_at": "2026-11-24T03:26:19.046330+00:00",
           "ok": true,
           "info": {
             "enumerated": 290,
             "enumerated_raw": 290,
             "advertised": 290,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 7,
             "closed_during_pull": 0,
             "kept": 4,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:02:36.782866+00:00",
-      "completed_at": "2026-11-24T03:02:49.241604+00:00",
+      "snapshot_at": "2026-11-24T03:26:03.289185+00:00",
+      "completed_at": "2026-11-24T03:26:19.046330+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3510,13 +3590,16 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:37.105436+00:00",
-          "completed_at": "2026-11-24T03:03:00.685838+00:00",
+          "started_at": "2026-11-24T03:26:08.677268+00:00",
+          "completed_at": "2026-11-24T03:26:36.624071+00:00",
           "ok": true,
           "info": {
             "enumerated": 407,
             "enumerated_raw": 407,
             "advertised": 407,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 3,
             "closed_during_pull": 0,
             "kept": 0,
@@ -3525,13 +3608,12 @@
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:02:37.105436+00:00",
-      "completed_at": "2026-11-24T03:03:00.685838+00:00",
+      "snapshot_at": "2026-11-24T03:26:08.677268+00:00",
+      "completed_at": "2026-11-24T03:26:36.624071+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3546,8 +3628,8 @@
           "work_arrangement": "remote",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "83000",
+          "pay_max": "138200",
           "pay_unit": "",
           "posted_date": "2026-11-11",
           "url": "https://dickssportinggoods.wd1.myworkdayjobs.com/DSG/job/Remote---US/Project-Manager---New-Stores_202642106",
@@ -3563,24 +3645,30 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:42.062385+00:00",
-          "completed_at": "2026-11-24T03:03:52.414248+00:00",
+          "started_at": "2026-11-24T03:26:19.046395+00:00",
+          "completed_at": "2026-11-24T03:28:06.692887+00:00",
           "ok": true,
           "info": {
-            "enumerated": 2000,
-            "enumerated_raw": 2000,
+            "enumerated": 3020,
+            "enumerated_raw": 3021,
             "advertised": 2000,
-            "details_read": 6,
+            "location_partitions": 3,
+            "partition_advertised_counts": [
+              1493,
+              1496,
+              32
+            ],
+            "unpublished_index_ids": [],
+            "details_read": 8,
             "closed_during_pull": 0,
             "kept": 1,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:02:42.062385+00:00",
-      "completed_at": "2026-11-24T03:03:52.414248+00:00",
+      "snapshot_at": "2026-11-24T03:26:19.046395+00:00",
+      "completed_at": "2026-11-24T03:28:06.692887+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3589,13 +3677,16 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-24T03:02:49.241674+00:00",
-          "completed_at": "2026-11-24T03:03:01.279315+00:00",
+          "started_at": "2026-11-24T03:26:36.624140+00:00",
+          "completed_at": "2026-11-24T03:26:51.780977+00:00",
           "ok": true,
           "info": {
             "enumerated": 180,
             "enumerated_raw": 180,
             "advertised": 180,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 4,
             "closed_during_pull": 0,
             "kept": 0,
@@ -3604,13 +3695,12 @@
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:02:49.241674+00:00",
-      "completed_at": "2026-11-24T03:03:01.279315+00:00",
+      "snapshot_at": "2026-11-24T03:26:36.624140+00:00",
+      "completed_at": "2026-11-24T03:26:51.780977+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3619,13 +3709,16 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:00.685902+00:00",
-          "completed_at": "2026-11-24T03:03:25.886311+00:00",
+          "started_at": "2026-11-24T03:26:42.111871+00:00",
+          "completed_at": "2026-11-24T03:27:08.560942+00:00",
           "ok": true,
           "info": {
             "enumerated": 354,
             "enumerated_raw": 354,
             "advertised": 354,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 9,
             "closed_during_pull": 0,
             "kept": 0,
@@ -3634,13 +3727,12 @@
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:03:00.685902+00:00",
-      "completed_at": "2026-11-24T03:03:25.886311+00:00",
+      "snapshot_at": "2026-11-24T03:26:42.111871+00:00",
+      "completed_at": "2026-11-24T03:27:08.560942+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3672,24 +3764,26 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:01.279382+00:00",
-          "completed_at": "2026-11-24T03:03:22.972350+00:00",
+          "started_at": "2026-11-24T03:26:51.781037+00:00",
+          "completed_at": "2026-11-24T03:27:17.311127+00:00",
           "ok": true,
           "info": {
             "enumerated": 372,
             "enumerated_raw": 372,
             "advertised": 372,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 19,
             "closed_during_pull": 0,
             "kept": 1,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:03:01.279382+00:00",
-      "completed_at": "2026-11-24T03:03:22.972350+00:00",
+      "snapshot_at": "2026-11-24T03:26:51.781037+00:00",
+      "completed_at": "2026-11-24T03:27:17.311127+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3809,24 +3903,26 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:22.972418+00:00",
-          "completed_at": "2026-11-24T03:04:15.637101+00:00",
+          "started_at": "2026-11-24T03:27:08.561005+00:00",
+          "completed_at": "2026-11-24T03:28:06.715834+00:00",
           "ok": true,
           "info": {
             "enumerated": 378,
             "enumerated_raw": 378,
             "advertised": 378,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 74,
             "closed_during_pull": 0,
             "kept": 5,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:03:22.972418+00:00",
-      "completed_at": "2026-11-24T03:04:15.637101+00:00",
+      "snapshot_at": "2026-11-24T03:27:08.561005+00:00",
+      "completed_at": "2026-11-24T03:28:06.715834+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -3835,13 +3931,16 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:25.886376+00:00",
-          "completed_at": "2026-11-24T03:03:32.396353+00:00",
+          "started_at": "2026-11-24T03:27:17.311181+00:00",
+          "completed_at": "2026-11-24T03:27:24.526775+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
             "enumerated_raw": 24,
             "advertised": 24,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 0,
             "closed_during_pull": 0,
             "kept": 0,
@@ -3853,13 +3952,12 @@
               "Location_Country": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:03:25.886376+00:00",
-      "completed_at": "2026-11-24T03:03:32.396353+00:00",
+      "snapshot_at": "2026-11-24T03:27:17.311181+00:00",
+      "completed_at": "2026-11-24T03:27:24.526775+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -3913,10 +4011,26 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:32.396420+00:00",
-          "completed_at": "2026-11-24T03:03:34.257459+00:00",
-          "ok": false,
-          "error": "CollectionError: Browser HTTP 500: https://ufpi.wd1.myworkdayjobs.com/careers"
+          "started_at": "2026-11-24T03:27:24.526835+00:00",
+          "completed_at": "2026-11-24T03:27:43.505412+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 420,
+            "enumerated_raw": 420,
+            "advertised": 420,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 5,
+            "closed_during_pull": 0,
+            "kept": 2,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "locationCountry": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         },
         "mac": {
           "firm": "UFP Industries",
@@ -3941,20 +4055,81 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:14:08.452677+00:00",
-      "completed_at": "2026-11-24T03:14:40.040344+00:00",
-      "snapshot_route": "mac"
+      "snapshot_at": "2026-11-24T03:27:24.526835+00:00",
+      "completed_at": "2026-11-24T03:27:43.505412+00:00",
+      "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
-      "rows": [],
+      "rows": [
+        {
+          "firm": "Husqvarna Group",
+          "job_id": "R-18715",
+          "title": "Program Manager",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "hybrid",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-05",
+          "url": "https://husqvarnagroup.wd3.myworkdayjobs.com/External_Career_Site/job/Charlotte-NC/Program-Manager_R-18715",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Last date to apply:\nWe are continuously accepting applications\nThe Program Manager is an individual contributor role responsible for leading cross-functional supply chain, distribution and network programs across North America, each containing several related projects, and ensuring the successful outcome of all projects within those programs. These programs include distribution network realignment, 3PL transitions, and logistics cost initiatives. The role has no direct reports and drives results through influence, coordinating internal project owners, cross-functional teams and external partners toward defined and agreed results.\nWhat You Need to Know:\nLead cross-functional supply chain and network programs end to end, managing planning, control, status reporting and delivery of all related projects to time, cost and quality.\nCoordinate projects and workstreams within each program, including those led by other functions and external partners, managing dependencies and sequencing to ensure program success.\nLead cross-functional and partner teams without direct authority, securing resource commitments, setting clear expectations and holding team members accountable for deliverables.\nDevelop and maintain RACI charts for owned programs and projects.\nLead distribution network programs, including site realignment, center-of-gravity and network modelling to support footprint decisions.\nLead requests for proposal (RFPs), evaluations and scorecards for 3PL and logistics service providers.\nBuild business cases, Investment Requests (IRs) and total-cost analyses (warehousing, transportation, landed cost) to support leadership decisions.\nPrepare clear, decision-ready materials for the Executive Leadership Team, Logistics Board and Board of Directors, including option comparisons and recommendations.\nOwn program and project budgets, including annual budget development, weekly schedule and cost updates, and regular financial reviews with Finance.\nManage scope, change requests and risk, proactively identifying issues and developing mitigation plans across business functions.\nRun program governance, including steering team meetings, stage-gate adherence and executive scorecards for each owned program.\nCommunicate progress, risks and issues to stakeholders and decision bodies early and clearly.\nDrive continuous improvement by facilitating lessons learned, standardizing program management tools and methods, and sharing best practices across the organization.\nWhat We Are Looking For:\nBachelor’s degree in Supply Chain, Business, Engineering or a related field and a minimum of ten (7+) years of professional project or program management experience in supply chain, logistics, distribution or operations.\nExperience and track record in project planning to include: planning project budgets and all projects’ financials as well as the permanent monitoring of project costs and product costs; establishing realistic project timelines; creating Work Breakdown Structures; stakeholder management; and risk management and mitigation.\nExperience leading distribution network, warehousing, 3PL, transportation, ideally for outdoor power equipment, consumer goods or durable goods.\nExperience leading multi-cultural, cross-functional hybrid teams and external partners without direct reporting authority.\nProfessional project management certification (e.g. PMP) preferred.\nExperience with a stage gate project planning.\nExperience with change management preferred.\nExperience with lease analysis, RFP/vendor selection and contract or rate negotiations preferred.\nProject Management\nDemonstrated ability to effectively influence without direct authority.\nKnowledge of project management process and techniques, along with a demonstrated ability to identify process gaps, understand project priorities, set clear goals and targets, and independently\nlead projects and produce positive results.\nAbility to effectively manage issues at the project and program level and proactively identify when issues may turn into a risk and need to be escalated to the Steering Team.\nMonitor geopolitical risks impacting current and upcoming programs and projects.\nDemonstrated ability to manage several types of complex projects concurrently.\nTechnical\nKnowledge of phase gate development process and detailed understanding of Work Breakdown Structure (WBS) and developing project critical path.\nAdvanced proficiency level with MS Office software applications (Word, Excel, PowerPoint, MS Project).\nExperience with network modelling, center-of-gravity analysis and logistics cost modelling; familiarity with WMS/TMS an asset.\nAbility to create dashboards and report project status and data to management concisely.\nFamiliarity with Husqvarna business systems and ways of working.\nGeneral\nExcellent time management and follow-up skills\n.\nDetail-oriented and demonstrated ability to effectively manage multiple priorities simultaneously and meet critical deadlines in a fast-paced environment.\nExcellent verbal and written communication skills with a demonstrated ability to professionally represent the project status to Steering Team\nStrong initiative and ability to be self-directed in completing tasks and function with minimal supervision.\nStrong problem-solving and analytical skills.\nExcellent teamwork and interpersonal skills.\nDemonstrated ability to be flexible and adaptive to internal processes and change, delays or unexpected events.\nAbility to travel up to 10% to domestic and/or international sites.\nAbility and willingness to work extended hours when needed to support alternate time zones and critical deadlines.\nHusqvarna provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation and training."
+        },
+        {
+          "firm": "Husqvarna Group",
+          "job_id": "R-17957",
+          "title": "Program Manager",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "hybrid",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-08-05",
+          "url": "https://husqvarnagroup.wd3.myworkdayjobs.com/External_Career_Site/job/Charlotte-NC/Program-Manager_R-17957",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Last date to apply:\n04 August 2026\nThe Program Manager has responsibility for leading cross-functional programs containing several related projects and ensuring the successful outcome of all projects within said programs. The scope of these programs may potentially include multiple projects and require continuous oversight and indirect management of different Project Managers within the NA organization. The Program Manager will also lead cross-functional projects as well as effectively managing a full range of stakeholders, driving projects successfully towards defined and agreed results and promoting project success.  These projects can be global, and span across business functions, including enterprise or transformational business projects.  This position will report directly to the Director of Strategy and Transformation office.\nWhat You Need to Know:\nApply project management knowledge, skills, tools, and techniques to a broad range of complex projects and programs to meet requirements and to deliver the end result for a particular project.\nManage the overall planning, control, status reporting, stability and delivery of assigned projects and programs across several functions to ensure delivery on plan to time, cost and quality.\nIndirectly manage related projects within said programs that are managed by other project managers within the organization, managing dependencies to ensure program success.\nLead, build, inspire, and develop global project team(s) while encouraging personal leadership from each team member and actively hold each member of the project team’s accountable for their respective project deliverables.\nDevelop and maintain RACI charts for owned programs and projects.\nWork for active portfolio management in programs, ensuring alignment with strategic goals\nCollaborate with other functions for resource planning, upfront commitment from the organization, and project requirements to ensure alignment with strategic business objectives.\nManage project scope and change requests, reporting risk and deviations to stakeholders.\nCollaborate and independently identify project risks and generate alternative mitigation plans for projects and programs across business functions.\nBe a business role model to proactively ensure adherence to passage of projects and program gates identified in governance planning.\nDevelop and maintain budget and schedule to update projects and programs on a weekly basis.\nConsult with the business and other PMO Resources as a subject matter expert.\nCommunicate with all relevant stakeholders within and outside the project, PM&D and other business units, including reporting project progress/risks and issues to relevant decision bodies at an early stage.\nFacilitate root cause and lessons learned post project to enhance future project performance.\nIdentify, develop, and implement standard approach, and develop and improve project management tools and methodologies through business implementation.\nFacilitate financial review with Finance and other stakeholders to ensure full cost management and reporting in line with standard business rules and expectations.\nEstablish and maintain executive scorecards for each owned project.\nLead a cross-functional group to develop a yearly project budget, including costs across program and project phases.\nFacilitate steering team meetings on a regular basis, to include administering and leading meeting discussions.\nProactively seek continuous improvement throughout business processes and implement recommendations.\nUse previous experience and knowledge to provide guidance and mentorship to other PMO resources as needed.\nWhat We Are Looking For:\nBachelor’s degree and a minimum of ten (10+) years of previous professional Project Management experience in new product development, testing, and/or manufacturing, including development of sourced finished goods products with overseas suppliers.\nExperience and track record in project planning to include: planning project budgets and all projects’ financials as well as the permanent monitoring of project costs and product costs; establishing realistic project timelines; creating Work Breakdown Structures; stakeholder management; and risk management and mitigation.\nExperience in leading projects aimed at new product development for a wide range of outdoor power equipment, consumer goods, and/or product and process improvement projects.\nExperience in leading multi-cultural hybrid teams.\nProfessional project management certification (e.g. PMP) preferred.\nExperience with a stage gate project planning.\nExperience with change management preferred.\nProject Management\nDemonstrated ability to effectively influence without direct authority.\nKnowledge of project management process and techniques, along with a demonstrated ability to identify process gaps, understand project priorities, set clear goals and targets, and independently\nlead projects and produce positive results.\nAbility to effectively manage issues at the project and program level and proactively identify when issues may turn into a risk and need to be escalated to the Steering Team.\nMonitor geopolitical risks impacting current and upcoming programs and projects.\nDemonstrated ability to manage several types of complex projects concurrently.\nTechnical\nKnowledge of phase gate development process and detailed understanding of Work Breakdown Structure (WBS) and developing project critical path.\nAdvanced proficiency level with MS Office software applications (Word, Excel, PowerPoint, MS Project).\nAbility to create dashboards and report project status and data to management concisely.\nFamiliarity with Husqvarna business systems and ways of working.\nGeneral\nExcellent time management and follow-up skills\n.\nDetail-oriented and demonstrated ability to effectively manage multiple priorities simultaneously and meet critical deadlines in a fast-paced environment.\nExcellent verbal and written communication skills with a demonstrated ability to professionally represent the project status to Steering Team\nStrong initiative and ability to be self-directed in completing tasks and function with minimal supervision.\nStrong problem-solving and analytical skills.\nExcellent teamwork and interpersonal skills.\nDemonstrated ability to be flexible and adaptive to internal processes and change, delays or unexpected events.\nAbility to travel up to 10% to domestic and/or international sites.\nAbility and willingness to work extended hours due to alternate time zones, including overtime and weekends."
+        }
+      ],
       "attempts": {
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:34.257499+00:00",
-          "completed_at": "2026-11-24T03:03:36.329877+00:00",
-          "ok": false,
-          "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
+          "started_at": "2026-11-24T03:27:43.505472+00:00",
+          "completed_at": "2026-11-24T03:27:54.052798+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 42,
+            "enumerated_raw": 42,
+            "advertised": 42,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 3,
+            "closed_during_pull": 0,
+            "kept": 2,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "locationCountry": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         },
         "mac": {
           "firm": "Husqvarna Group",
@@ -3964,18 +4139,122 @@
           "ok": false,
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
-      }
+      },
+      "snapshot_at": "2026-11-24T03:27:43.505472+00:00",
+      "completed_at": "2026-11-24T03:27:54.052798+00:00",
+      "snapshot_route": "cloud"
     },
     "CLA": {
-      "rows": [],
+      "rows": [
+        {
+          "firm": "CLA",
+          "job_id": "R16761",
+          "title": "Technical Project Manager - Sage Intacct",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-12",
+          "url": "https://cliftonlarsonallen.wd115.myworkdayjobs.com/CLA/job/Kansas-City-MO/Technical-Project-Manager---Sage-Intacct_R16761-1",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "4\nyears of experience",
+          "required_certifications": "",
+          "description": "CLA is a top 10 national professional services firm where\nour purpose is to\ncreate opportunities\nevery day, for our clients, our people, and our communities through industry-focused wealth advisory, digital, audit, tax, consulting, and outsourcing services. Even with more than 8,500 people, 130 U.S. locations, and a global reach, we promise to know you and help you.\nCLA is dedicated to building a\nculture\nthat invites different beliefs and perspectives to the table, so we can truly know and help our clients, communities, and each other.\nCLA is currently seeking a Technical Project Manager - Sage Intacct\nto join our growing CLA Digital Team.\nThis role is a leader in developing and managing staff, business plans, and fiscal budgets. They are responsible for developing and administering the business software consulting practice within the region. They develop and update strategies and guidelines for delivery of business software solutions to firm clients.\nJob Functions:\nManage and lead the software implementation team, providing direction and support.\nDevelop and implement strategies for efficient and effective software deployment.\nOversee the planning, execution, and delivery of multiple implementation projects.\nBuild and maintain strong relationships with clients, ensuring their needs are met and expectations are exceeded.\nMonitor project progress, identify potential risks, and implement mitigation strategies.\nContinuously improve implementation processes and methodologies.\n** Must have technical Sage Intacct Experience **\nWhat you will need:\n4\nyears of experience developing and implementing business software technology solutions is required. *+ years preferred\nOverall experience must also including 3 years of supervisory or project management experience\nBachelor's degree in computer science, information technology, or a related field required (combination of education, experience, and training may be considered a degree equivalent)\nProject Management Institute, Agile, and/or Scrum certification(s) preferred.\n#LI-RC1\nEqual Opportunity Employer/Protected Veterans/Individuals with Disabilities\nClick\nhere\nto learn about your hiring rights.\nWellness at CLA\nTo support our CLA family members, we focus on their physical, financial, social, and emotional well-being and offer comprehensive benefit options that include health, dental, vision, 401k and much more.\nTo view a complete list of benefits, click\nhere\n."
+        },
+        {
+          "firm": "CLA",
+          "job_id": "R18276",
+          "title": "Onboarding Specialist (National Consulting & Outsourcing Team)",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-10-27",
+          "url": "https://cliftonlarsonallen.wd115.myworkdayjobs.com/CLA/job/Connection-Center-CharlotteNC/Onboarding-Specialist--National-Consulting---Outsourcing-Team-_R18276",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "3 years of relevant experience",
+          "required_certifications": "",
+          "description": "CLA is a national professional services firm where\nour purpose is to\ncreate opportunities\nevery day, for our clients, our people, and our communities through industry-focused wealth advisory, digital, audit, tax, consulting, and outsourcing services. Even with more than 8,500 people, 130 U.S. locations, and a global reach, we promise to know you and help you.\nCLA is dedicated to building a\nculture\nthat invites different beliefs and perspectives to the table, so we can truly know and help our clients, communities, and each other\nWe are currently seeking an\nOnboarding Specialist,\nto join our\nNational Consulting & Onboarding Team.\nThis team is focused on providing an expedient and best in class onboarding experience for clients. This role will focus on developing innovative processes, utilizing technology to the fullest extent, and reinforcing a culture in which the client experience is at the center of the company.\nJob Description:\nKnowledge on chart of accounts setup and conversions to make recommendations on improvements.\nMake recommendations to improve chart of accounts and system setup and conversion\nWork across a wide variety of industries, pulling in additional industry expertise when needed.\nLearn business drivers, strategy, risk areas, and accounting concerns.\nSuccessfully utilize accounting systems such as QuickBooks (Online & Desktop), and Xero.\nUtilize AR/AP systems such as BILL.com and Ramp.com.\nAdapt and change with client needs and deadlines.\nRemain accurate and consistent in task execution.\nEducation/Experience:\n·\nEducation\n:\nBachelor's degree is required. Combination of experience, education, and training may be accepted in lieu of degree. Bachelor's degree in accounting, finance, business administration or a related field is preferred.\n·\nExperience\n: 3 years of relevant experience required. Experience in accounting or finance field preferred.\nSkills/Knowledge:\nStrong communication skills, both written & verbal.\nStrong project and time management skills.\nAbility to adapt and change with client needs and deadlines.\nKnowledge on chart of accounts setup and conversions.\nProficiency in accounting systems such as QBO, QBD, and Xero.\nProficiency in AR/AP systems such as BILL and Ramp\nProficiency with applicable software (Microsoft Excel, Word, Outlook, etc.).\n#LI-TT1\nEqual Opportunity Employer/Protected Veterans/Individuals with Disabilities\nClick\nhere\nto learn about your hiring rights.\nWellness at CLA\nTo support our CLA family members, we focus on their physical, financial, social, and emotional well-being and offer comprehensive benefit options that include health, dental, vision, 401k and much more.\nTo view a complete list of benefits, click\nhere\n."
+        },
+        {
+          "firm": "CLA",
+          "job_id": "R18191",
+          "title": "Senior Data Governance Analyst",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-10-08",
+          "url": "https://cliftonlarsonallen.wd115.myworkdayjobs.com/CLA/job/Austin-TX/Senior-Data-Governance-Analyst_R18191",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "CLA is a top 10 national professional services firm where\nour purpose is to\ncreate opportunities\nevery day, for our clients, our people, and our communities through industry-focused wealth advisory, digital, audit, tax, consulting, and outsourcing services. Even with more than 8,500 people, 130 U.S. locations, and a global reach, we promise to know you and help you.\nCLA is dedicated to building a\nculture\nthat invites different beliefs and perspectives to the table, so we can truly know and help our clients, communities, and each other.\nAbout the role:\nCLA is seeking to hire a\nSenior Data Governance Analyst\nto join our growing team.\nThe Senior Data Governance Analyst leads core data governance initiatives and contributes to the continued maturity of CLA’s enterprise data governance program. This role is responsible for designing and enforcing data governance policies, standards, and processes; driving data governance and data quality conformance; and partnering with business and technical leaders to promote consistent, responsible, and compliant use of data.\nHow you’ll create opportunities in this Senior Data Governance Analyst role:\nLead the implementation and enhancement of enterprise data governance frameworks, policies, standards, and processes aligned with CLA’s enterprise data strategy.\nIdentify gaps in data governance processes and lead continuous improvement efforts, including governance conformance monitoring and resolution of data issues.\nDefine governance requirements for enterprise metadata, including business terms, critical data elements, definitions, rules, lineage, ownership, and accountability.\nLead data governance intake and prioritization, assessing impact and effort and developing recommendations for consideration by the Data Governance Council.\nFacilitate cross-functional data decisions among data stewards, custodians, subject matter experts, business stakeholders, and technical teams, documenting decisions and escalating unresolved issues as appropriate.\nOwn the lifecycle of assigned data governance artifacts, including drafting, review, approval, publication, versioning, and scheduled refreshes.\nPartner with Compliance & Risk, Security, Legal, Metadata Management, and other stakeholders to support governance requirements, risk management, data quality, privacy, security, and regulatory compliance.\nDevelop and deliver training, communications, and guidance that strengthen data governance adoption, responsible data use, stewardship, and data literacy across the organization.\nWhat you will need:\n4 or more years of relevant experience, including experience in data governance or data management.\nBachelor’s degree required. A combination of relevant experience, education, and training may be accepted in lieu of a degree. A degree in Information Management, Computer Science, or a related field is preferred.\nStrong understanding of data governance principles, policies, standards, and best practices, including the ability to develop policies and translate them into measurable KPIs, OKRs, and conformance testing.\nWorking fluency with DAMA-DMBOK, particularly Data Governance, Metadata Management, Reference and Master Data, and Data Quality, along with knowledge of privacy and security regulations such as GDPR and CCPA.\nAbility to facilitate cross-functional working sessions, read logical and physical data models, trace business terms to source systems, and communicate effectively with business leaders, data stewards, SMEs, custodians, and technical teams.\nTravel:\nLess than 10%.\nOur Perks:\nFlexible PTO, designed to offer flexible time away for you!\nUp to 12 weeks paid parental leave\nPaid Volunteer Time Off\nMental health coverage\nQuarterly Wellness stipend\nFertility benefits\n#LI-JH1\nEqual Opportunity Employer/Protected Veterans/Individuals with Disabilities\nClick\nhere\nto learn about your hiring rights.\nWellness at CLA\nTo support our CLA family members, we focus on their physical, financial, social, and emotional well-being and offer comprehensive benefit options that include health, dental, vision, 401k and much more.\nTo view a complete list of benefits, click\nhere\n."
+        },
+        {
+          "firm": "CLA",
+          "job_id": "R18104",
+          "title": "Senior Organizational Change Manager (Hybrid)",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-09-18",
+          "url": "https://cliftonlarsonallen.wd115.myworkdayjobs.com/CLA/job/Connection-Center-CharlotteNC/Senior-Organizational-Change-Manager--Hybrid-_R18104",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "CLA is a top 10 national professional services firm where our purpose is to create opportunities every day, for our clients, our people, and our communities through industry-focused wealth advisory, digital, audit, tax, consulting, and outsourcing services.\nEven with more than 9,000 people, 130 U.S. locations, and a global reach, we promise to know you and help you.\nCLA is growing and seeking a\nSenior Organizational Change Manager\nto join our internal team. This position offers an opportunity to partner with clients and CLA project teams on the people side of large-scale data, technology, process, and digital transformation initiatives.\nHow You’ll Create Opportunities in This Senior Organizational Change Management Consultant Role\nPartner with clients to understand strategic objectives, business needs, stakeholders, and risks associated with large-scale process, data, and technology transformations.\nAssess change scope, complexity, organizational readiness, and employee impacts to determine the appropriate change management approach.\nDevelop and implement employee-focused change strategies that increase adoption, utilization, and proficiency with new processes, systems, and ways of working.\nCreate integrated change management plans covering stakeholder engagement, communications, training, sponsorship, coaching, resistance management, and reinforcement.\nFacilitate change readiness, strategic planning, stakeholder alignment, and team effectiveness workshops.\nDevelop and manage change roadmaps, timelines, project plans, impact assessments, readiness assessments, and adoption measures.\nCollaborate with client leaders and CLA project teams to integrate change management activities into broader project and implementation plans.\nMonitor change progress, adoption, resistance, and organizational risks, adjusting strategies to help clients achieve sustainable business outcomes.\nWhat You Will Need\nBachelor’s degree in business, organizational development, communications, human resources, change management, or a related field. A combination of relevant experience, education, and training may be accepted in place of a degree.\nFour years of experience in organizational change management, project management, transformation consulting, or a related discipline.\nExperience supporting stakeholder engagement, communications, training, organizational readiness, adoption, or resistance management activities.\nKnowledge of change management principles, methodologies, tools, and project lifecycle approaches.\nWhat Would Be Nice to Have\nProsci, Certified Change Management Professional, or another recognized change management certification.\nExperience supporting technology, data, digital, process, or enterprise transformation initiatives.\nExperience working in a professional services, consulting, or client-facing environment.\nExperience facilitating workshops and presenting recommendations to client leaders and stakeholders.\nFamiliarity with change impact assessments, stakeholder analyses, readiness assessments, communication plans, training strategies, and adoption measurement.\nTravel Requirements\nThis position requires less than 10% travel.\nEqual Opportunity Employer/Protected Veterans/Individuals with Disabilities\nClick\nhere\nto learn about your hiring rights.\nWellness at CLA\nTo support our CLA family members, we focus on their physical, financial, social, and emotional well-being and offer comprehensive benefit options that include health, dental, vision, 401k and much more.\nTo view a complete list of benefits, click\nhere\n."
+        }
+      ],
       "attempts": {
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:36.329921+00:00",
-          "completed_at": "2026-11-24T03:03:38.087556+00:00",
-          "ok": false,
-          "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
+          "started_at": "2026-11-24T03:27:54.052857+00:00",
+          "completed_at": "2026-11-24T03:28:13.466110+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 334,
+            "enumerated_raw": 334,
+            "advertised": 334,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 6,
+            "closed_during_pull": 0,
+            "kept": 4,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {}
+          }
         },
         "mac": {
           "firm": "CLA",
@@ -3985,7 +4264,10 @@
           "ok": false,
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
-      }
+      },
+      "snapshot_at": "2026-11-24T03:27:54.052857+00:00",
+      "completed_at": "2026-11-24T03:28:13.466110+00:00",
+      "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
       "rows": [],
@@ -3993,13 +4275,16 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:38.087593+00:00",
-          "completed_at": "2026-11-24T03:03:49.058336+00:00",
+          "started_at": "2026-11-24T03:28:06.692955+00:00",
+          "completed_at": "2026-11-24T03:28:23.814968+00:00",
           "ok": true,
           "info": {
             "enumerated": 541,
             "enumerated_raw": 541,
             "advertised": 541,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 0,
             "closed_during_pull": 0,
             "kept": 0,
@@ -4008,13 +4293,12 @@
               "locationCountry": [
                 "bc33aa3152ec42d4995f4791a106ed09"
               ]
-            },
-            "unpublished_index_ids": []
+            }
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:03:38.087593+00:00",
-      "completed_at": "2026-11-24T03:03:49.058336+00:00",
+      "snapshot_at": "2026-11-24T03:28:06.692955+00:00",
+      "completed_at": "2026-11-24T03:28:23.814968+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4023,24 +4307,26 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:49.058408+00:00",
-          "completed_at": "2026-11-24T03:03:53.426469+00:00",
+          "started_at": "2026-11-24T03:28:06.715895+00:00",
+          "completed_at": "2026-11-24T03:28:13.395311+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
             "enumerated_raw": 2,
             "advertised": 2,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 0,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:03:49.058408+00:00",
-      "completed_at": "2026-11-24T03:03:53.426469+00:00",
+      "snapshot_at": "2026-11-24T03:28:06.715895+00:00",
+      "completed_at": "2026-11-24T03:28:13.395311+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4049,24 +4335,26 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:52.414315+00:00",
-          "completed_at": "2026-11-24T03:03:59.635073+00:00",
+          "started_at": "2026-11-24T03:28:13.395369+00:00",
+          "completed_at": "2026-11-24T03:28:23.541455+00:00",
           "ok": true,
           "info": {
             "enumerated": 142,
             "enumerated_raw": 142,
             "advertised": 142,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 1,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:03:52.414315+00:00",
-      "completed_at": "2026-11-24T03:03:59.635073+00:00",
+      "snapshot_at": "2026-11-24T03:28:13.395369+00:00",
+      "completed_at": "2026-11-24T03:28:23.541455+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4081,8 +4369,8 @@
           "work_arrangement": "remote",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "55221",
+          "pay_max": "96639",
           "pay_unit": "",
           "posted_date": "2026-11-23",
           "url": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Mecklenburg-County-NC/Facility-Compliance-Consultant-I--Nursing-Home-Surveyor---LPNs--Dietitians--Social-Workers---more--Mecklenburg_JR-129178",
@@ -4103,8 +4391,8 @@
           "work_arrangement": "remote",
           "job_type": "",
           "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
+          "pay_min": "55221",
+          "pay_max": "65791",
           "pay_unit": "",
           "posted_date": "2026-11-04",
           "url": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Regional/Facility-Compliance-Consultant-I_JR-112508-1",
@@ -4120,24 +4408,26 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:53.426541+00:00",
-          "completed_at": "2026-11-24T03:04:22.178882+00:00",
+          "started_at": "2026-11-24T03:28:13.466182+00:00",
+          "completed_at": "2026-11-24T03:28:47.407881+00:00",
           "ok": true,
           "info": {
             "enumerated": 864,
             "enumerated_raw": 864,
             "advertised": 864,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 22,
             "closed_during_pull": 0,
             "kept": 2,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:03:53.426541+00:00",
-      "completed_at": "2026-11-24T03:04:22.178882+00:00",
+      "snapshot_at": "2026-11-24T03:28:13.466182+00:00",
+      "completed_at": "2026-11-24T03:28:47.407881+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4146,24 +4436,26 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-24T03:03:59.635149+00:00",
-          "completed_at": "2026-11-24T03:04:05.506146+00:00",
+          "started_at": "2026-11-24T03:28:23.541526+00:00",
+          "completed_at": "2026-11-24T03:28:32.954253+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
             "enumerated_raw": 43,
             "advertised": 43,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 6,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:03:59.635149+00:00",
-      "completed_at": "2026-11-24T03:04:05.506146+00:00",
+      "snapshot_at": "2026-11-24T03:28:23.541526+00:00",
+      "completed_at": "2026-11-24T03:28:32.954253+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4172,24 +4464,26 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-24T03:04:05.506209+00:00",
-          "completed_at": "2026-11-24T03:04:11.057317+00:00",
+          "started_at": "2026-11-24T03:28:23.815037+00:00",
+          "completed_at": "2026-11-24T03:28:32.391984+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
             "enumerated_raw": 43,
             "advertised": 43,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
             "details_read": 6,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {},
-            "unpublished_index_ids": []
+            "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:04:05.506209+00:00",
-      "completed_at": "2026-11-24T03:04:11.057317+00:00",
+      "snapshot_at": "2026-11-24T03:28:23.815037+00:00",
+      "completed_at": "2026-11-24T03:28:32.391984+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4441,10 +4735,17 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-24T03:04:11.057385+00:00",
-          "completed_at": "2026-11-24T03:04:39.470510+00:00",
-          "ok": false,
-          "error": "CollectionError: Oracle full detail missing/mismatched"
+          "started_at": "2026-11-24T03:28:32.392040+00:00",
+          "completed_at": "2026-11-24T03:29:22.436703+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 1339,
+            "enumerated_raw": 1339,
+            "advertised": 1339,
+            "details_read": 64,
+            "kept": 11,
+            "method": "employer Oracle search + full requisition detail resource"
+          }
         },
         "mac": {
           "firm": "Honeywell",
@@ -4462,9 +4763,9 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T03:14:31.073246+00:00",
-      "completed_at": "2026-11-24T03:15:17.915507+00:00",
-      "snapshot_route": "mac"
+      "snapshot_at": "2026-11-24T03:28:32.392040+00:00",
+      "completed_at": "2026-11-24T03:29:22.436703+00:00",
+      "snapshot_route": "cloud"
     }
   },
   "runs": [
@@ -4489,7 +4790,17 @@
       "firms_attempted": 5,
       "firms_succeeded": 2,
       "firms_failed": 3
+    },
+    {
+      "id": "45319036372",
+      "route": "cloud",
+      "started_at": "2026-11-24T03:23:10.498205+00:00",
+      "completed_at": "2026-11-24T03:29:32.964853+00:00",
+      "trigger": "workflow_dispatch",
+      "firms_attempted": 39,
+      "firms_succeeded": 39,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-24T03:15:19.589063+00:00"
+  "published_at": "2026-11-24T03:29:35.101801+00:00"
 }
