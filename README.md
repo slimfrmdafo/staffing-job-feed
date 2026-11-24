@@ -9,6 +9,8 @@ This repository collects staffing firms' own public job searches and full listin
 
 These addresses stay fixed. `main` holds the implementation. The `feed` branch holds the CSV, status and shared per-firm state. Both runners publish there; there is no file transfer, import or manual start in the hourly process.
 
+A second, independent [employer feed](EMPLOYER_FEED.md) publishes `employer_jobs.csv` and `employer_status.txt` beside these files.
+
 ## Schedule and runners
 
 The cloud uses **Hourly cloud clock**, a self-renewing timer relay on GitHub. Each tick automatically launches the collector and queues its successor behind the `staffing-hourly-clock` environment's 60-minute server-side wait timer. No reviewers or manual approval are configured. GitHub holds the wait without allocating a runner. Collection continues independently of the Mac and Codex.

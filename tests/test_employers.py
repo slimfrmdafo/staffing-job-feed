@@ -105,3 +105,16 @@ def test_explicit_virtual_worker_is_remote_but_not_remote_office_is_onsite():
  assert r['work_arrangement']=='remote' and keep_employer(r,country)
  r,country=workday_row('AT&T','https://example.com','/job/x',posting(location='Dallas, TX',additionalLocations=[],remoteType='Office Worker (NOT Remote)'))
  assert r['work_arrangement']=='onsite' and not keep_employer(r,country)
+
+def test_portal_duplicate_pages_cannot_be_published_as_complete(monkeypatch):
+ import requests
+ from employer_collectors import phenom
+ class Response:
+  def raise_for_status(self):pass
+  def json(self):return {'refineSearch':{'status':200,'totalHits':2,'data':{'jobs':[{'jobSeqNo':'same','jobId':'same','title':'Project Manager'}]}}}
+ payloads=[]
+ def post(url,**kwargs):payloads.append(kwargs['json']);return Response()
+ monkeypatch.setattr(requests,'post',post)
+ with pytest.raises(CollectionError,match='duplicate pagination'):
+  phenom("Lowe's",{'root':'https://example.com'})
+ assert payloads[0]['sort']=={'order':'asc','field':'dateCreated'}

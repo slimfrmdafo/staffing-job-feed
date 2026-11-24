@@ -210,7 +210,7 @@ def collect(firm,route):
         for retry in range(3):
             try:rows,info=adapter(firm,config);break
             except CollectionError as e:
-                if 'changed during pagination' not in str(e) or retry==2:raise
+                if not any(x in str(e) for x in ('changed during pagination','duplicate pagination')) or retry==2:raise
                 time.sleep(2)
         validate(rows)
         result={'firm':firm,'route':route,'started_at':start,'completed_at':now(),'ok':True,'rows':rows,'info':info}
@@ -302,7 +302,7 @@ def phenom(firm,config):
     import requests
     root=config['root'];seen={};total=None;raw=0
     for offset in range(0,40000,100):
-        body={'lang':'en_us','deviceType':'desktop','country':'us','pageName':'search-results','ddoKey':'refineSearch','from':offset,'jobs':True,'counts':True,'all_fields':['category','country','state','city','type'],'size':100,'clearAll':False,'keywords':'','selected_fields':{}}
+        body={'lang':'en_us','deviceType':'desktop','country':'us','pageName':'search-results','ddoKey':'refineSearch','from':offset,'jobs':True,'counts':True,'all_fields':['category','country','state','city','type'],'size':100,'sort':{'order':'asc','field':'dateCreated'},'clearAll':False,'keywords':'','selected_fields':{}}
         response=requests.post(root+'/widgets',json=body,timeout=(15,60));response.raise_for_status();d=response.json().get('refineSearch') or {}
         count=d.get('totalHits');jobs=(d.get('data') or {}).get('jobs') or []
         if not isinstance(count,int) or d.get('status')!=200:raise CollectionError('Employer search widget total/status missing')
@@ -319,6 +319,7 @@ def phenom(firm,config):
         if not jobs or not fresh:raise CollectionError('Employer search widget truncated/repeated')
     else:raise CollectionError('Employer search widget pagination limit')
     if raw!=total:raise CollectionError('Employer search widget advertised count mismatch')
+    if len(seen)!=total:raise CollectionError('Employer search widget duplicate pagination; unable to prove complete index')
     rows=[];details=0
     for j in seen.values():
         if not match(j.get('title','')):continue
