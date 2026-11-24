@@ -3724,11 +3724,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Official job search and detail pages are under maintenance",
+          "error": "Apex search returned no enumerable listings; preserving prior snapshot",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-24T02:56:10.750680+00:00",
-          "completed_at": "2026-11-24T02:56:11.823090+00:00"
+          "started_at": "2026-11-24T03:56:10.471256+00:00",
+          "completed_at": "2026-11-24T03:56:22.345108+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -8034,6 +8034,28 @@
       "rows": [
         {
           "firm": "Vaco",
+          "job_id": "699",
+          "title": "Operations Finance Manager",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "permanent",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-07-01",
+          "url": "https://jobs.vaco.com/job/699/operations_finance_manager/en",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Company Overview\nOur client is a private equity-backed, high-growth industrial manufacturing company experiencing continued growth through operational investment and strategic acquisitions. With multiple manufacturing and distribution locations across North America, the organization is focused on driving operational excellence, scalability, and long-term value creation.\nPosition Summary\nReporting to the VP of FP&A, this role serves as the finance business partner to Manufacturing and Operations, leading forecasting, standard costing, operational analysis, capital planning, and business performance across the manufacturing network.\nThis role offers significant exposure to executive leadership and the opportunity to influence operational decision-making through financial insights and strategic analysis.\nKey Responsibilities\nManufacturing Finance & Business Partnership\nLead monthly forecasting, annual budgeting, and long-range planning for manufacturing operations.\nPartner with Manufacturing, Operations, and Supply Chain leaders to analyze financial performance and operational KPIs.\nSupport plant P&Ls by identifying cost drivers and improvement opportunities.\nDevelop financial models supporting productivity initiatives, operational improvements, and strategic decision-making.\nFinancial Analysis & Reporting\nOversee standard cost updates, cost rollups, and COGS modeling.\nAnalyze manufacturing variances including material, labor, overhead, PPV, scrap, and inventory absorption.\nSupport accounting team through financial analysis, reporting, and accrual review.\nDevelop dashboards and reporting tools that improve operational visibility.\nStrategic Initiatives\nSupport capital planning, ROI analysis, and major investment decisions.\nParticipate in acquisition integrations and help standardize forecasting and reporting across the manufacturing network.\nDrive process improvements focused on automation, reporting enhancements, and scalability.\nQualifications\nBachelor's degree in Finance, Accounting, or related field.\n6+ years of combined experience in FP&A, Manufacturing Finance, Cost Accounting, Plant Finance, or Operations Finance roles within a manufacturing environment.\nDemonstrated knowledge of budgeting/forecasting, manufacturing finance, and cost accounting principles.\nAdvanced Excel and financial modeling skills.\nExperience working with ERP systems and reporting tool (i.e. Oracle, SAP, NetSuite, OneStream, Planful, etc.)\nDetermining compensation for this role (and others) at Vaco/Highspring depends upon a wide array of factors including but not limited to the individual’s skill sets, experience and training, licensure and certifications, office location and other geographic considerations, as well as other business and organizational needs. With that said, as required by local law in geographies that require salary range disclosure, Vaco/Highspring notes the salary range for the role is noted in this job posting. The individual may also be eligible for discretionary bonuses, and can participate in medical, dental, and vision benefits as well as the company’s 401(k) retirement plan. Additional disclaimer: Unless otherwise noted in the job description, the position Vaco/Highspring is filing for is occupied. Please note, however, that Vaco/Highspring is regularly asked to provide talent to other organizations. By submitting to this position, you are agreeing to be included in our talent pool for future hiring for similarly qualified positions. Submissions to this position are subject to the use of AI to perform preliminary candidate screenings, focused on ensuring minimum job requirements noted in the position are satisfied. Further assessment of candidates beyond this initial phase within Vaco/Highspring will be otherwise assessed by recruiters and hiring managers. Vaco/Highspring does not have knowledge of the tools used by its clients in making final hiring decisions and cannot opine on their use of AI products."
+        },
+        {
+          "firm": "Vaco",
           "job_id": "2080",
           "title": "Procurement Operations Analyst",
           "client_company": "",
@@ -8075,28 +8097,6 @@
           "required_experience": "8+ years of experience",
           "required_certifications": "",
           "description": "Interim Senior Finance Project Manager\nOur client, a global software company, is seeking an Interim Senior Finance Project Manager to lead complex, high-visibility initiatives across the Finance organization.\nThis role is fully remote and has an anticipated duration of approximately 8 months, with potential for extension.\nResponsibilities:\nLead end-to-end program management for strategic Finance initiatives, including planning, governance, risk management, and executive reporting\nPartner with Finance, Tax, Legal, HR, Operations, and Technology stakeholders to define requirements, align milestones, and drive execution across multiple workstreams\nDevelop and manage program roadmaps, governance structures, decision logs, issue tracking, and risk mitigation plans\nCoordinate cross-functional initiatives involving financial operations, compliance, systems, reporting, and process transformation\nAssess dependencies across people, processes, technology, and regulatory requirements to proactively identify risks and opportunities\nPrepare executive-level communications, presentations, and status updates for senior leadership\nEstablish stakeholder communication cadences and facilitate alignment across globally distributed teams\nLead change-management efforts to ensure successful adoption of new processes, controls, systems, and operating models\nDrive program execution in environments with multiple competing priorities and evolving business requirements\nRequirements:\n8+ years of experience in strategic program management, project management, finance transformation, operations, corporate development, or a related field\nExperience managing large-scale, cross-functional initiatives within global or multinational organizations\nStrong understanding of finance operations, including accounting, tax, payroll, compliance, reporting, and finance systems\nProven executive presence with exceptional stakeholder management, communication, and influencing skills\nDemonstrated expertise in program governance, roadmap development, risk management, dependency tracking, and change management\nCompensation:\nDetermining compensation for this role (and others) at Vaco by Highspring depends upon a wide array of factors, including but not limited to:\nThe individual’s skill sets, experience, and training;\nLicensure and certifications;\nOffice location and other geographic considerations;\nOther business and organizational needs.\nWith that said, as required by local law in geographies that require salary range disclosure, Vaco by Highspring notes that the salary range for the role is noted in this job posting. The individual may also be eligible for discretionary bonuses, and can participate in medical, dental, and vision benefits as well as the company's 401(k) retirement plan.\nBy submitting to this position, you are agreeing to be included in our talent pool for future hiring for similarly qualified positions."
-        },
-        {
-          "firm": "Vaco",
-          "job_id": "699",
-          "title": "Operations Finance Manager",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "permanent",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-07-01",
-          "url": "https://jobs.vaco.com/job/699/operations_finance_manager/en",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Company Overview\nOur client is a private equity-backed, high-growth industrial manufacturing company experiencing continued growth through operational investment and strategic acquisitions. With multiple manufacturing and distribution locations across North America, the organization is focused on driving operational excellence, scalability, and long-term value creation.\nPosition Summary\nReporting to the VP of FP&A, this role serves as the finance business partner to Manufacturing and Operations, leading forecasting, standard costing, operational analysis, capital planning, and business performance across the manufacturing network.\nThis role offers significant exposure to executive leadership and the opportunity to influence operational decision-making through financial insights and strategic analysis.\nKey Responsibilities\nManufacturing Finance & Business Partnership\nLead monthly forecasting, annual budgeting, and long-range planning for manufacturing operations.\nPartner with Manufacturing, Operations, and Supply Chain leaders to analyze financial performance and operational KPIs.\nSupport plant P&Ls by identifying cost drivers and improvement opportunities.\nDevelop financial models supporting productivity initiatives, operational improvements, and strategic decision-making.\nFinancial Analysis & Reporting\nOversee standard cost updates, cost rollups, and COGS modeling.\nAnalyze manufacturing variances including material, labor, overhead, PPV, scrap, and inventory absorption.\nSupport accounting team through financial analysis, reporting, and accrual review.\nDevelop dashboards and reporting tools that improve operational visibility.\nStrategic Initiatives\nSupport capital planning, ROI analysis, and major investment decisions.\nParticipate in acquisition integrations and help standardize forecasting and reporting across the manufacturing network.\nDrive process improvements focused on automation, reporting enhancements, and scalability.\nQualifications\nBachelor's degree in Finance, Accounting, or related field.\n6+ years of combined experience in FP&A, Manufacturing Finance, Cost Accounting, Plant Finance, or Operations Finance roles within a manufacturing environment.\nDemonstrated knowledge of budgeting/forecasting, manufacturing finance, and cost accounting principles.\nAdvanced Excel and financial modeling skills.\nExperience working with ERP systems and reporting tool (i.e. Oracle, SAP, NetSuite, OneStream, Planful, etc.)\nDetermining compensation for this role (and others) at Vaco/Highspring depends upon a wide array of factors including but not limited to the individual’s skill sets, experience and training, licensure and certifications, office location and other geographic considerations, as well as other business and organizational needs. With that said, as required by local law in geographies that require salary range disclosure, Vaco/Highspring notes the salary range for the role is noted in this job posting. The individual may also be eligible for discretionary bonuses, and can participate in medical, dental, and vision benefits as well as the company’s 401(k) retirement plan. Additional disclaimer: Unless otherwise noted in the job description, the position Vaco/Highspring is filing for is occupied. Please note, however, that Vaco/Highspring is regularly asked to provide talent to other organizations. By submitting to this position, you are agreeing to be included in our talent pool for future hiring for similarly qualified positions. Submissions to this position are subject to the use of AI to perform preliminary candidate screenings, focused on ensuring minimum job requirements noted in the position are satisfied. Further assessment of candidates beyond this initial phase within Vaco/Highspring will be otherwise assessed by recruiters and hiring managers. Vaco/Highspring does not have knowledge of the tools used by its clients in making final hiring decisions and cannot opine on their use of AI products."
         }
       ],
       "attempts": {
@@ -8107,11 +8107,24 @@
           "route": "cloud",
           "started_at": "2026-11-24T03:29:56.393006+00:00",
           "completed_at": "2026-11-24T03:31:24.885057+00:00"
+        },
+        "mac": {
+          "ok": true,
+          "info": {
+            "candidates": 64,
+            "details_read": 64,
+            "kept": 3,
+            "enumerated": 1528
+          },
+          "firm": "Vaco",
+          "route": "mac",
+          "started_at": "2026-11-24T03:56:10.471724+00:00",
+          "completed_at": "2026-11-24T03:56:23.670178+00:00"
         }
       },
-      "snapshot_at": "2026-11-24T02:29:54.084516+00:00",
-      "completed_at": "2026-11-24T02:30:47.793563+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T03:56:10.471724+00:00",
+      "completed_at": "2026-11-24T03:56:23.670178+00:00",
+      "snapshot_route": "mac"
     },
     "The Select Group": {
       "rows": [],
@@ -8528,8 +8541,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-24T03:40:10.947598+00:00",
-          "completed_at": "2026-11-24T03:45:29.376467+00:00"
+          "started_at": "2026-11-24T03:56:10.474286+00:00",
+          "completed_at": "2026-11-24T04:03:24.269352+00:00"
         }
       }
     },
@@ -8912,7 +8925,17 @@
       "firms_attempted": 1,
       "firms_succeeded": 0,
       "firms_failed": 1
+    },
+    {
+      "id": "f157c090-17aa-4d74-9995-1fb8785e1462",
+      "route": "mac",
+      "started_at": "2026-11-24T03:56:08.512114+00:00",
+      "completed_at": "2026-11-24T04:03:24.287589+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-24T03:45:30.906200+00:00"
+  "published_at": "2026-11-24T04:03:26.026398+00:00"
 }
