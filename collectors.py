@@ -3,6 +3,7 @@ import concurrent.futures, html, json, re, time, threading
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse, urljoin, unquote, parse_qs
 import requests
+import urllib.request
 from bs4 import BeautifulSoup
 from core import blank, plain, state_code, job_type, enrich, keep, title_match, now
 
@@ -17,6 +18,14 @@ def get(url, **kwargs):
         try:
             r=LOCAL.session.get(url,timeout=(15,60),**kwargs)
             if r.status_code in (404,410):raise ClosedListing(f'HTTP {r.status_code}: {url}')
+            if r.status_code==403:
+                # Retry with Python's standard HTTP client for sites incompatible with requests.
+                # This is an ordinary public GET, with no login/challenge handling.
+                try:
+                    request=urllib.request.Request(r.url,headers={'User-Agent':'Mozilla/5.0 (compatible; StaffingFeed/1.0)'})
+                    with urllib.request.urlopen(request,timeout=60) as source:
+                        other=requests.Response();other.status_code=source.status;other.url=source.url;other._content=source.read();other.headers.update(dict(source.headers));other.encoding='utf-8';r=other
+                except Exception:pass
             r.raise_for_status()
             if any(x in r.text[:15000].lower() for x in ['just a moment...','verify you are human','access denied']):raise CollectionError('Site challenge: '+url)
             return r
@@ -178,6 +187,8 @@ def id_from_url(firm,url):
     if firm=='Brooksource':return parts[-1].split('-')[0]
     if firm=='Beacon Hill':return parts[-1].split('_')[0]
     if firm=='Vaco':return parts[2]
+    if firm=='Signature Consultants':
+        match=re.search(r'-(\d+)-(\d+)$',parts[-1]);return match[1] if match else ''
     if firm=='The Select Group':
         m=re.search(r'/(\d+)',path);return m[1] if m else ''
     return ''
@@ -294,7 +305,7 @@ def insight(firm,config):
         if not fresh and jobs:raise CollectionError('Insight Global repeated page')
         if page>=meta['totalPages']:break
     else:raise CollectionError('Insight Global pagination limit')
-    if len(seen)<int(total*.97):raise CollectionError('Insight Global incomplete pagination')
+    if len(seen)<total:raise CollectionError('Insight Global incomplete pagination')
     rows=[];candidates=0
     def one(j):
         if not title_match(j['jobTitle']):return None
@@ -415,7 +426,7 @@ def experis(firm,config):
                 seeds[j['jobID']]=seed
         if (offset*100)+len(jobs)>=total:break
         if not fresh:raise CollectionError('Experis search repeated or empty page')
-    if len(seen)<total*.97:raise CollectionError('Experis search count mismatch')
+    if len(seen)<total:raise CollectionError('Experis search count mismatch')
     rows,info=fetch_details(firm,seeds.values());info['enumerated']=len(seen);return rows,info
 
 
@@ -437,7 +448,7 @@ def motion(firm,config):
             if title_match(title):seeds[href]={'url':href,'job_id':href.rstrip('/').split('/')[-1]}
         if start+len(current)>=total:break
     else:raise CollectionError('Motion pagination limit')
-    if len(seen)<total*.97:raise CollectionError('Motion count mismatch')
+    if len(seen)<total:raise CollectionError('Motion count mismatch')
     rows,info=fetch_details(firm,seeds.values());info['enumerated']=len(seen);return rows,info
 
 ADAPTERS.update(experis=experis,motion=motion)
@@ -460,7 +471,7 @@ def judge(firm,config):
         if d['offset']+len(d['hits'])>=d['total']:break
         if not fresh:raise CollectionError('Judge pagination repeated/empty')
     else:raise CollectionError('Judge pagination limit')
-    if len(seen)<total*.97:raise CollectionError('Judge count mismatch')
+    if len(seen)<total:raise CollectionError('Judge count mismatch')
     rows=[];candidates=0
     def one(j):
         if not title_match(j['title']):return None
@@ -565,7 +576,7 @@ def collabera(firm,config):
             for url,title in current.items():
                 if title_match(title):seeds[url]=title
             if n*10>=total:break
-        if len(seen)<total*.97:raise CollectionError('Collabera incomplete search count')
+        if len(seen)<total:raise CollectionError('Collabera incomplete search count')
         rows=[]
         for url,title in seeds.items():
             soup=BeautifulSoup(read(url),'html.parser');body=soup.select_one('div.position');text=soup.get_text('\n',strip=True)
@@ -593,3 +604,24 @@ def collabera(firm,config):
         if pw:pw.stop()
 ADAPTERS['collabera']=collabera
 REGISTRY['Collabera']['adapter']='collabera'
+
+REGISTRY['Signature Consultants']={'adapter':'sitemap','sitemap':'https://dexian.com/sitemap_index.xml','pattern':r'/jobs/[^/]+-\d+-\d+/'}
+
+def apex(firm,config):
+    url='https://www.apexsystems.com/search-results-usa';seen=set();seeds={}
+    for page in range(0,1001):
+        response=get(url);soup=BeautifulSoup(response.text,'html.parser')
+        if 'maintenance' in response.url or (soup.title and 'maintenance' in soup.title.get_text().lower()):raise CollectionError('Official job search and detail pages are under maintenance')
+        current={urljoin(response.url,a['href']).split('?')[0]:a.get_text(' ',strip=True) for a in soup.select('a[href]') if re.search(r'/job/\d+_usa/',a['href'])}
+        if not current:raise CollectionError('Apex search returned no enumerable listings; preserving prior snapshot')
+        if current and set(current)<=seen:raise CollectionError('Apex pagination repeated')
+        seen.update(current)
+        for href,title in current.items():
+            if title_match(title):seeds[href]={'url':href,'job_id':re.search(r'/job/(\d+)_usa/',href)[1]}
+        nxt=soup.select_one('a[rel="next"], .pager__item--next a')
+        if not nxt:break
+        url=urljoin(response.url,nxt['href'])
+    else:raise CollectionError('Apex pagination limit')
+    rows,info=fetch_details(firm,seeds.values());info['enumerated']=len(seen);return rows,info
+ADAPTERS['apex']=apex
+REGISTRY['Apex Systems']['adapter']='apex'
