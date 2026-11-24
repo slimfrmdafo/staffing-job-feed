@@ -579,10 +579,17 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-24T21:03:33.875626+00:00",
-          "completed_at": "2026-11-24T21:03:40.007619+00:00",
-          "ok": false,
-          "error": "CollectionError: Bank of America search changed during pagination"
+          "started_at": "2026-11-24T22:03:50.184171+00:00",
+          "completed_at": "2026-11-24T22:04:44.229975+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 2103,
+            "enumerated_raw": 2103,
+            "advertised": 2103,
+            "details_read": 143,
+            "kept": 26,
+            "method": "employer search service + canonical full detail pages"
+          }
         },
         "mac": {
           "firm": "Bank of America",
@@ -600,9 +607,9 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:25:08.568860+00:00",
-      "completed_at": "2026-11-24T21:26:29.256104+00:00",
-      "snapshot_route": "mac"
+      "snapshot_at": "2026-11-24T22:03:50.184171+00:00",
+      "completed_at": "2026-11-24T22:04:44.229975+00:00",
+      "snapshot_route": "cloud"
     },
     "Wells Fargo": {
       "rows": [
@@ -626,7 +633,7 @@
           "recruiter_phone": "",
           "required_experience": "",
           "required_certifications": "",
-          "description": "Why Wells Fargo\nAre you looking for more? Find it here. At Wells Fargo, we're more than a financial services leader — we’re a global trailblazer committed to driving innovation, empowering communities, and helping our customers succeed. We believe that a meaningful career is much more than just a job — it’s about finding all of the elements to help you thrive, in one place.\nLiving the Well Life means you’re supported in life, not just work. It means having robust benefits, competitive compensation, and programs designed to help you find work-life balance and well-being. You’ll be rewarded for investing in your community, celebrated for being your authentic self, and empowered to grow. And we’re recognized for it — Wells Fargo continues to rank on the LinkedIn Top Companies lists of best workplaces “to grow your career.” Join us!\nAbout this role:\nWells Fargo is seeking a\nSenior Lead Control Management Officer.\nThe Senior Lead Control Management Officer will serve as a key member of the Technology Control Management organization, responsible for strengthening the control environment within the Cloud Platform organization. This role will provide strategic control oversight and risk leadership for enterprise infrastructure services, cloud platform adoption, platform engineering, and control modernization initiatives focused on Control-as-Code, automated governance, and continuous control monitoring.\nThe individual will partner closely with Infrastructure Engineering leaders, Cloud Platform Engineering, Information Security, Technology Risk, Cloud GRC, Audit, and Control Management teams to establish and maintain a strong control environment that enables secure technology transformation while ensuring regulatory compliance and operational resilience.\nIn This Role, You Will\nAct as a trusted advisor to senior technology and control management leaders in developing risk mitigation strategies for complex infrastructure and cloud-related risks.\nLead the design, implementation, and continuous improvement of control frameworks supporting:\nInfrastructure Engineering\nCloud Platforms (Azure, AWS, GCP, OpenShift, Kubernetes)\nStorage, Compute, Network, Database, and Middleware Services\nPlatform Engineering initiatives\nLead the adoption of Control-as-Code principles across Infrastructure Engineering and Cloud Platforms, including continuous compliance monitoring and automated evidence collection.\nPropose governance standards and operating models for automated preventive, detective, and corrective controls.\nProvide strategic oversight of enterprise technology risk, operational risk, resiliency risk, and regulatory compliance requirements.\nProactively identify and assess emerging risks related to cloud adoption, hybrid cloud architectures, automation, AI-enabled infrastructure operations, platform engineering, and infrastructure modernization.\nMonitor, measure, evaluate, and report on the effectiveness of controls and risk mitigation strategies, analyzing Key Risk Indicators (KRIs), issues, control testing, and operational loss data to identify systemic risk trends.\nLead complex risk and control governance activities, including preparation of executive-level reporting, risk committee materials, and regulatory updates.\nProvide risk and control expertise in engagement with Audit, Compliance, Independent Risk Management, and regulators.\nCoordinate issue management activities, including root-cause analysis and sustainable corrective action plans.\nServe as the control management lead for major infrastructure and cloud transformation programs.\nMentor and guide control officers and virtual teams supporting technology control execution.\nRequired Qualifications\n7+ years of Risk Management or Financial Services Industry experience, or equivalent experience demonstrated through one or a combination of the following: work experience, training, military experience, or education.\n7+ years of Control Management, Technology Risk, Information Security experience.\nDesired Qualifications\nKnowledge of IT, information security, and cloud management and control frameworks (e.g., NIST Cybersecurity Framework and 800-53, CIS Critical Security Controls, FFIEC IT Examination Handbooks, COBIT, FedRAMP, ISO 2700x, ITIL).\nStrong control evaluation, testing, and/or audit experience, including assessing risk, drafting and executing test scripts, identifying gaps in controls and control execution, assessing issues and trends, and influencing change.\nStrong risk and control fundamentals, including a comprehensive understanding of risk types, methodologies, and frameworks for evaluating or testing controls, assessing results, conducting research, and identifying control deficiencies.\nTechnology risk acumen and a clear understanding of policies and standards associated with Technology and Cyber Security Risk.\nExperience leading audit engagements and providing feedback to staff.\nExcellent verbal, written, and interpersonal communication skills.\nExperience supporting large-scale infrastructure or cloud modernization programs.\nRelevant certifications:\nCRISC / CISA\nCISSP / CCSP\nAWS/Azure/GCP Cloud Certifications\nJob Expectations:\nThis position is\nNOT\neligible for Visa sponsorship.\nAbility to work on site in a hybrid role.\nFully remote work locations are not available for this role. If you are not in a location listed on the posting, you must commit to relocation within an agreed upon timeframe.\nRelocation assistance is not available for this position.\nPay Range\nReflected is the base pay range offered for this position. Pay may vary depending on factors including but not limited to demonstrated examples of prior performance, skills, experience, or work location. Employees may also be eligible for incentive opportunities.\n$159,000.00 - $305,000.00\nBenefits\nWells Fargo provides eligible employees with a comprehensive set of benefits, many of which are listed below. Visit\nBenefits - Wells Fargo Jobs\nfor an overview of the following benefit plans and programs offered to employees.\nHealth benefits\n401(k) Plan\nPaid time off\nDisability benefits\nLife insurance, critical illness insurance, and accident insurance\nParental leave\nCritical caregiving leave\nDiscounts and savings\nCommuter benefits\nTuition reimbursement\nScholarships for dependent children\nAdoption reimbursement\nPosting End Date:\n24 Nov 2026\n*\nJob posting may come down early due to volume of applicants.\nWe Value Equal Opportunity\nWells Fargo is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other legally protected characteristic.\nEmployees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\nApplicants with Disabilities\nTo request a medical accommodation during the application or interview process, visit\nDisability Inclusion at Wells Fargo\n.\nDrug and Alcohol Policy\nWells Fargo maintains a drug free workplace.  Please see our\nDrug and Alcohol Policy\nto learn more.\nWells Fargo Recruitment and Hiring Requirements:\na. Third-Party recordings are prohibited unless authorized by Wells Fargo.\nb. Wells Fargo requires you to directly represent your own experiences during the recruiting and hiring process.\nc. Please be prepared to provide accurate information and supporting documentation in connection with any lawful employment and education verification conducted by Wells Fargo."
+          "description": "Why Wells Fargo\nAre you looking for more? Find it here. At Wells Fargo, we're more than a financial services leader — we’re a global trailblazer committed to driving innovation, empowering communities, and helping our customers succeed. We believe that a meaningful career is much more than just a job — it’s about finding all of the elements to help you thrive, in one place.\nLiving the Well Life means you’re supported in life, not just work. It means having robust benefits, competitive compensation, and programs designed to help you find work-life balance and well-being. You’ll be rewarded for investing in your community, celebrated for being your authentic self, and empowered to grow. And we’re recognized for it — Wells Fargo continues to rank on the LinkedIn Top Companies lists of best workplaces “to grow your career.” Join us!\nAbout this role:\nWells Fargo is seeking a\nSenior Lead Control Management Officer.\nThe Senior Lead Control Management Officer will serve as a key member of the Technology Control Management organization, responsible for strengthening the control environment within the Cloud Platform organization. This role will provide strategic control oversight and risk leadership for enterprise infrastructure services, cloud platform adoption, platform engineering, and control modernization initiatives focused on Control-as-Code, automated governance, and continuous control monitoring.\nThe individual will partner closely with Infrastructure Engineering leaders, Cloud Platform Engineering, Information Security, Technology Risk, Cloud GRC, Audit, and Control Management teams to establish and maintain a strong control environment that enables secure technology transformation while ensuring regulatory compliance and operational resilience.\nIn This Role, You Will\nAct as a trusted advisor to senior technology and control management leaders in developing risk mitigation strategies for complex infrastructure and cloud-related risks.\nLead the design, implementation, and continuous improvement of control frameworks supporting:\nInfrastructure Engineering\nCloud Platforms (Azure, AWS, GCP, OpenShift, Kubernetes)\nStorage, Compute, Network, Database, and Middleware Services\nPlatform Engineering initiatives\nLead the adoption of Control-as-Code principles across Infrastructure Engineering and Cloud Platforms, including continuous compliance monitoring and automated evidence collection.\nPropose governance standards and operating models for automated preventive, detective, and corrective controls.\nProvide strategic oversight of enterprise technology risk, operational risk, resiliency risk, and regulatory compliance requirements.\nProactively identify and assess emerging risks related to cloud adoption, hybrid cloud architectures, automation, AI-enabled infrastructure operations, platform engineering, and infrastructure modernization.\nMonitor, measure, evaluate, and report on the effectiveness of controls and risk mitigation strategies, analyzing Key Risk Indicators (KRIs), issues, control testing, and operational loss data to identify systemic risk trends.\nLead complex risk and control governance activities, including preparation of executive-level reporting, risk committee materials, and regulatory updates.\nProvide risk and control expertise in engagement with Audit, Compliance, Independent Risk Management, and regulators.\nCoordinate issue management activities, including root-cause analysis and sustainable corrective action plans.\nServe as the control management lead for major infrastructure and cloud transformation programs.\nMentor and guide control officers and virtual teams supporting technology control execution.\nRequired Qualifications\n7+ years of Risk Management or Financial Services Industry experience, or equivalent experience demonstrated through one or a combination of the following: work experience, training, military experience, or education.\n7+ years of Control Management, Technology Risk, Information Security experience.\nDesired Qualifications\nKnowledge of IT, information security, and cloud management and control frameworks (e.g., NIST Cybersecurity Framework and 800-53, CIS Critical Security Controls, FFIEC IT Examination Handbooks, COBIT, FedRAMP, ISO 2700x, ITIL).\nStrong control evaluation, testing, and/or audit experience, including assessing risk, drafting and executing test scripts, identifying gaps in controls and control execution, assessing issues and trends, and influencing change.\nStrong risk and control fundamentals, including a comprehensive understanding of risk types, methodologies, and frameworks for evaluating or testing controls, assessing results, conducting research, and identifying control deficiencies.\nTechnology risk acumen and a clear understanding of policies and standards associated with Technology and Cyber Security Risk.\nExperience leading audit engagements and providing feedback to staff.\nExcellent verbal, written, and interpersonal communication skills.\nExperience supporting large-scale infrastructure or cloud modernization programs.\nRelevant certifications:\nCRISC / CISA\nCISSP / CCSP\nAWS/Azure/GCP Cloud Certifications\nJob Expectations:\nThis position is\nNOT\neligible for Visa sponsorship.\nAbility to work on site in a hybrid role.\nFully remote work locations are not available for this role. If you are not in a location listed on the posting, you must commit to relocation within an agreed upon timeframe.\nRelocation assistance is not available for this position.\nPay Range\nReflected is the base pay range offered for this position. Pay may vary depending on factors including but not limited to demonstrated examples of prior performance, skills, experience, or work location. Employees may also be eligible for incentive opportunities.\n$159,000.00 - $305,000.00\nBenefits\nWells Fargo provides eligible employees with a comprehensive set of benefits, many of which are listed below. Visit\nBenefits - Wells Fargo Jobs\nfor an overview of the following benefit plans and programs offered to employees.\nHealth benefits\n401(k) Plan\nPaid time off\nDisability benefits\nLife insurance, critical illness insurance, and accident insurance\nParental leave\nCritical caregiving leave\nDiscounts and savings\nCommuter benefits\nTuition reimbursement\nScholarships for dependent children\nAdoption reimbursement\nPosting End Date:\n29 Nov 2026\n*\nJob posting may come down early due to volume of applicants.\nWe Value Equal Opportunity\nWells Fargo is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other legally protected characteristic.\nEmployees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\nApplicants with Disabilities\nTo request a medical accommodation during the application or interview process, visit\nDisability Inclusion at Wells Fargo\n.\nDrug and Alcohol Policy\nWells Fargo maintains a drug free workplace.  Please see our\nDrug and Alcohol Policy\nto learn more.\nWells Fargo Recruitment and Hiring Requirements:\na. Third-Party recordings are prohibited unless authorized by Wells Fargo.\nb. Wells Fargo requires you to directly represent your own experiences during the recruiting and hiring process.\nc. Please be prepared to provide accurate information and supporting documentation in connection with any lawful employment and education verification conducted by Wells Fargo."
         },
         {
           "firm": "Wells Fargo",
@@ -897,13 +904,13 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-24T21:03:33.876579+00:00",
-          "completed_at": "2026-11-24T21:04:38.528940+00:00",
+          "started_at": "2026-11-24T22:03:50.185036+00:00",
+          "completed_at": "2026-11-24T22:05:05.686739+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1370,
-            "enumerated_raw": 1370,
-            "advertised": 1370,
+            "enumerated": 1393,
+            "enumerated_raw": 1393,
+            "advertised": 1393,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -943,12 +950,34 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:03:33.876579+00:00",
-      "completed_at": "2026-11-24T21:04:38.528940+00:00",
+      "snapshot_at": "2026-11-24T22:03:50.185036+00:00",
+      "completed_at": "2026-11-24T22:05:05.686739+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
       "rows": [
+        {
+          "firm": "Truist",
+          "job_id": "R0122212",
+          "title": "Merchant Services Compliance Manager - Acquiring BIN Sponsorship Governance",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-24",
+          "url": "https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/Merchant-Services-Compliance-Manager---Acquiring-BIN-Sponsorship-Governance_R0122212",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "The position is described below. If you want to apply, click the Apply Now button at the top or bottom of this page. After you click Apply Now and complete your application, you'll be invited to create a profile, which will let you see your application status and any communications. If you already have a profile with us, you can log in to check status.\nNeed Help?\nIf you have a disability and need assistance with the application, you can request a reasonable accommodation. Send an email to\nAccessibility\n(accommodation requests only; other inquiries won't receive a response).\nRegular or Temporary:\nRegular\nLanguage Fluency:\nEnglish (Required)\nWork Shift:\n1st shift (United States of America)\nPlease review the following job description:\nThe Risk Governance Manager is responsible for establishing and overseeing the risk and governance framework supporting Truist's BIN Sponsorship program, which enables select third-party payments partners to operate under Truist's card network registrations, with the bank retaining accountability for all sponsored activity. This role sits within Enterprise Payments as part of the First Line of Defense and ensures sponsored programs operate safely, comply with card network rules and applicable regulations, and adhere to Truist risk policy. Responsibilities span due diligence and onboarding, risk rating and approval, ongoing monitoring, issue remediation, and periodic reviews. The role partners closely with the BIN Sponsorship Product Manager, who owns commercialization and partner engagement for the program.\nESSENTIAL DUTIES AND RESPONSIBILITIES\nFollowing is a summary of the essential functions for this job.  Other duties may be performed, both major and minor, which are not mentioned below.  Specific activities may change from time to time.\n1. Mange all business recovery activities for the LOB and serve as the Business Recovery Manager for the line of business.  Coordinate, document and test the BRP within the line of business.\n2. Serve as the Information Security Compliance Manager (ISCM) and Privacy contact for the line of business supporting Truist corporate functions.\n3. Support the line of business PCI-DSS requirements by the bank and industry.\n4. Responsible for the compliance monitoring program to ensure compliance by the line of business within Truist compliance risk framework\n5. Assist in the coordination of business unit audits, regulatory exams, and risk assessments to include the gathering of due diligence items and drafting responses.\n6. Ensure close coordination and collaboration with second line of defense representatives to include Operational Risk Management, Compliance, Privacy, BSA/AML, Legal and Liability Risk Management.\n7. Maintain a high-level knowledge and provide guidance on laws, regulations, rules and industry-related best practices applicable to the business unit.\n8. Complete annual SOX assessment on behalf of line of business.\n9. Develops project plans, determine scope, lead projects, verify deliverables with stakeholders. Interpret results and present findings and recommendations.\nQUALIFICATIONS\nRequired Qualifications:\nThe requirements listed below are representative of the knowledge, skill and/or ability required.  Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\n1. Bachelor's degree in a business-related field or equivalent education and related training or experience\n2. Five years as an auditor or compliance officer\n3. Ten years of experience in the merchant industry\n4. Strong oral and written communication skills\n5. Solid knowledge of risk management principles and controls, broad-based business practices, and deep understanding of segment/function business processes, with the ability to assess levels of adherence/execution and identify risk/control improvement opportunities.\n6. Demonstrated proficiency in basic computer applications such as Microsoft Office and Visio\nPreferred Qualifications:\n1. Master's degree in business-related field and/or graduate of outside banking management school\n2. Five years of merchant or payment processing experience\n3. Graduate of Bank's Leadership Development Program or similar banking school\n4. Industry specific professional designations\n5. Experience with the bank's internal operational risk tools (such as Archer)\nGeneral Description of Available Benefits for Eligible Employees of Truist Financial Corporation:\nAll regular teammates (not temporary or contingent workers) working 20 hours or more per week are eligible for benefits, though eligibility for specific benefits may be determined by the division of Truist offering the\nposition. Truist\noffers medical, dental, vision, life insurance, disability, accidental death and dismemberment, tax-preferred savings accounts, and a 401k plan to teammates. Teammates also receive no less than 10 days of vacation (prorated based on date of hire and by full-time or part-time status) during their first year of employment, along with 10 sick days (also prorated), and paid holidays. For more details on Truist’s generous benefit plans, please visit\nour Benefits site\n. Depending on the position and division, this job may also be eligible for Truist’s defined benefit pension plan, restricted stock units, and/or a deferred compensation plan. As you advance through the hiring process, you will also learn more about the specific benefits available for any non-temporary position for which you apply, based on full-time or part-time status, position, and division of work.\nTruist is an Equal Opportunity Employer that does not discriminate on the basis of race, gender, color, religion, citizenship or national origin, age, sexual orientation, gender identity, disability, veteran status, or other classification protected by law. Truist is a Drug Free Workplace.\nEEO is the Law\nE-Verify\nIER Right to Work"
+        },
         {
           "firm": "Truist",
           "job_id": "R0119319",
@@ -1680,19 +1709,21 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-24T21:03:33.876992+00:00",
-          "completed_at": "2026-11-24T21:05:00.437705+00:00",
+          "started_at": "2026-11-24T22:03:50.185211+00:00",
+          "completed_at": "2026-11-24T22:05:29.915069+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1330,
-            "enumerated_raw": 1330,
-            "advertised": 1330,
+            "enumerated": 1327,
+            "enumerated_raw": 1327,
+            "advertised": 1327,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 46,
+            "unpublished_index_ids": [
+              "R0120687"
+            ],
+            "details_read": 47,
             "closed_during_pull": 0,
-            "kept": 33,
+            "kept": 34,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {}
           }
@@ -1706,8 +1737,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-24T21:03:33.876992+00:00",
-      "completed_at": "2026-11-24T21:05:00.437705+00:00",
+      "snapshot_at": "2026-11-24T22:03:50.185211+00:00",
+      "completed_at": "2026-11-24T22:05:29.915069+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1871,8 +1902,8 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-24T21:03:33.877359+00:00",
-          "completed_at": "2026-11-24T21:03:41.260907+00:00",
+          "started_at": "2026-11-24T22:03:50.185375+00:00",
+          "completed_at": "2026-11-24T22:04:02.495713+00:00",
           "ok": true,
           "info": {
             "enumerated": 74,
@@ -1909,8 +1940,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:03:33.877359+00:00",
-      "completed_at": "2026-11-24T21:03:41.260907+00:00",
+      "snapshot_at": "2026-11-24T22:03:50.185375+00:00",
+      "completed_at": "2026-11-24T22:04:02.495713+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2118,8 +2149,8 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-24T21:03:40.008000+00:00",
-          "completed_at": "2026-11-24T21:04:09.042605+00:00",
+          "started_at": "2026-11-24T22:04:02.495776+00:00",
+          "completed_at": "2026-11-24T22:04:31.218704+00:00",
           "ok": true,
           "info": {
             "enumerated": 4771,
@@ -2148,8 +2179,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:03:40.008000+00:00",
-      "completed_at": "2026-11-24T21:04:09.042605+00:00",
+      "snapshot_at": "2026-11-24T22:04:02.495776+00:00",
+      "completed_at": "2026-11-24T22:04:31.218704+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2200,28 +2231,6 @@
         },
         {
           "firm": "Ally Financial",
-          "job_id": "R2601361",
-          "title": "Field Operations - Manager",
-          "client_company": "",
-          "city": "Remote",
-          "state": "IL",
-          "work_arrangement": "remote",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "90000",
-          "pay_max": "150000",
-          "pay_unit": "",
-          "posted_date": "2026-11-20",
-          "url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Remote-IL/Field-Operations---Manager_R2601361-1",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "7+ years of relevant experience",
-          "required_certifications": "",
-          "description": "Ally and Your Career\nAlly Financial only succeeds when its people do - and that’s more than some cliché people put on job postings. We love this stuff! We see our people as, well, people - with interests, families, friends, dreams, and causes that are all important to them. Our focus is on the health and safety of our teammates as well as work-life balance and diversity and inclusion. From generous benefits to a variety of employee resource groups, we strive to build paths that encourage employees to stretch themselves professionally. We want to help you grow, develop, and learn new things. You’re constantly evolving, so shouldn’t your opportunities be, too?\nWork Schedule\n:\nAlly designates roles as (1) fully on-site, (2) hybrid, or (3) fully remote. Hybrid roles are generally expected to be in the office a certain number of days per week as indicated by your manager. Your hiring manager will discuss this role's specific work requirements with you during the hiring process. All work requirements are subject to change at any time based on leader discretion and/or business need.\nThe Opportunity\nThe Field Operations Manager leads regional teams of Field Adjusters responsible for on-site damage appraisals, automotive mechanical inspections, repair authorization assessments, risk evaluations, and repair recommendations. The ideal candidate brings strong leadership and communication skills, experience in insurance, automotive dealership operations, and risk management, and the ability to build trusted dealer relationships, navigate escalations, and maintain high standards for accuracy and service quality.\nThe Work Itself\nField Operations & Claims Servicing\nLead multiple regional field teams responsible for timely, accurate Dealer Open Lot weather claim damage appraisals and F&I mechanical inspections and authorizations, ensuring consistent execution and responsiveness across geographies.\nMaintain operational readiness for changing claim volumes, including weather-event surge capacity, territory coverage, workload balancing, and inspection resource deployment.\nPeople Leadership & Development\nLead, coach, and develop Field Supervisors while creating clear expectations for quality, service, accountability, technical proficiency, and team engagement.\nBuild the capabilities of field adjusters through coaching, calibration, training, knowledge sharing, and development opportunities strengthening the field organization.\nCulture, Engagement & Organizational Leadership\nBuild an engaged, accountable field culture centered on dealer service, claim quality, sound judgment, and continuous improvement.\nRepresent Field Operations as a leadership voice, connecting strategy to frontline execution and ensuring supervisors and adjusters understand the why, expectations, and business outcomes behind organizational change.\nDealer & Customer Experience\nChampion a culture of responsive, transparent, and consistent service for dealers and customers while balancing appropriate claim outcomes and policy requirements.\nServe as a management escalation point for complex or sensitive claims, bringing together the appropriate field, office, underwriting, and business partners to establish a clear path to resolution.\nQuality, Controls & Financial Stewardship\nDrive inspection and claim quality through file reviews, quality calibration, policy adherence, and consistent application of coverage and estimating standards.\nProtect against claim leakage by using data, inspection findings, policy language, technical expertise, and appropriate controls to achieve fair, accurate, and defensible claim outcomes.\nSupplier & Vendor Management\nOversee field inspection suppliers and vendor relationships, establishing clear expectations for service levels, inspection quality, cycle time, capacity, geographic coverage, and escalation management.\nMonitor vendor performance using defined metrics and scorecards, addressing performance gaps while maintaining productive relationships and sufficient capacity to support normal and catastrophe demand.\nCross-Functional Alignment\nPartner closely with office claims teams, Underwriting, Loss Control, F&I, and other stakeholders to create a consistent and unified approach to dealer issues and claim resolution.\nUse data, policy language, field observations, and stakeholder relationships to provide transparency into claim decisions, emerging dealer concerns, operational trends, and opportunities for improvement.\nStrategy, Innovation & Continuous Improvement\nTranslate Claims strategy into field execution by leading process improvements, technology adoption, workflow changes, and other initiatives that improve quality, efficiency, cycle time, and service.\nIdentify emerging trends and opportunities through field insight and operational data, to help the broader Claims organization.\nQualifications & Requirements:\nBachelor’s degree or 5+ years of management related experience, preferably in operations, risk management, loss mitigation, automotive insurance or a related field.\nProven leadership experience, managing, mentoring, or leading field-based teams.\nStrong knowledge of dealership operations and insurance (commercial auto).\nAbility to analyze loss trends and develop strategic operational field plans.\nExceptional communication and relationship-building skills to engage dealers and drive strong relationships while maintaining financial stewardship.\nProficiency in reporting tools, data analysis, with ability to communicate well with Insurance Sr. Leadership.\nWillingness to travel to support field operations during active claims and field operational needs.\nMinimum Qualifications\n7+ years of relevant experience or equivalent combination of education and experience\nHigh school Diploma or GED equivalent\nHow We'll Have Your Back\nAlly's compensation program offers market-competitive base pay and pay-for-performance incentives (bonuses) based on achieving personal and company goals. Our Total Rewards program includes industry-leading compensation and benefits plus additional incentives that are designed to meet your needs and those of your family so you can get the most out of your career and your life, including:\nTime Away:\nProgram starts at 20 paid time off days in addition to 11 paid holidays and 8 hours of volunteer time off yearly (time off days are prorated based on start date and program varies based on full or part-time status and management level).\nPlanning for the Future:\nplan for the near and long term with an industry-leading 401K retirement savings plan with matching and company contributions, student loan pay downs and 529 educational save up assistance programs, tuition reimbursement, employee stock purchase plan, and financial learning center and financial coach access.\nSupporting your Health & Well-being:\nflexible health and insurance options including medical, dental and vision, employee, spouse and child life insurance, short- and long-term disability, pre-tax Health Savings Account with employer contributions, Healthcare FSA, critical illness, accident & hospital indemnity insurance, and a total well-being program that helps you and your family stay on track physically, socially, emotionally, and financially.\nBuilding a Family:\nadoption, surrogacy and fertility assistance as well as paid parental and caregiver leave, Dependent Day Care FSA back-up child and adult/elder care days and childcare discounts.\nWork-Life Integration:\nother benefits including Mentally Fit Employee Assistance Program, subsidized and discounted Weight Watchers® program and other employee discount programs.\nOther Compensations:\ndepending on the role for which you are considered, you may be eligible for travel allowances, relocation assistance, a signing bonus and/or equity.\nTo view more detailed information about Ally’s Total Rewards, please visit this link:\nhttps://www.ally.com/content/dam/pdf/corporate/ally-total-rewards-snapshot.pdf\nWho We Are\n:\nAlly Financial is a customer-centric, leading digital financial services company with passionate customer service and innovative financial solutions. We are relentlessly focused on \"Doing it Right\" and being a trusted financial-services provider to our consumer, commercial, and corporate customers. For more information, visit\nwww.ally.com\n.\nAlly is an equal opportunity employer committed to diversity and inclusion in the workplace. All qualified applicants will receive consideration for employment without regard to age, race, color, sex, religion, national origin, disability, sexual orientation, gender identity or expression, pregnancy status, marital status, military or veteran status, genetic disposition or any other reason protected by law.\nIn accordance with the Americans with Disabilities Act, if after review of the position expectations, you believe that you may need a medical accommodation to fulfill the duties of this role, please email\nhrpolicy@ally.com\nwith details of your accommodation request.\nBase Pay Range\n$90,000.00 - $150,000.00\nAn individual's position in the range is determined by the specific role, the scope and responsibilities of the role, work experience, education, certification(s), training, and additional qualifications. We review internal pay, the competitive market, and business environment prior to extending an offer.\nIncentive Compensation:\nThis position is eligible to participate in our annual incentive plan."
-        },
-        {
-          "firm": "Ally Financial",
           "job_id": "R2600864",
           "title": "Principal - Data Governance",
           "client_company": "",
@@ -2247,8 +2256,8 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-24T21:03:41.260966+00:00",
-          "completed_at": "2026-11-24T21:03:49.160933+00:00",
+          "started_at": "2026-11-24T22:04:31.218763+00:00",
+          "completed_at": "2026-11-24T22:04:40.376294+00:00",
           "ok": true,
           "info": {
             "enumerated": 81,
@@ -2256,12 +2265,10 @@
             "advertised": 81,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "R2601245"
-            ],
-            "details_read": 7,
+            "unpublished_index_ids": [],
+            "details_read": 6,
             "closed_during_pull": 0,
-            "kept": 4,
+            "kept": 3,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "locationCountry": [
@@ -2271,8 +2278,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:03:41.260966+00:00",
-      "completed_at": "2026-11-24T21:03:49.160933+00:00",
+      "snapshot_at": "2026-11-24T22:04:31.218763+00:00",
+      "completed_at": "2026-11-24T22:04:40.376294+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2348,13 +2355,13 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-24T21:03:49.161008+00:00",
-          "completed_at": "2026-11-24T21:03:57.323591+00:00",
+          "started_at": "2026-11-24T22:04:40.376349+00:00",
+          "completed_at": "2026-11-24T22:04:50.354567+00:00",
           "ok": true,
           "info": {
-            "enumerated": 114,
-            "enumerated_raw": 114,
-            "advertised": 114,
+            "enumerated": 116,
+            "enumerated_raw": 116,
+            "advertised": 116,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2394,12 +2401,34 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:03:49.161008+00:00",
-      "completed_at": "2026-11-24T21:03:57.323591+00:00",
+      "snapshot_at": "2026-11-24T22:04:40.376349+00:00",
+      "completed_at": "2026-11-24T22:04:50.354567+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
       "rows": [
+        {
+          "firm": "Citigroup",
+          "job_id": "26993469",
+          "title": "Anti Money Laundering Risk Management Senior Vice President",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "hybrid",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "134960",
+          "pay_max": "202440",
+          "pay_unit": "",
+          "posted_date": "2026-11-24",
+          "url": "https://citi.wd5.myworkdayjobs.com/2/job/NC-CHARLOTTE-BALLANTYNE/Anti-Money-Laundering-Risk-Management-Senior-Vice-President_26993469-1",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "10+ years of relevant experience",
+          "required_certifications": "",
+          "description": "The AML Risk Management Senior Lead Analyst is a senior level position responsible for establishing internal procedures to prevent money laundering and assist in all matters concerning financial crimes in coordination with the broader AML team. The overall objective is to utilize established disciplinary knowledge to identify inconsistencies in data or result and formulate strategic recommendations on policies, procedures, and practices.\nResponsibilities:\nExecute and implement firm-wide AML risk management policy and strategic direction\nfor the Markets Institutional line of business.\nMaintain AML compliance program for the business including assessment of risks and the development of policies, procedures, and governance,\nincluding those pertaining to an institutional broker dealer.\nIdentify and assess risk, vulnerabilities, and opportunities for efficient and effective risk coverage.\nWork within team and across business/functional line management to assess complex issues, structure potential solutions, and drive effective resolution within permissible statutory and regulatory frameworks.\nAnalyze data, prepare and present regional/global reports related to AML risk assessments.\nMonitor AML related issues and escalations with senior management and global partners.\nEvaluate and respond to escalated matters, further escalate as required, and advise senior management on next steps as needed.\nAppropriately assess risk when business decisions are made, demonstrating particular consideration for the firm's reputation and safeguarding Citigroup, its clients and assets, by driving compliance with applicable laws, rules and regulations, adhering to Policy, applying sound ethical judgment regarding personal behavior, conduct and business practices, and escalating, managing and reporting control issues with transparency.\nQualifications:\n10+ years of relevant experience\nat an institutional broker dealer, prime brokerage and equity background a plus.\nAnti-Money Laundering (AML) certification.\nExperience in managing regulatory exams and relationships with examiners and auditors.\nExtensive knowledge of appropriate regulatory requirements including local and US laws, international and industry standards.\nExtensive knowledge of AML regulations, risks, and appropriate controls.\nDemonstrated analytical skills.\nDemonstrated leadership and motivational skills.\nAbility to work with regional and global partners, and influence and lead people across culture and senior level.\nEducation:\nBachelor’s degree/University degree or equivalent experience\nMaster’s degree preferred.\nThis job description provides a high-level review of the types of work performed. Other job-related duties may be assigned as required.\n------------------------------------------------------\nJob Family Group:\nCompliance\n------------------------------------------------------\nJob Family:\nAML Risk Management\n------------------------------------------------------\nTime Type:\nFull time\n------------------------------------------------------\nPrimary Location:\nNC-CHARLOTTE (BALLANTYNE)\n------------------------------------------------------\nPrimary Location Full Time Salary Range:\n$134,960.00 - $202,440.00\nIn addition to salary, Citi’s offerings may also include, for eligible employees, discretionary and formulaic incentive and retention awards. Citi offers competitive employee benefits, including: medical, dental & vision coverage; 401(k); life, accident, and disability insurance; and wellness programs. Citi also offers paid time off packages, including planned time off (vacation), unplanned time off (sick leave), and paid holidays. For additional information regarding Citi employee benefits, please visit citibenefits.com. Available offerings may vary by jurisdiction, job level, and date of hire.\n------------------------------------------------------\nMost Relevant Skills\nAnalytical Thinking, Business Acumen, Credible Challenge, Digital Skills (Including AI), Laws and Regulations, Process Execution, Program Management, Referral and Escalation, Risk Controls and Monitors, Risk Identification and Assessment.\n------------------------------------------------------\nOther Relevant Skills\nFor complementary skills, please see above and/or contact the recruiter.\n------------------------------------------------------\nAnticipated Posting Close Date:\nDec 01, 2026\n------------------------------------------------------\nAutomated Processing and AI\nWe use automated processing, including artificial intelligence, for our legitimate business interests (or our reasonable and appropriate business purposes) to identify and align the candidate's skills and abilities with a specific job opening. Additionally, if you so choose, or consent, we can match your skills and abilities to other suitable roles at Citi.\nImportantly, all our hiring processes and decisions, including determining your suitability for a role, are conducted, checked, and decided by individuals. Our automated processing and AI do not involve relying on automatic or autonomous decision-making. Please refer to any Jurisdictional Considerations, with specific provisions for your country (where relevant) for further details.\nIllinois residents – AI Notice and Right\n------------------------------------------------------\nCiti is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law.\nIf you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review\nAccessibility at Citi\n.\nView Citi’s\nEEO Policy Statement\nand the\nKnow Your Rights\nposter."
+        },
         {
           "firm": "Citigroup",
           "job_id": "261001963",
@@ -2559,21 +2588,21 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-24T21:03:57.323648+00:00",
-          "completed_at": "2026-11-24T21:05:50.691878+00:00",
+          "started_at": "2026-11-24T22:04:44.230035+00:00",
+          "completed_at": "2026-11-24T22:06:32.868382+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1435,
-            "enumerated_raw": 1435,
-            "advertised": 1435,
+            "enumerated": 1437,
+            "enumerated_raw": 1437,
+            "advertised": 1437,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [
-              "261001315"
+              "261009533"
             ],
-            "details_read": 129,
+            "details_read": 130,
             "closed_during_pull": 0,
-            "kept": 7,
+            "kept": 8,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "Country_and_Jurisdiction": [
@@ -2583,8 +2612,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:03:57.323648+00:00",
-      "completed_at": "2026-11-24T21:05:50.691878+00:00",
+      "snapshot_at": "2026-11-24T22:04:44.230035+00:00",
+      "completed_at": "2026-11-24T22:06:32.868382+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2593,18 +2622,16 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-24T21:04:09.042659+00:00",
-          "completed_at": "2026-11-24T21:04:42.228280+00:00",
+          "started_at": "2026-11-24T22:04:50.354629+00:00",
+          "completed_at": "2026-11-24T22:05:30.650894+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1126,
-            "enumerated_raw": 1126,
-            "advertised": 1126,
+            "enumerated": 1120,
+            "enumerated_raw": 1122,
+            "advertised": 1122,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "R-128139"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 10,
             "closed_during_pull": 0,
             "kept": 0,
@@ -2617,8 +2644,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:04:09.042659+00:00",
-      "completed_at": "2026-11-24T21:04:42.228280+00:00",
+      "snapshot_at": "2026-11-24T22:04:50.354629+00:00",
+      "completed_at": "2026-11-24T22:05:30.650894+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2694,18 +2721,16 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-24T21:04:38.529006+00:00",
-          "completed_at": "2026-11-24T21:05:16.602706+00:00",
+          "started_at": "2026-11-24T22:05:05.686807+00:00",
+          "completed_at": "2026-11-24T22:05:37.678140+00:00",
           "ok": true,
           "info": {
-            "enumerated": 879,
-            "enumerated_raw": 879,
-            "advertised": 879,
+            "enumerated": 878,
+            "enumerated_raw": 878,
+            "advertised": 878,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "JR-12172"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 45,
             "closed_during_pull": 0,
             "kept": 3,
@@ -2718,8 +2743,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:04:38.529006+00:00",
-      "completed_at": "2026-11-24T21:05:16.602706+00:00",
+      "snapshot_at": "2026-11-24T22:05:05.686807+00:00",
+      "completed_at": "2026-11-24T22:05:37.678140+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2751,13 +2776,13 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-24T21:04:42.228344+00:00",
-          "completed_at": "2026-11-24T21:04:52.952777+00:00",
+          "started_at": "2026-11-24T22:05:29.915136+00:00",
+          "completed_at": "2026-11-24T22:05:41.252278+00:00",
           "ok": true,
           "info": {
-            "enumerated": 137,
-            "enumerated_raw": 137,
-            "advertised": 137,
+            "enumerated": 138,
+            "enumerated_raw": 138,
+            "advertised": 138,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2797,8 +2822,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:04:42.228344+00:00",
-      "completed_at": "2026-11-24T21:04:52.952777+00:00",
+      "snapshot_at": "2026-11-24T22:05:29.915136+00:00",
+      "completed_at": "2026-11-24T22:05:41.252278+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2874,8 +2899,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-24T21:04:52.952845+00:00",
-          "completed_at": "2026-11-24T21:05:06.795030+00:00",
+          "started_at": "2026-11-24T22:05:30.650975+00:00",
+          "completed_at": "2026-11-24T22:05:42.828834+00:00",
           "ok": true,
           "info": {
             "enumerated": 78,
@@ -2892,8 +2917,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:04:52.952845+00:00",
-      "completed_at": "2026-11-24T21:05:06.795030+00:00",
+      "snapshot_at": "2026-11-24T22:05:30.650975+00:00",
+      "completed_at": "2026-11-24T22:05:42.828834+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -2991,19 +3016,16 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:00.437779+00:00",
-          "completed_at": "2026-11-24T21:05:35.697419+00:00",
+          "started_at": "2026-11-24T22:05:37.678193+00:00",
+          "completed_at": "2026-11-24T22:06:10.971790+00:00",
           "ok": true,
           "info": {
-            "enumerated": 888,
-            "enumerated_raw": 888,
-            "advertised": 888,
+            "enumerated": 886,
+            "enumerated_raw": 886,
+            "advertised": 886,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "2026-13431",
-              "2026-16207"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 11,
             "closed_during_pull": 0,
             "kept": 4,
@@ -3016,8 +3038,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:00.437779+00:00",
-      "completed_at": "2026-11-24T21:05:35.697419+00:00",
+      "snapshot_at": "2026-11-24T22:05:37.678193+00:00",
+      "completed_at": "2026-11-24T22:06:10.971790+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -3071,8 +3093,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:06.795100+00:00",
-          "completed_at": "2026-11-24T21:05:14.038181+00:00",
+          "started_at": "2026-11-24T22:05:41.252338+00:00",
+          "completed_at": "2026-11-24T22:05:50.244327+00:00",
           "ok": true,
           "info": {
             "enumerated": 44,
@@ -3089,8 +3111,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:06.795100+00:00",
-      "completed_at": "2026-11-24T21:05:14.038181+00:00",
+      "snapshot_at": "2026-11-24T22:05:41.252338+00:00",
+      "completed_at": "2026-11-24T22:05:50.244327+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3099,13 +3121,13 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:14.038243+00:00",
-          "completed_at": "2026-11-24T21:05:27.991511+00:00",
+          "started_at": "2026-11-24T22:05:42.828895+00:00",
+          "completed_at": "2026-11-24T22:05:55.397377+00:00",
           "ok": true,
           "info": {
-            "enumerated": 319,
-            "enumerated_raw": 319,
-            "advertised": 319,
+            "enumerated": 317,
+            "enumerated_raw": 317,
+            "advertised": 317,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3121,8 +3143,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:14.038243+00:00",
-      "completed_at": "2026-11-24T21:05:27.991511+00:00",
+      "snapshot_at": "2026-11-24T22:05:42.828895+00:00",
+      "completed_at": "2026-11-24T22:05:55.397377+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3242,18 +3264,16 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:16.602795+00:00",
-          "completed_at": "2026-11-24T21:05:45.985240+00:00",
+          "started_at": "2026-11-24T22:05:50.244380+00:00",
+          "completed_at": "2026-11-24T22:06:19.948608+00:00",
           "ok": true,
           "info": {
-            "enumerated": 403,
-            "enumerated_raw": 403,
-            "advertised": 403,
+            "enumerated": 402,
+            "enumerated_raw": 402,
+            "advertised": 402,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "30218372"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 19,
             "closed_during_pull": 0,
             "kept": 5,
@@ -3290,8 +3310,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:16.602795+00:00",
-      "completed_at": "2026-11-24T21:05:45.985240+00:00",
+      "snapshot_at": "2026-11-24T22:05:50.244380+00:00",
+      "completed_at": "2026-11-24T22:06:19.948608+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3300,8 +3320,8 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:27.991616+00:00",
-          "completed_at": "2026-11-24T21:05:44.070403+00:00",
+          "started_at": "2026-11-24T22:05:55.397438+00:00",
+          "completed_at": "2026-11-24T22:06:10.986688+00:00",
           "ok": true,
           "info": {
             "enumerated": 397,
@@ -3338,8 +3358,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:27.991616+00:00",
-      "completed_at": "2026-11-24T21:05:44.070403+00:00",
+      "snapshot_at": "2026-11-24T22:05:55.397438+00:00",
+      "completed_at": "2026-11-24T22:06:10.986688+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3348,8 +3368,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:35.697529+00:00",
-          "completed_at": "2026-11-24T21:05:46.554755+00:00",
+          "started_at": "2026-11-24T22:06:10.971858+00:00",
+          "completed_at": "2026-11-24T22:06:22.850808+00:00",
           "ok": true,
           "info": {
             "enumerated": 206,
@@ -3366,8 +3386,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:35.697529+00:00",
-      "completed_at": "2026-11-24T21:05:46.554755+00:00",
+      "snapshot_at": "2026-11-24T22:06:10.971858+00:00",
+      "completed_at": "2026-11-24T22:06:22.850808+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3376,8 +3396,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:44.070525+00:00",
-          "completed_at": "2026-11-24T21:05:47.796183+00:00",
+          "started_at": "2026-11-24T22:06:10.986750+00:00",
+          "completed_at": "2026-11-24T22:06:15.954875+00:00",
           "ok": true,
           "info": {
             "enumerated": 11,
@@ -3394,8 +3414,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:44.070525+00:00",
-      "completed_at": "2026-11-24T21:05:47.796183+00:00",
+      "snapshot_at": "2026-11-24T22:06:10.986750+00:00",
+      "completed_at": "2026-11-24T22:06:15.954875+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3404,19 +3424,19 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:45.985303+00:00",
-          "completed_at": "2026-11-24T21:08:42.604643+00:00",
+          "started_at": "2026-11-24T22:06:15.954957+00:00",
+          "completed_at": "2026-11-24T22:09:07.658540+00:00",
           "ok": true,
           "info": {
-            "enumerated": 5962,
-            "enumerated_raw": 5968,
+            "enumerated": 5960,
+            "enumerated_raw": 5966,
             "advertised": 2000,
             "location_partitions": 4,
             "partition_advertised_counts": [
-              1496,
+              1498,
               1495,
-              1497,
-              1480
+              1498,
+              1475
             ],
             "unpublished_index_ids": [],
             "details_read": 3,
@@ -3435,8 +3455,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-24T21:05:45.985303+00:00",
-      "completed_at": "2026-11-24T21:08:42.604643+00:00",
+      "snapshot_at": "2026-11-24T22:06:15.954957+00:00",
+      "completed_at": "2026-11-24T22:09:07.658540+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3468,13 +3488,13 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:46.554827+00:00",
-          "completed_at": "2026-11-24T21:05:50.854660+00:00",
+          "started_at": "2026-11-24T22:06:19.948669+00:00",
+          "completed_at": "2026-11-24T22:06:25.886199+00:00",
           "ok": true,
           "info": {
-            "enumerated": 65,
-            "enumerated_raw": 65,
-            "advertised": 65,
+            "enumerated": 66,
+            "enumerated_raw": 66,
+            "advertised": 66,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3486,8 +3506,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:46.554827+00:00",
-      "completed_at": "2026-11-24T21:05:50.854660+00:00",
+      "snapshot_at": "2026-11-24T22:06:19.948669+00:00",
+      "completed_at": "2026-11-24T22:06:25.886199+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3585,8 +3605,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:47.796258+00:00",
-          "completed_at": "2026-11-24T21:06:00.173528+00:00",
+          "started_at": "2026-11-24T22:06:22.850870+00:00",
+          "completed_at": "2026-11-24T22:06:35.099496+00:00",
           "ok": true,
           "info": {
             "enumerated": 289,
@@ -3603,8 +3623,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:47.796258+00:00",
-      "completed_at": "2026-11-24T21:06:00.173528+00:00",
+      "snapshot_at": "2026-11-24T22:06:22.850870+00:00",
+      "completed_at": "2026-11-24T22:06:35.099496+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3613,18 +3633,16 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:50.691956+00:00",
-          "completed_at": "2026-11-24T21:06:14.336210+00:00",
+          "started_at": "2026-11-24T22:06:25.886251+00:00",
+          "completed_at": "2026-11-24T22:06:47.859971+00:00",
           "ok": true,
           "info": {
-            "enumerated": 400,
-            "enumerated_raw": 400,
-            "advertised": 400,
+            "enumerated": 399,
+            "enumerated_raw": 399,
+            "advertised": 399,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "00652907"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 3,
             "closed_during_pull": 0,
             "kept": 0,
@@ -3637,8 +3655,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:50.691956+00:00",
-      "completed_at": "2026-11-24T21:06:14.336210+00:00",
+      "snapshot_at": "2026-11-24T22:06:25.886251+00:00",
+      "completed_at": "2026-11-24T22:06:47.859971+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3670,17 +3688,17 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-24T21:05:50.854738+00:00",
-          "completed_at": "2026-11-24T21:07:27.215158+00:00",
+          "started_at": "2026-11-24T22:06:32.868443+00:00",
+          "completed_at": "2026-11-24T22:08:31.011416+00:00",
           "ok": true,
           "info": {
-            "enumerated": 3069,
-            "enumerated_raw": 3069,
+            "enumerated": 3068,
+            "enumerated_raw": 3068,
             "advertised": 2000,
             "location_partitions": 3,
             "partition_advertised_counts": [
               1497,
-              1496,
+              1495,
               76
             ],
             "unpublished_index_ids": [],
@@ -3692,8 +3710,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:05:50.854738+00:00",
-      "completed_at": "2026-11-24T21:07:27.215158+00:00",
+      "snapshot_at": "2026-11-24T22:06:32.868443+00:00",
+      "completed_at": "2026-11-24T22:08:31.011416+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3702,16 +3720,18 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-24T21:06:00.173590+00:00",
-          "completed_at": "2026-11-24T21:06:13.747240+00:00",
+          "started_at": "2026-11-24T22:06:35.099551+00:00",
+          "completed_at": "2026-11-24T22:06:49.430362+00:00",
           "ok": true,
           "info": {
-            "enumerated": 181,
-            "enumerated_raw": 181,
-            "advertised": 181,
+            "enumerated": 180,
+            "enumerated_raw": 180,
+            "advertised": 180,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
+            "unpublished_index_ids": [
+              "R-37272"
+            ],
             "details_read": 5,
             "closed_during_pull": 0,
             "kept": 0,
@@ -3748,18 +3768,41 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:06:00.173590+00:00",
-      "completed_at": "2026-11-24T21:06:13.747240+00:00",
+      "snapshot_at": "2026-11-24T22:06:35.099551+00:00",
+      "completed_at": "2026-11-24T22:06:49.430362+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
-      "rows": [],
+      "rows": [
+        {
+          "firm": "Ryder System",
+          "job_id": "R190240",
+          "title": "Project Manager",
+          "client_company": "",
+          "city": "USA - Remote",
+          "state": "TX",
+          "work_arrangement": "remote",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-24",
+          "url": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/USA---Remote-TX/Project-Manager_R190240",
+          "recruiter_name": "",
+          "recruiter_email": "careers@ryder.com",
+          "recruiter_phone": "800-793-3754",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Job Seekers can review the Job Applicant Privacy Policy by clicking\nhere\n.\nJob Description\n:\nSummary\nThe Project Manager is responsible for the management of one or more projects. Must have a thorough understanding of project management methodologies and execute the same in strict accordance with the standards defined by the Ryder PMO. This position will interact with business partners and cross-functional teams to ensure project objectives are achieved on time and within budget. PMO Project Managers are expected to report progress to all stakeholders, identify early warning signs and effectively communicate status and trend of their projects. PMO Project Managers escalate issues to executive steering committee members, facilitate decision making, document decisions and communicate direction to project team accordingly. Travel may be required on some projects.\nEssential Functions\nManage project plan, track dependencies, address constraints, resolve resource conflicts, assess impacts to plan, obtain estimates to complete forecast use of funds, ensure adherence to SDLC, report progress against plan.\nDevelop and execute project communications plan, facilitate team meetings, participate in key meetings that directly or indirectly impact the project, keep project stakeholders informed, prepare for and conduct executive steering committee meetings.\nGather content from respective project team members to complete interim and final deliverables. Present deliverables required at respective tollgates throughout the project live cycle. Obtain sign-off and approvals to proceed for stakeholders. Maintain project team repository of deliverables, reference materials and documentation. Prepare change requests as agreed to by project team and obtain signatures from project owner and sponsor.\nPrepare weekly status reports, track open issues, update risks (probability, severity and impact) and mitigation plans. Participate in PMO meetings with other Project Managers to identify potential dependencies or constraints.\nManage project budget, maintain financial plan, track actuals vs. plan, provide monthly forecasts, and report monthly accruals.\nAdditional Responsibilities\nMonitor and report to IT and process/function owner on the status of multiple concurrent project efforts.\nProvide analytical expertise within an assigned business unit/area in the analysis, design and development of business applications.\nDevelop business relationships and integrate activities with other IT departments to ensure successful implementation and support of project efforts.\nEvaluate application software packages and make recommendations to management.\nParticipate with other IT members, customers and stake holders in new product reviews, tests and pilots.\nCollect and analyze business requirements for large, multi-functional projects.\nLead project teams through feasibility studies, translating requirements into an appropriate design.\nFoster and maintain good relationships with customers and IT colleagues to meet expected customer service levels.\nPerform other duties as assigned.\nSkills and Abilities\nLeadership skills that engage multi-discipline work teams to respond to business needs\nStrong project management skills with experience in organizing, planning and executing large-scale projects from vision to implementation involving internal personnel, contractors and vendors\nMust possess excellent human resource management skills\nStrong analytical, problem-solving and conceptual skills\nAbility to work on cross-functional project teams and foster team commitment to tasks\nMust have the ability to manage support teams in a matrix environment, be pro-active with a continuous improvement mind set, motivate and generate results through influence\nStrong oral, interpersonal and written communications skills with an ability to express complex technical concepts in business terms\nMust be capable of providing cross-functional teams briefing as needed\nAbility to create and maintain professional relationships within all levels of the organization (peers, work groups, customers, supervisors)\nAbility to work independently and as a member of a team\nFlexibility to operate and self-driven to excel in a fast-paced environment\nCapable of multi-tasking, highly organized, responsible, reliable pro-active self-starter requiring minimal supervision, with excellent time management skills\nDetail oriented with excellent follow-up practices\nQualifications\nBachelor's Degree or equivalent required\nSeven (7) years or more Information Technology experience with at least 5 years in a project management or supervisory/management role required\nDOT Regulated\nNo\nJob Category\nProject Management\nOur Culture & Commitment\n:\nAt Ryder, you’re trusted to make an impact—while enjoying room to grow and having a voice that’s heard. Our culture is built on respect, collaboration, and shared pride in doing great work rooted in innovation and safety.\nYour Voice. Your Success. The Future We Build Together.\nCompensation Information\n:\nThe compensation offered to a candidate may be influenced by a variety of factors, including the candidate’s relevant experience; education, including relevant degrees or certifications; work location; market data/ranges; internal equity; internal salary ranges; etc. The position may also be eligible to receive an annual bonus, commission, and/or long-term incentive plan based on the level and/or type. Compensation ranges for the position are below:\nPay Type\n:\nSalaried\nMinimum Pay Range\n:\n$100,000.00\nMaximum Pay Range\n:\n$120,000.00\nBenefits Information\n:\nFor all Full-time positions only\n: Ryder offers comprehensive health and welfare benefits, to include medical, prescription, dental, vision, life insurance and disability insurance options, as well as paid time off for vacation, illness, bereavement, family and parental leave, and a tax-advantaged 401(k) retirement savings plan.\nRyder is proud to be an Equal Opportunity Employer and Drug Free workplace\n.\nAll qualified applicants will receive consideration for employment without regard to race, religion, color, national origin, sex, sexual orientation, gender identity, age, status as a protected veteran, among other things, or status as a qualified individual with disability.\nImportant Note\n:\nSome positions require additional screening that may include employment and education verification; motor vehicle records check and a road test; and/or badging or background requirements of the customer to which you are assigned.\nSecurity Notice for Applicants\n:\nRyder will only communicate with an applicant directly from a [@ryder.com] email address and will never conduct an interview online through a chat type forum, messaging app (such as WhatsApp or Telegram), or via an online questionnaire.  During an interview, Ryder will never ask for any form of payment or banking details and will never solicit personal information outside of the formal submitted application through\nwww.ryder.com/careers\n.\nShould you have any questions regarding the application process or to verify the legitimacy of an interview or Ryder representative, please contact Ryder at\ncareers@ryder.com\nor 800-793-3754.\nCurrent Employees\n:\nIf you are a current employee at Ryder, please click\nhere\nto log in to Workday to apply using the internal application process.\nJob Seekers can review the Job Applicant Privacy Policy by clicking\nhere\n."
+        }
+      ],
       "attempts": {
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-24T21:06:13.747312+00:00",
-          "completed_at": "2026-11-24T21:06:37.983087+00:00",
+          "started_at": "2026-11-24T22:06:47.860032+00:00",
+          "completed_at": "2026-11-24T22:07:10.878370+00:00",
           "ok": true,
           "info": {
             "enumerated": 348,
@@ -3768,9 +3811,9 @@
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 7,
+            "details_read": 8,
             "closed_during_pull": 0,
-            "kept": 0,
+            "kept": 1,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "locationCountry": [
@@ -3780,8 +3823,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:06:13.747312+00:00",
-      "completed_at": "2026-11-24T21:06:37.983087+00:00",
+      "snapshot_at": "2026-11-24T22:06:47.860032+00:00",
+      "completed_at": "2026-11-24T22:07:10.878370+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3813,11 +3856,11 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-24T21:06:14.336284+00:00",
-          "completed_at": "2026-11-24T21:06:33.917703+00:00",
+          "started_at": "2026-11-24T22:06:49.430427+00:00",
+          "completed_at": "2026-11-24T22:07:12.166713+00:00",
           "ok": true,
           "info": {
-            "enumerated": 366,
+            "enumerated": 369,
             "enumerated_raw": 369,
             "advertised": 369,
             "location_partitions": 0,
@@ -3831,8 +3874,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:06:14.336284+00:00",
-      "completed_at": "2026-11-24T21:06:33.917703+00:00",
+      "snapshot_at": "2026-11-24T22:06:49.430427+00:00",
+      "completed_at": "2026-11-24T22:07:12.166713+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3952,8 +3995,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-24T21:06:33.917774+00:00",
-          "completed_at": "2026-11-24T21:07:32.434652+00:00",
+          "started_at": "2026-11-24T22:07:10.878424+00:00",
+          "completed_at": "2026-11-24T22:08:07.374978+00:00",
           "ok": true,
           "info": {
             "enumerated": 380,
@@ -3990,8 +4033,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:06:33.917774+00:00",
-      "completed_at": "2026-11-24T21:07:32.434652+00:00",
+      "snapshot_at": "2026-11-24T22:07:10.878424+00:00",
+      "completed_at": "2026-11-24T22:08:07.374978+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -4023,8 +4066,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-24T21:06:37.983150+00:00",
-          "completed_at": "2026-11-24T21:06:43.490568+00:00",
+          "started_at": "2026-11-24T22:07:12.166774+00:00",
+          "completed_at": "2026-11-24T22:07:18.403807+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -4048,8 +4091,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:06:37.983150+00:00",
-      "completed_at": "2026-11-24T21:06:43.490568+00:00",
+      "snapshot_at": "2026-11-24T22:07:12.166774+00:00",
+      "completed_at": "2026-11-24T22:07:18.403807+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -4103,13 +4146,13 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-24T21:06:43.490637+00:00",
-          "completed_at": "2026-11-24T21:06:56.809992+00:00",
+          "started_at": "2026-11-24T22:07:18.403866+00:00",
+          "completed_at": "2026-11-24T22:07:39.476384+00:00",
           "ok": true,
           "info": {
-            "enumerated": 427,
-            "enumerated_raw": 427,
-            "advertised": 427,
+            "enumerated": 429,
+            "enumerated_raw": 429,
+            "advertised": 429,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4147,8 +4190,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:06:43.490637+00:00",
-      "completed_at": "2026-11-24T21:06:56.809992+00:00",
+      "snapshot_at": "2026-11-24T22:07:18.403866+00:00",
+      "completed_at": "2026-11-24T22:07:39.476384+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4202,13 +4245,13 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-24T21:06:56.810063+00:00",
-          "completed_at": "2026-11-24T21:07:04.144818+00:00",
+          "started_at": "2026-11-24T22:07:39.476439+00:00",
+          "completed_at": "2026-11-24T22:07:48.098624+00:00",
           "ok": true,
           "info": {
-            "enumerated": 39,
-            "enumerated_raw": 39,
-            "advertised": 39,
+            "enumerated": 40,
+            "enumerated_raw": 40,
+            "advertised": 40,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4232,8 +4275,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-24T21:06:56.810063+00:00",
-      "completed_at": "2026-11-24T21:07:04.144818+00:00",
+      "snapshot_at": "2026-11-24T22:07:39.476439+00:00",
+      "completed_at": "2026-11-24T22:07:48.098624+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4309,8 +4352,8 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-24T21:07:04.144880+00:00",
-          "completed_at": "2026-11-24T21:07:19.600376+00:00",
+          "started_at": "2026-11-24T22:07:48.098686+00:00",
+          "completed_at": "2026-11-24T22:08:04.976844+00:00",
           "ok": true,
           "info": {
             "enumerated": 336,
@@ -4335,8 +4378,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-24T21:07:04.144880+00:00",
-      "completed_at": "2026-11-24T21:07:19.600376+00:00",
+      "snapshot_at": "2026-11-24T22:07:48.098686+00:00",
+      "completed_at": "2026-11-24T22:08:04.976844+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4345,8 +4388,8 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-24T21:07:19.600487+00:00",
-          "completed_at": "2026-11-24T21:07:30.345918+00:00",
+          "started_at": "2026-11-24T22:08:04.976898+00:00",
+          "completed_at": "2026-11-24T22:08:17.994788+00:00",
           "ok": true,
           "info": {
             "enumerated": 524,
@@ -4367,8 +4410,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:07:19.600487+00:00",
-      "completed_at": "2026-11-24T21:07:30.345918+00:00",
+      "snapshot_at": "2026-11-24T22:08:04.976898+00:00",
+      "completed_at": "2026-11-24T22:08:17.994788+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4377,8 +4420,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-24T21:07:27.215230+00:00",
-          "completed_at": "2026-11-24T21:07:31.600787+00:00",
+          "started_at": "2026-11-24T22:08:07.375040+00:00",
+          "completed_at": "2026-11-24T22:08:12.718656+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4395,8 +4438,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:07:27.215230+00:00",
-      "completed_at": "2026-11-24T21:07:31.600787+00:00",
+      "snapshot_at": "2026-11-24T22:08:07.375040+00:00",
+      "completed_at": "2026-11-24T22:08:12.718656+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4405,8 +4448,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-24T21:07:30.345987+00:00",
-          "completed_at": "2026-11-24T21:07:36.685058+00:00",
+          "started_at": "2026-11-24T22:08:12.718717+00:00",
+          "completed_at": "2026-11-24T22:08:20.493005+00:00",
           "ok": true,
           "info": {
             "enumerated": 148,
@@ -4423,8 +4466,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:07:30.345987+00:00",
-      "completed_at": "2026-11-24T21:07:36.685058+00:00",
+      "snapshot_at": "2026-11-24T22:08:12.718717+00:00",
+      "completed_at": "2026-11-24T22:08:20.493005+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4478,13 +4521,13 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-24T21:07:31.600850+00:00",
-          "completed_at": "2026-11-24T21:07:59.070785+00:00",
+          "started_at": "2026-11-24T22:08:17.994844+00:00",
+          "completed_at": "2026-11-24T22:08:49.378877+00:00",
           "ok": true,
           "info": {
-            "enumerated": 875,
-            "enumerated_raw": 875,
-            "advertised": 875,
+            "enumerated": 884,
+            "enumerated_raw": 884,
+            "advertised": 884,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4496,8 +4539,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:07:31.600850+00:00",
-      "completed_at": "2026-11-24T21:07:59.070785+00:00",
+      "snapshot_at": "2026-11-24T22:08:17.994844+00:00",
+      "completed_at": "2026-11-24T22:08:49.378877+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4506,8 +4549,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-24T21:07:32.434718+00:00",
-          "completed_at": "2026-11-24T21:07:40.364047+00:00",
+          "started_at": "2026-11-24T22:08:20.493061+00:00",
+          "completed_at": "2026-11-24T22:08:27.054174+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
@@ -4524,8 +4567,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:07:32.434718+00:00",
-      "completed_at": "2026-11-24T21:07:40.364047+00:00",
+      "snapshot_at": "2026-11-24T22:08:20.493061+00:00",
+      "completed_at": "2026-11-24T22:08:27.054174+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4534,8 +4577,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-24T21:07:36.685129+00:00",
-          "completed_at": "2026-11-24T21:07:42.757849+00:00",
+          "started_at": "2026-11-24T22:08:27.054229+00:00",
+          "completed_at": "2026-11-24T22:08:32.034707+00:00",
           "ok": true,
           "info": {
             "enumerated": 43,
@@ -4552,8 +4595,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:07:36.685129+00:00",
-      "completed_at": "2026-11-24T21:07:42.757849+00:00",
+      "snapshot_at": "2026-11-24T22:08:27.054229+00:00",
+      "completed_at": "2026-11-24T22:08:32.034707+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4783,13 +4826,13 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-24T21:07:40.364132+00:00",
-          "completed_at": "2026-11-24T21:08:17.186263+00:00",
+          "started_at": "2026-11-24T22:08:31.011473+00:00",
+          "completed_at": "2026-11-24T22:09:12.801176+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1327,
-            "enumerated_raw": 1327,
-            "advertised": 1327,
+            "enumerated": 1325,
+            "enumerated_raw": 1325,
+            "advertised": 1325,
             "details_read": 63,
             "kept": 10,
             "method": "employer Oracle search + full requisition detail resource"
@@ -4811,8 +4854,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-24T21:07:40.364132+00:00",
-      "completed_at": "2026-11-24T21:08:17.186263+00:00",
+      "snapshot_at": "2026-11-24T22:08:31.011473+00:00",
+      "completed_at": "2026-11-24T22:09:12.801176+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -5264,7 +5307,19 @@
       "firms_attempted": 1,
       "firms_succeeded": 1,
       "firms_failed": 0
+    },
+    {
+      "id": "45497171647",
+      "route": "cloud",
+      "started_at": "2026-11-24T22:03:48.783634+00:00",
+      "completed_at": "2026-11-24T22:09:12.805532+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 39,
+      "firms_failed": 0,
+      "timer_run_id": "45487083408",
+      "timer_fired_at": "2026-11-24T22:03:16.190731+00:00"
     }
   ],
-  "published_at": "2026-11-24T21:26:30.541360+00:00"
+  "published_at": "2026-11-24T22:09:14.214078+00:00"
 }
