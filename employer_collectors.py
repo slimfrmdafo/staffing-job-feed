@@ -27,7 +27,7 @@ WORKDAY={
  'Hendrick Automotive Group':'https://hendrick.wd5.myworkdayjobs.com/HendrickCareers',
  'American Tire Distributors':'https://atd.wd1.myworkdayjobs.com/American_Tire_Distributors',
  'Movement Mortgage':'https://movement.wd1.myworkdayjobs.com/Careers',
- "Kohl's":'https://kohls.wd1.myworkdayjobs.com/KohlsCareers',
+ "Kohl's":'https://kohls.wd504.myworkdayjobs.com/kohlscareers',
  'OrthoCarolina':'https://ths.wd504.myworkdayjobs.com/OrthoCarolina',
  'Campbell Snacks':'https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite',
  'J.B. Hunt':'https://jbhunt.wd501.myworkdayjobs.com/Careers',
@@ -38,8 +38,8 @@ WORKDAY={
  'Rosendin Electric':'https://rosendin.wd1.myworkdayjobs.com/Careers',
  'Celgard':'https://akamerica.wd501.myworkdayjobs.com/aka/?hiringCompany=2f24a4199827013877171f1c223b682f',
  'UFP Industries':'https://ufpi.wd503.myworkdayjobs.com/ufpi',
- 'Husqvarna Group':'https://husqvarna.wd3.myworkdayjobs.com/External',
- 'CLA':'https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA',
+ 'Husqvarna Group':'https://husqvarnagroup.wd3.myworkdayjobs.com/External_Career_Site',
+ 'CLA':'https://cliftonlarsonallen.wd115.myworkdayjobs.com/CLA',
  'Whistle Express Car Wash':'https://whistleexpresscarwash.wd108.myworkdayjobs.com/Whistle_Express_Car_Wash',
 }
 REGISTRY={f:{'adapter':'workday','url':u} for f,u in WORKDAY.items()}
@@ -117,6 +117,54 @@ class Browser:
             if d['status'] in (429,500,502,503,504) and attempt<2:time.sleep(2+attempt);continue
             raise CollectionError(f"Browser search HTTP {d['status']}: {url}")
 
+def workday_index(browser,api,facets,first=None,cap=2000):
+    def search(selected,offset):return browser.api(api+'/jobs',{'appliedFacets':selected,'limit':20,'offset':offset,'searchText':''})
+    first=first or search(facets,0);total=first.get('total')
+    if not isinstance(total,int) or not isinstance(first.get('jobPostings'),list):raise CollectionError('Workday total/list missing')
+    groups=[(facets,first)];partitioned=False
+    if total==cap:
+        location=next((f for f in walk_json(first.get('facets',[])) if str(f.get('facetParameter','')).lower()=='locations' and f.get('values')),None)
+        counts=[f for f in walk_json(first.get('facets',[])) if f.get('facetParameter') and f.get('values')]
+        excess=any(sum(v.get('count',0) for v in f['values'] if isinstance(v,dict))>cap for f in counts)
+        if excess:
+            if not location:raise CollectionError('Workday search is capped; complete location partition unavailable')
+            values=[v for v in location['values'] if v.get('id')];chunks=[];chunk=[];count=0
+            for value in values:
+                amount=value.get('count',0)
+                if amount>cap:raise CollectionError('Workday single location exceeds search cap; further partition required')
+                if chunk and count+amount>int(cap*.75):chunks.append(chunk);chunk=[];count=0
+                chunk.append(value['id']);count+=amount
+            if chunk:chunks.append(chunk)
+            groups=[({**facets,location['facetParameter']:ids},None) for ids in chunks];partitioned=True
+    seen={};raw=0;unpublished=[];scope_counts=[]
+    for selected,initial in groups:
+        initial=initial or search(selected,0);expected=initial.get('total')
+        if not isinstance(expected,int):raise CollectionError('Workday partition total missing')
+        scope_raw=0;offset=0;scope_seen=set()
+        while True:
+            d=initial if offset==0 else search(selected,offset);jobs=d.get('jobPostings');count=d.get('total')
+            if not isinstance(jobs,list) or not isinstance(count,int):raise CollectionError('Workday pagination data missing')
+            # Workday explicitly omits a recomputed total on later pages (total=0).
+            if count not in (0,expected):raise CollectionError(f'Workday search changed during pagination ({expected} to {count}); retain prior snapshot')
+            fresh=0
+            for j in jobs:
+                key=j.get('externalPath')
+                if not key:
+                    if set(j)=={'bulletFields'} and len(j['bulletFields'])==1 and re.fullmatch(r'[A-Za-z0-9-]+',str(j['bulletFields'][0])):
+                        native=str(j['bulletFields'][0]);unpublished.append(native);key='@unpublished:'+native
+                    else:raise CollectionError('Workday search ID/path missing: '+repr(j)[:700])
+                if key not in scope_seen:fresh+=1
+                scope_seen.add(key);seen[key]=j
+            scope_raw+=len(jobs)
+            if scope_raw>=expected:break
+            if not jobs or not fresh:raise CollectionError('Workday pagination empty/repeated before advertised total')
+            offset+=len(jobs)
+            if offset>60000:raise CollectionError('Workday pagination safety limit')
+        if scope_raw!=expected:raise CollectionError(f'Workday advertised {expected}, read {scope_raw}')
+        raw+=scope_raw;scope_counts.append(expected)
+    if partitioned and len(seen)<total:raise CollectionError('Workday full location partitions yielded fewer listings than capped search')
+    return seen,{'enumerated':len(seen),'enumerated_raw':raw,'advertised':total,'location_partitions':len(groups) if partitioned else 0,'partition_advertised_counts':scope_counts if partitioned else [],'unpublished_index_ids':sorted(set(unpublished))}
+
 def workday(firm,config):
     from urllib.parse import parse_qs
     with Browser() as b:
@@ -132,27 +180,7 @@ def workday(firm,config):
             if re.search(r'country',str(obj.get('descriptor','')),re.I) and obj.get('facetParameter'):
                 us=[v['id'] for v in obj.get('values',[]) if v.get('descriptor') in ('United States of America','United States','USA')]
                 if us:facets[obj['facetParameter']]=us;first=search(0);break
-        if not isinstance(first.get('total'),int) or not isinstance(first.get('jobPostings'),list):raise CollectionError('Workday total/list missing')
-        total=first['total'];seen={};raw=0;offset=0;unpublished=[]
-        while True:
-            d=first if offset==0 else search(offset);jobs=d.get('jobPostings');count=d.get('total')
-            if not isinstance(jobs,list) or not isinstance(count,int):raise CollectionError('Workday pagination data missing')
-            if count not in (0,total):raise CollectionError(f'Workday search changed during pagination ({total} to {count}); retain prior snapshot')
-            fresh=0
-            for j in jobs:
-                key=j.get('externalPath')
-                if not key:
-                    if set(j)=={'bulletFields'} and len(j['bulletFields'])==1 and re.fullmatch(r'[A-Za-z0-9-]+',str(j['bulletFields'][0])):
-                        native=str(j['bulletFields'][0]);unpublished.append(native);key='@unpublished:'+native
-                    else:raise CollectionError('Workday search ID/path missing: '+repr(j)[:700])
-                if key not in seen:fresh+=1
-                seen[key]=j
-            raw+=len(jobs)
-            if raw>=total:break
-            if not jobs or not fresh:raise CollectionError('Workday pagination empty/repeated before advertised total')
-            offset+=len(jobs)
-            if offset>60000:raise CollectionError('Workday pagination safety limit')
-        if raw!=total:raise CollectionError(f'Workday advertised {total}, read {raw}')
+        seen,index_info=workday_index(b,api,facets,first)
         rows=[];details=0;closed=0
         for path,j in seen.items():
             if not match(j.get('title','')):continue
@@ -164,7 +192,7 @@ def workday(firm,config):
             if config.get('require_text') and not re.search(config['require_text'],text,re.I):continue
             if config.get('exclude_text') and re.search(config['exclude_text'],text,re.I):continue
             if keep_employer(r,country):rows.append(r)
-        return rows,{'enumerated':len(seen),'enumerated_raw':raw,'advertised':total,'details_read':details,'closed_during_pull':closed,'kept':len(rows),'method':'ordinary browser + first-party full posting endpoint','scope_facets':facets,'unpublished_index_ids':unpublished}
+        return rows,{**index_info,'details_read':details,'closed_during_pull':closed,'kept':len(rows),'method':'ordinary browser + first-party full posting endpoint','scope_facets':facets}
 
 def keep_employer(r,country=''):
     if not match(r['title']):return False

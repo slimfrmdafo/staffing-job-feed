@@ -57,3 +57,8 @@ def test_posted_pay_does_not_invent_missing_units_or_use_budgets():
  from metadata import posted_pay
  assert posted_pay('Base Pay Range\\n$110,000.00 - $180,000.00')['pay_unit']==''
  assert posted_pay('Manage budgets of $100,000 - $200,000')=={}
+
+def test_financial_and_process_certifications_require_explicit_requirement():
+ assert required_certifications('Required Qualifications\nActive CRCM certification.')=='Active CRCM certification'
+ assert required_certifications('Lean Six Sigma Black Belt certification required.')=='Lean Six Sigma Black Belt certification required'
+ assert required_certifications('Preferred Qualifications\nCPA or CIA certification.')==''

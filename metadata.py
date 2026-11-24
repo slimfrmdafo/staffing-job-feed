@@ -2,7 +2,7 @@
 import re
 EMAIL=re.compile(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}')
 PHONE=re.compile(r'(?<!\d)(?:\+?1[ .-]?)?\(?\d{3}\)?[ .-]?\d{3}[ .-]?\d{4}(?!\d)')
-CERT=re.compile(r'\b(?:PMP|CAPM|CBAP|CCBA|CAMS|CISA|CISM|CISSP|CRISC|CSM|CSPO|CCMP|CRC|CPC|CCS|RHIA|RHIT|AAPC|AHIMA|ITIL|PRINCE2|PMI[- ](?:PBA|ACP|SP)|Prosci|Certified Scrum Master|Epic\s+Lumens)\b',re.I)
+CERT=re.compile(r'\b(?:PMP|CAPM|CBAP|CCBA|CAMS|CISA|CISM|CISSP|CRISC|CSM|CSPO|CCMP|CRC|CPC|CCS|RHIA|RHIT|AAPC|AHIMA|ITIL|PRINCE2|CPA|CIA|CFE|CRCM|CRMA|FRM|PRM|CHC|CHPC|CHPS|CPIM|CSCP|NERC|Lean Six Sigma|Six Sigma (?:Green|Black) Belt|SAFe|PMI[- ](?:PBA|ACP|SP)|Prosci|Certified Scrum Master|Epic\s+Lumens)\b',re.I)
 OPTIONAL=re.compile(r'preferred|nice.to.have|desir(?:ed|able)|not required|a plus|bonus|highly valued|beneficial',re.I)
 REQUIRED_HEADING=re.compile(r'^(?:required|mandatory|minimum|essential|must[- ]have)\s+(?:qualifications?|skills?|experience|certifications?|credentials?)\b|^certifications?\s+required\b',re.I)
 OTHER_HEADING=re.compile(r'^(?:nice.to.have|preferred|desired|additional qualifications|job description|responsibilities|key responsibilities|benefits|about us|about the company|what.s in it for me|role priorities)\b',re.I)

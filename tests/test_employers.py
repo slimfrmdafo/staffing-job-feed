@@ -78,3 +78,24 @@ def test_employer_publication_updates_only_its_files_on_existing_tree(monkeypatc
  assert {e['path'] for e in tree['tree']}=={'employer_jobs.csv','employer_status.txt','employer_state.json'}
  update=next(payload for method,path,payload in calls if method=='PATCH')
  assert update['force'] is False
+
+def test_capped_workday_index_partitions_all_locations_and_keeps_older_jobs():
+ from employer_collectors import workday_index
+ class FakeBrowser:
+  def api(self,url,body):
+   selected=body['appliedFacets'].get('locations',[])
+   if not selected:return {'total':2,'jobPostings':[{'externalPath':'/job/a','title':'A'},{'externalPath':'/job/b','title':'B'}],'facets':[{'facetParameter':'locations','values':[{'id':'local','count':2},{'id':'other','count':2}]}]}
+   names=['a','b'] if selected==['local'] else ['c','d']
+   return {'total':2,'jobPostings':[{'externalPath':'/job/'+n,'title':n} for n in names]}
+ jobs,info=workday_index(FakeBrowser(),'https://example.com',{},cap=2)
+ assert set(jobs)=={'/job/a','/job/b','/job/c','/job/d'}
+ assert info['location_partitions']==2
+ assert info['enumerated']==4
+
+def test_later_workday_pages_can_omit_total_without_losing_completeness():
+ from employer_collectors import workday_index
+ class FakeBrowser:
+  def api(self,url,body):
+   return {'total':2 if body['offset']==0 else 0,'jobPostings':[{'externalPath':'/job/'+str(body['offset']),'title':'A'}]}
+ jobs,info=workday_index(FakeBrowser(),'https://example.com',{})
+ assert len(jobs)==2 and info['enumerated_raw']==2
