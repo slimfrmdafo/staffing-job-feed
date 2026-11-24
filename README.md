@@ -4,14 +4,16 @@ This repository collects staffing firms' own public job searches and full listin
 
 - [Raw feed](https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/staffing_jobs.csv)
 - [Live per-firm status](https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/staffing_status.txt)
-- [Cloud runs](https://github.com/slimfrmdafo/staffing-job-feed/actions/workflows/collect.yml)
+- [Cloud clock](https://github.com/slimfrmdafo/staffing-job-feed/actions/workflows/clock.yml) and [collector runs](https://github.com/slimfrmdafo/staffing-job-feed/actions/workflows/collect.yml)
 - [Published files and history](https://github.com/slimfrmdafo/staffing-job-feed/tree/feed)
 
 These addresses stay fixed. `main` holds the implementation. The `feed` branch holds the CSV, status and shared per-firm state. Both runners publish there; there is no file transfer, import or manual start in the hourly process.
 
 ## Schedule and runners
 
-The cloud runs every hour at minute 07 UTC, using GitHub Actions. GitHub may start scheduled jobs late; the status file records actual start, completion and publication times.
+The cloud uses **Hourly cloud clock**, a self-renewing timer relay on GitHub. Each tick automatically launches the collector and queues its successor behind the `staffing-hourly-clock` environment's 60-minute server-side wait timer. No reviewers or manual approval are configured. GitHub holds the wait without allocating a runner. Collection continues independently of the Mac and Codex.
+
+The clock starts once during setup or resume, then continues approximately every 60 minutes. A future tick appears as **Waiting** in Actions while its automatic timer runs. The clock workflow also has an hourly cron watchdog, but ordinary recurrence uses the server-side timer, not cron. This arrangement replaced a cron trigger that did not produce observed runs during setup. The status file records actual timer, collection and publication times.
 
 The native macOS LaunchAgent **com.staffing.jobfeed** runs every hour at minute 56 and starts automatically at login. Its runtime is installed in `~/Library/Application Support/StaffingFeed`, with a separate Python environment, browser and source checkout. The script updates its code with a fast-forward pull, reads shared status, and selects only firms whose latest cloud attempt failed. The Mac must be awake, online and logged in. The collector does not require Codex to be open. The Codex automation **Hourly Mac staffing fallback** checks service health hourly at minute 06; only this additional health check needs Codex to be running. Cloud collection continues independently.
 
@@ -23,7 +25,7 @@ The Mac setup uses the existing GitHub login in the macOS keychain; no token is 
 
 Open the live status link above. It shows the last publication time, current rows and contract count per firm, the runner that supplied each snapshot, the latest attempt from each runner, and failures with their causes. Contract counts include contract-to-hire listings.
 
-For cloud execution evidence, open Cloud runs and inspect runs whose event is **schedule**. Manually dispatched validation runs are separate. For Mac execution evidence, inspect recent status entries with `route=mac` and `trigger=mac_launchd`. The local service log is `~/Library/Application Support/StaffingFeed/work/mac-agent.log`.
+For cloud execution evidence, inspect entries with `route=cloud`, `trigger=cloud_clock` and a `timer_run_id`. The parent clock's log shows the automatic dispatch. The collector appears as a `workflow_dispatch` event by `github-actions[bot]`; it is started by the cloud clock, not a person. Initial manually started validation runs have no timer receipt and are separate. For Mac execution evidence, inspect recent status entries with `route=mac` and `trigger=mac_launchd`. The local service log is `~/Library/Application Support/StaffingFeed/work/mac-agent.log`.
 
 The source CSV has exactly the twenty columns required by FEED_SPEC.md. A row's optional fields stay empty when the source does not supply a usable explicit value. Rows with unknown pay are retained for the board to evaluate; a stated range is excluded if even its upper bound is below $60,000/year (hourly rates are compared using 2,080 hours/year). Target pay and individual-contributor preferences remain available to the board's existing scoring and filtering.
 
@@ -31,12 +33,22 @@ Charlotte-area cities include the places explicitly named in the request. Where 
 
 ## Pause and resume
 
-**Cloud:** In GitHub Actions, open **Hourly staffing feed**, choose the workflow menu, then disable or enable the workflow. Alternatively:
+**Cloud:** Disable both **Hourly cloud clock** and **Hourly staffing feed** in GitHub Actions. Cancel the clock's waiting/queued runs so the paused timer does not remain pending. Alternatively disable them with:
 
 ```sh
+gh workflow disable clock.yml --repo slimfrmdafo/staffing-job-feed
 gh workflow disable collect.yml --repo slimfrmdafo/staffing-job-feed
-gh workflow enable collect.yml --repo slimfrmdafo/staffing-job-feed
 ```
+
+Cancel any active/waiting clock run from its Actions page (or `gh run cancel RUN_ID --repo slimfrmdafo/staffing-job-feed`). To resume, enable both and start the clock once:
+
+```sh
+gh workflow enable collect.yml --repo slimfrmdafo/staffing-job-feed
+gh workflow enable clock.yml --repo slimfrmdafo/staffing-job-feed
+gh workflow run clock.yml --repo slimfrmdafo/staffing-job-feed -f start_now=true
+```
+
+The last command initializes the ongoing relay; later hourly starts require no action.
 
 **Mac collector:** Use these commands to pause and resume the background service:
 
