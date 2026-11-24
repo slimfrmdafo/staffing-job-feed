@@ -50,8 +50,8 @@ REGISTRY['City of Charlotte']['exclude_text']=r'\b(?:airport|aviation)\b'
 REGISTRY.update({
  'Honeywell':{'adapter':'oracle','url':'https://careers.honeywell.com/en/sites/Honeywell'},
 })
-EXCLUDE=re.compile(r'\b(?:teller|branch (?:banker|manager|leader|operations)|personal banker|relationship banker|software engineering|retail (?:store|sales)|store (?:manager|leader|operations)|cashier|merchandis|fulfillment|forklift|driver|hvac|electrician|construction|field service|installer|mechanic|technician|car wash|intern(?:ship)?)\b',re.I)
-STRATEGY=re.compile(r'strategy\s*(?:and|&|/)\s*operations|strategic (?:execution|initiatives)|process (?:analyst|consultant)|business (?:execution|management|strategy)|operational (?:excellence|effectiveness)',re.I)
+EXCLUDE=re.compile(r'\b(?:teller|branch (?:banker|manager|leader|operations)|personal banker|relationship banker|software engineering|data engineer(?:ing)?|machine learning engineer|site reliability engineer|devops engineer|retail (?:store|sales)|store (?:manager|leader|operations)|cashier|merchandis|fulfillment|forklift|driver|hvac|electrician|construction|field service|installer|mechanic|technician|car wash|intern(?:ship)?)\b',re.I)
+STRATEGY=re.compile(r'strategy\s*(?:and|&|/)\s*(?:operations|ops)|strategic (?:execution|initiatives)|process (?:analyst|consultant)|business (?:execution|management|strategy)|operational (?:excellence|effectiveness)',re.I)
 def match(title):return not EXCLUDE.search(title) and (title_match(title) or bool(STRATEGY.search(title)))
 
 def parse_location(text):

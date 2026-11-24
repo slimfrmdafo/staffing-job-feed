@@ -124,3 +124,10 @@ def test_county_only_posting_does_not_invent_a_city():
  assert parse_location('Wake County, North Carolina')==('','NC')
  assert parse_location('Indian Land, SC')==('Indian Land','SC')
  assert parse_location('Wesley Chapel, NC')==('Wesley Chapel','NC')
+
+def test_common_bank_control_titles_stay_in_scope():
+ assert match('Senior Lead Control Management Officer')
+ assert match('Supervisory Control Associate')
+ assert match('Senior Business Accountability Specialist')
+ assert match('Strategy & Ops Manager')
+ assert not match('Operational Risk Data Engineer')
