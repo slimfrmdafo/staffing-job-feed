@@ -3481,8 +3481,24 @@
           "route": "cloud",
           "started_at": "2026-11-24T00:39:48.352862+00:00",
           "completed_at": "2026-11-24T00:39:49.185948+00:00"
+        },
+        "mac": {
+          "ok": true,
+          "info": {
+            "candidates": 0,
+            "details_read": 0,
+            "kept": 0,
+            "enumerated": 25
+          },
+          "firm": "Apex Systems",
+          "route": "mac",
+          "started_at": "2026-11-24T00:47:04.459619+00:00",
+          "completed_at": "2026-11-24T00:47:07.670562+00:00"
         }
-      }
+      },
+      "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
+      "completed_at": "2026-11-24T00:47:07.670562+00:00",
+      "snapshot_route": "mac"
     },
     "Kforce": {
       "rows": [
@@ -7651,7 +7667,52 @@
       "snapshot_route": "cloud"
     },
     "Signature Consultants": {
-      "rows": [],
+      "rows": [
+        {
+          "firm": "Signature Consultants",
+          "job_id": "1022550",
+          "title": "Project Manager | DW & Snowflake",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-10",
+          "url": "https://dexian.com/jobs/project-manager-dw-snowflake-1022550-21098/",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Project Manager\nAs a\ntechnical program/project manager\n, you will drive coordination and follow-through on complex, cross-functional initiatives, partnering with\nEngineering, Infrastructure, Data, Product and external vendors\n. Ideal for someone who enjoys bringing order to complexity in a technical environment.\nWhat You'll Do\nDrive execution:\nBreak cross-team projects (platform, infrastructure, data, vendor integrations) into milestones, tasks and timelines, and track progress\nManage dependencies:\nTrack cross-team dependencies, follow up on action items and escalate blockers when needed\nMaintain program structure:\nRun status updates, standups and check-ins; keep plans, trackers and documentation current\nTrack risks and issues:\nSurface execution gaps early and escalate with context and recommendations\nCommunicate and report:\nGive leadership and stakeholders clear updates and translate technical work into plain summaries\nWhat We're Looking For\nExperience:\n3-7 years in program/project management or product operations in a tech environment, supporting cross-functional initiatives with engineering teams\nTechnical familiarity:\nWorking knowledge of software development, infrastructure or data systems; comfortable in technical discussions (no coding required) -ETL, DW, Snowflake expeirnece\nDexian stands at the forefront of Talent + Technology solutions with a presence spanning more than 70 locations worldwide and a team exceeding 10,000 professionals. As one of the largest technology and professional staffing companies and one of the largest minority-owned staffing companies in the United States, Dexian combines over 30 years of industry expertise with cutting-edge technologies to deliver comprehensive global services and support.\nDexian connects the right talent and the right technology with the right organizations to deliver trajectory-changing results that help everyone achieve their ambitions and goals. To learn more, please visit\nhttps://dexian.com/\n.\nDexian is an Equal Opportunity Employer that recruits and hires qualified candidates without regard to race, religion, sex, sexual orientation, gender identity, age, national origin, ancestry, citizenship, disability, or veteran status."
+        },
+        {
+          "firm": "Signature Consultants",
+          "job_id": "1024341",
+          "title": "Operations Manager",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "permanent",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-12",
+          "url": "https://dexian.com/jobs/operations-manager-1024341-21263/",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Position Summary\nOur client is seeking an Operations Manager to oversee RIA back- and middle-office operations in the Charlotte, NC area. This role will help ensure client, account, billing, custodial, and reporting data remains accurate, reconciled, and scalable as the organization integrates acquired practices.\nThe Operations Manager will work across custodial operations, fee billing, revenue reporting, acquisition integration, data quality, process improvement, vendor management, and operations staff leadership.\nKey Responsibilities\nManage day-to-day account opening, transfers, maintenance, money movement, and client service requests across multiple custodial platforms.\nMonitor custodial data-feed integrity, confirm account data is delivered to the organization's data environment, and resolve gaps promptly.\nReconcile custodial balances with portfolio accounting and reporting records, including timing differences and accounts appearing in only one system.\nMaintain account data standards, including custodian labels, representative and advisor assignments, and fee schedule assignments.\nRun quarterly fee billing, including custom fee arrangements and advisor revenue splits, and audit results before release.\nMaintain fee schedules and household and account hierarchies to support system-driven billing.\nSupport broker-dealer integration activities, including mapping accounts, fee status, and broker-dealer assignments into portfolio accounting and reporting systems.\nSupport revenue, EBITDA, and advisor production reporting.\nLead the operational integration of acquired practices, including data conversion, account repapering and transfers, custodian setup, CRM onboarding, and portfolio accounting system onboarding.\nTrack acquisition integration activities, owners, dates, and open items using workflow and project-tracking tools, and report status to leadership.\nSupport operational diligence on acquisition targets, including review of custodians, systems, fee practices, and data quality through a virtual data room.\nAdminister CRM and advisor-platform workflows while maintaining data quality across CRM, portfolio accounting, and custodial systems.\nCollaborate with the data team to ensure advisor production, AUM rollforward, and EBITDA reporting are based on clean, reconciled data.\nDocument standard operating procedures, automate recurring work, and build a service-level scorecard for operations.\nManage vendors and operations staff as the team grows.\nRequired Qualifications\nAt least six years of experience in wealth management operations, including RIA custodial operations.\nExperience with custodial account operations involving multiple custodians.\nHands-on experience with a portfolio accounting, reporting, and billing platform, or a comparable system.\nExperience with CRM tools used in wealth management or advisor operations.\nDemonstrated experience managing fee billing and reconciliations accurately at scale.\nExperience integrating acquired practices, including data migrations and client repapering.\nStrong data-analysis skills, including spreadsheet proficiency, the ability to read data environment reports, and the ability to trace discrepancies to their source.\nBachelor's degree in business, finance, accounting, or a related field.\nBased in or willing to relocate to the Charlotte, NC area.\nPreferred Qualifications\nExperience with broker-dealer operations or related integration activities.\nSeries 7 or Series 66 certification.\nWhy This Opportunity May Be Appealing\nLead critical back- and middle-office operations for an organization integrating new practices.\nOwn a broad operational scope spanning custodial data, account administration, billing, reconciliations, reporting, systems, and process improvement.\nHelp establish scalable, system-driven processes and maintain high-quality operational data.\nCollaborate with leadership and data teams on revenue, advisor production, AUM, and EBITDA reporting.\nContribute to acquisition diligence and integration from an operational perspective.\nHelp shape the operations function, including vendor management, staff oversight, standard operating procedures, automation, and service-level measurement.\nBenefits include medical, dental, and vision coverage; a 401(k) with employer match; life and disability coverage; and paid time off.\nDexian stands at the forefront of Talent + Technology solutions with a presence spanning more than 70 locations worldwide and a team exceeding 10,000 professionals. As one of the largest technology and professional staffing companies and one of the largest minority-owned staffing companies in the United States, Dexian combines over 30 years of industry expertise with cutting-edge technologies to deliver comprehensive global services and support.\nDexian connects the right talent and the right technology with the right organizations to deliver trajectory-changing results that help everyone achieve their ambitions and goals. To learn more, please visit\nhttps://dexian.com/\n.\nDexian is an Equal Opportunity Employer that recruits and hires qualified candidates without regard to race, religion, sex, sexual orientation, gender identity, age, national origin, ancestry, citizenship, disability, or veteran status."
+        }
+      ],
       "attempts": {
         "cloud": {
           "ok": true,
@@ -7665,11 +7726,24 @@
           "route": "cloud",
           "started_at": "2026-11-24T00:41:45.776287+00:00",
           "completed_at": "2026-11-24T00:41:48.526604+00:00"
+        },
+        "mac": {
+          "ok": true,
+          "info": {
+            "candidates": 22,
+            "details_read": 22,
+            "kept": 2,
+            "enumerated": 274
+          },
+          "firm": "Signature Consultants",
+          "route": "mac",
+          "started_at": "2026-11-24T00:47:04.460456+00:00",
+          "completed_at": "2026-11-24T00:47:08.888932+00:00"
         }
       },
-      "snapshot_at": "2026-11-24T00:41:45.776287+00:00",
-      "completed_at": "2026-11-24T00:41:48.526604+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T00:47:04.460456+00:00",
+      "completed_at": "2026-11-24T00:47:08.888932+00:00",
+      "snapshot_route": "mac"
     },
     "Collabera": {
       "rows": [
@@ -7951,11 +8025,24 @@
           "route": "cloud",
           "started_at": "2026-11-24T00:41:47.544665+00:00",
           "completed_at": "2026-11-24T00:49:09.602196+00:00"
+        },
+        "mac": {
+          "ok": true,
+          "info": {
+            "enumerated": 388,
+            "details_read": 67,
+            "kept": 12,
+            "browser_used": false
+          },
+          "firm": "Collabera",
+          "route": "mac",
+          "started_at": "2026-11-24T00:47:04.462585+00:00",
+          "completed_at": "2026-11-24T00:55:54.099126+00:00"
         }
       },
-      "snapshot_at": "2026-11-24T00:41:47.544665+00:00",
-      "completed_at": "2026-11-24T00:49:09.602196+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T00:47:04.462585+00:00",
+      "completed_at": "2026-11-24T00:55:54.099126+00:00",
+      "snapshot_route": "mac"
     },
     "Mindlance": {
       "rows": [],
@@ -7967,6 +8054,14 @@
           "route": "cloud",
           "started_at": "2026-11-24T00:41:48.526661+00:00",
           "completed_at": "2026-11-24T00:41:59.752183+00:00"
+        },
+        "mac": {
+          "ok": false,
+          "error": "3/98 detail pages failed: Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=22991753&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=20581610&SearchString=&StatesString=",
+          "firm": "Mindlance",
+          "route": "mac",
+          "started_at": "2026-11-24T00:47:04.463846+00:00",
+          "completed_at": "2026-11-24T00:47:19.851759+00:00"
         }
       }
     },
@@ -8243,7 +8338,17 @@
       "firms_attempted": 19,
       "firms_succeeded": 14,
       "firms_failed": 5
+    },
+    {
+      "id": "ea2cfc0f-9034-4cd3-8c5a-88b693252fa1",
+      "route": "mac",
+      "started_at": "2026-11-24T00:47:02.311417+00:00",
+      "completed_at": "2026-11-24T00:55:54.114316+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 4,
+      "firms_succeeded": 3,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-24T00:49:11.201135+00:00"
+  "published_at": "2026-11-24T00:55:55.378380+00:00"
 }
