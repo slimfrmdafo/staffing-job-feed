@@ -2828,15 +2828,31 @@
         "mac": {
           "firm": "The Hartford",
           "route": "mac",
-          "started_at": "2026-11-24T17:21:57.349307+00:00",
-          "completed_at": "2026-11-24T17:22:06.215246+00:00",
-          "ok": false,
-          "error": "CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627120', '0']}"
+          "started_at": "2026-11-24T18:23:09.069855+00:00",
+          "completed_at": "2026-11-24T18:23:21.654027+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 135,
+            "enumerated_raw": 135,
+            "advertised": 135,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 7,
+            "closed_during_pull": 0,
+            "kept": 1,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "locationCountry": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         }
       },
-      "snapshot_at": "2026-11-24T16:04:21.912597+00:00",
-      "completed_at": "2026-11-24T16:04:35.258775+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T18:23:09.069855+00:00",
+      "completed_at": "2026-11-24T18:23:21.654027+00:00",
+      "snapshot_route": "mac"
     },
     "Albemarle": {
       "rows": [
@@ -5204,7 +5220,17 @@
       "firms_failed": 1,
       "timer_run_id": "45444033814",
       "timer_fired_at": "2026-11-24T18:02:32.782205+00:00"
+    },
+    {
+      "id": "d808edc1-1d75-47fc-a29f-0e781ce6fa31",
+      "route": "mac",
+      "started_at": "2026-11-24T18:23:07.316063+00:00",
+      "completed_at": "2026-11-24T18:23:21.656005+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 1,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-24T18:08:29.312956+00:00"
+  "published_at": "2026-11-24T18:23:22.657130+00:00"
 }

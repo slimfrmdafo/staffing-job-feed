@@ -1,5 +1,5 @@
 Employer job feed
-Published UTC: 2026-11-24T18:08:29.312956+00:00
+Published UTC: 2026-11-24T18:23:22.657130+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/employer_jobs.csv
 Priority employers are attempted on every cloud run. Mac retries only employers whose latest cloud attempt failed.
@@ -32,9 +32,9 @@ AT&T: listings=0 runners=cloud snapshot_runner=cloud last_success=2026-11-24T18:
   cloud: OK at 2026-11-24T18:04:51.089909+00:00 {'enumerated': 1113, 'enumerated_raw': 1113, 'advertised': 1113, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 9, 'closed_during_pull': 0, 'kept': 0, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
 Trane Technologies: listings=3 runners=cloud snapshot_runner=cloud last_success=2026-11-24T18:05:04.752013+00:00
   cloud: OK at 2026-11-24T18:05:04.752013+00:00 {'enumerated': 878, 'enumerated_raw': 878, 'advertised': 878, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 45, 'closed_during_pull': 0, 'kept': 3, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
-The Hartford: listings=1 runners=cloud+mac snapshot_runner=cloud last_success=2026-11-24T16:04:35.258775+00:00
+The Hartford: listings=1 runners=cloud+mac snapshot_runner=mac last_success=2026-11-24T18:23:21.654027+00:00
   cloud: FAILED at 2026-11-24T18:04:54.794395+00:00 CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627229', '0']}
-  mac: FAILED at 2026-11-24T17:22:06.215246+00:00 CollectionError: Workday search ID/path missing: {'bulletFields': ['R2627120', '0']}
+  mac: OK at 2026-11-24T18:23:21.654027+00:00 {'enumerated': 135, 'enumerated_raw': 135, 'advertised': 135, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 7, 'closed_during_pull': 0, 'kept': 1, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
 Albemarle: listings=3 runners=cloud snapshot_runner=cloud last_success=2026-11-24T18:05:02.423509+00:00
   cloud: OK at 2026-11-24T18:05:02.423509+00:00 {'enumerated': 78, 'enumerated_raw': 78, 'advertised': 78, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 23, 'closed_during_pull': 0, 'kept': 3, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}}
 Sunbelt Rentals: listings=4 runners=cloud snapshot_runner=cloud last_success=2026-11-24T18:05:30.762364+00:00
@@ -104,7 +104,6 @@ TOTAL listings=155 posted_contacts=2
 Unknown optional fields remain empty. All included listings use full posting details.
 
 Recent run receipts:
-{"completed_at": "2026-11-24T13:19:21.512517+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "acaed8b4-0cf0-4552-960c-5dd8d839137f", "route": "mac", "started_at": "2026-11-24T13:19:00.130877+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T14:07:22.274584+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45409477114", "route": "cloud", "started_at": "2026-11-24T14:01:53.879371+00:00", "timer_fired_at": "2026-11-24T14:01:14.293150+00:00", "timer_run_id": "45399116850", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-24T14:20:45.188720+00:00", "firms_attempted": 1, "firms_failed": 1, "firms_succeeded": 0, "id": "3e3cabc1-0dcc-454c-88df-b2e082a57c7b", "route": "mac", "started_at": "2026-11-24T14:19:30.556069+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T15:07:48.687409+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45420733432", "route": "cloud", "started_at": "2026-11-24T15:02:22.228664+00:00", "timer_fired_at": "2026-11-24T15:01:48.147739+00:00", "timer_run_id": "45409471168", "trigger": "cloud_clock"}
@@ -114,3 +113,4 @@ Recent run receipts:
 {"completed_at": "2026-11-24T17:09:04.713937+00:00", "firms_attempted": 39, "firms_failed": 2, "firms_succeeded": 37, "id": "45444039361", "route": "cloud", "started_at": "2026-11-24T17:03:20.665356+00:00", "timer_fired_at": "2026-11-24T17:02:20.814733+00:00", "timer_run_id": "45432373517", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-24T17:22:57.987807+00:00", "firms_attempted": 2, "firms_failed": 1, "firms_succeeded": 1, "id": "656ec6e1-2a36-4f48-9e3c-b91b6f7343e3", "route": "mac", "started_at": "2026-11-24T17:21:55.596398+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T18:08:28.228310+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45455163287", "route": "cloud", "started_at": "2026-11-24T18:03:03.450932+00:00", "timer_fired_at": "2026-11-24T18:02:32.782205+00:00", "timer_run_id": "45444033814", "trigger": "cloud_clock"}
+{"completed_at": "2026-11-24T18:23:21.656005+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "d808edc1-1d75-47fc-a29f-0e781ce6fa31", "route": "mac", "started_at": "2026-11-24T18:23:07.316063+00:00", "trigger": "mac_launchd"}
