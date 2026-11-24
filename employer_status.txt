@@ -1,14 +1,14 @@
 Employer job feed
-Published UTC: 2026-11-24T21:08:43.454783+00:00
+Published UTC: 2026-11-24T21:26:30.541360+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/employer_jobs.csv
 Priority employers are attempted on every cloud run. Mac retries only employers whose latest cloud attempt failed.
 Only a complete successful newer pull replaces its own employer snapshot. Failures retain prior rows.
 Employer and staffing files have separate state; publications preserve both feeds.
 
-Bank of America: listings=27 runners=cloud+mac snapshot_runner=cloud last_success=2026-11-24T20:04:20.454756+00:00
+Bank of America: listings=26 runners=cloud+mac snapshot_runner=mac last_success=2026-11-24T21:26:29.256104+00:00
   cloud: FAILED at 2026-11-24T21:03:40.007619+00:00 CollectionError: Bank of America search changed during pagination
-  mac: OK at 2026-11-24T19:24:44.636428+00:00 {'enumerated': 2103, 'enumerated_raw': 2103, 'advertised': 2103, 'details_read': 144, 'kept': 27, 'method': 'employer search service + canonical full detail pages'}
+  mac: OK at 2026-11-24T21:26:29.256104+00:00 {'enumerated': 2103, 'enumerated_raw': 2103, 'advertised': 2103, 'details_read': 143, 'kept': 26, 'method': 'employer search service + canonical full detail pages'}
 Wells Fargo: listings=13 runners=cloud snapshot_runner=cloud last_success=2026-11-24T21:04:38.528940+00:00
   cloud: OK at 2026-11-24T21:04:38.528940+00:00 {'enumerated': 1370, 'enumerated_raw': 1370, 'advertised': 1370, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 20, 'closed_during_pull': 0, 'kept': 13, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
   mac (historical; newer cloud pull recovered): OK at 2026-11-24T05:16:56.729187+00:00 {'enumerated': 1322, 'enumerated_raw': 1322, 'advertised': 1322, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 23, 'closed_during_pull': 0, 'kept': 16, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
@@ -101,11 +101,10 @@ Honeywell: listings=10 runners=cloud snapshot_runner=cloud last_success=2026-11-
   cloud: OK at 2026-11-24T21:08:17.186263+00:00 {'enumerated': 1327, 'enumerated_raw': 1327, 'advertised': 1327, 'details_read': 63, 'kept': 10, 'method': 'employer Oracle search + full requisition detail resource'}
   mac (historical; newer cloud pull recovered): OK at 2026-11-24T03:15:17.915507+00:00 {'enumerated': 1339, 'enumerated_raw': 1339, 'advertised': 1339, 'details_read': 64, 'kept': 11, 'method': 'employer Oracle search + full requisition detail resource'}
 
-TOTAL listings=153 posted_contacts=2
+TOTAL listings=152 posted_contacts=2
 Unknown optional fields remain empty. All included listings use full posting details.
 
 Recent run receipts:
-{"completed_at": "2026-11-24T16:21:46.918284+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "6d70c559-b17e-4467-a875-60d5eb7e0c9f", "route": "mac", "started_at": "2026-11-24T16:21:12.752381+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T17:09:04.713937+00:00", "firms_attempted": 39, "firms_failed": 2, "firms_succeeded": 37, "id": "45444039361", "route": "cloud", "started_at": "2026-11-24T17:03:20.665356+00:00", "timer_fired_at": "2026-11-24T17:02:20.814733+00:00", "timer_run_id": "45432373517", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-24T17:22:57.987807+00:00", "firms_attempted": 2, "firms_failed": 1, "firms_succeeded": 1, "id": "656ec6e1-2a36-4f48-9e3c-b91b6f7343e3", "route": "mac", "started_at": "2026-11-24T17:21:55.596398+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T18:08:28.228310+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45455163287", "route": "cloud", "started_at": "2026-11-24T18:03:03.450932+00:00", "timer_fired_at": "2026-11-24T18:02:32.782205+00:00", "timer_run_id": "45444033814", "trigger": "cloud_clock"}
@@ -115,3 +114,4 @@ Recent run receipts:
 {"completed_at": "2026-11-24T20:08:48.741758+00:00", "firms_attempted": 39, "firms_failed": 0, "firms_succeeded": 39, "id": "45476624831", "route": "cloud", "started_at": "2026-11-24T20:03:20.748113+00:00", "timer_fired_at": "2026-11-24T20:02:52.910334+00:00", "timer_run_id": "45465997370", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-24T20:24:57.504014+00:00", "firms_attempted": 0, "firms_failed": 0, "firms_succeeded": 0, "id": "0fc64060-7ec1-4c51-82cc-672589167c3b", "route": "mac", "started_at": "2026-11-24T20:24:55.082379+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-24T21:08:42.610489+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45487087439", "route": "cloud", "started_at": "2026-11-24T21:03:32.705099+00:00", "timer_fired_at": "2026-11-24T21:03:03.791989+00:00", "timer_run_id": "45476620653", "trigger": "cloud_clock"}
+{"completed_at": "2026-11-24T21:26:29.258946+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "d704b955-3ea6-418a-aa3d-063cd04c6758", "route": "mac", "started_at": "2026-11-24T21:25:06.537114+00:00", "trigger": "mac_launchd"}
