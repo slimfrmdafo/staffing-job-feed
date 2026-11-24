@@ -118,3 +118,9 @@ def test_portal_duplicate_pages_cannot_be_published_as_complete(monkeypatch):
  with pytest.raises(CollectionError,match='duplicate pagination'):
   phenom("Lowe's",{'root':'https://example.com'})
  assert payloads[0]['sort']=={'order':'asc','field':'dateCreated'}
+
+def test_county_only_posting_does_not_invent_a_city():
+ assert parse_location('Mecklenburg Mecklenburg County, NC')==('','NC')
+ assert parse_location('Wake County, North Carolina')==('','NC')
+ assert parse_location('Indian Land, SC')==('Indian Land','SC')
+ assert parse_location('Wesley Chapel, NC')==('Wesley Chapel','NC')

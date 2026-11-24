@@ -63,9 +63,11 @@ def parse_location(text):
             if m:return city.title(),state_code(m[1].upper() if len(m[1])==2 else m[1].title())
     for name,code in sorted(STATES.items(),key=lambda x:len(x[0]),reverse=True):
         m=re.search(r'\b'+re.escape(name)+r'\b',text,re.I)
-        if m:return re.sub(r'[,\s-]+$','',text[:m.start()]).strip(),code
+        if m:
+            city=re.sub(r'[,\s-]+$','',text[:m.start()]).strip()
+            return ('' if re.search(r'\bCounty\b',city,re.I) else city),code
     m=re.search(r'^(.*?)[,\s-]+([A-Z]{2})(?:\b|\s*\d)',text)
-    if m and m[2] in STATES.values():return m[1].strip(),m[2]
+    if m and m[2] in STATES.values():return ('' if re.search(r'\bCounty\b',m[1],re.I) else m[1].strip()),m[2]
     return '', ''
 
 def workday_row(firm,base,path,data):
