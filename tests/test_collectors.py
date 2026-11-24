@@ -59,3 +59,18 @@ def test_source_duplicate_ids_do_not_look_like_missing_pages(monkeypatch):
  monkeypatch.setattr(collectors,'get',read)
  rows,info=collectors.insight('Insight Global',{})
  assert len(rows)==1 and info['enumerated']==1 and info['enumerated_raw']==2 and info['advertised']==2
+
+def test_rendered_detail_reuses_full_contract_without_refetch(monkeypatch):
+ url='https://example.org/portal/job/123'
+ schema={'@type':'JobPosting','title':'Business Analyst','description':'Full rendered job responsibilities and qualifications.','jobLocation':{'address':{'addressLocality':'Charlotte','addressRegion':'NC'}}}
+ html='<script type="application/ld+json">'+json.dumps(schema)+'</script>'
+ def no_http(*args,**kwargs):raise AssertionError('Rendered detail must not refetch the JavaScript shell')
+ monkeypatch.setattr(collectors,'get',no_http)
+ r=collectors.detail('Mindlance',{'url':url,'job_id':'123'},html_text=html)
+ assert r['description']=='Full rendered job responsibilities and qualifications.'
+ assert r['state']=='NC'
+
+def test_rendered_security_challenge_still_rejects_full_detail():
+ import pytest
+ with pytest.raises(collectors.CollectionError,match='Human security check'):
+  collectors.detail('Mindlance',{'url':'https://example.org/job/123','job_id':'123'},html_text='<h1>Quick security check</h1><p>Please confirm you are human</p>')

@@ -150,13 +150,15 @@ def schema_row(firm,url,soup,seed):
     r.update(posted_contacts(firm,soup,r['job_id']))
     return enrich(r,context)
 
-def detail(firm,seed):
+def detail(firm,seed,html_text=None):
     url=seed['url']
     try:
-        response=get(url)
-        if 'jobs-maintenance' in response.url:raise CollectionError('Official listing detail page is under maintenance: '+url)
-        if 'ref=invalid_job' in response.url:raise ClosedListing('Listing no longer available')
-        soup=BeautifulSoup(response.text,'html.parser')
+        if html_text is None:
+            response=get(url)
+            if 'jobs-maintenance' in response.url:raise CollectionError('Official listing detail page is under maintenance: '+url)
+            if 'ref=invalid_job' in response.url:raise ClosedListing('Listing no longer available')
+            html_text=response.text
+        soup=BeautifulSoup(html_text,'html.parser')
         if not any(x.get('@type')=='JobPosting' for x in schemas(soup)) and re.search(r'(?:job (?:is no longer|has been filled)|position has been filled|job you are looking for is no longer)',soup.get_text(' ',strip=True),re.I):raise ClosedListing('Closed notice')
         row=schema_row(firm,url,soup,seed)
         if row is None and firm=='Beacon Hill':row=beacon_row(firm,url,soup,seed)
@@ -271,7 +273,28 @@ def jobdiva(firm,config):
         from core import LOCAL
         if not any(re.search(r'\b'+re.escape(city)+r'\b',location) for city in LOCAL) and not re.search(r'\bremote\b',desc+' '+location,re.I):continue
         seeds.append({'url':j.findtext('portal_url'),'job_id':j.findtext('jobdiva_no') or j.findtext('jobdivaid')})
-    rows,info=fetch_details(firm,seeds);info['enumerated']=len(jobs);return rows,info
+    try:rows,info=fetch_details(firm,seeds)
+    except CollectionError:
+        import os
+        if os.environ.get('STAFFING_ROUTE')!='mac':raise
+        # Some JobDiva accounts moved to a JavaScript portal. Ordinary browser
+        # rendering is the Mac fallback; security challenges still fail the firm.
+        from playwright.sync_api import sync_playwright
+        rows=[]
+        with sync_playwright() as pw:
+            browser=pw.chromium.launch(headless=True)
+            try:
+                page=browser.new_page()
+                for seed in seeds:
+                    response=page.goto(seed['url'],wait_until='domcontentloaded',timeout=60000)
+                    if response and response.status in (404,410):continue
+                    if response and response.status>=400:raise CollectionError('JobDiva browser HTTP '+str(response.status))
+                    page.wait_for_timeout(2500)
+                    row=detail(firm,seed,html_text=page.content())
+                    if row:rows.append(row)
+            finally:browser.close()
+        info={'candidates':len(seeds),'details_read':len(seeds),'kept':len(rows),'method':'ordinary Mac browser full-detail fallback'}
+    info['enumerated']=len(jobs);return rows,info
 
 def vaco(firm,config):
     seeds=[];seen=set();url='https://jobs.vaco.com/home';enumerated=0
