@@ -17,8 +17,15 @@ class GitHub:
         if not token:token=subprocess.check_output(['/usr/local/bin/gh','auth','token'],text=True).strip()
         self.s=requests.Session();self.s.headers.update(Authorization='Bearer '+token,Accept='application/vnd.github+json')
     def api(self,method,path,**kwargs):
-        r=self.s.request(method,'https://api.github.com/repos/'+REPO+'/'+path,timeout=90,**kwargs)
-        r.raise_for_status();return r.json() if r.content else {}
+        for retry in range(4):
+            try:
+                r=self.s.request(method,'https://api.github.com/repos/'+REPO+'/'+path,timeout=90,**kwargs)
+                if r.status_code in (429,500,502,503,504) and retry<3:
+                    time.sleep(1+retry);continue
+                r.raise_for_status();return r.json() if r.content else {}
+            except (requests.ConnectionError,requests.Timeout):
+                if retry==3:raise
+                time.sleep(1+retry)
     def read(self):
         try:head=self.api('GET','git/ref/heads/'+BRANCH)['object']['sha']
         except requests.HTTPError as e:

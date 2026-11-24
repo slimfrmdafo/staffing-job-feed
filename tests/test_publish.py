@@ -31,3 +31,15 @@ def test_publish_conflict_rebases_preserving_other_runner(monkeypatch):
  assert all(u['force'] is False for u in updates)
  published=list(csv.DictReader(io.StringIO(blobs[-3])))
  assert {(r['firm'],r['job_id']) for r in published}=={('A','new'),('B','1')}
+
+def test_github_transport_recovers_a_dropped_connection(monkeypatch):
+ from types import SimpleNamespace
+ client=object.__new__(GitHub);calls=[]
+ def request(*args,**kwargs):
+  calls.append(args)
+  if len(calls)==1:raise requests.ConnectionError('peer closed idle connection')
+  response=requests.Response();response.status_code=200;response._content=b'{"object":{"sha":"live-head"}}';return response
+ client.s=SimpleNamespace(request=request)
+ monkeypatch.setattr('pipeline.time.sleep',lambda _:None)
+ assert client.api('GET','git/ref/heads/feed')['object']['sha']=='live-head'
+ assert len(calls)==2
