@@ -3658,11 +3658,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Apex search returned no enumerable listings; preserving prior snapshot",
+          "error": "Official job search and detail pages are under maintenance",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-24T11:56:10.628788+00:00",
-          "completed_at": "2026-11-24T11:56:57.163466+00:00"
+          "started_at": "2026-11-24T12:56:09.959493+00:00",
+          "completed_at": "2026-11-24T12:56:11.281536+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -8009,28 +8009,6 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "Procurement Operations Analyst\nFintech Company\nFully Remote (PST-based required)\n12-16 Week Contract (Likely Through End of Year)\n$43-$55/hr\nOur client, a leading fintech organization, is seeking a\nProcurement Operations Analyst\nto support a critical procurement process improvement and documentation initiative within its Procure-to-Pay function.\nThis role is ideal for someone who combines hands-on procurement experience with strong process documentation skills. The successful candidate will help rebuild and standardize procurement processes, create detailed SOPs and training materials, and identify opportunities to improve efficiency and consistency across procurement operations.\nWe're looking for someone who can work independently, take ownership of projects, and quickly understand existing workflows without requiring significant direction.\nPosition Overview\nThis engagement will focus heavily on documenting, standardizing, and improving procurement processes. The individual will partner closely with procurement stakeholders to assess current-state procedures, identify gaps, and create documentation that can be easily understood and followed by others across the organization.\nThis is not an instructional design role. Candidates should have a strong understanding of procurement operations and be comfortable translating procurement workflows into clear, practical documentation.\nKey Responsibilities\n• Develop, update, and standardize procurement SOPs, work instructions, job aids, and process documentation\n• Create clear and detailed process documentation for various Procure-to-Pay workflows\n• Analyze current procurement processes and identify opportunities for improvement and standardization\n• Partner with procurement stakeholders to gather information, validate existing processes, and document best practices\n• Create and maintain process maps and workflow documentation\n• Help rebuild and organize the procurement documentation library\n• Support supplier master data and supplier remediation efforts\n• Recommend process improvements that drive consistency, efficiency, and scalability\n• Provide occasional support for day-to-day procurement operations as needed\n• Independently manage assigned projects and deliverables\nQualifications\n• Experience in Procurement, Procurement Operations, Purchasing, Procure-to-Pay, Supply Chain, or a related function\n• Strong experience creating SOPs, work instructions, process documentation, training materials, and process maps\n• Ability to understand complex business processes and document them clearly and accurately\n• Strong critical thinking, analytical, and problem-solving skills\n• Exceptional attention to detail and organizational abilities\n• Strong written and verbal communication skills\n• Ability to work independently and take ownership of projects\n• Strong stakeholder management and collaboration skills\n• Comfortable working in a fast-paced and evolving environment\nPreferred Qualifications\n• Experience with indirect procurement\n• Experience with supplier data management or supplier master remediation\n• Experience with Oracle, Zip, Coupa, SAP, NetSuite, Ariba, or similar procurement and ERP platforms\n• Experience supporting procurement transformation or process improvement initiatives\n• Experience within technology, software, SaaS, or fintech organizations\n• Bachelor's degree in Business, Supply Chain, Procurement, Operations, or a related field\nBy submitting to this position, you are agreeing to be included in our talent pool for future hiring for similarly qualified positions."
-        },
-        {
-          "firm": "Vaco",
-          "job_id": "2498",
-          "title": "Interim Senior Finance Project Manager",
-          "client_company": "",
-          "city": "San Francisco",
-          "state": "CA",
-          "work_arrangement": "remote",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-10-15",
-          "url": "https://jobs.vaco.com/job/2498/interim_senior_finance_project_manager/en",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "8+ years of experience",
-          "required_certifications": "",
-          "description": "Interim Senior Finance Project Manager\nOur client, a global software company, is seeking an Interim Senior Finance Project Manager to lead complex, high-visibility initiatives across the Finance organization.\nThis role is fully remote and has an anticipated duration of approximately 8 months, with potential for extension.\nResponsibilities:\nLead end-to-end program management for strategic Finance initiatives, including planning, governance, risk management, and executive reporting\nPartner with Finance, Tax, Legal, HR, Operations, and Technology stakeholders to define requirements, align milestones, and drive execution across multiple workstreams\nDevelop and manage program roadmaps, governance structures, decision logs, issue tracking, and risk mitigation plans\nCoordinate cross-functional initiatives involving financial operations, compliance, systems, reporting, and process transformation\nAssess dependencies across people, processes, technology, and regulatory requirements to proactively identify risks and opportunities\nPrepare executive-level communications, presentations, and status updates for senior leadership\nEstablish stakeholder communication cadences and facilitate alignment across globally distributed teams\nLead change-management efforts to ensure successful adoption of new processes, controls, systems, and operating models\nDrive program execution in environments with multiple competing priorities and evolving business requirements\nRequirements:\n8+ years of experience in strategic program management, project management, finance transformation, operations, corporate development, or a related field\nExperience managing large-scale, cross-functional initiatives within global or multinational organizations\nStrong understanding of finance operations, including accounting, tax, payroll, compliance, reporting, and finance systems\nProven executive presence with exceptional stakeholder management, communication, and influencing skills\nDemonstrated expertise in program governance, roadmap development, risk management, dependency tracking, and change management\nCompensation:\nDetermining compensation for this role (and others) at Vaco by Highspring depends upon a wide array of factors, including but not limited to:\nThe individual’s skill sets, experience, and training;\nLicensure and certifications;\nOffice location and other geographic considerations;\nOther business and organizational needs.\nWith that said, as required by local law in geographies that require salary range disclosure, Vaco by Highspring notes that the salary range for the role is noted in this job posting. The individual may also be eligible for discretionary bonuses, and can participate in medical, dental, and vision benefits as well as the company's 401(k) retirement plan.\nBy submitting to this position, you are agreeing to be included in our talent pool for future hiring for similarly qualified positions."
         }
       ],
       "attempts": {
@@ -8045,20 +8023,20 @@
         "mac": {
           "ok": true,
           "info": {
-            "candidates": 64,
-            "details_read": 64,
-            "kept": 3,
+            "candidates": 55,
+            "details_read": 55,
+            "kept": 2,
             "enumerated": 1527
           },
           "firm": "Vaco",
           "route": "mac",
-          "started_at": "2026-11-24T10:56:10.196365+00:00",
-          "completed_at": "2026-11-24T10:56:28.403036+00:00"
+          "started_at": "2026-11-24T12:56:09.960433+00:00",
+          "completed_at": "2026-11-24T12:56:36.280625+00:00"
         }
       },
-      "snapshot_at": "2026-11-24T11:31:38.482472+00:00",
-      "completed_at": "2026-11-24T11:33:09.418337+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-24T12:56:09.960433+00:00",
+      "completed_at": "2026-11-24T12:56:36.280625+00:00",
+      "snapshot_route": "mac"
     },
     "The Select Group": {
       "rows": [],
@@ -8475,8 +8453,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-24T11:56:10.629773+00:00",
-          "completed_at": "2026-11-24T12:03:18.461686+00:00"
+          "started_at": "2026-11-24T12:56:09.962407+00:00",
+          "completed_at": "2026-11-24T13:03:19.945615+00:00"
         }
       }
     },
@@ -9057,7 +9035,17 @@
       "firms_failed": 3,
       "timer_run_id": "45384695194",
       "timer_fired_at": "2026-11-24T12:30:02.207349+00:00"
+    },
+    {
+      "id": "40a144b0-95e5-45ed-8908-2ba8f821b4a8",
+      "route": "mac",
+      "started_at": "2026-11-24T12:56:08.174185+00:00",
+      "completed_at": "2026-11-24T13:03:19.957107+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-24T12:42:08.824981+00:00"
+  "published_at": "2026-11-24T13:03:21.517641+00:00"
 }
