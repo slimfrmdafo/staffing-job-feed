@@ -1867,6 +1867,14 @@
             "scope_facets": {}
           },
           "error": "Previously published jobs became ID-only/unreadable search entries; retaining complete prior employer snapshot: R0121689"
+        },
+        "mac": {
+          "firm": "Truist",
+          "route": "mac",
+          "started_at": "2026-11-24T14:19:32.599796+00:00",
+          "completed_at": "2026-11-24T14:20:45.187024+00:00",
+          "ok": false,
+          "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
       "snapshot_at": "2026-11-24T13:01:32.841433+00:00",
@@ -5226,7 +5234,17 @@
       "firms_failed": 1,
       "timer_run_id": "45399116850",
       "timer_fired_at": "2026-11-24T14:01:14.293150+00:00"
+    },
+    {
+      "id": "3e3cabc1-0dcc-454c-88df-b2e082a57c7b",
+      "route": "mac",
+      "started_at": "2026-11-24T14:19:30.556069+00:00",
+      "completed_at": "2026-11-24T14:20:45.188720+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 0,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-24T14:07:23.708172+00:00"
+  "published_at": "2026-11-24T14:20:46.739089+00:00"
 }
