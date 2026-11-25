@@ -3463,8 +3463,8 @@
           "error": "Official job search and detail pages are under maintenance",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-25T03:04:38.476472+00:00",
-          "completed_at": "2026-11-25T03:04:39.534667+00:00"
+          "started_at": "2026-11-25T03:56:08.430369+00:00",
+          "completed_at": "2026-11-25T03:56:09.166907+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -8313,11 +8313,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29656992&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
+          "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-25T03:04:38.477205+00:00",
-          "completed_at": "2026-11-25T03:07:29.482332+00:00"
+          "started_at": "2026-11-25T03:56:08.431036+00:00",
+          "completed_at": "2026-11-25T04:03:02.466244+00:00"
         }
       }
     },
@@ -9219,7 +9219,17 @@
       "firms_failed": 2,
       "timer_run_id": "45533751380",
       "timer_fired_at": "2026-11-25T03:33:14.349073+00:00"
+    },
+    {
+      "id": "fcf46e89-50d8-44f4-8c46-7ff754111027",
+      "route": "mac",
+      "started_at": "2026-11-25T03:56:07.040549+00:00",
+      "completed_at": "2026-11-25T04:03:02.482405+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 2,
+      "firms_succeeded": 0,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-25T03:43:09.080554+00:00"
+  "published_at": "2026-11-25T04:03:04.339560+00:00"
 }
