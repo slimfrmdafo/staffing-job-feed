@@ -4,28 +4,6 @@
       "rows": [
         {
           "firm": "Bank of America",
-          "job_id": "26033751",
-          "title": "Risk Analysis Specialist II",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "",
-          "url": "https://careers.bankofamerica.com/en-us/job-detail/26033751/risk-analysis-specialist-ii-charlotte-north-carolina-united-states",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "5 years experience",
-          "required_certifications": "",
-          "description": "Job Description:\nAt Bank of America, we are guided by a common purpose to help make financial lives better through the power of every connection. We do this by driving Responsible Growth and delivering for our clients, teammates, communities and shareholders every day. Being a Great Place to Work and providing a culture of caring is core to how we drive Responsible Growth. We are intentional about fostering an inclusive workplace where every teammate has the opportunity to succeed, build a career and contribute to our shared success. This includes attracting and developing exceptional talent, recognizing and rewarding performance, and supporting our teammates’ physical, emotional, and financial wellness through affordable, competitive and flexible benefits. We value the unique perspectives individuals bring from all backgrounds and career paths - whether shaped by military service, community college education, or a wide range of work and life experiences. These journeys foster resilience, leadership and innovation, strengthening our workforce and positively impact the communities we serve. Bank of America is committed to an in-office culture that supports collaboration, engagement, and career development. Our approach includes clear in-office expectations, while providing an appropriate level of flexibility based on role-specific responsibilities and business needs. At Bank of America, you can build a successful career with opportunities to learn, grow, and make an impact. Join us!\nPosition Summary:\nThis job is responsible for supporting data and technology requests, complex reporting and analysis, and modeling to manage risk and minimize credit and operating losses. Key responsibilities include reviewing and analyzing portfolio trends, supporting the development of more complex databases or queries to extract data, and supporting the production of data for internal and external reporting needs. Job expectations include working with Technology to implement changes necessary to support ongoing data needs.\nResponsibilities Include, but not limited to:\nSupports the development and execution of reporting to allow Risk and business partners to effectively identify and manage risk\nAnalyzes trends and supports the data design, portfolio trends, loss trends, and portfolio dynamics to ensure alignment with business strategies\nProvides analytical support on various product strategic initiatives affecting multiple Risk functions and lines of business to ensure company goals are met\nParticipates in the development of database production processes and performance reports for senior management, using data mining and other advanced analytical techniques to aggregate data\nSupports with responding to complex ad-hoc requests for information from both internal and external parties\nProvides support on cross-functional efforts to remediate data quality issues\nMonitors the outputs of controls and investigates alerts from the control checks\nDesign, develop, enhance, and maintain production-critical credit risk data, reports, dashboards, and analytical solutions that support risk management and business decision-making.\nLead complex data extraction, transformation, and validation activities across various systems and datasets to ensure consistency, reliability, and fitness for use.\nDesign and implement end-to-end reporting processes, control frameworks, and monitoring routines that improve scalability, repeatability, and operational effectiveness.\nPerform complex portfolio and trend analysis, identify key risk drivers, and communicate actionable insights to business partners and leadership.\nLead enhancement initiatives by partnering with technology teams and stakeholders to define requirements, implement solutions, and improve data and reporting capabilities.\nConduct root cause analysis for reporting issues, data quality concerns, and process breakdowns while developing sustainable corrective actions.\nSupport regulatory, governance, audit, and control activities through strong understanding of reporting methodologies, data lineage, and risk management requirements.\nRequired Skills:\n•    Bachelor's degree\n•    2+ years of Reporting/Data Management experience\n•    Strong SAS, SQL, Tableau, or other BI tool experience\n•    Strong analytical and critical thinking skills\n•    Strong verbal and written communication skills\n•    Ability to perform and enhance data QA, audit-level validations, and governance controls\n•    Demonstrated ability to identify process improvement opportunities and implement sustainable solutions\n•    Experience translating business requirements into reporting and data solutions\n•    Ability to manage multiple deliverables and independently solve complex business problems\n•    Strong understanding of data structures, metrics, and reporting methodologies\nDesired Skills:\n•    Consumer Credit Risk experience (Credit Card, Home Loans, CVL, Deposits, Small Business)\n•    Experience designing and implementing reporting or data management solutions\n•    Data lineage, metadata management, or data governance experience\n•    Regulatory reporting or audit engagement exposure\n•    Advanced Tableau, Power BI, or reporting visualization experience\n•    Experience leading reporting enhancement initiatives\n•    Root cause analysis and issue management experience\n•    Change management and process optimization experience\n•    Ability to translate business requirements into technical solutions\n•    Experience mentoring junior analysts\n•    Knowledge of enterprise risk management frameworks\n•    Experience identifying and implementing automation opportunities\nSkills:\nAttention to Detail\nBusiness Intelligence\nData and Trend Analysis\nRisk Analytics\nRisk Management\nAdaptability\nCollaboration\nContinuous Improvement\nData Visualization\nProject Management\nBusiness Acumen\nIssue Management\nRegulatory Relations\nStakeholder Management\nTechnical Documentation\nShift:\n1st shift (United States of America)\nHours Per Week:\n40"
-        },
-        {
-          "firm": "Bank of America",
           "job_id": "26042246",
           "title": "Sr Business Control Specialist",
           "client_company": "",
@@ -535,15 +513,15 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-25T04:04:56.686337+00:00",
-          "completed_at": "2026-11-25T04:05:41.910265+00:00",
+          "started_at": "2026-11-25T05:05:29.718615+00:00",
+          "completed_at": "2026-11-25T05:06:27.272556+00:00",
           "ok": true,
           "info": {
-            "enumerated": 2109,
-            "enumerated_raw": 2109,
-            "advertised": 2109,
-            "details_read": 146,
-            "kept": 24,
+            "enumerated": 2104,
+            "enumerated_raw": 2104,
+            "advertised": 2104,
+            "details_read": 145,
+            "kept": 23,
             "method": "employer search service + canonical full detail pages"
           }
         },
@@ -563,8 +541,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:04:56.686337+00:00",
-      "completed_at": "2026-11-25T04:05:41.910265+00:00",
+      "snapshot_at": "2026-11-25T05:05:29.718615+00:00",
+      "completed_at": "2026-11-25T05:06:27.272556+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -725,28 +703,6 @@
         },
         {
           "firm": "Wells Fargo",
-          "job_id": "R-588957",
-          "title": "Assistant General Counsel, VP - Enterprise Risk, Antitrust & Audit",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-20",
-          "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/WASHINGTON-DC/Assistant-General-Counsel--VP---Enterprise-Risk--Antitrust---Audit_R-588957",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "About this role:\nWells Fargo is seeking an Assistant General Counsel, Vice President to manage regulatory enforcement and investigative matters. The Assistant General Counsel will work on a team of attorneys and paralegals that regularly interact with bank leadership, external counsel, government attorneys, and other stakeholders.\nIn this role, you will:\nManage a portfolio of regulatory enforcement matters involving regulators and state and federal law enforcement and other agencies\nRepresent the Company in highly complex legal issues, regulatory enforcement investigations, litigation, negotiations, and settlement discussions\nCollaborate with leaders and subject matter experts in the Legal Department and other stakeholder functions, including compliance, risk, regulatory relations, government relations, and corporate communications, in providing strategic, tactical and effective legal support for the individual lines of business and Enterprise\nDevelop relationships with and provide guidance to leadership, including executive officers, on issues that may present legal, regulatory, compliance, or reputational risk to the Company\nDraft complex legal documents and review, revise and negotiate documents prepared by outside counsel\nCollaborate strategically with peers, colleagues and managers to resolve issues and achieve goals\nPartner with business leaders and management of other corporate departments to develop and implement risk management solutions\nHandle matters that have a significant impact on the Company's operations, strategies, or profitability\nReview and analyze complex large scale or long-term challenges that require in-depth evaluation of multiple factors including intangibles or unprecedented factors\nIdentify and analyze complex legal issues, develop conclusions and make recommendations for issue resolution\nDevelop and lead implementation of strategic business initiatives, and lead work to meet deliverables and drive new initiatives\nRequired Qualifications:\n5+ years of Law experience, or equivalent demonstrated through one or a combination of the following: work experience, training, military experience, education\nActive State Bar membership or the equivalent in a country outside the United States\nDesired Qualifications:\nExperience working at government agencies, including the DOJ, SEC, and prudential regulators\nExperience as a practicing attorney leading internal investigations, regulatory enforcement matters and complex litigation including before DOJ, SEC, prudential regulators and state attorneys general\nKnowledge and practical experience in areas involving regulator, attorney-client, work product and other privileges\nAbility to analyze legal and regulatory issues and provide effective advice to clients on complex legal matters\nAbility to evaluate economic, reputational and regulatory risks and to develop strategic plans to minimize those risks\nExperience conducting research and providing counsel and guidance regarding complex legal issues\nFlexibility and adaptability to changing priorities and the ability to work efficiently to meet deadlines in a fast-paced, demanding environment\nAbility to work efficiently in a complex environment with a high degree of collaboration\nJob Expectations:\nPosition will require onsite presence from any of the required locations listed\nAbility to work a hybrid schedule, in office at least 3 days a week\nThis position is not eligible for Visa sponsorship\nRelocation assistance is not available for this position\nPay Range\nReflected is the base pay range offered for this position. Pay may vary depending on factors including but not limited to demonstrated examples of prior performance, skills, experience, or work location. Employees may also be eligible for incentive opportunities.\n$159,000.00 - $305,000.00\nBenefits\nWells Fargo provides eligible employees with a comprehensive set of benefits, many of which are listed below. Visit\nBenefits - Wells Fargo Jobs\nfor an overview of the following benefit plans and programs offered to employees.\nHealth benefits\n401(k) Plan\nPaid time off\nDisability benefits\nLife insurance, critical illness insurance, and accident insurance\nParental leave\nCritical caregiving leave\nDiscounts and savings\nCommuter benefits\nTuition reimbursement\nScholarships for dependent children\nAdoption reimbursement\nPosting End Date:\n24 Nov 2026\n*\nJob posting may come down early due to volume of applicants.\nWe Value Equal Opportunity\nWells Fargo is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other legally protected characteristic.\nEmployees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\nApplicants with Disabilities\nTo request a medical accommodation during the application or interview process, visit\nDisability Inclusion at Wells Fargo\n.\nDrug and Alcohol Policy\nWells Fargo maintains a drug free workplace.  Please see our\nDrug and Alcohol Policy\nto learn more.\nWells Fargo Recruitment and Hiring Requirements:\na. Third-Party recordings are prohibited unless authorized by Wells Fargo.\nb. Wells Fargo requires you to directly represent your own experiences during the recruiting and hiring process.\nc. Please be prepared to provide accurate information and supporting documentation in connection with any lawful employment and education verification conducted by Wells Fargo."
-        },
-        {
-          "firm": "Wells Fargo",
           "job_id": "R-588382",
           "title": "NetOxygen Platform Administrator – Mortgage (Lead Business Execution Consultant)",
           "client_company": "",
@@ -860,19 +816,19 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-25T04:04:56.687384+00:00",
-          "completed_at": "2026-11-25T04:05:55.261582+00:00",
+          "started_at": "2026-11-25T05:05:29.719363+00:00",
+          "completed_at": "2026-11-25T05:06:42.648286+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1415,
-            "enumerated_raw": 1415,
-            "advertised": 1415,
+            "enumerated": 1386,
+            "enumerated_raw": 1386,
+            "advertised": 1386,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 20,
+            "details_read": 18,
             "closed_during_pull": 0,
-            "kept": 13,
+            "kept": 12,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "locationCountry": [
@@ -906,8 +862,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:04:56.687384+00:00",
-      "completed_at": "2026-11-25T04:05:55.261582+00:00",
+      "snapshot_at": "2026-11-25T05:05:29.719363+00:00",
+      "completed_at": "2026-11-25T05:06:42.648286+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1687,8 +1643,8 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-25T04:04:56.687838+00:00",
-          "completed_at": "2026-11-25T04:06:15.135835+00:00",
+          "started_at": "2026-11-25T05:05:29.719581+00:00",
+          "completed_at": "2026-11-25T05:07:06.798641+00:00",
           "ok": true,
           "info": {
             "enumerated": 1331,
@@ -1713,8 +1669,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-25T04:04:56.687838+00:00",
-      "completed_at": "2026-11-25T04:06:15.135835+00:00",
+      "snapshot_at": "2026-11-25T05:05:29.719581+00:00",
+      "completed_at": "2026-11-25T05:07:06.798641+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1831,28 +1787,6 @@
         },
         {
           "firm": "Duke Energy",
-          "job_id": "R42438",
-          "title": "Project Manager I / Project Manager II – Energy Services",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-13",
-          "url": "https://dukeenergy.wd1.myworkdayjobs.com/search/job/Raleigh-NC/Project-Manager-I---Project-Manager-II---Energy-Services_R42438",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Important Application Submission Information\nIn order to ensure your application is successfully received before the job posting expires, please submit your application by 11:59 PM on Tuesday, November 24, 2026\nMore than a career - a chance to make a difference in people's lives.\nBuild an exciting, rewarding career with us – help us make a difference for millions of people every day. Consider joining the Duke Energy team, where you'll find a friendly work environment, opportunities for growth and development, recognition for your work, and competitive pay and benefits.\nThe selected candidate can be based anywhere within the North Carolina territory with preference in\nRaleigh, Wilmington, Charlotte/Concord.\nJob Summary\nProject Manager I and II positions may have single point accountability or operate under the general direction of a Project Director or Senior Project Manager. The PM role involves managing, or assisting in managing, all phases of project planning and execution to meet defined project objectives. Objectives include scope, schedule, cost, quality, environment, safety, communication, security, and integration.\nResponsibilities\nAn Energy Services project manager identifies customer needs, designs cost-effective solutions, and oversees projects for commercial, industrial, and institutional clients.  Duties include engineering, procurement, construction, and commissioning of energy-related systems, with a focus on electric infrastructure, backup power (generators and UPS), power quality, monitoring, facility assessments, outdoor lighting, and industrial processes.  The position requires a customer-focused, team-oriented individual with project management experience and the potential to become an expert advisor in key product areas. Responsibilities include:\nContractor and Vendor Management -\nManage contractor procurement, negotiate agreements, and ensure compliance with Duke's policies.   Administer contracts, process financial documents, oversee project execution, and maintain accurate records. Final documentation and necessary releases are archived upon project completion.\nPlanning -\nActively engage in design peer reviews and collaborate with key internal teams to ensure effective project delivery planning. Secure necessary expertise, confirm constructability and reliability of designs, and manage project coordination requirements such as interconnections and confidentiality agreements.\nSafety & Environmental\n- Follow Duke Energy's safety protocols, report incidents or near misses, and participate in investigations and improvement initiatives. Ensure compliance with safety rules, maintain proper certifications, support safe work practices, and communicate requirements to all team members and contractors. Regularly conduct job hazard analyses, safety meetings, and inspections to identify risks and maintain environmental standards.\nProject Management\n- Manage project schedules, including developing, maintaining, and updating schedules using appropriate software and coordinating with stakeholders to address changes or challenges. Financial management duties include managing budgets, initiating payment of vendor invoices and customer billing, preparing accurate reports, conducting cost analyses, and ensuring compliance with business unit accounting practices. Actively engage in risk identification, communication with stakeholders, and adherence to industry best practices for both scheduling and financial processes.  The position also requires managing project closeout activities and transitioning completed projects to end users.\nConstruction Management\n- Manage low and medium-risk construction projects, coordinate planning and stakeholder communication, and ensure all necessary licenses, permits, and documentation are in place. Oversee site inspections and maintain compliance with established best practices, codes, standards, and Duke Energy policies.\nBusiness Development\n– Independently develop turnkey electrical infrastructure and electrical maintenance projects, including pricing model development, contract preparation, and maintaining compliance with procedure.\nLeadership\n- Demonstrate strong leadership, technical expertise, and effective communication to align projects with customer needs. Excel at coordinating both internal and external teams, ensuring collaboration with customers and vendors for successful outcomes.\nRequired/Basic Qualifications:\nNote: This posting is for one open position. Dependent on relative experience, the level to which a candidate is aligned is outlined below.\nProject Manager I\nAssociate's Degree\n2 years minimum required related experience\nIn lieu of degree, High School / GED\nand\n5 years minimum required related experience\nProject Manager II\nBachelor’s Degree\n5 years minimum required related experience\nIn lieu of degree, High School / GED\nand\n9 years minimum required related experience\nEssential Qualifications\nGeneral\nBachelor of Science degree in engineering or related field from an accredited college or university; or master’s degree in project management, MBA, Professional Engineer, Certified Energy Manager or Certified Construction Project Manager.\nFive years of electrical design, electrical construction project management, or related experience. Must include demonstrated project management skills that resulted in projects delivered on-time, on-budget and on-scope.\nDemonstrated experience with design/installation/operation of back-up power systems (generator, transfer switch, transformers), monitoring and controls equipment, power quality, and energy efficiency measures.\nDemonstrated ability to speak and write in a clear, concise, and organized manner using correct grammar.\nContractor and Vendor Management\nDemonstrated experience in contract preparation, execution, and administration.\nDemonstrated experience in processing purchase orders, invoices, and change orders with proper documentation throughout the project lifecycle.\nPlanning\nDemonstrated experience in coordinating various teams for planning, design reliability, and constructability of electrical construction projects.\nSafety and Environmental\nDemonstrated ability to perform work in compliance with applicable safety policies, procedures, and guidelines with a thorough understanding of the “Keys to Life” safety document, Cardinal Electric Safety Rules, Cardinal Safe Digging Rules and contractor H&S safety supplementals.\nDemonstrated experience in execution or oversite of crane/lifting operations and associated rigging.\nProject Management\nDemonstrated ability to assume total project responsibilities including quality assurance, customer interface, internal reporting and financial evaluation.\nDemonstrated experience in project document management, such as handoff and closeout documentation with a disciplined approach to documentation in appropriate storage locations (Procore, SharePoint, etc.).\nDemonstrated proficiency in project management scheduling software, preferably MS Project.\nConstruction Management\nDemonstrated experience in construction planning and sequencing, meeting project licensing and permitting requirements, coordination of kickoff meetings, and closeout activities with all stakeholders.\nDemonstrated experience in conducting site safety and quality inspections, project risk identification and mitigation, contract compliance, construction submittals, and RFIs.\nDemonstrated experience in estimating electrical projects, including development of a defined scope of work, development of pricing model, and development of contract documents.\nLeadership\nDemonstrated ability to document, make recommendations, and influence others to a common vision and action.\nDemonstrated ability to represent Duke Energy and effectively communicate technical and business impacts to both technical and non-technical individuals within Duke Energy and the customers' organization.\nDemonstrated experience working with customers to manage customer issues in a professional manner.\nDemonstrated ability to assess and resolve customer issues with innovative options based on customer cost guidelines and quality standards.\nDesired Qualifications\nGeneral\nLicense holder for Electrical, Building, or Public Utility Contracting.\nNine years of project management or related experience in delivering electric infrastructure to large commercial, industrial, and institutional customers.\nContractor and Vendor Management\nDemonstrated experience in negotiating contracts with vendors and customers.\nDemonstrated experience managing contractors, consultants, and customers to meet project scope and schedule goals.\nWorking knowledge of Duke Energy procurement policies.\nPlanning\nDemonstrated technical aptitude to review design reliability and constructability concerns in project pre-planning stage.\nDemonstrated experience with the Duke Energy electrical interconnection process.\nSafety and Environmental\nDemonstrated experience in Duke Energy Safety policies and procedures.\nDemonstrated experience in Duke Energy Environmental Rules and Procedures.\nProject Management\nDemonstrated experience with project management software, preferably Procore.\nWorking knowledge of computerized reporting systems.\nConstruction Management\nWorking knowledge of available commercial equipment and contractor network.\nWorking knowledge of NEC & NESC codes.\nLeadership\nDemonstrated ability to develop skills and become an expert advisor for the delivery team. Topics will include technical or business issues.\nDemonstrated history of continuous improvement in job-related technical, business, and professional knowledge and skills. Areas of focus include safety codes, engineering standards, governmental regulations, company procedures, and market and technical trends.\nDemonstrated ability to develop new business by initiating customer relationships or cultivating existing customer relationships and by development of energy solutions in the commercial and industrial markets.\nDemonstrated ability to innovate and provide options to customer issues that are complex in nature and for which there are no existing guidelines or known commercial solutions.\nWorking Conditions\nField Mobility Classification\n- Work location is highly mobile, working at various facilities or field locations with occasional onsite meetings after the onboarding period. Employee must live within a reasonable commute to the posted reporting location, not greater than 50 miles one way.\nWilling to periodically work in adverse conditions such as wet, swampy, isolated locations; cold and hot weather; and emergency conditions, i.e. storm restoration.\n#LI-ZM1\n#LI-Hybrid\nTravel Requirements\n15-25%\nRelocation Assistance Provided (as applicable)\nNo\nRepresented/Union Position\nNo\nVisa Sponsored Position\nNo. This is not a Visa Sponsored Position. This role requires the ability to work lawfully in the U.S. without employment-based immigration sponsorship, now or in the future.\nPlease note that in order to be considered for this position, you must possess all of the basic/required qualifications.\nPrivacy\nDo Not Sell My Personal Information (CA)\nTerms of Use\nAccessibility"
-        },
-        {
-          "firm": "Duke Energy",
           "job_id": "R42429",
           "title": "Manager of Interconnection Studies and Compliance",
           "client_company": "",
@@ -1878,19 +1812,19 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-25T04:04:56.688230+00:00",
-          "completed_at": "2026-11-25T04:05:05.149275+00:00",
+          "started_at": "2026-11-25T05:05:29.719817+00:00",
+          "completed_at": "2026-11-25T05:05:42.448342+00:00",
           "ok": true,
           "info": {
-            "enumerated": 77,
-            "enumerated_raw": 77,
-            "advertised": 77,
+            "enumerated": 69,
+            "enumerated_raw": 69,
+            "advertised": 69,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 10,
+            "details_read": 9,
             "closed_during_pull": 0,
-            "kept": 7,
+            "kept": 6,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {}
           }
@@ -1916,8 +1850,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:04:56.688230+00:00",
-      "completed_at": "2026-11-25T04:05:05.149275+00:00",
+      "snapshot_at": "2026-11-25T05:05:29.719817+00:00",
+      "completed_at": "2026-11-25T05:05:42.448342+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2125,18 +2059,10 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-25T04:05:05.149354+00:00",
-          "completed_at": "2026-11-25T04:05:18.616321+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 4733,
-            "enumerated_raw": 4733,
-            "advertised": 4733,
-            "details_read": 14,
-            "kept": 9,
-            "method": "employer current search widget + canonical full detail pages",
-            "known_missing_details_rechecked": 0
-          }
+          "started_at": "2026-11-25T05:05:42.448399+00:00",
+          "completed_at": "2026-11-25T05:06:52.310531+00:00",
+          "ok": false,
+          "error": "CollectionError: Employer search widget duplicate pagination; unable to prove complete index"
         },
         "mac": {
           "firm": "Lowe's",
@@ -2232,8 +2158,8 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-25T04:05:18.616396+00:00",
-          "completed_at": "2026-11-25T04:05:25.040117+00:00",
+          "started_at": "2026-11-25T05:06:27.272613+00:00",
+          "completed_at": "2026-11-25T05:06:35.179600+00:00",
           "ok": true,
           "info": {
             "enumerated": 80,
@@ -2254,8 +2180,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:05:18.616396+00:00",
-      "completed_at": "2026-11-25T04:05:25.040117+00:00",
+      "snapshot_at": "2026-11-25T05:06:27.272613+00:00",
+      "completed_at": "2026-11-25T05:06:35.179600+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2353,8 +2279,8 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-25T04:05:25.040199+00:00",
-          "completed_at": "2026-11-25T04:05:33.581069+00:00",
+          "started_at": "2026-11-25T05:06:35.179653+00:00",
+          "completed_at": "2026-11-25T05:06:44.748102+00:00",
           "ok": true,
           "info": {
             "enumerated": 118,
@@ -2399,8 +2325,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:05:25.040199+00:00",
-      "completed_at": "2026-11-25T04:05:33.581069+00:00",
+      "snapshot_at": "2026-11-25T05:06:35.179653+00:00",
+      "completed_at": "2026-11-25T05:06:44.748102+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2586,17 +2512,19 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-25T04:05:33.581134+00:00",
-          "completed_at": "2026-11-25T04:07:32.318995+00:00",
+          "started_at": "2026-11-25T05:06:42.648367+00:00",
+          "completed_at": "2026-11-25T05:08:19.745259+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1443,
-            "enumerated_raw": 1443,
-            "advertised": 1443,
+            "enumerated": 1439,
+            "enumerated_raw": 1439,
+            "advertised": 1439,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 130,
+            "unpublished_index_ids": [
+              "26996404"
+            ],
+            "details_read": 129,
             "closed_during_pull": 0,
             "kept": 8,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -2608,8 +2536,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:05:33.581134+00:00",
-      "completed_at": "2026-11-25T04:07:32.318995+00:00",
+      "snapshot_at": "2026-11-25T05:06:42.648367+00:00",
+      "completed_at": "2026-11-25T05:08:19.745259+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2618,13 +2546,13 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-25T04:05:41.910345+00:00",
-          "completed_at": "2026-11-25T04:06:15.776674+00:00",
+          "started_at": "2026-11-25T05:06:44.748153+00:00",
+          "completed_at": "2026-11-25T05:07:22.637900+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1123,
-            "enumerated_raw": 1123,
-            "advertised": 1123,
+            "enumerated": 1124,
+            "enumerated_raw": 1124,
+            "advertised": 1124,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2640,8 +2568,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:05:41.910345+00:00",
-      "completed_at": "2026-11-25T04:06:15.776674+00:00",
+      "snapshot_at": "2026-11-25T05:06:44.748153+00:00",
+      "completed_at": "2026-11-25T05:07:22.637900+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2717,8 +2645,8 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-25T04:05:55.261674+00:00",
-          "completed_at": "2026-11-25T04:06:30.234359+00:00",
+          "started_at": "2026-11-25T05:06:52.320061+00:00",
+          "completed_at": "2026-11-25T05:07:19.887381+00:00",
           "ok": true,
           "info": {
             "enumerated": 881,
@@ -2739,8 +2667,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:05:55.261674+00:00",
-      "completed_at": "2026-11-25T04:06:30.234359+00:00",
+      "snapshot_at": "2026-11-25T05:06:52.320061+00:00",
+      "completed_at": "2026-11-25T05:07:19.887381+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2772,8 +2700,8 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-25T04:06:15.135910+00:00",
-          "completed_at": "2026-11-25T04:06:36.653754+00:00",
+          "started_at": "2026-11-25T05:07:06.798691+00:00",
+          "completed_at": "2026-11-25T05:07:15.152674+00:00",
           "ok": true,
           "info": {
             "enumerated": 137,
@@ -2818,8 +2746,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:06:15.135910+00:00",
-      "completed_at": "2026-11-25T04:06:36.653754+00:00",
+      "snapshot_at": "2026-11-25T05:07:06.798691+00:00",
+      "completed_at": "2026-11-25T05:07:15.152674+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2895,8 +2823,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-25T04:06:15.776739+00:00",
-          "completed_at": "2026-11-25T04:06:29.745530+00:00",
+          "started_at": "2026-11-25T05:07:15.152729+00:00",
+          "completed_at": "2026-11-25T05:07:31.174684+00:00",
           "ok": true,
           "info": {
             "enumerated": 79,
@@ -2913,8 +2841,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:06:15.776739+00:00",
-      "completed_at": "2026-11-25T04:06:29.745530+00:00",
+      "snapshot_at": "2026-11-25T05:07:15.152729+00:00",
+      "completed_at": "2026-11-25T05:07:31.174684+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -3012,8 +2940,8 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-25T04:06:29.745598+00:00",
-          "completed_at": "2026-11-25T04:06:55.043845+00:00",
+          "started_at": "2026-11-25T05:07:19.887437+00:00",
+          "completed_at": "2026-11-25T05:07:52.189898+00:00",
           "ok": true,
           "info": {
             "enumerated": 887,
@@ -3034,8 +2962,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:06:29.745598+00:00",
-      "completed_at": "2026-11-25T04:06:55.043845+00:00",
+      "snapshot_at": "2026-11-25T05:07:19.887437+00:00",
+      "completed_at": "2026-11-25T05:07:52.189898+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -3089,8 +3017,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-25T04:06:30.234421+00:00",
-          "completed_at": "2026-11-25T04:06:36.956632+00:00",
+          "started_at": "2026-11-25T05:07:22.637959+00:00",
+          "completed_at": "2026-11-25T05:07:30.360200+00:00",
           "ok": true,
           "info": {
             "enumerated": 44,
@@ -3107,8 +3035,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:06:30.234421+00:00",
-      "completed_at": "2026-11-25T04:06:36.956632+00:00",
+      "snapshot_at": "2026-11-25T05:07:22.637959+00:00",
+      "completed_at": "2026-11-25T05:07:30.360200+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3117,8 +3045,8 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-25T04:06:36.653817+00:00",
-          "completed_at": "2026-11-25T04:06:47.662960+00:00",
+          "started_at": "2026-11-25T05:07:30.360259+00:00",
+          "completed_at": "2026-11-25T05:07:40.516138+00:00",
           "ok": true,
           "info": {
             "enumerated": 317,
@@ -3139,8 +3067,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:06:36.653817+00:00",
-      "completed_at": "2026-11-25T04:06:47.662960+00:00",
+      "snapshot_at": "2026-11-25T05:07:30.360259+00:00",
+      "completed_at": "2026-11-25T05:07:40.516138+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3260,17 +3188,17 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-25T04:06:36.956695+00:00",
-          "completed_at": "2026-11-25T04:07:04.000819+00:00",
+          "started_at": "2026-11-25T05:07:31.174740+00:00",
+          "completed_at": "2026-11-25T05:07:54.678966+00:00",
           "ok": true,
           "info": {
-            "enumerated": 401,
-            "enumerated_raw": 401,
-            "advertised": 401,
+            "enumerated": 391,
+            "enumerated_raw": 391,
+            "advertised": 391,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 19,
+            "details_read": 18,
             "closed_during_pull": 0,
             "kept": 5,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -3306,8 +3234,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:06:36.956695+00:00",
-      "completed_at": "2026-11-25T04:07:04.000819+00:00",
+      "snapshot_at": "2026-11-25T05:07:31.174740+00:00",
+      "completed_at": "2026-11-25T05:07:54.678966+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3316,13 +3244,13 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-25T04:06:47.663034+00:00",
-          "completed_at": "2026-11-25T04:07:02.471655+00:00",
+          "started_at": "2026-11-25T05:07:40.516188+00:00",
+          "completed_at": "2026-11-25T05:07:53.508863+00:00",
           "ok": true,
           "info": {
-            "enumerated": 399,
-            "enumerated_raw": 399,
-            "advertised": 399,
+            "enumerated": 395,
+            "enumerated_raw": 395,
+            "advertised": 395,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3354,8 +3282,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:06:47.663034+00:00",
-      "completed_at": "2026-11-25T04:07:02.471655+00:00",
+      "snapshot_at": "2026-11-25T05:07:40.516188+00:00",
+      "completed_at": "2026-11-25T05:07:53.508863+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3364,8 +3292,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-25T04:06:55.043919+00:00",
-          "completed_at": "2026-11-25T04:07:03.582695+00:00",
+          "started_at": "2026-11-25T05:07:52.189946+00:00",
+          "completed_at": "2026-11-25T05:08:04.523481+00:00",
           "ok": true,
           "info": {
             "enumerated": 206,
@@ -3382,8 +3310,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:06:55.043919+00:00",
-      "completed_at": "2026-11-25T04:07:03.582695+00:00",
+      "snapshot_at": "2026-11-25T05:07:52.189946+00:00",
+      "completed_at": "2026-11-25T05:08:04.523481+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3392,8 +3320,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:02.471727+00:00",
-          "completed_at": "2026-11-25T04:07:05.871632+00:00",
+          "started_at": "2026-11-25T05:07:53.508923+00:00",
+          "completed_at": "2026-11-25T05:07:57.946157+00:00",
           "ok": true,
           "info": {
             "enumerated": 11,
@@ -3410,8 +3338,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:07:02.471727+00:00",
-      "completed_at": "2026-11-25T04:07:05.871632+00:00",
+      "snapshot_at": "2026-11-25T05:07:53.508923+00:00",
+      "completed_at": "2026-11-25T05:07:57.946157+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3420,8 +3348,8 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:03.582772+00:00",
-          "completed_at": "2026-11-25T04:09:49.042681+00:00",
+          "started_at": "2026-11-25T05:07:54.679082+00:00",
+          "completed_at": "2026-11-25T05:10:24.055216+00:00",
           "ok": true,
           "info": {
             "enumerated": 5962,
@@ -3451,8 +3379,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-25T04:07:03.582772+00:00",
-      "completed_at": "2026-11-25T04:09:49.042681+00:00",
+      "snapshot_at": "2026-11-25T05:07:54.679082+00:00",
+      "completed_at": "2026-11-25T05:10:24.055216+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3484,8 +3412,8 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:04.015340+00:00",
-          "completed_at": "2026-11-25T04:07:08.269308+00:00",
+          "started_at": "2026-11-25T05:07:57.946215+00:00",
+          "completed_at": "2026-11-25T05:08:03.142078+00:00",
           "ok": true,
           "info": {
             "enumerated": 67,
@@ -3502,8 +3430,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:07:04.015340+00:00",
-      "completed_at": "2026-11-25T04:07:08.269308+00:00",
+      "snapshot_at": "2026-11-25T05:07:57.946215+00:00",
+      "completed_at": "2026-11-25T05:08:03.142078+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3601,8 +3529,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:05.871699+00:00",
-          "completed_at": "2026-11-25T04:07:16.499871+00:00",
+          "started_at": "2026-11-25T05:08:03.142150+00:00",
+          "completed_at": "2026-11-25T05:08:12.724504+00:00",
           "ok": true,
           "info": {
             "enumerated": 289,
@@ -3619,8 +3547,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:07:05.871699+00:00",
-      "completed_at": "2026-11-25T04:07:16.499871+00:00",
+      "snapshot_at": "2026-11-25T05:08:03.142150+00:00",
+      "completed_at": "2026-11-25T05:08:12.724504+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3629,8 +3557,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:08.269370+00:00",
-          "completed_at": "2026-11-25T04:07:30.279214+00:00",
+          "started_at": "2026-11-25T05:08:04.523530+00:00",
+          "completed_at": "2026-11-25T05:08:24.190406+00:00",
           "ok": true,
           "info": {
             "enumerated": 397,
@@ -3651,8 +3579,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:07:08.269370+00:00",
-      "completed_at": "2026-11-25T04:07:30.279214+00:00",
+      "snapshot_at": "2026-11-25T05:08:04.523530+00:00",
+      "completed_at": "2026-11-25T05:08:24.190406+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3684,26 +3612,10 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:16.499938+00:00",
-          "completed_at": "2026-11-25T04:08:39.215107+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 3070,
-            "enumerated_raw": 3070,
-            "advertised": 2000,
-            "location_partitions": 3,
-            "partition_advertised_counts": [
-              1497,
-              1497,
-              76
-            ],
-            "unpublished_index_ids": [],
-            "details_read": 9,
-            "closed_during_pull": 0,
-            "kept": 1,
-            "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {}
-          }
+          "started_at": "2026-11-25T05:08:12.724558+00:00",
+          "completed_at": "2026-11-25T05:08:20.922281+00:00",
+          "ok": false,
+          "error": "CollectionError: Browser search HTTP 429: https://dickssportinggoods.wd1.myworkdayjobs.com/wday/cxs/dickssportinggoods/DSG/jobs"
         }
       },
       "snapshot_at": "2026-11-25T04:07:16.499938+00:00",
@@ -3716,8 +3628,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:30.279288+00:00",
-          "completed_at": "2026-11-25T04:07:40.875542+00:00",
+          "started_at": "2026-11-25T05:08:19.745306+00:00",
+          "completed_at": "2026-11-25T05:08:33.387332+00:00",
           "ok": true,
           "info": {
             "enumerated": 179,
@@ -3762,8 +3674,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:07:30.279288+00:00",
-      "completed_at": "2026-11-25T04:07:40.875542+00:00",
+      "snapshot_at": "2026-11-25T05:08:19.745306+00:00",
+      "completed_at": "2026-11-25T05:08:33.387332+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3795,26 +3707,10 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:32.319073+00:00",
-          "completed_at": "2026-11-25T04:07:56.257768+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 347,
-            "enumerated_raw": 347,
-            "advertised": 347,
-            "location_partitions": 0,
-            "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 8,
-            "closed_during_pull": 0,
-            "kept": 1,
-            "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {
-              "locationCountry": [
-                "bc33aa3152ec42d4995f4791a106ed09"
-              ]
-            }
-          }
+          "started_at": "2026-11-25T05:08:20.922332+00:00",
+          "completed_at": "2026-11-25T05:08:29.621581+00:00",
+          "ok": false,
+          "error": "CollectionError: Browser search HTTP 429: https://ryder.wd5.myworkdayjobs.com/wday/cxs/ryder/RyderCareers/jobs"
         }
       },
       "snapshot_at": "2026-11-25T04:07:32.319073+00:00",
@@ -3850,22 +3746,10 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:40.875617+00:00",
-          "completed_at": "2026-11-25T04:08:01.136232+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 366,
-            "enumerated_raw": 366,
-            "advertised": 366,
-            "location_partitions": 0,
-            "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 19,
-            "closed_during_pull": 0,
-            "kept": 1,
-            "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {}
-          }
+          "started_at": "2026-11-25T05:08:24.190460+00:00",
+          "completed_at": "2026-11-25T05:08:37.183584+00:00",
+          "ok": false,
+          "error": "CollectionError: Browser search HTTP 429: https://curtisswright.wd1.myworkdayjobs.com/wday/cxs/curtisswright/CW_External_Career_Site/jobs"
         }
       },
       "snapshot_at": "2026-11-25T04:07:40.875617+00:00",
@@ -3989,22 +3873,10 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-25T04:07:56.257836+00:00",
-          "completed_at": "2026-11-25T04:08:33.240594+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 379,
-            "enumerated_raw": 379,
-            "advertised": 379,
-            "location_partitions": 0,
-            "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 74,
-            "closed_during_pull": 0,
-            "kept": 5,
-            "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {}
-          }
+          "started_at": "2026-11-25T05:08:29.621612+00:00",
+          "completed_at": "2026-11-25T05:08:38.321145+00:00",
+          "ok": false,
+          "error": "CollectionError: Browser search HTTP 429: https://rosendin.wd1.myworkdayjobs.com/wday/cxs/rosendin/Careers/jobs"
         },
         "mac": {
           "firm": "Rosendin Electric",
@@ -4060,8 +3932,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:01.136294+00:00",
-          "completed_at": "2026-11-25T04:08:06.879760+00:00",
+          "started_at": "2026-11-25T05:08:33.387388+00:00",
+          "completed_at": "2026-11-25T05:08:39.406499+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -4085,8 +3957,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:08:01.136294+00:00",
-      "completed_at": "2026-11-25T04:08:06.879760+00:00",
+      "snapshot_at": "2026-11-25T05:08:33.387388+00:00",
+      "completed_at": "2026-11-25T05:08:39.406499+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -4140,13 +4012,13 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:06.879830+00:00",
-          "completed_at": "2026-11-25T04:08:19.795465+00:00",
+          "started_at": "2026-11-25T05:08:37.183610+00:00",
+          "completed_at": "2026-11-25T05:08:52.271917+00:00",
           "ok": true,
           "info": {
-            "enumerated": 431,
-            "enumerated_raw": 431,
-            "advertised": 431,
+            "enumerated": 430,
+            "enumerated_raw": 430,
+            "advertised": 430,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4184,8 +4056,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:08:06.879830+00:00",
-      "completed_at": "2026-11-25T04:08:19.795465+00:00",
+      "snapshot_at": "2026-11-25T05:08:37.183610+00:00",
+      "completed_at": "2026-11-25T05:08:52.271917+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4239,8 +4111,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:19.795536+00:00",
-          "completed_at": "2026-11-25T04:08:27.665918+00:00",
+          "started_at": "2026-11-25T05:08:38.321172+00:00",
+          "completed_at": "2026-11-25T05:08:47.468752+00:00",
           "ok": true,
           "info": {
             "enumerated": 40,
@@ -4269,8 +4141,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-25T04:08:19.795536+00:00",
-      "completed_at": "2026-11-25T04:08:27.665918+00:00",
+      "snapshot_at": "2026-11-25T05:08:38.321172+00:00",
+      "completed_at": "2026-11-25T05:08:47.468752+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4346,8 +4218,8 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:27.665980+00:00",
-          "completed_at": "2026-11-25T04:08:41.667787+00:00",
+          "started_at": "2026-11-25T05:08:39.406551+00:00",
+          "completed_at": "2026-11-25T05:08:55.247656+00:00",
           "ok": true,
           "info": {
             "enumerated": 337,
@@ -4372,8 +4244,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-25T04:08:27.665980+00:00",
-      "completed_at": "2026-11-25T04:08:41.667787+00:00",
+      "snapshot_at": "2026-11-25T05:08:39.406551+00:00",
+      "completed_at": "2026-11-25T05:08:55.247656+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4382,8 +4254,8 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:33.240660+00:00",
-          "completed_at": "2026-11-25T04:08:43.470986+00:00",
+          "started_at": "2026-11-25T05:08:47.468802+00:00",
+          "completed_at": "2026-11-25T05:08:59.391509+00:00",
           "ok": true,
           "info": {
             "enumerated": 524,
@@ -4404,8 +4276,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:08:33.240660+00:00",
-      "completed_at": "2026-11-25T04:08:43.470986+00:00",
+      "snapshot_at": "2026-11-25T05:08:47.468802+00:00",
+      "completed_at": "2026-11-25T05:08:59.391509+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4414,22 +4286,10 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:39.215197+00:00",
-          "completed_at": "2026-11-25T04:08:42.635974+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 2,
-            "enumerated_raw": 2,
-            "advertised": 2,
-            "location_partitions": 0,
-            "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 0,
-            "closed_during_pull": 0,
-            "kept": 0,
-            "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {}
-          }
+          "started_at": "2026-11-25T05:08:52.271975+00:00",
+          "completed_at": "2026-11-25T05:09:52.609989+00:00",
+          "ok": false,
+          "error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://comporium.wd1.myworkdayjobs.com/Comporium_Careers\", waiting until \"networkidle\"\n"
         }
       },
       "snapshot_at": "2026-11-25T04:08:39.215197+00:00",
@@ -4442,8 +4302,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:41.667854+00:00",
-          "completed_at": "2026-11-25T04:08:46.595733+00:00",
+          "started_at": "2026-11-25T05:08:55.247705+00:00",
+          "completed_at": "2026-11-25T05:09:02.754809+00:00",
           "ok": true,
           "info": {
             "enumerated": 148,
@@ -4460,8 +4320,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:08:41.667854+00:00",
-      "completed_at": "2026-11-25T04:08:46.595733+00:00",
+      "snapshot_at": "2026-11-25T05:08:55.247705+00:00",
+      "completed_at": "2026-11-25T05:09:02.754809+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4487,54 +4347,32 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "Agency\nDept of Health and Human Services\nDivision\nHealth Service Regulation\nJob Classification Title\nFacility Compliance Consultant I (NS)\nPosition Number\n60054161\nGrade\nNC15\nAbout Us\nThe North Carolina Department of Health and Human Services (DHHS) is one of the largest, most complex agencies in the state, and has approximately 17,000 employees. It is responsible for ensuring the health, safety, and well-being of all North Carolinians, providing human service needs for special populations including individuals who are deaf, blind, developmentally disabled, and mentally ill, and helping poor North Carolinians achieve economic independence.\nDescription of Work\nThe Nursing Home Surveyor (Facility Compliance Consultant I) conducts regulatory inspections of nursing homes to determine compliance with federal and state requirements governing long-term care facilities. This position is responsible for performing routine certification surveys and complaint investigations, evaluating the quality of resident care and facility operations, and documenting findings in accordance with established regulatory standards.\nThe position prepares survey reports, statements of deficiencies, and complaint investigation findings and provides information regarding compliance requirements to facility staff and administrators.\nThis home-based position serves Mecklenburg and Cabarrus Counties and requires extensive travel, including occasional overnight travel, weekend work, and evening inspections as necessary to support regulatory activities.\nKey Duties Include:\n- Conduct routine surveys of nursing homes to evaluate compliance with federal and state regulations governing long-term care facilities.\n- Investigate complaints and allegations involving nursing home residents and facility operations to determine compliance with regulatory requirements and identify potential deficiencies.\n- Review clinical, administrative, and facility records to assess regulatory compliance, quality of care, and adequacy of services provided to residents.\n- Evaluate resident care practices, quality of life measures, facility operations, and service delivery through observation, interviews, and record reviews.\n- Document survey and investigation findings and prepare detailed reports in accordance with established regulatory standards and survey protocols.\n- Develop statements of deficiencies and complaint investigation findings that accurately identify non-compliance and supporting evidence.\n- Communicate survey findings, regulatory requirements, and compliance expectations to facility administrators, management staff, and other stakeholders.\n- Maintain accurate and timely documentation of inspections, investigations, findings, and enforcement-related activities using approved reporting systems.\n- Participate in required training programs and successfully complete the Federal Surveyor Minimum Qualifications Test (SMQT) following orientation and surveyor training.\n- Travel throughout the assigned service area to conduct on-site inspections, including occasional overnight travel, weekend assignments, and evening or night-shift surveys as required.\nKnowledge Skills and Abilities/Management Preferences\nSalary Grade Range:  $55,221.00-$96,639.00\nRecruitment Range:   $55,221.00-$72,100.00\nCandidates now meet the minimum qualifications of a position if they meet the minimum education and experience listed on the vacancy announcement.\nThe Knowledge, Skills, and Abilities (KSAs)/ Management Preferences are not required. Applicants who possess the following skills are preferred:\nProven experience applying a strong clinical nursing background, including assessment, care planning, and delivery of care, to evaluate healthcare services and determine compliance with regulatory standards.\nDemonstrated success communicating effectively with healthcare providers, facility staff, residents, families, and other stakeholders regarding clinical, regulatory, and compliance-related matters.\nExtensive experience authoring clear, concise, and technically accurate reports, statements of deficiencies, and investigative findings using proper grammar and professional writing standards.\nDocumented experience analyzing clinical records, resident outcomes, and care practices to identify deficiencies, evaluate quality of care, and support regulatory determinations.\nEstablished expertise interpreting and applying federal and state regulations, policies, and standards while gathering, evaluating, and documenting evidence to support survey, compliance, and enforcement activities.\nThe Posting Will Close At 11:59 P.M. The Night Before The End Date\nThis Position Is Funded In Part Through Federal Funds\nThis Position Is Eligible For A Fully Remote Work Option\nThis Home-Based Position Serves Mecklenburg And Cabarrus Counties\nPhysical Requirements:\nAbility to sit/stand/walk for prolonged periods\nAbility to finger/talk/hear/smell\nAbility to lift luggage (20 – 50 pounds)\nClose visual acuity.\nAbout the Division of Health Service Regulation (DHSR):\nThe Division of Health Service Regulation oversees medical, mental health and adult care facilities, emergency medical services, and local jails. We check to see that people receiving care in these facilities are safe and receive appropriate care. We make certain that medical buildings are built only when there is a need for them.\nAbout the Nursing Home Licensure and Certification Section:\nThe Nursing Home Licensure and Certification Section of DHSR regulates nursing homes in North Carolina, including combination homes that have both adult care and nursing home beds. Those receiving Medicare/Medicaid undergo routine federal inspections every nine to fifteen months, conducted by trained healthcare professionals. Surveys review many areas of care and operations, including resident rights, quality of care, staffing, safety, infection control, and emergency preparedness.\nThe section investigates roughly 3,000 complaints each year, notifying complainants of the findings. When inspectors identify issues, they issue a Statement of Deficiency. The nursing home must submit a correction plan and may face penalties. Inspectors return to ensure all problems are resolved.\nCompensation and Benefits:\nThe State of North Carolina offers excellent comprehensive benefits. Employees can participate in health insurance options, standard and supplemental retirement plans, and the NCFlex program (numerous high-quality, low-cost benefits on a pre-tax basis). Employees also receive paid vacation, sick, and community service leave. In addition, paid parental leave is available to eligible employees.\nVisit the website for\nState Benefits\n.\nSupplemental Contact Information:\nThe North Carolina Department of Health and Human Services (DHHS) is an Equal Opportunity Employer that embraces an Employment First philosophy, which consists of complying with all federal laws, state laws, and Executive Orders.  We are committed to reviewing requests for reasonable accommodation at any time during the hiring process or while on the job.  For more information about DHHS:\nhttps://www.ncdhhs.gov/\n.\nDHHS uses the Merit-Based Recruitment and Selection Plan to fill positions subject to the State Human Resources Act with the most qualified individuals.  Hiring salary will be based on relevant qualifications, internal equity, and budgetary considerations pertinent to the advertised position.\nIn accordance with the Governor’s\nExecutive Order 303\n, our agency supports second-chance employment for individuals who were previously incarcerated or justice-involved.  We invite all potential applicants to apply for positions for which they may be qualified.\nApplication Process\nBe sure to complete the application in its entirety.\nResumes will not be accepted in lieu of completing this application.\nInformation should be provided in the appropriate areas, to include the following: Education, including high school and all degrees obtained, Work Experience, and Certificates & Licenses. It is critical to our screening and salary determination process that applications contain comprehensive candidate information.\nAnswers to Supplemental Questions are not a substitute for providing all relevant information within the body of your application. To receive credit for the supplemental questions, you must provide supporting information within the \"Work Experience\" section of the application to support your answers.\nIf multiple applications are submitted to an individual posting, only the most recent application received prior to the closing date will be accepted. Applications must be submitted by 11:59 PM on the closing date.\nApplicants\nmay\nbe subject to a criminal background check. All candidates selected for positions considered \"Positions of Trust\"\nwill be\nsubject to a criminal background check.\nDue to the volume of applications received, we are unable to provide information regarding the status of your application over the phone. To check the status of your application, please log in to your account.  Upon the closing date, applications are \"Under Review\" and will be screened by Human Resources for qualified applicants. The hiring process may take several weeks.\nDegrees must be received from appropriately accredited institutions.  Transcripts and degree evaluations may be uploaded with your application. The State of North Carolina/Office of State Human Resources uses the National Association of Credential Evaluation Services (NACES) as a referral resource for applicants who need to have their credentials certified as equivalent.\nFor a list of organizations that perform this specialized service, please visit the NACES membership website at\nhttps://www.naces.org/members\n.\nDegree/College Credit Verification\nDegrees must be received from appropriately accredited institutions.\nTranscripts, degree evaluations, and cover letters may be uploaded with your application.\nVeterans’ and National Guard Preference\nApplicants seeking Veteran's Preference must attach a DD-214 Member-4 Form (Certificate of Release or Discharge from Active Duty) to their applications.\nApplicants seeking National Guard Preference must attach an NGB 23A (RPAS), along with the state application, if they are a current member of the NC National Guard in good standing.\nApplicants who are former members of either the NC Army National Guard or the NC Air National Guard, with honorable discharge and six years of creditable service, must attach a copy of the DD 256 or NGB 22, along with the state application.\nADA Accommodations\nConsistent with the Americans with Disabilities Act (ADA) and the Pregnant Workers Fairness Act (PWFA), DHHS is committed to the full inclusion of all qualified individuals. As part of this commitment, DHHS will ensure that people with disabilities, or known limitations covered by the PWFA, are provided with reasonable accommodation.  If reasonable accommodation is needed to participate in the job application or interview process, please contact the person indicated below.\nCONTACT INFORMATION\nIf there are any questions about this posting, please contact Talent Acquisition at\ntalentacquisition@dhhs.nc.gov\n.\nResumes will not be accepted in lieu of completing this application.\nMinimum Education and Experience\nSome state job postings say you can qualify by an “equivalent combination of education and experience.” If that language appears below, then you may qualify through EITHER years of education OR years of directly related experience, OR a combination of both. See the\nEducation and Experience Equivalency Guide\nfor details.\nGeneralist\n:\nBachelor's degree in a health, human service, or educational related field from an appropriately accredited institution and three years' experience in surveying, clinical and/or administration of a program in a related health field\nOR\nAn equivalent combination of education and experience.\nSocial Work:\nMaster's degree in social work from an appropriately accredited institution and one year experience in surveying, clinical and/or administration of a program in a related health field\nOR\nBachelor's degree, in social work from an appropriately accredited institution and three years' experience in surveying, clinical and/or administration of a program in a related health field\nOR\nAn equivalent combination of education and experience.\nDietetics:\nBachelor's degree in nutrition or food service management from an appropriately accredited institution and three years' experience in surveying, clinical and/or administration of a program in a related health field, eligible for registration from the Academy of Nutrition and Dietetics\nOR\nAn equivalent combination of education and experience.\nEEO Statement\nT\nhe State of North Carolina is an Equal Employment Opportunity Employer and dedicated to providing employees with a work environment free from all forms of unlawful employment discrimination, harassment, or retaliation. The\nstate\nprovides reasonable accommodation to employees and applicants with disabilities; known limitations related to pregnancy, childbirth, or related medical conditions; and for religious beliefs, observances, and practices.\nRecruiter:\nTresha Walker\nContact:\nDHHS Workday Support Form"
-        },
-        {
-          "firm": "North Carolina State Government",
-          "job_id": "JR-112508",
-          "title": "Facility Compliance Consultant I",
-          "client_company": "",
-          "city": "",
-          "state": "",
-          "work_arrangement": "remote",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "55221",
-          "pay_max": "65791",
-          "pay_unit": "",
-          "posted_date": "2026-11-04",
-          "url": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Regional/Facility-Compliance-Consultant-I_JR-112508-1",
-          "recruiter_name": "Giovanni Montclair Hollins",
-          "recruiter_email": "talentacquisition@dhhs.nc.gov",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Agency\nDept of Health and Human Services\nDivision\nHealth Service Regulation\nJob Classification Title\nFacility Compliance Consultant I (NS)\nPosition Number\n60054187\nGrade\nNC15\nAbout Us\nThe North Carolina Department of Health and Human Services (DHHS) is one of the largest, most complex agencies in the state, and has approximately 17,000 employees. It is responsible for ensuring the health, safety, and well-being of all North Carolinians, providing human service needs for special populations including individuals who are deaf, blind, developmentally disabled, and mentally ill, and helping poor North Carolinians achieve economic independence.\nDescription of Work\nThis position is in the Mental Health Licensure and Certification Section. The primary duties requires the ability to function as a consultant to conduct inspections of mental health facilities that provide care and treatment to adults and children who have mental health, developmental disabilities and/or substance use problems. The position will conduct annual, complaint and follow-up surveys to determine compliance with State licensure statutes and rules. The employee must be able to work independently as well as within a team. The position is home-based in the South Western Region of North Carolina and requires extensive travel to facilities located throughout South Western North Carolina as well as other regions throughout the State. Successful applicant should reside in Mecklenburg, Union, Gaston, Cabarrus, Rowan or a contiguous county. During weeks of training, the position will be required to travel and may be assigned to work in facilities in counties other than those assigned.\nJob responsibilities include:\n*Conducting On-Site Surveys - Perform all assigned annual, complaint, and follow up surveys of health care providers within required time frame.\n*Complete Written Documentation:  Complete and submit all required paperwork according to Section protocols within required timeframes.\n*Collaboration & Communication:  Participate in all required meetings and trainings to ensure effective communication with management, team, public and providers.\n*Public Contact:  Clearly explain rules, survey findings, deficiencies and regulations to providers, facility staff, the public and other agencies.\nKnowledge Skills and Abilities/Management Preferences\nSalary Range: 55,221 - $96,639\nRecruitment Range: $55,221 - $65,791\nCandidates now meet the minimum qualifications of a position if they meet the minimum education and experience listed on the vacancy announcement.\nThe Knowledge Skills and Abilities/ Management Preferences are not required. Applicants who possess the following skills are preferred.\nStrong written & oral communication skills and the ability to document clearly and concisely in a technical report.\nStrong organizational, investigative and analytical skills and the ability to make objective decisions while functioning independently.\nStrong clinical background and knowledge in the field of mental health, developmental disabilities and/or substance use disorder.\nThis position is funded in part through federal funds.\nThis position will close at 11:59 p.m. the night before the end date.\nThe Division of Health Service Regulation\noversees medical, mental health and adult care facilities, emergency medical services, and local jails. We check to see that people receiving care in these facilities are safe and receive appropriate care. We make certain that medical buildings are built only when there is a need for them.\nCompensation & Benefits:\nThe State of North Carolina offers excellent comprehensive benefits.  Employees can participate in health insurance options, standard and supplemental retirement plans, and the NCFlex program (numerous high-quality, low-cost benefits on a pre-tax basis).  Employees also receive paid vacation, sick, and community service leave.  In addition, paid parental leave is available to eligible employees.\nVisit website for\nState Benefits\nSupplemental and Contact Information\nThe North Carolina Department of Health and Human Services (DHHS) is an Equal Opportunity Employer that embraces an Employment First philosophy, which consists of complying with all federal laws, state laws, and Executive Orders.  We are committed to reviewing requests for reasonable accommodation at any time during the hiring process or while on the job.  For more information about DHHS:\nhttps://www.ncdhhs.gov/\n.\nDHHS uses the Merit-Based Recruitment and Selection Plan to fill positions subject to the State Human Resources Act with the most qualified individuals.  Hiring salary will be based on relevant qualifications, internal equity, and budgetary considerations pertinent to the advertised position.\nIn accordance with the Governor’s\nExecutive Order 303\n, our agency supports second-chance employment for individuals who were previously incarcerated or justice-involved.  We invite all potential applicants to apply for positions for which they may be qualified.\nApplication Process\nBe sure to complete the application in its entirety.\nResumes will not be accepted in lieu of completing this application.\nInformation should be provided in the appropriate areas, to include the following: Education, including high school and all degrees obtained, Work Experience, and Certificates & Licenses. It is critical to our screening and salary determination process that applications contain comprehensive candidate information.\nApplicants\nmay\nbe subject to a criminal background check. All candidates selected for positions considered \"Positions of Trust\"\nwill be\nsubject to a criminal background check.\nDue to the volume of applications received, we are unable to provide information regarding the status of your application over the phone. To check the status of your application, please log in to your account.  Upon the closing date, applications are \"Under Review\" and will be screened by Human Resources for qualified applicants. The hiring process may take several weeks.\nDegrees must be received from appropriately accredited institutions.  Transcripts and degree evaluations may be uploaded with your application. The State of North Carolina/Office of State Human Resources uses the National Association of Credential Evaluation Services (NACES) as a referral resource for applicants who need to have their credentials certified as equivalent.\nFor a list of organizations that perform this specialized service, please visit the NACES membership website at\nhttps://www.naces.org/members\n.\nDegree/College Credit Verification\nDegrees must be received from appropriately accredited institutions.\nTranscripts, degree evaluations and cover letters may be uploaded with your application.\nVeterans’ and National Guard Preference\nApplicants seeking Veteran's Preference must attach a DD-214 Member-4 Form (Certificate of Release or Discharge from Active Duty) to their applications.\nApplicants seeking National Guard Preference must attach an NGB 23A (RPAS), along with the state application, if they are a current member of the NC National Guard in good standing.\nApplicants who are former members of either the NC Army National Guard or the NC Air National Guard, with honorable discharge and six years of creditable service, must attach a copy of the DD 256 or NGB 22, along with the state application.\nADA Accommodations\nConsistent with the Americans with Disabilities Act (ADA) and the Pregnant Workers Fairness Act (PWFA), DHHS is committed to the full inclusion of all qualified individuals. As part of this commitment, DHHS will ensure that people with disabilities, or known limitations covered by the PWFA, are provided with reasonable accommodation.  If reasonable accommodation is needed to participate in the job application or interview process, please contact the person indicated below.\nCONTACT INFORMATION:\nIf there are any questions about this posting, please contact Talent Acquisition at\ntalentacquisition@dhhs.nc.gov\n.\nResumes will not be accepted in lieu of completing this application.\nMinimum Education and Experience\nSome state job postings say you can qualify by an “equivalent combination of education and experience.” If that language appears below, then you may qualify through EITHER years of education OR years of directly related experience, OR a combination of both. See the\nEducation and Experience Equivalency Guide\nfor details.\nMinimum Education and Experience Requirements – Generalist Bachelor’s degree in a health, human service, or educational related field from an appropriately accredited institution and three years’ experience in surveying, clinical and/or administration of a program in a related health field; or an equivalent combination of education and experience. Minimum Education and Experience Requirements – Social Work Master’s degree in social work from an appropriately accredited institution and one year experience in surveying, clinical and/or administration of a program in a related health field; or Bachelor’s degree, in social work from an appropriately accredited institution and three years’ experience in surveying, clinical and/or administration of a program in a related health field; or an equivalent combination of education and experience.\nEEO Statement\nT\nhe State of North Carolina is an Equal Employment Opportunity Employer and dedicated to providing employees with a work environment free from all forms of unlawful employment discrimination, harassment, or retaliation. The\nstate\nprovides reasonable accommodation to employees and applicants with disabilities; known limitations related to pregnancy, childbirth, or related medical conditions; and for religious beliefs, observances, and practices.\nRecruiter:\nGiovanni Montclair Hollins\nContact:\nDHHS Workday Support Form"
         }
       ],
       "attempts": {
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:42.636055+00:00",
-          "completed_at": "2026-11-25T04:09:07.584763+00:00",
+          "started_at": "2026-11-25T05:08:59.391566+00:00",
+          "completed_at": "2026-11-25T05:09:25.314762+00:00",
           "ok": true,
           "info": {
-            "enumerated": 887,
-            "enumerated_raw": 887,
-            "advertised": 887,
+            "enumerated": 836,
+            "enumerated_raw": 836,
+            "advertised": 836,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 24,
+            "details_read": 21,
             "closed_during_pull": 0,
-            "kept": 2,
+            "kept": 1,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {}
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:08:42.636055+00:00",
-      "completed_at": "2026-11-25T04:09:07.584763+00:00",
+      "snapshot_at": "2026-11-25T05:08:59.391566+00:00",
+      "completed_at": "2026-11-25T05:09:25.314762+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4543,13 +4381,13 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:43.471067+00:00",
-          "completed_at": "2026-11-25T04:08:48.831439+00:00",
+          "started_at": "2026-11-25T05:09:02.754854+00:00",
+          "completed_at": "2026-11-25T05:09:07.299283+00:00",
           "ok": true,
           "info": {
-            "enumerated": 43,
-            "enumerated_raw": 43,
-            "advertised": 43,
+            "enumerated": 42,
+            "enumerated_raw": 42,
+            "advertised": 42,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4561,8 +4399,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:08:43.471067+00:00",
-      "completed_at": "2026-11-25T04:08:48.831439+00:00",
+      "snapshot_at": "2026-11-25T05:09:02.754854+00:00",
+      "completed_at": "2026-11-25T05:09:07.299283+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4571,13 +4409,13 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:46.595794+00:00",
-          "completed_at": "2026-11-25T04:08:51.855740+00:00",
+          "started_at": "2026-11-25T05:09:07.299406+00:00",
+          "completed_at": "2026-11-25T05:09:11.449948+00:00",
           "ok": true,
           "info": {
-            "enumerated": 43,
-            "enumerated_raw": 43,
-            "advertised": 43,
+            "enumerated": 42,
+            "enumerated_raw": 42,
+            "advertised": 42,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4589,8 +4427,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:08:46.595794+00:00",
-      "completed_at": "2026-11-25T04:08:51.855740+00:00",
+      "snapshot_at": "2026-11-25T05:09:07.299406+00:00",
+      "completed_at": "2026-11-25T05:09:11.449948+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4820,14 +4658,14 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-25T04:08:48.831511+00:00",
-          "completed_at": "2026-11-25T04:09:26.999603+00:00",
+          "started_at": "2026-11-25T05:09:11.449994+00:00",
+          "completed_at": "2026-11-25T05:09:53.187523+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1332,
-            "enumerated_raw": 1332,
-            "advertised": 1332,
-            "details_read": 63,
+            "enumerated": 1330,
+            "enumerated_raw": 1330,
+            "advertised": 1330,
+            "details_read": 62,
             "kept": 10,
             "method": "employer Oracle search + full requisition detail resource"
           }
@@ -4848,8 +4686,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T04:08:48.831511+00:00",
-      "completed_at": "2026-11-25T04:09:26.999603+00:00",
+      "snapshot_at": "2026-11-25T05:09:11.449994+00:00",
+      "completed_at": "2026-11-25T05:09:53.187523+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -5445,7 +5283,19 @@
       "firms_attempted": 0,
       "firms_succeeded": 0,
       "firms_failed": 0
+    },
+    {
+      "id": "45551054300",
+      "route": "cloud",
+      "started_at": "2026-11-25T05:05:28.613197+00:00",
+      "completed_at": "2026-11-25T05:10:24.058465+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 33,
+      "firms_failed": 6,
+      "timer_run_id": "45544250047",
+      "timer_fired_at": "2026-11-25T05:04:35.463701+00:00"
     }
   ],
-  "published_at": "2026-11-25T04:48:00.264598+00:00"
+  "published_at": "2026-11-25T05:10:25.238014+00:00"
 }
