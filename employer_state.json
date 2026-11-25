@@ -543,22 +543,22 @@
         "mac": {
           "firm": "Bank of America",
           "route": "mac",
-          "started_at": "2026-11-24T21:25:08.568860+00:00",
-          "completed_at": "2026-11-24T21:26:29.256104+00:00",
+          "started_at": "2026-11-25T02:14:52.424394+00:00",
+          "completed_at": "2026-11-25T02:16:07.589822+00:00",
           "ok": true,
           "info": {
-            "enumerated": 2103,
-            "enumerated_raw": 2103,
-            "advertised": 2103,
-            "details_read": 143,
-            "kept": 26,
+            "enumerated": 2110,
+            "enumerated_raw": 2110,
+            "advertised": 2110,
+            "details_read": 146,
+            "kept": 24,
             "method": "employer search service + canonical full detail pages"
           }
         }
       },
-      "snapshot_at": "2026-11-25T01:04:29.921120+00:00",
-      "completed_at": "2026-11-25T01:05:35.687322+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-25T02:14:52.424394+00:00",
+      "completed_at": "2026-11-25T02:16:07.589822+00:00",
+      "snapshot_route": "mac"
     },
     "Wells Fargo": {
       "rows": [
@@ -5386,7 +5386,17 @@
       "firms_failed": 1,
       "timer_run_id": "45522897091",
       "timer_fired_at": "2026-11-25T02:03:59.988534+00:00"
+    },
+    {
+      "id": "1ab50b4f-d908-4b8e-b673-dd16444525e2",
+      "route": "mac",
+      "started_at": "2026-11-25T02:14:50.392108+00:00",
+      "completed_at": "2026-11-25T02:16:07.594676+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 1,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-25T02:09:33.890021+00:00"
+  "published_at": "2026-11-25T02:16:08.934726+00:00"
 }
