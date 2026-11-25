@@ -2091,18 +2091,10 @@
         "mac": {
           "firm": "Lowe's",
           "route": "mac",
-          "started_at": "2026-11-24T11:18:14.005589+00:00",
-          "completed_at": "2026-11-24T11:18:40.005249+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 4787,
-            "enumerated_raw": 4787,
-            "advertised": 4787,
-            "details_read": 16,
-            "kept": 10,
-            "method": "employer current search widget + canonical full detail pages",
-            "known_missing_details_rechecked": 0
-          }
+          "started_at": "2026-11-25T19:13:59.500194+00:00",
+          "completed_at": "2026-11-25T19:14:24.048711+00:00",
+          "ok": false,
+          "error": "CollectionError: Employer full JobPosting missing: https://talent.lowes.com/us/en/job/JR-02707912"
         }
       },
       "snapshot_at": "2026-11-25T18:09:12.447929+00:00",
@@ -5652,7 +5644,17 @@
       "firms_failed": 1,
       "timer_run_id": "45671885305",
       "timer_fired_at": "2026-11-25T19:07:42.594600+00:00"
+    },
+    {
+      "id": "0c3ac8ea-7836-4d06-979e-130b04b0f468",
+      "route": "mac",
+      "started_at": "2026-11-25T19:13:56.994296+00:00",
+      "completed_at": "2026-11-25T19:14:24.084745+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 0,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-25T19:13:47.950253+00:00"
+  "published_at": "2026-11-25T19:14:25.382567+00:00"
 }

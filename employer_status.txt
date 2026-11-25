@@ -1,5 +1,5 @@
 Employer job feed
-Published UTC: 2026-11-25T19:13:47.950253+00:00
+Published UTC: 2026-11-25T19:14:25.382567+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/employer_jobs.csv
 Priority employers are attempted on every cloud run. Mac retries only employers whose latest cloud attempt failed.
@@ -20,7 +20,7 @@ Duke Energy: listings=6 runners=cloud snapshot_runner=cloud last_success=2026-11
   mac (historical; newer cloud pull recovered): OK at 2026-11-24T05:15:59.089702+00:00 {'enumerated': 66, 'enumerated_raw': 66, 'advertised': 66, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 9, 'closed_during_pull': 0, 'kept': 7, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {}}
 Lowe's: listings=9 runners=cloud+mac snapshot_runner=cloud last_success=2026-11-25T18:09:39.114099+00:00
   cloud: FAILED at 2026-11-25T19:09:20.523852+00:00 CollectionError: Employer full JobPosting missing: https://talent.lowes.com/us/en/job/JR-02707912
-  mac: OK at 2026-11-24T11:18:40.005249+00:00 {'enumerated': 4787, 'enumerated_raw': 4787, 'advertised': 4787, 'details_read': 16, 'kept': 10, 'method': 'employer current search widget + canonical full detail pages', 'known_missing_details_rechecked': 0}
+  mac: FAILED at 2026-11-25T19:14:24.048711+00:00 CollectionError: Employer full JobPosting missing: https://talent.lowes.com/us/en/job/JR-02707912
 Ally Financial: listings=3 runners=cloud snapshot_runner=cloud last_success=2026-11-25T19:09:28.708494+00:00
   cloud: OK at 2026-11-25T19:09:28.708494+00:00 {'enumerated': 81, 'enumerated_raw': 81, 'advertised': 81, 'location_partitions': 0, 'partition_advertised_counts': [], 'unpublished_index_ids': [], 'details_read': 4, 'closed_during_pull': 0, 'kept': 3, 'method': 'ordinary browser + first-party full posting endpoint', 'scope_facets': {'locationCountry': ['bc33aa3152ec42d4995f4791a106ed09']}}
 TIAA: listings=4 runners=cloud snapshot_runner=cloud last_success=2026-11-25T19:09:40.746027+00:00
@@ -105,7 +105,6 @@ TOTAL listings=151 posted_contacts=2
 Unknown optional fields remain empty. All included listings use full posting details.
 
 Recent run receipts:
-{"completed_at": "2026-11-25T13:23:24.663584+00:00", "firms_attempted": 0, "firms_failed": 0, "firms_succeeded": 0, "id": "f22c8a99-fb77-4c50-be35-471534ff707a", "route": "mac", "started_at": "2026-11-25T13:23:22.676447+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-25T14:12:23.081411+00:00", "firms_attempted": 39, "firms_failed": 2, "firms_succeeded": 37, "id": "45630462749", "route": "cloud", "started_at": "2026-11-25T14:06:59.034729+00:00", "timer_fired_at": "2026-11-25T14:06:28.598855+00:00", "timer_run_id": "45620201619", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-25T15:12:55.139351+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45641447061", "route": "cloud", "started_at": "2026-11-25T15:07:18.404648+00:00", "timer_fired_at": "2026-11-25T15:06:39.929500+00:00", "timer_run_id": "45630458549", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-25T15:43:44.641583+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "25e58a73-61eb-4e8b-ba3f-9020d0cfddd0", "route": "mac", "started_at": "2026-11-25T15:42:36.650778+00:00", "trigger": "mac_launchd"}
@@ -115,3 +114,4 @@ Recent run receipts:
 {"completed_at": "2026-11-25T18:08:48.051929+00:00", "firms_attempted": 0, "firms_failed": 0, "firms_succeeded": 0, "id": "96cb0c39-b4a0-49b7-8140-d23dbe03d0f1", "route": "mac", "started_at": "2026-11-25T18:08:46.242857+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-25T18:14:09.578252+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45671890612", "route": "cloud", "started_at": "2026-11-25T18:09:01.598325+00:00", "timer_fired_at": "2026-11-25T18:07:30.508872+00:00", "timer_run_id": "45661330588", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-25T19:13:46.996415+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45682075169", "route": "cloud", "started_at": "2026-11-25T19:08:32.898672+00:00", "timer_fired_at": "2026-11-25T19:07:42.594600+00:00", "timer_run_id": "45671885305", "trigger": "cloud_clock"}
+{"completed_at": "2026-11-25T19:14:24.084745+00:00", "firms_attempted": 1, "firms_failed": 1, "firms_succeeded": 0, "id": "0c3ac8ea-7836-4d06-979e-130b04b0f468", "route": "mac", "started_at": "2026-11-25T19:13:56.994296+00:00", "trigger": "mac_launchd"}
