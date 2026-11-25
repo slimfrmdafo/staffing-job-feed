@@ -3375,8 +3375,8 @@
           "error": "Official job search and detail pages are under maintenance",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-25T18:56:10.793945+00:00",
-          "completed_at": "2026-11-25T18:56:11.720927+00:00"
+          "started_at": "2026-11-25T19:56:10.347138+00:00",
+          "completed_at": "2026-11-25T19:56:11.304023+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -8100,20 +8100,20 @@
         "mac": {
           "ok": true,
           "info": {
-            "enumerated": 403,
-            "details_read": 68,
+            "enumerated": 400,
+            "details_read": 67,
             "kept": 13,
             "browser_used": false
           },
           "firm": "Collabera",
           "route": "mac",
-          "started_at": "2026-11-25T06:02:31.073083+00:00",
-          "completed_at": "2026-11-25T06:13:05.042141+00:00"
+          "started_at": "2026-11-25T19:56:10.349160+00:00",
+          "completed_at": "2026-11-25T20:11:30.287970+00:00"
         }
       },
-      "snapshot_at": "2026-11-25T18:39:40.773795+00:00",
-      "completed_at": "2026-11-25T18:47:44.375789+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-25T19:56:10.349160+00:00",
+      "completed_at": "2026-11-25T20:11:30.287970+00:00",
+      "snapshot_route": "mac"
     },
     "Mindlance": {
       "rows": [],
@@ -8131,8 +8131,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-25T18:56:10.797684+00:00",
-          "completed_at": "2026-11-25T19:03:16.835816+00:00"
+          "started_at": "2026-11-25T19:56:10.350750+00:00",
+          "completed_at": "2026-11-25T20:08:57.504615+00:00"
         }
       }
     },
@@ -9386,7 +9386,17 @@
       "firms_failed": 3,
       "timer_run_id": "45676834761",
       "timer_fired_at": "2026-11-25T19:36:21.944399+00:00"
+    },
+    {
+      "id": "04bc4610-eee2-4a1e-b0be-f0327182076c",
+      "route": "mac",
+      "started_at": "2026-11-25T19:56:08.469599+00:00",
+      "completed_at": "2026-11-25T20:11:30.301907+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-25T19:41:48.088756+00:00"
+  "published_at": "2026-11-25T20:11:31.746011+00:00"
 }
