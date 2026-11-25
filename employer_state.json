@@ -535,8 +535,8 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-25T17:08:26.665293+00:00",
-          "completed_at": "2026-11-25T17:09:26.265379+00:00",
+          "started_at": "2026-11-25T18:09:03.039138+00:00",
+          "completed_at": "2026-11-25T18:10:01.261064+00:00",
           "ok": true,
           "info": {
             "enumerated": 2100,
@@ -563,8 +563,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:08:26.665293+00:00",
-      "completed_at": "2026-11-25T17:09:26.265379+00:00",
+      "snapshot_at": "2026-11-25T18:09:03.039138+00:00",
+      "completed_at": "2026-11-25T18:10:01.261064+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -838,18 +838,16 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-25T17:08:26.666230+00:00",
-          "completed_at": "2026-11-25T17:09:45.170408+00:00",
+          "started_at": "2026-11-25T18:09:03.040031+00:00",
+          "completed_at": "2026-11-25T18:10:13.917872+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1389,
-            "enumerated_raw": 1389,
-            "advertised": 1389,
+            "enumerated": 1402,
+            "enumerated_raw": 1404,
+            "advertised": 1404,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "R-585522"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 19,
             "closed_during_pull": 0,
             "kept": 12,
@@ -886,8 +884,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:08:26.666230+00:00",
-      "completed_at": "2026-11-25T17:09:45.170408+00:00",
+      "snapshot_at": "2026-11-25T18:09:03.040031+00:00",
+      "completed_at": "2026-11-25T18:10:13.917872+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1667,19 +1665,17 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-25T17:08:26.666454+00:00",
-          "completed_at": "2026-11-25T17:10:15.464075+00:00",
+          "started_at": "2026-11-25T18:09:03.040209+00:00",
+          "completed_at": "2026-11-25T18:10:33.684434+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1328,
-            "enumerated_raw": 1328,
-            "advertised": 1328,
+            "enumerated": 1322,
+            "enumerated_raw": 1322,
+            "advertised": 1322,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [
-              "R0121264",
-              "R0121601",
-              "R0122091"
+              "R0121641"
             ],
             "details_read": 48,
             "closed_during_pull": 0,
@@ -1697,8 +1693,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-25T17:08:26.666454+00:00",
-      "completed_at": "2026-11-25T17:10:15.464075+00:00",
+      "snapshot_at": "2026-11-25T18:09:03.040209+00:00",
+      "completed_at": "2026-11-25T18:10:33.684434+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1840,13 +1836,13 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-25T17:08:26.666724+00:00",
-          "completed_at": "2026-11-25T17:08:42.412479+00:00",
+          "started_at": "2026-11-25T18:09:03.040381+00:00",
+          "completed_at": "2026-11-25T18:09:12.447870+00:00",
           "ok": true,
           "info": {
-            "enumerated": 70,
-            "enumerated_raw": 70,
-            "advertised": 70,
+            "enumerated": 71,
+            "enumerated_raw": 71,
+            "advertised": 71,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -1878,8 +1874,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:08:26.666724+00:00",
-      "completed_at": "2026-11-25T17:08:42.412479+00:00",
+      "snapshot_at": "2026-11-25T18:09:03.040381+00:00",
+      "completed_at": "2026-11-25T18:09:12.447870+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2087,8 +2083,8 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-25T17:08:42.412547+00:00",
-          "completed_at": "2026-11-25T17:09:12.056967+00:00",
+          "started_at": "2026-11-25T18:09:12.447929+00:00",
+          "completed_at": "2026-11-25T18:09:39.114099+00:00",
           "ok": true,
           "info": {
             "enumerated": 4683,
@@ -2117,8 +2113,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:08:42.412547+00:00",
-      "completed_at": "2026-11-25T17:09:12.056967+00:00",
+      "snapshot_at": "2026-11-25T18:09:12.447929+00:00",
+      "completed_at": "2026-11-25T18:09:39.114099+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2194,8 +2190,8 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-25T17:09:12.057033+00:00",
-          "completed_at": "2026-11-25T17:09:19.674950+00:00",
+          "started_at": "2026-11-25T18:09:39.114163+00:00",
+          "completed_at": "2026-11-25T18:09:46.107394+00:00",
           "ok": true,
           "info": {
             "enumerated": 80,
@@ -2216,8 +2212,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:09:12.057033+00:00",
-      "completed_at": "2026-11-25T17:09:19.674950+00:00",
+      "snapshot_at": "2026-11-25T18:09:39.114163+00:00",
+      "completed_at": "2026-11-25T18:09:46.107394+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2315,13 +2311,13 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-25T17:09:19.675002+00:00",
-          "completed_at": "2026-11-25T17:09:31.022256+00:00",
+          "started_at": "2026-11-25T18:09:46.107453+00:00",
+          "completed_at": "2026-11-25T18:09:55.925495+00:00",
           "ok": true,
           "info": {
-            "enumerated": 113,
-            "enumerated_raw": 113,
-            "advertised": 113,
+            "enumerated": 115,
+            "enumerated_raw": 115,
+            "advertised": 115,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2361,8 +2357,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:09:19.675002+00:00",
-      "completed_at": "2026-11-25T17:09:31.022256+00:00",
+      "snapshot_at": "2026-11-25T18:09:46.107453+00:00",
+      "completed_at": "2026-11-25T18:09:55.925495+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2548,17 +2544,19 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-25T17:09:26.265451+00:00",
-          "completed_at": "2026-11-25T17:11:13.267236+00:00",
+          "started_at": "2026-11-25T18:09:55.925555+00:00",
+          "completed_at": "2026-11-25T18:11:55.876300+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1450,
-            "enumerated_raw": 1450,
-            "advertised": 1450,
+            "enumerated": 1456,
+            "enumerated_raw": 1456,
+            "advertised": 1456,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 132,
+            "unpublished_index_ids": [
+              "26987530"
+            ],
+            "details_read": 133,
             "closed_during_pull": 0,
             "kept": 8,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -2570,8 +2568,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:09:26.265451+00:00",
-      "completed_at": "2026-11-25T17:11:13.267236+00:00",
+      "snapshot_at": "2026-11-25T18:09:55.925555+00:00",
+      "completed_at": "2026-11-25T18:11:55.876300+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2580,17 +2578,18 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-25T17:09:31.022305+00:00",
-          "completed_at": "2026-11-25T17:10:09.310086+00:00",
+          "started_at": "2026-11-25T18:10:01.261135+00:00",
+          "completed_at": "2026-11-25T18:10:38.333757+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1128,
-            "enumerated_raw": 1128,
-            "advertised": 1128,
+            "enumerated": 1130,
+            "enumerated_raw": 1130,
+            "advertised": 1130,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [
-              "R-128438"
+              "R-116607",
+              "R-128761"
             ],
             "details_read": 10,
             "closed_during_pull": 0,
@@ -2604,8 +2603,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:09:31.022305+00:00",
-      "completed_at": "2026-11-25T17:10:09.310086+00:00",
+      "snapshot_at": "2026-11-25T18:10:01.261135+00:00",
+      "completed_at": "2026-11-25T18:10:38.333757+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2681,8 +2680,8 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-25T17:09:45.170462+00:00",
-          "completed_at": "2026-11-25T17:10:13.251734+00:00",
+          "started_at": "2026-11-25T18:10:13.917946+00:00",
+          "completed_at": "2026-11-25T18:10:48.083916+00:00",
           "ok": true,
           "info": {
             "enumerated": 880,
@@ -2703,8 +2702,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:09:45.170462+00:00",
-      "completed_at": "2026-11-25T17:10:13.251734+00:00",
+      "snapshot_at": "2026-11-25T18:10:13.917946+00:00",
+      "completed_at": "2026-11-25T18:10:48.083916+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2736,8 +2735,8 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:09.310151+00:00",
-          "completed_at": "2026-11-25T17:10:22.705781+00:00",
+          "started_at": "2026-11-25T18:10:33.684515+00:00",
+          "completed_at": "2026-11-25T18:10:45.021686+00:00",
           "ok": true,
           "info": {
             "enumerated": 138,
@@ -2782,8 +2781,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:10:09.310151+00:00",
-      "completed_at": "2026-11-25T17:10:22.705781+00:00",
+      "snapshot_at": "2026-11-25T18:10:33.684515+00:00",
+      "completed_at": "2026-11-25T18:10:45.021686+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2859,8 +2858,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:13.251800+00:00",
-          "completed_at": "2026-11-25T17:10:24.944953+00:00",
+          "started_at": "2026-11-25T18:10:38.333817+00:00",
+          "completed_at": "2026-11-25T18:10:50.902981+00:00",
           "ok": true,
           "info": {
             "enumerated": 81,
@@ -2877,8 +2876,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:10:13.251800+00:00",
-      "completed_at": "2026-11-25T17:10:24.944953+00:00",
+      "snapshot_at": "2026-11-25T18:10:38.333817+00:00",
+      "completed_at": "2026-11-25T18:10:50.902981+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -2976,16 +2975,18 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:15.464125+00:00",
-          "completed_at": "2026-11-25T17:10:53.596604+00:00",
+          "started_at": "2026-11-25T18:10:45.021750+00:00",
+          "completed_at": "2026-11-25T18:11:13.739971+00:00",
           "ok": true,
           "info": {
-            "enumerated": 881,
-            "enumerated_raw": 881,
-            "advertised": 881,
+            "enumerated": 883,
+            "enumerated_raw": 883,
+            "advertised": 883,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
+            "unpublished_index_ids": [
+              "2026-18781"
+            ],
             "details_read": 12,
             "closed_during_pull": 0,
             "kept": 4,
@@ -2998,8 +2999,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:10:15.464125+00:00",
-      "completed_at": "2026-11-25T17:10:53.596604+00:00",
+      "snapshot_at": "2026-11-25T18:10:45.021750+00:00",
+      "completed_at": "2026-11-25T18:11:13.739971+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -3053,8 +3054,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:22.705840+00:00",
-          "completed_at": "2026-11-25T17:10:30.318921+00:00",
+          "started_at": "2026-11-25T18:10:48.083974+00:00",
+          "completed_at": "2026-11-25T18:10:57.082757+00:00",
           "ok": true,
           "info": {
             "enumerated": 44,
@@ -3071,8 +3072,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:10:22.705840+00:00",
-      "completed_at": "2026-11-25T17:10:30.318921+00:00",
+      "snapshot_at": "2026-11-25T18:10:48.083974+00:00",
+      "completed_at": "2026-11-25T18:10:57.082757+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3081,8 +3082,8 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:24.945008+00:00",
-          "completed_at": "2026-11-25T17:10:34.417510+00:00",
+          "started_at": "2026-11-25T18:10:50.903038+00:00",
+          "completed_at": "2026-11-25T18:11:01.695686+00:00",
           "ok": true,
           "info": {
             "enumerated": 316,
@@ -3103,8 +3104,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:10:24.945008+00:00",
-      "completed_at": "2026-11-25T17:10:34.417510+00:00",
+      "snapshot_at": "2026-11-25T18:10:50.903038+00:00",
+      "completed_at": "2026-11-25T18:11:01.695686+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3224,17 +3225,17 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:30.318974+00:00",
-          "completed_at": "2026-11-25T17:10:57.458098+00:00",
+          "started_at": "2026-11-25T18:10:57.082819+00:00",
+          "completed_at": "2026-11-25T18:11:29.448414+00:00",
           "ok": true,
           "info": {
-            "enumerated": 401,
-            "enumerated_raw": 401,
-            "advertised": 401,
+            "enumerated": 403,
+            "enumerated_raw": 403,
+            "advertised": 403,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 20,
+            "details_read": 21,
             "closed_during_pull": 0,
             "kept": 5,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -3270,8 +3271,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:10:30.318974+00:00",
-      "completed_at": "2026-11-25T17:10:57.458098+00:00",
+      "snapshot_at": "2026-11-25T18:10:57.082819+00:00",
+      "completed_at": "2026-11-25T18:11:29.448414+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3280,22 +3281,10 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:34.417575+00:00",
-          "completed_at": "2026-11-25T17:10:48.524680+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 392,
-            "enumerated_raw": 392,
-            "advertised": 392,
-            "location_partitions": 0,
-            "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
-            "details_read": 0,
-            "closed_during_pull": 0,
-            "kept": 0,
-            "method": "ordinary browser + first-party full posting endpoint",
-            "scope_facets": {}
-          }
+          "started_at": "2026-11-25T18:11:01.695753+00:00",
+          "completed_at": "2026-11-25T18:11:06.368469+00:00",
+          "ok": false,
+          "error": "CollectionError: Workday search ID/path missing: {'bulletFields': ['R-83473', ',']}"
         },
         "mac": {
           "firm": "Hendrick Automotive Group",
@@ -3328,8 +3317,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:48.524735+00:00",
-          "completed_at": "2026-11-25T17:11:01.005846+00:00",
+          "started_at": "2026-11-25T18:11:06.368643+00:00",
+          "completed_at": "2026-11-25T18:11:16.360786+00:00",
           "ok": true,
           "info": {
             "enumerated": 203,
@@ -3346,8 +3335,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:10:48.524735+00:00",
-      "completed_at": "2026-11-25T17:11:01.005846+00:00",
+      "snapshot_at": "2026-11-25T18:11:06.368643+00:00",
+      "completed_at": "2026-11-25T18:11:16.360786+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3356,8 +3345,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:53.596677+00:00",
-          "completed_at": "2026-11-25T17:10:58.243033+00:00",
+          "started_at": "2026-11-25T18:11:13.740039+00:00",
+          "completed_at": "2026-11-25T18:11:18.476671+00:00",
           "ok": true,
           "info": {
             "enumerated": 12,
@@ -3374,8 +3363,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:10:53.596677+00:00",
-      "completed_at": "2026-11-25T17:10:58.243033+00:00",
+      "snapshot_at": "2026-11-25T18:11:13.740039+00:00",
+      "completed_at": "2026-11-25T18:11:18.476671+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3384,19 +3373,19 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:57.458149+00:00",
-          "completed_at": "2026-11-25T17:13:33.753743+00:00",
+          "started_at": "2026-11-25T18:11:16.360858+00:00",
+          "completed_at": "2026-11-25T18:14:09.032513+00:00",
           "ok": true,
           "info": {
-            "enumerated": 5960,
-            "enumerated_raw": 5966,
+            "enumerated": 5959,
+            "enumerated_raw": 5965,
             "advertised": 2000,
             "location_partitions": 4,
             "partition_advertised_counts": [
               1497,
               1495,
               1499,
-              1475
+              1474
             ],
             "unpublished_index_ids": [],
             "details_read": 3,
@@ -3415,8 +3404,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-25T17:10:57.458149+00:00",
-      "completed_at": "2026-11-25T17:13:33.753743+00:00",
+      "snapshot_at": "2026-11-25T18:11:16.360858+00:00",
+      "completed_at": "2026-11-25T18:14:09.032513+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3448,8 +3437,8 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-25T17:10:58.243083+00:00",
-          "completed_at": "2026-11-25T17:11:02.934766+00:00",
+          "started_at": "2026-11-25T18:11:18.476741+00:00",
+          "completed_at": "2026-11-25T18:11:24.457146+00:00",
           "ok": true,
           "info": {
             "enumerated": 63,
@@ -3466,8 +3455,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:10:58.243083+00:00",
-      "completed_at": "2026-11-25T17:11:02.934766+00:00",
+      "snapshot_at": "2026-11-25T18:11:18.476741+00:00",
+      "completed_at": "2026-11-25T18:11:24.457146+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3565,8 +3554,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-25T17:11:01.005898+00:00",
-          "completed_at": "2026-11-25T17:11:10.901141+00:00",
+          "started_at": "2026-11-25T18:11:24.457206+00:00",
+          "completed_at": "2026-11-25T18:11:36.459754+00:00",
           "ok": true,
           "info": {
             "enumerated": 287,
@@ -3583,8 +3572,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:11:01.005898+00:00",
-      "completed_at": "2026-11-25T17:11:10.901141+00:00",
+      "snapshot_at": "2026-11-25T18:11:24.457206+00:00",
+      "completed_at": "2026-11-25T18:11:36.459754+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3593,8 +3582,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-25T17:11:02.934825+00:00",
-          "completed_at": "2026-11-25T17:11:24.624594+00:00",
+          "started_at": "2026-11-25T18:11:29.448474+00:00",
+          "completed_at": "2026-11-25T18:11:53.273957+00:00",
           "ok": true,
           "info": {
             "enumerated": 392,
@@ -3615,8 +3604,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:11:02.934825+00:00",
-      "completed_at": "2026-11-25T17:11:24.624594+00:00",
+      "snapshot_at": "2026-11-25T18:11:29.448474+00:00",
+      "completed_at": "2026-11-25T18:11:53.273957+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3648,8 +3637,8 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-25T17:11:10.901195+00:00",
-          "completed_at": "2026-11-25T17:12:54.526872+00:00",
+          "started_at": "2026-11-25T18:11:36.459810+00:00",
+          "completed_at": "2026-11-25T18:13:16.857624+00:00",
           "ok": true,
           "info": {
             "enumerated": 3063,
@@ -3661,9 +3650,7 @@
               1497,
               68
             ],
-            "unpublished_index_ids": [
-              "202641212"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 9,
             "closed_during_pull": 0,
             "kept": 1,
@@ -3672,8 +3659,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:11:10.901195+00:00",
-      "completed_at": "2026-11-25T17:12:54.526872+00:00",
+      "snapshot_at": "2026-11-25T18:11:36.459810+00:00",
+      "completed_at": "2026-11-25T18:13:16.857624+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3682,13 +3669,13 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-25T17:11:13.267288+00:00",
-          "completed_at": "2026-11-25T17:11:28.335603+00:00",
+          "started_at": "2026-11-25T18:11:53.274026+00:00",
+          "completed_at": "2026-11-25T18:12:06.725760+00:00",
           "ok": true,
           "info": {
-            "enumerated": 178,
-            "enumerated_raw": 178,
-            "advertised": 178,
+            "enumerated": 179,
+            "enumerated_raw": 179,
+            "advertised": 179,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3728,8 +3715,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:11:13.267288+00:00",
-      "completed_at": "2026-11-25T17:11:28.335603+00:00",
+      "snapshot_at": "2026-11-25T18:11:53.274026+00:00",
+      "completed_at": "2026-11-25T18:12:06.725760+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3738,18 +3725,16 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-25T17:11:24.624677+00:00",
-          "completed_at": "2026-11-25T17:11:45.640712+00:00",
+          "started_at": "2026-11-25T18:11:55.876373+00:00",
+          "completed_at": "2026-11-25T18:12:18.512921+00:00",
           "ok": true,
           "info": {
-            "enumerated": 342,
-            "enumerated_raw": 342,
-            "advertised": 342,
+            "enumerated": 338,
+            "enumerated_raw": 338,
+            "advertised": 338,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "R189284"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 7,
             "closed_during_pull": 0,
             "kept": 0,
@@ -3762,8 +3747,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:11:24.624677+00:00",
-      "completed_at": "2026-11-25T17:11:45.640712+00:00",
+      "snapshot_at": "2026-11-25T18:11:55.876373+00:00",
+      "completed_at": "2026-11-25T18:12:18.512921+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3795,13 +3780,13 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-25T17:11:28.335678+00:00",
-          "completed_at": "2026-11-25T17:11:57.460622+00:00",
+          "started_at": "2026-11-25T18:12:06.725823+00:00",
+          "completed_at": "2026-11-25T18:12:42.299611+00:00",
           "ok": true,
           "info": {
-            "enumerated": 369,
-            "enumerated_raw": 369,
-            "advertised": 369,
+            "enumerated": 368,
+            "enumerated_raw": 368,
+            "advertised": 368,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3813,8 +3798,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:11:28.335678+00:00",
-      "completed_at": "2026-11-25T17:11:57.460622+00:00",
+      "snapshot_at": "2026-11-25T18:12:06.725823+00:00",
+      "completed_at": "2026-11-25T18:12:42.299611+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3934,8 +3919,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-25T17:11:45.640760+00:00",
-          "completed_at": "2026-11-25T17:12:44.503385+00:00",
+          "started_at": "2026-11-25T18:12:18.512990+00:00",
+          "completed_at": "2026-11-25T18:12:58.149723+00:00",
           "ok": true,
           "info": {
             "enumerated": 376,
@@ -3972,8 +3957,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:11:45.640760+00:00",
-      "completed_at": "2026-11-25T17:12:44.503385+00:00",
+      "snapshot_at": "2026-11-25T18:12:18.512990+00:00",
+      "completed_at": "2026-11-25T18:12:58.149723+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -4005,8 +3990,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-25T17:11:57.460734+00:00",
-          "completed_at": "2026-11-25T17:12:01.907946+00:00",
+          "started_at": "2026-11-25T18:12:42.299674+00:00",
+          "completed_at": "2026-11-25T18:12:49.503064+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -4030,8 +4015,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:11:57.460734+00:00",
-      "completed_at": "2026-11-25T17:12:01.907946+00:00",
+      "snapshot_at": "2026-11-25T18:12:42.299674+00:00",
+      "completed_at": "2026-11-25T18:12:49.503064+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -4085,13 +4070,13 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:01.908002+00:00",
-          "completed_at": "2026-11-25T17:12:15.674321+00:00",
+          "started_at": "2026-11-25T18:12:49.503127+00:00",
+          "completed_at": "2026-11-25T18:13:03.658094+00:00",
           "ok": true,
           "info": {
-            "enumerated": 432,
-            "enumerated_raw": 432,
-            "advertised": 432,
+            "enumerated": 434,
+            "enumerated_raw": 434,
+            "advertised": 434,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4129,8 +4114,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:12:01.908002+00:00",
-      "completed_at": "2026-11-25T17:12:15.674321+00:00",
+      "snapshot_at": "2026-11-25T18:12:49.503127+00:00",
+      "completed_at": "2026-11-25T18:13:03.658094+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4184,8 +4169,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:15.674378+00:00",
-          "completed_at": "2026-11-25T17:12:24.725595+00:00",
+          "started_at": "2026-11-25T18:12:58.149784+00:00",
+          "completed_at": "2026-11-25T18:13:06.938464+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4214,8 +4199,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-25T17:12:15.674378+00:00",
-      "completed_at": "2026-11-25T17:12:24.725595+00:00",
+      "snapshot_at": "2026-11-25T18:12:58.149784+00:00",
+      "completed_at": "2026-11-25T18:13:06.938464+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4291,13 +4276,13 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:24.725668+00:00",
-          "completed_at": "2026-11-25T17:12:40.575306+00:00",
+          "started_at": "2026-11-25T18:13:03.658167+00:00",
+          "completed_at": "2026-11-25T18:13:20.136572+00:00",
           "ok": true,
           "info": {
-            "enumerated": 332,
-            "enumerated_raw": 332,
-            "advertised": 332,
+            "enumerated": 333,
+            "enumerated_raw": 333,
+            "advertised": 333,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4317,8 +4302,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-25T17:12:24.725668+00:00",
-      "completed_at": "2026-11-25T17:12:40.575306+00:00",
+      "snapshot_at": "2026-11-25T18:13:03.658167+00:00",
+      "completed_at": "2026-11-25T18:13:20.136572+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4327,13 +4312,13 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:40.575352+00:00",
-          "completed_at": "2026-11-25T17:12:52.155887+00:00",
+          "started_at": "2026-11-25T18:13:06.938543+00:00",
+          "completed_at": "2026-11-25T18:13:17.818532+00:00",
           "ok": true,
           "info": {
-            "enumerated": 521,
-            "enumerated_raw": 521,
-            "advertised": 521,
+            "enumerated": 518,
+            "enumerated_raw": 518,
+            "advertised": 518,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4349,8 +4334,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:12:40.575352+00:00",
-      "completed_at": "2026-11-25T17:12:52.155887+00:00",
+      "snapshot_at": "2026-11-25T18:13:06.938543+00:00",
+      "completed_at": "2026-11-25T18:13:17.818532+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4359,8 +4344,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:44.503432+00:00",
-          "completed_at": "2026-11-25T17:12:49.692806+00:00",
+          "started_at": "2026-11-25T18:13:16.857684+00:00",
+          "completed_at": "2026-11-25T18:13:21.776005+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4377,8 +4362,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:12:44.503432+00:00",
-      "completed_at": "2026-11-25T17:12:49.692806+00:00",
+      "snapshot_at": "2026-11-25T18:13:16.857684+00:00",
+      "completed_at": "2026-11-25T18:13:21.776005+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4387,8 +4372,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:49.692866+00:00",
-          "completed_at": "2026-11-25T17:12:57.624040+00:00",
+          "started_at": "2026-11-25T18:13:17.818601+00:00",
+          "completed_at": "2026-11-25T18:13:24.692566+00:00",
           "ok": true,
           "info": {
             "enumerated": 147,
@@ -4405,8 +4390,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:12:49.692866+00:00",
-      "completed_at": "2026-11-25T17:12:57.624040+00:00",
+      "snapshot_at": "2026-11-25T18:13:17.818601+00:00",
+      "completed_at": "2026-11-25T18:13:24.692566+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4460,13 +4445,13 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:52.155938+00:00",
-          "completed_at": "2026-11-25T17:13:21.220418+00:00",
+          "started_at": "2026-11-25T18:13:20.136645+00:00",
+          "completed_at": "2026-11-25T18:13:48.729476+00:00",
           "ok": true,
           "info": {
-            "enumerated": 863,
-            "enumerated_raw": 863,
-            "advertised": 863,
+            "enumerated": 865,
+            "enumerated_raw": 865,
+            "advertised": 865,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4478,8 +4463,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:12:52.155938+00:00",
-      "completed_at": "2026-11-25T17:13:21.220418+00:00",
+      "snapshot_at": "2026-11-25T18:13:20.136645+00:00",
+      "completed_at": "2026-11-25T18:13:48.729476+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4488,8 +4473,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:54.526929+00:00",
-          "completed_at": "2026-11-25T17:12:59.372486+00:00",
+          "started_at": "2026-11-25T18:13:21.776073+00:00",
+          "completed_at": "2026-11-25T18:13:28.618363+00:00",
           "ok": true,
           "info": {
             "enumerated": 46,
@@ -4506,8 +4491,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:12:54.526929+00:00",
-      "completed_at": "2026-11-25T17:12:59.372486+00:00",
+      "snapshot_at": "2026-11-25T18:13:21.776073+00:00",
+      "completed_at": "2026-11-25T18:13:28.618363+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4516,8 +4501,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:57.624103+00:00",
-          "completed_at": "2026-11-25T17:13:01.867013+00:00",
+          "started_at": "2026-11-25T18:13:24.692631+00:00",
+          "completed_at": "2026-11-25T18:13:30.164422+00:00",
           "ok": true,
           "info": {
             "enumerated": 46,
@@ -4534,8 +4519,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:12:57.624103+00:00",
-      "completed_at": "2026-11-25T17:13:01.867013+00:00",
+      "snapshot_at": "2026-11-25T18:13:24.692631+00:00",
+      "completed_at": "2026-11-25T18:13:30.164422+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4765,13 +4750,13 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-25T17:12:59.372537+00:00",
-          "completed_at": "2026-11-25T17:13:41.106253+00:00",
+          "started_at": "2026-11-25T18:13:28.618427+00:00",
+          "completed_at": "2026-11-25T18:14:09.573735+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1338,
-            "enumerated_raw": 1338,
-            "advertised": 1338,
+            "enumerated": 1337,
+            "enumerated_raw": 1337,
+            "advertised": 1337,
             "details_read": 63,
             "kept": 10,
             "method": "employer Oracle search + full requisition detail resource"
@@ -4793,8 +4778,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T17:12:59.372537+00:00",
-      "completed_at": "2026-11-25T17:13:41.106253+00:00",
+      "snapshot_at": "2026-11-25T18:13:28.618427+00:00",
+      "completed_at": "2026-11-25T18:14:09.573735+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -5646,7 +5631,19 @@
       "firms_attempted": 0,
       "firms_succeeded": 0,
       "firms_failed": 0
+    },
+    {
+      "id": "45671890612",
+      "route": "cloud",
+      "started_at": "2026-11-25T18:09:01.598325+00:00",
+      "completed_at": "2026-11-25T18:14:09.578252+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 38,
+      "firms_failed": 1,
+      "timer_run_id": "45661330588",
+      "timer_fired_at": "2026-11-25T18:07:30.508872+00:00"
     }
   ],
-  "published_at": "2026-11-25T18:08:48.897730+00:00"
+  "published_at": "2026-11-25T18:14:10.720648+00:00"
 }
