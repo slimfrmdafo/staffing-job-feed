@@ -3548,11 +3548,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Apex search returned no enumerable listings; preserving prior snapshot",
+          "error": "Official job search and detail pages are under maintenance",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-25T01:04:08.876423+00:00",
-          "completed_at": "2026-11-25T01:05:20.506048+00:00"
+          "started_at": "2026-11-25T01:56:10.915521+00:00",
+          "completed_at": "2026-11-25T01:56:12.228588+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -8405,35 +8405,13 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-25T01:04:08.878189+00:00",
-          "completed_at": "2026-11-25T01:15:11.506379+00:00"
+          "started_at": "2026-11-25T01:56:10.917404+00:00",
+          "completed_at": "2026-11-25T02:02:47.563974+00:00"
         }
       }
     },
     "Motion Recruitment": {
       "rows": [
-        {
-          "firm": "Motion Recruitment",
-          "job_id": "894110",
-          "title": "Business Analyst/AI Automation",
-          "client_company": "",
-          "city": "CHARLOTTE",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "contract",
-          "contract_length": "6 Months",
-          "pay_min": "61.06",
-          "pay_max": "66.92",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-04",
-          "url": "https://motionrecruitment.com/tech-jobs/charlotte/contract/business-analyst-ai-automation/894110",
-          "recruiter_name": "Blair Richardson",
-          "recruiter_email": "blair.richardson@motionrecruitment.com",
-          "recruiter_phone": "(704) 280-8010",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Outstanding long-term contract opportunity! A well-known Financial Services Company is looking for a Business Analyst w/AI Automation in Charlotte, NC (Hybrid).\nWork with the brightest minds at one of the largest financial institutions in the world. This is a long-term contract opportunity that includes a competitive benefit package! Our client has been around for over 150 years and is continuously innovating in today's digital age. If you want to work for a company that is not only a household name, but also truly cares about satisfying customers' financial needs and helping people succeed financially, apply today.\nContract Duration: 6 Months\nRequired Skills & Experience\nStrong understanding of AI, Gen-AI, Agentic AI, multi-agent systems, and orchestration platforms, with ability to translate business needs to technical requirements.\nExperience in leading and collaborating with Engineering teams to design and implement AI, Agentic AI workflows using LangChain/LangGraph, Google Agent Space, MS CoPilot Studio, etc.,\nExperience deploying AI/ML solutions in regulated environments.\nStrong understanding of Agile methodologies and enterprise software development.\nFamiliarity with Gen AI platforms (e.g., OpenAI, Azure OpenAI, BloombergGPT).\nExcellent communication and stakeholder management skills.\nWhat You Will Be Doing\nConsult on complex initiatives with broad impact and large-scale planning for Business Execution.\nReview and analyze complex multi-faceted, larger scale, or longer-term Business Execution challenges that require in-depth evaluation of multiple factors including intangibles or unprecedented factors.\nContribute to the resolution of complex and multi-faceted situations requiring solid understanding of the function, policies, procedures, and compliance requirements that meet deliverables.\nStrategically collaborate and consult with client personnel.\nAct as a liaison between our lines of business and technology partners by facilitating the\ndelivery of highly complex business problems to be solved with automated solutions\nSupport the business in the alignment of their Intelligent Automation (IA) needs/usage with their technology and business strategies\nSupport the development of the automation analysis and design methodology, including the related policies, procedures, tools and artifacts, to ensure a “rapid” implementation process that aligns with established release cycles and related enterprise standards\nWork directly with subject matter experts within the lines of business to fully comprehend business processes and translate those processes into clear and concise user stories, create and groom the backlog for automation delivery and deployment\nSupport automation testing, as well as facilitate user acceptance testing\nConduct product demos, provide product acceptance\nProactively notify stakeholders of risks, bottlenecks, problems, issues, and concerns.\nEnsure compliance with Wells Fargo’s System Development Lifecycle and Information Security requirements\nIdentify and communicate risks and impacts and propose risk mitigation options, considering business implications of the application of technology to the current business environment\nProvide in-depth and sophisticated analysis applying interpretive thinking and design thinking to define problems, develop innovative solutions and influence strategic functional decisions\nDrive accountability for assigned initiatives, limit risk exposure, and create efficiencies as appropriate\nCollaborate and consult with members of the Business Execution team and team leaders to drive strategic initiatives\nRespond and collaborate with developers regarding the requirements and the client needs\nMake decisions product/functionality/experience area requiring strong understanding of the business, policies, procedures and/or compliance requirements"
-        },
         {
           "firm": "Motion Recruitment",
           "job_id": "892042",
@@ -8455,6 +8433,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "Outstanding long-term contract opportunity! A well-known Financial Services Company is looking for a Regulatory Records Management/Information Lifecycle management in Charlotte, NC (Hybrid). W2\nWork with the brightest minds at one of the largest financial institutions in the world. This is a long-term contract opportunity that includes a competitive benefit package! Our client has been around for over 150 years and is continuously innovating in today's digital age. If you want to work for a company that is not only a household name, but also truly cares about satisfying customers' financial needs and helping people succeed financially, apply today.\nContract Duration: 12 Months with possible fulltime conversion W2 only\nRequired Skills & Experience\nMust have\nSeries 99\nprioritize mix of regulatory record / recordkeeping expertise trade lifecycle, technology and data and records experience\nrole will help drive initiatives to ensure compliance with records and regulatory records recordkeeping requirements\nstrong collaboration, business facing, ability to effect and implement change\nCandidates should demonstrate:\nLed records governance programs\nPerformed records classification exercises\nApplied retention schedules and recordkeeping requirements\nCandidates should understand:\nFinancial markets workflows\nTrade generation and lifecycle events\nAssociated records and regulatory obligations\nCandidates must be comfortable working with:\nStructured data applications\nTechnology-enabled recordkeeping environments\nData repositories\nMigration initiatives\nCandidates must be able to:\nWork directly with business partners\nFacilitate discussions\nDrive outcomes across stakeholder groups\nThis is not a pure records role. Technology and data understanding are required.\nWhat You Will Be Doing\nThis is a specialized Regulatory Records Management / Information Lifecycle Management assignment within a banking and financial services environment.\nThe contractor will help drive initiatives that ensure compliance with records retention and regulatory recordkeeping requirements while partnering across business, technology, data, and governance teams.\nKey Deliverables\nDrive regulatory records and recordkeeping initiatives.\nSupport compliance with records retention and regulatory recordkeeping obligations.\nPerform records identification and classification activities.\nManage data remediation workstreams.\nCoordinate movement of data and records into retention repositories.\nSupport technology migration initiatives through records governance and classification activities.\nPartner with business stakeholders and technology teams to implement change.\nManage projects and workstreams with multiple stakeholders."
+        },
+        {
+          "firm": "Motion Recruitment",
+          "job_id": "894110",
+          "title": "Business Analyst/AI Automation",
+          "client_company": "",
+          "city": "CHARLOTTE",
+          "state": "NC",
+          "work_arrangement": "hybrid",
+          "job_type": "contract",
+          "contract_length": "6 Months",
+          "pay_min": "61.06",
+          "pay_max": "66.92",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-04",
+          "url": "https://motionrecruitment.com/tech-jobs/charlotte/contract/business-analyst-ai-automation/894110",
+          "recruiter_name": "Blair Richardson",
+          "recruiter_email": "blair.richardson@motionrecruitment.com",
+          "recruiter_phone": "(704) 280-8010",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Outstanding long-term contract opportunity! A well-known Financial Services Company is looking for a Business Analyst w/AI Automation in Charlotte, NC (Hybrid).\nWork with the brightest minds at one of the largest financial institutions in the world. This is a long-term contract opportunity that includes a competitive benefit package! Our client has been around for over 150 years and is continuously innovating in today's digital age. If you want to work for a company that is not only a household name, but also truly cares about satisfying customers' financial needs and helping people succeed financially, apply today.\nContract Duration: 6 Months\nRequired Skills & Experience\nStrong understanding of AI, Gen-AI, Agentic AI, multi-agent systems, and orchestration platforms, with ability to translate business needs to technical requirements.\nExperience in leading and collaborating with Engineering teams to design and implement AI, Agentic AI workflows using LangChain/LangGraph, Google Agent Space, MS CoPilot Studio, etc.,\nExperience deploying AI/ML solutions in regulated environments.\nStrong understanding of Agile methodologies and enterprise software development.\nFamiliarity with Gen AI platforms (e.g., OpenAI, Azure OpenAI, BloombergGPT).\nExcellent communication and stakeholder management skills.\nWhat You Will Be Doing\nConsult on complex initiatives with broad impact and large-scale planning for Business Execution.\nReview and analyze complex multi-faceted, larger scale, or longer-term Business Execution challenges that require in-depth evaluation of multiple factors including intangibles or unprecedented factors.\nContribute to the resolution of complex and multi-faceted situations requiring solid understanding of the function, policies, procedures, and compliance requirements that meet deliverables.\nStrategically collaborate and consult with client personnel.\nAct as a liaison between our lines of business and technology partners by facilitating the\ndelivery of highly complex business problems to be solved with automated solutions\nSupport the business in the alignment of their Intelligent Automation (IA) needs/usage with their technology and business strategies\nSupport the development of the automation analysis and design methodology, including the related policies, procedures, tools and artifacts, to ensure a “rapid” implementation process that aligns with established release cycles and related enterprise standards\nWork directly with subject matter experts within the lines of business to fully comprehend business processes and translate those processes into clear and concise user stories, create and groom the backlog for automation delivery and deployment\nSupport automation testing, as well as facilitate user acceptance testing\nConduct product demos, provide product acceptance\nProactively notify stakeholders of risks, bottlenecks, problems, issues, and concerns.\nEnsure compliance with Wells Fargo’s System Development Lifecycle and Information Security requirements\nIdentify and communicate risks and impacts and propose risk mitigation options, considering business implications of the application of technology to the current business environment\nProvide in-depth and sophisticated analysis applying interpretive thinking and design thinking to define problems, develop innovative solutions and influence strategic functional decisions\nDrive accountability for assigned initiatives, limit risk exposure, and create efficiencies as appropriate\nCollaborate and consult with members of the Business Execution team and team leaders to drive strategic initiatives\nRespond and collaborate with developers regarding the requirements and the client needs\nMake decisions product/functionality/experience area requiring strong understanding of the business, policies, procedures and/or compliance requirements"
         },
         {
           "firm": "Motion Recruitment",
@@ -8619,11 +8619,24 @@
           "route": "cloud",
           "started_at": "2026-11-25T01:35:28.811775+00:00",
           "completed_at": "2026-11-25T01:36:03.833472+00:00"
+        },
+        "mac": {
+          "ok": true,
+          "info": {
+            "candidates": 90,
+            "details_read": 90,
+            "kept": 9,
+            "enumerated": 773
+          },
+          "firm": "Motion Recruitment",
+          "route": "mac",
+          "started_at": "2026-11-25T01:56:10.918835+00:00",
+          "completed_at": "2026-11-25T01:56:52.015287+00:00"
         }
       },
-      "snapshot_at": "2026-11-25T00:35:22.904890+00:00",
-      "completed_at": "2026-11-25T00:35:45.231440+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-25T01:56:10.918835+00:00",
+      "completed_at": "2026-11-25T01:56:52.015287+00:00",
+      "snapshot_route": "mac"
     }
   },
   "runs": [
@@ -9246,7 +9259,17 @@
       "firms_failed": 3,
       "timer_run_id": "45518877127",
       "timer_fired_at": "2026-11-25T01:32:51.245321+00:00"
+    },
+    {
+      "id": "49172a34-0b35-4dbc-97b4-6f6e6480f596",
+      "route": "mac",
+      "started_at": "2026-11-25T01:56:08.913630+00:00",
+      "completed_at": "2026-11-25T02:02:47.582828+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-25T01:41:44.484629+00:00"
+  "published_at": "2026-11-25T02:02:48.957763+00:00"
 }
