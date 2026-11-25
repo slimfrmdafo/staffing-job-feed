@@ -3940,13 +3940,13 @@
         "mac": {
           "firm": "Rosendin Electric",
           "route": "mac",
-          "started_at": "2026-11-24T19:23:31.665279+00:00",
-          "completed_at": "2026-11-24T19:24:26.809085+00:00",
+          "started_at": "2026-11-25T15:42:38.550942+00:00",
+          "completed_at": "2026-11-25T15:43:44.640427+00:00",
           "ok": true,
           "info": {
-            "enumerated": 379,
-            "enumerated_raw": 379,
-            "advertised": 379,
+            "enumerated": 377,
+            "enumerated_raw": 377,
+            "advertised": 377,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3958,9 +3958,9 @@
           }
         }
       },
-      "snapshot_at": "2026-11-25T14:10:18.941294+00:00",
-      "completed_at": "2026-11-25T14:11:10.508449+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-25T15:42:38.550942+00:00",
+      "completed_at": "2026-11-25T15:43:44.640427+00:00",
+      "snapshot_route": "mac"
     },
     "Celgard": {
       "rows": [
@@ -5580,7 +5580,17 @@
       "firms_failed": 1,
       "timer_run_id": "45630458549",
       "timer_fired_at": "2026-11-25T15:06:39.929500+00:00"
+    },
+    {
+      "id": "25e58a73-61eb-4e8b-ba3f-9020d0cfddd0",
+      "route": "mac",
+      "started_at": "2026-11-25T15:42:36.650778+00:00",
+      "completed_at": "2026-11-25T15:43:44.641583+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 1,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-25T15:12:57.031489+00:00"
+  "published_at": "2026-11-25T15:43:45.927841+00:00"
 }
