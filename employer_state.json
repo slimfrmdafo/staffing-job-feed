@@ -5403,7 +5403,17 @@
       "firms_failed": 0,
       "timer_run_id": "45557962814",
       "timer_fired_at": "2026-11-25T07:04:58.115960+00:00"
+    },
+    {
+      "id": "da7a8a3e-cde6-4cbb-a4c0-df5cfc3dddcf",
+      "route": "mac",
+      "started_at": "2026-11-25T07:33:53.720345+00:00",
+      "completed_at": "2026-11-25T07:33:55.544906+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 0,
+      "firms_succeeded": 0,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-25T07:10:22.424484+00:00"
+  "published_at": "2026-11-25T07:33:56.644417+00:00"
 }
