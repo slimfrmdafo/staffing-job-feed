@@ -3306,11 +3306,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Official job search and detail pages are under maintenance",
+          "error": "Apex search returned no enumerable listings; preserving prior snapshot",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-25T14:00:07.467689+00:00",
-          "completed_at": "2026-11-25T14:00:08.428759+00:00"
+          "started_at": "2026-11-25T15:10:31.031234+00:00",
+          "completed_at": "2026-11-25T15:10:40.206605+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -6424,28 +6424,6 @@
         },
         {
           "firm": "Experis/Manpower",
-          "job_id": "417625",
-          "title": "WMS Business Analyst",
-          "client_company": "",
-          "city": "Fort Mill",
-          "state": "SC",
-          "work_arrangement": "hybrid",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "52",
-          "pay_max": "58",
-          "pay_unit": "hour",
-          "posted_date": "",
-          "url": "https://www.experis.com/en/job/417625/wms-business-analyst",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Our Fortune 500 client is seeking a WMS Business Analyst to join their team. As a WMS Business Analyst, you will be part of the Supply Chain Technology team supporting Distribution Center Operations, Business Stakeholders, and Software Development teams. The ideal candidate will have strong communication skills, analytical problem-solving abilities, and cross-functional collaboration experience, which will align successfully within the organization. Job Title: WMS Business Analyst Location: Fort Mill, SC (hybrid) Pay Range: $52-58 per hour on Experis' W2 (C2C or 1099 will not be considered) Type: Contract-to-Hire What’s the Job? Partner with distribution center and supply chain stakeholders to gather, analyze, and document business requirements for WMS enhancements. Create user stories, acceptance criteria, and functional documentation while serving as the liaison between business users and development teams. Utilize SQL to analyze data, validate system functionality, and support troubleshooting efforts. Coordinate and support testing activities, including test case development, defect management, and user acceptance testing (UAT). Assist with system deployments, post-implementation validation, and continuous improvement initiatives across warehouse operations. What’s Needed? 5+ years of Business Analyst experience supporting Warehouse Management Systems (WMS). Strong understanding of distribution center operations including receiving, putaway, inventory management, picking, packing, and shipping. Hands-on experience writing SQL queries and working with WMS data models. Experience documenting requirements, user stories, and acceptance criteria in Jira or similar Agile project management tools. Proven ability to collaborate with operational stakeholders and technical teams to deliver business solutions. Preferred Qualifications Experience with Manhattan Associates WMS. Background in retail distribution, high-volume fulfillment, or supply chain operations. Experience supporting WMS modernization or custom warehouse management platforms. Familiarity with qTest or similar test management tools. Experience leveraging AI tools, such as Microsoft Copilot, for business analysis and documentation. ​​​​​​​If this is a role that interests you and you’d like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis and Talent Solutions Experis® is a global leader in technology services and part of the ManpowerGroup® (NYSE: MAN) family of brands. We connect skilled technology professionals with meaningful opportunities where they can grow their careers, expand their expertise and make a real impact. Guided by the belief that it takes Human Ingenuity to unlock the true potential of technology, Experis helps people gain experience with leading organizations, build sought-after skills and take the next step toward a brighter future. Backed by ManpowerGroup's 75+ years of workforce expertise and global reach across more than 70 countries and territories, Experis brings the scale, insight and opportunity to help people and businesses thrive. ManpowerGroup is consistently recognized for its commitment to inclusion, ethics and responsible business, including being named one of the World's Most Ethical Companies. Learn more at Experis.com."
-        },
-        {
-          "firm": "Experis/Manpower",
           "job_id": "418382",
           "title": "Program Manager Non Tech 3",
           "client_company": "",
@@ -6465,6 +6443,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "Our client, a global technology leader , is seeking a Business Program Manager to join their team. As a Business Program Manager , you will be part of the Customer Success Organization supporting AI Business Solutions (ABS), Customer Success Account Managers (CSAMs), and Go-to-Market (GTM) teams . The ideal candidate will have strategic thinking , strong stakeholder management skills , and executive-level communication abilities which will align successfully in the organization. Job Title: Business Program Manager Location: Remote Pay Range: $55/Hr - $58/Hr What’s the Job? Drive business operations, program management, and GTM execution initiatives supporting cloud and AI programs. Analyze business performance data and sales dashboards to generate actionable insights and recommendations. Create executive-ready presentations, narratives, business reviews, and leadership updates. Design and implement scalable customer success programs, processes, and field enablement materials. Partner with cross-functional stakeholders to align priorities, remove blockers, and ensure successful program delivery. What’s Needed? 5-7+ years of program management, business operations, strategy, consulting, or related experience. Strong data analytics and business insights experience, including dashboard analysis and executive reporting. Experience supporting sales excellence, GTM strategy, customer success, or field readiness initiatives. Exceptional communication, storytelling, and executive presentation development skills. Bachelor's degree in Business Administration or a related field; PMP certification preferred. What’s in it for me? Opportunity to contribute directly to AI and cloud transformation initiatives. High visibility and collaboration with senior leaders across multiple organizations. Exposure to strategic planning, customer success programs, and GTM execution at scale. Fully remote work environment with flexible hours across time zones. Opportunity to drive meaningful business impact through data-driven decision-making and program leadership. If this is a role that interests you and you’d like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis and Talent Solutions Experis® is a global leader in technology services and part of the ManpowerGroup® (NYSE: MAN) family of brands. We connect skilled technology professionals with meaningful opportunities where they can grow their careers, expand their expertise and make a real impact. Guided by the belief that it takes Human Ingenuity to unlock the true potential of technology, Experis helps people gain experience with leading organizations, build sought-after skills and take the next step toward a brighter future. Backed by ManpowerGroup's 75+ years of workforce expertise and global reach across more than 70 countries and territories, Experis brings the scale, insight and opportunity to help people and businesses thrive. ManpowerGroup is consistently recognized for its commitment to inclusion, ethics and responsible business, including being named one of the World's Most Ethical Companies. Learn more at Experis.com."
+        },
+        {
+          "firm": "Experis/Manpower",
+          "job_id": "417625",
+          "title": "WMS Business Analyst",
+          "client_company": "",
+          "city": "Fort Mill",
+          "state": "SC",
+          "work_arrangement": "hybrid",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "52",
+          "pay_max": "58",
+          "pay_unit": "hour",
+          "posted_date": "",
+          "url": "https://www.experis.com/en/job/417625/wms-business-analyst",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Our Fortune 500 client is seeking a WMS Business Analyst to join their team. As a WMS Business Analyst, you will be part of the Supply Chain Technology team supporting Distribution Center Operations, Business Stakeholders, and Software Development teams. The ideal candidate will have strong communication skills, analytical problem-solving abilities, and cross-functional collaboration experience, which will align successfully within the organization. Job Title: WMS Business Analyst Location: Fort Mill, SC (hybrid) Pay Range: $52-58 per hour on Experis' W2 (C2C or 1099 will not be considered) Type: Contract-to-Hire What’s the Job? Partner with distribution center and supply chain stakeholders to gather, analyze, and document business requirements for WMS enhancements. Create user stories, acceptance criteria, and functional documentation while serving as the liaison between business users and development teams. Utilize SQL to analyze data, validate system functionality, and support troubleshooting efforts. Coordinate and support testing activities, including test case development, defect management, and user acceptance testing (UAT). Assist with system deployments, post-implementation validation, and continuous improvement initiatives across warehouse operations. What’s Needed? 5+ years of Business Analyst experience supporting Warehouse Management Systems (WMS). Strong understanding of distribution center operations including receiving, putaway, inventory management, picking, packing, and shipping. Hands-on experience writing SQL queries and working with WMS data models. Experience documenting requirements, user stories, and acceptance criteria in Jira or similar Agile project management tools. Proven ability to collaborate with operational stakeholders and technical teams to deliver business solutions. Preferred Qualifications Experience with Manhattan Associates WMS. Background in retail distribution, high-volume fulfillment, or supply chain operations. Experience supporting WMS modernization or custom warehouse management platforms. Familiarity with qTest or similar test management tools. Experience leveraging AI tools, such as Microsoft Copilot, for business analysis and documentation. ​​​​​​​If this is a role that interests you and you’d like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis and Talent Solutions Experis® is a global leader in technology services and part of the ManpowerGroup® (NYSE: MAN) family of brands. We connect skilled technology professionals with meaningful opportunities where they can grow their careers, expand their expertise and make a real impact. Guided by the belief that it takes Human Ingenuity to unlock the true potential of technology, Experis helps people gain experience with leading organizations, build sought-after skills and take the next step toward a brighter future. Backed by ManpowerGroup's 75+ years of workforce expertise and global reach across more than 70 countries and territories, Experis brings the scale, insight and opportunity to help people and businesses thrive. ManpowerGroup is consistently recognized for its commitment to inclusion, ethics and responsible business, including being named one of the World's Most Ethical Companies. Learn more at Experis.com."
         },
         {
           "firm": "Experis/Manpower",
@@ -7535,22 +7535,22 @@
         "mac": {
           "ok": true,
           "info": {
-            "candidates": 293,
-            "details_read": 293,
-            "kept": 52,
-            "enumerated": 2269,
-            "enumerated_raw": 2289,
-            "advertised": 2289
+            "candidates": 299,
+            "details_read": 299,
+            "kept": 51,
+            "enumerated": 2297,
+            "enumerated_raw": 2297,
+            "advertised": 2297
           },
           "firm": "Experis/Manpower",
           "route": "mac",
-          "started_at": "2026-11-24T01:20:04.404983+00:00",
-          "completed_at": "2026-11-24T01:25:01.013010+00:00"
+          "started_at": "2026-11-25T15:10:31.032228+00:00",
+          "completed_at": "2026-11-25T15:12:27.642733+00:00"
         }
       },
-      "snapshot_at": "2026-11-25T13:36:21.482941+00:00",
-      "completed_at": "2026-11-25T13:37:42.959397+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-25T15:10:31.032228+00:00",
+      "completed_at": "2026-11-25T15:12:27.642733+00:00",
+      "snapshot_route": "mac"
     },
     "Addison Group": {
       "rows": [
@@ -7653,17 +7653,12 @@
           "completed_at": "2026-11-25T14:38:36.239497+00:00"
         },
         "mac": {
-          "ok": true,
-          "info": {
-            "candidates": 64,
-            "details_read": 64,
-            "kept": 3,
-            "enumerated": 1521
-          },
+          "ok": false,
+          "error": "Vaco pagination repeated",
           "firm": "Vaco",
           "route": "mac",
-          "started_at": "2026-11-24T19:56:10.012689+00:00",
-          "completed_at": "2026-11-24T19:57:01.902277+00:00"
+          "started_at": "2026-11-25T15:10:31.032885+00:00",
+          "completed_at": "2026-11-25T15:10:42.179899+00:00"
         }
       },
       "snapshot_at": "2026-11-25T13:37:12.979638+00:00",
@@ -8126,11 +8121,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29574976&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
+          "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-25T14:00:07.468646+00:00",
-          "completed_at": "2026-11-25T14:25:16.110833+00:00"
+          "started_at": "2026-11-25T15:10:31.034362+00:00",
+          "completed_at": "2026-11-25T15:17:22.953909+00:00"
         }
       }
     },
@@ -9274,7 +9269,17 @@
       "firms_failed": 4,
       "timer_run_id": "45625120529",
       "timer_fired_at": "2026-11-25T14:35:29.100755+00:00"
+    },
+    {
+      "id": "77c2a06b-9d18-4ce3-9d4a-3f8b08855413",
+      "route": "mac",
+      "started_at": "2026-11-25T15:10:27.692919+00:00",
+      "completed_at": "2026-11-25T15:17:22.976764+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 4,
+      "firms_succeeded": 1,
+      "firms_failed": 3
     }
   ],
-  "published_at": "2026-11-25T14:47:21.566951+00:00"
+  "published_at": "2026-11-25T15:17:24.549274+00:00"
 }
