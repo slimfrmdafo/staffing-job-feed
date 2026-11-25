@@ -3372,11 +3372,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Official job search and detail pages are under maintenance",
+          "error": "Apex search returned no enumerable listings; preserving prior snapshot",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-25T19:56:10.347138+00:00",
-          "completed_at": "2026-11-25T19:56:11.304023+00:00"
+          "started_at": "2026-11-25T20:56:10.386119+00:00",
+          "completed_at": "2026-11-25T20:57:24.421152+00:00"
         }
       },
       "snapshot_at": "2026-11-24T00:47:04.459619+00:00",
@@ -6468,28 +6468,6 @@
         },
         {
           "firm": "Experis/Manpower",
-          "job_id": "414886",
-          "title": "Vendor Onboarding & SAW Administrator- REMOTE",
-          "client_company": "",
-          "city": "Redmond",
-          "state": "WA",
-          "work_arrangement": "remote",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "",
-          "url": "https://www.experis.com/en/job/414886/vendor-onboarding-saw-administrator-remote",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "3+ years of experience",
-          "required_certifications": "",
-          "description": "Our client is seeking a Vendor Onboarding & SAW Administrator to join a remote team supporting vendor operations and ensuring external staff have the equipment, access, and support needed to successfully onboard and remain compliant. From your first day, you’ll play a key role in streamlining end-to-end onboarding coordination and Secure Admin Workstation (SAW) lifecycle administration—so senior technical teams can stay focused on engineering work. Job Title: Vendor Onboarding & SAW Administrator Location: Remote (Fully remote; any U.S. time zone) Pay Range: $35 What's the Job? Own vendor onboarding administration from intake through account provisioning, equipment delivery, and handoff to the appropriate technical team. Coordinate SAW requests and lifecycle activities, including setup, shipment tracking, returns, replacements, and ongoing administration. Manage secure-device logistics for smartcards, readers, YubiKeys, and related onboarding hardware requirements. Maintain and monitor onboarding work queues—providing status updates, reviewing stale items, managing backlog, and escalating when needed. Support compliance-driven onboarding by coordinating account reinstatements, onboarding holds, expired screenings, re-onboarding activities, and recurring attestation/refresh tasks. What's Needed? 3+ years of experience in administrative operations, vendor onboarding, workforce coordination, procurement support, IT asset logistics, or a similar function. Experience managing high-volume, multi-step workflows using work-management or ticketing systems. SAW / computer administration experience and comfort supporting secure workstation setup and access issues. Strong organizational skills with the ability to document, follow up, and communicate clearly with multiple stakeholders. Ability to handle sensitive personnel, screening, account, and access information with discretion. What's in it for me? Make a direct impact by reducing onboarding delays and improving compliance outcomes for external staff. Work in a centralized role that streamlines vendor onboarding and SAW administration so technical teams can focus on engineering. Collaborate across U.S., EMEA, and APAC time zones with vendors, managers, engineering teams, procurement, mailrooms, and support organizations. Build strong operational expertise across secure-device logistics, access provisioning, and compliance-driven onboarding workflows. Opportunity for extension with pending budget approval for the next fiscal year. Upon completion of waiting period consultants are eligible for: Medical and Prescription Drug Plans Dental Plan Vision Plan Health Savings Account Health Flexible Spending Account Dependent Care Flexible Spending Account Supplemental Life Insurance Short Term and Long Term Disability Insurance Business Travel Insurance 401(k), Plus Match Weekly Pay If this is a role that interests you and you'd like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis, Talent Solutions, and Jefferson Wells. ManpowerGroup® (NYSE: MAN), the leading global workforce solutions company, helps organizations transform in a fast-changing world of work by sourcing, assessing, developing, and managing the talent that enables them to win. We develop innovative solutions for hundreds of thousands of organizations every year, providing them with skilled talent while finding meaningful, sustainable employment for millions of people across a wide range of industries and skills. Our expert family of brands – Manpower, Experis, Talent Solutions, and Jefferson Wells – creates substantial value for candidates and clients across more than 75 countries and territories and has done so for over 70 years. We are recognized consistently for our diversity - as a best place to work for Women, Inclusion, Equality and Disability and in 2023 ManpowerGroup was named one of the World's Most Ethical Companies for the 14th year - all confirming our position as the brand of choice for in-demand talent."
-        },
-        {
-          "firm": "Experis/Manpower",
           "job_id": "414240",
           "title": "Regulatory Records Management /Lead(CIB-COO) (Business Execution Consultant 4 - Contingent",
           "client_company": "",
@@ -6509,6 +6487,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "Our client, Banking and Financial Services is seeking a Regulatory Records Management /Lead to join their team. As a Regulatory Records Management /Lead. The ideal candidate will have a self-starter mindset, strong attention to detail, and disciplined project management that will align successfully in the organization. Job Title: Regulatory Records Management /Lead Location: Charlotte, NC (Hybrid 3 days onsite per week) Pay Range: $60 - $65/hr on W2 What's the Job? Drive regulatory records and recordkeeping initiatives to support compliance with records retention and regulatory recordkeeping requirements. Partner across business, technology, data, and governance teams to implement change that strengthens records governance and information lifecycle management. Perform records identification and classification activities, including supporting technology-enabled recordkeeping environments. Coordinate data remediation workstreams and support movement of data and records into retention repositories. Manage projects and workstreams with multiple stakeholders, including collaboration on technology migration initiatives through records governance and classification activities. What's Needed? Experience leading records governance programs and performing records classification exercises. Hands-on understanding of retention schedules and regulatory recordkeeping requirements. Comfort working with structured data applications, data repositories, and technology-enabled recordkeeping environments. Ability to collaborate business-facing and facilitate discussions to drive outcomes across stakeholder groups. Strong project management discipline with the ability to prioritize and execute initiatives across regulatory, records, technology, and data workstreams. What's in it for me? Opportunity to help ensure compliance through records governance and regulatory recordkeeping execution in a specialized banking and financial services environment. Chance to work at the intersection of regulatory records management, trade lifecycle understanding, and technology/data enablement. Visibility and influence by partnering with business, technology, data, and governance teams to implement change. Contract role with possibility to go perm, supporting long-term impact on records and information lifecycle initiatives. Hybrid schedule: 3 days onsite / 2 days remote (Charlotte only). If this is a role that interests you and you'd like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis, Talent Solutions, and Jefferson Wells. ManpowerGroup® (NYSE: MAN), the leading global workforce solutions company, helps organizations transform in a fast-changing world of work by sourcing, assessing, developing, and managing the talent that enables them to win. We develop innovative solutions for hundreds of thousands of organizations every year, providing them with skilled talent while finding meaningful, sustainable employment for millions of people across a wide range of industries and skills. Our expert family of brands – Manpower, Experis, Talent Solutions, and Jefferson Wells – creates substantial value for candidates and clients across more than 75 countries and territories and has done so for over 70 years. We are recognized consistently for our diversity - as a best place to work for Women, Inclusion, Equality and Disability and in 2023 ManpowerGroup was named one of the World's Most Ethical Companies for the 14th year - all confirming our position as the brand of choice for in-demand talent."
+        },
+        {
+          "firm": "Experis/Manpower",
+          "job_id": "414886",
+          "title": "Vendor Onboarding & SAW Administrator- REMOTE",
+          "client_company": "",
+          "city": "Redmond",
+          "state": "WA",
+          "work_arrangement": "remote",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "",
+          "url": "https://www.experis.com/en/job/414886/vendor-onboarding-saw-administrator-remote",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "3+ years of experience",
+          "required_certifications": "",
+          "description": "Our client is seeking a Vendor Onboarding & SAW Administrator to join a remote team supporting vendor operations and ensuring external staff have the equipment, access, and support needed to successfully onboard and remain compliant. From your first day, you’ll play a key role in streamlining end-to-end onboarding coordination and Secure Admin Workstation (SAW) lifecycle administration—so senior technical teams can stay focused on engineering work. Job Title: Vendor Onboarding & SAW Administrator Location: Remote (Fully remote; any U.S. time zone) Pay Range: $35 What's the Job? Own vendor onboarding administration from intake through account provisioning, equipment delivery, and handoff to the appropriate technical team. Coordinate SAW requests and lifecycle activities, including setup, shipment tracking, returns, replacements, and ongoing administration. Manage secure-device logistics for smartcards, readers, YubiKeys, and related onboarding hardware requirements. Maintain and monitor onboarding work queues—providing status updates, reviewing stale items, managing backlog, and escalating when needed. Support compliance-driven onboarding by coordinating account reinstatements, onboarding holds, expired screenings, re-onboarding activities, and recurring attestation/refresh tasks. What's Needed? 3+ years of experience in administrative operations, vendor onboarding, workforce coordination, procurement support, IT asset logistics, or a similar function. Experience managing high-volume, multi-step workflows using work-management or ticketing systems. SAW / computer administration experience and comfort supporting secure workstation setup and access issues. Strong organizational skills with the ability to document, follow up, and communicate clearly with multiple stakeholders. Ability to handle sensitive personnel, screening, account, and access information with discretion. What's in it for me? Make a direct impact by reducing onboarding delays and improving compliance outcomes for external staff. Work in a centralized role that streamlines vendor onboarding and SAW administration so technical teams can focus on engineering. Collaborate across U.S., EMEA, and APAC time zones with vendors, managers, engineering teams, procurement, mailrooms, and support organizations. Build strong operational expertise across secure-device logistics, access provisioning, and compliance-driven onboarding workflows. Opportunity for extension with pending budget approval for the next fiscal year. Upon completion of waiting period consultants are eligible for: Medical and Prescription Drug Plans Dental Plan Vision Plan Health Savings Account Health Flexible Spending Account Dependent Care Flexible Spending Account Supplemental Life Insurance Short Term and Long Term Disability Insurance Business Travel Insurance 401(k), Plus Match Weekly Pay If this is a role that interests you and you'd like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis, Talent Solutions, and Jefferson Wells. ManpowerGroup® (NYSE: MAN), the leading global workforce solutions company, helps organizations transform in a fast-changing world of work by sourcing, assessing, developing, and managing the talent that enables them to win. We develop innovative solutions for hundreds of thousands of organizations every year, providing them with skilled talent while finding meaningful, sustainable employment for millions of people across a wide range of industries and skills. Our expert family of brands – Manpower, Experis, Talent Solutions, and Jefferson Wells – creates substantial value for candidates and clients across more than 75 countries and territories and has done so for over 70 years. We are recognized consistently for our diversity - as a best place to work for Women, Inclusion, Equality and Disability and in 2023 ManpowerGroup was named one of the World's Most Ethical Companies for the 14th year - all confirming our position as the brand of choice for in-demand talent."
         },
         {
           "firm": "Experis/Manpower",
@@ -6996,28 +6996,6 @@
         },
         {
           "firm": "Experis/Manpower",
-          "job_id": "415681",
-          "title": "Technical Project Manager",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "contract",
-          "contract_length": "5+ months",
-          "pay_min": "55",
-          "pay_max": "63",
-          "pay_unit": "hour",
-          "posted_date": "",
-          "url": "https://www.experis.com/en/job/415681/technical-project-manager",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Our client, a leading financial services organization, is seeking a Technical Project Manager to lead the delivery of complex cybersecurity initiatives across the CISO organization. From your perspective, this is a chance to turn cybersecurity requirements into clear, actionable delivery plans—while coordinating the people, timelines, budgets, and risks needed to keep critical work moving forward. If you enjoy structured execution, cross-functional collaboration, and executive-ready communication, you’ll feel right at home in this role. Title: Project Manager Work Location: Charlotte NC 28202- Hybrid Duration: 5+ months with possible extension Pay: $55-$63/hr on W2 What's the Job? Translate cybersecurity requirements into practical project scope, milestones, and deliverables that technical teams can execute. Lead cross-functional delivery across Vulnerability Management, Security Operations, Identity & Access Management (IAM), Application Security, Cloud Security, and Cyber Risk Management initiatives. Manage technical schedules, budgets, resources, risks, dependencies, and issue resolution to maintain momentum and delivery quality. Coordinate testing, implementation readiness, and rollout planning with engineering, architecture, product owners, and technology stakeholders. Provide accurate executive status reporting and governance updates in ServiceNow SPM, including project financials and vendor/procurement coordination. What's Needed? 7+ years of project management experience delivering technical or cybersecurity programs, preferably within a financial institution or large IT environment. Strong understanding of cybersecurity technologies, controls, system integrations, and delivery lifecycles. Proven ability to manage multiple concurrent projects while communicating clearly with technical teams and senior stakeholders. Proficiency with ServiceNow SPM, Jira, and/or Microsoft Project; Coupa experience is a plus. PMP or similar certification is preferred. What's in it for me? Opportunity to drive high-impact cybersecurity delivery across a CISO organization. Clear ownership of scope, schedules, budgets, resources, and risk management for complex initiatives. Collaboration with cybersecurity engineers, architects, product owners, and technology stakeholders. Structured governance and executive-ready reporting through ServiceNow SPM. A role built for candidates who enjoy turning complex requirements into measurable delivery outcomes. Upon completion of waiting period consultants are eligible for: Medical Dental Plan Vision Plan 401(k) Weekly Pay If this is a role that interests you and you'd like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis, Talent Solutions, and Jefferson Wells. ManpowerGroup® (NYSE: MAN), the leading global workforce solutions company, helps organizations transform in a fast-changing world of work by sourcing, assessing, developing, and managing the talent that enables them to win. We develop innovative solutions for hundreds of thousands of organizations every year, providing them with skilled talent while finding meaningful, sustainable employment for millions of people across a wide range of industries and skills. Our expert family of brands – Manpower, Experis, Talent Solutions, and Jefferson Wells – creates substantial value for candidates and clients across more than 75 countries and territories and has done so for over 70 years. We are recognized consistently for our diversity - as a best place to work for Women, Inclusion, Equality and Disability and in 2023 ManpowerGroup was named one of the World's Most Ethical Companies for the 14th year - all confirming our position as the brand of choice for in-demand talent."
-        },
-        {
-          "firm": "Experis/Manpower",
           "job_id": "415682",
           "title": "Technical Project Manager",
           "client_company": "",
@@ -7059,6 +7037,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "Our client is seeking a Project Manager to join their team. As a Project Manager, you will be part of the Organizational Change Management and implementation leadership supporting the Child Support Modernization Project. The ideal candidate will have experience developing and implementing project implementation and communication plans, strong leadership and management skills, and exceptional communication skills that enable clear, collaborative coordination across stakeholders. Job Title: Project Manager (Implementation PM) Location: Madison, WI (WI residency required; 90–100% remote with potential onsite needs as necessary with sufficient notice) Payrate: $52/hr on W2 What's the Job? Provide oversight of implementation activities leading up to and during pilot and system rollout, coordinating information between project groups to keep DCF ready for implementation. Coordinate with the Project Management Team to resolve issues within required timeframes and recommend appropriate changes to policies and procedures during implementation. Coordinate state-level tasks to keep KIDS, wiKIDS, and the modernized system in sync during pilot and system rollout, including managing acceptance criteria for transitions from UAT to pilot, pilot to system rollout, and each subsequent regional rollout. Coordinate functional and technical implementation efforts across the project and with DCF stakeholders, facilitating meetings between project teams to prepare DCF for implementation. Work closely with the DDI Vendor, State Training Manager, Organizational Change Manager, and DDI Implementation Manager to ensure hardware/software readiness, training completion, communications completion, and alignment on planned implementation tasks. What's Needed? Experience developing and implementing project implementation and communication plans. High level of skill initiating and maintaining strong, collaborative interpersonal relationships with a variety of stakeholders. Strong leadership and management skills to guide teams through complex implementation work. Strong organizational and time management skills to manage multiple workstreams and deadlines. Exceptional communication skills, including written and verbal communication as well as visual presentations; experience with large-scale organizational change, implementation, and training efforts. What's in it for me? Opportunity to lead and coordinate critical implementation work for a large-scale modernization effort. Chance to partner across organizational change, training, project management, and vendor teams to drive readiness for pilot and rollout. Role focused on structured planning, acceptance criteria, and clear communication to reduce risk during transitions. Work that directly supports implementation progress tracking and proactive issue management. Motivating mission-driven environment where strong collaboration and execution matter. If this is a role that interests you and you'd like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis, Talent Solutions, and Jefferson Wells. ManpowerGroup® (NYSE: MAN), the leading global workforce solutions company, helps organizations transform in a fast-changing world of work by sourcing, assessing, developing, and managing the talent that enables them to win. We develop innovative solutions for hundreds of thousands of organizations every year, providing them with skilled talent while finding meaningful, sustainable employment for millions of people across a wide range of industries and skills. Our expert family of brands – Manpower, Experis, Talent Solutions, and Jefferson Wells – creates substantial value for candidates and clients across more than 75 countries and territories and has done so for over 70 years. We are recognized consistently for our diversity - as a best place to work for Women, Inclusion, Equality and Disability and in 2023 ManpowerGroup was named one of the World's Most Ethical Companies for the 14th year - all confirming our position as the brand of choice for in-demand talent."
+        },
+        {
+          "firm": "Experis/Manpower",
+          "job_id": "415681",
+          "title": "Technical Project Manager",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "hybrid",
+          "job_type": "contract",
+          "contract_length": "5+ months",
+          "pay_min": "55",
+          "pay_max": "63",
+          "pay_unit": "hour",
+          "posted_date": "",
+          "url": "https://www.experis.com/en/job/415681/technical-project-manager",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Our client, a leading financial services organization, is seeking a Technical Project Manager to lead the delivery of complex cybersecurity initiatives across the CISO organization. From your perspective, this is a chance to turn cybersecurity requirements into clear, actionable delivery plans—while coordinating the people, timelines, budgets, and risks needed to keep critical work moving forward. If you enjoy structured execution, cross-functional collaboration, and executive-ready communication, you’ll feel right at home in this role. Title: Project Manager Work Location: Charlotte NC 28202- Hybrid Duration: 5+ months with possible extension Pay: $55-$63/hr on W2 What's the Job? Translate cybersecurity requirements into practical project scope, milestones, and deliverables that technical teams can execute. Lead cross-functional delivery across Vulnerability Management, Security Operations, Identity & Access Management (IAM), Application Security, Cloud Security, and Cyber Risk Management initiatives. Manage technical schedules, budgets, resources, risks, dependencies, and issue resolution to maintain momentum and delivery quality. Coordinate testing, implementation readiness, and rollout planning with engineering, architecture, product owners, and technology stakeholders. Provide accurate executive status reporting and governance updates in ServiceNow SPM, including project financials and vendor/procurement coordination. What's Needed? 7+ years of project management experience delivering technical or cybersecurity programs, preferably within a financial institution or large IT environment. Strong understanding of cybersecurity technologies, controls, system integrations, and delivery lifecycles. Proven ability to manage multiple concurrent projects while communicating clearly with technical teams and senior stakeholders. Proficiency with ServiceNow SPM, Jira, and/or Microsoft Project; Coupa experience is a plus. PMP or similar certification is preferred. What's in it for me? Opportunity to drive high-impact cybersecurity delivery across a CISO organization. Clear ownership of scope, schedules, budgets, resources, and risk management for complex initiatives. Collaboration with cybersecurity engineers, architects, product owners, and technology stakeholders. Structured governance and executive-ready reporting through ServiceNow SPM. A role built for candidates who enjoy turning complex requirements into measurable delivery outcomes. Upon completion of waiting period consultants are eligible for: Medical Dental Plan Vision Plan 401(k) Weekly Pay If this is a role that interests you and you'd like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis, Talent Solutions, and Jefferson Wells. ManpowerGroup® (NYSE: MAN), the leading global workforce solutions company, helps organizations transform in a fast-changing world of work by sourcing, assessing, developing, and managing the talent that enables them to win. We develop innovative solutions for hundreds of thousands of organizations every year, providing them with skilled talent while finding meaningful, sustainable employment for millions of people across a wide range of industries and skills. Our expert family of brands – Manpower, Experis, Talent Solutions, and Jefferson Wells – creates substantial value for candidates and clients across more than 75 countries and territories and has done so for over 70 years. We are recognized consistently for our diversity - as a best place to work for Women, Inclusion, Equality and Disability and in 2023 ManpowerGroup was named one of the World's Most Ethical Companies for the 14th year - all confirming our position as the brand of choice for in-demand talent."
         },
         {
           "firm": "Experis/Manpower",
@@ -7238,28 +7238,6 @@
         },
         {
           "firm": "Experis/Manpower",
-          "job_id": "412458",
-          "title": "Configuration Compliance Analyst",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "",
-          "url": "https://www.experis.com/en/job/412458/configuration-compliance-analyst",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "4+ years of experience",
-          "required_certifications": "",
-          "description": "Our client, a leading enterprise technology and financial services organization , is seeking a Configuration Management Analyst to join their team. As a Configuration Management Analyst , you will be part of the Technology Risk and Governance Team supporting Infrastructure, Security, Application, and IT Operations Teams . The ideal candidate will have strong analytical skills , excellent communication abilities , and strong stakeholder management skills , which will align successfully in the organization. Configuration Management Analyst (Contract) Location: Charlotte, NC Pay Range: $56/hr. on W2 What's the Job? Develop and maintain configuration standards, secure baselines, and operational procedures. Monitor compliance, identify configuration deviations, and assess technology risks. Coordinate remediation activities with infrastructure, security, and application teams. Support audits, regulatory reviews, and compliance assessments with reporting and documentation. Enhance configuration monitoring and reporting through automation initiatives. What's Needed? 4+ years of experience in configuration management, cybersecurity, IT operations, vulnerability management, or IT risk. Experience with tools such as Qualys, Tenable/Nessus, Rapid7, Tanium, SCCM, or Intune. Working knowledge of CMDB platforms, preferably ServiceNow. Familiarity with Windows, Linux, network infrastructure, and cloud environments. Strong reporting, stakeholder management, and remediation tracking experience. What's in it for me? Competitive pay rate of $56/hr. on W2. Opportunity to support enterprise-wide compliance and risk reduction initiatives. Exposure to configuration management, cybersecurity, and governance programs. Collaborative work with technology, infrastructure, and security teams. Potential contract extension and professional growth opportunities. If this is a role that interests you and you’d like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis and Talent Solutions Experis® is a global leader in technology services and part of the ManpowerGroup® (NYSE: MAN) family of brands. We connect skilled technology professionals with meaningful opportunities where they can grow their careers, expand their expertise and make a real impact. Guided by the belief that it takes Human Ingenuity to unlock the true potential of technology, Experis helps people gain experience with leading organizations, build sought-after skills and take the next step toward a brighter future. Backed by ManpowerGroup's 75+ years of workforce expertise and global reach across more than 70 countries and territories, Experis brings the scale, insight and opportunity to help people and businesses thrive. ManpowerGroup is consistently recognized for its commitment to inclusion, ethics and responsible business, including being named one of the World's Most Ethical Companies. Learn more at Experis.com."
-        },
-        {
-          "firm": "Experis/Manpower",
           "job_id": "408853",
           "title": "Senior Program Manager",
           "client_company": "",
@@ -7279,6 +7257,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "Our client, a leading industrial organization, is seeking a Program Manager to join their team. As a Program Manager, you will be part of the Business Transformation team supporting cross-functional business leaders and stakeholders across multiple operational areas. The ideal candidate will have strong stakeholder management skills, executive-level communication abilities, and a proven ability to drive organizational alignment which will align successfully in the organization. Job Title: Program Manager Location: Hybrid 3x week Davidson, NC Type : W2 contract Note* : (NOT open to C2C or subvendor w2 referrals) What’s the Job? Lead a strategic cross-functional initiative spanning multiple business functions, facilitating alignment and execution across diverse stakeholder groups. Partner with senior executives, business leaders, suppliers, and operational teams to understand current-state processes and establish a unified path forward. Create and manage cross-functional execution plans, ensuring teams remain aligned on objectives, priorities, responsibilities, and timelines. Identify process inefficiencies, ownership gaps, and areas of misalignment while driving consensus on standardized business processes. Serve as a liaison between business functions to facilitate decision-making, resolve challenges, and support successful adoption of new processes and ways of working. What’s Needed? 10+ years of program management, business transformation, process improvement, or related experience leading complex cross-functional initiatives. Proven experience working directly with senior executives and influencing stakeholders across multiple business functions without direct authority. Strong background in business process mapping, process optimization, and organizational alignment initiatives. Experience leading change management efforts; Prosci certification or similar change management experience is a plus. Strong communication, facilitation, and problem-solving skills with the ability to hit the ground running in a fast-paced environment. What’s in it for me? Opportunity to lead a high-visibility strategic initiative with significant organizational impact. Exposure to executive leadership and key stakeholders across multiple business functions. Ability to drive meaningful process improvements and influence enterprise-wide business outcomes. Collaborative environment focused on transformation, alignment, and continuous improvement. Opportunity to shape and standardize business processes that support future growth and operational success. If this is a role that interests you and you’d like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis and Talent Solutions Experis® is a global leader in technology services and part of the ManpowerGroup® (NYSE: MAN) family of brands. We connect skilled technology professionals with meaningful opportunities where they can grow their careers, expand their expertise and make a real impact. Guided by the belief that it takes Human Ingenuity to unlock the true potential of technology, Experis helps people gain experience with leading organizations, build sought-after skills and take the next step toward a brighter future. Backed by ManpowerGroup's 75+ years of workforce expertise and global reach across more than 70 countries and territories, Experis brings the scale, insight and opportunity to help people and businesses thrive. ManpowerGroup is consistently recognized for its commitment to inclusion, ethics and responsible business, including being named one of the World's Most Ethical Companies. Learn more at Experis.com."
+        },
+        {
+          "firm": "Experis/Manpower",
+          "job_id": "412458",
+          "title": "Configuration Compliance Analyst",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "",
+          "url": "https://www.experis.com/en/job/412458/configuration-compliance-analyst",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "4+ years of experience",
+          "required_certifications": "",
+          "description": "Our client, a leading enterprise technology and financial services organization , is seeking a Configuration Management Analyst to join their team. As a Configuration Management Analyst , you will be part of the Technology Risk and Governance Team supporting Infrastructure, Security, Application, and IT Operations Teams . The ideal candidate will have strong analytical skills , excellent communication abilities , and strong stakeholder management skills , which will align successfully in the organization. Configuration Management Analyst (Contract) Location: Charlotte, NC Pay Range: $56/hr. on W2 What's the Job? Develop and maintain configuration standards, secure baselines, and operational procedures. Monitor compliance, identify configuration deviations, and assess technology risks. Coordinate remediation activities with infrastructure, security, and application teams. Support audits, regulatory reviews, and compliance assessments with reporting and documentation. Enhance configuration monitoring and reporting through automation initiatives. What's Needed? 4+ years of experience in configuration management, cybersecurity, IT operations, vulnerability management, or IT risk. Experience with tools such as Qualys, Tenable/Nessus, Rapid7, Tanium, SCCM, or Intune. Working knowledge of CMDB platforms, preferably ServiceNow. Familiarity with Windows, Linux, network infrastructure, and cloud environments. Strong reporting, stakeholder management, and remediation tracking experience. What's in it for me? Competitive pay rate of $56/hr. on W2. Opportunity to support enterprise-wide compliance and risk reduction initiatives. Exposure to configuration management, cybersecurity, and governance programs. Collaborative work with technology, infrastructure, and security teams. Potential contract extension and professional growth opportunities. If this is a role that interests you and you’d like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis and Talent Solutions Experis® is a global leader in technology services and part of the ManpowerGroup® (NYSE: MAN) family of brands. We connect skilled technology professionals with meaningful opportunities where they can grow their careers, expand their expertise and make a real impact. Guided by the belief that it takes Human Ingenuity to unlock the true potential of technology, Experis helps people gain experience with leading organizations, build sought-after skills and take the next step toward a brighter future. Backed by ManpowerGroup's 75+ years of workforce expertise and global reach across more than 70 countries and territories, Experis brings the scale, insight and opportunity to help people and businesses thrive. ManpowerGroup is consistently recognized for its commitment to inclusion, ethics and responsible business, including being named one of the World's Most Ethical Companies. Learn more at Experis.com."
         },
         {
           "firm": "Experis/Manpower",
@@ -7414,28 +7414,6 @@
         },
         {
           "firm": "Experis/Manpower",
-          "job_id": "410631",
-          "title": "Business Execution Consultant 1 - Contingent",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "",
-          "url": "https://www.experis.com/en/job/410631/business-execution-consultant-1-contingent",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Our client, a leading organization in the industry, is seeking a Business Execution Consultant 1 - Contingent to join their team. As a Business Execution Consultant 1 - Contingent, you will be part of the Business Operations supporting various teams. The ideal candidate will have strong organizational skills, attention to detail, and excellent communication abilities which will align successfully in the organization. Job Title: Business Execution Consultant Location: Charlotte, NC What's the Job? Support business processes and ensure operational efficiency across teams Assist in project coordination and tracking progress against goals Collaborate with team members to streamline workflows and improve productivity Prepare reports and documentation to support decision-making Participate in meetings and communicate updates effectively to stakeholders What's Needed? Strong organizational and time management skills Excellent written and verbal communication abilities Ability to work independently and as part of a team Proficiency with office productivity tools such as spreadsheets, email, and document management systems Experience supporting operational or project management functions is preferred What's in it for me? Opportunity to work with a dynamic and supportive team Gain valuable experience in business operations and project support Potential for future growth and development within the organization Engage in meaningful work that impacts organizational success Be part of a diverse and inclusive workplace environment If this is a role that interests you and you'd like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis and Talent Solutions. Experis® is a global leader in technology services and part of the ManpowerGroup® (NYSE: MAN) family of brands. We connect skilled technology professionals with meaningful opportunities where they can grow their careers, expand their expertise and make a real impact. Guided by the belief that it takes Human Ingenuity to unlock the true potential of technology, Experis helps people gain experience with leading organizations, build sought-after skills and take the next step toward a brighter future. Backed by ManpowerGroup's 75+ years of workforce expertise and global reach across more than 70 countries and territories, Experis brings the scale, insight and opportunity to help people and businesses thrive. ManpowerGroup is consistently recognized for its commitment to inclusion, ethics and responsible business, including being named one of the World's Most Ethical Companies. Learn more at Experis.com."
-        },
-        {
-          "firm": "Experis/Manpower",
           "job_id": "404225",
           "title": "Compliance BA (Business Execution Consultant 4 - Contingent)-CLT",
           "client_company": "",
@@ -7521,6 +7499,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "Our client, a leading financial services organization specializing in Capital Markets, is seeking a dedicated IT Business Analyst to join their dynamic team. As an IT Business Analyst, you will be an integral part of the Front Office support team, working closely with traders, sales, operations, and technology professionals. The ideal candidate will demonstrate strong analytical skills, excellent stakeholder management, and effective communication abilities, which will enable you to thrive in a collaborative and innovative environment. Job Title: IT Business Analyst Location: Charlotte, NC - Hybrid Role Pay Range: $55 to $60 on W2 What's the Job? Support FICC trading businesses by analyzing and documenting complex business requirements related to derivatives, interest rate swaps, FX, and fixed income products. Partner with traders, sales, operations, and technology teams to elicit, analyze, and translate business needs into clear Jira epics and user stories. Drive the delivery of solutions within an Agile framework, ensuring alignment with strategic trading and operational objectives. Work hands-on with pricing and valuation platforms, trade lifecycle management, and market data integration to optimize front-office workflows. Bridge communication between business and technology teams to facilitate seamless project execution and continuous improvement. What's Needed? Business Analysis experience within Capital Markets, with a focus on Front Office environments. Deep knowledge of FICC products, including interest rate swaps, cross-currency swaps, FX derivatives, fixed income securities, repos, and OTC derivatives. Strong understanding of trade capture, pricing, valuation, risk, and trade lifecycle processes. Experience working with front-office trading platforms, pricing engines, and valuation tools. Proven ability to translate business requirements into Jira epics, features, and user stories with clear acceptance criteria. What's in it for me? Opportunity to work with a leading organization in the financial services industry. Engage in challenging projects that enhance your expertise in FICC trading and derivatives. Collaborate with a diverse and talented team committed to innovation and excellence. Participate in a supportive environment that values continuous learning and professional growth. Be part of a company that emphasizes inclusion, ethics, and responsible business practices. Upon completion of waiting period consultants are eligible for: Medical and Prescription Drug Plans Dental Plan Vision Plan Health Savings Account Health Flexible Spending Account Dependent Care Flexible Spending Account Supplemental Life Insurance Short Term and Long Term Disability Insurance Business Travel Insurance 401(k), Plus Match Weekly Pay If this is a role that interests you and you'd like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis and Talent Solutions. Experis® is a global leader in technology services and part of the ManpowerGroup® (NYSE: MAN) family of brands. We connect skilled technology professionals with meaningful opportunities where they can grow their careers, expand their expertise and make a real impact. Guided by the belief that it takes Human Ingenuity to unlock the true potential of technology, Experis helps people gain experience with leading organizations, build sought-after skills and take the next step toward a brighter future. Backed by ManpowerGroup's 75+ years of workforce expertise and global reach across more than 70 countries and territories, Experis brings the scale, insight and opportunity to help people and businesses thrive. ManpowerGroup is consistently recognized for its commitment to inclusion, ethics and responsible business, including being named one of the World's Most Ethical Companies. Learn more at Experis.com."
+        },
+        {
+          "firm": "Experis/Manpower",
+          "job_id": "410631",
+          "title": "Business Execution Consultant 1 - Contingent",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "",
+          "url": "https://www.experis.com/en/job/410631/business-execution-consultant-1-contingent",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "Our client, a leading organization in the industry, is seeking a Business Execution Consultant 1 - Contingent to join their team. As a Business Execution Consultant 1 - Contingent, you will be part of the Business Operations supporting various teams. The ideal candidate will have strong organizational skills, attention to detail, and excellent communication abilities which will align successfully in the organization. Job Title: Business Execution Consultant Location: Charlotte, NC What's the Job? Support business processes and ensure operational efficiency across teams Assist in project coordination and tracking progress against goals Collaborate with team members to streamline workflows and improve productivity Prepare reports and documentation to support decision-making Participate in meetings and communicate updates effectively to stakeholders What's Needed? Strong organizational and time management skills Excellent written and verbal communication abilities Ability to work independently and as part of a team Proficiency with office productivity tools such as spreadsheets, email, and document management systems Experience supporting operational or project management functions is preferred What's in it for me? Opportunity to work with a dynamic and supportive team Gain valuable experience in business operations and project support Potential for future growth and development within the organization Engage in meaningful work that impacts organizational success Be part of a diverse and inclusive workplace environment If this is a role that interests you and you'd like to learn more, click apply now and a recruiter will be in touch with you to discuss this great opportunity. We look forward to speaking with you! About ManpowerGroup, Parent Company of: Manpower, Experis and Talent Solutions. Experis® is a global leader in technology services and part of the ManpowerGroup® (NYSE: MAN) family of brands. We connect skilled technology professionals with meaningful opportunities where they can grow their careers, expand their expertise and make a real impact. Guided by the belief that it takes Human Ingenuity to unlock the true potential of technology, Experis helps people gain experience with leading organizations, build sought-after skills and take the next step toward a brighter future. Backed by ManpowerGroup's 75+ years of workforce expertise and global reach across more than 70 countries and territories, Experis brings the scale, insight and opportunity to help people and businesses thrive. ManpowerGroup is consistently recognized for its commitment to inclusion, ethics and responsible business, including being named one of the World's Most Ethical Companies. Learn more at Experis.com."
         }
       ],
       "attempts": {
@@ -7544,13 +7544,13 @@
           },
           "firm": "Experis/Manpower",
           "route": "mac",
-          "started_at": "2026-11-25T15:56:10.361610+00:00",
-          "completed_at": "2026-11-25T16:02:39.410102+00:00"
+          "started_at": "2026-11-25T20:56:10.387976+00:00",
+          "completed_at": "2026-11-25T21:01:56.710751+00:00"
         }
       },
-      "snapshot_at": "2026-11-25T19:37:19.005548+00:00",
-      "completed_at": "2026-11-25T19:39:21.053827+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-25T20:56:10.387976+00:00",
+      "completed_at": "2026-11-25T21:01:56.710751+00:00",
+      "snapshot_route": "mac"
     },
     "Addison Group": {
       "rows": [
@@ -8069,17 +8069,12 @@
           "completed_at": "2026-11-25T20:41:23.572081+00:00"
         },
         "mac": {
-          "ok": true,
-          "info": {
-            "enumerated": 400,
-            "details_read": 67,
-            "kept": 13,
-            "browser_used": false
-          },
+          "ok": false,
+          "error": "Collabera incomplete search count",
           "firm": "Collabera",
           "route": "mac",
-          "started_at": "2026-11-25T19:56:10.349160+00:00",
-          "completed_at": "2026-11-25T20:11:30.287970+00:00"
+          "started_at": "2026-11-25T20:56:10.389616+00:00",
+          "completed_at": "2026-11-25T20:59:03.713375+00:00"
         }
       },
       "snapshot_at": "2026-11-25T19:56:10.349160+00:00",
@@ -8102,8 +8097,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-25T19:56:10.350750+00:00",
-          "completed_at": "2026-11-25T20:08:57.504615+00:00"
+          "started_at": "2026-11-25T20:56:10.391615+00:00",
+          "completed_at": "2026-11-25T21:03:10.962698+00:00"
         }
       }
     },
@@ -9379,7 +9374,17 @@
       "firms_failed": 4,
       "timer_run_id": "45686850368",
       "timer_fired_at": "2026-11-25T20:36:31.909638+00:00"
+    },
+    {
+      "id": "093d2882-9db2-4e1d-a546-9fb45fd8d0d1",
+      "route": "mac",
+      "started_at": "2026-11-25T20:56:08.519834+00:00",
+      "completed_at": "2026-11-25T21:03:10.984824+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 4,
+      "firms_succeeded": 1,
+      "firms_failed": 3
     }
   ],
-  "published_at": "2026-11-25T20:41:27.623012+00:00"
+  "published_at": "2026-11-25T21:03:12.413688+00:00"
 }
