@@ -10069,8 +10069,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-26T11:56:10.563974+00:00",
-          "completed_at": "2026-11-26T12:03:09.722264+00:00"
+          "started_at": "2026-11-26T12:56:10.200074+00:00",
+          "completed_at": "2026-11-26T13:02:49.054730+00:00"
         }
       }
     },
@@ -11698,7 +11698,17 @@
       "firms_failed": 1,
       "timer_run_id": "45812566857",
       "timer_fired_at": "2026-11-26T12:39:44.141937+00:00"
+    },
+    {
+      "id": "31d9ef4d-600d-4ceb-b2be-99b5edeff130",
+      "route": "mac",
+      "started_at": "2026-11-26T12:56:08.287402+00:00",
+      "completed_at": "2026-11-26T13:02:49.065687+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 0,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-26T12:52:14.267118+00:00"
+  "published_at": "2026-11-26T13:02:50.652138+00:00"
 }
