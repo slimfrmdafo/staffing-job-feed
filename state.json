@@ -9554,17 +9554,12 @@
           "completed_at": "2026-11-26T22:44:30.467280+00:00"
         },
         "mac": {
-          "ok": true,
-          "info": {
-            "candidates": 59,
-            "details_read": 59,
-            "kept": 1,
-            "enumerated": 1499
-          },
+          "ok": false,
+          "error": "Vaco pagination repeated",
           "firm": "Vaco",
           "route": "mac",
-          "started_at": "2026-11-26T20:56:10.684867+00:00",
-          "completed_at": "2026-11-26T20:56:27.791743+00:00"
+          "started_at": "2026-11-26T22:56:09.232642+00:00",
+          "completed_at": "2026-11-26T22:56:10.319792+00:00"
         }
       },
       "snapshot_at": "2026-11-26T21:44:27.895957+00:00",
@@ -10025,8 +10020,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-26T21:56:10.742767+00:00",
-          "completed_at": "2026-11-26T22:17:54.497349+00:00"
+          "started_at": "2026-11-26T22:56:09.233317+00:00",
+          "completed_at": "2026-11-26T23:02:53.069015+00:00"
         }
       }
     },
@@ -11874,7 +11869,17 @@
       "firms_failed": 2,
       "timer_run_id": "45899861984",
       "timer_fired_at": "2026-11-26T22:41:39.696200+00:00"
+    },
+    {
+      "id": "137ffa09-14b6-4604-b5f1-3153fa23bc73",
+      "route": "mac",
+      "started_at": "2026-11-26T22:56:07.645308+00:00",
+      "completed_at": "2026-11-26T23:02:53.083658+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 2,
+      "firms_succeeded": 0,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-26T22:51:45.509837+00:00"
+  "published_at": "2026-11-26T23:02:54.542822+00:00"
 }
