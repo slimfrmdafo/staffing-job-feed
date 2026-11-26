@@ -803,6 +803,14 @@
           "route": "cloud",
           "started_at": "2026-11-26T11:39:44.896633+00:00",
           "completed_at": "2026-11-26T11:42:38.280860+00:00"
+        },
+        "mac": {
+          "ok": false,
+          "error": "2/222 detail pages failed: Full JobPosting data missing: https://www.roberthalf.com/us/en/job/olympia-wa/business-analyst/04410-0013549264-usen; Full JobPosting data missing: https://www.roberthalf.com/us/en/job/albuquerque-nm/program-manager/02800-0013548278-usen",
+          "firm": "Robert Half",
+          "route": "mac",
+          "started_at": "2026-11-26T11:56:10.561962+00:00",
+          "completed_at": "2026-11-26T11:57:06.268074+00:00"
         }
       },
       "snapshot_at": "2026-11-26T10:39:36.288886+00:00",
@@ -10078,8 +10086,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-26T10:56:10.487134+00:00",
-          "completed_at": "2026-11-26T11:03:01.482459+00:00"
+          "started_at": "2026-11-26T11:56:10.563974+00:00",
+          "completed_at": "2026-11-26T12:03:09.722264+00:00"
         }
       }
     },
@@ -11685,7 +11693,17 @@
       "firms_failed": 2,
       "timer_run_id": "45803350358",
       "timer_fired_at": "2026-11-26T11:39:33.644869+00:00"
+    },
+    {
+      "id": "54ecfa20-e3e3-442d-adac-1bb7499c41d6",
+      "route": "mac",
+      "started_at": "2026-11-26T11:56:08.666358+00:00",
+      "completed_at": "2026-11-26T12:03:09.734046+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 2,
+      "firms_succeeded": 0,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-26T11:51:05.564900+00:00"
+  "published_at": "2026-11-26T12:03:11.147365+00:00"
 }
