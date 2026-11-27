@@ -6220,7 +6220,17 @@
       "firms_failed": 0,
       "timer_run_id": "45957096936",
       "timer_fired_at": "2026-11-27T08:14:39.595702+00:00"
+    },
+    {
+      "id": "0c79e52a-f8a5-4dba-924f-b7b4fbfac41f",
+      "route": "mac",
+      "started_at": "2026-11-27T08:57:00.876922+00:00",
+      "completed_at": "2026-11-27T08:57:02.929962+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 0,
+      "firms_succeeded": 0,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-27T08:20:24.483199+00:00"
+  "published_at": "2026-11-27T08:57:04.016967+00:00"
 }
