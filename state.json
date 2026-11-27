@@ -9544,17 +9544,22 @@
           "completed_at": "2026-11-27T11:46:42.849237+00:00"
         },
         "mac": {
-          "ok": false,
-          "error": "Vaco pagination repeated",
+          "ok": true,
+          "info": {
+            "candidates": 59,
+            "details_read": 59,
+            "kept": 1,
+            "enumerated": 1499
+          },
           "firm": "Vaco",
           "route": "mac",
-          "started_at": "2026-11-27T11:01:06.001982+00:00",
-          "completed_at": "2026-11-27T11:01:08.964753+00:00"
+          "started_at": "2026-11-27T11:56:10.043621+00:00",
+          "completed_at": "2026-11-27T11:56:26.578795+00:00"
         }
       },
-      "snapshot_at": "2026-11-27T09:46:35.454524+00:00",
-      "completed_at": "2026-11-27T09:46:38.740339+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-27T11:56:10.043621+00:00",
+      "completed_at": "2026-11-27T11:56:26.578795+00:00",
+      "snapshot_route": "mac"
     },
     "The Select Group": {
       "rows": [],
@@ -10010,8 +10015,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T11:01:06.002807+00:00",
-          "completed_at": "2026-11-27T11:08:05.124443+00:00"
+          "started_at": "2026-11-27T11:56:10.044767+00:00",
+          "completed_at": "2026-11-27T12:03:10.956962+00:00"
         }
       }
     },
@@ -12145,7 +12150,17 @@
       "firms_failed": 2,
       "timer_run_id": "45984554630",
       "timer_fired_at": "2026-11-27T11:44:04.279467+00:00"
+    },
+    {
+      "id": "6b3b4156-5d1e-4971-89bc-3440edfada02",
+      "route": "mac",
+      "started_at": "2026-11-27T11:56:08.219365+00:00",
+      "completed_at": "2026-11-27T12:03:10.975411+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 2,
+      "firms_succeeded": 1,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-27T11:54:05.506811+00:00"
+  "published_at": "2026-11-27T12:03:12.476054+00:00"
 }

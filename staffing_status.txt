@@ -1,5 +1,5 @@
 Staffing job feed
-Published UTC: 2026-11-27T11:54:05.506811+00:00
+Published UTC: 2026-11-27T12:03:12.476054+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/staffing_jobs.csv
 Rows are replaced only after a complete successful newer snapshot for that firm.
@@ -39,9 +39,9 @@ Experis/Manpower: listings=52 contracts=51 runners=cloud snapshot_runner=cloud l
   mac: OK at 2026-11-25T21:01:56.710751+00:00 {'candidates': 299, 'details_read': 299, 'kept': 51, 'enumerated': 2297, 'enumerated_raw': 2297, 'advertised': 2297}
 Addison Group: listings=1 contracts=1 runners=cloud snapshot_runner=cloud last_success=2026-11-27T11:47:37.829776+00:00
   cloud: OK at 2026-11-27T11:47:37.829776+00:00 {'enumerated': 669, 'details_read': 41, 'kept': 1, 'browser_used': False}
-Vaco: listings=1 contracts=1 runners=cloud+mac snapshot_runner=cloud last_success=2026-11-27T09:46:38.740339+00:00
+Vaco: listings=1 contracts=1 runners=cloud+mac snapshot_runner=mac last_success=2026-11-27T11:56:26.578795+00:00
   cloud: FAILED at 2026-11-27T11:46:42.849237+00:00 Vaco pagination repeated
-  mac: FAILED at 2026-11-27T11:01:08.964753+00:00 Vaco pagination repeated
+  mac: OK at 2026-11-27T11:56:26.578795+00:00 {'candidates': 59, 'details_read': 59, 'kept': 1, 'enumerated': 1499}
 The Select Group: listings=0 contracts=0 runners=cloud snapshot_runner=cloud last_success=2026-11-27T11:46:45.680584+00:00
   cloud: OK at 2026-11-27T11:46:45.680584+00:00 {'candidates': 2, 'details_read': 2, 'kept': 0, 'enumerated': 35}
 Signature Consultants: listings=3 contracts=2 runners=cloud snapshot_runner=cloud last_success=2026-11-27T11:46:48.192375+00:00
@@ -52,7 +52,7 @@ Collabera: listings=13 contracts=11 runners=cloud snapshot_runner=cloud last_suc
   mac: FAILED at 2026-11-25T20:59:03.713375+00:00 Collabera incomplete search count
 Mindlance: listings=0 contracts=0 runners=cloud+mac snapshot_runner=none last_success=never
   cloud: FAILED at 2026-11-27T11:47:15.359894+00:00 3/95 detail pages failed: Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=22991753&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=20581610&SearchString=&StatesString=
-  mac: FAILED at 2026-11-27T11:08:05.124443+00:00 Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=
+  mac: FAILED at 2026-11-27T12:03:10.956962+00:00 Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=
 Motion Recruitment: listings=9 contracts=7 runners=cloud snapshot_runner=cloud last_success=2026-11-27T11:47:35.136618+00:00
   cloud: OK at 2026-11-27T11:47:35.136618+00:00 {'candidates': 90, 'details_read': 90, 'kept': 9, 'enumerated': 757}
   mac: OK at 2026-11-25T08:56:48.352706+00:00 {'candidates': 90, 'details_read': 90, 'kept': 9, 'enumerated': 771}
@@ -62,7 +62,6 @@ METADATA posted_contacts=58 named_clients=0 required_certifications=7
 Blank optional fields mean the posting did not supply a usable explicit value. Posted contacts can be individuals or recruitment teams.
 
 Recent unattended runs:
-{"completed_at": "2026-11-27T08:03:12.023869+00:00", "firms_attempted": 2, "firms_failed": 1, "firms_succeeded": 1, "id": "9950f60c-2dac-4470-a8f2-a99e700e9173", "route": "mac", "started_at": "2026-11-27T07:56:08.217672+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-27T08:53:49.673496+00:00", "firms_attempted": 19, "firms_failed": 1, "firms_succeeded": 18, "id": "45967894102", "route": "cloud", "started_at": "2026-11-27T08:43:43.732672+00:00", "timer_fired_at": "2026-11-27T08:43:32.080684+00:00", "timer_run_id": "45960412475", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-27T09:03:05.037431+00:00", "firms_attempted": 1, "firms_failed": 1, "firms_succeeded": 0, "id": "fbf8ad92-7b52-4629-adf0-912cc1d9272f", "route": "mac", "started_at": "2026-11-27T08:56:08.437572+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-27T09:54:12.622552+00:00", "firms_attempted": 19, "firms_failed": 1, "firms_succeeded": 18, "id": "45976117659", "route": "cloud", "started_at": "2026-11-27T09:43:51.179229+00:00", "timer_fired_at": "2026-11-27T09:43:41.737485+00:00", "timer_run_id": "45967891481", "trigger": "cloud_clock"}
@@ -70,3 +69,4 @@ Recent unattended runs:
 {"completed_at": "2026-11-27T10:52:28.657203+00:00", "firms_attempted": 19, "firms_failed": 2, "firms_succeeded": 17, "id": "45984557868", "route": "cloud", "started_at": "2026-11-27T10:44:03.384739+00:00", "timer_fired_at": "2026-11-27T10:43:52.754059+00:00", "timer_run_id": "45976114585", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-27T11:08:05.141839+00:00", "firms_attempted": 2, "firms_failed": 2, "firms_succeeded": 0, "id": "95c12d2c-8890-430e-9967-2ad915d49cda", "route": "mac", "started_at": "2026-11-27T11:01:03.911288+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-27T11:54:04.493397+00:00", "firms_attempted": 19, "firms_failed": 2, "firms_succeeded": 17, "id": "45992882862", "route": "cloud", "started_at": "2026-11-27T11:44:16.028777+00:00", "timer_fired_at": "2026-11-27T11:44:04.279467+00:00", "timer_run_id": "45984554630", "trigger": "cloud_clock"}
+{"completed_at": "2026-11-27T12:03:10.975411+00:00", "firms_attempted": 2, "firms_failed": 1, "firms_succeeded": 1, "id": "6b3b4156-5d1e-4971-89bc-3440edfada02", "route": "mac", "started_at": "2026-11-27T11:56:08.219365+00:00", "trigger": "mac_launchd"}
