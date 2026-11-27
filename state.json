@@ -5255,17 +5255,12 @@
           "completed_at": "2026-11-27T03:45:20.043512+00:00"
         },
         "mac": {
-          "ok": true,
-          "info": {
-            "candidates": 330,
-            "details_read": 330,
-            "kept": 94,
-            "enumerated": 2339
-          },
+          "ok": false,
+          "error": "Official job search and detail pages are under maintenance",
           "firm": "Apex Systems",
           "route": "mac",
-          "started_at": "2026-11-26T08:56:10.276407+00:00",
-          "completed_at": "2026-11-26T09:02:56.178665+00:00"
+          "started_at": "2026-11-27T04:07:38.910806+00:00",
+          "completed_at": "2026-11-27T04:07:39.856686+00:00"
         }
       },
       "snapshot_at": "2026-11-27T02:42:44.483097+00:00",
@@ -5561,28 +5556,6 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "ab_5159134",
-          "title": "Business Intelligence (BI) Analyst I",
-          "client_company": "",
-          "city": "Wilmington",
-          "state": "NC",
-          "work_arrangement": "remote",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "37.05",
-          "pay_max": "42.05",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-17",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5159134/business-intelligence-bi-analyst-i_wilmington/",
-          "recruiter_name": "G Abhinav",
-          "recruiter_email": "g.abhinav@randstadusa.com",
-          "recruiter_phone": "8134442142",
-          "required_experience": "5+ years of experience",
-          "required_certifications": "",
-          "description": "Engineering Operations & Analytics Lead\nWe are looking for a strategic, data-driven professional to improve the operational effectiveness of our Engineering organization. In this role, you will own Engineering visual management, standardize metrics, and partner with cross-functional leaders to turn complex datasets into clear, actionable business decisions. You will work with autonomy to build reliable data infrastructure and shape our long-term reporting strategy.\nKey Responsibilities\nDashboards & Visual Management: Design, build, and maintain real-time operational dashboards (Power BI, Tableau, Looker) featuring KPI tracking, trend analysis, and threshold alerts.\nData Engineering & Automation: Build and manage data pipelines that consolidate multi-source data into clean datasets. Automate recurring reports and workflows using internal AI tools.\nAnalytics & Governance: Develop, validate, and audit analytical models to ensure decision-grade accuracy. Establish data governance standards, including documentation and version control.\nStrategic Partnership: Collaborate with operations leadership on KPI action plans, predictive forecasting, scenario modeling, and data-backed process improvements.\nRequired Qualifications\n5+ years of experience in data engineering, analytics engineering, or a related field.\n2+ years of experience supporting leadership decision-making using Tableau, Power BI, or similar BI tools.\nPreferred Qualifications\nProficiency in SQL, Python, and large-scale data modeling.\nExperience developing KPI frameworks and supporting strategic planning in a large, operations-heavy environment.\nstrong project management, problem-solving, and communication skills, with a track record of executing programs on schedule.\nsalary: $37.05 - $42.05 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: High School\nResponsibilities\nProcess and metric tracking. Responsible for various data collections that are used for ultimate decision making\nDesign, develop, and maintain operational dashboards using BI tools (e.g., Power BI, Tableau, Looker) to provide real-time visibility into organizational performance\nBuild and manage data pipelines that consolidate data from multiple sources into clean, reliable, and actionable datasets\nDevelop and validate analytical models to ensure data accuracy, consistency, and integrity across all reporting\nAutomate recurring reports and data workflows to reduce manual effort and improve reporting efficiency, using in-house Artificial Intelligence tools\nEstablish and maintain data governance standards, including definitions, documentation, and version control\nSkills\nAnalysis\nQualifications\nYears of experience: 5 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "ab_5159248",
           "title": "Director, Quality and Business Process Governance",
           "client_company": "",
@@ -5624,6 +5597,28 @@
           "required_experience": "4 years\nExperience",
           "required_certifications": "",
           "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $40 - $48 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\n• Provide day-to-day business and application support across a portfolio of client, CRM, and other deal-management applications, balancing production support responsibilities with strategic project and transformation work.\n• Develop working knowledge across multiple interconnected applications and business processes and serve as a knowledgeable resource for users and stakeholders.\n• Independently research and troubleshoot application, data, access, workflow, and user issues; perform root-cause analysis; and coordinate with Technology or other support teams when additional investigation is required.\n• Evaluate issues across interconnected systems to determine whether the underlying cause relates to application functionality, data, integration, access, business process, or user behavior.\n• Support applications and capabilities that may include Microsoft Dynamics 365, Salesforce, nCino, Microsoft Teams Deal Hub, client and lending applications, and related shared services and integrations.\n• Translate business needs into business requirements, user stories, acceptance criteria, process flows, test scenarios, and supporting documentation.\n• Drive assigned workstreams and deliverables through completion, proactively identifying risks, dependencies, gaps, and decisions requiring stakeholder input.\nSkills\nJob Description Modernization\nHuman Resources\nCompensation\nQualifications\nYears of experience: 4 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "ab_5159134",
+          "title": "Business Intelligence (BI) Analyst I",
+          "client_company": "",
+          "city": "Wilmington",
+          "state": "NC",
+          "work_arrangement": "remote",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "37.05",
+          "pay_max": "42.05",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-17",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5159134/business-intelligence-bi-analyst-i_wilmington/",
+          "recruiter_name": "G Abhinav",
+          "recruiter_email": "g.abhinav@randstadusa.com",
+          "recruiter_phone": "8134442142",
+          "required_experience": "5+ years of experience",
+          "required_certifications": "",
+          "description": "Engineering Operations & Analytics Lead\nWe are looking for a strategic, data-driven professional to improve the operational effectiveness of our Engineering organization. In this role, you will own Engineering visual management, standardize metrics, and partner with cross-functional leaders to turn complex datasets into clear, actionable business decisions. You will work with autonomy to build reliable data infrastructure and shape our long-term reporting strategy.\nKey Responsibilities\nDashboards & Visual Management: Design, build, and maintain real-time operational dashboards (Power BI, Tableau, Looker) featuring KPI tracking, trend analysis, and threshold alerts.\nData Engineering & Automation: Build and manage data pipelines that consolidate multi-source data into clean datasets. Automate recurring reports and workflows using internal AI tools.\nAnalytics & Governance: Develop, validate, and audit analytical models to ensure decision-grade accuracy. Establish data governance standards, including documentation and version control.\nStrategic Partnership: Collaborate with operations leadership on KPI action plans, predictive forecasting, scenario modeling, and data-backed process improvements.\nRequired Qualifications\n5+ years of experience in data engineering, analytics engineering, or a related field.\n2+ years of experience supporting leadership decision-making using Tableau, Power BI, or similar BI tools.\nPreferred Qualifications\nProficiency in SQL, Python, and large-scale data modeling.\nExperience developing KPI frameworks and supporting strategic planning in a large, operations-heavy environment.\nstrong project management, problem-solving, and communication skills, with a track record of executing programs on schedule.\nsalary: $37.05 - $42.05 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: High School\nResponsibilities\nProcess and metric tracking. Responsible for various data collections that are used for ultimate decision making\nDesign, develop, and maintain operational dashboards using BI tools (e.g., Power BI, Tableau, Looker) to provide real-time visibility into organizational performance\nBuild and manage data pipelines that consolidate data from multiple sources into clean, reliable, and actionable datasets\nDevelop and validate analytical models to ensure data accuracy, consistency, and integrity across all reporting\nAutomate recurring reports and data workflows to reduce manual effort and improve reporting efficiency, using in-house Artificial Intelligence tools\nEstablish and maintain data governance standards, including definitions, documentation, and version control\nSkills\nAnalysis\nQualifications\nYears of experience: 5 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
         },
         {
           "firm": "Randstad",
@@ -5935,28 +5930,6 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "ab_5132795",
-          "title": "Business Execution Consultant 5",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "78.88",
-          "pay_max": "81.88",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-02",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5132795/business-execution-consultant-5_charlotte/",
-          "recruiter_name": "Sai Ramya Kadali",
-          "recruiter_email": "sairamyakadali.kadali@randstadusa.com",
-          "recruiter_phone": "9899354007",
-          "required_experience": "7 years\nExperience",
-          "required_certifications": "",
-          "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $78.88 - $81.88 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\nConsult as an expert to develop or influence initiatives and resources for highly complex business and technical needs across Business Execution.\nConsult on the strategy and resolution of highly complex and unique challenges requiring in-depth evaluation across multiple areas, delivering solutions that are long-term, large-scale and require vision, creativity, innovation, and advanced analytical and inductive thinking.\nProvide expertise to client senior leadership on innovative Business Execution business solutions. Strategically engage with client personnel.\nSkills\nBusiness Development\nBusiness Analysis\nBusiness operations\nQualifications\nYears of experience: 7 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "1367113",
           "title": "IT Program Manager",
           "client_company": "",
@@ -5976,6 +5949,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "job summary:\nThis job is responsible for planning and coordinating the execution of project/program deliverables which requires the engagement of multiple teams. Key responsibilities include communicating work objectives, coordinating delivery, facilitating sync points across teams, providing end-to-end visibility into the health of the deliverables, and managing program risk and compliance to standards. Job expectations include ensuring delivery meets the client's expectations in terms of the functionality, quality, timeline, and cost\nlocation: Charlotte, North Carolina\njob type: Contract\nsalary: $42.66 - 52.66 per hour\nwork hours:\neducation: Bachelors\nresponsibilities:\nThis job is responsible for planning and coordinating the execution of project/program deliverables which requires the engagement of multiple teams. Key responsibilities include communicating work objectives, coordinating delivery, facilitating sync points across teams, providing end-to-end visibility into the health of the deliverables, and managing program risk and compliance to standards. Job expectations include ensuring delivery meets the client's expectations in terms of the functionality, quality, timeline, and cost\nqualifications:\n- 5+ years Change Management or Project Management Experience\n- 5+ years Banking domain experience supporting; prefer prior client experience.\n- 3+ years Governance experience\nskills:\nAgile,Confluence,JIRA,Excel,PowerPoint,Microsoft Project,Microsoft Applications,pivot tables,Software Development Lifecycle,Software Development Life Cycle (SDLC),Business acumen,communicating,coordinating,leadership,self-starter,team player,audit,audit experience,Banking,business analysis,Change Management,change process,Change Management processes,client experience,value proposition,compelling presentations,presentations,Communication planning,governance,innovative ideas,metrics,offshore,process improvement,Project Management,project plans,QA Process,executive presentations,gather requirements,Risk,stakeholder analysis,communication strategies,technical development,test plans,testing,Training Strategy,training strategies\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "ab_5132795",
+          "title": "Business Execution Consultant 5",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "78.88",
+          "pay_max": "81.88",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-02",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5132795/business-execution-consultant-5_charlotte/",
+          "recruiter_name": "Sai Ramya Kadali",
+          "recruiter_email": "sairamyakadali.kadali@randstadusa.com",
+          "recruiter_phone": "9899354007",
+          "required_experience": "7 years\nExperience",
+          "required_certifications": "",
+          "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $78.88 - $81.88 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\nConsult as an expert to develop or influence initiatives and resources for highly complex business and technical needs across Business Execution.\nConsult on the strategy and resolution of highly complex and unique challenges requiring in-depth evaluation across multiple areas, delivering solutions that are long-term, large-scale and require vision, creativity, innovation, and advanced analytical and inductive thinking.\nProvide expertise to client senior leadership on innovative Business Execution business solutions. Strategically engage with client personnel.\nSkills\nBusiness Development\nBusiness Analysis\nBusiness operations\nQualifications\nYears of experience: 7 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
         },
         {
           "firm": "Randstad",
@@ -6041,13 +6036,13 @@
           },
           "firm": "Randstad",
           "route": "mac",
-          "started_at": "2026-11-27T01:56:10.584883+00:00",
-          "completed_at": "2026-11-27T01:57:00.944263+00:00"
+          "started_at": "2026-11-27T04:07:38.912553+00:00",
+          "completed_at": "2026-11-27T04:08:17.525829+00:00"
         }
       },
-      "snapshot_at": "2026-11-27T02:43:06.831833+00:00",
-      "completed_at": "2026-11-27T02:43:36.495087+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-27T04:07:38.912553+00:00",
+      "completed_at": "2026-11-27T04:08:17.525829+00:00",
+      "snapshot_route": "mac"
     },
     "Aerotek": {
       "rows": [],
@@ -9993,8 +9988,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T02:56:09.886171+00:00",
-          "completed_at": "2026-11-27T03:02:50.965957+00:00"
+          "started_at": "2026-11-27T04:07:38.913727+00:00",
+          "completed_at": "2026-11-27T04:14:44.777770+00:00"
         }
       }
     },
@@ -11952,7 +11947,17 @@
       "firms_failed": 3,
       "timer_run_id": "45929905132",
       "timer_fired_at": "2026-11-27T03:42:41.545575+00:00"
+    },
+    {
+      "id": "905200df-39a5-4e9f-8515-7629061c82a9",
+      "route": "mac",
+      "started_at": "2026-11-27T04:07:36.893384+00:00",
+      "completed_at": "2026-11-27T04:14:44.799600+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-27T03:50:44.692855+00:00"
+  "published_at": "2026-11-27T04:14:46.324028+00:00"
 }
