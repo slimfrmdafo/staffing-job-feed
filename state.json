@@ -7137,11 +7137,23 @@
           "route": "cloud",
           "started_at": "2026-11-27T14:45:32.440177+00:00",
           "completed_at": "2026-11-27T14:47:17.178059+00:00"
+        },
+        "mac": {
+          "ok": true,
+          "info": {
+            "enumerated": 2093,
+            "details_read": 169,
+            "kept": 55
+          },
+          "firm": "Judge Group",
+          "route": "mac",
+          "started_at": "2026-11-27T14:56:10.718973+00:00",
+          "completed_at": "2026-11-27T14:57:58.690256+00:00"
         }
       },
-      "snapshot_at": "2026-11-27T13:45:23.989661+00:00",
-      "completed_at": "2026-11-27T13:46:53.994421+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-27T14:56:10.718973+00:00",
+      "completed_at": "2026-11-27T14:57:58.690256+00:00",
+      "snapshot_route": "mac"
     },
     "Brooksource": {
       "rows": [
@@ -9788,11 +9800,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29655975&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
+          "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T13:57:51.696255+00:00",
-          "completed_at": "2026-11-27T14:05:32.843099+00:00"
+          "started_at": "2026-11-27T14:56:10.720865+00:00",
+          "completed_at": "2026-11-27T15:02:40.634245+00:00"
         }
       }
     },
@@ -11992,7 +12004,17 @@
       "firms_failed": 2,
       "timer_run_id": "46009699378",
       "timer_fired_at": "2026-11-27T14:44:35.307704+00:00"
+    },
+    {
+      "id": "11895c83-093b-4107-9e13-6dbc82e68ce3",
+      "route": "mac",
+      "started_at": "2026-11-27T14:56:08.823661+00:00",
+      "completed_at": "2026-11-27T15:02:40.643002+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 2,
+      "firms_succeeded": 1,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-27T14:53:43.106828+00:00"
+  "published_at": "2026-11-27T15:02:41.996709+00:00"
 }
