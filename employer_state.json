@@ -535,13 +535,13 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-27T14:16:14.742342+00:00",
-          "completed_at": "2026-11-27T14:17:03.752135+00:00",
+          "started_at": "2026-11-27T15:16:35.189693+00:00",
+          "completed_at": "2026-11-27T15:17:29.329223+00:00",
           "ok": true,
           "info": {
-            "enumerated": 2081,
-            "enumerated_raw": 2081,
-            "advertised": 2081,
+            "enumerated": 2076,
+            "enumerated_raw": 2076,
+            "advertised": 2076,
             "details_read": 142,
             "kept": 24,
             "method": "employer search service + canonical full detail pages"
@@ -563,8 +563,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:16:14.742342+00:00",
-      "completed_at": "2026-11-27T14:17:03.752135+00:00",
+      "snapshot_at": "2026-11-27T15:16:35.189693+00:00",
+      "completed_at": "2026-11-27T15:17:29.329223+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -816,13 +816,13 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-27T14:16:14.743170+00:00",
-          "completed_at": "2026-11-27T14:17:11.513337+00:00",
+          "started_at": "2026-11-27T15:16:35.190848+00:00",
+          "completed_at": "2026-11-27T15:17:48.926284+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1258,
-            "enumerated_raw": 1258,
-            "advertised": 1258,
+            "enumerated": 1259,
+            "enumerated_raw": 1259,
+            "advertised": 1259,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -862,8 +862,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:16:14.743170+00:00",
-      "completed_at": "2026-11-27T14:17:11.513337+00:00",
+      "snapshot_at": "2026-11-27T15:16:35.190848+00:00",
+      "completed_at": "2026-11-27T15:17:48.926284+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1643,8 +1643,8 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-27T14:16:14.743380+00:00",
-          "completed_at": "2026-11-27T14:17:36.831056+00:00",
+          "started_at": "2026-11-27T15:16:35.191953+00:00",
+          "completed_at": "2026-11-27T15:18:19.728385+00:00",
           "ok": true,
           "info": {
             "enumerated": 1306,
@@ -1669,8 +1669,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-27T14:16:14.743380+00:00",
-      "completed_at": "2026-11-27T14:17:36.831056+00:00",
+      "snapshot_at": "2026-11-27T15:16:35.191953+00:00",
+      "completed_at": "2026-11-27T15:18:19.728385+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1768,8 +1768,8 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-27T14:16:14.743716+00:00",
-          "completed_at": "2026-11-27T14:16:22.264446+00:00",
+          "started_at": "2026-11-27T15:16:35.192266+00:00",
+          "completed_at": "2026-11-27T15:16:43.403712+00:00",
           "ok": true,
           "info": {
             "enumerated": 64,
@@ -1806,8 +1806,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:16:14.743716+00:00",
-      "completed_at": "2026-11-27T14:16:22.264446+00:00",
+      "snapshot_at": "2026-11-27T15:16:35.192266+00:00",
+      "completed_at": "2026-11-27T15:16:43.403712+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2015,13 +2015,13 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-27T14:16:22.264503+00:00",
-          "completed_at": "2026-11-27T14:16:36.365695+00:00",
+          "started_at": "2026-11-27T15:16:43.403796+00:00",
+          "completed_at": "2026-11-27T15:17:12.082819+00:00",
           "ok": true,
           "info": {
-            "enumerated": 4545,
-            "enumerated_raw": 4545,
-            "advertised": 4545,
+            "enumerated": 4536,
+            "enumerated_raw": 4536,
+            "advertised": 4536,
             "details_read": 15,
             "kept": 9,
             "method": "employer current search widget + canonical full detail pages",
@@ -2037,8 +2037,8 @@
           "error": "CollectionError: Employer full JobPosting missing: https://talent.lowes.com/us/en/job/JR-02707912"
         }
       },
-      "snapshot_at": "2026-11-27T14:16:22.264503+00:00",
-      "completed_at": "2026-11-27T14:16:36.365695+00:00",
+      "snapshot_at": "2026-11-27T15:16:43.403796+00:00",
+      "completed_at": "2026-11-27T15:17:12.082819+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2092,13 +2092,13 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-27T14:16:36.365762+00:00",
-          "completed_at": "2026-11-27T14:16:42.057438+00:00",
+          "started_at": "2026-11-27T15:17:12.082897+00:00",
+          "completed_at": "2026-11-27T15:17:19.134696+00:00",
           "ok": true,
           "info": {
             "enumerated": 79,
-            "enumerated_raw": 79,
-            "advertised": 79,
+            "enumerated_raw": 80,
+            "advertised": 80,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2114,8 +2114,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:16:36.365762+00:00",
-      "completed_at": "2026-11-27T14:16:42.057438+00:00",
+      "snapshot_at": "2026-11-27T15:17:12.082897+00:00",
+      "completed_at": "2026-11-27T15:17:19.134696+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2147,13 +2147,13 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-27T14:16:42.057495+00:00",
-          "completed_at": "2026-11-27T14:16:49.513378+00:00",
+          "started_at": "2026-11-27T15:17:19.134762+00:00",
+          "completed_at": "2026-11-27T15:17:27.612764+00:00",
           "ok": true,
           "info": {
-            "enumerated": 112,
-            "enumerated_raw": 112,
-            "advertised": 112,
+            "enumerated": 113,
+            "enumerated_raw": 113,
+            "advertised": 113,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2193,8 +2193,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:16:42.057495+00:00",
-      "completed_at": "2026-11-27T14:16:49.513378+00:00",
+      "snapshot_at": "2026-11-27T15:17:19.134762+00:00",
+      "completed_at": "2026-11-27T15:17:27.612764+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2264,28 +2264,6 @@
           "required_experience": "8+ years of experience",
           "required_certifications": "",
           "description": "The Operations and Business Management VP is a specialized role within Community Investing and Development (CID), which works to advance economic opportunity through impact investing, employee volunteerism, the philanthropy of the Citi Foundation and fulfillment of regulatory obligations including the Community Reinvestment Act in the U.S. The VP is responsible for the end-to-end operational execution, business management, and performance governance of CID's third-party partner ecosystem. This role will serve as the designated Business Activity Owner (BAO) lead across 8 core third-party platforms, managing heightened operational due diligence and lifecycle workflows.\nKey Responsibilities:\nThird-Party Platform & BAO Governance:\nLead end-to-end operational ownership and Business Activity Owner (BAO) execution across 8 core third-party platforms, managing comprehensive operational workflows and elevated due diligence requirements associated with Level 1 critical platforms.\nCross-Functional Partnership Leadership:\nServe as the primary operational liaison bridging the CID team, enterprise Third-Party Management (TPM), Sourcing and Procurement, Technology partners and external vendor leadership.\nIntake & Procurement Lifecycle Management:\nSteer end-to-end third-party onboarding, contract renewal lifecycles, and statements of work (SOWs) in alignment with Citi's established third-party processes, reducing cycle times and eliminating cross-departmental handoff friction.\nTechnology & Sourcing Integration:\nPartner closely with Technology leads and Sourcing teams to align technical specifications, business requirements, and integration milestones for third-party platforms.\nVendor Performance & SLA Governance:\nOversee day-to-day vendor service delivery, establish performance scorecards, track operational SLAs/KPIs, and lead Quarterly Business Reviews (QBRs) and partner review cadences.\nOperational Issue Escalation & Resolution:\nIdentify, analyze, and resolve operational delivery escalations, service disruptions, and contract performance bottlenecks with third-party providers.\nExecutive Briefings & Business Reporting:\nProvide senior leadership with operational transparency on third-party spend utilization, platform milestones, vendor performance metrics, and audit-ready operational documentation.\nQualifications:\nExperience:\n8+ years of experience in business management, third-party relationship management, vendor operations, technology operations, or strategic sourcing within financial services or complex corporate environments.\nThird-Party & Platform Expertise:\nIn-depth knowledge of third-party operational lifecycles, Business Activity Owner (BAO) responsibilities, enterprise procurement processes, and vendor SLA management.\nStakeholder & Partner Management:\nProven track record of managing cross-functional initiatives across business teams, enterprise sourcing/procurement, technology, and external C-level vendor leadership.\nAnalytical & Problem-Solving Acumen:\nStrong capability to filter, prioritize, and validate complex operational information, resolve partner bottlenecks, and present data-driven recommendations.\nCommunication & Diplomacy:\nSuperior written and verbal communication, diplomacy, and negotiation skills required to lead cross-business working groups and executive briefings.\nAI Fluency & Workflow Innovation:\nDemonstrated proficiency with enterprise generative AI platforms and digital productivity.\nEducation:\nBachelor’s/University degree\nMaster’s/MBA preferred\n------------------------------------------------------\nJob Family Group:\nCommunications and External Relations\n------------------------------------------------------\nJob Family:\nCommunity Development\n------------------------------------------------------\nTime Type:\nFull time\n------------------------------------------------------\nPrimary Location:\nNC-CHARLOTTE (BALLANTYNE)\n------------------------------------------------------\nPrimary Location Full Time Salary Range:\n$107,120.00 - $160,680.00\nIn addition to salary, Citi’s offerings may also include, for eligible employees, discretionary and formulaic incentive and retention awards. Citi offers competitive employee benefits, including: medical, dental & vision coverage; 401(k); life, accident, and disability insurance; and wellness programs. Citi also offers paid time off packages, including planned time off (vacation), unplanned time off (sick leave), and paid holidays. For additional information regarding Citi employee benefits, please visit citibenefits.com. Available offerings may vary by jurisdiction, job level, and date of hire.\n------------------------------------------------------\nMost Relevant Skills\nPlease see the requirements listed above.\n------------------------------------------------------\nOther Relevant Skills\nFor complementary skills, please see above and/or contact the recruiter.\n------------------------------------------------------\nAnticipated Posting Close Date:\nDec 06, 2026\n------------------------------------------------------\nAutomated Processing and AI\nWe use automated processing, including artificial intelligence, for our legitimate business interests (or our reasonable and appropriate business purposes) to identify and align the candidate's skills and abilities with a specific job opening. Additionally, if you so choose, or consent, we can match your skills and abilities to other suitable roles at Citi.\nImportantly, all our hiring processes and decisions, including determining your suitability for a role, are conducted, checked, and decided by individuals. Our automated processing and AI do not involve relying on automatic or autonomous decision-making. Please refer to any Jurisdictional Considerations, with specific provisions for your country (where relevant) for further details.\nIllinois residents – AI Notice and Right\n------------------------------------------------------\nCiti is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law.\nIf you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review\nAccessibility at Citi\n.\nView Citi’s\nEEO Policy Statement\nand the\nKnow Your Rights\nposter."
-        },
-        {
-          "firm": "Citigroup",
-          "job_id": "261004371",
-          "title": "Business Lead Analyst - Deposits & Segments",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "117440",
-          "pay_max": "176160",
-          "pay_unit": "",
-          "posted_date": "2026-11-03",
-          "url": "https://citi.wd5.myworkdayjobs.com/2/job/NC-CHARLOTTE-BALLANTYNE/Business-Lead-Analyst---Deposits---Segments_261004371",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "The Business Lead Analyst is a strategic professional who stays abreast of developments within own field and contributes to directional strategy by considering their application in own job and the business. Recognized technical authority for an area within the business. Requires basic commercial awareness. There are typically multiple people within the business that provide the same level of subject matter expertise. Developed communication and diplomacy skills are required in order to guide, influence and convince others, in particular colleagues in other areas and occasional external customers. Significant impact on the area through complex deliverables. Provides advice and counsel related to the technology or operations of the business. Work impacts an entire area, which eventually affects the overall performance and effectiveness of the sub-function/job family.\nResponsibilities:\nGathering and documenting business requirements\nDeveloping individual project artifacts as necessary including Business Requirements Documentation (BRD’s), Functional Requirements Documentation (FRD’s), test planning and scenario documents for user acceptance testing (UAT), project plans as required for all key technical deliveries.\nDay-to-day management of individual project responsibilities including milestone setting, task and actions management, co-ordination and execution of plan within required timelines and to stakeholder quality expectations.\nProviding implementation / post-implementation project support\nFoster and maintain relationships with business stakeholders, support, testing and development team members\nIdentify key project risks, whether stated or not, and manage to resolution or escalate accordingly\nHas the ability to operate with a limited level of direct supervision.\nCan exercise independence of judgement and autonomy.\nActs as SME to senior stakeholders and /or other team members.\nAppropriately assess risk when business decisions are made, demonstrating particular consideration for the firm's reputation and safeguarding Citigroup, its clients and assets, by driving compliance with applicable laws, rules and regulations, adhering to Policy, applying sound ethical judgment regarding personal behavior, conduct and business practices, and escalating, managing and reporting control issues with transparency.\nRecommended Qualifications:\n3-10 years' experience\nmust be extremely organized, motivated and a self-starter\nAbility to prioritize is key as is ability to juggle several tasks at once.\nMust work well under pressure whilst, enthusiastic, hard-working and positive\nDesire to improve processes\nTrack record as a Business Analyst within the Financial Services industry\nExcellent oral and written communication skills and ability to facilitate discussions\nAbility to quickly grasp and understand new concepts / requirements and related product / functional knowledge\nExperience of working with Agile Methodologies and Tools.\nTeam player and relationship management skills\nAbility to work under pressure and manage tight deadlines\nAbility to learn/understand some technical implications of system design\nWillingness to ask questions, challenge the process and seek out answers\nAbility to work independently, prioritize, and take ownership of various parts of a project or initiative\nExcellent analytical and problem solving skills\nEducation:\nBachelor’s/University degree, Master’s degree preferred\nThis job description provides a high-level review of the types of work performed. Other job-related duties may be assigned as required.\nThis role will serve as a dedicated support partner to the Deposits & Segments team with the following core responsibilities:\nSupporting the development and execution of\nclient retention and deepening strategies\nacross target segments\nDesigning and optimizing client journeys\nto improve the existing client experience and reduce attrition\nLeading\ngo-to-market execution\nfor specialized internal and external projects that drive deposit growth and client loyalty\nCoordinating cross-functional workstreams to ensure strategic initiatives move from concept to delivery with consistency and quality\nRequires excellent presentations and executive leadership story telling skills.\nThe role sits at the intersection of strategy and execution, translating priorities into tangible client-facing and operational outcomes.\n------------------------------------------------------\nJob Family Group:\nBusiness Strategy, Management & Administration\n------------------------------------------------------\nJob Family:\nBusiness Management\n------------------------------------------------------\nTime Type:\nFull time\n------------------------------------------------------\nPrimary Location:\nNC-CHARLOTTE (BALLANTYNE)\n------------------------------------------------------\nPrimary Location Full Time Salary Range:\n$117,440.00 - $176,160.00\nIn addition to salary, Citi’s offerings may also include, for eligible employees, discretionary and formulaic incentive and retention awards. Citi offers competitive employee benefits, including: medical, dental & vision coverage; 401(k); life, accident, and disability insurance; and wellness programs. Citi also offers paid time off packages, including planned time off (vacation), unplanned time off (sick leave), and paid holidays. For additional information regarding Citi employee benefits, please visit citibenefits.com. Available offerings may vary by jurisdiction, job level, and date of hire.\n------------------------------------------------------\nMost Relevant Skills\nPlease see the requirements listed above.\n------------------------------------------------------\nOther Relevant Skills\nFor complementary skills, please see above and/or contact the recruiter.\n------------------------------------------------------\nAnticipated Posting Close Date:\nNov 10, 2026\n------------------------------------------------------\nAutomated Processing and AI\nWe use automated processing, including artificial intelligence, for our legitimate business interests (or our reasonable and appropriate business purposes) to identify and align the candidate's skills and abilities with a specific job opening. Additionally, if you so choose, or consent, we can match your skills and abilities to other suitable roles at Citi.\nImportantly, all our hiring processes and decisions, including determining your suitability for a role, are conducted, checked, and decided by individuals. Our automated processing and AI do not involve relying on automatic or autonomous decision-making. Please refer to any Jurisdictional Considerations, with specific provisions for your country (where relevant) for further details.\nIllinois residents – AI Notice and Right\n------------------------------------------------------\nCiti is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law.\nIf you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review\nAccessibility at Citi\n.\nView Citi’s\nEEO Policy Statement\nand the\nKnow Your Rights\nposter."
         },
         {
           "firm": "Citigroup",
@@ -2380,8 +2358,8 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-27T14:16:49.513436+00:00",
-          "completed_at": "2026-11-27T14:18:49.098142+00:00",
+          "started_at": "2026-11-27T15:17:27.612838+00:00",
+          "completed_at": "2026-11-27T15:19:20.589652+00:00",
           "ok": true,
           "info": {
             "enumerated": 1425,
@@ -2390,9 +2368,9 @@
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 132,
+            "details_read": 131,
             "closed_during_pull": 0,
-            "kept": 8,
+            "kept": 7,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "Country_and_Jurisdiction": [
@@ -2426,8 +2404,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:16:49.513436+00:00",
-      "completed_at": "2026-11-27T14:18:49.098142+00:00",
+      "snapshot_at": "2026-11-27T15:17:27.612838+00:00",
+      "completed_at": "2026-11-27T15:19:20.589652+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2436,8 +2414,8 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-27T14:17:03.752218+00:00",
-          "completed_at": "2026-11-27T14:17:35.201871+00:00",
+          "started_at": "2026-11-27T15:17:29.329324+00:00",
+          "completed_at": "2026-11-27T15:18:04.671804+00:00",
           "ok": true,
           "info": {
             "enumerated": 1112,
@@ -2458,8 +2436,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:17:03.752218+00:00",
-      "completed_at": "2026-11-27T14:17:35.201871+00:00",
+      "snapshot_at": "2026-11-27T15:17:29.329324+00:00",
+      "completed_at": "2026-11-27T15:18:04.671804+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2535,8 +2513,8 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-27T14:17:11.513407+00:00",
-          "completed_at": "2026-11-27T14:17:44.135931+00:00",
+          "started_at": "2026-11-27T15:17:48.926366+00:00",
+          "completed_at": "2026-11-27T15:18:23.159207+00:00",
           "ok": true,
           "info": {
             "enumerated": 872,
@@ -2557,8 +2535,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:17:11.513407+00:00",
-      "completed_at": "2026-11-27T14:17:44.135931+00:00",
+      "snapshot_at": "2026-11-27T15:17:48.926366+00:00",
+      "completed_at": "2026-11-27T15:18:23.159207+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2590,8 +2568,8 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-27T14:17:35.201934+00:00",
-          "completed_at": "2026-11-27T14:17:45.314060+00:00",
+          "started_at": "2026-11-27T15:18:04.671880+00:00",
+          "completed_at": "2026-11-27T15:18:14.607898+00:00",
           "ok": true,
           "info": {
             "enumerated": 137,
@@ -2636,8 +2614,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:17:35.201934+00:00",
-      "completed_at": "2026-11-27T14:17:45.314060+00:00",
+      "snapshot_at": "2026-11-27T15:18:04.671880+00:00",
+      "completed_at": "2026-11-27T15:18:14.607898+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2713,8 +2691,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-27T14:17:36.831128+00:00",
-          "completed_at": "2026-11-27T14:17:49.810818+00:00",
+          "started_at": "2026-11-27T15:18:14.607967+00:00",
+          "completed_at": "2026-11-27T15:18:28.549021+00:00",
           "ok": true,
           "info": {
             "enumerated": 81,
@@ -2731,8 +2709,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:17:36.831128+00:00",
-      "completed_at": "2026-11-27T14:17:49.810818+00:00",
+      "snapshot_at": "2026-11-27T15:18:14.607967+00:00",
+      "completed_at": "2026-11-27T15:18:28.549021+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -2830,8 +2808,8 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-27T14:17:44.135989+00:00",
-          "completed_at": "2026-11-27T14:18:11.387543+00:00",
+          "started_at": "2026-11-27T15:18:19.728471+00:00",
+          "completed_at": "2026-11-27T15:18:49.130564+00:00",
           "ok": true,
           "info": {
             "enumerated": 876,
@@ -2839,9 +2817,7 @@
             "advertised": 876,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "2026-17821"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 11,
             "closed_during_pull": 0,
             "kept": 4,
@@ -2854,8 +2830,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:17:44.135989+00:00",
-      "completed_at": "2026-11-27T14:18:11.387543+00:00",
+      "snapshot_at": "2026-11-27T15:18:19.728471+00:00",
+      "completed_at": "2026-11-27T15:18:49.130564+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -2909,8 +2885,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-27T14:17:45.314118+00:00",
-          "completed_at": "2026-11-27T14:17:51.353143+00:00",
+          "started_at": "2026-11-27T15:18:23.159277+00:00",
+          "completed_at": "2026-11-27T15:18:31.770952+00:00",
           "ok": true,
           "info": {
             "enumerated": 44,
@@ -2927,8 +2903,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:17:45.314118+00:00",
-      "completed_at": "2026-11-27T14:17:51.353143+00:00",
+      "snapshot_at": "2026-11-27T15:18:23.159277+00:00",
+      "completed_at": "2026-11-27T15:18:31.770952+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -2937,8 +2913,8 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-27T14:17:49.810875+00:00",
-          "completed_at": "2026-11-27T14:18:01.449871+00:00",
+          "started_at": "2026-11-27T15:18:28.549095+00:00",
+          "completed_at": "2026-11-27T15:18:40.929173+00:00",
           "ok": true,
           "info": {
             "enumerated": 317,
@@ -2959,8 +2935,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:17:49.810875+00:00",
-      "completed_at": "2026-11-27T14:18:01.449871+00:00",
+      "snapshot_at": "2026-11-27T15:18:28.549095+00:00",
+      "completed_at": "2026-11-27T15:18:40.929173+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3058,8 +3034,8 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-27T14:17:51.353216+00:00",
-          "completed_at": "2026-11-27T14:18:24.258091+00:00",
+          "started_at": "2026-11-27T15:18:31.771025+00:00",
+          "completed_at": "2026-11-27T15:19:02.364004+00:00",
           "ok": true,
           "info": {
             "enumerated": 376,
@@ -3104,8 +3080,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:17:51.353216+00:00",
-      "completed_at": "2026-11-27T14:18:24.258091+00:00",
+      "snapshot_at": "2026-11-27T15:18:31.771025+00:00",
+      "completed_at": "2026-11-27T15:19:02.364004+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3114,13 +3090,13 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:01.449933+00:00",
-          "completed_at": "2026-11-27T14:18:17.749124+00:00",
+          "started_at": "2026-11-27T15:18:40.929246+00:00",
+          "completed_at": "2026-11-27T15:18:56.259755+00:00",
           "ok": true,
           "info": {
-            "enumerated": 391,
-            "enumerated_raw": 391,
-            "advertised": 391,
+            "enumerated": 390,
+            "enumerated_raw": 390,
+            "advertised": 390,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3152,8 +3128,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:18:01.449933+00:00",
-      "completed_at": "2026-11-27T14:18:17.749124+00:00",
+      "snapshot_at": "2026-11-27T15:18:40.929246+00:00",
+      "completed_at": "2026-11-27T15:18:56.259755+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3162,8 +3138,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:11.387627+00:00",
-          "completed_at": "2026-11-27T14:18:20.640512+00:00",
+          "started_at": "2026-11-27T15:18:49.130716+00:00",
+          "completed_at": "2026-11-27T15:18:59.120339+00:00",
           "ok": true,
           "info": {
             "enumerated": 200,
@@ -3180,8 +3156,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:18:11.387627+00:00",
-      "completed_at": "2026-11-27T14:18:20.640512+00:00",
+      "snapshot_at": "2026-11-27T15:18:49.130716+00:00",
+      "completed_at": "2026-11-27T15:18:59.120339+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3190,8 +3166,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:17.749178+00:00",
-          "completed_at": "2026-11-27T14:18:21.752004+00:00",
+          "started_at": "2026-11-27T15:18:56.259825+00:00",
+          "completed_at": "2026-11-27T15:19:00.216942+00:00",
           "ok": true,
           "info": {
             "enumerated": 13,
@@ -3208,8 +3184,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:18:17.749178+00:00",
-      "completed_at": "2026-11-27T14:18:21.752004+00:00",
+      "snapshot_at": "2026-11-27T15:18:56.259825+00:00",
+      "completed_at": "2026-11-27T15:19:00.216942+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3218,8 +3194,8 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:20.640589+00:00",
-          "completed_at": "2026-11-27T14:21:18.689026+00:00",
+          "started_at": "2026-11-27T15:18:59.120406+00:00",
+          "completed_at": "2026-11-27T15:22:04.146201+00:00",
           "ok": true,
           "info": {
             "enumerated": 5958,
@@ -3249,8 +3225,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-27T14:18:20.640589+00:00",
-      "completed_at": "2026-11-27T14:21:18.689026+00:00",
+      "snapshot_at": "2026-11-27T15:18:59.120406+00:00",
+      "completed_at": "2026-11-27T15:22:04.146201+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3282,8 +3258,8 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:21.752061+00:00",
-          "completed_at": "2026-11-27T14:18:29.088997+00:00",
+          "started_at": "2026-11-27T15:19:00.217015+00:00",
+          "completed_at": "2026-11-27T15:19:06.026904+00:00",
           "ok": true,
           "info": {
             "enumerated": 60,
@@ -3300,8 +3276,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:18:21.752061+00:00",
-      "completed_at": "2026-11-27T14:18:29.088997+00:00",
+      "snapshot_at": "2026-11-27T15:19:00.217015+00:00",
+      "completed_at": "2026-11-27T15:19:06.026904+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3399,8 +3375,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:24.258157+00:00",
-          "completed_at": "2026-11-27T14:18:35.395204+00:00",
+          "started_at": "2026-11-27T15:19:02.364064+00:00",
+          "completed_at": "2026-11-27T15:19:14.386550+00:00",
           "ok": true,
           "info": {
             "enumerated": 289,
@@ -3417,8 +3393,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:18:24.258157+00:00",
-      "completed_at": "2026-11-27T14:18:35.395204+00:00",
+      "snapshot_at": "2026-11-27T15:19:02.364064+00:00",
+      "completed_at": "2026-11-27T15:19:14.386550+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3427,13 +3403,13 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:29.089054+00:00",
-          "completed_at": "2026-11-27T14:18:53.210513+00:00",
+          "started_at": "2026-11-27T15:19:06.026964+00:00",
+          "completed_at": "2026-11-27T15:19:30.440951+00:00",
           "ok": true,
           "info": {
-            "enumerated": 395,
-            "enumerated_raw": 395,
-            "advertised": 395,
+            "enumerated": 396,
+            "enumerated_raw": 396,
+            "advertised": 396,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3449,8 +3425,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:18:29.089054+00:00",
-      "completed_at": "2026-11-27T14:18:53.210513+00:00",
+      "snapshot_at": "2026-11-27T15:19:06.026964+00:00",
+      "completed_at": "2026-11-27T15:19:30.440951+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3482,8 +3458,8 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:35.395262+00:00",
-          "completed_at": "2026-11-27T14:19:56.662802+00:00",
+          "started_at": "2026-11-27T15:19:14.386642+00:00",
+          "completed_at": "2026-11-27T15:20:46.061688+00:00",
           "ok": true,
           "info": {
             "enumerated": 3065,
@@ -3504,8 +3480,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:18:35.395262+00:00",
-      "completed_at": "2026-11-27T14:19:56.662802+00:00",
+      "snapshot_at": "2026-11-27T15:19:14.386642+00:00",
+      "completed_at": "2026-11-27T15:20:46.061688+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3514,8 +3490,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:49.098221+00:00",
-          "completed_at": "2026-11-27T14:19:00.182950+00:00",
+          "started_at": "2026-11-27T15:19:20.589723+00:00",
+          "completed_at": "2026-11-27T15:19:34.745968+00:00",
           "ok": true,
           "info": {
             "enumerated": 178,
@@ -3560,8 +3536,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:18:49.098221+00:00",
-      "completed_at": "2026-11-27T14:19:00.182950+00:00",
+      "snapshot_at": "2026-11-27T15:19:20.589723+00:00",
+      "completed_at": "2026-11-27T15:19:34.745968+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3570,8 +3546,8 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-27T14:18:53.210597+00:00",
-          "completed_at": "2026-11-27T14:19:16.211524+00:00",
+          "started_at": "2026-11-27T15:19:30.441018+00:00",
+          "completed_at": "2026-11-27T15:19:53.805382+00:00",
           "ok": true,
           "info": {
             "enumerated": 338,
@@ -3592,8 +3568,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:18:53.210597+00:00",
-      "completed_at": "2026-11-27T14:19:16.211524+00:00",
+      "snapshot_at": "2026-11-27T15:19:30.441018+00:00",
+      "completed_at": "2026-11-27T15:19:53.805382+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3625,17 +3601,17 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-27T14:19:00.183009+00:00",
-          "completed_at": "2026-11-27T14:19:20.719802+00:00",
+          "started_at": "2026-11-27T15:19:34.746032+00:00",
+          "completed_at": "2026-11-27T15:19:55.233045+00:00",
           "ok": true,
           "info": {
-            "enumerated": 365,
-            "enumerated_raw": 365,
-            "advertised": 365,
+            "enumerated": 366,
+            "enumerated_raw": 366,
+            "advertised": 366,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 21,
+            "details_read": 22,
             "closed_during_pull": 0,
             "kept": 1,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -3643,8 +3619,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:19:00.183009+00:00",
-      "completed_at": "2026-11-27T14:19:20.719802+00:00",
+      "snapshot_at": "2026-11-27T15:19:34.746032+00:00",
+      "completed_at": "2026-11-27T15:19:55.233045+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3764,8 +3740,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-27T14:19:16.211607+00:00",
-          "completed_at": "2026-11-27T14:19:58.674881+00:00",
+          "started_at": "2026-11-27T15:19:53.805450+00:00",
+          "completed_at": "2026-11-27T15:21:09.972473+00:00",
           "ok": true,
           "info": {
             "enumerated": 377,
@@ -3802,8 +3778,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:19:16.211607+00:00",
-      "completed_at": "2026-11-27T14:19:58.674881+00:00",
+      "snapshot_at": "2026-11-27T15:19:53.805450+00:00",
+      "completed_at": "2026-11-27T15:21:09.972473+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -3835,8 +3811,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-27T14:19:20.719855+00:00",
-          "completed_at": "2026-11-27T14:19:25.448905+00:00",
+          "started_at": "2026-11-27T15:19:55.233114+00:00",
+          "completed_at": "2026-11-27T15:20:00.867718+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -3860,8 +3836,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:19:20.719855+00:00",
-      "completed_at": "2026-11-27T14:19:25.448905+00:00",
+      "snapshot_at": "2026-11-27T15:19:55.233114+00:00",
+      "completed_at": "2026-11-27T15:20:00.867718+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -3915,8 +3891,8 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-27T14:19:25.448966+00:00",
-          "completed_at": "2026-11-27T14:19:37.985868+00:00",
+          "started_at": "2026-11-27T15:20:00.867787+00:00",
+          "completed_at": "2026-11-27T15:20:14.113520+00:00",
           "ok": true,
           "info": {
             "enumerated": 425,
@@ -3959,8 +3935,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:19:25.448966+00:00",
-      "completed_at": "2026-11-27T14:19:37.985868+00:00",
+      "snapshot_at": "2026-11-27T15:20:00.867787+00:00",
+      "completed_at": "2026-11-27T15:20:14.113520+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4014,8 +3990,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-27T14:19:37.985925+00:00",
-          "completed_at": "2026-11-27T14:19:45.058135+00:00",
+          "started_at": "2026-11-27T15:20:14.113609+00:00",
+          "completed_at": "2026-11-27T15:20:23.839789+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4044,8 +4020,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-27T14:19:37.985925+00:00",
-      "completed_at": "2026-11-27T14:19:45.058135+00:00",
+      "snapshot_at": "2026-11-27T15:20:14.113609+00:00",
+      "completed_at": "2026-11-27T15:20:23.839789+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4121,8 +4097,8 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-27T14:19:45.058191+00:00",
-          "completed_at": "2026-11-27T14:19:59.038808+00:00",
+          "started_at": "2026-11-27T15:20:23.839851+00:00",
+          "completed_at": "2026-11-27T15:20:39.525962+00:00",
           "ok": true,
           "info": {
             "enumerated": 332,
@@ -4147,8 +4123,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-27T14:19:45.058191+00:00",
-      "completed_at": "2026-11-27T14:19:59.038808+00:00",
+      "snapshot_at": "2026-11-27T15:20:23.839851+00:00",
+      "completed_at": "2026-11-27T15:20:39.525962+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4157,18 +4133,16 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-27T14:19:56.662856+00:00",
-          "completed_at": "2026-11-27T14:20:06.707277+00:00",
+          "started_at": "2026-11-27T15:20:39.526022+00:00",
+          "completed_at": "2026-11-27T15:20:50.906987+00:00",
           "ok": true,
           "info": {
-            "enumerated": 506,
-            "enumerated_raw": 506,
-            "advertised": 506,
+            "enumerated": 500,
+            "enumerated_raw": 500,
+            "advertised": 500,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [
-              "JR106447"
-            ],
+            "unpublished_index_ids": [],
             "details_read": 0,
             "closed_during_pull": 0,
             "kept": 0,
@@ -4181,8 +4155,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:19:56.662856+00:00",
-      "completed_at": "2026-11-27T14:20:06.707277+00:00",
+      "snapshot_at": "2026-11-27T15:20:39.526022+00:00",
+      "completed_at": "2026-11-27T15:20:50.906987+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4191,8 +4165,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-27T14:19:58.674935+00:00",
-          "completed_at": "2026-11-27T14:20:03.350874+00:00",
+          "started_at": "2026-11-27T15:20:46.061747+00:00",
+          "completed_at": "2026-11-27T15:20:51.010490+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4209,8 +4183,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:19:58.674935+00:00",
-      "completed_at": "2026-11-27T14:20:03.350874+00:00",
+      "snapshot_at": "2026-11-27T15:20:46.061747+00:00",
+      "completed_at": "2026-11-27T15:20:51.010490+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4219,8 +4193,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-27T14:19:59.038879+00:00",
-          "completed_at": "2026-11-27T14:20:05.326185+00:00",
+          "started_at": "2026-11-27T15:20:50.907062+00:00",
+          "completed_at": "2026-11-27T15:20:58.754551+00:00",
           "ok": true,
           "info": {
             "enumerated": 148,
@@ -4237,8 +4211,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:19:59.038879+00:00",
-      "completed_at": "2026-11-27T14:20:05.326185+00:00",
+      "snapshot_at": "2026-11-27T15:20:50.907062+00:00",
+      "completed_at": "2026-11-27T15:20:58.754551+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4292,8 +4266,8 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-27T14:20:03.350929+00:00",
-          "completed_at": "2026-11-27T14:20:27.716222+00:00",
+          "started_at": "2026-11-27T15:20:51.010553+00:00",
+          "completed_at": "2026-11-27T15:21:18.732553+00:00",
           "ok": true,
           "info": {
             "enumerated": 810,
@@ -4310,8 +4284,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:20:03.350929+00:00",
-      "completed_at": "2026-11-27T14:20:27.716222+00:00",
+      "snapshot_at": "2026-11-27T15:20:51.010553+00:00",
+      "completed_at": "2026-11-27T15:21:18.732553+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4320,8 +4294,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-27T14:20:05.326256+00:00",
-          "completed_at": "2026-11-27T14:20:10.514542+00:00",
+          "started_at": "2026-11-27T15:20:58.754647+00:00",
+          "completed_at": "2026-11-27T15:21:03.976366+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4338,8 +4312,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:20:05.326256+00:00",
-      "completed_at": "2026-11-27T14:20:10.514542+00:00",
+      "snapshot_at": "2026-11-27T15:20:58.754647+00:00",
+      "completed_at": "2026-11-27T15:21:03.976366+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4348,8 +4322,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-27T14:20:06.707341+00:00",
-          "completed_at": "2026-11-27T14:20:11.528166+00:00",
+          "started_at": "2026-11-27T15:21:03.976428+00:00",
+          "completed_at": "2026-11-27T15:21:09.029129+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4366,8 +4340,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:20:06.707341+00:00",
-      "completed_at": "2026-11-27T14:20:11.528166+00:00",
+      "snapshot_at": "2026-11-27T15:21:03.976428+00:00",
+      "completed_at": "2026-11-27T15:21:09.029129+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4575,8 +4549,8 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-27T14:20:10.514624+00:00",
-          "completed_at": "2026-11-27T14:20:52.961180+00:00",
+          "started_at": "2026-11-27T15:21:09.029197+00:00",
+          "completed_at": "2026-11-27T15:21:47.814815+00:00",
           "ok": true,
           "info": {
             "enumerated": 1348,
@@ -4603,8 +4577,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T14:20:10.514624+00:00",
-      "completed_at": "2026-11-27T14:20:52.961180+00:00",
+      "snapshot_at": "2026-11-27T15:21:09.029197+00:00",
+      "completed_at": "2026-11-27T15:21:47.814815+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -6346,7 +6320,19 @@
       "firms_failed": 0,
       "timer_run_id": "46005558650",
       "timer_fired_at": "2026-11-27T14:15:42.506542+00:00"
+    },
+    {
+      "id": "46023356783",
+      "route": "cloud",
+      "started_at": "2026-11-27T15:16:33.770104+00:00",
+      "completed_at": "2026-11-27T15:22:04.151773+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 39,
+      "firms_failed": 0,
+      "timer_run_id": "46014318746",
+      "timer_fired_at": "2026-11-27T15:15:59.127671+00:00"
     }
   ],
-  "published_at": "2026-11-27T14:21:19.746256+00:00"
+  "published_at": "2026-11-27T15:22:05.616851+00:00"
 }
