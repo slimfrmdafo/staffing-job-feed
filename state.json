@@ -9846,11 +9846,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29666627&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
+          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29572928&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T19:00:11.240970+00:00",
-          "completed_at": "2026-11-27T19:27:11.564121+00:00"
+          "started_at": "2026-11-27T20:03:54.935233+00:00",
+          "completed_at": "2026-11-27T21:30:24.980378+00:00"
         }
       }
     },
@@ -12152,7 +12152,17 @@
       "firms_failed": 1,
       "timer_run_id": "46058935273",
       "timer_fired_at": "2026-11-27T20:45:46.825382+00:00"
+    },
+    {
+      "id": "84103652-b2f2-402d-b29a-a9e3f92ed8b8",
+      "route": "mac",
+      "started_at": "2026-11-27T20:03:52.285997+00:00",
+      "completed_at": "2026-11-27T21:30:24.997033+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 0,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-27T20:58:13.772194+00:00"
+  "published_at": "2026-11-27T21:30:26.815682+00:00"
 }
