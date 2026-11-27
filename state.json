@@ -5490,28 +5490,6 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "1369065",
-          "title": "Infrastructure Cyber Security Risk Architect",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "74.95",
-          "pay_max": "84.95",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-18",
-          "url": "https://www.randstadusa.com/jobs/4/1369065/infrastructure-cyber-security-risk-architect_charlotte/",
-          "recruiter_name": "Randstad Technologies",
-          "recruiter_email": "technology@randstadusa.com",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "job summary:\n-committed to giving live feedback so we can continue to tweak our search for this resource\nlocation: Charlotte, North Carolina\njob type: Contract\nsalary: $74.95 - 84.95 per hour\nwork hours:\neducation: Bachelors\nqualifications:\ne2e infrastructure and cyber security process and architecture risk management consultant - infrastructure (network, mainframe, devops (terraform, ansible) how to design, architecture, and maintain and implement) - this resource will support all CTI executives so exec communication is critical\nskills:\nansible,CTI,cyber security,devops,mainframe,terraform,communication,architecture,infrastructure,process engineering,risk management,hard skills\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "1369143",
           "title": "Supply Chain / Program Management Representative",
           "client_company": "",
@@ -5531,6 +5509,28 @@
           "required_experience": "5+ years of experience",
           "required_certifications": "",
           "description": "job summary:\nWe are seeking a detail-oriented Supply Chain / Program Management Representative to support fast-paced lab operations and procurement workflows within our Communications, Media & Technology (CM&T) practice. Working remotely alongside Technical Program Managers, engineers, and product teams, you will drive end-to-end purchasing, supplier coordination, software licensing, and operational queue management.\nlocation: Telecommute\njob type: Contract\nsalary: $36 - 46  per hour\nwork hours: 8am to 5pm\neducation: High School\nresponsibilities:\nCollaborate closely with GDC Technical Program Managers (TPMs), engineers, and product teams to support lab purchase requests, procurement tasks, supplier identification and enrollment, and stakeholder/supplier coordination, while providing timely status updates.\nTrack end-to-end delivery of all purchased materials and communicate delays, price changes, and completions to engineering teams.\nProcure and maintain software licenses, provision access to approved requesters, and track license expiration dates and renewals.\nMonitor bug requests and queues, updating queues as needed.\nManage high-volume operational tracking across 800+ annual Buganizer requests, 600+ purchase orders and deliveries, 25+ Hardware-as-a-Service (HWaaS) contracts with Systems Integrators, and 800+ invoices.\nqualifications:\nREQUIRED QUALIFICATIONS\nHigh School Diploma or equivalent.\n5+ years of experience in Supply Chain Enterprise Performance Management (EPM) (Advanced level).\n5+ years of experience in Program Management.\nRelevant industry experience in supply chain and program management operations.\nAuthorized to work in the United States as a US Citizen (USC) or Green Card (GC) holder.\nPREFERRED QUALIFICATIONS\nExperience working with Google and its internal tools/systems (such as Buganizer).\nExperience managing Hardware-as-a-Service (HWaaS) vendor contracts and high-volume purchase order/invoice resolution.\nskills:\nsoftware lifecycle management,software licensing,Communications,Enterprise Performance Management,TPMs,invoices,procurement,purchase orders,Program Management,Supply Chain\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\nQualified applicants in San Francisco with criminal histories will be considered for employment in accordance with the San Francisco Fair Chance Ordinance.\nQualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.\nWe will consider for employment all qualified Applicants, including those with criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the City of Los Angeles' Fair Chance Initiative for Hiring Ordinance."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "1369065",
+          "title": "Infrastructure Cyber Security Risk Architect",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "74.95",
+          "pay_max": "84.95",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-18",
+          "url": "https://www.randstadusa.com/jobs/4/1369065/infrastructure-cyber-security-risk-architect_charlotte/",
+          "recruiter_name": "Randstad Technologies",
+          "recruiter_email": "technology@randstadusa.com",
+          "recruiter_phone": "",
+          "required_experience": "",
+          "required_certifications": "",
+          "description": "job summary:\n-committed to giving live feedback so we can continue to tweak our search for this resource\nlocation: Charlotte, North Carolina\njob type: Contract\nsalary: $74.95 - 84.95 per hour\nwork hours:\neducation: Bachelors\nqualifications:\ne2e infrastructure and cyber security process and architecture risk management consultant - infrastructure (network, mainframe, devops (terraform, ansible) how to design, architecture, and maintain and implement) - this resource will support all CTI executives so exec communication is critical\nskills:\nansible,CTI,cyber security,devops,mainframe,terraform,communication,architecture,infrastructure,process engineering,risk management,hard skills\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
         },
         {
           "firm": "Randstad",
@@ -5556,28 +5556,6 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "ab_5159245",
-          "title": "Business Execution Consultant 3",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "40",
-          "pay_max": "48",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-17",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5159245/business-execution-consultant-3_charlotte/",
-          "recruiter_name": "Lokapriya Pemmadi",
-          "recruiter_email": "Lokapriya.Pemmadi@randstadusa.com",
-          "recruiter_phone": "6467103262",
-          "required_experience": "4 years\nExperience",
-          "required_certifications": "",
-          "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $40 - $48 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\n• Provide day-to-day business and application support across a portfolio of client, CRM, and other deal-management applications, balancing production support responsibilities with strategic project and transformation work.\n• Develop working knowledge across multiple interconnected applications and business processes and serve as a knowledgeable resource for users and stakeholders.\n• Independently research and troubleshoot application, data, access, workflow, and user issues; perform root-cause analysis; and coordinate with Technology or other support teams when additional investigation is required.\n• Evaluate issues across interconnected systems to determine whether the underlying cause relates to application functionality, data, integration, access, business process, or user behavior.\n• Support applications and capabilities that may include Microsoft Dynamics 365, Salesforce, nCino, Microsoft Teams Deal Hub, client and lending applications, and related shared services and integrations.\n• Translate business needs into business requirements, user stories, acceptance criteria, process flows, test scenarios, and supporting documentation.\n• Drive assigned workstreams and deliverables through completion, proactively identifying risks, dependencies, gaps, and decisions requiring stakeholder input.\nSkills\nJob Description Modernization\nHuman Resources\nCompensation\nQualifications\nYears of experience: 4 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "ab_5159248",
           "title": "Director, Quality and Business Process Governance",
           "client_company": "",
@@ -5597,6 +5575,28 @@
           "required_experience": "10 years\nExperience",
           "required_certifications": "",
           "description": "The Director, Quality and Business Process Governance leads governance, compliance, and business process initiatives for Licensing & Retail, ensuring effective operational controls, partner due diligence, quality standards, and continuous process improvement. Partners cross-functionally with Legal, Licensing, Quality, and external service providers to support compliant and efficient business operations. This is a partime opportunity beginning January 2027.  Ideal candidate will be local to the Atlanta area but open to fully remote candidates.    This is a unique role because of the experience needed in Licensing and Retail merchandise and products with quality assurance and compliance background.  We have a broad range of products across soft lines and hardlines categories ranging from apparel to drinkware to tech products to health and beauty to food licensing.   Qualifications:\n10 + years’ experience in licensing, consumer products (e.g. electronics, drinkware, cosmetics and beauty, toys), retail, brand compliance, supplier compliance, quality assurance, or related fields.\nExperience reviewing third-party testing and interpreting results.\nFamiliarity with Brand Comply software and approval processes, product testing programs, and licensing operations. (any licensing software is fine)\nsalary: $90.9 - $91.9 per hour\nshift: First\nwork hours: 8 AM - 4 PM\neducation: Bachelors\nResponsibilities\nLeads governance, compliance, and business process initiatives for Licensing & Retail, ensuring effective operational controls, partner due diligence, quality standards, and continuous process improvement.\nPartners cross-functionally with Legal, Licensing, Quality, and external service providers to support compliant and efficient business operations.\nAbility to interpret and apply corporate policies, standards, and governance frameworks.\nExperience managing compliance documentation, approvals, and partner reviews.\nExcellent follow-through and attention to detail with excellent verbal and written communication skills.\nAbility to manage relationships with external partners, licensees, manufacturers, and internal stakeholders.\nAbility to review and assess risk-related information and compliance documentation.\nProficiency with business systems and workflow tools, including AI and Microsoft Office applications.\nExcellent decision-making, problem-solving, and professional judgment skills.\nSkills\nQuality Assurance\nMerchandising\nLicensing\nProduct Marketing\nBrand Comply\nQualifications\nYears of experience: 10 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "ab_5159245",
+          "title": "Business Execution Consultant 3",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "40",
+          "pay_max": "48",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-17",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5159245/business-execution-consultant-3_charlotte/",
+          "recruiter_name": "Lokapriya Pemmadi",
+          "recruiter_email": "Lokapriya.Pemmadi@randstadusa.com",
+          "recruiter_phone": "6467103262",
+          "required_experience": "4 years\nExperience",
+          "required_certifications": "",
+          "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $40 - $48 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\n• Provide day-to-day business and application support across a portfolio of client, CRM, and other deal-management applications, balancing production support responsibilities with strategic project and transformation work.\n• Develop working knowledge across multiple interconnected applications and business processes and serve as a knowledgeable resource for users and stakeholders.\n• Independently research and troubleshoot application, data, access, workflow, and user issues; perform root-cause analysis; and coordinate with Technology or other support teams when additional investigation is required.\n• Evaluate issues across interconnected systems to determine whether the underlying cause relates to application functionality, data, integration, access, business process, or user behavior.\n• Support applications and capabilities that may include Microsoft Dynamics 365, Salesforce, nCino, Microsoft Teams Deal Hub, client and lending applications, and related shared services and integrations.\n• Translate business needs into business requirements, user stories, acceptance criteria, process flows, test scenarios, and supporting documentation.\n• Drive assigned workstreams and deliverables through completion, proactively identifying risks, dependencies, gaps, and decisions requiring stakeholder input.\nSkills\nJob Description Modernization\nHuman Resources\nCompensation\nQualifications\nYears of experience: 4 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
         },
         {
           "firm": "Randstad",
@@ -5732,6 +5732,28 @@
         },
         {
           "firm": "Randstad",
+          "job_id": "ab_5140474",
+          "title": "Project Manager III (Finance)",
+          "client_company": "",
+          "city": "McAllen",
+          "state": "TX",
+          "work_arrangement": "remote",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "65.46",
+          "pay_max": "65.47",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-06",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5140474/project-manager-iii-finance_mcallen/",
+          "recruiter_name": "Divya Bagh",
+          "recruiter_email": "divya.bagh@randstadusa.com",
+          "recruiter_phone": "7852959983",
+          "required_experience": "2 years\nExperience",
+          "required_certifications": "",
+          "description": "Are you an experienced Project Manager skilled in bridging the gap between business strategy, finance, and technical execution? We are seeking a strategic Project Manager to lead cross-functional healthcare transformation initiatives in a fully remote capacity! Save time and money by ditching the daily commute and working comfortably from your own home office.\nIn this high-impact role, you will establish the structure, governance, and project management discipline required to advance major Value-Based Care technology enablement efforts. Working Monday through Friday during Central Time business hours, you will collaborate with business leaders, operational SMEs, data partners, and technical engineering teams to build a cohesive view of project roadmaps. You will maintain master project plans in Smartsheet, drive business requirement document development, and track milestones, dependencies, risks, and governance frameworks to ensure workstreams move forward in harmony. If you are comfortable navigating ambiguity, excel at connecting operational dots across multiple groups, and bring a strong background in project facilitation, this assignment offers an exceptional platform to make a lasting impact.\nsalary: $65.46 - $65.47 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\nPosition Summary:\nEstablish governance, facilitate cross-functional alignment, and oversee project plans, milestones, risks, and documentation for strategic technology initiatives.\nKey Responsibilities:\nMaintain master project tracking, milestones, and dependencies in Smartsheet.\nFacilitate cross-functional meetings with business, operations, and IT teams.\nDrive the creation and progression of Business Requirements Documents (BRDs).\nTrack and manage risks, issues, action items, decisions, and RACI matrices.\nMaintain comprehensive documentation and communicate project status to leaders.\nRequirements:\nBachelor's degree (BA/BS) required; PMP or CAPM certification preferred.\n2+ years of project management and cross-functional facilitation experience.\nProven ability in requirements definition and process workflow documentation.\nFamiliarity with healthcare, value-based care, or managed care environments.\nAbility to work standard Central Time business hours in a dedicated home workspace.\nSkills\nProject Manager\nFinance Model\nFinancial Analysis\nQualifications\nYears of experience: 2 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
+        },
+        {
+          "firm": "Randstad",
           "job_id": "1367617",
           "title": "Senior Project Manager - Payments & Client Implementations",
           "client_company": "",
@@ -5754,25 +5776,25 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "ab_5140474",
-          "title": "Project Manager III (Finance)",
+          "job_id": "ab_5135862",
+          "title": "Business Execution Consultant 4",
           "client_company": "",
-          "city": "McAllen",
-          "state": "TX",
-          "work_arrangement": "remote",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "",
           "job_type": "contract",
           "contract_length": "",
-          "pay_min": "65.46",
-          "pay_max": "65.47",
+          "pay_min": "58",
+          "pay_max": "60",
           "pay_unit": "hour",
-          "posted_date": "2026-11-06",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5140474/project-manager-iii-finance_mcallen/",
-          "recruiter_name": "Divya Bagh",
-          "recruiter_email": "divya.bagh@randstadusa.com",
-          "recruiter_phone": "7852959983",
-          "required_experience": "2 years\nExperience",
+          "posted_date": "2026-11-04",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5135862/business-execution-consultant-4_charlotte/",
+          "recruiter_name": "Lokapriya Pemmadi",
+          "recruiter_email": "Lokapriya.Pemmadi@randstadusa.com",
+          "recruiter_phone": "6467103262",
+          "required_experience": "5 years\nExperience",
           "required_certifications": "",
-          "description": "Are you an experienced Project Manager skilled in bridging the gap between business strategy, finance, and technical execution? We are seeking a strategic Project Manager to lead cross-functional healthcare transformation initiatives in a fully remote capacity! Save time and money by ditching the daily commute and working comfortably from your own home office.\nIn this high-impact role, you will establish the structure, governance, and project management discipline required to advance major Value-Based Care technology enablement efforts. Working Monday through Friday during Central Time business hours, you will collaborate with business leaders, operational SMEs, data partners, and technical engineering teams to build a cohesive view of project roadmaps. You will maintain master project plans in Smartsheet, drive business requirement document development, and track milestones, dependencies, risks, and governance frameworks to ensure workstreams move forward in harmony. If you are comfortable navigating ambiguity, excel at connecting operational dots across multiple groups, and bring a strong background in project facilitation, this assignment offers an exceptional platform to make a lasting impact.\nsalary: $65.46 - $65.47 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\nPosition Summary:\nEstablish governance, facilitate cross-functional alignment, and oversee project plans, milestones, risks, and documentation for strategic technology initiatives.\nKey Responsibilities:\nMaintain master project tracking, milestones, and dependencies in Smartsheet.\nFacilitate cross-functional meetings with business, operations, and IT teams.\nDrive the creation and progression of Business Requirements Documents (BRDs).\nTrack and manage risks, issues, action items, decisions, and RACI matrices.\nMaintain comprehensive documentation and communicate project status to leaders.\nRequirements:\nBachelor's degree (BA/BS) required; PMP or CAPM certification preferred.\n2+ years of project management and cross-functional facilitation experience.\nProven ability in requirements definition and process workflow documentation.\nFamiliarity with healthcare, value-based care, or managed care environments.\nAbility to work standard Central Time business hours in a dedicated home workspace.\nSkills\nProject Manager\nFinance Model\nFinancial Analysis\nQualifications\nYears of experience: 2 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
+          "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $58 - $60 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\nAct as a liaison between our lines of business and technology partners by facilitating the delivery of highly complex business problems to be solved with automated solutions\nSupport the business in the alignment of their Intelligent Automation (IA) needs/usage with their technology and business strategies\nSupport the development of the automation analysis and design methodology, including the related policies, procedures, tools and artifacts, to ensure a “rapid” implementation process that aligns with established release cycles and related enterprise standards\nWork directly with subject matter experts within the lines of business to fully comprehend business processes and translate those processes into clear and concise user stories,\ncreate and groom the backlog for automation delivery and deployment ,Support automation testing, as well as facilitate user acceptance testing\nConduct product demos, provide product acceptance\nSkills\nBusiness Systems Analysis\nBusiness Development\nBusiness Analysis\nQualifications\nYears of experience: 5 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
         },
         {
           "firm": "Randstad",
@@ -5839,28 +5861,6 @@
           "required_experience": "10+ years of relevant experience",
           "required_certifications": "",
           "description": "job summary:\nJoin Our Client as a Data Center Environmental Permitting Program Manager in a Remote role as a tech leader driving sustainable growth! Requires Bachelor's & 10+ yrs in environmental permitting & due diligence for datacenter site acquisition. Build the future with us!\nlocation: Telecommute\njob type: Contract\nsalary: $77 - 99  per hour\nwork hours: 8am to 5pm\neducation: Bachelors\nresponsibilities:\nManage environmental due diligence, permit acquisitions, and approvals for datacenter site acquisition across greenfield and brownfield projects.\nDevelop and deliver environmental permit timelines, risk evaluations, gaps, and mitigation strategies while maintaining strict schedule alignment.\nReview environmental site assessments, permit applications, consultant deliverables, and regulatory requirements, converting complex findings into leadership-level presentations.\nCoordinate environmental due diligence activities across internal teams, including legal, land development, design, construction, EHS, and sustainability.\nServe as Our Client's primary representative for environmental risk evaluations, consultant oversight, and regulatory stakeholder engagement.\nqualifications:\nBachelor's degree in Environmental Engineering, Civil Engineering, Chemical Engineering, Environmental Science, or a related field.\n10+ years of relevant experience in environmental permitting, due diligence, environmental impact assessments, and managing complex regulatory approvals.\nExceptional written, communication, and PowerPoint presentation skills, with a proven ability to summarize complex technical reports for executive leadership.\nskills:\nData Center,PowerPoint presentations,strong written and verbal communication,Communication,effectively communicate,leadership,air quality,continuous improvement,Chemical Engineering,community development,conceptual models,construction,site management,presentations,due diligence,Environmental Science,environmental assessments,environmental impact assessments,environmental site assessments,environmental compliance,environmental due diligence,environmental issues,remediation planning,Environmental Engineering,infrastructure,Civil Engineering,land development,influencing,remediation strategies,mitigation strategies,clear communication,project management,project timelines,compliance planning,regulatory requirements,investigations,RCRA,risks,risk evaluations,risk assessments,risk,schedules,stakeholder engagement,surveys,sustainability,HARD Skills\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
-        },
-        {
-          "firm": "Randstad",
-          "job_id": "ab_5135862",
-          "title": "Business Execution Consultant 4",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "58",
-          "pay_max": "60",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-04",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5135862/business-execution-consultant-4_charlotte/",
-          "recruiter_name": "Lokapriya Pemmadi",
-          "recruiter_email": "Lokapriya.Pemmadi@randstadusa.com",
-          "recruiter_phone": "6467103262",
-          "required_experience": "5 years\nExperience",
-          "required_certifications": "",
-          "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $58 - $60 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\nAct as a liaison between our lines of business and technology partners by facilitating the delivery of highly complex business problems to be solved with automated solutions\nSupport the business in the alignment of their Intelligent Automation (IA) needs/usage with their technology and business strategies\nSupport the development of the automation analysis and design methodology, including the related policies, procedures, tools and artifacts, to ensure a “rapid” implementation process that aligns with established release cycles and related enterprise standards\nWork directly with subject matter experts within the lines of business to fully comprehend business processes and translate those processes into clear and concise user stories,\ncreate and groom the backlog for automation delivery and deployment ,Support automation testing, as well as facilitate user acceptance testing\nConduct product demos, provide product acceptance\nSkills\nBusiness Systems Analysis\nBusiness Development\nBusiness Analysis\nQualifications\nYears of experience: 5 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
         },
         {
           "firm": "Randstad",
@@ -6032,17 +6032,17 @@
             "candidates": 115,
             "details_read": 115,
             "kept": 28,
-            "enumerated": 2661
+            "enumerated": 2655
           },
           "firm": "Randstad",
           "route": "mac",
-          "started_at": "2026-11-27T04:56:11.283994+00:00",
-          "completed_at": "2026-11-27T04:56:56.247619+00:00"
+          "started_at": "2026-11-27T13:57:51.692701+00:00",
+          "completed_at": "2026-11-27T14:05:44.720862+00:00"
         }
       },
-      "snapshot_at": "2026-11-27T12:44:47.942339+00:00",
-      "completed_at": "2026-11-27T12:45:15.502817+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-27T13:57:51.692701+00:00",
+      "completed_at": "2026-11-27T14:05:44.720862+00:00",
+      "snapshot_route": "mac"
     },
     "Aerotek": {
       "rows": [],
@@ -9517,17 +9517,12 @@
           "completed_at": "2026-11-27T13:46:52.003952+00:00"
         },
         "mac": {
-          "ok": true,
-          "info": {
-            "candidates": 59,
-            "details_read": 59,
-            "kept": 1,
-            "enumerated": 1499
-          },
+          "ok": false,
+          "error": "Vaco pagination repeated",
           "firm": "Vaco",
           "route": "mac",
-          "started_at": "2026-11-27T11:56:10.043621+00:00",
-          "completed_at": "2026-11-27T11:56:26.578795+00:00"
+          "started_at": "2026-11-27T13:57:51.693700+00:00",
+          "completed_at": "2026-11-27T13:57:56.630984+00:00"
         }
       },
       "snapshot_at": "2026-11-27T12:46:58.682565+00:00",
@@ -9985,11 +9980,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
+          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29655975&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T12:56:10.672202+00:00",
-          "completed_at": "2026-11-27T13:02:49.449004+00:00"
+          "started_at": "2026-11-27T13:57:51.696255+00:00",
+          "completed_at": "2026-11-27T14:05:32.843099+00:00"
         }
       }
     },
@@ -12167,7 +12162,17 @@
       "firms_failed": 3,
       "timer_run_id": "46001145920",
       "timer_fired_at": "2026-11-27T13:44:24.720180+00:00"
+    },
+    {
+      "id": "50a68c6c-b4cf-41bf-a3ba-c488f8f3e75f",
+      "route": "mac",
+      "started_at": "2026-11-27T13:57:49.375520+00:00",
+      "completed_at": "2026-11-27T14:05:44.726822+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-27T13:52:48.058896+00:00"
+  "published_at": "2026-11-27T14:05:46.201205+00:00"
 }
