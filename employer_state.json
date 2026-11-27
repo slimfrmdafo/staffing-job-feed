@@ -2494,11 +2494,35 @@
           "completed_at": "2026-11-27T04:16:03.607206+00:00",
           "ok": false,
           "error": "Error: Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:370:30), <anonymous>:1:36)\n    at UtilityScript.evaluate (<anonymous>:377:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        "mac": {
+          "firm": "Citigroup",
+          "route": "mac",
+          "started_at": "2026-11-27T05:07:46.825429+00:00",
+          "completed_at": "2026-11-27T05:09:53.042217+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 1426,
+            "enumerated_raw": 1426,
+            "advertised": 1426,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 132,
+            "closed_during_pull": 0,
+            "kept": 8,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "Country_and_Jurisdiction": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         }
       },
-      "snapshot_at": "2026-11-27T03:14:56.744959+00:00",
-      "completed_at": "2026-11-27T03:16:49.646036+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-27T05:07:46.825429+00:00",
+      "completed_at": "2026-11-27T05:09:53.042217+00:00",
+      "snapshot_route": "mac"
     },
     "AT&T": {
       "rows": [],
@@ -6234,7 +6258,17 @@
       "firms_failed": 1,
       "timer_run_id": "45932923686",
       "timer_fired_at": "2026-11-27T04:13:54.696928+00:00"
+    },
+    {
+      "id": "34d1847b-be47-43b1-8962-a2f0fda86615",
+      "route": "mac",
+      "started_at": "2026-11-27T05:07:44.817217+00:00",
+      "completed_at": "2026-11-27T05:09:53.044541+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 1,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-27T04:19:13.754742+00:00"
+  "published_at": "2026-11-27T05:09:54.285763+00:00"
 }
