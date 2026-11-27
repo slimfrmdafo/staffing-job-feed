@@ -5495,28 +5495,6 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "1369143",
-          "title": "Supply Chain / Program Management Representative",
-          "client_company": "",
-          "city": "San Francisco",
-          "state": "CA",
-          "work_arrangement": "remote",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "36",
-          "pay_max": "46",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-19",
-          "url": "https://www.randstadusa.com/jobs/4/1369143/supply-chain-program-management-representative_san-francisco/",
-          "recruiter_name": "Randstad Technologies",
-          "recruiter_email": "technology@randstadusa.com",
-          "recruiter_phone": "",
-          "required_experience": "5+ years of experience",
-          "required_certifications": "",
-          "description": "job summary:\nWe are seeking a detail-oriented Supply Chain / Program Management Representative to support fast-paced lab operations and procurement workflows within our Communications, Media & Technology (CM&T) practice. Working remotely alongside Technical Program Managers, engineers, and product teams, you will drive end-to-end purchasing, supplier coordination, software licensing, and operational queue management.\nlocation: Telecommute\njob type: Contract\nsalary: $36 - 46  per hour\nwork hours: 8am to 5pm\neducation: High School\nresponsibilities:\nCollaborate closely with GDC Technical Program Managers (TPMs), engineers, and product teams to support lab purchase requests, procurement tasks, supplier identification and enrollment, and stakeholder/supplier coordination, while providing timely status updates.\nTrack end-to-end delivery of all purchased materials and communicate delays, price changes, and completions to engineering teams.\nProcure and maintain software licenses, provision access to approved requesters, and track license expiration dates and renewals.\nMonitor bug requests and queues, updating queues as needed.\nManage high-volume operational tracking across 800+ annual Buganizer requests, 600+ purchase orders and deliveries, 25+ Hardware-as-a-Service (HWaaS) contracts with Systems Integrators, and 800+ invoices.\nqualifications:\nREQUIRED QUALIFICATIONS\nHigh School Diploma or equivalent.\n5+ years of experience in Supply Chain Enterprise Performance Management (EPM) (Advanced level).\n5+ years of experience in Program Management.\nRelevant industry experience in supply chain and program management operations.\nAuthorized to work in the United States as a US Citizen (USC) or Green Card (GC) holder.\nPREFERRED QUALIFICATIONS\nExperience working with Google and its internal tools/systems (such as Buganizer).\nExperience managing Hardware-as-a-Service (HWaaS) vendor contracts and high-volume purchase order/invoice resolution.\nskills:\nsoftware lifecycle management,software licensing,Communications,Enterprise Performance Management,TPMs,invoices,procurement,purchase orders,Program Management,Supply Chain\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\nQualified applicants in San Francisco with criminal histories will be considered for employment in accordance with the San Francisco Fair Chance Ordinance.\nQualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.\nWe will consider for employment all qualified Applicants, including those with criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the City of Los Angeles' Fair Chance Initiative for Hiring Ordinance."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "1369065",
           "title": "Infrastructure Cyber Security Risk Architect",
           "client_company": "",
@@ -5536,6 +5514,28 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "job summary:\n-committed to giving live feedback so we can continue to tweak our search for this resource\nlocation: Charlotte, North Carolina\njob type: Contract\nsalary: $74.95 - 84.95 per hour\nwork hours:\neducation: Bachelors\nqualifications:\ne2e infrastructure and cyber security process and architecture risk management consultant - infrastructure (network, mainframe, devops (terraform, ansible) how to design, architecture, and maintain and implement) - this resource will support all CTI executives so exec communication is critical\nskills:\nansible,CTI,cyber security,devops,mainframe,terraform,communication,architecture,infrastructure,process engineering,risk management,hard skills\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "1369143",
+          "title": "Supply Chain / Program Management Representative",
+          "client_company": "",
+          "city": "San Francisco",
+          "state": "CA",
+          "work_arrangement": "remote",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "36",
+          "pay_max": "46",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-19",
+          "url": "https://www.randstadusa.com/jobs/4/1369143/supply-chain-program-management-representative_san-francisco/",
+          "recruiter_name": "Randstad Technologies",
+          "recruiter_email": "technology@randstadusa.com",
+          "recruiter_phone": "",
+          "required_experience": "5+ years of experience",
+          "required_certifications": "",
+          "description": "job summary:\nWe are seeking a detail-oriented Supply Chain / Program Management Representative to support fast-paced lab operations and procurement workflows within our Communications, Media & Technology (CM&T) practice. Working remotely alongside Technical Program Managers, engineers, and product teams, you will drive end-to-end purchasing, supplier coordination, software licensing, and operational queue management.\nlocation: Telecommute\njob type: Contract\nsalary: $36 - 46  per hour\nwork hours: 8am to 5pm\neducation: High School\nresponsibilities:\nCollaborate closely with GDC Technical Program Managers (TPMs), engineers, and product teams to support lab purchase requests, procurement tasks, supplier identification and enrollment, and stakeholder/supplier coordination, while providing timely status updates.\nTrack end-to-end delivery of all purchased materials and communicate delays, price changes, and completions to engineering teams.\nProcure and maintain software licenses, provision access to approved requesters, and track license expiration dates and renewals.\nMonitor bug requests and queues, updating queues as needed.\nManage high-volume operational tracking across 800+ annual Buganizer requests, 600+ purchase orders and deliveries, 25+ Hardware-as-a-Service (HWaaS) contracts with Systems Integrators, and 800+ invoices.\nqualifications:\nREQUIRED QUALIFICATIONS\nHigh School Diploma or equivalent.\n5+ years of experience in Supply Chain Enterprise Performance Management (EPM) (Advanced level).\n5+ years of experience in Program Management.\nRelevant industry experience in supply chain and program management operations.\nAuthorized to work in the United States as a US Citizen (USC) or Green Card (GC) holder.\nPREFERRED QUALIFICATIONS\nExperience working with Google and its internal tools/systems (such as Buganizer).\nExperience managing Hardware-as-a-Service (HWaaS) vendor contracts and high-volume purchase order/invoice resolution.\nskills:\nsoftware lifecycle management,software licensing,Communications,Enterprise Performance Management,TPMs,invoices,procurement,purchase orders,Program Management,Supply Chain\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\nQualified applicants in San Francisco with criminal histories will be considered for employment in accordance with the San Francisco Fair Chance Ordinance.\nQualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.\nWe will consider for employment all qualified Applicants, including those with criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the City of Los Angeles' Fair Chance Initiative for Hiring Ordinance."
         },
         {
           "firm": "Randstad",
@@ -5561,28 +5561,6 @@
         },
         {
           "firm": "Randstad",
-          "job_id": "ab_5159248",
-          "title": "Director, Quality and Business Process Governance",
-          "client_company": "",
-          "city": "Atlanta",
-          "state": "GA",
-          "work_arrangement": "remote",
-          "job_type": "contract",
-          "contract_length": "",
-          "pay_min": "90.9",
-          "pay_max": "91.9",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-17",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5159248/director-quality-and-business-process-governance_atlanta/",
-          "recruiter_name": "G Abhinav",
-          "recruiter_email": "g.abhinav@randstadusa.com",
-          "recruiter_phone": "8134442142",
-          "required_experience": "10 years\nExperience",
-          "required_certifications": "",
-          "description": "The Director, Quality and Business Process Governance leads governance, compliance, and business process initiatives for Licensing & Retail, ensuring effective operational controls, partner due diligence, quality standards, and continuous process improvement. Partners cross-functionally with Legal, Licensing, Quality, and external service providers to support compliant and efficient business operations. This is a partime opportunity beginning January 2027.  Ideal candidate will be local to the Atlanta area but open to fully remote candidates.    This is a unique role because of the experience needed in Licensing and Retail merchandise and products with quality assurance and compliance background.  We have a broad range of products across soft lines and hardlines categories ranging from apparel to drinkware to tech products to health and beauty to food licensing.   Qualifications:\n10 + years’ experience in licensing, consumer products (e.g. electronics, drinkware, cosmetics and beauty, toys), retail, brand compliance, supplier compliance, quality assurance, or related fields.\nExperience reviewing third-party testing and interpreting results.\nFamiliarity with Brand Comply software and approval processes, product testing programs, and licensing operations. (any licensing software is fine)\nsalary: $90.9 - $91.9 per hour\nshift: First\nwork hours: 8 AM - 4 PM\neducation: Bachelors\nResponsibilities\nLeads governance, compliance, and business process initiatives for Licensing & Retail, ensuring effective operational controls, partner due diligence, quality standards, and continuous process improvement.\nPartners cross-functionally with Legal, Licensing, Quality, and external service providers to support compliant and efficient business operations.\nAbility to interpret and apply corporate policies, standards, and governance frameworks.\nExperience managing compliance documentation, approvals, and partner reviews.\nExcellent follow-through and attention to detail with excellent verbal and written communication skills.\nAbility to manage relationships with external partners, licensees, manufacturers, and internal stakeholders.\nAbility to review and assess risk-related information and compliance documentation.\nProficiency with business systems and workflow tools, including AI and Microsoft Office applications.\nExcellent decision-making, problem-solving, and professional judgment skills.\nSkills\nQuality Assurance\nMerchandising\nLicensing\nProduct Marketing\nBrand Comply\nQualifications\nYears of experience: 10 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
-        },
-        {
-          "firm": "Randstad",
           "job_id": "ab_5159245",
           "title": "Business Execution Consultant 3",
           "client_company": "",
@@ -5602,6 +5580,28 @@
           "required_experience": "4 years\nExperience",
           "required_certifications": "",
           "description": "Randstad Strategic Accounts is looking for a business professional with a knowledge and proficiency working in the banking industry. We have a role that we are looking to fill for a contract position with a top tier bank in the financial industry. If you are interested in becoming part of a team where you can contribute to drive both personal and organizational goals, this may be the right fit for you!  For further information on the role, and job responsibilities, please read and apply below!\nsalary: $40 - $48 per hour\nshift: First\nwork hours: 8 AM - 5 PM\neducation: Bachelors\nResponsibilities\n• Provide day-to-day business and application support across a portfolio of client, CRM, and other deal-management applications, balancing production support responsibilities with strategic project and transformation work.\n• Develop working knowledge across multiple interconnected applications and business processes and serve as a knowledgeable resource for users and stakeholders.\n• Independently research and troubleshoot application, data, access, workflow, and user issues; perform root-cause analysis; and coordinate with Technology or other support teams when additional investigation is required.\n• Evaluate issues across interconnected systems to determine whether the underlying cause relates to application functionality, data, integration, access, business process, or user behavior.\n• Support applications and capabilities that may include Microsoft Dynamics 365, Salesforce, nCino, Microsoft Teams Deal Hub, client and lending applications, and related shared services and integrations.\n• Translate business needs into business requirements, user stories, acceptance criteria, process flows, test scenarios, and supporting documentation.\n• Drive assigned workstreams and deliverables through completion, proactively identifying risks, dependencies, gaps, and decisions requiring stakeholder input.\nSkills\nJob Description Modernization\nHuman Resources\nCompensation\nQualifications\nYears of experience: 4 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days."
+        },
+        {
+          "firm": "Randstad",
+          "job_id": "ab_5159248",
+          "title": "Director, Quality and Business Process Governance",
+          "client_company": "",
+          "city": "Atlanta",
+          "state": "GA",
+          "work_arrangement": "remote",
+          "job_type": "contract",
+          "contract_length": "",
+          "pay_min": "90.9",
+          "pay_max": "91.9",
+          "pay_unit": "hour",
+          "posted_date": "2026-11-17",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5159248/director-quality-and-business-process-governance_atlanta/",
+          "recruiter_name": "G Abhinav",
+          "recruiter_email": "g.abhinav@randstadusa.com",
+          "recruiter_phone": "8134442142",
+          "required_experience": "10 years\nExperience",
+          "required_certifications": "",
+          "description": "The Director, Quality and Business Process Governance leads governance, compliance, and business process initiatives for Licensing & Retail, ensuring effective operational controls, partner due diligence, quality standards, and continuous process improvement. Partners cross-functionally with Legal, Licensing, Quality, and external service providers to support compliant and efficient business operations. This is a partime opportunity beginning January 2027.  Ideal candidate will be local to the Atlanta area but open to fully remote candidates.    This is a unique role because of the experience needed in Licensing and Retail merchandise and products with quality assurance and compliance background.  We have a broad range of products across soft lines and hardlines categories ranging from apparel to drinkware to tech products to health and beauty to food licensing.   Qualifications:\n10 + years’ experience in licensing, consumer products (e.g. electronics, drinkware, cosmetics and beauty, toys), retail, brand compliance, supplier compliance, quality assurance, or related fields.\nExperience reviewing third-party testing and interpreting results.\nFamiliarity with Brand Comply software and approval processes, product testing programs, and licensing operations. (any licensing software is fine)\nsalary: $90.9 - $91.9 per hour\nshift: First\nwork hours: 8 AM - 4 PM\neducation: Bachelors\nResponsibilities\nLeads governance, compliance, and business process initiatives for Licensing & Retail, ensuring effective operational controls, partner due diligence, quality standards, and continuous process improvement.\nPartners cross-functionally with Legal, Licensing, Quality, and external service providers to support compliant and efficient business operations.\nAbility to interpret and apply corporate policies, standards, and governance frameworks.\nExperience managing compliance documentation, approvals, and partner reviews.\nExcellent follow-through and attention to detail with excellent verbal and written communication skills.\nAbility to manage relationships with external partners, licensees, manufacturers, and internal stakeholders.\nAbility to review and assess risk-related information and compliance documentation.\nProficiency with business systems and workflow tools, including AI and Microsoft Office applications.\nExcellent decision-making, problem-solving, and professional judgment skills.\nSkills\nQuality Assurance\nMerchandising\nLicensing\nProduct Marketing\nBrand Comply\nQualifications\nYears of experience: 10 years\nExperience level: Experienced\nRandstad is a world leader in matching great people with great companies. Our experienced agents will listen carefully to your employment needs and then work diligently to match your skills and qualifications to the right job and company. Whether you're looking for temporary, temporary-to-permanent or permanent opportunities, no one works harder for you than Randstad.\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\nAt Randstad, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\nWe use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people.\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc.  In addition, Randstad offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\nThis posting is open for thirty (30) days.\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
         },
         {
           "firm": "Randstad",
@@ -6041,12 +6041,12 @@
           },
           "firm": "Randstad",
           "route": "mac",
-          "started_at": "2026-11-27T04:07:38.912553+00:00",
-          "completed_at": "2026-11-27T04:08:17.525829+00:00"
+          "started_at": "2026-11-27T04:56:11.283994+00:00",
+          "completed_at": "2026-11-27T04:56:56.247619+00:00"
         }
       },
-      "snapshot_at": "2026-11-27T04:07:38.912553+00:00",
-      "completed_at": "2026-11-27T04:08:17.525829+00:00",
+      "snapshot_at": "2026-11-27T04:56:11.283994+00:00",
+      "completed_at": "2026-11-27T04:56:56.247619+00:00",
       "snapshot_route": "mac"
     },
     "Aerotek": {
@@ -9526,8 +9526,8 @@
           "error": "Vaco pagination repeated",
           "firm": "Vaco",
           "route": "mac",
-          "started_at": "2026-11-26T22:56:09.232642+00:00",
-          "completed_at": "2026-11-26T22:56:10.319792+00:00"
+          "started_at": "2026-11-27T04:56:11.285947+00:00",
+          "completed_at": "2026-11-27T04:56:16.368270+00:00"
         }
       },
       "snapshot_at": "2026-11-27T03:44:50.085810+00:00",
@@ -9988,8 +9988,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T04:07:38.913727+00:00",
-          "completed_at": "2026-11-27T04:14:44.777770+00:00"
+          "started_at": "2026-11-27T04:56:11.287227+00:00",
+          "completed_at": "2026-11-27T05:03:17.065219+00:00"
         }
       }
     },
@@ -11969,7 +11969,17 @@
       "firms_failed": 3,
       "timer_run_id": "45935747121",
       "timer_fired_at": "2026-11-27T04:42:52.490994+00:00"
+    },
+    {
+      "id": "ac251825-09d4-4afa-b9a8-73d83aa1f3af",
+      "route": "mac",
+      "started_at": "2026-11-27T04:56:09.044656+00:00",
+      "completed_at": "2026-11-27T05:03:17.089229+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-27T04:53:56.648191+00:00"
+  "published_at": "2026-11-27T05:03:19.354387+00:00"
 }
