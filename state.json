@@ -695,17 +695,12 @@
           "completed_at": "2026-11-27T06:45:37.466876+00:00"
         },
         "mac": {
-          "ok": true,
-          "info": {
-            "candidates": 222,
-            "details_read": 222,
-            "kept": 36,
-            "search_pages": 77
-          },
+          "ok": false,
+          "error": "1/197 detail pages failed: Full JobPosting data missing: https://www.roberthalf.com/us/en/job/grapevine-tx/project-manager/04060-0013542936-usen",
           "firm": "Robert Half",
           "route": "mac",
-          "started_at": "2026-11-26T19:56:10.160748+00:00",
-          "completed_at": "2026-11-26T19:59:30.340396+00:00"
+          "started_at": "2026-11-27T06:56:25.629550+00:00",
+          "completed_at": "2026-11-27T06:57:23.451690+00:00"
         }
       },
       "snapshot_at": "2026-11-27T05:43:13.476956+00:00",
@@ -9421,12 +9416,12 @@
           },
           "firm": "Vaco",
           "route": "mac",
-          "started_at": "2026-11-27T05:56:11.216179+00:00",
-          "completed_at": "2026-11-27T05:56:27.607456+00:00"
+          "started_at": "2026-11-27T06:56:25.631156+00:00",
+          "completed_at": "2026-11-27T06:56:45.129722+00:00"
         }
       },
-      "snapshot_at": "2026-11-27T05:56:11.216179+00:00",
-      "completed_at": "2026-11-27T05:56:27.607456+00:00",
+      "snapshot_at": "2026-11-27T06:56:25.631156+00:00",
+      "completed_at": "2026-11-27T06:56:45.129722+00:00",
       "snapshot_route": "mac"
     },
     "The Select Group": {
@@ -9883,8 +9878,8 @@
           "error": "Human security check on full detail: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T05:56:11.218087+00:00",
-          "completed_at": "2026-11-27T06:03:22.914609+00:00"
+          "started_at": "2026-11-27T06:56:25.632938+00:00",
+          "completed_at": "2026-11-27T07:03:30.598541+00:00"
         }
       }
     },
@@ -11908,7 +11903,17 @@
       "firms_failed": 3,
       "timer_run_id": "45947448633",
       "timer_fired_at": "2026-11-27T06:43:10.567954+00:00"
+    },
+    {
+      "id": "0bd9f2a2-5a70-4f5a-b885-7993b50d0ae4",
+      "route": "mac",
+      "started_at": "2026-11-27T06:56:22.667287+00:00",
+      "completed_at": "2026-11-27T07:03:30.613831+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-27T06:54:07.227675+00:00"
+  "published_at": "2026-11-27T07:03:32.044341+00:00"
 }
