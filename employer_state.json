@@ -535,10 +535,17 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-27T05:14:59.570537+00:00",
-          "completed_at": "2026-11-27T05:15:05.814964+00:00",
-          "ok": false,
-          "error": "CollectionError: 403 Client Error: Forbidden for url: https://careers.bankofamerica.com/services/jobssearchservlet?start=0&rows=100&search=getAllJobs"
+          "started_at": "2026-11-27T06:14:54.005139+00:00",
+          "completed_at": "2026-11-27T06:15:56.312367+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 2084,
+            "enumerated_raw": 2084,
+            "advertised": 2084,
+            "details_read": 142,
+            "kept": 24,
+            "method": "employer search service + canonical full detail pages"
+          }
         },
         "mac": {
           "firm": "Bank of America",
@@ -556,8 +563,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:14:23.405978+00:00",
-      "completed_at": "2026-11-27T04:15:28.683764+00:00",
+      "snapshot_at": "2026-11-27T06:14:54.005139+00:00",
+      "completed_at": "2026-11-27T06:15:56.312367+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -809,17 +816,17 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-27T05:14:59.571463+00:00",
-          "completed_at": "2026-11-27T05:16:00.499811+00:00",
+          "started_at": "2026-11-27T06:14:54.006184+00:00",
+          "completed_at": "2026-11-27T06:15:54.865719+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1352,
-            "enumerated_raw": 1352,
-            "advertised": 1352,
+            "enumerated": 1305,
+            "enumerated_raw": 1305,
+            "advertised": 1305,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 18,
+            "details_read": 17,
             "closed_during_pull": 0,
             "kept": 11,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -855,8 +862,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:14:59.571463+00:00",
-      "completed_at": "2026-11-27T05:16:00.499811+00:00",
+      "snapshot_at": "2026-11-27T06:14:54.006184+00:00",
+      "completed_at": "2026-11-27T06:15:54.865719+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1636,8 +1643,8 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-27T05:14:59.571918+00:00",
-          "completed_at": "2026-11-27T05:16:22.419557+00:00",
+          "started_at": "2026-11-27T06:14:54.006611+00:00",
+          "completed_at": "2026-11-27T06:16:15.531092+00:00",
           "ok": true,
           "info": {
             "enumerated": 1306,
@@ -1662,8 +1669,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-27T05:14:59.571918+00:00",
-      "completed_at": "2026-11-27T05:16:22.419557+00:00",
+      "snapshot_at": "2026-11-27T06:14:54.006611+00:00",
+      "completed_at": "2026-11-27T06:16:15.531092+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1761,8 +1768,8 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-27T05:14:59.572258+00:00",
-          "completed_at": "2026-11-27T05:15:09.664380+00:00",
+          "started_at": "2026-11-27T06:14:54.006925+00:00",
+          "completed_at": "2026-11-27T06:15:01.694177+00:00",
           "ok": true,
           "info": {
             "enumerated": 64,
@@ -1799,8 +1806,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:14:59.572258+00:00",
-      "completed_at": "2026-11-27T05:15:09.664380+00:00",
+      "snapshot_at": "2026-11-27T06:14:54.006925+00:00",
+      "completed_at": "2026-11-27T06:15:01.694177+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2008,8 +2015,8 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-27T05:15:05.815034+00:00",
-          "completed_at": "2026-11-27T05:15:29.980194+00:00",
+          "started_at": "2026-11-27T06:15:01.694238+00:00",
+          "completed_at": "2026-11-27T06:15:26.316268+00:00",
           "ok": true,
           "info": {
             "enumerated": 4574,
@@ -2030,8 +2037,8 @@
           "error": "CollectionError: Employer full JobPosting missing: https://talent.lowes.com/us/en/job/JR-02707912"
         }
       },
-      "snapshot_at": "2026-11-27T05:15:05.815034+00:00",
-      "completed_at": "2026-11-27T05:15:29.980194+00:00",
+      "snapshot_at": "2026-11-27T06:15:01.694238+00:00",
+      "completed_at": "2026-11-27T06:15:26.316268+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2085,13 +2092,13 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-27T05:15:09.664436+00:00",
-          "completed_at": "2026-11-27T05:15:15.789334+00:00",
+          "started_at": "2026-11-27T06:15:26.316327+00:00",
+          "completed_at": "2026-11-27T06:15:32.609375+00:00",
           "ok": true,
           "info": {
-            "enumerated": 80,
-            "enumerated_raw": 80,
-            "advertised": 80,
+            "enumerated": 79,
+            "enumerated_raw": 79,
+            "advertised": 79,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2107,8 +2114,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:15:09.664436+00:00",
-      "completed_at": "2026-11-27T05:15:15.789334+00:00",
+      "snapshot_at": "2026-11-27T06:15:26.316327+00:00",
+      "completed_at": "2026-11-27T06:15:32.609375+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2134,69 +2141,25 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "This is a\nContingent Worker (Non-Employee)\nrole providing services to TIAA and its family of companies. The individual will be engaged and employed by TIAA’s preferred third‑party supplier. In this capacity, you will perform a range of moderately complex business planning, support, and project-related responsibilities, consistently delivering work product to an exceptional standard of quality and holding yourself accountable for achieving excellent results. Strong performance as a Contingent Worker (Non-Employee) and evolving business needs could create opportunities for consideration for\npermanent roles with TIAA\nthrough the company’s standard hiring processes.\nThis role is expected to be\nonsite in a hybrid capacity\nat the location(s) identified in this posting.\nThe anticipated term of this engagement is 11 months, with the possibility of extension based on business needs\nProject and Program Management\nThe Project and Program Management role is responsible for planning, organizing, and controlling resources, processes to achieve project/program objectives within scope, time, quality, and budget constraints. As a subject matter expert in Project/Program Management, this job utilizes general knowledge of the project/business requirements to manage large projects for the organization.\nKey Responsibilities and Duties\nOrganizes project teams by assigning individual responsibilities, developing project schedules, and determining resource requirements necessary to ensure project is successful.\nEstimates the costs, resources, and time required to complete each phase of a project and allocates resources and tasks to ensure these targets are met.\nImplements an established project plan and monitors progress and performance against this plan.\nMonitors the status of projects including cost, timing, and staffing.\nIdentifies and resolves obstacles to completing project on time and to budget.\nConducts project meetings and prepares regular reports to communicate the status of the project within and beyond the project team.\nCoordinates the activities of outside contractors to ensure they are integrated into the project and that the organization receives satisfactory standards of service.\nEducational Requirements\nUniversity (Degree) Preferred\nWork Experience\n5+ Years Required; 7+ Years Preferred\nPhysical Requirements\nPhysical Requirements: Sedentary Work\nCareer Level\n8IC\nRelated Skills\nAdaptability, Collaboration, Communication, Consultative Communication, Executive Presence, General Risk Management, Influence, Problem Solving, Program Management, Project Management, Relationship Management, Stakeholder Engagement\nStart Date: 01-Jan-2027\nEnd Date: 31-Dec-2027\nTravel Required: Yes\nAnticipated Posting End Date:\nBase Pay Range: $60.10/hr - $84.13/hr\nActual base salary may vary based upon, but not limited to, relevant experience, time in role, base salary of internal peers, prior performance, business sector, and geographic location.\n_____________________________________________________________________________________________________\nEqual Opportunity\nWe are an Equal Opportunity Employer. TIAA does not discriminate against any candidate or employee on the basis of age, race, color, national origin, sex, religion, veteran status, disability, sexual orientation, gender identity, or any other legally protected status.\nOur full EEO & Non-Discrimination statement is on our\ncareers home page\n, and you can read more about your rights and view government notices\nhere\n.\nAccessibility Support\nTIAA offers support for those who need assistance with our online application process to provide an equal employment opportunity to all job seekers, including individuals with disabilities.\nIf you are a U.S. applicant and desire a reasonable accommodation to complete a job application please use one of the below options to contact our accessibility support team:\nPhone: (800) 842-2755\nEmail:\naccessibility.support@tiaa.org\nDrug and Smoking Policy\nTIAA maintains a drug-free and smoke/free workplace.\nPrivacy Notices\nFor Applicants of TIAA, Nuveen and Affiliates residing in US (other than California), click\nhere\n.\nFor Applicants of TIAA, Nuveen and Affiliates residing in California, please click\nhere\n.\nFor Applicants of TIAA Global Capabilities, click\nhere\n.\nFor Applicants of Nuveen residing in Europe and APAC, please click\nhere\n."
-        },
-        {
-          "firm": "TIAA",
-          "job_id": "R260900262",
-          "title": "AVP, Compliance Advisor (Distribution Compliance (America))",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "87800",
-          "pay_max": "119000",
-          "pay_unit": "year",
-          "posted_date": "2026-11-20",
-          "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Chicago-IL-USA/AVP--Compliance-Advisor--Distribution-Compliance--America--_R260900262-1",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "Series 7 and Series 24 licenses required, or ability to obtain both within 120 days from the date of hire",
-          "description": "AVP, Compliance Advisor (Distribution Compliance (Americas)\nThe AVP, Distribution Compliance supports the Chief Compliance Officer in administering compliance programs for a registered broker-dealer and Canadian distribution entity. This role executes day-to-day compliance operations and advises the business on regulatory and compliance matters. Working knowledge of a wholesale broker-dealer distribution model is a plus but not required.\nKey Responsibilities and Duties\nAdvise business partners on regulatory requirements and internal policies and procedures\nDevelop and maintain policies and procedures supporting regulatory compliance\nAssist CCO with performing regulatory risk assessments to identify compliance issues, concerns, and deficiencies and implementing action plans to remediate identified issues\nExecute monitoring activities and forensic reviews, document results, and drive remediation\nAdminister regulatory due diligence for broker-dealer and Canadian distribution arrangements, including product-related compliance matters\nAdminister aspects of licensing and registration for the broker-dealer and Canadian entity\nMonitor regulatory developments and industry trends affecting the compliance programs\nSupport document production for audits, testing, and regulatory examinations\nEducational Requirements\nUniversity (Degree) Preferred\nWork Experience\n3+ Years Required; 5+ Years Preferred\nFINRA Registrations\nSRC Indicator:  Series 7; Series 24\nPhysical Requirements\nPhysical Requirements: Sedentary Work\nCareer Level\n7IC\nRequired Skills\n3 or more years of experience in regulatory compliance within financial services industry\nExperience with a distribution-oriented broker-dealer business model\nFamiliarity with Alternatives asset classes, including registered and unregistered funds\nSeries 7 and Series 24 licenses required, or ability to obtain both within 120 days from the date of hire.\nPreferred Skills\n5 or more years of experience in a regulatory compliance within financial services industry\nExcellent attention to detail, strong analytical thinking, and effective written and verbal communication skills\nBachelor's degree\nHigh proficiency in Microsoft Excel and PowerPoint\nRelated Skills\nAdaptability, Business Process Understanding, Compliance, Compliance Trends, Critical Thinking, Detail-Oriented, Influence, Relationship Management, Risk Monitoring, Strategic Thinking\nAnticipated Posting End Date:\n2026-11-27\nBase Pay Range: $87,800/yr - $119,000/yr\nActual base salary may vary based upon, but not limited to, relevant experience, time in role, base salary of internal peers, prior performance, business sector, and geographic location.  In addition to base salary, the competitive compensation package may include, depending on the role, participation in an incentive program linked to performance (for example, annual discretionary incentive programs, non-annual sales incentive plans, or other non-annual incentive plans).\n_____________________________________________________________________________________________________\nCompany Overview\nNuveen is a global investment leader, managing public and private assets for clients around the world and on behalf of TIAA, our parent company and one of the world’s largest institutional investors. We invest in the growth of businesses, real estate, infrastructure and natural capital, providing clients with the reliability, access and foresight unique to our heritage. Our prevailing perspective on the future drives our ambition to innovate and adapt our business to the changing needs of investors - all to pursue lasting performance for our clients, our communities and our global economy. Visit\nwww.nuveen.com\nto learn more about us.\nOur Culture of Impact\nAt TIAA, we're on a mission to build on our 100+ year legacy of delivering for our clients while evolving to meet tomorrow's challenges. We equip our associates with future-focused skills and AI tools that enable us to advance our mission. Together, we are fighting to ensure a more secure financial future for all and for generations to come. We are guided by our values: Champion Our People, Be Client Obsessed, Lead with Integrity, Own It, and Win As One. They influence every decision we make and how we work together to serve our clients every day. We thrive in a collaborative in-office environment where teams work across organizational boundaries with shared purpose, accelerating innovation and delivering meaningful results. Our workplace brings together TIAA and Nuveen's entrepreneurial spirit, where we work hard and work together to create lasting impact. Here, every associate can grow through meaningful learning experiences and development pathways—because when our people succeed, our impact on clients' lives grows stronger.\nBenefits and Total Rewards\nThe organization is committed to making financial well-being possible for its clients, and is equally committed to the well-being of our associates. That’s why we offer a comprehensive Total Rewards package designed to make a positive difference in the lives of our associates and their loved ones. Our benefits include a superior retirement program and highly competitive health, wellness and work life offerings that can help you achieve and maintain your best possible physical, emotional and financial well-being. To learn more about your benefits, please review our\nBenefits Summary\n.\nEqual Opportunity\nWe are an Equal Opportunity Employer. TIAA does not discriminate against any candidate or employee on the basis of age, race, color, national origin, sex, religion, veteran status, disability, sexual orientation, gender identity, or any other legally protected status.\nOur full EEO & Non-Discrimination statement is on our\ncareers home page\n, and you can read more about your rights and view government notices\nhere\n.\nAccessibility Support\nTIAA offers support for those who need assistance with our online application process to provide an equal employment opportunity to all job seekers, including individuals with disabilities.\nIf you are a U.S. applicant and desire a reasonable accommodation to complete a job application please use one of the below options to contact our accessibility support team:\nPhone: (800) 842-2755\nEmail:\naccessibility.support@tiaa.org\nDrug and Smoking Policy\nTIAA maintains a drug-free and smoke/free workplace.\nPrivacy Notices\nFor Applicants of TIAA, Nuveen and Affiliates residing in US (other than California), click\nhere\n.\nFor Applicants of TIAA, Nuveen and Affiliates residing in California, please click\nhere\n.\nFor Applicants of TIAA Global Capabilities, click\nhere\n.\nFor Applicants of Nuveen residing in Europe and APAC, please click\nhere\n."
-        },
-        {
-          "firm": "TIAA",
-          "job_id": "R260700332",
-          "title": "Sr Analyst, Regulatory Program Management",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "67700",
-          "pay_max": "95100",
-          "pay_unit": "year",
-          "posted_date": "2026-11-03",
-          "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Dallas-TX-USA/Sr-Analyst--Regulatory-Program-Management_R260700332",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "The Senior Analyst, Regulatory Program Management job evaluates the reliability and effectiveness of internal controls across the company. As a subject matter expert in regulatory requirements, this job ensures adherence to regulatory standards and proper oversight is being conducted over broker dealer activities. This job contributes to establishing operating routines and procedures that enable sound supervisory practices.\nKey Responsibilities and Duties\nContributes to the creation and maintenance of processes that ensure adherence to regulatory requirements.\nDesigns and executes the testing of regulatory processes and controls.\nPresents findings and applicable recommendations to management and/or appropriate business partners.\nOversees cross-functional implementation of broker dealer programs including analysis of regulatory risks in operational areas.\nReviews documentation of business processes, risks and controls via business as usual engagement and ongoing partnerships.\nEvaluates policies and procedures currently in place within the organization to identify gaps and opportunities.\nCommunicates new or revised policies, procedures, processes and related documents to appropriate team members and/or business units.\nEducational Requirements\nUniversity (Degree) Preferred\nWork Experience\n5+ Years Required; 7+ Years Preferred\nFINRA Registrations\nSRC Indicator:  Series 7; Series 24\nPhysical Requirements\nPhysical Requirements: Sedentary Work\nCareer Level\n8IC\nRequired Qualifications\n3+ years of financial services experience\nSeries 7 and 24 completed within 120 days of start date\nPreferred Qualifications\n7+ years of financial services experience\nTenured experience researching and resolving issues\nPrior experience testing and monitoring procedures\nProactive and willing to learn\nFlexible, a team player\nRelated Skills\nBusiness Acumen, Business Process Improvement, Business Process Understanding, Communication, Compliance, Continuous Improvement Mindset, Detail-Oriented, General Risk Management, Influence, Relationship Management, Risk Mitigation, Risk Monitoring\nAnticipated Posting End Date:\n2026-11-27\nBase Pay Range: $67,700/yr - $95,100/yr\nActual base salary may vary based upon, but not limited to, relevant experience, time in role, base salary of internal peers, prior performance, business sector, and geographic location.  In addition to base salary, the competitive compensation package may include, depending on the role, participation in an incentive program linked to performance (for example, annual discretionary incentive programs, non-annual sales incentive plans, or other non-annual incentive plans).\n_____________________________________________________________________________________________________\nCompany Overview\nEvery worker deserves a secure retirement. For more than 100 years, TIAA has delivered it for millions of people. Founded to help educators retire with dignity, today weʼre a market-leading retirement company fueled by world-class asset management. But weʼre not just another legacy financial services firm. Weʼre fighting harder than ever before for our clients and the many Americans who need us.\nOur Culture of Impact\nAt TIAA, we're on a mission to build on our 100+ year legacy of delivering for our clients while evolving to meet tomorrow's challenges. We equip our associates with future-focused skills and AI tools that enable us to advance our mission. Together, we are fighting to ensure a more secure financial future for all and for generations to come. We are guided by our values: Champion Our People, Be Client Obsessed, Lead with Integrity, Own It, and Win As One. They influence every decision we make and how we work together to serve our clients every day. We thrive in a collaborative in-office environment where teams work across organizational boundaries with shared purpose, accelerating innovation and delivering meaningful results. Our workplace brings together TIAA and Nuveen's entrepreneurial spirit, where we work hard and work together to create lasting impact. Here, every associate can grow through meaningful learning experiences and development pathways—because when our people succeed, our impact on clients' lives grows stronger.\nBenefits and Total Rewards\nThe organization is committed to making financial well-being possible for its clients, and is equally committed to the well-being of our associates. That’s why we offer a comprehensive Total Rewards package designed to make a positive difference in the lives of our associates and their loved ones. Our benefits include a superior retirement program and highly competitive health, wellness and work life offerings that can help you achieve and maintain your best possible physical, emotional and financial well-being. To learn more about your benefits, please review our\nBenefits Summary\n.\nEqual Opportunity\nWe are an Equal Opportunity Employer. TIAA does not discriminate against any candidate or employee on the basis of age, race, color, national origin, sex, religion, veteran status, disability, sexual orientation, gender identity, or any other legally protected status.\nOur full EEO & Non-Discrimination statement is on our\ncareers home page\n, and you can read more about your rights and view government notices\nhere\n.\nAccessibility Support\nTIAA offers support for those who need assistance with our online application process to provide an equal employment opportunity to all job seekers, including individuals with disabilities.\nIf you are a U.S. applicant and desire a reasonable accommodation to complete a job application please use one of the below options to contact our accessibility support team:\nPhone: (800) 842-2755\nEmail:\naccessibility.support@tiaa.org\nDrug and Smoking Policy\nTIAA maintains a drug-free and smoke/free workplace.\nPrivacy Notices\nFor Applicants of TIAA, Nuveen and Affiliates residing in US (other than California), click\nhere\n.\nFor Applicants of TIAA, Nuveen and Affiliates residing in California, please click\nhere\n.\nFor Applicants of TIAA Global Capabilities, click\nhere\n.\nFor Applicants of Nuveen residing in Europe and APAC, please click\nhere\n."
         }
       ],
       "attempts": {
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-27T05:15:15.789388+00:00",
-          "completed_at": "2026-11-27T05:15:23.109071+00:00",
+          "started_at": "2026-11-27T06:15:32.609431+00:00",
+          "completed_at": "2026-11-27T06:15:41.001053+00:00",
           "ok": true,
           "info": {
-            "enumerated": 114,
-            "enumerated_raw": 114,
-            "advertised": 114,
+            "enumerated": 111,
+            "enumerated_raw": 111,
+            "advertised": 111,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 5,
+            "details_read": 3,
             "closed_during_pull": 0,
-            "kept": 3,
+            "kept": 1,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "Country": [
@@ -2230,8 +2193,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:15:15.789388+00:00",
-      "completed_at": "2026-11-27T05:15:23.109071+00:00",
+      "snapshot_at": "2026-11-27T06:15:32.609431+00:00",
+      "completed_at": "2026-11-27T06:15:41.001053+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2417,13 +2380,13 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-27T05:15:23.109129+00:00",
-          "completed_at": "2026-11-27T05:17:11.507151+00:00",
+          "started_at": "2026-11-27T06:15:41.001120+00:00",
+          "completed_at": "2026-11-27T06:17:35.960431+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1426,
-            "enumerated_raw": 1426,
-            "advertised": 1426,
+            "enumerated": 1425,
+            "enumerated_raw": 1425,
+            "advertised": 1425,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2463,8 +2426,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:15:23.109129+00:00",
-      "completed_at": "2026-11-27T05:17:11.507151+00:00",
+      "snapshot_at": "2026-11-27T06:15:41.001120+00:00",
+      "completed_at": "2026-11-27T06:17:35.960431+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2473,13 +2436,13 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-27T05:15:29.980256+00:00",
-          "completed_at": "2026-11-27T05:16:00.093776+00:00",
+          "started_at": "2026-11-27T06:15:54.865801+00:00",
+          "completed_at": "2026-11-27T06:16:27.080560+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1128,
-            "enumerated_raw": 1128,
-            "advertised": 1128,
+            "enumerated": 1126,
+            "enumerated_raw": 1126,
+            "advertised": 1126,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2495,8 +2458,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:15:29.980256+00:00",
-      "completed_at": "2026-11-27T05:16:00.093776+00:00",
+      "snapshot_at": "2026-11-27T06:15:54.865801+00:00",
+      "completed_at": "2026-11-27T06:16:27.080560+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2572,13 +2535,13 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:00.093833+00:00",
-          "completed_at": "2026-11-27T05:16:33.046621+00:00",
+          "started_at": "2026-11-27T06:15:56.312445+00:00",
+          "completed_at": "2026-11-27T06:16:28.819679+00:00",
           "ok": true,
           "info": {
-            "enumerated": 875,
-            "enumerated_raw": 875,
-            "advertised": 875,
+            "enumerated": 873,
+            "enumerated_raw": 873,
+            "advertised": 873,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2594,8 +2557,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:00.093833+00:00",
-      "completed_at": "2026-11-27T05:16:33.046621+00:00",
+      "snapshot_at": "2026-11-27T06:15:56.312445+00:00",
+      "completed_at": "2026-11-27T06:16:28.819679+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2627,8 +2590,8 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:00.499913+00:00",
-          "completed_at": "2026-11-27T05:16:11.094897+00:00",
+          "started_at": "2026-11-27T06:16:15.531164+00:00",
+          "completed_at": "2026-11-27T06:16:25.900602+00:00",
           "ok": true,
           "info": {
             "enumerated": 137,
@@ -2673,8 +2636,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:00.499913+00:00",
-      "completed_at": "2026-11-27T05:16:11.094897+00:00",
+      "snapshot_at": "2026-11-27T06:16:15.531164+00:00",
+      "completed_at": "2026-11-27T06:16:25.900602+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2750,8 +2713,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:11.094955+00:00",
-          "completed_at": "2026-11-27T05:16:23.212783+00:00",
+          "started_at": "2026-11-27T06:16:25.900660+00:00",
+          "completed_at": "2026-11-27T06:16:36.779640+00:00",
           "ok": true,
           "info": {
             "enumerated": 81,
@@ -2768,8 +2731,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:11.094955+00:00",
-      "completed_at": "2026-11-27T05:16:23.212783+00:00",
+      "snapshot_at": "2026-11-27T06:16:25.900660+00:00",
+      "completed_at": "2026-11-27T06:16:36.779640+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -2867,8 +2830,8 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:22.419611+00:00",
-          "completed_at": "2026-11-27T05:16:46.770011+00:00",
+          "started_at": "2026-11-27T06:16:27.080629+00:00",
+          "completed_at": "2026-11-27T06:17:08.547744+00:00",
           "ok": true,
           "info": {
             "enumerated": 878,
@@ -2889,8 +2852,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:22.419611+00:00",
-      "completed_at": "2026-11-27T05:16:46.770011+00:00",
+      "snapshot_at": "2026-11-27T06:16:27.080629+00:00",
+      "completed_at": "2026-11-27T06:17:08.547744+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -2944,8 +2907,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:23.212838+00:00",
-          "completed_at": "2026-11-27T05:16:28.960603+00:00",
+          "started_at": "2026-11-27T06:16:28.819745+00:00",
+          "completed_at": "2026-11-27T06:16:36.073947+00:00",
           "ok": true,
           "info": {
             "enumerated": 44,
@@ -2962,8 +2925,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:23.212838+00:00",
-      "completed_at": "2026-11-27T05:16:28.960603+00:00",
+      "snapshot_at": "2026-11-27T06:16:28.819745+00:00",
+      "completed_at": "2026-11-27T06:16:36.073947+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -2972,8 +2935,8 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:28.960662+00:00",
-          "completed_at": "2026-11-27T05:16:41.263889+00:00",
+          "started_at": "2026-11-27T06:16:36.074011+00:00",
+          "completed_at": "2026-11-27T06:16:47.441593+00:00",
           "ok": true,
           "info": {
             "enumerated": 317,
@@ -2994,8 +2957,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:28.960662+00:00",
-      "completed_at": "2026-11-27T05:16:41.263889+00:00",
+      "snapshot_at": "2026-11-27T06:16:36.074011+00:00",
+      "completed_at": "2026-11-27T06:16:47.441593+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3093,13 +3056,13 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:33.046674+00:00",
-          "completed_at": "2026-11-27T05:16:58.917985+00:00",
+          "started_at": "2026-11-27T06:16:36.779703+00:00",
+          "completed_at": "2026-11-27T06:17:01.408696+00:00",
           "ok": true,
           "info": {
-            "enumerated": 376,
-            "enumerated_raw": 376,
-            "advertised": 376,
+            "enumerated": 375,
+            "enumerated_raw": 375,
+            "advertised": 375,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3139,8 +3102,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:33.046674+00:00",
-      "completed_at": "2026-11-27T05:16:58.917985+00:00",
+      "snapshot_at": "2026-11-27T06:16:36.779703+00:00",
+      "completed_at": "2026-11-27T06:17:01.408696+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3149,8 +3112,8 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:41.263950+00:00",
-          "completed_at": "2026-11-27T05:16:55.860812+00:00",
+          "started_at": "2026-11-27T06:16:47.441652+00:00",
+          "completed_at": "2026-11-27T06:17:02.744260+00:00",
           "ok": true,
           "info": {
             "enumerated": 391,
@@ -3187,8 +3150,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:41.263950+00:00",
-      "completed_at": "2026-11-27T05:16:55.860812+00:00",
+      "snapshot_at": "2026-11-27T06:16:47.441652+00:00",
+      "completed_at": "2026-11-27T06:17:02.744260+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3197,8 +3160,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:46.770063+00:00",
-          "completed_at": "2026-11-27T05:16:57.266214+00:00",
+          "started_at": "2026-11-27T06:17:01.408754+00:00",
+          "completed_at": "2026-11-27T06:17:11.136418+00:00",
           "ok": true,
           "info": {
             "enumerated": 201,
@@ -3215,8 +3178,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:46.770063+00:00",
-      "completed_at": "2026-11-27T05:16:57.266214+00:00",
+      "snapshot_at": "2026-11-27T06:17:01.408754+00:00",
+      "completed_at": "2026-11-27T06:17:11.136418+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3225,8 +3188,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:55.860882+00:00",
-          "completed_at": "2026-11-27T05:17:00.142039+00:00",
+          "started_at": "2026-11-27T06:17:02.744326+00:00",
+          "completed_at": "2026-11-27T06:17:07.333502+00:00",
           "ok": true,
           "info": {
             "enumerated": 13,
@@ -3243,8 +3206,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:55.860882+00:00",
-      "completed_at": "2026-11-27T05:17:00.142039+00:00",
+      "snapshot_at": "2026-11-27T06:17:02.744326+00:00",
+      "completed_at": "2026-11-27T06:17:07.333502+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3253,8 +3216,8 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:57.266271+00:00",
-          "completed_at": "2026-11-27T05:19:40.893266+00:00",
+          "started_at": "2026-11-27T06:17:07.333568+00:00",
+          "completed_at": "2026-11-27T06:19:50.365961+00:00",
           "ok": true,
           "info": {
             "enumerated": 5962,
@@ -3284,8 +3247,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-27T05:16:57.266271+00:00",
-      "completed_at": "2026-11-27T05:19:40.893266+00:00",
+      "snapshot_at": "2026-11-27T06:17:07.333568+00:00",
+      "completed_at": "2026-11-27T06:19:50.365961+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3317,8 +3280,8 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-27T05:16:58.918061+00:00",
-          "completed_at": "2026-11-27T05:17:04.012136+00:00",
+          "started_at": "2026-11-27T06:17:08.547832+00:00",
+          "completed_at": "2026-11-27T06:17:14.622765+00:00",
           "ok": true,
           "info": {
             "enumerated": 60,
@@ -3335,8 +3298,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:16:58.918061+00:00",
-      "completed_at": "2026-11-27T05:17:04.012136+00:00",
+      "snapshot_at": "2026-11-27T06:17:08.547832+00:00",
+      "completed_at": "2026-11-27T06:17:14.622765+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3434,8 +3397,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:00.142106+00:00",
-          "completed_at": "2026-11-27T05:17:11.421625+00:00",
+          "started_at": "2026-11-27T06:17:11.136477+00:00",
+          "completed_at": "2026-11-27T06:17:22.779062+00:00",
           "ok": true,
           "info": {
             "enumerated": 289,
@@ -3452,8 +3415,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:17:00.142106+00:00",
-      "completed_at": "2026-11-27T05:17:11.421625+00:00",
+      "snapshot_at": "2026-11-27T06:17:11.136477+00:00",
+      "completed_at": "2026-11-27T06:17:22.779062+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3462,8 +3425,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:04.012191+00:00",
-          "completed_at": "2026-11-27T05:17:25.327551+00:00",
+          "started_at": "2026-11-27T06:17:14.622842+00:00",
+          "completed_at": "2026-11-27T06:17:35.915857+00:00",
           "ok": true,
           "info": {
             "enumerated": 394,
@@ -3484,8 +3447,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:17:04.012191+00:00",
-      "completed_at": "2026-11-27T05:17:25.327551+00:00",
+      "snapshot_at": "2026-11-27T06:17:14.622842+00:00",
+      "completed_at": "2026-11-27T06:17:35.915857+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3517,18 +3480,18 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:11.421675+00:00",
-          "completed_at": "2026-11-27T05:18:31.620128+00:00",
+          "started_at": "2026-11-27T06:17:22.779118+00:00",
+          "completed_at": "2026-11-27T06:18:49.779082+00:00",
           "ok": true,
           "info": {
-            "enumerated": 3064,
-            "enumerated_raw": 3064,
+            "enumerated": 3065,
+            "enumerated_raw": 3065,
             "advertised": 2000,
             "location_partitions": 3,
             "partition_advertised_counts": [
-              1498,
-              1497,
-              69
+              1495,
+              1495,
+              75
             ],
             "unpublished_index_ids": [],
             "details_read": 9,
@@ -3539,8 +3502,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:17:11.421675+00:00",
-      "completed_at": "2026-11-27T05:18:31.620128+00:00",
+      "snapshot_at": "2026-11-27T06:17:22.779118+00:00",
+      "completed_at": "2026-11-27T06:18:49.779082+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3549,8 +3512,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:11.507219+00:00",
-          "completed_at": "2026-11-27T05:17:22.415714+00:00",
+          "started_at": "2026-11-27T06:17:35.915919+00:00",
+          "completed_at": "2026-11-27T06:17:49.369491+00:00",
           "ok": true,
           "info": {
             "enumerated": 178,
@@ -3595,8 +3558,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:17:11.507219+00:00",
-      "completed_at": "2026-11-27T05:17:22.415714+00:00",
+      "snapshot_at": "2026-11-27T06:17:35.915919+00:00",
+      "completed_at": "2026-11-27T06:17:49.369491+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3605,8 +3568,8 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:22.415774+00:00",
-          "completed_at": "2026-11-27T05:17:43.119956+00:00",
+          "started_at": "2026-11-27T06:17:35.960503+00:00",
+          "completed_at": "2026-11-27T06:17:59.055441+00:00",
           "ok": true,
           "info": {
             "enumerated": 337,
@@ -3627,8 +3590,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:17:22.415774+00:00",
-      "completed_at": "2026-11-27T05:17:43.119956+00:00",
+      "snapshot_at": "2026-11-27T06:17:35.960503+00:00",
+      "completed_at": "2026-11-27T06:17:59.055441+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3660,8 +3623,8 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:25.327607+00:00",
-          "completed_at": "2026-11-27T05:17:43.035216+00:00",
+          "started_at": "2026-11-27T06:17:49.369557+00:00",
+          "completed_at": "2026-11-27T06:18:09.277442+00:00",
           "ok": true,
           "info": {
             "enumerated": 364,
@@ -3678,8 +3641,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:17:25.327607+00:00",
-      "completed_at": "2026-11-27T05:17:43.035216+00:00",
+      "snapshot_at": "2026-11-27T06:17:49.369557+00:00",
+      "completed_at": "2026-11-27T06:18:09.277442+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3799,8 +3762,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:43.035278+00:00",
-          "completed_at": "2026-11-27T05:18:20.583209+00:00",
+          "started_at": "2026-11-27T06:17:59.055506+00:00",
+          "completed_at": "2026-11-27T06:18:57.896050+00:00",
           "ok": true,
           "info": {
             "enumerated": 377,
@@ -3837,8 +3800,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:17:43.035278+00:00",
-      "completed_at": "2026-11-27T05:18:20.583209+00:00",
+      "snapshot_at": "2026-11-27T06:17:59.055506+00:00",
+      "completed_at": "2026-11-27T06:18:57.896050+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -3870,8 +3833,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:43.120014+00:00",
-          "completed_at": "2026-11-27T05:17:48.016020+00:00",
+          "started_at": "2026-11-27T06:18:09.277495+00:00",
+          "completed_at": "2026-11-27T06:18:14.273850+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -3895,8 +3858,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:17:43.120014+00:00",
-      "completed_at": "2026-11-27T05:17:48.016020+00:00",
+      "snapshot_at": "2026-11-27T06:18:09.277495+00:00",
+      "completed_at": "2026-11-27T06:18:14.273850+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -3950,13 +3913,13 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:48.016075+00:00",
-          "completed_at": "2026-11-27T05:17:58.927542+00:00",
+          "started_at": "2026-11-27T06:18:14.273913+00:00",
+          "completed_at": "2026-11-27T06:18:28.288623+00:00",
           "ok": true,
           "info": {
-            "enumerated": 430,
-            "enumerated_raw": 430,
-            "advertised": 430,
+            "enumerated": 425,
+            "enumerated_raw": 425,
+            "advertised": 425,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3994,8 +3957,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:17:48.016075+00:00",
-      "completed_at": "2026-11-27T05:17:58.927542+00:00",
+      "snapshot_at": "2026-11-27T06:18:14.273913+00:00",
+      "completed_at": "2026-11-27T06:18:28.288623+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4049,8 +4012,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-27T05:17:58.927595+00:00",
-          "completed_at": "2026-11-27T05:18:05.705569+00:00",
+          "started_at": "2026-11-27T06:18:28.288689+00:00",
+          "completed_at": "2026-11-27T06:18:36.502167+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4079,8 +4042,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-27T05:17:58.927595+00:00",
-      "completed_at": "2026-11-27T05:18:05.705569+00:00",
+      "snapshot_at": "2026-11-27T06:18:28.288689+00:00",
+      "completed_at": "2026-11-27T06:18:36.502167+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4156,8 +4119,8 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-27T05:18:05.705622+00:00",
-          "completed_at": "2026-11-27T05:18:18.554333+00:00",
+          "started_at": "2026-11-27T06:18:36.502229+00:00",
+          "completed_at": "2026-11-27T06:18:51.331339+00:00",
           "ok": true,
           "info": {
             "enumerated": 332,
@@ -4182,8 +4145,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-27T05:18:05.705622+00:00",
-      "completed_at": "2026-11-27T05:18:18.554333+00:00",
+      "snapshot_at": "2026-11-27T06:18:36.502229+00:00",
+      "completed_at": "2026-11-27T06:18:51.331339+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4192,8 +4155,8 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-27T05:18:18.554385+00:00",
-          "completed_at": "2026-11-27T05:18:27.736457+00:00",
+          "started_at": "2026-11-27T06:18:49.779138+00:00",
+          "completed_at": "2026-11-27T06:19:00.200293+00:00",
           "ok": true,
           "info": {
             "enumerated": 507,
@@ -4214,8 +4177,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:18:18.554385+00:00",
-      "completed_at": "2026-11-27T05:18:27.736457+00:00",
+      "snapshot_at": "2026-11-27T06:18:49.779138+00:00",
+      "completed_at": "2026-11-27T06:19:00.200293+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4224,8 +4187,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-27T05:18:20.583265+00:00",
-          "completed_at": "2026-11-27T05:18:24.783933+00:00",
+          "started_at": "2026-11-27T06:18:51.331394+00:00",
+          "completed_at": "2026-11-27T06:18:56.131389+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4242,8 +4205,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:18:20.583265+00:00",
-      "completed_at": "2026-11-27T05:18:24.783933+00:00",
+      "snapshot_at": "2026-11-27T06:18:51.331394+00:00",
+      "completed_at": "2026-11-27T06:18:56.131389+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4252,8 +4215,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-27T05:18:24.783986+00:00",
-          "completed_at": "2026-11-27T05:18:30.924436+00:00",
+          "started_at": "2026-11-27T06:18:56.131445+00:00",
+          "completed_at": "2026-11-27T06:19:03.468141+00:00",
           "ok": true,
           "info": {
             "enumerated": 148,
@@ -4270,8 +4233,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:18:24.783986+00:00",
-      "completed_at": "2026-11-27T05:18:30.924436+00:00",
+      "snapshot_at": "2026-11-27T06:18:56.131445+00:00",
+      "completed_at": "2026-11-27T06:19:03.468141+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4325,8 +4288,8 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-27T05:18:27.736515+00:00",
-          "completed_at": "2026-11-27T05:18:51.187261+00:00",
+          "started_at": "2026-11-27T06:18:57.896112+00:00",
+          "completed_at": "2026-11-27T06:19:21.167996+00:00",
           "ok": true,
           "info": {
             "enumerated": 810,
@@ -4343,8 +4306,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:18:27.736515+00:00",
-      "completed_at": "2026-11-27T05:18:51.187261+00:00",
+      "snapshot_at": "2026-11-27T06:18:57.896112+00:00",
+      "completed_at": "2026-11-27T06:19:21.167996+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4353,8 +4316,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-27T05:18:30.924496+00:00",
-          "completed_at": "2026-11-27T05:18:35.310338+00:00",
+          "started_at": "2026-11-27T06:19:00.200353+00:00",
+          "completed_at": "2026-11-27T06:19:05.125923+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4371,8 +4334,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:18:30.924496+00:00",
-      "completed_at": "2026-11-27T05:18:35.310338+00:00",
+      "snapshot_at": "2026-11-27T06:19:00.200353+00:00",
+      "completed_at": "2026-11-27T06:19:05.125923+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4381,8 +4344,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-27T05:18:31.620177+00:00",
-          "completed_at": "2026-11-27T05:18:36.012980+00:00",
+          "started_at": "2026-11-27T06:19:03.468209+00:00",
+          "completed_at": "2026-11-27T06:19:08.466767+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4399,8 +4362,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:18:31.620177+00:00",
-      "completed_at": "2026-11-27T05:18:36.012980+00:00",
+      "snapshot_at": "2026-11-27T06:19:03.468209+00:00",
+      "completed_at": "2026-11-27T06:19:08.466767+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4608,13 +4571,13 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-27T05:18:35.310386+00:00",
-          "completed_at": "2026-11-27T05:19:12.795961+00:00",
+          "started_at": "2026-11-27T06:19:05.125990+00:00",
+          "completed_at": "2026-11-27T06:19:42.068413+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1354,
-            "enumerated_raw": 1354,
-            "advertised": 1354,
+            "enumerated": 1349,
+            "enumerated_raw": 1349,
+            "advertised": 1349,
             "details_read": 56,
             "kept": 9,
             "method": "employer Oracle search + full requisition detail resource"
@@ -4636,8 +4599,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:18:35.310386+00:00",
-      "completed_at": "2026-11-27T05:19:12.795961+00:00",
+      "snapshot_at": "2026-11-27T06:19:05.125990+00:00",
+      "completed_at": "2026-11-27T06:19:42.068413+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -6201,7 +6164,19 @@
       "firms_failed": 1,
       "timer_run_id": "45938720212",
       "timer_fired_at": "2026-11-27T05:14:05.771902+00:00"
+    },
+    {
+      "id": "45950569849",
+      "route": "cloud",
+      "started_at": "2026-11-27T06:14:52.922270+00:00",
+      "completed_at": "2026-11-27T06:19:50.371180+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 39,
+      "firms_failed": 0,
+      "timer_run_id": "45944572477",
+      "timer_fired_at": "2026-11-27T06:14:16.712957+00:00"
     }
   ],
-  "published_at": "2026-11-27T05:19:41.648995+00:00"
+  "published_at": "2026-11-27T06:19:51.445394+00:00"
 }
