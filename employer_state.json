@@ -6332,7 +6332,17 @@
       "firms_failed": 0,
       "timer_run_id": "46014318746",
       "timer_fired_at": "2026-11-27T15:15:59.127671+00:00"
+    },
+    {
+      "id": "b2356017-47ff-4938-ac7c-81b50397612a",
+      "route": "mac",
+      "started_at": "2026-11-27T15:30:38.157808+00:00",
+      "completed_at": "2026-11-27T15:30:40.252624+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 0,
+      "firms_succeeded": 0,
+      "firms_failed": 0
     }
   ],
-  "published_at": "2026-11-27T15:22:05.616851+00:00"
+  "published_at": "2026-11-27T15:30:41.350795+00:00"
 }
