@@ -535,8 +535,8 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-26T23:13:33.475021+00:00",
-          "completed_at": "2026-11-26T23:14:36.436956+00:00",
+          "started_at": "2026-11-27T00:13:51.557635+00:00",
+          "completed_at": "2026-11-27T00:14:47.490952+00:00",
           "ok": true,
           "info": {
             "enumerated": 2091,
@@ -563,8 +563,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:13:33.475021+00:00",
-      "completed_at": "2026-11-26T23:14:36.436956+00:00",
+      "snapshot_at": "2026-11-27T00:13:51.557635+00:00",
+      "completed_at": "2026-11-27T00:14:47.490952+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -816,13 +816,13 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-26T23:13:33.476276+00:00",
-          "completed_at": "2026-11-26T23:14:35.158376+00:00",
+          "started_at": "2026-11-27T00:13:51.558552+00:00",
+          "completed_at": "2026-11-27T00:14:57.614465+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1416,
-            "enumerated_raw": 1416,
-            "advertised": 1416,
+            "enumerated": 1415,
+            "enumerated_raw": 1415,
+            "advertised": 1415,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -862,8 +862,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:13:33.476276+00:00",
-      "completed_at": "2026-11-26T23:14:35.158376+00:00",
+      "snapshot_at": "2026-11-27T00:13:51.558552+00:00",
+      "completed_at": "2026-11-27T00:14:57.614465+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1643,8 +1643,8 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-26T23:13:33.476781+00:00",
-          "completed_at": "2026-11-26T23:15:02.431720+00:00",
+          "started_at": "2026-11-27T00:13:51.558810+00:00",
+          "completed_at": "2026-11-27T00:15:14.149593+00:00",
           "ok": true,
           "info": {
             "enumerated": 1313,
@@ -1669,8 +1669,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-26T23:13:33.476781+00:00",
-      "completed_at": "2026-11-26T23:15:02.431720+00:00",
+      "snapshot_at": "2026-11-27T00:13:51.558810+00:00",
+      "completed_at": "2026-11-27T00:15:14.149593+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1812,8 +1812,8 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-26T23:13:33.477103+00:00",
-          "completed_at": "2026-11-26T23:13:40.607387+00:00",
+          "started_at": "2026-11-27T00:13:51.559261+00:00",
+          "completed_at": "2026-11-27T00:14:01.143225+00:00",
           "ok": true,
           "info": {
             "enumerated": 71,
@@ -1850,8 +1850,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:13:33.477103+00:00",
-      "completed_at": "2026-11-26T23:13:40.607387+00:00",
+      "snapshot_at": "2026-11-27T00:13:51.559261+00:00",
+      "completed_at": "2026-11-27T00:14:01.143225+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2059,8 +2059,8 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-26T23:13:40.607455+00:00",
-          "completed_at": "2026-11-26T23:14:00.242665+00:00",
+          "started_at": "2026-11-27T00:14:01.143293+00:00",
+          "completed_at": "2026-11-27T00:14:21.848969+00:00",
           "ok": true,
           "info": {
             "enumerated": 4587,
@@ -2081,8 +2081,8 @@
           "error": "CollectionError: Employer full JobPosting missing: https://talent.lowes.com/us/en/job/JR-02707912"
         }
       },
-      "snapshot_at": "2026-11-26T23:13:40.607455+00:00",
-      "completed_at": "2026-11-26T23:14:00.242665+00:00",
+      "snapshot_at": "2026-11-27T00:14:01.143293+00:00",
+      "completed_at": "2026-11-27T00:14:21.848969+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2136,8 +2136,8 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-26T23:14:00.242744+00:00",
-          "completed_at": "2026-11-26T23:14:07.348046+00:00",
+          "started_at": "2026-11-27T00:14:21.849040+00:00",
+          "completed_at": "2026-11-27T00:14:28.104500+00:00",
           "ok": true,
           "info": {
             "enumerated": 81,
@@ -2158,8 +2158,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:14:00.242744+00:00",
-      "completed_at": "2026-11-26T23:14:07.348046+00:00",
+      "snapshot_at": "2026-11-27T00:14:21.849040+00:00",
+      "completed_at": "2026-11-27T00:14:28.104500+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2257,8 +2257,8 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-26T23:14:07.348115+00:00",
-          "completed_at": "2026-11-26T23:14:16.902612+00:00",
+          "started_at": "2026-11-27T00:14:28.104558+00:00",
+          "completed_at": "2026-11-27T00:14:36.983511+00:00",
           "ok": true,
           "info": {
             "enumerated": 118,
@@ -2303,8 +2303,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:14:07.348115+00:00",
-      "completed_at": "2026-11-26T23:14:16.902612+00:00",
+      "snapshot_at": "2026-11-27T00:14:28.104558+00:00",
+      "completed_at": "2026-11-27T00:14:36.983511+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2490,8 +2490,8 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-26T23:14:16.902731+00:00",
-          "completed_at": "2026-11-26T23:16:06.334232+00:00",
+          "started_at": "2026-11-27T00:14:36.983572+00:00",
+          "completed_at": "2026-11-27T00:16:24.830047+00:00",
           "ok": true,
           "info": {
             "enumerated": 1450,
@@ -2512,8 +2512,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:14:16.902731+00:00",
-      "completed_at": "2026-11-26T23:16:06.334232+00:00",
+      "snapshot_at": "2026-11-27T00:14:36.983572+00:00",
+      "completed_at": "2026-11-27T00:16:24.830047+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2522,8 +2522,8 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-26T23:14:35.158446+00:00",
-          "completed_at": "2026-11-26T23:15:07.986258+00:00",
+          "started_at": "2026-11-27T00:14:47.491033+00:00",
+          "completed_at": "2026-11-27T00:15:20.831869+00:00",
           "ok": true,
           "info": {
             "enumerated": 1129,
@@ -2544,8 +2544,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:14:35.158446+00:00",
-      "completed_at": "2026-11-26T23:15:07.986258+00:00",
+      "snapshot_at": "2026-11-27T00:14:47.491033+00:00",
+      "completed_at": "2026-11-27T00:15:20.831869+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2621,8 +2621,8 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-26T23:14:36.437031+00:00",
-          "completed_at": "2026-11-26T23:15:08.509427+00:00",
+          "started_at": "2026-11-27T00:14:57.614536+00:00",
+          "completed_at": "2026-11-27T00:15:30.325010+00:00",
           "ok": true,
           "info": {
             "enumerated": 879,
@@ -2643,8 +2643,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:14:36.437031+00:00",
-      "completed_at": "2026-11-26T23:15:08.509427+00:00",
+      "snapshot_at": "2026-11-27T00:14:57.614536+00:00",
+      "completed_at": "2026-11-27T00:15:30.325010+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2676,8 +2676,8 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:02.431796+00:00",
-          "completed_at": "2026-11-26T23:15:12.427255+00:00",
+          "started_at": "2026-11-27T00:15:14.149666+00:00",
+          "completed_at": "2026-11-27T00:15:23.911868+00:00",
           "ok": true,
           "info": {
             "enumerated": 137,
@@ -2722,8 +2722,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:02.431796+00:00",
-      "completed_at": "2026-11-26T23:15:12.427255+00:00",
+      "snapshot_at": "2026-11-27T00:15:14.149666+00:00",
+      "completed_at": "2026-11-27T00:15:23.911868+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2799,8 +2799,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:07.986321+00:00",
-          "completed_at": "2026-11-26T23:15:20.751827+00:00",
+          "started_at": "2026-11-27T00:15:20.831935+00:00",
+          "completed_at": "2026-11-27T00:15:33.696069+00:00",
           "ok": true,
           "info": {
             "enumerated": 82,
@@ -2817,8 +2817,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:07.986321+00:00",
-      "completed_at": "2026-11-26T23:15:20.751827+00:00",
+      "snapshot_at": "2026-11-27T00:15:20.831935+00:00",
+      "completed_at": "2026-11-27T00:15:33.696069+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -2916,8 +2916,8 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:08.509504+00:00",
-          "completed_at": "2026-11-26T23:15:36.619247+00:00",
+          "started_at": "2026-11-27T00:15:23.911927+00:00",
+          "completed_at": "2026-11-27T00:15:52.880925+00:00",
           "ok": true,
           "info": {
             "enumerated": 882,
@@ -2938,8 +2938,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:08.509504+00:00",
-      "completed_at": "2026-11-26T23:15:36.619247+00:00",
+      "snapshot_at": "2026-11-27T00:15:23.911927+00:00",
+      "completed_at": "2026-11-27T00:15:52.880925+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -2993,8 +2993,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:12.427326+00:00",
-          "completed_at": "2026-11-26T23:15:20.356094+00:00",
+          "started_at": "2026-11-27T00:15:30.325076+00:00",
+          "completed_at": "2026-11-27T00:15:37.246518+00:00",
           "ok": true,
           "info": {
             "enumerated": 44,
@@ -3011,8 +3011,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:12.427326+00:00",
-      "completed_at": "2026-11-26T23:15:20.356094+00:00",
+      "snapshot_at": "2026-11-27T00:15:30.325076+00:00",
+      "completed_at": "2026-11-27T00:15:37.246518+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3021,8 +3021,8 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:20.356162+00:00",
-          "completed_at": "2026-11-26T23:15:31.965773+00:00",
+          "started_at": "2026-11-27T00:15:33.696142+00:00",
+          "completed_at": "2026-11-27T00:16:00.166455+00:00",
           "ok": true,
           "info": {
             "enumerated": 317,
@@ -3043,8 +3043,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:20.356162+00:00",
-      "completed_at": "2026-11-26T23:15:31.965773+00:00",
+      "snapshot_at": "2026-11-27T00:15:33.696142+00:00",
+      "completed_at": "2026-11-27T00:16:00.166455+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3164,8 +3164,8 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:20.752259+00:00",
-          "completed_at": "2026-11-26T23:15:49.875366+00:00",
+          "started_at": "2026-11-27T00:15:37.246575+00:00",
+          "completed_at": "2026-11-27T00:16:06.557804+00:00",
           "ok": true,
           "info": {
             "enumerated": 395,
@@ -3210,8 +3210,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:20.752259+00:00",
-      "completed_at": "2026-11-26T23:15:49.875366+00:00",
+      "snapshot_at": "2026-11-27T00:15:37.246575+00:00",
+      "completed_at": "2026-11-27T00:16:06.557804+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3220,8 +3220,8 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:31.965840+00:00",
-          "completed_at": "2026-11-26T23:15:46.555295+00:00",
+          "started_at": "2026-11-27T00:15:52.880990+00:00",
+          "completed_at": "2026-11-27T00:16:08.086725+00:00",
           "ok": true,
           "info": {
             "enumerated": 391,
@@ -3258,8 +3258,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:31.965840+00:00",
-      "completed_at": "2026-11-26T23:15:46.555295+00:00",
+      "snapshot_at": "2026-11-27T00:15:52.880990+00:00",
+      "completed_at": "2026-11-27T00:16:08.086725+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3268,8 +3268,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:36.619318+00:00",
-          "completed_at": "2026-11-26T23:15:46.297991+00:00",
+          "started_at": "2026-11-27T00:16:00.166522+00:00",
+          "completed_at": "2026-11-27T00:16:09.551709+00:00",
           "ok": true,
           "info": {
             "enumerated": 201,
@@ -3286,8 +3286,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:36.619318+00:00",
-      "completed_at": "2026-11-26T23:15:46.297991+00:00",
+      "snapshot_at": "2026-11-27T00:16:00.166522+00:00",
+      "completed_at": "2026-11-27T00:16:09.551709+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3296,8 +3296,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:46.298068+00:00",
-          "completed_at": "2026-11-26T23:15:51.148498+00:00",
+          "started_at": "2026-11-27T00:16:06.557865+00:00",
+          "completed_at": "2026-11-27T00:16:10.053974+00:00",
           "ok": true,
           "info": {
             "enumerated": 13,
@@ -3314,8 +3314,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:46.298068+00:00",
-      "completed_at": "2026-11-26T23:15:51.148498+00:00",
+      "snapshot_at": "2026-11-27T00:16:06.557865+00:00",
+      "completed_at": "2026-11-27T00:16:10.053974+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3324,8 +3324,8 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:46.555364+00:00",
-          "completed_at": "2026-11-26T23:18:33.549095+00:00",
+          "started_at": "2026-11-27T00:16:08.086816+00:00",
+          "completed_at": "2026-11-27T00:18:57.748186+00:00",
           "ok": true,
           "info": {
             "enumerated": 5962,
@@ -3355,8 +3355,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-26T23:15:46.555364+00:00",
-      "completed_at": "2026-11-26T23:18:33.549095+00:00",
+      "snapshot_at": "2026-11-27T00:16:08.086816+00:00",
+      "completed_at": "2026-11-27T00:18:57.748186+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3388,8 +3388,8 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:49.875446+00:00",
-          "completed_at": "2026-11-26T23:15:53.773398+00:00",
+          "started_at": "2026-11-27T00:16:09.551887+00:00",
+          "completed_at": "2026-11-27T00:16:16.140842+00:00",
           "ok": true,
           "info": {
             "enumerated": 63,
@@ -3406,8 +3406,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:49.875446+00:00",
-      "completed_at": "2026-11-26T23:15:53.773398+00:00",
+      "snapshot_at": "2026-11-27T00:16:09.551887+00:00",
+      "completed_at": "2026-11-27T00:16:16.140842+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3505,8 +3505,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:51.148557+00:00",
-          "completed_at": "2026-11-26T23:16:03.431884+00:00",
+          "started_at": "2026-11-27T00:16:10.054107+00:00",
+          "completed_at": "2026-11-27T00:16:19.900674+00:00",
           "ok": true,
           "info": {
             "enumerated": 289,
@@ -3523,8 +3523,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:51.148557+00:00",
-      "completed_at": "2026-11-26T23:16:03.431884+00:00",
+      "snapshot_at": "2026-11-27T00:16:10.054107+00:00",
+      "completed_at": "2026-11-27T00:16:19.900674+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3533,8 +3533,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-26T23:15:53.773476+00:00",
-          "completed_at": "2026-11-26T23:16:16.124354+00:00",
+          "started_at": "2026-11-27T00:16:16.140898+00:00",
+          "completed_at": "2026-11-27T00:16:38.225095+00:00",
           "ok": true,
           "info": {
             "enumerated": 392,
@@ -3555,8 +3555,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:15:53.773476+00:00",
-      "completed_at": "2026-11-26T23:16:16.124354+00:00",
+      "snapshot_at": "2026-11-27T00:16:16.140898+00:00",
+      "completed_at": "2026-11-27T00:16:38.225095+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3588,8 +3588,8 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-26T23:16:03.431950+00:00",
-          "completed_at": "2026-11-26T23:17:26.622136+00:00",
+          "started_at": "2026-11-27T00:16:19.900751+00:00",
+          "completed_at": "2026-11-27T00:17:45.008164+00:00",
           "ok": true,
           "info": {
             "enumerated": 3064,
@@ -3610,8 +3610,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:16:03.431950+00:00",
-      "completed_at": "2026-11-26T23:17:26.622136+00:00",
+      "snapshot_at": "2026-11-27T00:16:19.900751+00:00",
+      "completed_at": "2026-11-27T00:17:45.008164+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3620,8 +3620,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-26T23:16:06.334309+00:00",
-          "completed_at": "2026-11-26T23:16:18.783271+00:00",
+          "started_at": "2026-11-27T00:16:24.830119+00:00",
+          "completed_at": "2026-11-27T00:16:36.689759+00:00",
           "ok": true,
           "info": {
             "enumerated": 178,
@@ -3666,8 +3666,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:16:06.334309+00:00",
-      "completed_at": "2026-11-26T23:16:18.783271+00:00",
+      "snapshot_at": "2026-11-27T00:16:24.830119+00:00",
+      "completed_at": "2026-11-27T00:16:36.689759+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3676,8 +3676,8 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-26T23:16:16.124421+00:00",
-          "completed_at": "2026-11-26T23:16:37.762916+00:00",
+          "started_at": "2026-11-27T00:16:36.689826+00:00",
+          "completed_at": "2026-11-27T00:16:57.123166+00:00",
           "ok": true,
           "info": {
             "enumerated": 337,
@@ -3698,8 +3698,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:16:16.124421+00:00",
-      "completed_at": "2026-11-26T23:16:37.762916+00:00",
+      "snapshot_at": "2026-11-27T00:16:36.689826+00:00",
+      "completed_at": "2026-11-27T00:16:57.123166+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3731,8 +3731,8 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-26T23:16:18.783337+00:00",
-          "completed_at": "2026-11-26T23:16:38.604266+00:00",
+          "started_at": "2026-11-27T00:16:38.225186+00:00",
+          "completed_at": "2026-11-27T00:16:59.256120+00:00",
           "ok": true,
           "info": {
             "enumerated": 364,
@@ -3749,8 +3749,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:16:18.783337+00:00",
-      "completed_at": "2026-11-26T23:16:38.604266+00:00",
+      "snapshot_at": "2026-11-27T00:16:38.225186+00:00",
+      "completed_at": "2026-11-27T00:16:59.256120+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3870,8 +3870,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-26T23:16:37.762982+00:00",
-          "completed_at": "2026-11-26T23:17:21.767963+00:00",
+          "started_at": "2026-11-27T00:16:57.123232+00:00",
+          "completed_at": "2026-11-27T00:17:38.444293+00:00",
           "ok": true,
           "info": {
             "enumerated": 377,
@@ -3908,8 +3908,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:16:37.762982+00:00",
-      "completed_at": "2026-11-26T23:17:21.767963+00:00",
+      "snapshot_at": "2026-11-27T00:16:57.123232+00:00",
+      "completed_at": "2026-11-27T00:17:38.444293+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -3941,8 +3941,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-26T23:16:38.604322+00:00",
-          "completed_at": "2026-11-26T23:16:43.804338+00:00",
+          "started_at": "2026-11-27T00:16:59.256184+00:00",
+          "completed_at": "2026-11-27T00:17:04.501178+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -3966,8 +3966,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:16:38.604322+00:00",
-      "completed_at": "2026-11-26T23:16:43.804338+00:00",
+      "snapshot_at": "2026-11-27T00:16:59.256184+00:00",
+      "completed_at": "2026-11-27T00:17:04.501178+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -4021,8 +4021,8 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-26T23:16:43.804399+00:00",
-          "completed_at": "2026-11-26T23:16:56.735173+00:00",
+          "started_at": "2026-11-27T00:17:04.501240+00:00",
+          "completed_at": "2026-11-27T00:17:16.752604+00:00",
           "ok": true,
           "info": {
             "enumerated": 430,
@@ -4065,8 +4065,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:16:43.804399+00:00",
-      "completed_at": "2026-11-26T23:16:56.735173+00:00",
+      "snapshot_at": "2026-11-27T00:17:04.501240+00:00",
+      "completed_at": "2026-11-27T00:17:16.752604+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4120,8 +4120,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-26T23:16:56.735230+00:00",
-          "completed_at": "2026-11-26T23:17:04.451949+00:00",
+          "started_at": "2026-11-27T00:17:16.752668+00:00",
+          "completed_at": "2026-11-27T00:17:24.900605+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4150,8 +4150,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-26T23:16:56.735230+00:00",
-      "completed_at": "2026-11-26T23:17:04.451949+00:00",
+      "snapshot_at": "2026-11-27T00:17:16.752668+00:00",
+      "completed_at": "2026-11-27T00:17:24.900605+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4227,8 +4227,8 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-26T23:17:04.452020+00:00",
-          "completed_at": "2026-11-26T23:17:18.919492+00:00",
+          "started_at": "2026-11-27T00:17:24.900668+00:00",
+          "completed_at": "2026-11-27T00:17:38.854511+00:00",
           "ok": true,
           "info": {
             "enumerated": 333,
@@ -4253,8 +4253,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-26T23:17:04.452020+00:00",
-      "completed_at": "2026-11-26T23:17:18.919492+00:00",
+      "snapshot_at": "2026-11-27T00:17:24.900668+00:00",
+      "completed_at": "2026-11-27T00:17:38.854511+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4263,8 +4263,8 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-26T23:17:18.919558+00:00",
-          "completed_at": "2026-11-26T23:17:28.812192+00:00",
+          "started_at": "2026-11-27T00:17:38.444357+00:00",
+          "completed_at": "2026-11-27T00:17:48.789587+00:00",
           "ok": true,
           "info": {
             "enumerated": 507,
@@ -4285,8 +4285,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:17:18.919558+00:00",
-      "completed_at": "2026-11-26T23:17:28.812192+00:00",
+      "snapshot_at": "2026-11-27T00:17:38.444357+00:00",
+      "completed_at": "2026-11-27T00:17:48.789587+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4295,8 +4295,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-26T23:17:21.768038+00:00",
-          "completed_at": "2026-11-26T23:17:26.415074+00:00",
+          "started_at": "2026-11-27T00:17:38.854570+00:00",
+          "completed_at": "2026-11-27T00:17:42.591468+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4313,8 +4313,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:17:21.768038+00:00",
-      "completed_at": "2026-11-26T23:17:26.415074+00:00",
+      "snapshot_at": "2026-11-27T00:17:38.854570+00:00",
+      "completed_at": "2026-11-27T00:17:42.591468+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4323,8 +4323,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-26T23:17:26.415139+00:00",
-          "completed_at": "2026-11-26T23:17:33.494097+00:00",
+          "started_at": "2026-11-27T00:17:42.591527+00:00",
+          "completed_at": "2026-11-27T00:17:49.341035+00:00",
           "ok": true,
           "info": {
             "enumerated": 148,
@@ -4341,8 +4341,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:17:26.415139+00:00",
-      "completed_at": "2026-11-26T23:17:33.494097+00:00",
+      "snapshot_at": "2026-11-27T00:17:42.591527+00:00",
+      "completed_at": "2026-11-27T00:17:49.341035+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4396,8 +4396,8 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-26T23:17:26.622205+00:00",
-          "completed_at": "2026-11-26T23:17:49.416255+00:00",
+          "started_at": "2026-11-27T00:17:45.008223+00:00",
+          "completed_at": "2026-11-27T00:18:08.268805+00:00",
           "ok": true,
           "info": {
             "enumerated": 828,
@@ -4414,8 +4414,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:17:26.622205+00:00",
-      "completed_at": "2026-11-26T23:17:49.416255+00:00",
+      "snapshot_at": "2026-11-27T00:17:45.008223+00:00",
+      "completed_at": "2026-11-27T00:18:08.268805+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4424,8 +4424,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-26T23:17:28.812287+00:00",
-          "completed_at": "2026-11-26T23:17:35.001308+00:00",
+          "started_at": "2026-11-27T00:17:48.789660+00:00",
+          "completed_at": "2026-11-27T00:17:54.539692+00:00",
           "ok": true,
           "info": {
             "enumerated": 46,
@@ -4442,8 +4442,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:17:28.812287+00:00",
-      "completed_at": "2026-11-26T23:17:35.001308+00:00",
+      "snapshot_at": "2026-11-27T00:17:48.789660+00:00",
+      "completed_at": "2026-11-27T00:17:54.539692+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4452,8 +4452,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-26T23:17:33.494165+00:00",
-          "completed_at": "2026-11-26T23:17:39.261487+00:00",
+          "started_at": "2026-11-27T00:17:49.341103+00:00",
+          "completed_at": "2026-11-27T00:17:54.423333+00:00",
           "ok": true,
           "info": {
             "enumerated": 46,
@@ -4470,8 +4470,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:17:33.494165+00:00",
-      "completed_at": "2026-11-26T23:17:39.261487+00:00",
+      "snapshot_at": "2026-11-27T00:17:49.341103+00:00",
+      "completed_at": "2026-11-27T00:17:54.423333+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4519,28 +4519,6 @@
           "required_experience": "5+ years of experience",
           "required_certifications": "",
           "description": "The Senior Export Compliance Officer is responsible for supporting the execution of global export compliance and sanctions compliance programs by performing first-level trade compliance reviews, sanctions screening activities, and export transaction monitoring. This role serves as a critical interface between business operations, SAP Global Trade Services (SAP GTS), Export Compliance Officers, and Sanctions Compliance teams to ensure transactions are processed in accordance with applicable export control regulations, sanctions requirements, and company policies.\nThe position plays a key role in reducing compliance risk, maintaining operational continuity, and supporting timely resolution of compliance-related transaction holds and screening alerts.\n\nSanctioned Party Screening (SPL)\nPerform first-level review and disposition of Sanctioned Party List (SPL) screening alerts generated through SAP GTS and related compliance tools.\nConduct due diligence on potential matches by reviewing customer, supplier, consignee, end-user, forwarding agent, and other transaction party information.\nDifferentiate false positives from potential compliance concerns using established procedures and risk-based assessment criteria.\nEscalate confirmed or elevated-risk matches to the Sanctions Compliance Team for secondary review and approval.\nMaintain accurate documentation and audit records for all screening activities and determinations.\nMonitor screening queues to ensure timely review and resolution of compliance holds.\nSAP Global Trade Services (SAP GTS)\nUtilize SAP GTS to review and manage SPL, embargo, legal control, and export compliance blocks.\nSupport investigation and resolution of transaction holds impacting customer orders, deliveries, purchase orders, and shipments.\nCoordinate with business stakeholders to gather information required for hold releases and compliance determinations.\nVerify data accuracy within GTS and support correction of master data issues impacting compliance screening.\nAssist with system testing, process improvements, and user acceptance activities related to GTS enhancements.\nCoordination and Stakeholder Support\nServe as a primary point of contact for business users regarding SPL alerts, export holds, and compliance-related inquiries.\nCoordinate closely with Export Compliance Officers, Sanctions Compliance teams, Logistics, Customer Service, and Supply Chain organizations.\nFacilitate collection of documentation and approvals required to support transaction releases.\nProvide guidance and awareness to internal stakeholders on export compliance and sanctions screening requirements.\nSupport internal and external audit activities through documentation retrieval and compliance evidence preparation.\nCompliance Governance & Continuous Improvement\nEnsure compliance processes are executed in accordance with corporate policies, procedures, and regulatory requirements.\nMonitor trends in screening results and operational metrics to identify improvement opportunities.\nAssist in development of training materials, job aids, and process documentation.\nSupport implementation of process standardization, automation, and efficiency initiatives.\n\nYOU MUST HAVE\nMinimum 5+ years of experience in Export Compliance, Trade Compliance, Global Trade Services, Logistics Compliance, or related areas.\nMinimum of 1 year of experience working with SAP GTS or similar trade compliance platforms.\nMinimum of 1 year of experience performing sanctions screening, restricted party screening, or export transaction reviews.\nWE VALUE\nBachelor's degree in International Business, International Trade, Supply Chain, Business Administration, Law, or related field.\nStrong analytical and problem-solving skills.\nProficiency in Microsoft Office applications, particularly Excel.\nKnowledge of U.S. export regulations (EAR, ITAR, OFAC) and international sanctions programs.\nExperience supporting global sanctions compliance programs.\nFamiliarity with denied party screening, embargo reviews, and export licensing concepts.\nExperience working in a multinational manufacturing, aerospace, industrial, or technology environment.\nKnowledge of SAP ERP integration with SAP GTS.\nExperience supporting compliance audits and investigations.\nIn addition to a competitive salary, leading-edge work, and developing solutions side-by-side with dedicated experts in their fields, Honeywell employees are eligible for a comprehensive benefits package. This package includes employer subsidized Medical, Dental, Vision, and Life Insurance; Short-Term and Long-Term Disability; 401(k) match, Flexible Spending Accounts, Health Savings Accounts, EAP, and Educational Assistance; Parental Leave, Paid Time Off (for vacation, personal business, sick time, and parental leave), and 12 Paid Holidays. For more information visit:\nhttps://benefits.honeywell.com/\nThe application period for the job is estimated to be 40 days from the job posting date; however, this may be shortened or extended depending on business needs and the availability of qualified candidates.\nJob Posting Date: November 19, 2026\n.\nDue to compliance with U.S. export control laws and regulations, candidate must be a U.S. person which is defined as, a U.S. citizen, U.S. permanent resident, or have protected status in the U.S. under asylum or refugee status.\n\nHoneywell Technologies is a global, pure-play automation company with a legacy of innovating to help solve the world’s most mission-critical challenges, enhancing the quality of life for people and communities around the world. We serve the building, industrial and process sectors with a broad portfolio of services, solutions and products, underpinned by our Honeywell Technologies Accelerator operating system and Honeywell Technologies Forge intelligence layer. By combining the deep domain expertise of our more than 50,000 employees with decades of data from our global installed base, we are uniquely positioned to lead the industrial sector’s transition from automation to autonomy."
-        },
-        {
-          "firm": "Honeywell",
-          "job_id": "162140",
-          "title": "Sr Legal Operations Specialist",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-12",
-          "url": "https://careers.honeywell.com/en/sites/Honeywell/job/162140",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "3+ years of experience",
-          "required_certifications": "",
-          "description": "Serve as the primary Legal Operations business lead supporting enterprise transformation initiatives across Corporate Legal and Global Trade Operations. This individual contributor role is responsible for driving business readiness, process documentation, user adoption, testing coordination, training, deployment support, and operational transition activities for large-scale technology and process transformation programs.\nAs a Sr Legal Operations in the Corporate Legal function, you will act as a critical liaison between legal organization functional leaders, business process owners, project teams and technical stakeholders to support the successful delivery of strategic transformation initiatives. A successful candidate will have project management experience, a strong affinity for systems and processes, and significant leadership through influence.\nYou will report directly to our Senior Director of Legal Governance & Systems and will work out of our Charlotte, NC location on a hybrid work schedule (up to 2 days a week remote).\n\nServe as the primary Legal Operations business lead for strategic transformation initiatives, partnering with legal leaders, business process owners, project teams, and technical stakeholders to drive successful program outcomes.\nLead business readiness activities, ensuring new processes, technologies, and operational capabilities are effectively prepared for adoption and integrated into day-to-day operations.\nFacilitate the documentation and validation of business requirements, future-state processes, operating procedures, role guides, and operational readiness materials.\nCoordinate User Acceptance Testing (UAT) activities, including test planning, scenario development, participant readiness, execution tracking, defect management, and business sign-off processes.\nDevelop and deliver end-user training, knowledge transfer programs, and adoption materials that enable successful transition to new processes and systems.\nDrive stakeholder engagement and change adoption activities, including impact assessments, communication planning, feedback collection, and readiness monitoring.\nPromote consistent execution, clear ownership, accurate documentation, and effective handoffs across workstreams.\n\nYOU MUST HAVE\n3+ years of experience supporting Legal Operations, Compliance Operations, Global Trade Operations, ERP programs, complex business operations or enterprise transformation initiatives.\n3+ years of project management experience with the ability to coordinate multiple stakeholders, manage competing priorities, and drive deliverables to completion.\n3+ years of experience working within Legal, Compliance, Governance, Risk, Regulatory, or Global Trade functions.\nWE VALUE\nExperience establishing process governance, operational controls, and continuous improvement practices.\nStrong written and verbal communication skills, with the ability to translate complex information into clear, practical guidance for end users\nExperience tracking issues, risks, actions, and defects through resolution.\nStrong analytical, organizational, and problem-solving skills with a high degree of attention to detail.\nWorking knowledge of SAP ECC, S/4HANA, enterprise integrations, or large-scale technology deployments\nExperience with User Acceptance Testing, defect coordination, hypercare, and deployment readiness\nExperience developing and facilitating end-user training for varied audiences\nAbility to build productive relationships, navigate ambiguity, and bring structure to evolving workstreams\nPractical problem solving, sound judgment, and a service-oriented mindset\nCommitment to ethical conduct, collaboration, and continuous improvement\nIn addition to a competitive salary, leading-edge work, and developing solutions side-by-side with dedicated experts in their fields, Honeywell employees are eligible for a comprehensive benefits package. This package includes employer subsidized Medical, Dental, Vision, and Life Insurance; Short-Term and Long-Term Disability; 401(k) match, Flexible Spending Accounts, Health Savings Accounts, EAP, and Educational Assistance; Parental Leave, Paid Time Off (for vacation, personal business, sick time, and parental leave), and 12 Paid Holidays. For more information visit:\nhttps://benefits.honeywell.com/\nThe application period for the job is estimated to be 40 days from the job posting date; however, this may be shortened or extended depending on business needs and the availability of qualified candidates.\nJob Posting Date: November 12, 2026\n.\n\nHoneywell Technologies is a global, pure-play automation company with a legacy of innovating to help solve the world’s most mission-critical challenges, enhancing the quality of life for people and communities around the world. We serve the building, industrial and process sectors with a broad portfolio of services, solutions and products, underpinned by our Honeywell Technologies Accelerator operating system and Honeywell Technologies Forge intelligence layer. By combining the deep domain expertise of our more than 50,000 employees with decades of data from our global installed base, we are uniquely positioned to lead the industrial sector’s transition from automation to autonomy."
         },
         {
           "firm": "Honeywell",
@@ -4673,20 +4651,42 @@
           "required_experience": "3 years of experience",
           "required_certifications": "",
           "description": "As a Sr IT Project Management Specialist here at Honeywell, you will lead and mentor a team of IT project managers and specialists, shaping the strategic direction and effective execution of our technology projects. Collaborating closely with senior executives and cross-functional teams, you will align IT project strategies with business objectives. With your guidance, we'll navigate the complexities of project management, delivering projects that meet quality, budget, and timeline expectations. If you are a seasoned project management professional with a passion for leading high-performing teams, this role is your gateway to making a significant impact.\nYou will report directly to our Director of IT Business Partner and you’ll work out of either our Atlanta, GA or Charlotte, NC locations on a Hybrid work schedule.\nA highly visible role for an experienced IT professional who excels at partnering with business leaders to drive strategic outcomes. This role is responsible for leading complex IT initiatives, aligning digital IT, ERP and data solutions with business priorities, and ensuring successful delivery of transformation programs that create measurable value across the organization.\n\nKEY RESPONSIBILITIES\n•\nStrategic Business Partnership\no    Serve as a trusted advisor to business leaders, proactively identifying opportunities where technology can enable business strategy and operational excellence.\no    Build strong, collaborative relationships across business and IT stakeholders to ensure alignment on priorities, outcomes, and value realization.\n•\nProgram & Change Leadership\no    Support and manage business operation systems\no    IT initiatives and transformation initiatives, ensuring alignment with enterprise objectives, timelines, and success measures.\no    Drive adoption of new processes and technologies by embedding change into business operations, with a focus on sustainable impact rather than standalone training efforts.\n•\nValue Delivery & Outcomes\no    Translate business needs into actionable IT strategies, roadmaps, and solutions that deliver measurable business value.\no    Monitor and communicate progress against business outcomes, proactively addressing risks and driving continuous improvement.\n•\nStakeholder Engagement & Influence\no    Facilitate decision-making by engaging senior leaders and cross-functional stakeholders, ensuring clarity, transparency, and alignment.\no    Provide strategic guidance and thought leadership on transformation initiatives, organizational readiness, and process optimization.\n•\nOrganizational Readiness & Adoption\no    Assess business readiness for change and implement targeted strategies to support adoption, focusing on integration into day-to-day operations.\n•    Continuous Improvement & Innovation\no    Stay current on emerging technology and industry trends, applying insights to enhance business capabilities and competitive advantage.\no    Drive innovation in delivery approaches, stakeholder engagement, and value measurement.\n\nYOU MUST HAVE\nA minimum of 3 years of working experience in IT program management and tools, commercial and digital transformation, change management, preferably in a global or complex organization.\nHand-on ERP, commercial and Digital technology/system experience (SAP, S4 HANA, Salesforce,CPQ)\nA minimum of 3 years of experience in managing and leading IT projects, business transformation as consultants or analyst.\nWE VALUE\nBachelor's degree in IT, business, Computer Science, or related field, or equivalent work experience\nA proven track record of managing successful IT transformations and business operations, delivering measurable results and value.\nA strong knowledge of change and learning theories, models, frameworks, and methodologies, and the ability to apply them in various contexts and situations.\nProject management tools (Jira etc.)\nAn excellent communicator, facilitator, and presenter, with the ability to engage and influence diverse audiences and stakeholders at all levels.\nA collaborative and flexible team player, with the ability to work effectively in a cross-functional and matrix environment.\nA creative and innovative thinker, with the ability to solve problems and adapt to changing needs and priorities.\nA self-motivated and results-oriented individual, with the ability to manage multiple projects and tasks simultaneously.\nA passionate and committed learner, with the willingness to learn new skills and share knowledge and best practices.\nBENEFITS OF WORKING FOR HONEYWELL\nIn addition to a competitive salary, leading-edge work, and developing solutions side-by-side with dedicated experts in their fields, Honeywell employees are eligible for a comprehensive benefits package. This package includes employer subsidized Medical, Dental, Vision, and Life Insurance; Short-Term and Long-Term Disability; 401(k) match, Flexible Spending Accounts, Health Savings Accounts, EAP, and Educational Assistance; Parental Leave, Paid Time Off (for vacation, personal business, sick time, and parental leave), and 12 Paid Holidays. Learn more (https://benefits.honeywell.com/)\nThe application period for the job is estimated to be 40 days from the job posting date; however, this may be shortened or extended depending on business needs and the availability of qualified candidates. Job Posted: November 10, 2026\nABOUT HONEYWELL TECHNOLOGIES\nHoneywell Technologies is a global, pure-play automation company with a legacy of innovating to help solve the world’s most mission-critical challenges, enhancing the quality of life for people and communities around the world. We serve the building, industrial, and process sectors with a broad portfolio of services, solutions, and products, underpinned by our Honeywell Technologies Accelerator operating system and Honeywell Technologies Forge intelligence layer. By combining the deep domain expertise of our more than 50,000 employees with decades of data from our global installed base, we are uniquely positioned to lead the industrial sector’s transition from automation to autonomy.\nTHE BUSINESS UNIT\nHoneywell Building Automation (BA) is a leading global provider of products, software, solutions, and technologies that enable building owners and occupants to ensure their facilities are safe, energy efficient, sustainable, and productive. BA products and services include advanced software applications for building control and optimization; sensors, switches, control systems, and instruments for energy management; access control; video surveillance; fire products; and installation, maintenance, and upgrades of systems. Revenues in 2022 for BA were $6B and there are approximately 18,000 employees globally. To learn more, please visit https://buildings.honeywell.com/ (https://buildings.honeywell.com/)\n\nHoneywell Technologies is a global, pure-play automation company with a legacy of innovating to help solve the world’s most mission-critical challenges, enhancing the quality of life for people and communities around the world. We serve the building, industrial and process sectors with a broad portfolio of services, solutions and products, underpinned by our Honeywell Technologies Accelerator operating system and Honeywell Technologies Forge intelligence layer. By combining the deep domain expertise of our more than 50,000 employees with decades of data from our global installed base, we are uniquely positioned to lead the industrial sector’s transition from automation to autonomy."
+        },
+        {
+          "firm": "Honeywell",
+          "job_id": "162140",
+          "title": "Sr Legal Operations Specialist",
+          "client_company": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "work_arrangement": "hybrid",
+          "job_type": "",
+          "contract_length": "",
+          "pay_min": "",
+          "pay_max": "",
+          "pay_unit": "",
+          "posted_date": "2026-11-12",
+          "url": "https://careers.honeywell.com/en/sites/Honeywell/job/162140",
+          "recruiter_name": "",
+          "recruiter_email": "",
+          "recruiter_phone": "",
+          "required_experience": "3+ years of experience",
+          "required_certifications": "",
+          "description": "Serve as the primary Legal Operations business lead supporting enterprise transformation initiatives across Corporate Legal and Global Trade Operations. This individual contributor role is responsible for driving business readiness, process documentation, user adoption, testing coordination, training, deployment support, and operational transition activities for large-scale technology and process transformation programs.\nAs a Sr Legal Operations in the Corporate Legal function, you will act as a critical liaison between legal organization functional leaders, business process owners, project teams and technical stakeholders to support the successful delivery of strategic transformation initiatives. A successful candidate will have project management experience, a strong affinity for systems and processes, and significant leadership through influence.\nYou will report directly to our Senior Director of Legal Governance & Systems and will work out of our Charlotte, NC location on a hybrid work schedule (up to 2 days a week remote).\n\nServe as the primary Legal Operations business lead for strategic transformation initiatives, partnering with legal leaders, business process owners, project teams, and technical stakeholders to drive successful program outcomes.\nLead business readiness activities, ensuring new processes, technologies, and operational capabilities are effectively prepared for adoption and integrated into day-to-day operations.\nFacilitate the documentation and validation of business requirements, future-state processes, operating procedures, role guides, and operational readiness materials.\nCoordinate User Acceptance Testing (UAT) activities, including test planning, scenario development, participant readiness, execution tracking, defect management, and business sign-off processes.\nDevelop and deliver end-user training, knowledge transfer programs, and adoption materials that enable successful transition to new processes and systems.\nDrive stakeholder engagement and change adoption activities, including impact assessments, communication planning, feedback collection, and readiness monitoring.\nPromote consistent execution, clear ownership, accurate documentation, and effective handoffs across workstreams.\n\nYOU MUST HAVE\n3+ years of experience supporting Legal Operations, Compliance Operations, Global Trade Operations, ERP programs, complex business operations or enterprise transformation initiatives.\n3+ years of project management experience with the ability to coordinate multiple stakeholders, manage competing priorities, and drive deliverables to completion.\n3+ years of experience working within Legal, Compliance, Governance, Risk, Regulatory, or Global Trade functions.\nWE VALUE\nExperience establishing process governance, operational controls, and continuous improvement practices.\nStrong written and verbal communication skills, with the ability to translate complex information into clear, practical guidance for end users\nExperience tracking issues, risks, actions, and defects through resolution.\nStrong analytical, organizational, and problem-solving skills with a high degree of attention to detail.\nWorking knowledge of SAP ECC, S/4HANA, enterprise integrations, or large-scale technology deployments\nExperience with User Acceptance Testing, defect coordination, hypercare, and deployment readiness\nExperience developing and facilitating end-user training for varied audiences\nAbility to build productive relationships, navigate ambiguity, and bring structure to evolving workstreams\nPractical problem solving, sound judgment, and a service-oriented mindset\nCommitment to ethical conduct, collaboration, and continuous improvement\nIn addition to a competitive salary, leading-edge work, and developing solutions side-by-side with dedicated experts in their fields, Honeywell employees are eligible for a comprehensive benefits package. This package includes employer subsidized Medical, Dental, Vision, and Life Insurance; Short-Term and Long-Term Disability; 401(k) match, Flexible Spending Accounts, Health Savings Accounts, EAP, and Educational Assistance; Parental Leave, Paid Time Off (for vacation, personal business, sick time, and parental leave), and 12 Paid Holidays. For more information visit:\nhttps://benefits.honeywell.com/\nThe application period for the job is estimated to be 40 days from the job posting date; however, this may be shortened or extended depending on business needs and the availability of qualified candidates.\nJob Posting Date: November 12, 2026\n.\n\nHoneywell Technologies is a global, pure-play automation company with a legacy of innovating to help solve the world’s most mission-critical challenges, enhancing the quality of life for people and communities around the world. We serve the building, industrial and process sectors with a broad portfolio of services, solutions and products, underpinned by our Honeywell Technologies Accelerator operating system and Honeywell Technologies Forge intelligence layer. By combining the deep domain expertise of our more than 50,000 employees with decades of data from our global installed base, we are uniquely positioned to lead the industrial sector’s transition from automation to autonomy."
         }
       ],
       "attempts": {
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-26T23:17:35.001387+00:00",
-          "completed_at": "2026-11-26T23:18:23.808532+00:00",
+          "started_at": "2026-11-27T00:17:54.423396+00:00",
+          "completed_at": "2026-11-27T00:18:36.954887+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1355,
-            "enumerated_raw": 1355,
-            "advertised": 1355,
-            "details_read": 57,
+            "enumerated": 1352,
+            "enumerated_raw": 1352,
+            "advertised": 1352,
+            "details_read": 56,
             "kept": 9,
             "method": "employer Oracle search + full requisition detail resource"
           }
@@ -4707,8 +4707,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-26T23:17:35.001387+00:00",
-      "completed_at": "2026-11-26T23:18:23.808532+00:00",
+      "snapshot_at": "2026-11-27T00:17:54.423396+00:00",
+      "completed_at": "2026-11-27T00:18:36.954887+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -6160,7 +6160,19 @@
       "firms_attempted": 0,
       "firms_succeeded": 0,
       "firms_failed": 0
+    },
+    {
+      "id": "45915451839",
+      "route": "cloud",
+      "started_at": "2026-11-27T00:13:50.450555+00:00",
+      "completed_at": "2026-11-27T00:18:57.753372+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 39,
+      "firms_failed": 0,
+      "timer_run_id": "45909597462",
+      "timer_fired_at": "2026-11-27T00:13:11.401022+00:00"
     }
   ],
-  "published_at": "2026-11-26T23:55:17.012149+00:00"
+  "published_at": "2026-11-27T00:18:58.951792+00:00"
 }
