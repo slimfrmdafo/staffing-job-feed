@@ -535,17 +535,10 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-27T04:14:23.405978+00:00",
-          "completed_at": "2026-11-27T04:15:28.683764+00:00",
-          "ok": true,
-          "info": {
-            "enumerated": 2087,
-            "enumerated_raw": 2087,
-            "advertised": 2087,
-            "details_read": 142,
-            "kept": 24,
-            "method": "employer search service + canonical full detail pages"
-          }
+          "started_at": "2026-11-27T05:14:59.570537+00:00",
+          "completed_at": "2026-11-27T05:15:05.814964+00:00",
+          "ok": false,
+          "error": "CollectionError: 403 Client Error: Forbidden for url: https://careers.bankofamerica.com/services/jobssearchservlet?start=0&rows=100&search=getAllJobs"
         },
         "mac": {
           "firm": "Bank of America",
@@ -816,13 +809,13 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-27T04:14:23.407006+00:00",
-          "completed_at": "2026-11-27T04:15:24.161262+00:00",
+          "started_at": "2026-11-27T05:14:59.571463+00:00",
+          "completed_at": "2026-11-27T05:16:00.499811+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1415,
-            "enumerated_raw": 1415,
-            "advertised": 1415,
+            "enumerated": 1352,
+            "enumerated_raw": 1352,
+            "advertised": 1352,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -862,8 +855,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:14:23.407006+00:00",
-      "completed_at": "2026-11-27T04:15:24.161262+00:00",
+      "snapshot_at": "2026-11-27T05:14:59.571463+00:00",
+      "completed_at": "2026-11-27T05:16:00.499811+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1643,13 +1636,13 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-27T04:14:23.409887+00:00",
-          "completed_at": "2026-11-27T04:15:40.753368+00:00",
+          "started_at": "2026-11-27T05:14:59.571918+00:00",
+          "completed_at": "2026-11-27T05:16:22.419557+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1313,
-            "enumerated_raw": 1313,
-            "advertised": 1313,
+            "enumerated": 1306,
+            "enumerated_raw": 1306,
+            "advertised": 1306,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -1669,8 +1662,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-27T04:14:23.409887+00:00",
-      "completed_at": "2026-11-27T04:15:40.753368+00:00",
+      "snapshot_at": "2026-11-27T05:14:59.571918+00:00",
+      "completed_at": "2026-11-27T05:16:22.419557+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1743,28 +1736,6 @@
         },
         {
           "firm": "Duke Energy",
-          "job_id": "R42468",
-          "title": "Job Description The Manager of Interconnection Studies and Compliance",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-16",
-          "url": "https://dukeenergy.wd1.myworkdayjobs.com/search/job/Charlotte-NC/Job-Description-The-Manager-of-Interconnection-Studies-and-Compliance_R42468",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Important Application Submission Information\nIn order to ensure your application is successfully received before the job posting expires, please submit your application by 11:59 PM on Thursday, November 26, 2026\nMore than a career - a chance to make a difference in people's lives.\nBuild an exciting, rewarding career with us – help us make a difference for millions of people every day. Consider joining the Duke Energy team, where you'll find a friendly work environment, opportunities for growth and development, recognition for your work, and competitive pay and benefits.\nThe Manager of Interconnection Studies and Compliance oversees the generator interconnection study queue and ensures compliance for customers with generators larger than 250 kW in Florida and the Carolinas, as well as distribution-connected generators in the Midwest. The manager leads a cross-jurisdictional team of Interconnection Account Managers to administer all applicable state and FERC generator interconnection procedures, move generators efficiently through the study process, and ensure studies are released on time.\nRegulatory Support\nThis position serves as a key subject matter expert across the company, contributes to regulatory filings, testifies before regulators, and supports other regulatory matters. The manager also identifies and communicates generator interconnection process issues that the company needs to address.\nCompliance, Performance, and Process Improvement\nThe manager ensures that process measures meet the reporting requirements of regulatory agencies overseeing the company. Responsibilities include managing internal performance metrics and data quality, allocating resources to complete projects in accordance with standards and procedures, and collaborating with internal stakeholders and support organizations—including engineering, construction, and finance—to improve the efficiency of the interconnection process.\nBasic / Required Qualifications\nBachelor’s degree in engineering, business, finance, science, or a related field.\nEight years of related work experience.\nIn lieu of a degree, a high school diploma or GED and 12 years of related work experience.\nAdvanced written and interpersonal communication skills.\nProven ability to develop solutions, resolve problems, manage and implement projects, and influence others.\n·        Graduation from a four-year college or university with a Bachelor of Science in engineering (not engineering technology), business, finance, or another related field from an ABET-accredited program.\n·        A minimum of eight years of related work experience.\nPreferred Qualifications\nExperience managing the generation interconnection queue.\nWorking knowledge of generator interconnection procedures.\nUnderstanding of the transmission and distribution power system.\nExperience working across multiple Duke Energy jurisdictions.\nAbility to lead and develop a team.\nChange management skills.\nAbility to collaborate with and influence work groups outside the organization.\nCustomer service skills.\nWorking Conditions\nMobility classification:\nHybrid.\nEnvironmental conditions:\nOffice environment.\nPhysical requirements:\nLifting, prolonged sitting, and other physical activities.\nTravel:\n5–15%.\n.\nTravel Requirements\n5-15%\nRelocation Assistance Provided (as applicable)\nNo\nRepresented/Union Position\nNo\nVisa Sponsored Position\nNo. This is not a Visa Sponsored Position. This role requires the ability to work lawfully in the U.S. without employment-based immigration sponsorship, now or in the future.\nPlease note that in order to be considered for this position, you must possess all of the basic/required qualifications.\nPrivacy\nDo Not Sell My Personal Information (CA)\nTerms of Use\nAccessibility"
-        },
-        {
-          "firm": "Duke Energy",
           "job_id": "R42439",
           "title": "Senior Business Analyst – Energy Services Business",
           "client_company": "",
@@ -1784,47 +1755,25 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "Important Application Submission Information\nIn order to ensure your application is successfully received before the job posting expires, please submit your application by 11:59 PM on Sunday, November 29, 2026\nMore than a career - a chance to make a difference in people's lives.\nBuild an exciting, rewarding career with us – help us make a difference for millions of people every day. Consider joining the Duke Energy team, where you'll find a friendly work environment, opportunities for growth and development, recognition for your work, and competitive pay and benefits.\nJob Summary\nThis position serves as a hands-on business analyst and data engineer for the Energy Services Business Support Team. The role translates business needs into reliable data integrations, Power BI reporting, and workflow solutions that support sales, marketing, and operations.  Responsibilities include developing and maintaining data models and reporting solutions, improving data quality, automating recurring processes, troubleshooting existing tools, and documenting solutions to support continuity and adoption. The position partners with business stakeholders and enterprise technology teams to deliver practical, maintainable solutions within established governance standards.\nResponsibilities\nData Analysis, Reporting, Project Management and Change Initiatives\nProvides business analysis and project management support for analyzing, designing, developing, testing, and implementing business process improvement initiatives.\nBuilds and maintains authoritative data models and ETL pipelines across Power BI, Salesforce, Power Platform, and Microsoft Excel\nDesigns, develops, and maintains Power Apps and Power Automate solutions to streamline business processes, automate workflows, and enhance productivity.\nTracks business metrics and performs data analysis/engineering with Python, SQL, and DAX\nBuilds & maintains executive reports in Power BI that deliver accurate views on business health and trends to inform business decisions.  (Tell the story)\nCollaborates extensively with IT business partners and operations subject matter experts to capture comprehensive business requirements that ensure thorough development of technical design specifications.\nIdentifies best practices or process improvement opportunities.\nMonitors technology and AI innovations to identify frontier capabilities to make the team more efficient and effective.\nServes as project manager for technology projects, business cases, and proactive improvements.\nFacilitates sessions across the organization to achieve project objectives.\nMaintains knowledge and executes fundamental project management disciplines to implement key business initiatives.\nSupports team in the development and the execution of annual strategic business plans that align with fiscal and capital budgets.\nEngages and communicates effectively with fellow employees and key stakeholders in identifying opportunities that positively impact company financials by leveraging resources, processes, and technologies.\nCommunicates Effectively and Manages Change\nProvides input for strategies and goals as requested by the leadership team, communicating sound vision and perspective\nCollaborates with stakeholders to ensure their expectations are achieved and issues are resolved in a timely manner\nMaintains effective communications and working relationships with other groups and departments to support successful project design, implementation and adoption of new processes and initiatives\nMaintain a Safe and Productive Work Environment\nContributes to a positive work environment where fellow employees work safely and efficiently\nMaintains productivity and focus, keeping management well informed of project deliverables and emerging issues/opportunities as required\nAdopts and models the safety guiding principles\nSupports a consulting culture, mindset, and results-oriented environment within the organization that drives teamwork\nMaintains strong project management, effective change management, process reengineering, and superior business case development skills\nBasic/Required Qualifications\nBachelor's degree and 3 plus years work related experience OR\nGED/HS and 7 plus years work related experience in lieu of a bachelor's degree.\nDesired Qualifications\nMaster's degree\nAdvanced proficiency with Microsoft Power Platform – Power BI, Power Query, Power Apps, Power Automate and Dataverse\nAdvanced proficiency with Python, SQL, DAX, or similar scripting languages.\nDemonstrated experience with geospatial tools like ArcGIS, Google Earth, etc.\nProficient in Salesforce CRM, Salesforce Pardot (Marketing Automation), MS Office products - Word, Excel, PowerPoint, SharePoint, Teams etc...\nDemonstrated experience with AI tools like Copilot, Codex, or Claude Code\nDemonstrated analytical skills\nDemonstrated problem solving skills\nDemonstrated experience in project management\nDemonstrated process management experience\nDemonstrated solid written and oral communication skills, including small and larger group presentations\nExcellent communication, facilitation, motivational and interpersonal skills\nDemonstrated ability to drive change in the organization at both strategic and operational levels\nStrong financial acumen\nCandidate must be totally committed to corporate values and strategic objectives\nWorking Conditions\nHybrid Mobility Classification\n– Work will be performed from both remote and onsite locations after the onboarding period. However, hybrid employees must live within a reasonable commute to their designated Duke Energy facility, not greater than 50 miles one way. Employees are expected to report to their assigned Duke Energy facility as required and directed by their manager, on average 3 full workdays per regular workweek.\nProlonged sitting and Daily video calls\nTravel Requirements\n5-15%\nRelocation Assistance Provided (as applicable)\nNo\nRepresented/Union Position\nNo\nVisa Sponsored Position\nNo. This is not a Visa Sponsored Position. This role requires the ability to work lawfully in the U.S. without employment-based immigration sponsorship, now or in the future.\nPlease note that in order to be considered for this position, you must possess all of the basic/required qualifications.\nPrivacy\nDo Not Sell My Personal Information (CA)\nTerms of Use\nAccessibility"
-        },
-        {
-          "firm": "Duke Energy",
-          "job_id": "R42429",
-          "title": "Manager of Interconnection Studies and Compliance",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "",
-          "pay_max": "",
-          "pay_unit": "",
-          "posted_date": "2026-11-12",
-          "url": "https://dukeenergy.wd1.myworkdayjobs.com/search/job/Charlotte-NC/Manager-of-Interconnection-Studies-and-Compliance_R42429",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Important Application Submission Information\nIn order to ensure your application is successfully received before the job posting expires, please submit your application by 11:59 PM on Thursday, November 26, 2026\nMore than a career - a chance to make a difference in people's lives.\nBuild an exciting, rewarding career with us – help us make a difference for millions of people every day. Consider joining the Duke Energy team, where you'll find a friendly work environment, opportunities for growth and development, recognition for your work, and competitive pay and benefits.\nThe Manager of Interconnection Studies and Compliance oversees the generator interconnection study queue and ensures compliance for customers with generators larger than 250 kW in Florida and the Carolinas, as well as distribution-connected generators in the Midwest. The manager leads a cross-jurisdictional team of Interconnection Account Managers to administer all applicable state and FERC generator interconnection procedures, move generators efficiently through the study process, and ensure studies are released on time.\nRegulatory Support\nThis position serves as a key subject matter expert across the company, contributes to regulatory filings, testifies before regulators, and supports other regulatory matters. The manager also identifies and communicates generator interconnection process issues that the company needs to address.\nCompliance, Performance, and Process Improvement\nThe manager ensures that process measures meet the reporting requirements of regulatory agencies overseeing the company. Responsibilities include managing internal performance metrics and data quality, allocating resources to complete projects in accordance with standards and procedures, and collaborating with internal stakeholders and support organizations—including engineering, construction, and finance—to improve the efficiency of the interconnection process.\nBasic / Required Qualifications\nBachelor’s degree in engineering, business, finance, science, or a related field.\nEight years of related work experience.\nIn lieu of a degree, a high school diploma or GED and 12 years of related work experience.\nAdvanced written and interpersonal communication skills.\nProven ability to develop solutions, resolve problems, manage and implement projects, and influence others.\n·\nGraduation from a four-year college or university with a Bachelor of Science in engineering (not engineering technology), business, finance, or another related field from an ABET-accredited program.\n·\nA minimum of eight years of related work experience.\nPreferred Qualifications\nExperience managing the generation interconnection queue.\nWorking knowledge of generator interconnection procedures.\nUnderstanding of the transmission and distribution power system.\nExperience working across multiple Duke Energy jurisdictions.\nAbility to lead and develop a team.\nChange management skills.\nAbility to collaborate with and influence work groups outside the organization.\nCustomer service skills.\nWorking Conditions\nMobility classification:\nHybrid.\nEnvironmental conditions:\nOffice environment.\nPhysical requirements:\nLifting, prolonged sitting, and other physical activities.\nTravel:\n5–15%.\nTravel Requirements\n5-15%\nRelocation Assistance Provided (as applicable)\nNo\nRepresented/Union Position\nNo\nVisa Sponsored Position\nNo. This is not a Visa Sponsored Position. This role requires the ability to work lawfully in the U.S. without employment-based immigration sponsorship, now or in the future.\nPlease note that in order to be considered for this position, you must possess all of the basic/required qualifications.\nPrivacy\nDo Not Sell My Personal Information (CA)\nTerms of Use\nAccessibility"
         }
       ],
       "attempts": {
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-27T04:14:23.410150+00:00",
-          "completed_at": "2026-11-27T04:14:30.984343+00:00",
+          "started_at": "2026-11-27T05:14:59.572258+00:00",
+          "completed_at": "2026-11-27T05:15:09.664380+00:00",
           "ok": true,
           "info": {
-            "enumerated": 71,
-            "enumerated_raw": 71,
-            "advertised": 71,
+            "enumerated": 64,
+            "enumerated_raw": 64,
+            "advertised": 64,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 9,
+            "details_read": 6,
             "closed_during_pull": 0,
-            "kept": 6,
+            "kept": 4,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {}
           }
@@ -1850,8 +1799,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:14:23.410150+00:00",
-      "completed_at": "2026-11-27T04:14:30.984343+00:00",
+      "snapshot_at": "2026-11-27T05:14:59.572258+00:00",
+      "completed_at": "2026-11-27T05:15:09.664380+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -2059,13 +2008,13 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-27T04:14:30.984413+00:00",
-          "completed_at": "2026-11-27T04:14:43.913394+00:00",
+          "started_at": "2026-11-27T05:15:05.815034+00:00",
+          "completed_at": "2026-11-27T05:15:29.980194+00:00",
           "ok": true,
           "info": {
-            "enumerated": 4576,
-            "enumerated_raw": 4576,
-            "advertised": 4576,
+            "enumerated": 4574,
+            "enumerated_raw": 4574,
+            "advertised": 4574,
             "details_read": 15,
             "kept": 9,
             "method": "employer current search widget + canonical full detail pages",
@@ -2081,8 +2030,8 @@
           "error": "CollectionError: Employer full JobPosting missing: https://talent.lowes.com/us/en/job/JR-02707912"
         }
       },
-      "snapshot_at": "2026-11-27T04:14:30.984413+00:00",
-      "completed_at": "2026-11-27T04:14:43.913394+00:00",
+      "snapshot_at": "2026-11-27T05:15:05.815034+00:00",
+      "completed_at": "2026-11-27T05:15:29.980194+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2136,13 +2085,13 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-27T04:14:43.913458+00:00",
-          "completed_at": "2026-11-27T04:14:49.844878+00:00",
+          "started_at": "2026-11-27T05:15:09.664436+00:00",
+          "completed_at": "2026-11-27T05:15:15.789334+00:00",
           "ok": true,
           "info": {
-            "enumerated": 81,
-            "enumerated_raw": 81,
-            "advertised": 81,
+            "enumerated": 80,
+            "enumerated_raw": 80,
+            "advertised": 80,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2158,8 +2107,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:14:43.913458+00:00",
-      "completed_at": "2026-11-27T04:14:49.844878+00:00",
+      "snapshot_at": "2026-11-27T05:15:09.664436+00:00",
+      "completed_at": "2026-11-27T05:15:15.789334+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2185,28 +2134,6 @@
           "required_experience": "",
           "required_certifications": "",
           "description": "This is a\nContingent Worker (Non-Employee)\nrole providing services to TIAA and its family of companies. The individual will be engaged and employed by TIAA’s preferred third‑party supplier. In this capacity, you will perform a range of moderately complex business planning, support, and project-related responsibilities, consistently delivering work product to an exceptional standard of quality and holding yourself accountable for achieving excellent results. Strong performance as a Contingent Worker (Non-Employee) and evolving business needs could create opportunities for consideration for\npermanent roles with TIAA\nthrough the company’s standard hiring processes.\nThis role is expected to be\nonsite in a hybrid capacity\nat the location(s) identified in this posting.\nThe anticipated term of this engagement is 11 months, with the possibility of extension based on business needs\nProject and Program Management\nThe Project and Program Management role is responsible for planning, organizing, and controlling resources, processes to achieve project/program objectives within scope, time, quality, and budget constraints. As a subject matter expert in Project/Program Management, this job utilizes general knowledge of the project/business requirements to manage large projects for the organization.\nKey Responsibilities and Duties\nOrganizes project teams by assigning individual responsibilities, developing project schedules, and determining resource requirements necessary to ensure project is successful.\nEstimates the costs, resources, and time required to complete each phase of a project and allocates resources and tasks to ensure these targets are met.\nImplements an established project plan and monitors progress and performance against this plan.\nMonitors the status of projects including cost, timing, and staffing.\nIdentifies and resolves obstacles to completing project on time and to budget.\nConducts project meetings and prepares regular reports to communicate the status of the project within and beyond the project team.\nCoordinates the activities of outside contractors to ensure they are integrated into the project and that the organization receives satisfactory standards of service.\nEducational Requirements\nUniversity (Degree) Preferred\nWork Experience\n5+ Years Required; 7+ Years Preferred\nPhysical Requirements\nPhysical Requirements: Sedentary Work\nCareer Level\n8IC\nRelated Skills\nAdaptability, Collaboration, Communication, Consultative Communication, Executive Presence, General Risk Management, Influence, Problem Solving, Program Management, Project Management, Relationship Management, Stakeholder Engagement\nStart Date: 01-Jan-2027\nEnd Date: 31-Dec-2027\nTravel Required: Yes\nAnticipated Posting End Date:\nBase Pay Range: $60.10/hr - $84.13/hr\nActual base salary may vary based upon, but not limited to, relevant experience, time in role, base salary of internal peers, prior performance, business sector, and geographic location.\n_____________________________________________________________________________________________________\nEqual Opportunity\nWe are an Equal Opportunity Employer. TIAA does not discriminate against any candidate or employee on the basis of age, race, color, national origin, sex, religion, veteran status, disability, sexual orientation, gender identity, or any other legally protected status.\nOur full EEO & Non-Discrimination statement is on our\ncareers home page\n, and you can read more about your rights and view government notices\nhere\n.\nAccessibility Support\nTIAA offers support for those who need assistance with our online application process to provide an equal employment opportunity to all job seekers, including individuals with disabilities.\nIf you are a U.S. applicant and desire a reasonable accommodation to complete a job application please use one of the below options to contact our accessibility support team:\nPhone: (800) 842-2755\nEmail:\naccessibility.support@tiaa.org\nDrug and Smoking Policy\nTIAA maintains a drug-free and smoke/free workplace.\nPrivacy Notices\nFor Applicants of TIAA, Nuveen and Affiliates residing in US (other than California), click\nhere\n.\nFor Applicants of TIAA, Nuveen and Affiliates residing in California, please click\nhere\n.\nFor Applicants of TIAA Global Capabilities, click\nhere\n.\nFor Applicants of Nuveen residing in Europe and APAC, please click\nhere\n."
-        },
-        {
-          "firm": "TIAA",
-          "job_id": "R260600279",
-          "title": "Brokerage Operations Analyst",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "hybrid",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "24.04",
-          "pay_max": "31.3",
-          "pay_unit": "hour",
-          "posted_date": "2026-11-24",
-          "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/Brokerage-Operations-Analyst_R260600279-2",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "Operations Analyst\nThe Operations Analyst is responsible for a variety of tasks associated with the opening, funding, account transfers, and on-going maintenance of discretionary managed, fee-based accounts, as well as self-directed accounts. Under limited supervision, this job understands the regulatory/compliance policies associated with the brokerage business and understands the financial impacts associated with operational and trading responsibilities.\nKey Responsibilities and Duties\nProcesses account opening, initiates money movement requests, account transfers and/or processes account maintenance request.\nDeposits client funds into the correct account.\nPerforms various account maintenance processing/updates as directed by supervisor.\nCommunicates requirements to open, fund and maintain a TIAA brokerage/managed account.\nCompletes brokerage operation activities in a timely manner and at established productivity levels.\nUnderstands the regulatory requirements to open and maintain a brokerage/managed account.\nMust be flexible and work as a team to deliver exceptional service, manage high volume of tasks to ensure cases are processed both accurately and efficiently.\nEducational Requirements\nUniversity (Degree) Preferred\nWork Experience\nNo Experience Required\nFINRA Registrations\nSRC Indicator:  NRF\nPhysical Requirements\nPhysical Requirements: Sedentary Work\nCareer Level\n5IC\nPreferred Skills:\nFinancial Services experience\nBrokerage knowledge\nOperations processing experience\nDemonstrate experience as a problem solver\nAttention to detail\nUniversity Degree\nRelated Skills\nAdaptability, Collaboration, Communication, Conflict Management, Continuous Improvement Mindset, Critical Thinking, Detail-Oriented, Financial Risk Management, Prioritizes Effectively, Transaction Processing\nAnticipated Posting End Date:\n2026-11-27\nBase Pay Range: $24.04/hr - $31.30/hr\nActual base salary may vary based upon, but not limited to, relevant experience, time in role, base salary of internal peers, prior performance, business sector, and geographic location.  In addition to base salary, the competitive compensation package may include, depending on the role, participation in an incentive program linked to performance (for example, annual discretionary incentive programs, non-annual sales incentive plans, or other non-annual incentive plans).\n_____________________________________________________________________________________________________\nCompany Overview\nEvery worker deserves a secure retirement. For more than 100 years, TIAA has delivered it for millions of people. Founded to help educators retire with dignity, today weʼre a market-leading retirement company fueled by world-class asset management. But weʼre not just another legacy financial services firm. Weʼre fighting harder than ever before for our clients and the many Americans who need us.\nOur Culture of Impact\nAt TIAA, we're on a mission to build on our 100+ year legacy of delivering for our clients while evolving to meet tomorrow's challenges. We equip our associates with future-focused skills and AI tools that enable us to advance our mission. Together, we are fighting to ensure a more secure financial future for all and for generations to come. We are guided by our values: Champion Our People, Be Client Obsessed, Lead with Integrity, Own It, and Win As One. They influence every decision we make and how we work together to serve our clients every day. We thrive in a collaborative in-office environment where teams work across organizational boundaries with shared purpose, accelerating innovation and delivering meaningful results. Our workplace brings together TIAA and Nuveen's entrepreneurial spirit, where we work hard and work together to create lasting impact. Here, every associate can grow through meaningful learning experiences and development pathways—because when our people succeed, our impact on clients' lives grows stronger.\nBenefits and Total Rewards\nThe organization is committed to making financial well-being possible for its clients, and is equally committed to the well-being of our associates. That’s why we offer a comprehensive Total Rewards package designed to make a positive difference in the lives of our associates and their loved ones. Our benefits include a superior retirement program and highly competitive health, wellness and work life offerings that can help you achieve and maintain your best possible physical, emotional and financial well-being. To learn more about your benefits, please review our\nBenefits Summary\n.\nEqual Opportunity\nWe are an Equal Opportunity Employer. TIAA does not discriminate against any candidate or employee on the basis of age, race, color, national origin, sex, religion, veteran status, disability, sexual orientation, gender identity, or any other legally protected status.\nOur full EEO & Non-Discrimination statement is on our\ncareers home page\n, and you can read more about your rights and view government notices\nhere\n.\nAccessibility Support\nTIAA offers support for those who need assistance with our online application process to provide an equal employment opportunity to all job seekers, including individuals with disabilities.\nIf you are a U.S. applicant and desire a reasonable accommodation to complete a job application please use one of the below options to contact our accessibility support team:\nPhone: (800) 842-2755\nEmail:\naccessibility.support@tiaa.org\nDrug and Smoking Policy\nTIAA maintains a drug-free and smoke/free workplace.\nPrivacy Notices\nFor Applicants of TIAA, Nuveen and Affiliates residing in US (other than California), click\nhere\n.\nFor Applicants of TIAA, Nuveen and Affiliates residing in California, please click\nhere\n.\nFor Applicants of TIAA Global Capabilities, click\nhere\n.\nFor Applicants of Nuveen residing in Europe and APAC, please click\nhere\n."
         },
         {
           "firm": "TIAA",
@@ -2257,19 +2184,19 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-27T04:14:49.844934+00:00",
-          "completed_at": "2026-11-27T04:14:57.672875+00:00",
+          "started_at": "2026-11-27T05:15:15.789388+00:00",
+          "completed_at": "2026-11-27T05:15:23.109071+00:00",
           "ok": true,
           "info": {
-            "enumerated": 118,
-            "enumerated_raw": 118,
-            "advertised": 118,
+            "enumerated": 114,
+            "enumerated_raw": 114,
+            "advertised": 114,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 6,
+            "details_read": 5,
             "closed_during_pull": 0,
-            "kept": 4,
+            "kept": 3,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "Country": [
@@ -2303,8 +2230,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:14:49.844934+00:00",
-      "completed_at": "2026-11-27T04:14:57.672875+00:00",
+      "snapshot_at": "2026-11-27T05:15:15.789388+00:00",
+      "completed_at": "2026-11-27T05:15:23.109071+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2490,10 +2417,26 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-27T04:14:57.672936+00:00",
-          "completed_at": "2026-11-27T04:16:03.607206+00:00",
-          "ok": false,
-          "error": "Error: Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:370:30), <anonymous>:1:36)\n    at UtilityScript.evaluate (<anonymous>:377:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+          "started_at": "2026-11-27T05:15:23.109129+00:00",
+          "completed_at": "2026-11-27T05:17:11.507151+00:00",
+          "ok": true,
+          "info": {
+            "enumerated": 1426,
+            "enumerated_raw": 1426,
+            "advertised": 1426,
+            "location_partitions": 0,
+            "partition_advertised_counts": [],
+            "unpublished_index_ids": [],
+            "details_read": 132,
+            "closed_during_pull": 0,
+            "kept": 8,
+            "method": "ordinary browser + first-party full posting endpoint",
+            "scope_facets": {
+              "Country_and_Jurisdiction": [
+                "bc33aa3152ec42d4995f4791a106ed09"
+              ]
+            }
+          }
         },
         "mac": {
           "firm": "Citigroup",
@@ -2520,9 +2463,9 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T05:07:46.825429+00:00",
-      "completed_at": "2026-11-27T05:09:53.042217+00:00",
-      "snapshot_route": "mac"
+      "snapshot_at": "2026-11-27T05:15:23.109129+00:00",
+      "completed_at": "2026-11-27T05:17:11.507151+00:00",
+      "snapshot_route": "cloud"
     },
     "AT&T": {
       "rows": [],
@@ -2530,8 +2473,8 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-27T04:15:24.161324+00:00",
-          "completed_at": "2026-11-27T04:15:55.198133+00:00",
+          "started_at": "2026-11-27T05:15:29.980256+00:00",
+          "completed_at": "2026-11-27T05:16:00.093776+00:00",
           "ok": true,
           "info": {
             "enumerated": 1128,
@@ -2552,8 +2495,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:15:24.161324+00:00",
-      "completed_at": "2026-11-27T04:15:55.198133+00:00",
+      "snapshot_at": "2026-11-27T05:15:29.980256+00:00",
+      "completed_at": "2026-11-27T05:16:00.093776+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2629,13 +2572,13 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-27T04:15:28.683843+00:00",
-          "completed_at": "2026-11-27T04:16:05.086312+00:00",
+          "started_at": "2026-11-27T05:16:00.093833+00:00",
+          "completed_at": "2026-11-27T05:16:33.046621+00:00",
           "ok": true,
           "info": {
-            "enumerated": 879,
-            "enumerated_raw": 879,
-            "advertised": 879,
+            "enumerated": 875,
+            "enumerated_raw": 875,
+            "advertised": 875,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2651,8 +2594,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:15:28.683843+00:00",
-      "completed_at": "2026-11-27T04:16:05.086312+00:00",
+      "snapshot_at": "2026-11-27T05:16:00.093833+00:00",
+      "completed_at": "2026-11-27T05:16:33.046621+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2684,8 +2627,8 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-27T04:15:40.753438+00:00",
-          "completed_at": "2026-11-27T04:15:50.667275+00:00",
+          "started_at": "2026-11-27T05:16:00.499913+00:00",
+          "completed_at": "2026-11-27T05:16:11.094897+00:00",
           "ok": true,
           "info": {
             "enumerated": 137,
@@ -2730,8 +2673,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:15:40.753438+00:00",
-      "completed_at": "2026-11-27T04:15:50.667275+00:00",
+      "snapshot_at": "2026-11-27T05:16:00.499913+00:00",
+      "completed_at": "2026-11-27T05:16:11.094897+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2807,8 +2750,8 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-27T04:15:50.667333+00:00",
-          "completed_at": "2026-11-27T04:16:03.455381+00:00",
+          "started_at": "2026-11-27T05:16:11.094955+00:00",
+          "completed_at": "2026-11-27T05:16:23.212783+00:00",
           "ok": true,
           "info": {
             "enumerated": 81,
@@ -2825,8 +2768,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:15:50.667333+00:00",
-      "completed_at": "2026-11-27T04:16:03.455381+00:00",
+      "snapshot_at": "2026-11-27T05:16:11.094955+00:00",
+      "completed_at": "2026-11-27T05:16:23.212783+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -2924,13 +2867,13 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-27T04:15:55.198190+00:00",
-          "completed_at": "2026-11-27T04:16:24.683240+00:00",
+          "started_at": "2026-11-27T05:16:22.419611+00:00",
+          "completed_at": "2026-11-27T05:16:46.770011+00:00",
           "ok": true,
           "info": {
-            "enumerated": 882,
-            "enumerated_raw": 882,
-            "advertised": 882,
+            "enumerated": 878,
+            "enumerated_raw": 878,
+            "advertised": 878,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2946,8 +2889,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:15:55.198190+00:00",
-      "completed_at": "2026-11-27T04:16:24.683240+00:00",
+      "snapshot_at": "2026-11-27T05:16:22.419611+00:00",
+      "completed_at": "2026-11-27T05:16:46.770011+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -3001,8 +2944,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:03.455440+00:00",
-          "completed_at": "2026-11-27T04:16:11.295238+00:00",
+          "started_at": "2026-11-27T05:16:23.212838+00:00",
+          "completed_at": "2026-11-27T05:16:28.960603+00:00",
           "ok": true,
           "info": {
             "enumerated": 44,
@@ -3019,8 +2962,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:03.455440+00:00",
-      "completed_at": "2026-11-27T04:16:11.295238+00:00",
+      "snapshot_at": "2026-11-27T05:16:23.212838+00:00",
+      "completed_at": "2026-11-27T05:16:28.960603+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -3029,8 +2972,8 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:03.607272+00:00",
-          "completed_at": "2026-11-27T04:16:16.222172+00:00",
+          "started_at": "2026-11-27T05:16:28.960662+00:00",
+          "completed_at": "2026-11-27T05:16:41.263889+00:00",
           "ok": true,
           "info": {
             "enumerated": 317,
@@ -3051,8 +2994,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:03.607272+00:00",
-      "completed_at": "2026-11-27T04:16:16.222172+00:00",
+      "snapshot_at": "2026-11-27T05:16:28.960662+00:00",
+      "completed_at": "2026-11-27T05:16:41.263889+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -3144,47 +3087,25 @@
           "required_experience": "5+ years of experience",
           "required_certifications": "",
           "description": "About Carrier\nCarrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control, air quality and transportation, we improve lives, empower critical industries and ensure safe transport of food, lifesaving medicines and more. Since inventing modern air conditioning in 1902, we lead with purpose: enhancing the lives we live and the world we share. We continue to lead because of our world-class, inclusive workforce that puts the customer at the center of everything we do. For more information, visit\ncorporate.carrier.com\nor follow on Carrier social media at @Carrier.\nABOUT THIS ROLE\nCarrier is seeking a highly skilled Project Manager to oversee our scope of work in data center construction projects. This role is responsible for the startup, commissioning, and field modifications of Carrier air- and water-cooled chillers. The Project Manager will work closely with internal and external teams including engineering, factory operations, field service, commissioning authorities, general contractors, and subcontractors.\nThe primary job sites are located in the West South-Central region of the United States including Texas, New Mexico, Oklahoma, Louisiana and the surrounding area. Travel from a nearby regional home location is acceptable. Please note that extensive travel for onsite construction project management outside this geography may be required.\nKEY RESPONSIBILITIES\nProject Execution & Management\nLead startup, commissioning, and field modification processes for Carrier air- and water-cooled chillers in newly constructed data centers.\nDevelop and manage comprehensive project plans, ensuring schedules and budgets are met.\nTrack and review key performance indicators (KPIs) to monitor project success.\nConduct progress meetings with stakeholders, addressing design, material delivery, and labor schedules.\nEnsure all projects meet or exceed booked profit margin goals.\nWork with project coordination to order and track all chiller parts needed for warranty execution.\nStakeholder & Customer Coordination\nCollaborate with sales, prime contractors, and end-users to fulfill project scope and deliverables.\nServe as the primary liaison representing Carrier between the customer, commissioning authority, general contractor, and subcontractors, ensuring smooth communication and project progression.\nProvide professional, timely resolution for customer concerns, ensuring satisfaction with all aspects of project execution.\nTechnical Expertise & Compliance\nInterpret and apply mechanical, electrical, and architectural drawings to ensure compliance with design specifications.\nEnsure adherence to industry codes, standards, and project specifications.\nApply working knowledge of Building Automation System (BAS) integration to ensure proper controls functionality.\nManage the change order process, preventing scope creep and maintaining project integrity.\nFinancial & Operational Oversight\nAccurately forecast monthly revenue by estimating project completion costs.\nManage project documentation, including warranty processing and factory-generated service information in collaboration with our Service Engineering team.\nMaintain rigorous job safety standards across all projects.\nREQUIRED QUALIFICATIONS\nHigh school diploma or GED.\n5+ years of experience in project management coordinating project schedules, deliverables, and activities involving multiple stakeholders, contractors, vendors, and/or customers; OR  4+ years of experience supporting mechanical, electrical, controls, commissioning, construction, or field service projects.\n2+ years reading and interpreting blueprints and technical mechanical systems documents.\nAbility and willingness to travel up to 60% of the time within the USA as required by business needs.\nPREFERRED QUALIFICATIONS\nBachelor's degree in Mechanical, Electrical, or Chemical Engineering; or a Master's degree/MBA.\nData center industry experience with water- or air-cooled chillers.\nCommercial HVAC expertise, including centrifugal chillers, Cooling Distribution Unit systems, and airside equipment.\nProjection Management Professional certification.\nLeadership in Energy and Environmental Design certification or experience with Building Automation Systems\nStrong ability to multi-task, prioritize, and meet deadlines in a fast-paced environment.\nExceptional verbal and written communication skills for both technical and non-technical audiences.\nProven strategic thinking and problem-solving capabilities.\nStrong ability to build rapport and trust with customers through active listening and effective solutions.\nPay Range\nThe annual salary for this position is between $96,000.00 - $192,000.00 annually. Factors which may affect pay within this range include, but are not limited to, skills, education, experience, and other unique qualifications of the successful candidate. The pay range will not be below the minimum wage applicable to the jurisdiction in which the applicant is to be employed.\nOther Compensation\nThis position is entitled to short-term cash incentives, subject to plan requirements.\nBenefits\nEmployees are eligible for benefits, including:\nHealth Care Benefits\n: Medical, Dental, Vision; Wellness incentives\nRetirement Benefits\nTime off and Leave\n: Paid vacation days, up to 15 days; paid sick days, up to 5 days; paid personal leave, up to 5 days; paid holidays, up to 13 days; birth and adoption leave; parental leave; family and medical leave; bereavement leave; jury duty leave; military leave; purchased vacation\nDisability\n: Short-term and long-term disability\nLife Insurance and Accidental Death and Dismemberment\nTax-Advantaged Accounts:\nHealth Savings Account; Health Care Spending Account; Dependent Care Spending Account\nTuition Assistance\nTo learn more about our benefits offering, please click here\nWork with us | Carrier Corporate\n.\nThe specific benefits available to any employee may vary depending on state and local laws and eligibility factors, such as date of hire and the applicability of collective bargaining agreements.\nCarrier EEO Statement and Accommodations Process\nCarrier is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status or any other applicable state or federal protected class. Carrier provides affirmative action in employment for qualified individuals with a Disability and Protected Veterans in compliance with section 503 of Rehabilitation Act and the Vietnam Era Veterans' Readjustment Assistance Act.\nIf you require a reasonable accommodation to complete the application process, participate in an interview, or otherwise engage in the hiring process, please contact us at\nCarrier.Recruiting@carrier.com\n. We will make every effort to meet your needs in accordance with applicable laws.\nApplication Deadline\nApplications will be accepted for at least 3  days from Job Posting Date: 10 November 2026\nJob Applicant's Privacy Notice\nPlease click on the link to review the\nJob Applicant Privacy Notice\n.\nUse of AI\nTechnology-enabled tools may support parts of the recruitment process, with oversight by people."
-        },
-        {
-          "firm": "Carrier Global",
-          "job_id": "30215361",
-          "title": "Sr Operations Manager",
-          "client_company": "",
-          "city": "Statesville",
-          "state": "NC",
-          "work_arrangement": "onsite",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "117500",
-          "pay_max": "234500",
-          "pay_unit": "year",
-          "posted_date": "2026-10-29",
-          "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN03-Carrier-Charlotte-9701-Old-Statesville-Road-Charlotte-NC-28269-USA/Sr-Operations-Manager_30215361",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "",
-          "required_certifications": "",
-          "description": "About Carrier\nCarrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control, air quality and transportation, we improve lives, empower critical industries and ensure safe transport of food, lifesaving medicines and more. Since inventing modern air conditioning in 1902, we lead with purpose: enhancing the lives we live and the world we share. We continue to lead because of our world-class, inclusive workforce that puts the customer at the center of everything we do. For more information, visit\ncorporate.carrier.com\nor follow on Carrier social media at @Carrier.\nAbout This Role\nCommercial HVAC Operations is seeking an experienced\nSr.\nOperations Manager\nto lead the Air-Cooled Chiller Value Stream at our Charlotte manufacturing facility. The Operations Manager is responsible for the overall performance and strategic direction of a complex manufacturing value stream consisting of multiple production lines, 6-8 front-line supervisors, and 200 hourly employees. This leader owns end-to-end manufacturing execution and is accountable for delivering exceptional performance across safety, quality, delivery, cost, productivity, and employee engagement. As a senior member of the site leadership team, this role partners closely with Quality, Materials, Manufacturing Engineering, Supply Chain, Finance, Human Resources, and Product Engineering to develop and execute operational strategy, drive transformation initiatives, improve customer satisfaction, and build organizational capability. This position requires a highly visible leader capable of developing future leaders, leading through influence, and driving sustainable operational excellence in a fast-paced, high-mix manufacturing environment.\nJob Description\nDevelop and execute the operational strategy for the Air-Cooled Value Stream in alignment with business objectives.\nOwn the value stream P&L performance through effective management of labor, productivity, quality, inventory, and operational costs.\nLead annual operating plans, capacity planning, headcount planning, and capital investment initiatives.\nTranslate business priorities into measurable operational objectives and ensure execution through disciplined daily management.\nLead multiple manufacturing lines to consistently achieve world-class safety, quality, delivery, and cost performance.\nEstablish a culture of accountability, operational discipline, and continuous improvement throughout the organization.\nDrive breakthrough improvements in labor productivity, throughput, first-pass yield, on-time delivery, 5S, and inventory performance.\nLead recovery plans during operational disruptions while maintaining customer commitments and business continuity.\nLead, coach, and develop a team of Operations Supervisors while creating a robust leadership pipeline.\nBuild a high-performance culture focused on engagement, accountability, inclusion, and continuous learning.\nConduct talent reviews, succession planning, performance management, and leadership development for the operations organization.\nChampion employee engagement initiatives and foster an environment where employees feel empowered to solve problems and improve processes.\nPartner with Materials, Manufacturing Engineering, Quality, Planning, Supply Chain, and Product Engineering to optimize end-to-end value stream performance.\nLead cross-functional initiatives to improve manufacturing capability, supplier performance, inventory flow, and customer satisfaction.\nInfluence decisions beyond direct authority through collaboration and data-driven leadership.\nRepresent manufacturing during executive reviews, customer visits, operational reviews, and strategic planning sessions.\nDrive Lean Manufacturing principles across the value stream utilizing Daily Management, Leader Standard Work, Visual Management, 5S, Kaizen, Standard Work, and structured problem-solving methodologies.\nSponsor major operational improvement projects focused on automation, digital manufacturing, capacity expansion, quality improvement, and cost reduction.\nEnsure sustainable implementation of corrective actions through robust management systems and operational governance.\nChampion a zero-incident safety culture through visible leadership and proactive risk management.\nEnsure compliance with all Environmental, Health & Safety (EH&S), regulatory, and company policies.\nLead investigations into significant safety or operational incidents and ensure effective corrective actions are implemented.\nOwn and continuously improve key operational metrics including:\nSafety\nFirst Pass Yield (FPY)\nCustomer Quality\nOn-Time Delivery\nLabor Efficiency\n5S\nProductivity\nCost of Poor Quality (COPQ)\nInventory Accuracy\nSchedule Attainment\nEmployee Engagement\nOvertime\nAbsenteeism\nRequired Qualifications\nBachelor's degree\n8+ years of manufacturing, operations, engineering, quality, or supply chain leadership experience.\n3+ years leading leaders in a manufacturing environment.\nPreferred Qualifications\nMasters degree in Engineering, Technology, or Supply Chain\nDemonstrated expertise in applying Lean Manufacturing methodologies (Kaizen, 5S, Leader Standard Work, Visual Management, structured problem-solving).\nDirect experience managing Value Stream P&L, budget forecasting, capital investment planning, and cost reduction strategies.\nProven track record of influencing cross-functional teams (Quality, Supply Chain, Materials, Engineering) to optimize throughput, quality, and supply chain flow.\nPay Range\nThe annual salary for this position is between $117,500.00 - $234,500.00 annually. Factors which may affect pay within this range include, but are not limited to, skills, education, experience, and other unique qualifications of the successful candidate. The pay range will not be below the minimum wage applicable to the jurisdiction in which the applicant is to be employed.\nOther Compensation\nThis position is entitled to short-term cash incentives, subject to plan requirements.\nBenefits\nEmployees are eligible for benefits, including:\nHealth Care Benefits\n: Medical, Dental, Vision; Wellness incentives\nRetirement Benefits\nTime off and Leave\n: Paid vacation days, up to 15 days; paid sick days, up to 5 days; paid personal leave, up to 5 days; paid holidays, up to 13 days; birth and adoption leave; parental leave; family and medical leave; bereavement leave; jury duty leave; military leave; purchased vacation\nDisability\n: Short-term and long-term disability\nLife Insurance and Accidental Death and Dismemberment\nTax-Advantaged Accounts:\nHealth Savings Account; Health Care Spending Account; Dependent Care Spending Account\nTuition Assistance\nTo learn more about our benefits offering, please click here\nWork with us | Carrier Corporate\n.\nThe specific benefits available to any employee may vary depending on state and local laws and eligibility factors, such as date of hire and the applicability of collective bargaining agreements.\nCarrier EEO Statement and Accommodations Process\nCarrier is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status or any other applicable state or federal protected class. Carrier provides affirmative action in employment for qualified individuals with a Disability and Protected Veterans in compliance with section 503 of Rehabilitation Act and the Vietnam Era Veterans' Readjustment Assistance Act.\nIf you require a reasonable accommodation to complete the application process, participate in an interview, or otherwise engage in the hiring process, please contact us at\nCarrier.Recruiting@carrier.com\n. We will make every effort to meet your needs in accordance with applicable laws.\nApplication Deadline\nApplications will be accepted for at least 3  days from Job Posting Date: 29 October 2026\nJob Applicant's Privacy Notice\nPlease click on the link to review the\nJob Applicant Privacy Notice\n.\nUse of AI\nTechnology-enabled tools may support parts of the recruitment process, with oversight by people."
         }
       ],
       "attempts": {
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:05.086382+00:00",
-          "completed_at": "2026-11-27T04:16:30.736398+00:00",
+          "started_at": "2026-11-27T05:16:33.046674+00:00",
+          "completed_at": "2026-11-27T05:16:58.917985+00:00",
           "ok": true,
           "info": {
-            "enumerated": 395,
-            "enumerated_raw": 395,
-            "advertised": 395,
+            "enumerated": 376,
+            "enumerated_raw": 376,
+            "advertised": 376,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 21,
+            "details_read": 20,
             "closed_during_pull": 0,
-            "kept": 5,
+            "kept": 4,
             "method": "ordinary browser + first-party full posting endpoint",
             "scope_facets": {
               "location_Country": [
@@ -3218,8 +3139,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:05.086382+00:00",
-      "completed_at": "2026-11-27T04:16:30.736398+00:00",
+      "snapshot_at": "2026-11-27T05:16:33.046674+00:00",
+      "completed_at": "2026-11-27T05:16:58.917985+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3228,8 +3149,8 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:11.295298+00:00",
-          "completed_at": "2026-11-27T04:16:26.510138+00:00",
+          "started_at": "2026-11-27T05:16:41.263950+00:00",
+          "completed_at": "2026-11-27T05:16:55.860812+00:00",
           "ok": true,
           "info": {
             "enumerated": 391,
@@ -3266,8 +3187,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:11.295298+00:00",
-      "completed_at": "2026-11-27T04:16:26.510138+00:00",
+      "snapshot_at": "2026-11-27T05:16:41.263950+00:00",
+      "completed_at": "2026-11-27T05:16:55.860812+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3276,8 +3197,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:16.222243+00:00",
-          "completed_at": "2026-11-27T04:16:24.955286+00:00",
+          "started_at": "2026-11-27T05:16:46.770063+00:00",
+          "completed_at": "2026-11-27T05:16:57.266214+00:00",
           "ok": true,
           "info": {
             "enumerated": 201,
@@ -3294,8 +3215,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:16.222243+00:00",
-      "completed_at": "2026-11-27T04:16:24.955286+00:00",
+      "snapshot_at": "2026-11-27T05:16:46.770063+00:00",
+      "completed_at": "2026-11-27T05:16:57.266214+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3304,8 +3225,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:24.683303+00:00",
-          "completed_at": "2026-11-27T04:16:28.437798+00:00",
+          "started_at": "2026-11-27T05:16:55.860882+00:00",
+          "completed_at": "2026-11-27T05:17:00.142039+00:00",
           "ok": true,
           "info": {
             "enumerated": 13,
@@ -3322,8 +3243,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:24.683303+00:00",
-      "completed_at": "2026-11-27T04:16:28.437798+00:00",
+      "snapshot_at": "2026-11-27T05:16:55.860882+00:00",
+      "completed_at": "2026-11-27T05:17:00.142039+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3332,8 +3253,8 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:24.955360+00:00",
-          "completed_at": "2026-11-27T04:19:12.898968+00:00",
+          "started_at": "2026-11-27T05:16:57.266271+00:00",
+          "completed_at": "2026-11-27T05:19:40.893266+00:00",
           "ok": true,
           "info": {
             "enumerated": 5962,
@@ -3363,8 +3284,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-27T04:16:24.955360+00:00",
-      "completed_at": "2026-11-27T04:19:12.898968+00:00",
+      "snapshot_at": "2026-11-27T05:16:57.266271+00:00",
+      "completed_at": "2026-11-27T05:19:40.893266+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3396,13 +3317,13 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:26.510194+00:00",
-          "completed_at": "2026-11-27T04:16:32.342361+00:00",
+          "started_at": "2026-11-27T05:16:58.918061+00:00",
+          "completed_at": "2026-11-27T05:17:04.012136+00:00",
           "ok": true,
           "info": {
-            "enumerated": 63,
-            "enumerated_raw": 63,
-            "advertised": 63,
+            "enumerated": 60,
+            "enumerated_raw": 60,
+            "advertised": 60,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -3414,8 +3335,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:26.510194+00:00",
-      "completed_at": "2026-11-27T04:16:32.342361+00:00",
+      "snapshot_at": "2026-11-27T05:16:58.918061+00:00",
+      "completed_at": "2026-11-27T05:17:04.012136+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3513,8 +3434,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:28.437851+00:00",
-          "completed_at": "2026-11-27T04:16:38.167019+00:00",
+          "started_at": "2026-11-27T05:17:00.142106+00:00",
+          "completed_at": "2026-11-27T05:17:11.421625+00:00",
           "ok": true,
           "info": {
             "enumerated": 289,
@@ -3531,8 +3452,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:28.437851+00:00",
-      "completed_at": "2026-11-27T04:16:38.167019+00:00",
+      "snapshot_at": "2026-11-27T05:17:00.142106+00:00",
+      "completed_at": "2026-11-27T05:17:11.421625+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3541,8 +3462,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:30.736477+00:00",
-          "completed_at": "2026-11-27T04:16:53.332864+00:00",
+          "started_at": "2026-11-27T05:17:04.012191+00:00",
+          "completed_at": "2026-11-27T05:17:25.327551+00:00",
           "ok": true,
           "info": {
             "enumerated": 394,
@@ -3563,8 +3484,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:30.736477+00:00",
-      "completed_at": "2026-11-27T04:16:53.332864+00:00",
+      "snapshot_at": "2026-11-27T05:17:04.012191+00:00",
+      "completed_at": "2026-11-27T05:17:25.327551+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3596,8 +3517,8 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:32.342429+00:00",
-          "completed_at": "2026-11-27T04:17:50.707980+00:00",
+          "started_at": "2026-11-27T05:17:11.421675+00:00",
+          "completed_at": "2026-11-27T05:18:31.620128+00:00",
           "ok": true,
           "info": {
             "enumerated": 3064,
@@ -3618,8 +3539,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:32.342429+00:00",
-      "completed_at": "2026-11-27T04:17:50.707980+00:00",
+      "snapshot_at": "2026-11-27T05:17:11.421675+00:00",
+      "completed_at": "2026-11-27T05:18:31.620128+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3628,8 +3549,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:38.167101+00:00",
-          "completed_at": "2026-11-27T04:16:50.142354+00:00",
+          "started_at": "2026-11-27T05:17:11.507219+00:00",
+          "completed_at": "2026-11-27T05:17:22.415714+00:00",
           "ok": true,
           "info": {
             "enumerated": 178,
@@ -3674,8 +3595,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:38.167101+00:00",
-      "completed_at": "2026-11-27T04:16:50.142354+00:00",
+      "snapshot_at": "2026-11-27T05:17:11.507219+00:00",
+      "completed_at": "2026-11-27T05:17:22.415714+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3684,8 +3605,8 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:50.142417+00:00",
-          "completed_at": "2026-11-27T04:17:13.268454+00:00",
+          "started_at": "2026-11-27T05:17:22.415774+00:00",
+          "completed_at": "2026-11-27T05:17:43.119956+00:00",
           "ok": true,
           "info": {
             "enumerated": 337,
@@ -3706,8 +3627,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:50.142417+00:00",
-      "completed_at": "2026-11-27T04:17:13.268454+00:00",
+      "snapshot_at": "2026-11-27T05:17:22.415774+00:00",
+      "completed_at": "2026-11-27T05:17:43.119956+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3739,8 +3660,8 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-27T04:16:53.332917+00:00",
-          "completed_at": "2026-11-27T04:17:10.901783+00:00",
+          "started_at": "2026-11-27T05:17:25.327607+00:00",
+          "completed_at": "2026-11-27T05:17:43.035216+00:00",
           "ok": true,
           "info": {
             "enumerated": 364,
@@ -3757,8 +3678,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:16:53.332917+00:00",
-      "completed_at": "2026-11-27T04:17:10.901783+00:00",
+      "snapshot_at": "2026-11-27T05:17:25.327607+00:00",
+      "completed_at": "2026-11-27T05:17:43.035216+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3878,8 +3799,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:10.901837+00:00",
-          "completed_at": "2026-11-27T04:17:49.458861+00:00",
+          "started_at": "2026-11-27T05:17:43.035278+00:00",
+          "completed_at": "2026-11-27T05:18:20.583209+00:00",
           "ok": true,
           "info": {
             "enumerated": 377,
@@ -3916,8 +3837,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:17:10.901837+00:00",
-      "completed_at": "2026-11-27T04:17:49.458861+00:00",
+      "snapshot_at": "2026-11-27T05:17:43.035278+00:00",
+      "completed_at": "2026-11-27T05:18:20.583209+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -3949,8 +3870,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:13.268529+00:00",
-          "completed_at": "2026-11-27T04:17:18.339636+00:00",
+          "started_at": "2026-11-27T05:17:43.120014+00:00",
+          "completed_at": "2026-11-27T05:17:48.016020+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -3974,8 +3895,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:17:13.268529+00:00",
-      "completed_at": "2026-11-27T04:17:18.339636+00:00",
+      "snapshot_at": "2026-11-27T05:17:43.120014+00:00",
+      "completed_at": "2026-11-27T05:17:48.016020+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -4029,8 +3950,8 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:18.339691+00:00",
-          "completed_at": "2026-11-27T04:17:29.414641+00:00",
+          "started_at": "2026-11-27T05:17:48.016075+00:00",
+          "completed_at": "2026-11-27T05:17:58.927542+00:00",
           "ok": true,
           "info": {
             "enumerated": 430,
@@ -4073,8 +3994,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:17:18.339691+00:00",
-      "completed_at": "2026-11-27T04:17:29.414641+00:00",
+      "snapshot_at": "2026-11-27T05:17:48.016075+00:00",
+      "completed_at": "2026-11-27T05:17:58.927542+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -4128,8 +4049,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:29.414698+00:00",
-          "completed_at": "2026-11-27T04:17:37.020100+00:00",
+          "started_at": "2026-11-27T05:17:58.927595+00:00",
+          "completed_at": "2026-11-27T05:18:05.705569+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4158,8 +4079,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-27T04:17:29.414698+00:00",
-      "completed_at": "2026-11-27T04:17:37.020100+00:00",
+      "snapshot_at": "2026-11-27T05:17:58.927595+00:00",
+      "completed_at": "2026-11-27T05:18:05.705569+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4235,13 +4156,13 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:37.020152+00:00",
-          "completed_at": "2026-11-27T04:17:50.929874+00:00",
+          "started_at": "2026-11-27T05:18:05.705622+00:00",
+          "completed_at": "2026-11-27T05:18:18.554333+00:00",
           "ok": true,
           "info": {
-            "enumerated": 333,
-            "enumerated_raw": 333,
-            "advertised": 333,
+            "enumerated": 332,
+            "enumerated_raw": 332,
+            "advertised": 332,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4261,8 +4182,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-27T04:17:37.020152+00:00",
-      "completed_at": "2026-11-27T04:17:50.929874+00:00",
+      "snapshot_at": "2026-11-27T05:18:05.705622+00:00",
+      "completed_at": "2026-11-27T05:18:18.554333+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4271,8 +4192,8 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:49.458913+00:00",
-          "completed_at": "2026-11-27T04:17:59.708423+00:00",
+          "started_at": "2026-11-27T05:18:18.554385+00:00",
+          "completed_at": "2026-11-27T05:18:27.736457+00:00",
           "ok": true,
           "info": {
             "enumerated": 507,
@@ -4293,8 +4214,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:17:49.458913+00:00",
-      "completed_at": "2026-11-27T04:17:59.708423+00:00",
+      "snapshot_at": "2026-11-27T05:18:18.554385+00:00",
+      "completed_at": "2026-11-27T05:18:27.736457+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4303,8 +4224,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:50.708035+00:00",
-          "completed_at": "2026-11-27T04:17:55.369962+00:00",
+          "started_at": "2026-11-27T05:18:20.583265+00:00",
+          "completed_at": "2026-11-27T05:18:24.783933+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4321,8 +4242,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:17:50.708035+00:00",
-      "completed_at": "2026-11-27T04:17:55.369962+00:00",
+      "snapshot_at": "2026-11-27T05:18:20.583265+00:00",
+      "completed_at": "2026-11-27T05:18:24.783933+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4331,8 +4252,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:50.929950+00:00",
-          "completed_at": "2026-11-27T04:17:57.630114+00:00",
+          "started_at": "2026-11-27T05:18:24.783986+00:00",
+          "completed_at": "2026-11-27T05:18:30.924436+00:00",
           "ok": true,
           "info": {
             "enumerated": 148,
@@ -4349,8 +4270,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:17:50.929950+00:00",
-      "completed_at": "2026-11-27T04:17:57.630114+00:00",
+      "snapshot_at": "2026-11-27T05:18:24.783986+00:00",
+      "completed_at": "2026-11-27T05:18:30.924436+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4404,13 +4325,13 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:55.370017+00:00",
-          "completed_at": "2026-11-27T04:18:17.036477+00:00",
+          "started_at": "2026-11-27T05:18:27.736515+00:00",
+          "completed_at": "2026-11-27T05:18:51.187261+00:00",
           "ok": true,
           "info": {
-            "enumerated": 828,
-            "enumerated_raw": 828,
-            "advertised": 828,
+            "enumerated": 810,
+            "enumerated_raw": 810,
+            "advertised": 810,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -4422,8 +4343,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:17:55.370017+00:00",
-      "completed_at": "2026-11-27T04:18:17.036477+00:00",
+      "snapshot_at": "2026-11-27T05:18:27.736515+00:00",
+      "completed_at": "2026-11-27T05:18:51.187261+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4432,17 +4353,17 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:57.630166+00:00",
-          "completed_at": "2026-11-27T04:18:03.675681+00:00",
+          "started_at": "2026-11-27T05:18:30.924496+00:00",
+          "completed_at": "2026-11-27T05:18:35.310338+00:00",
           "ok": true,
           "info": {
-            "enumerated": 46,
-            "enumerated_raw": 46,
-            "advertised": 46,
+            "enumerated": 39,
+            "enumerated_raw": 39,
+            "advertised": 39,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 7,
+            "details_read": 5,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -4450,8 +4371,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:17:57.630166+00:00",
-      "completed_at": "2026-11-27T04:18:03.675681+00:00",
+      "snapshot_at": "2026-11-27T05:18:30.924496+00:00",
+      "completed_at": "2026-11-27T05:18:35.310338+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4460,17 +4381,17 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-27T04:17:59.708491+00:00",
-          "completed_at": "2026-11-27T04:18:05.840664+00:00",
+          "started_at": "2026-11-27T05:18:31.620177+00:00",
+          "completed_at": "2026-11-27T05:18:36.012980+00:00",
           "ok": true,
           "info": {
-            "enumerated": 46,
-            "enumerated_raw": 46,
-            "advertised": 46,
+            "enumerated": 39,
+            "enumerated_raw": 39,
+            "advertised": 39,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
-            "details_read": 7,
+            "details_read": 5,
             "closed_during_pull": 0,
             "kept": 0,
             "method": "ordinary browser + first-party full posting endpoint",
@@ -4478,8 +4399,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:17:59.708491+00:00",
-      "completed_at": "2026-11-27T04:18:05.840664+00:00",
+      "snapshot_at": "2026-11-27T05:18:31.620177+00:00",
+      "completed_at": "2026-11-27T05:18:36.012980+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4687,13 +4608,13 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-27T04:18:03.675736+00:00",
-          "completed_at": "2026-11-27T04:18:37.456297+00:00",
+          "started_at": "2026-11-27T05:18:35.310386+00:00",
+          "completed_at": "2026-11-27T05:19:12.795961+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1351,
-            "enumerated_raw": 1351,
-            "advertised": 1351,
+            "enumerated": 1354,
+            "enumerated_raw": 1354,
+            "advertised": 1354,
             "details_read": 56,
             "kept": 9,
             "method": "employer Oracle search + full requisition detail resource"
@@ -4715,8 +4636,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-27T04:18:03.675736+00:00",
-      "completed_at": "2026-11-27T04:18:37.456297+00:00",
+      "snapshot_at": "2026-11-27T05:18:35.310386+00:00",
+      "completed_at": "2026-11-27T05:19:12.795961+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -6268,7 +6189,19 @@
       "firms_attempted": 1,
       "firms_succeeded": 1,
       "firms_failed": 0
+    },
+    {
+      "id": "45944574570",
+      "route": "cloud",
+      "started_at": "2026-11-27T05:14:58.753986+00:00",
+      "completed_at": "2026-11-27T05:19:40.896603+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 38,
+      "firms_failed": 1,
+      "timer_run_id": "45938720212",
+      "timer_fired_at": "2026-11-27T05:14:05.771902+00:00"
     }
   ],
-  "published_at": "2026-11-27T05:09:54.285763+00:00"
+  "published_at": "2026-11-27T05:19:41.648995+00:00"
 }
