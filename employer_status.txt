@@ -1,5 +1,5 @@
 Employer job feed
-Published UTC: 2026-11-27T09:20:20.137824+00:00
+Published UTC: 2026-11-27T10:13:47.503963+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/employer_jobs.csv
 Priority employers are attempted on every cloud run. Mac retries only employers whose latest cloud attempt failed.
@@ -106,7 +106,6 @@ TOTAL listings=142 posted_contacts=2
 Unknown optional fields remain empty. All included listings use full posting details.
 
 Recent run receipts:
-{"completed_at": "2026-11-27T04:19:12.904264+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45938722654", "route": "cloud", "started_at": "2026-11-27T04:14:22.533125+00:00", "timer_fired_at": "2026-11-27T04:13:54.696928+00:00", "timer_run_id": "45932923686", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-27T05:09:53.044541+00:00", "firms_attempted": 1, "firms_failed": 0, "firms_succeeded": 1, "id": "34d1847b-be47-43b1-8962-a2f0fda86615", "route": "mac", "started_at": "2026-11-27T05:07:44.817217+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-27T05:19:40.896603+00:00", "firms_attempted": 39, "firms_failed": 1, "firms_succeeded": 38, "id": "45944574570", "route": "cloud", "started_at": "2026-11-27T05:14:58.753986+00:00", "timer_fired_at": "2026-11-27T05:14:05.771902+00:00", "timer_run_id": "45938720212", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-27T06:19:50.371180+00:00", "firms_attempted": 39, "firms_failed": 0, "firms_succeeded": 39, "id": "45950569849", "route": "cloud", "started_at": "2026-11-27T06:14:52.922270+00:00", "timer_fired_at": "2026-11-27T06:14:16.712957+00:00", "timer_run_id": "45944572477", "trigger": "cloud_clock"}
@@ -116,3 +115,4 @@ Recent run receipts:
 {"completed_at": "2026-11-27T08:20:23.537246+00:00", "firms_attempted": 39, "firms_failed": 0, "firms_succeeded": 39, "id": "45964171347", "route": "cloud", "started_at": "2026-11-27T08:15:36.917933+00:00", "timer_fired_at": "2026-11-27T08:14:39.595702+00:00", "timer_run_id": "45957096936", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-27T08:57:02.929962+00:00", "firms_attempted": 0, "firms_failed": 0, "firms_succeeded": 0, "id": "0c79e52a-f8a5-4dba-924f-b7b4fbfac41f", "route": "mac", "started_at": "2026-11-27T08:57:00.876922+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-27T09:20:19.080017+00:00", "firms_attempted": 39, "firms_failed": 0, "firms_succeeded": 39, "id": "45972103562", "route": "cloud", "started_at": "2026-11-27T09:15:26.563271+00:00", "timer_fired_at": "2026-11-27T09:14:50.749202+00:00", "timer_run_id": "45964168603", "trigger": "cloud_clock"}
+{"completed_at": "2026-11-27T10:13:46.479311+00:00", "firms_attempted": 0, "firms_failed": 0, "firms_succeeded": 0, "id": "b8253e01-f506-457c-8e6d-e0a7bbde1c8c", "route": "mac", "started_at": "2026-11-27T10:13:44.699037+00:00", "trigger": "mac_launchd"}
