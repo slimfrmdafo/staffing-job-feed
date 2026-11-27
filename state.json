@@ -6081,6 +6081,14 @@
           "route": "cloud",
           "started_at": "2026-11-27T18:46:05.177426+00:00",
           "completed_at": "2026-11-27T18:46:18.704187+00:00"
+        },
+        "mac": {
+          "ok": false,
+          "error": "1/10 detail pages failed: Full JobPosting data missing: https://jobs.aerotek.com/us/en/job/JP-006445937/Custody-Operations-Specialist",
+          "firm": "Aerotek",
+          "route": "mac",
+          "started_at": "2026-11-27T19:00:11.237488+00:00",
+          "completed_at": "2026-11-27T19:00:22.788748+00:00"
         }
       },
       "snapshot_at": "2026-11-27T17:45:49.515127+00:00",
@@ -9505,11 +9513,24 @@
           "route": "cloud",
           "started_at": "2026-11-27T18:47:56.866356+00:00",
           "completed_at": "2026-11-27T18:48:04.875340+00:00"
+        },
+        "mac": {
+          "ok": true,
+          "info": {
+            "enumerated": 669,
+            "details_read": 41,
+            "kept": 1,
+            "browser_used": false
+          },
+          "firm": "Addison Group",
+          "route": "mac",
+          "started_at": "2026-11-27T19:00:11.239442+00:00",
+          "completed_at": "2026-11-27T19:27:36.776157+00:00"
         }
       },
-      "snapshot_at": "2026-11-27T17:47:36.641849+00:00",
-      "completed_at": "2026-11-27T17:48:26.103122+00:00",
-      "snapshot_route": "cloud"
+      "snapshot_at": "2026-11-27T19:00:11.239442+00:00",
+      "completed_at": "2026-11-27T19:27:36.776157+00:00",
+      "snapshot_route": "mac"
     },
     "Vaco": {
       "rows": [
@@ -10014,11 +10035,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29640628&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
+          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29666627&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T17:47:50.627621+00:00",
-          "completed_at": "2026-11-27T18:01:43.135599+00:00"
+          "started_at": "2026-11-27T19:00:11.240970+00:00",
+          "completed_at": "2026-11-27T19:27:11.564121+00:00"
         }
       }
     },
@@ -12286,7 +12307,17 @@
       "firms_failed": 3,
       "timer_run_id": "46044284313",
       "timer_fired_at": "2026-11-27T18:45:24.875041+00:00"
+    },
+    {
+      "id": "1300417a-c570-42e3-8450-95e0a3da668e",
+      "route": "mac",
+      "started_at": "2026-11-27T19:00:09.292935+00:00",
+      "completed_at": "2026-11-27T19:27:36.786454+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 3,
+      "firms_succeeded": 1,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-27T18:53:13.485910+00:00"
+  "published_at": "2026-11-27T19:27:39.041604+00:00"
 }
