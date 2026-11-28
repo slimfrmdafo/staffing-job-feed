@@ -9819,11 +9819,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29615301&SearchString=&StatesString=\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29615301&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
+          "error": "Page.goto: net::ERR_NETWORK_CHANGED at https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29607078&SearchString=&StatesString=\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29607078&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T23:56:45.508710+00:00",
-          "completed_at": "2026-11-28T01:09:40.939524+00:00"
+          "started_at": "2026-11-28T01:57:40.111624+00:00",
+          "completed_at": "2026-11-28T03:12:09.138770+00:00"
         }
       }
     },
@@ -12227,7 +12227,17 @@
       "firms_failed": 1,
       "timer_run_id": "46094804703",
       "timer_fired_at": "2026-11-28T02:46:47.527490+00:00"
+    },
+    {
+      "id": "1732c622-fbb7-47ac-8314-d4c77f198f2f",
+      "route": "mac",
+      "started_at": "2026-11-28T01:57:38.113401+00:00",
+      "completed_at": "2026-11-28T03:12:09.145314+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 1,
+      "firms_succeeded": 0,
+      "firms_failed": 1
     }
   ],
-  "published_at": "2026-11-28T02:57:17.981174+00:00"
+  "published_at": "2026-11-28T03:12:10.868337+00:00"
 }
