@@ -48,28 +48,6 @@
         },
         {
           "firm": "Bank of America",
-          "job_id": "26037894",
-          "title": "Application Security Operations Specialist (Vulnerability Management exp required)",
-          "client_company": "",
-          "city": "Charlotte",
-          "state": "NC",
-          "work_arrangement": "",
-          "job_type": "",
-          "contract_length": "",
-          "pay_min": "78200",
-          "pay_max": "136300",
-          "pay_unit": "year",
-          "posted_date": "",
-          "url": "https://careers.bankofamerica.com/en-us/job-detail/26037894/application-security-operations-specialist-vulnerability-management-exp-required-multiple-locations",
-          "recruiter_name": "",
-          "recruiter_email": "",
-          "recruiter_phone": "",
-          "required_experience": "3 years experience",
-          "required_certifications": "",
-          "description": "Job Description:\nAt Bank of America, we are guided by a common purpose to help make financial lives better through the power of every connection. We do this by driving Responsible Growth and delivering for our clients, teammates, communities and shareholders every day.   Being a Great  Place to Work and providing a culture of caring is core to how we drive Responsible Growth.\nWe are intentional about fostering an inclusive workplace where every teammate has the opportunity to succeed, build a career and contribute to our shared success. This includes attracting and developing exceptional talent, recognizing and rewarding performance, and supporting our teammates’ physical, emotional, and financial wellness through affordable, competitive and flexible benefits.  We value the unique perspectives individuals bring from all backgrounds and career paths - whether shaped by military service,\ncommunity college education, or a wide range of work and life experiences. These journeys foster resilience, leadership and innovation, strengthening our workforce  and positively impact the communities we serve.   Bank of America is committed to an in-office culture that supports collaboration, engagement, and career development.\nOur approach includes clear in-office expectations, while providing an appropriate level of flexibility based on role-specific responsibilities and business needs.   At Bank of America, you can build a successful career with opportunities to learn, grow, and make an impact. Join us!\nPosition Summary\nThe Application Security Operations Specialist is a key role, responsible for ensuring continuity of the global operational coverage, and supporting end-to-end strategic technology enablement for our application security assessment and scanning program.\nThis role is part of a global team of operations specialists supporting follow-the-sun coverage for the Bank’s application security testing and scanning activities This role supports continuous improvement in scanning capabilities, false positive identification, and vulnerability verification requiring cross-organization collaboration to drive enterprise security solutions.\nResponsibilities\nExecute automated and custom scan routines to detect application and source code vulnerabilities.\nOperational support of new frontier AI models and related testing harnesses.\nSupport for identifying, triaging, resolving events and results, including false positive results, and verifications and finding closure in collaboration with other partners, including Enterprise Remediation Governance.\nParticipate in incident response activities and contribute pertinent information to maximize collaboration with control owners and remediation teams.\nSupport application teams in their understanding and resolution of security findings.\nParticipate in development and implementation of the technology strategy.\nConduct proof-of-concept testing for next-gen scanning technologies.\nOptimize and ensure resiliency of scanning platforms, including operational process improvement.\nIdentify and map vulnerability detection gaps to appropriate technology solutions.\nData/trend analysis to feed harness development and vulnerability management lessons learned.\nRequired Qualifications\n3 + years experience in driving and/or supporting tool integration with workflow platforms (e.g., ServiceNow).\nStrong understanding of vulnerability management concepts and terminology.\nIncident management concepts.\nExcellent prioritization, communication, and mentoring skills.\nDesired Qualifications\nBS/MS in Information Technology, Cybersecurity, or related field.\nFamiliarity with MITRE ATT&CK, cloud-based scanning, and compliance frameworks (e.g., NIST, FFIEC).\nExperience with vulnerability rating methodologies.\nBackground in Windows and UNIX administration.\nProficiency in scripting languages (e.g., Python, PowerShell, Bash).\nHands-on experience with AI-assisted vulnerability identification activities.\nThis job will be open and accepting applications for a minimum of seven days from the date it was posted.\nShift:\n1st shift (United States of America)\nHours Per Week:\n40\nPay Transparency details\nUS - CO - Denver - 1144 15th St - Denver Gis (CO9926), US - DC - Washington - 1800 K St NW - 1800 K Street NW (DC1842), US - IL - Chicago - 540 W Madison St - Bank Of America Plaza (IL4540)\nPay and benefits information\nPay range\n$78,200.00 - $136,300.00 annualized salary, offers to be determined based on experience, education and skill set.\nDiscretionary incentive eligible\nThis role is eligible to participate in the annual discretionary plan. Employees are eligible for an annual discretionary award based on their overall individual performance results and behaviors, the performance and contributions of their line of business and/or group; and the overall success of the Company.\nBenefits\nThis role is currently benefits eligible. We provide industry-leading benefits, access to paid time off, resources and support to our employees so they can make a genuine impact and contribute to the sustainable growth of our business and the communities we serve."
-        },
-        {
-          "firm": "Bank of America",
           "job_id": "26042130",
           "title": "Global Financial Crimes Audit Program Management and Oversight",
           "client_company": "",
@@ -535,15 +513,15 @@
         "cloud": {
           "firm": "Bank of America",
           "route": "cloud",
-          "started_at": "2026-11-28T02:18:32.220991+00:00",
-          "completed_at": "2026-11-28T02:19:34.055316+00:00",
+          "started_at": "2026-11-28T03:18:45.198746+00:00",
+          "completed_at": "2026-11-28T03:19:45.846963+00:00",
           "ok": true,
           "info": {
-            "enumerated": 2066,
-            "enumerated_raw": 2066,
-            "advertised": 2066,
-            "details_read": 140,
-            "kept": 24,
+            "enumerated": 2065,
+            "enumerated_raw": 2065,
+            "advertised": 2065,
+            "details_read": 139,
+            "kept": 23,
             "method": "employer search service + canonical full detail pages"
           }
         },
@@ -563,8 +541,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:18:32.220991+00:00",
-      "completed_at": "2026-11-28T02:19:34.055316+00:00",
+      "snapshot_at": "2026-11-28T03:18:45.198746+00:00",
+      "completed_at": "2026-11-28T03:19:45.846963+00:00",
       "snapshot_route": "cloud"
     },
     "Wells Fargo": {
@@ -816,13 +794,13 @@
         "cloud": {
           "firm": "Wells Fargo",
           "route": "cloud",
-          "started_at": "2026-11-28T02:18:32.221802+00:00",
-          "completed_at": "2026-11-28T02:19:46.885426+00:00",
+          "started_at": "2026-11-28T03:18:45.199610+00:00",
+          "completed_at": "2026-11-28T03:19:45.817603+00:00",
           "ok": true,
           "info": {
-            "enumerated": 1278,
-            "enumerated_raw": 1278,
-            "advertised": 1278,
+            "enumerated": 1279,
+            "enumerated_raw": 1279,
+            "advertised": 1279,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -862,8 +840,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:18:32.221802+00:00",
-      "completed_at": "2026-11-28T02:19:46.885426+00:00",
+      "snapshot_at": "2026-11-28T03:18:45.199610+00:00",
+      "completed_at": "2026-11-28T03:19:45.817603+00:00",
       "snapshot_route": "cloud"
     },
     "Truist": {
@@ -1621,8 +1599,8 @@
         "cloud": {
           "firm": "Truist",
           "route": "cloud",
-          "started_at": "2026-11-28T02:18:32.221994+00:00",
-          "completed_at": "2026-11-28T02:19:56.385613+00:00",
+          "started_at": "2026-11-28T03:18:45.199897+00:00",
+          "completed_at": "2026-11-28T03:20:07.333370+00:00",
           "ok": true,
           "info": {
             "enumerated": 1304,
@@ -1647,8 +1625,8 @@
           "error": "CollectionError: Workday advertised 1343, read 1345"
         }
       },
-      "snapshot_at": "2026-11-28T02:18:32.221994+00:00",
-      "completed_at": "2026-11-28T02:19:56.385613+00:00",
+      "snapshot_at": "2026-11-28T03:18:45.199897+00:00",
+      "completed_at": "2026-11-28T03:20:07.333370+00:00",
       "snapshot_route": "cloud"
     },
     "Duke Energy": {
@@ -1746,8 +1724,8 @@
         "cloud": {
           "firm": "Duke Energy",
           "route": "cloud",
-          "started_at": "2026-11-28T02:18:32.222504+00:00",
-          "completed_at": "2026-11-28T02:18:39.739260+00:00",
+          "started_at": "2026-11-28T03:18:45.200129+00:00",
+          "completed_at": "2026-11-28T03:18:53.958836+00:00",
           "ok": true,
           "info": {
             "enumerated": 64,
@@ -1784,8 +1762,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:18:32.222504+00:00",
-      "completed_at": "2026-11-28T02:18:39.739260+00:00",
+      "snapshot_at": "2026-11-28T03:18:45.200129+00:00",
+      "completed_at": "2026-11-28T03:18:53.958836+00:00",
       "snapshot_route": "cloud"
     },
     "Lowe's": {
@@ -1971,13 +1949,13 @@
         "cloud": {
           "firm": "Lowe's",
           "route": "cloud",
-          "started_at": "2026-11-28T02:18:39.739327+00:00",
-          "completed_at": "2026-11-28T02:19:00.033492+00:00",
+          "started_at": "2026-11-28T03:18:53.958918+00:00",
+          "completed_at": "2026-11-28T03:19:21.296986+00:00",
           "ok": true,
           "info": {
-            "enumerated": 4544,
-            "enumerated_raw": 4544,
-            "advertised": 4544,
+            "enumerated": 4540,
+            "enumerated_raw": 4540,
+            "advertised": 4540,
             "details_read": 13,
             "kept": 8,
             "method": "employer current search widget + canonical full detail pages",
@@ -1993,8 +1971,8 @@
           "error": "CollectionError: Employer full JobPosting missing: https://talent.lowes.com/us/en/job/JR-02707912"
         }
       },
-      "snapshot_at": "2026-11-28T02:18:39.739327+00:00",
-      "completed_at": "2026-11-28T02:19:00.033492+00:00",
+      "snapshot_at": "2026-11-28T03:18:53.958918+00:00",
+      "completed_at": "2026-11-28T03:19:21.296986+00:00",
       "snapshot_route": "cloud"
     },
     "Ally Financial": {
@@ -2048,8 +2026,8 @@
         "cloud": {
           "firm": "Ally Financial",
           "route": "cloud",
-          "started_at": "2026-11-28T02:19:00.033570+00:00",
-          "completed_at": "2026-11-28T02:19:06.204478+00:00",
+          "started_at": "2026-11-28T03:19:21.297040+00:00",
+          "completed_at": "2026-11-28T03:19:27.421836+00:00",
           "ok": true,
           "info": {
             "enumerated": 77,
@@ -2070,8 +2048,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:19:00.033570+00:00",
-      "completed_at": "2026-11-28T02:19:06.204478+00:00",
+      "snapshot_at": "2026-11-28T03:19:21.297040+00:00",
+      "completed_at": "2026-11-28T03:19:27.421836+00:00",
       "snapshot_route": "cloud"
     },
     "TIAA": {
@@ -2103,8 +2081,8 @@
         "cloud": {
           "firm": "TIAA",
           "route": "cloud",
-          "started_at": "2026-11-28T02:19:06.204540+00:00",
-          "completed_at": "2026-11-28T02:19:13.750376+00:00",
+          "started_at": "2026-11-28T03:19:27.421898+00:00",
+          "completed_at": "2026-11-28T03:19:34.862032+00:00",
           "ok": true,
           "info": {
             "enumerated": 112,
@@ -2149,8 +2127,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:19:06.204540+00:00",
-      "completed_at": "2026-11-28T02:19:13.750376+00:00",
+      "snapshot_at": "2026-11-28T03:19:27.421898+00:00",
+      "completed_at": "2026-11-28T03:19:34.862032+00:00",
       "snapshot_route": "cloud"
     },
     "Citigroup": {
@@ -2314,8 +2292,8 @@
         "cloud": {
           "firm": "Citigroup",
           "route": "cloud",
-          "started_at": "2026-11-28T02:19:13.750442+00:00",
-          "completed_at": "2026-11-28T02:21:01.427020+00:00",
+          "started_at": "2026-11-28T03:19:34.862087+00:00",
+          "completed_at": "2026-11-28T03:21:20.946622+00:00",
           "ok": true,
           "info": {
             "enumerated": 1432,
@@ -2360,8 +2338,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:19:13.750442+00:00",
-      "completed_at": "2026-11-28T02:21:01.427020+00:00",
+      "snapshot_at": "2026-11-28T03:19:34.862087+00:00",
+      "completed_at": "2026-11-28T03:21:20.946622+00:00",
       "snapshot_route": "cloud"
     },
     "AT&T": {
@@ -2370,8 +2348,8 @@
         "cloud": {
           "firm": "AT&T",
           "route": "cloud",
-          "started_at": "2026-11-28T02:19:34.055408+00:00",
-          "completed_at": "2026-11-28T02:20:06.947003+00:00",
+          "started_at": "2026-11-28T03:19:45.817660+00:00",
+          "completed_at": "2026-11-28T03:20:18.772539+00:00",
           "ok": true,
           "info": {
             "enumerated": 1111,
@@ -2379,7 +2357,9 @@
             "advertised": 1111,
             "location_partitions": 0,
             "partition_advertised_counts": [],
-            "unpublished_index_ids": [],
+            "unpublished_index_ids": [
+              "R-128980"
+            ],
             "details_read": 10,
             "closed_during_pull": 0,
             "kept": 0,
@@ -2392,8 +2372,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:19:34.055408+00:00",
-      "completed_at": "2026-11-28T02:20:06.947003+00:00",
+      "snapshot_at": "2026-11-28T03:19:45.817660+00:00",
+      "completed_at": "2026-11-28T03:20:18.772539+00:00",
       "snapshot_route": "cloud"
     },
     "Trane Technologies": {
@@ -2469,8 +2449,8 @@
         "cloud": {
           "firm": "Trane Technologies",
           "route": "cloud",
-          "started_at": "2026-11-28T02:19:46.885495+00:00",
-          "completed_at": "2026-11-28T02:20:19.756156+00:00",
+          "started_at": "2026-11-28T03:19:45.847040+00:00",
+          "completed_at": "2026-11-28T03:20:17.841483+00:00",
           "ok": true,
           "info": {
             "enumerated": 872,
@@ -2491,8 +2471,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:19:46.885495+00:00",
-      "completed_at": "2026-11-28T02:20:19.756156+00:00",
+      "snapshot_at": "2026-11-28T03:19:45.847040+00:00",
+      "completed_at": "2026-11-28T03:20:17.841483+00:00",
       "snapshot_route": "cloud"
     },
     "The Hartford": {
@@ -2524,8 +2504,8 @@
         "cloud": {
           "firm": "The Hartford",
           "route": "cloud",
-          "started_at": "2026-11-28T02:19:56.385693+00:00",
-          "completed_at": "2026-11-28T02:20:06.272379+00:00",
+          "started_at": "2026-11-28T03:20:07.333436+00:00",
+          "completed_at": "2026-11-28T03:20:18.349441+00:00",
           "ok": true,
           "info": {
             "enumerated": 135,
@@ -2570,8 +2550,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:19:56.385693+00:00",
-      "completed_at": "2026-11-28T02:20:06.272379+00:00",
+      "snapshot_at": "2026-11-28T03:20:07.333436+00:00",
+      "completed_at": "2026-11-28T03:20:18.349441+00:00",
       "snapshot_route": "cloud"
     },
     "Albemarle": {
@@ -2647,13 +2627,13 @@
         "cloud": {
           "firm": "Albemarle",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:06.272443+00:00",
-          "completed_at": "2026-11-28T02:20:19.787879+00:00",
+          "started_at": "2026-11-28T03:20:17.841540+00:00",
+          "completed_at": "2026-11-28T03:20:30.014269+00:00",
           "ok": true,
           "info": {
-            "enumerated": 81,
-            "enumerated_raw": 81,
-            "advertised": 81,
+            "enumerated": 80,
+            "enumerated_raw": 80,
+            "advertised": 80,
             "location_partitions": 0,
             "partition_advertised_counts": [],
             "unpublished_index_ids": [],
@@ -2665,8 +2645,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:06.272443+00:00",
-      "completed_at": "2026-11-28T02:20:19.787879+00:00",
+      "snapshot_at": "2026-11-28T03:20:17.841540+00:00",
+      "completed_at": "2026-11-28T03:20:30.014269+00:00",
       "snapshot_route": "cloud"
     },
     "Sunbelt Rentals": {
@@ -2764,8 +2744,8 @@
         "cloud": {
           "firm": "Sunbelt Rentals",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:06.947068+00:00",
-          "completed_at": "2026-11-28T02:20:32.982930+00:00",
+          "started_at": "2026-11-28T03:20:18.349504+00:00",
+          "completed_at": "2026-11-28T03:20:44.856279+00:00",
           "ok": true,
           "info": {
             "enumerated": 873,
@@ -2786,8 +2766,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:06.947068+00:00",
-      "completed_at": "2026-11-28T02:20:32.982930+00:00",
+      "snapshot_at": "2026-11-28T03:20:18.349504+00:00",
+      "completed_at": "2026-11-28T03:20:44.856279+00:00",
       "snapshot_route": "cloud"
     },
     "Premier": {
@@ -2841,8 +2821,8 @@
         "cloud": {
           "firm": "Premier",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:19.756226+00:00",
-          "completed_at": "2026-11-28T02:20:26.929294+00:00",
+          "started_at": "2026-11-28T03:20:18.772621+00:00",
+          "completed_at": "2026-11-28T03:20:25.996104+00:00",
           "ok": true,
           "info": {
             "enumerated": 44,
@@ -2859,8 +2839,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:19.756226+00:00",
-      "completed_at": "2026-11-28T02:20:26.929294+00:00",
+      "snapshot_at": "2026-11-28T03:20:18.772621+00:00",
+      "completed_at": "2026-11-28T03:20:25.996104+00:00",
       "snapshot_route": "cloud"
     },
     "RXO": {
@@ -2869,8 +2849,8 @@
         "cloud": {
           "firm": "RXO",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:19.787946+00:00",
-          "completed_at": "2026-11-28T02:20:31.896131+00:00",
+          "started_at": "2026-11-28T03:20:25.996172+00:00",
+          "completed_at": "2026-11-28T03:20:37.837373+00:00",
           "ok": true,
           "info": {
             "enumerated": 320,
@@ -2891,8 +2871,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:19.787946+00:00",
-      "completed_at": "2026-11-28T02:20:31.896131+00:00",
+      "snapshot_at": "2026-11-28T03:20:25.996172+00:00",
+      "completed_at": "2026-11-28T03:20:37.837373+00:00",
       "snapshot_route": "cloud"
     },
     "Carrier Global": {
@@ -2990,8 +2970,8 @@
         "cloud": {
           "firm": "Carrier Global",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:26.929364+00:00",
-          "completed_at": "2026-11-28T02:20:51.747078+00:00",
+          "started_at": "2026-11-28T03:20:30.014323+00:00",
+          "completed_at": "2026-11-28T03:20:54.665219+00:00",
           "ok": true,
           "info": {
             "enumerated": 375,
@@ -3036,8 +3016,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:26.929364+00:00",
-      "completed_at": "2026-11-28T02:20:51.747078+00:00",
+      "snapshot_at": "2026-11-28T03:20:30.014323+00:00",
+      "completed_at": "2026-11-28T03:20:54.665219+00:00",
       "snapshot_route": "cloud"
     },
     "Hendrick Automotive Group": {
@@ -3046,8 +3026,8 @@
         "cloud": {
           "firm": "Hendrick Automotive Group",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:31.896194+00:00",
-          "completed_at": "2026-11-28T02:20:46.493193+00:00",
+          "started_at": "2026-11-28T03:20:37.837436+00:00",
+          "completed_at": "2026-11-28T03:20:51.805156+00:00",
           "ok": true,
           "info": {
             "enumerated": 391,
@@ -3084,8 +3064,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:31.896194+00:00",
-      "completed_at": "2026-11-28T02:20:46.493193+00:00",
+      "snapshot_at": "2026-11-28T03:20:37.837436+00:00",
+      "completed_at": "2026-11-28T03:20:51.805156+00:00",
       "snapshot_route": "cloud"
     },
     "American Tire Distributors": {
@@ -3094,8 +3074,8 @@
         "cloud": {
           "firm": "American Tire Distributors",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:32.982997+00:00",
-          "completed_at": "2026-11-28T02:20:42.786854+00:00",
+          "started_at": "2026-11-28T03:20:44.856336+00:00",
+          "completed_at": "2026-11-28T03:20:54.193741+00:00",
           "ok": true,
           "info": {
             "enumerated": 201,
@@ -3112,8 +3092,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:32.982997+00:00",
-      "completed_at": "2026-11-28T02:20:42.786854+00:00",
+      "snapshot_at": "2026-11-28T03:20:44.856336+00:00",
+      "completed_at": "2026-11-28T03:20:54.193741+00:00",
       "snapshot_route": "cloud"
     },
     "Movement Mortgage": {
@@ -3122,8 +3102,8 @@
         "cloud": {
           "firm": "Movement Mortgage",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:42.786906+00:00",
-          "completed_at": "2026-11-28T02:20:46.081998+00:00",
+          "started_at": "2026-11-28T03:20:51.805220+00:00",
+          "completed_at": "2026-11-28T03:20:55.819733+00:00",
           "ok": true,
           "info": {
             "enumerated": 13,
@@ -3140,8 +3120,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:42.786906+00:00",
-      "completed_at": "2026-11-28T02:20:46.081998+00:00",
+      "snapshot_at": "2026-11-28T03:20:51.805220+00:00",
+      "completed_at": "2026-11-28T03:20:55.819733+00:00",
       "snapshot_route": "cloud"
     },
     "Kohl's": {
@@ -3150,8 +3130,8 @@
         "cloud": {
           "firm": "Kohl's",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:46.082053+00:00",
-          "completed_at": "2026-11-28T02:23:45.141909+00:00",
+          "started_at": "2026-11-28T03:20:54.193798+00:00",
+          "completed_at": "2026-11-28T03:23:52.710178+00:00",
           "ok": true,
           "info": {
             "enumerated": 5958,
@@ -3181,8 +3161,8 @@
           "error": "CollectionError: Browser HTTP 500: https://kohls.wd1.myworkdayjobs.com/KohlsCareers"
         }
       },
-      "snapshot_at": "2026-11-28T02:20:46.082053+00:00",
-      "completed_at": "2026-11-28T02:23:45.141909+00:00",
+      "snapshot_at": "2026-11-28T03:20:54.193798+00:00",
+      "completed_at": "2026-11-28T03:23:52.710178+00:00",
       "snapshot_route": "cloud"
     },
     "OrthoCarolina": {
@@ -3214,8 +3194,8 @@
         "cloud": {
           "firm": "OrthoCarolina",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:46.493300+00:00",
-          "completed_at": "2026-11-28T02:20:51.788538+00:00",
+          "started_at": "2026-11-28T03:20:54.665298+00:00",
+          "completed_at": "2026-11-28T03:21:00.729255+00:00",
           "ok": true,
           "info": {
             "enumerated": 61,
@@ -3232,8 +3212,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:46.493300+00:00",
-      "completed_at": "2026-11-28T02:20:51.788538+00:00",
+      "snapshot_at": "2026-11-28T03:20:54.665298+00:00",
+      "completed_at": "2026-11-28T03:21:00.729255+00:00",
       "snapshot_route": "cloud"
     },
     "Campbell Snacks": {
@@ -3331,8 +3311,8 @@
         "cloud": {
           "firm": "Campbell Snacks",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:51.747138+00:00",
-          "completed_at": "2026-11-28T02:21:01.501762+00:00",
+          "started_at": "2026-11-28T03:20:55.819797+00:00",
+          "completed_at": "2026-11-28T03:21:05.729707+00:00",
           "ok": true,
           "info": {
             "enumerated": 289,
@@ -3349,8 +3329,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:51.747138+00:00",
-      "completed_at": "2026-11-28T02:21:01.501762+00:00",
+      "snapshot_at": "2026-11-28T03:20:55.819797+00:00",
+      "completed_at": "2026-11-28T03:21:05.729707+00:00",
       "snapshot_route": "cloud"
     },
     "J.B. Hunt": {
@@ -3359,8 +3339,8 @@
         "cloud": {
           "firm": "J.B. Hunt",
           "route": "cloud",
-          "started_at": "2026-11-28T02:20:51.788591+00:00",
-          "completed_at": "2026-11-28T02:21:13.340099+00:00",
+          "started_at": "2026-11-28T03:21:00.729310+00:00",
+          "completed_at": "2026-11-28T03:21:22.796917+00:00",
           "ok": true,
           "info": {
             "enumerated": 396,
@@ -3381,8 +3361,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:20:51.788591+00:00",
-      "completed_at": "2026-11-28T02:21:13.340099+00:00",
+      "snapshot_at": "2026-11-28T03:21:00.729310+00:00",
+      "completed_at": "2026-11-28T03:21:22.796917+00:00",
       "snapshot_route": "cloud"
     },
     "Dick's Sporting Goods": {
@@ -3414,8 +3394,8 @@
         "cloud": {
           "firm": "Dick's Sporting Goods",
           "route": "cloud",
-          "started_at": "2026-11-28T02:21:01.427086+00:00",
-          "completed_at": "2026-11-28T02:22:26.884153+00:00",
+          "started_at": "2026-11-28T03:21:05.729763+00:00",
+          "completed_at": "2026-11-28T03:22:30.755727+00:00",
           "ok": true,
           "info": {
             "enumerated": 3067,
@@ -3436,8 +3416,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:21:01.427086+00:00",
-      "completed_at": "2026-11-28T02:22:26.884153+00:00",
+      "snapshot_at": "2026-11-28T03:21:05.729763+00:00",
+      "completed_at": "2026-11-28T03:22:30.755727+00:00",
       "snapshot_route": "cloud"
     },
     "Prysmian Group": {
@@ -3446,8 +3426,8 @@
         "cloud": {
           "firm": "Prysmian Group",
           "route": "cloud",
-          "started_at": "2026-11-28T02:21:01.501822+00:00",
-          "completed_at": "2026-11-28T02:21:13.953835+00:00",
+          "started_at": "2026-11-28T03:21:20.946684+00:00",
+          "completed_at": "2026-11-28T03:21:32.869995+00:00",
           "ok": true,
           "info": {
             "enumerated": 177,
@@ -3492,8 +3472,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:21:01.501822+00:00",
-      "completed_at": "2026-11-28T02:21:13.953835+00:00",
+      "snapshot_at": "2026-11-28T03:21:20.946684+00:00",
+      "completed_at": "2026-11-28T03:21:32.869995+00:00",
       "snapshot_route": "cloud"
     },
     "Ryder System": {
@@ -3502,8 +3482,8 @@
         "cloud": {
           "firm": "Ryder System",
           "route": "cloud",
-          "started_at": "2026-11-28T02:21:13.340161+00:00",
-          "completed_at": "2026-11-28T02:21:35.630255+00:00",
+          "started_at": "2026-11-28T03:21:22.796973+00:00",
+          "completed_at": "2026-11-28T03:21:44.541676+00:00",
           "ok": true,
           "info": {
             "enumerated": 338,
@@ -3524,8 +3504,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:21:13.340161+00:00",
-      "completed_at": "2026-11-28T02:21:35.630255+00:00",
+      "snapshot_at": "2026-11-28T03:21:22.796973+00:00",
+      "completed_at": "2026-11-28T03:21:44.541676+00:00",
       "snapshot_route": "cloud"
     },
     "Curtiss-Wright": {
@@ -3557,8 +3537,8 @@
         "cloud": {
           "firm": "Curtiss-Wright",
           "route": "cloud",
-          "started_at": "2026-11-28T02:21:13.953895+00:00",
-          "completed_at": "2026-11-28T02:21:33.900596+00:00",
+          "started_at": "2026-11-28T03:21:32.870054+00:00",
+          "completed_at": "2026-11-28T03:21:54.154831+00:00",
           "ok": true,
           "info": {
             "enumerated": 370,
@@ -3575,8 +3555,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:21:13.953895+00:00",
-      "completed_at": "2026-11-28T02:21:33.900596+00:00",
+      "snapshot_at": "2026-11-28T03:21:32.870054+00:00",
+      "completed_at": "2026-11-28T03:21:54.154831+00:00",
       "snapshot_route": "cloud"
     },
     "Rosendin Electric": {
@@ -3696,8 +3676,8 @@
         "cloud": {
           "firm": "Rosendin Electric",
           "route": "cloud",
-          "started_at": "2026-11-28T02:21:33.900674+00:00",
-          "completed_at": "2026-11-28T02:22:28.815492+00:00",
+          "started_at": "2026-11-28T03:21:44.541736+00:00",
+          "completed_at": "2026-11-28T03:22:23.866782+00:00",
           "ok": true,
           "info": {
             "enumerated": 377,
@@ -3734,8 +3714,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:21:33.900674+00:00",
-      "completed_at": "2026-11-28T02:22:28.815492+00:00",
+      "snapshot_at": "2026-11-28T03:21:44.541736+00:00",
+      "completed_at": "2026-11-28T03:22:23.866782+00:00",
       "snapshot_route": "cloud"
     },
     "Celgard": {
@@ -3767,8 +3747,8 @@
         "cloud": {
           "firm": "Celgard",
           "route": "cloud",
-          "started_at": "2026-11-28T02:21:35.630318+00:00",
-          "completed_at": "2026-11-28T02:21:40.690555+00:00",
+          "started_at": "2026-11-28T03:21:54.154915+00:00",
+          "completed_at": "2026-11-28T03:21:58.968818+00:00",
           "ok": true,
           "info": {
             "enumerated": 24,
@@ -3792,8 +3772,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:21:35.630318+00:00",
-      "completed_at": "2026-11-28T02:21:40.690555+00:00",
+      "snapshot_at": "2026-11-28T03:21:54.154915+00:00",
+      "completed_at": "2026-11-28T03:21:58.968818+00:00",
       "snapshot_route": "cloud"
     },
     "UFP Industries": {
@@ -3847,8 +3827,8 @@
         "cloud": {
           "firm": "UFP Industries",
           "route": "cloud",
-          "started_at": "2026-11-28T02:21:40.690621+00:00",
-          "completed_at": "2026-11-28T02:21:53.379112+00:00",
+          "started_at": "2026-11-28T03:21:58.968895+00:00",
+          "completed_at": "2026-11-28T03:22:11.317879+00:00",
           "ok": true,
           "info": {
             "enumerated": 425,
@@ -3891,8 +3871,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:21:40.690621+00:00",
-      "completed_at": "2026-11-28T02:21:53.379112+00:00",
+      "snapshot_at": "2026-11-28T03:21:58.968895+00:00",
+      "completed_at": "2026-11-28T03:22:11.317879+00:00",
       "snapshot_route": "cloud"
     },
     "Husqvarna Group": {
@@ -3946,8 +3926,8 @@
         "cloud": {
           "firm": "Husqvarna Group",
           "route": "cloud",
-          "started_at": "2026-11-28T02:21:53.379181+00:00",
-          "completed_at": "2026-11-28T02:22:01.313305+00:00",
+          "started_at": "2026-11-28T03:22:11.317937+00:00",
+          "completed_at": "2026-11-28T03:22:20.038843+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -3976,8 +3956,8 @@
           "error": "CollectionError: Browser HTTP 500: https://husqvarna.wd3.myworkdayjobs.com/External"
         }
       },
-      "snapshot_at": "2026-11-28T02:21:53.379181+00:00",
-      "completed_at": "2026-11-28T02:22:01.313305+00:00",
+      "snapshot_at": "2026-11-28T03:22:11.317937+00:00",
+      "completed_at": "2026-11-28T03:22:20.038843+00:00",
       "snapshot_route": "cloud"
     },
     "CLA": {
@@ -4053,8 +4033,8 @@
         "cloud": {
           "firm": "CLA",
           "route": "cloud",
-          "started_at": "2026-11-28T02:22:01.313381+00:00",
-          "completed_at": "2026-11-28T02:22:15.768324+00:00",
+          "started_at": "2026-11-28T03:22:20.038919+00:00",
+          "completed_at": "2026-11-28T03:22:33.779453+00:00",
           "ok": true,
           "info": {
             "enumerated": 330,
@@ -4079,8 +4059,8 @@
           "error": "CollectionError: Browser HTTP 500: https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA"
         }
       },
-      "snapshot_at": "2026-11-28T02:22:01.313381+00:00",
-      "completed_at": "2026-11-28T02:22:15.768324+00:00",
+      "snapshot_at": "2026-11-28T03:22:20.038919+00:00",
+      "completed_at": "2026-11-28T03:22:33.779453+00:00",
       "snapshot_route": "cloud"
     },
     "Whistle Express Car Wash": {
@@ -4089,8 +4069,8 @@
         "cloud": {
           "firm": "Whistle Express Car Wash",
           "route": "cloud",
-          "started_at": "2026-11-28T02:22:15.768379+00:00",
-          "completed_at": "2026-11-28T02:22:24.826423+00:00",
+          "started_at": "2026-11-28T03:22:23.866840+00:00",
+          "completed_at": "2026-11-28T03:22:32.840680+00:00",
           "ok": true,
           "info": {
             "enumerated": 438,
@@ -4111,8 +4091,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:22:15.768379+00:00",
-      "completed_at": "2026-11-28T02:22:24.826423+00:00",
+      "snapshot_at": "2026-11-28T03:22:23.866840+00:00",
+      "completed_at": "2026-11-28T03:22:32.840680+00:00",
       "snapshot_route": "cloud"
     },
     "Comporium": {
@@ -4121,8 +4101,8 @@
         "cloud": {
           "firm": "Comporium",
           "route": "cloud",
-          "started_at": "2026-11-28T02:22:24.826497+00:00",
-          "completed_at": "2026-11-28T02:22:29.441197+00:00",
+          "started_at": "2026-11-28T03:22:30.755781+00:00",
+          "completed_at": "2026-11-28T03:22:35.353843+00:00",
           "ok": true,
           "info": {
             "enumerated": 2,
@@ -4139,8 +4119,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:22:24.826497+00:00",
-      "completed_at": "2026-11-28T02:22:29.441197+00:00",
+      "snapshot_at": "2026-11-28T03:22:30.755781+00:00",
+      "completed_at": "2026-11-28T03:22:35.353843+00:00",
       "snapshot_route": "cloud"
     },
     "Pepsi Bottling Ventures": {
@@ -4149,8 +4129,8 @@
         "cloud": {
           "firm": "Pepsi Bottling Ventures",
           "route": "cloud",
-          "started_at": "2026-11-28T02:22:26.884233+00:00",
-          "completed_at": "2026-11-28T02:22:34.017150+00:00",
+          "started_at": "2026-11-28T03:22:32.840748+00:00",
+          "completed_at": "2026-11-28T03:22:39.786568+00:00",
           "ok": true,
           "info": {
             "enumerated": 148,
@@ -4167,8 +4147,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:22:26.884233+00:00",
-      "completed_at": "2026-11-28T02:22:34.017150+00:00",
+      "snapshot_at": "2026-11-28T03:22:32.840748+00:00",
+      "completed_at": "2026-11-28T03:22:39.786568+00:00",
       "snapshot_route": "cloud"
     },
     "North Carolina State Government": {
@@ -4222,8 +4202,8 @@
         "cloud": {
           "firm": "North Carolina State Government",
           "route": "cloud",
-          "started_at": "2026-11-28T02:22:28.815562+00:00",
-          "completed_at": "2026-11-28T02:22:52.770831+00:00",
+          "started_at": "2026-11-28T03:22:33.779519+00:00",
+          "completed_at": "2026-11-28T03:22:58.656098+00:00",
           "ok": true,
           "info": {
             "enumerated": 810,
@@ -4240,8 +4220,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:22:28.815562+00:00",
-      "completed_at": "2026-11-28T02:22:52.770831+00:00",
+      "snapshot_at": "2026-11-28T03:22:33.779519+00:00",
+      "completed_at": "2026-11-28T03:22:58.656098+00:00",
       "snapshot_route": "cloud"
     },
     "Charlotte Douglas International Airport": {
@@ -4250,8 +4230,8 @@
         "cloud": {
           "firm": "Charlotte Douglas International Airport",
           "route": "cloud",
-          "started_at": "2026-11-28T02:22:29.441262+00:00",
-          "completed_at": "2026-11-28T02:22:35.288352+00:00",
+          "started_at": "2026-11-28T03:22:35.353916+00:00",
+          "completed_at": "2026-11-28T03:22:39.921730+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4268,8 +4248,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:22:29.441262+00:00",
-      "completed_at": "2026-11-28T02:22:35.288352+00:00",
+      "snapshot_at": "2026-11-28T03:22:35.353916+00:00",
+      "completed_at": "2026-11-28T03:22:39.921730+00:00",
       "snapshot_route": "cloud"
     },
     "City of Charlotte": {
@@ -4278,8 +4258,8 @@
         "cloud": {
           "firm": "City of Charlotte",
           "route": "cloud",
-          "started_at": "2026-11-28T02:22:34.017215+00:00",
-          "completed_at": "2026-11-28T02:22:38.246076+00:00",
+          "started_at": "2026-11-28T03:22:39.786625+00:00",
+          "completed_at": "2026-11-28T03:22:44.118810+00:00",
           "ok": true,
           "info": {
             "enumerated": 39,
@@ -4296,8 +4276,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:22:34.017215+00:00",
-      "completed_at": "2026-11-28T02:22:38.246076+00:00",
+      "snapshot_at": "2026-11-28T03:22:39.786625+00:00",
+      "completed_at": "2026-11-28T03:22:44.118810+00:00",
       "snapshot_route": "cloud"
     },
     "Honeywell": {
@@ -4505,8 +4485,8 @@
         "cloud": {
           "firm": "Honeywell",
           "route": "cloud",
-          "started_at": "2026-11-28T02:22:35.288435+00:00",
-          "completed_at": "2026-11-28T02:23:11.570467+00:00",
+          "started_at": "2026-11-28T03:22:39.921787+00:00",
+          "completed_at": "2026-11-28T03:23:16.897986+00:00",
           "ok": true,
           "info": {
             "enumerated": 1359,
@@ -4533,8 +4513,8 @@
           }
         }
       },
-      "snapshot_at": "2026-11-28T02:22:35.288435+00:00",
-      "completed_at": "2026-11-28T02:23:11.570467+00:00",
+      "snapshot_at": "2026-11-28T03:22:39.921787+00:00",
+      "completed_at": "2026-11-28T03:23:16.897986+00:00",
       "snapshot_route": "cloud"
     }
   },
@@ -6430,7 +6410,19 @@
       "firms_failed": 0,
       "timer_run_id": "46092381981",
       "timer_fired_at": "2026-11-28T02:18:04.364033+00:00"
+    },
+    {
+      "id": "46102198477",
+      "route": "cloud",
+      "started_at": "2026-11-28T03:18:44.054773+00:00",
+      "completed_at": "2026-11-28T03:23:52.714883+00:00",
+      "trigger": "cloud_clock",
+      "firms_attempted": 39,
+      "firms_succeeded": 39,
+      "firms_failed": 0,
+      "timer_run_id": "46097381776",
+      "timer_fired_at": "2026-11-28T03:18:14.139600+00:00"
     }
   ],
-  "published_at": "2026-11-28T02:23:46.175450+00:00"
+  "published_at": "2026-11-28T03:23:53.821063+00:00"
 }
