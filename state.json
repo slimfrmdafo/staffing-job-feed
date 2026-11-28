@@ -5900,17 +5900,12 @@
           "completed_at": "2026-11-28T00:47:27.396689+00:00"
         },
         "mac": {
-          "ok": true,
-          "info": {
-            "candidates": 115,
-            "details_read": 115,
-            "kept": 28,
-            "enumerated": 2655
-          },
+          "ok": false,
+          "error": "1/116 detail pages failed: 504 Server Error: Gateway Time-out for url: https://www.randstadusa.com/jobs/141/1367508/supply-chain-project-manager_bohemia/",
           "firm": "Randstad",
           "route": "mac",
-          "started_at": "2026-11-27T13:57:51.692701+00:00",
-          "completed_at": "2026-11-27T14:05:44.720862+00:00"
+          "started_at": "2026-11-27T23:56:45.506768+00:00",
+          "completed_at": "2026-11-28T01:11:23.358278+00:00"
         }
       },
       "snapshot_at": "2026-11-28T00:46:56.638983+00:00",
@@ -9824,11 +9819,11 @@
         },
         "mac": {
           "ok": false,
-          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29515576&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
+          "error": "Page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29615301&SearchString=&StatesString=\nCall log:\n  - navigating to \"https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29615301&SearchString=&StatesString=\", waiting until \"domcontentloaded\"\n",
           "firm": "Mindlance",
           "route": "mac",
-          "started_at": "2026-11-27T22:55:49.644753+00:00",
-          "completed_at": "2026-11-27T23:23:03.101343+00:00"
+          "started_at": "2026-11-27T23:56:45.508710+00:00",
+          "completed_at": "2026-11-28T01:09:40.939524+00:00"
         }
       }
     },
@@ -12198,7 +12193,17 @@
       "firms_failed": 1,
       "timer_run_id": "46084321718",
       "timer_fired_at": "2026-11-28T00:46:26.446383+00:00"
+    },
+    {
+      "id": "f5073e64-e365-477c-933e-3a7ce1d4d1e6",
+      "route": "mac",
+      "started_at": "2026-11-27T23:56:43.571460+00:00",
+      "completed_at": "2026-11-28T01:11:23.365581+00:00",
+      "trigger": "mac_launchd",
+      "firms_attempted": 2,
+      "firms_succeeded": 0,
+      "firms_failed": 2
     }
   ],
-  "published_at": "2026-11-28T00:57:11.878284+00:00"
+  "published_at": "2026-11-28T01:11:25.015816+00:00"
 }
