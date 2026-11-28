@@ -1,5 +1,5 @@
 Staffing job feed
-Published UTC: 2026-11-28T03:58:19.099115+00:00
+Published UTC: 2026-11-28T04:16:50.783668+00:00
 Repository: https://github.com/slimfrmdafo/staffing-job-feed
 Feed: https://raw.githubusercontent.com/slimfrmdafo/staffing-job-feed/feed/staffing_jobs.csv
 Rows are replaced only after a complete successful newer snapshot for that firm.
@@ -55,9 +55,9 @@ Collabera: listings=11 contracts=9 runners=cloud snapshot_runner=cloud last_succ
   mac: FAILED at 2026-11-25T20:59:03.713375+00:00 Collabera incomplete search count
 Mindlance: listings=0 contracts=0 runners=cloud+mac snapshot_runner=none last_success=never
   cloud: FAILED at 2026-11-28T03:50:35.254733+00:00 3/94 detail pages failed: Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=22991753&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=24329054&SearchString=&StatesString=; Full JobPosting data missing: https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=20581610&SearchString=&StatesString=
-  mac: FAILED at 2026-11-28T03:12:09.138770+00:00 Page.goto: net::ERR_NETWORK_CHANGED at https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29607078&SearchString=&StatesString=
+  mac: FAILED at 2026-11-28T04:16:49.098898+00:00 Page.goto: Timeout 60000ms exceeded.
 Call log:
-  - navigating to "https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29607078&SearchString=&StatesString=", waiting until "domcontentloaded"
+  - navigating to "https://www2.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=7fjdnw91pq69jlvngz1gp518iugamw00c66623tmx447r7e3lkr3gqqpqjhpy8mo&from=COMP&id=29666627&SearchString=&StatesString=", waiting until "domcontentloaded"
 
 Motion Recruitment: listings=9 contracts=7 runners=cloud snapshot_runner=cloud last_success=2026-11-28T03:50:55.985799+00:00
   cloud: OK at 2026-11-28T03:50:55.985799+00:00 {'candidates': 90, 'details_read': 90, 'kept': 9, 'enumerated': 748}
@@ -68,7 +68,6 @@ METADATA posted_contacts=56 named_clients=0 required_certifications=6
 Blank optional fields mean the posting did not supply a usable explicit value. Posted contacts can be individuals or recruitment teams.
 
 Recent unattended runs:
-{"completed_at": "2026-11-27T23:23:03.115655+00:00", "firms_attempted": 1, "firms_failed": 1, "firms_succeeded": 0, "id": "26cd01f3-bf46-488e-afe0-cbc28fb7ca4d", "route": "mac", "started_at": "2026-11-27T22:55:46.999087+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-27T23:59:41.529320+00:00", "firms_attempted": 19, "firms_failed": 1, "firms_succeeded": 18, "id": "46084323461", "route": "cloud", "started_at": "2026-11-27T23:46:25.713534+00:00", "timer_fired_at": "2026-11-27T23:46:15.897006+00:00", "timer_run_id": "46078612547", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-28T00:57:10.624643+00:00", "firms_attempted": 19, "firms_failed": 1, "firms_succeeded": 18, "id": "46089683291", "route": "cloud", "started_at": "2026-11-28T00:46:37.107818+00:00", "timer_fired_at": "2026-11-28T00:46:26.446383+00:00", "timer_run_id": "46084321718", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-28T01:11:23.365581+00:00", "firms_attempted": 2, "firms_failed": 2, "firms_succeeded": 0, "id": "f5073e64-e365-477c-933e-3a7ce1d4d1e6", "route": "mac", "started_at": "2026-11-27T23:56:43.571460+00:00", "trigger": "mac_launchd"}
@@ -76,3 +75,4 @@ Recent unattended runs:
 {"completed_at": "2026-11-28T02:57:16.887845+00:00", "firms_attempted": 19, "firms_failed": 1, "firms_succeeded": 18, "id": "46099724680", "route": "cloud", "started_at": "2026-11-28T02:46:59.575989+00:00", "timer_fired_at": "2026-11-28T02:46:47.527490+00:00", "timer_run_id": "46094804703", "trigger": "cloud_clock"}
 {"completed_at": "2026-11-28T03:12:09.145314+00:00", "firms_attempted": 1, "firms_failed": 1, "firms_succeeded": 0, "id": "1732c622-fbb7-47ac-8314-d4c77f198f2f", "route": "mac", "started_at": "2026-11-28T01:57:38.113401+00:00", "trigger": "mac_launchd"}
 {"completed_at": "2026-11-28T03:58:18.075448+00:00", "firms_attempted": 19, "firms_failed": 1, "firms_succeeded": 18, "id": "46104480795", "route": "cloud", "started_at": "2026-11-28T03:47:17.541470+00:00", "timer_fired_at": "2026-11-28T03:46:58.083989+00:00", "timer_run_id": "46099723226", "trigger": "cloud_clock"}
+{"completed_at": "2026-11-28T04:16:49.105504+00:00", "firms_attempted": 1, "firms_failed": 1, "firms_succeeded": 0, "id": "c0f1e699-c4e8-4fec-adc3-d20d2b0edbab", "route": "mac", "started_at": "2026-11-28T03:59:44.434778+00:00", "trigger": "mac_launchd"}
